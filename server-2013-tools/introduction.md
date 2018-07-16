@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-02-24_
 
 The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:
 
-
+<p></p>
 <table>
 <colgroup>
 <col style="width: 50%" />

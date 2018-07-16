@@ -221,7 +221,7 @@ Nello strumento Bandwidth Utilization Analyzer sono incluse le due applicazioni 
 
   - **WanLinkLogCollector.exe**   Questo strumento consente all'utente di immettere le informazioni necessarie.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  WanLinkLogCollector.exe avvia automaticamente un rapporto del software per i fogli di calcolo Microsoft Excel. Questa applicazione consente all'utente di applicare filtri al rapporto come descritto più avanti un questo articolo.
+  - **BandwidthUtilizationAnalyzer.xlsm**  WanLinkLogCollector.exe avvia automaticamente un rapporto del software per i fogli di calcolo Microsoft Excel. Questa applicazione consente all'utente di applicare filtri al rapporto come descritto più avanti un questo articolo.
 
 ## Fasi dell'utilizzo di Bandwidth Utilization Analyzer
 
@@ -231,18 +231,8 @@ Per l'utilizzo dello strumento Bandwidth Utilization Analyzer sono previste due 
 
   - Personalizzazione di rapporti, eseguita mediante BandwidthUtilizationAnalyzer.xlsm
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945592.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È consigliabile non fare avviare manualmente BandwidthUtilizationAnalyzer.xlsm dagli utenti finali.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> È consigliabile non fare avviare manualmente BandwidthUtilizationAnalyzer.xlsm dagli utenti finali.
 
 
 ## Avvio di Bandwidth Utilization Analyzer
@@ -257,7 +247,7 @@ Per l'uso di WanLinkLogCollector.exe sono previsti tre passaggi:
 
 2.  **Specificare le directory dei file**   Fornire le informazioni relative ai percorsi dei file
 
-3.  **Raccogliere i log e avviare il visualizzatore rapporti **  Eseguire il comando per generare il rapporto
+3.  **Raccogliere i log e avviare il visualizzatore rapporti**  Eseguire il comando per generare il rapporto
 
 ## Passaggio 1 - Registrare la sequenza temporale
 
@@ -275,7 +265,7 @@ L'utente può specificare le directory di file seguenti, come illustrato di segu
 
   - **Server log files location** Percorso della cartella in cui sono archiviati i log del server criteri larghezza di banda. In genere, in \<fileserver\>\\\<scelta di FE\>\\AppServerFiles\\PDP.
 
-  - **Temporary file storage location ** Percorso dei file temporanei in cui vengono archiviati i file intermedi durante la fase di generazione del rapporto.
+  - **Temporary file storage location** Percorso dei file temporanei in cui vengono archiviati i file intermedi durante la fase di generazione del rapporto.
 
 ![Directory di file per l'analisi dell'utilizzo della larghezza di banda](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Directory di file per l'analisi dell'utilizzo della larghezza di banda")
 
@@ -390,7 +380,7 @@ Call Parkometer è uno strumento che consente di tenere traccia delle chiamate a
 
 Tutte le opzioni si escludono a vicenda. Di seguito viene illustrata la sintassi della riga di comando:
 
-  - Parametro**–o:** elenca tutti gli intervalli del codice orbit configurati per questo pool.
+  - Parametro **–o:** elenca tutti gli intervalli del codice orbit configurati per questo pool.
 
   - Parametro **–n:** elenca tutti i codici orbit attualmente utilizzati in questo pool. Le informazioni visualizzate sono le seguenti:
     
