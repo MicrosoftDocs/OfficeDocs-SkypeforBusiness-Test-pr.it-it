@@ -317,7 +317,7 @@
           - name: 'Riepilogo DNS: SIP, federazione di XMPP e messaggistica istantanea pubblica'
             href: lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md
           - name: Riepilogo di DNS - connettività per messaggistica istantanea pubblica
-            href: jj618375(v=ocs.15).md
+            href: 
           - name: Riepilogo di DNS - federazione di XMPP (Extensible Messaging and Presence Protocol)
             href: lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
       - name: Requisiti delle porte
@@ -1280,7 +1280,7 @@
         - name: Windows Update per Lync Server 2013
           href: lync-server-2013-windows-update-for-lync-server.md
         - name: Protecting the Edge Server Against DoS and Password Brute-Force Attacks in Lync Server
-          href: dn879446(v=ocs.15).md
+          href: 
       - name: Distribuzione di una porta e di un alias non standard di SQL Server in Lync Server 2013
         href: deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md
   - name: Distribuzione
