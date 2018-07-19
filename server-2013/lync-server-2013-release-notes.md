@@ -150,7 +150,7 @@ Se il valore predefinito di UseNormalizationRules viene impostato su False in mo
     
       - Se la distribuzione include una combinazione di Lync Server 2013 e Lync Server 2010 o Office Communications Server 2007 R2, eseguire il cmdlet indicato di seguito e assegnarlo a ogni pool Lync Server 2013 nella topologia:
         
-            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Attendere che venga eseguita la replica dell'archivio di gestione centrale in tutti i pool.
 

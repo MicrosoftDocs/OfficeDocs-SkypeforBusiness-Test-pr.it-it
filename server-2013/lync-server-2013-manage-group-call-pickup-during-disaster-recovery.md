@@ -27,7 +27,7 @@ Durante il ripristino di emergenza gli utenti che sono stati reindirizzati al po
 
 Gli intervalli del numero di risposta alle chiamate di gruppo nella tabella di codici orbit del parcheggio di chiamata devono essere reindirizzati al pool di backup dopo che è stato completato il processo di failover al pool di backup. È necessario reindirizzare gli intervalli di numeri al pool primario dopo che è stato completato il processo di failback al pool primario. Per reindirizzare gli intervalli di risposta alle chiamate di gruppo, utilizzare il cmdlet **Set-CsCallParkOrbit**.
 
-Se si distribuisce un nuovo pool con un altro nome di dominio completo (FQDN) per sostituire il pool primario, è necessario riassegnare al nome di dominio completo (FQDN) del nuovo pool tutti gli intervalli di numeri di risposta alle chiamate di gruppo associati al pool primario. Per riassegnare gli intervalli di numeri a un nuovo pool, è possibile utilizzare il cmdlet **Set-CsCallParkOrbit**. Per informazioni dettagliate sul cmdlet **Set-CsCallParkOrbit**, vedere [Set-CsCallParkOrbit](set-cscallparkorbit.md).
+Se si distribuisce un nuovo pool con un altro nome di dominio completo (FQDN) per sostituire il pool primario, è necessario riassegnare al nome di dominio completo (FQDN) del nuovo pool tutti gli intervalli di numeri di risposta alle chiamate di gruppo associati al pool primario. Per riassegnare gli intervalli di numeri a un nuovo pool, è possibile utilizzare il cmdlet **Set-CsCallParkOrbit**. Per informazioni dettagliate sul cmdlet **Set-CsCallParkOrbit**, vedere [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
 
 ## Esperienza di risposta alle chiamate di gruppo durante un errore del pool
 

@@ -19,13 +19,13 @@ Un *criterio intersito di rete* definisce limiti di larghezza di banda tra i sit
 
 Per informazioni dettagliate, vedere la documentazione di Lync Server Management Shell relativa ai cmdlet seguenti:
 
-  - [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)
+  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
 
-  - [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)
+  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
 
-  - [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)
+  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
 
-  - [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)
+  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
 <table>
 <thead>

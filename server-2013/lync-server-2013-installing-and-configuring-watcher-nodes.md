@@ -140,7 +140,7 @@ Non è necessario installare nodi Watcher per poter utilizzare System Center Ope
 
 
 > [!NOTE]
-> Gli amministratori possono inoltre eseguire transazioni sintetiche manualmente, senza dover utilizzare o installare Operations Manager. Per informazioni dettagliate sui vari cmdlet Test-Cs, vedere <A href="lync-server-2013-cmdlets-index.md">Indice dei cmdlet di Lync Server 2013</A>.
+> Gli amministratori possono inoltre eseguire transazioni sintetiche manualmente, senza dover utilizzare o installare Operations Manager. Per informazioni dettagliate sui vari cmdlet Test-Cs, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Indice dei cmdlet di Lync Server 2013</A>.
 
 
 

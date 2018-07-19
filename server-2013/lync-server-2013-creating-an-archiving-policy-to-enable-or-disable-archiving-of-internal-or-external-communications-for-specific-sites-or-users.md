@@ -99,7 +99,7 @@ I criteri di archiviazione possono inoltre essere creati tramite il cmdlet **Rem
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [New-CsArchivingPolicy](new-csarchivingpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy).
 
 ## Vedere anche
 

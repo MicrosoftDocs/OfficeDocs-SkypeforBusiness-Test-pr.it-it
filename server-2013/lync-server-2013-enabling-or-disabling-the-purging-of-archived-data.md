@@ -63,7 +63,7 @@ L'abilitazione e la disabilitazione dell'eliminazione automatica dei dati di arc
 
 ## Abilitazione dell'eliminazione solo per i dati di archiviazione esportati
 
-  - Per limitare l'eliminazione ai record di archiviazione che sono stati esportati in un file di dati (mediante il cmdlet [Export-CsArchivingData](export-csarchivingdata.md)), è anche necessario impostare la proprietà PurgeExportedArchivesOnly su True ($True). Ad esempio:
+  - Per limitare l'eliminazione ai record di archiviazione che sono stati esportati in un file di dati (mediante il cmdlet [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)), è anche necessario impostare la proprietà PurgeExportedArchivesOnly su True ($True). Ad esempio:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -75,7 +75,7 @@ L'abilitazione e la disabilitazione dell'eliminazione automatica dei dati di arc
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Per ulteriori informazioni, incluse opzioni aggiuntive per l'eliminazione dei dati di archiviazione, vedere l'argomento della Guida relativo al cmdlet [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Per ulteriori informazioni, incluse opzioni aggiuntive per l'eliminazione dei dati di archiviazione, vedere l'argomento della Guida relativo al cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Vedere anche
 

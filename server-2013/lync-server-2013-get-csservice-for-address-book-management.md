@@ -125,5 +125,5 @@ Per una descrizione dettagliata del comando completo, vedere quanto segue nella 
 
 #### Ulteriori risorse
 
-[Get-CsService](get-csservice.md)
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 

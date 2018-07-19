@@ -67,5 +67,5 @@ Se si creano dispositivi di test utilizzando questo cmdlet, è necessario esegui
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [New-CsTestDevice](new-cstestdevice.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [New-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTestDevice).
 

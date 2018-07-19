@@ -59,5 +59,5 @@ Per visualizzare i criteri delle versioni client, è possibile utilizzare il cmd
                       UserAgentFullName=;Enabled=True;CompareOp=LEQ...}
         Description :
 
-Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Get-CsClientVersionPolicy](get-csclientversionpolicy.md).
+Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicy).
 

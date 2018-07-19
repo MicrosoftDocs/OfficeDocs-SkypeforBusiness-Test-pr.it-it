@@ -44,13 +44,13 @@ Ogni subnet della rete deve essere associata a un sito di rete specifico. Le inf
 
 Per i dettagli sull'utilizzo di subnet di rete, vedere la documentazione di Lync Server Management Shell per i cmdlet seguenti:
 
-  - [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
 
-  - [Get-CsNetworkSubnet](get-csnetworksubnet.md)
+  - [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 
-  - [Set-CsNetworkSubnet](set-csnetworksubnet.md)
+  - [Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)
 
-  - [Remove-CsNetworkSubnet](remove-csnetworksubnet.md)
+  - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
 <table>
 <thead>

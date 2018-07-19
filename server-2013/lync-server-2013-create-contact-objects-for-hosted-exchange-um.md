@@ -21,9 +21,9 @@ Per informazioni dettagliate, vedere [Gestione di oggetti contatto di Exchange o
 
 Per i dettagli sulla configurazione di oggetti contatto, vedere la documentazione di Lync Server Management Shell per i cmdlet seguenti:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 <table>
 <thead>

@@ -39,7 +39,7 @@ Creare un singolo certificato pubblico, verificare di disporre di una chiave pri
 
 
 > [!NOTE]
-> Introdotta in Lync Server 2013, la gestione temporanea dei certificati di autenticazione audio/video prima della data di scadenza del certificato corrente richiede una pianificazione aggiuntiva. Anziché un certificato con più scopi per l'interfaccia esterna perimetrale, saranno necessari due certificati, uno assegnato al servizio Access Edge e al servizio Web Conferencing Edge e uno per il servizio A/V Edge. Per ulteriori informazioni, vedere <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013</A>
+> Introdotta in Lync Server 2013, la gestione temporanea dei certificati di autenticazione audio/video prima della data di scadenza del certificato corrente richiede una pianificazione aggiuntiva. Anziché un certificato con più scopi per l'interfaccia esterna perimetrale, saranno necessari due certificati, uno assegnato al servizio Access Edge e al servizio Web Conferencing Edge e uno per il servizio A/V Edge. Per ulteriori informazioni, vedere <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013</A>
 
 
 
@@ -87,7 +87,7 @@ Creare un singolo certificato interno con chiave privata esportabile, copiarlo e
 
 #### Attività
 
-[Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### Concetti
 

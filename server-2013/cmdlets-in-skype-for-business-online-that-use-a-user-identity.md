@@ -35,29 +35,29 @@ In Skype for Business online è possibile fare riferimento a un'identità utente
 
 I cmdlet seguenti accettano un'identità utente:
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
 
-  - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
+  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
 
-  - [Get-CsMeetingRoom](get-csmeetingroom.md)
+  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
 
-  - [Get-CsOnlineUser](get-csonlineuser.md)
+  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
 
-  - [Get-CsUserAcp](get-csuseracp.md)
+  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Remove-CsExUmContact](remove-csexumcontact.md)
+  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
 
-  - [Remove-CsUserAcp](remove-csuseracp.md)
+  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-  - [Set-CsMeetingRoom](set-csmeetingroom.md)
+  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
 Tenere presente che non è necessario specificare un'identità utente quando si chiama uno dei cmdlet **Get-Cs**. In questo caso, i cmdlet restituiscono tutte le istanze dell'elemento specificato. Ad esempio, il comando seguente restituisce informazioni su tutti gli utenti che sono stati abilitati per Skype for Business online:
 
@@ -72,5 +72,5 @@ Il parametro Identity è obbligatorio solo quando si vogliono recuperare le info
 #### Concetti
 
 [Identità, ambiti e tenant](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Cmdlet di Lync Online](the-skype-for-business-online-cmdlets.md)
+[Cmdlet di Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

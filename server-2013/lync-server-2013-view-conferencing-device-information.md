@@ -23,7 +23,7 @@ Per visualizzare informazioni sui dispositivi per conferenze configurati per l'u
 
 
 
-Se si utilizza il cmdlet **Get-CsMeetingRoom** senza parametri, vengono restituite informazioni su tutti i dispositivi per conferenze. I parametri facoltativi offrono modi diversi per filtrare le informazioni. Per informazioni dettagliate, vedere la sezione dei parametri per [Get-CsMeetingRoom](get-csmeetingroom.md).
+Se si utilizza il cmdlet **Get-CsMeetingRoom** senza parametri, vengono restituite informazioni su tutti i dispositivi per conferenze. I parametri facoltativi offrono modi diversi per filtrare le informazioni. Per informazioni dettagliate, vedere la sezione dei parametri per [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 
 
 ## Visualizzazione delle informazioni su tutti i dispositivi per conferenze
@@ -58,5 +58,5 @@ Se si utilizza il cmdlet **Get-CsMeetingRoom** senza parametri, vengono restitui
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Get-CsMeetingRoom](get-csmeetingroom.md).
+Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 

@@ -60,5 +60,5 @@ Le impostazioni di configurazione di riunione possono essere visualizzate anche 
         CustomFooterText                :
         AllowConferenceRecording        : True
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration).
 

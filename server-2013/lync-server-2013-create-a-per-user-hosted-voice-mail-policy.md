@@ -19,11 +19,11 @@ Un criterio *per utente* può avere effetto solo su singoli utenti, gruppi e ogg
 
 Per informazioni dettagliate sull'utilizzo di criteri segreteria telefonica ospitata per utente, vedere nella documentazione relativa a Lync Server Management Shell i cmdlet seguenti:
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 ## Per creare un criterio segreteria telefonica ospitata per utente
 

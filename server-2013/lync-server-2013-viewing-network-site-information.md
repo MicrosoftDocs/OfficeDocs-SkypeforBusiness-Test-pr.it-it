@@ -55,7 +55,7 @@ I siti di rete sono gli uffici o le postazioni configurate in ogni area di una d
         BWPolicyProfileID :
         LocationPolicy    :
 
-Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Get-CsNetworkSite](get-csnetworksite.md).
+Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
 
 ## Vedere anche
 

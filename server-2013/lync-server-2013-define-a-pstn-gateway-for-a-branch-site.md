@@ -66,7 +66,7 @@ Eseguire questa procedura nel sito centrale, che contiene almeno un pool Front E
 </thead>
 <tbody>
 <tr class="odd">
-<td>Utilizzare il cmdlet <strong>Set-CsPstnGateway</strong> per modificare le proprietà di un gateway PSTN. Per informazioni dettagliate, vedere <a href="set-cspstngateway.md">Set-CsPstnGateway</a> nella guida di Lync Server Management Shell.</td>
+<td>Utilizzare il cmdlet <strong>Set-CsPstnGateway</strong> per modificare le proprietà di un gateway PSTN. Per informazioni dettagliate, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</a> nella guida di Lync Server Management Shell.</td>
 </tr>
 </tbody>
 </table>

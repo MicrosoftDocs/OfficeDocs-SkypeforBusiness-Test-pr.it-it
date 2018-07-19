@@ -21,13 +21,13 @@ Se i collegamenti di area impostano limitazioni della larghezza di banda per le 
 
 Per informazioni dettagliate sull'utilizzo delle route tra aree di rete, vedere la documentazione di Lync Server Management Shell per i cmdlet seguenti:
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-  - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
+  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)
+  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
-  - [Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)
+  - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
 Nella topologia di esempio, le route tra aree di rete devono essere definite per ognuna delle tre coppie di aree, ovvero Nord America/EMEA, EMEA/APAC e Nord America/APAC.
 

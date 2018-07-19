@@ -119,7 +119,7 @@ Per informazioni dettagliate sulla creazione di criteri di conferenza per utente
 
 ## Assegnazione di un criterio di conferenza per utente a più utenti
 
-  - Questo comando assegna il criterio di conferenza per utente HRConferencingPolicy a tutti gli utenti che lavorano nel dipartimento delle Risorse umane. Per maggiori informazioni sul parametro LdapFilter utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](get-csuser.md).
+  - Questo comando assegna il criterio di conferenza per utente HRConferencingPolicy a tutti gli utenti che lavorano nel dipartimento delle Risorse umane. Per maggiori informazioni sul parametro LdapFilter utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -129,7 +129,7 @@ Per informazioni dettagliate sulla creazione di criteri di conferenza per utente
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Vedere anche
 

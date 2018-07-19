@@ -51,7 +51,7 @@ Gli account utente possono anche essere disabilitati temporaneamente e riabilita
     
         Set-CsUser -Identity "Ken Myer" -Enabled $True
 
-Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Set-CsUser](set-csuser.md).
+Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser).
 
 ## Vedere anche
 

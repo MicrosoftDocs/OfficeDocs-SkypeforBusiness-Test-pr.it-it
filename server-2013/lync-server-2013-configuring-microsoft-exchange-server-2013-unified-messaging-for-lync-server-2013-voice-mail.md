@@ -61,13 +61,13 @@ Per completare l'impostazione della messaggistica unificata, è quindi necessari
 
 Nel comando precedente, il parametro Extensions rappresenta il numero di interno telefonico dell'utente. In questo esempio l'utente ha l'interno 100.
 
-Dopo averne abilitato la cassetta postale, l'utente kenmyer@litwareinc.com dovrebbe essere in grado di utilizzare la messaggistica unificata di Exchange. Per verificare che l'utente possa connettersi alla messaggistica unificata di Exchange, eseguire il cmdlet [Test-CsExUMConnectivity](test-csexumconnectivity.md) da Lync Server Management Shell:
+Dopo averne abilitato la cassetta postale, l'utente kenmyer@litwareinc.com dovrebbe essere in grado di utilizzare la messaggistica unificata di Exchange. Per verificare che l'utente possa connettersi alla messaggistica unificata di Exchange, eseguire il cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) da Lync Server Management Shell:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Se è presente un secondo utente per cui è stata abilitata la messaggistica unificata, è possibile utilizzare il cmdlet [Test-CsExUMVoiceMail](test-csexumvoicemail.md) per verificare che possa lasciare un messaggio della segreteria telefonica per il primo utente.
+Se è presente un secondo utente per cui è stata abilitata la messaggistica unificata, è possibile utilizzare il cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) per verificare che possa lasciare un messaggio della segreteria telefonica per il primo utente.
 
     $credential = Get-Credential "litwareinc\pilar"
     

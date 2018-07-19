@@ -37,7 +37,7 @@ Per eliminare un annuncio usato per le chiamate ai numeri non assegnati, seguire
     
 
     > [!NOTE]
-    > Per informazioni dettagliate su altre opzioni, vedere <A href="get-csannouncement.md">Get-CsAnnouncement</A> e <A href="remove-csannouncement.md">Remove-CsAnnouncement</A>.
+    > Per informazioni dettagliate su altre opzioni, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> e <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
 
 
 
@@ -49,6 +49,6 @@ Per eliminare un annuncio usato per le chiamate ai numeri non assegnati, seguire
 
 #### Ulteriori risorse
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

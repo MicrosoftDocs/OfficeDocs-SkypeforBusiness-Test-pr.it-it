@@ -154,7 +154,7 @@ Se il server back-end che ospita l'archivio di gestione centrale si trova in una
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Anziché eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsDatabase</strong> per creare ogni database e il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere <a href="install-csdatabase.md">Install-CsDatabase</a> e <a href="install-csmirrordatabase.md">Install-CsMirrorDatabase</a>..</td>
+    <td>Anziché eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsDatabase</strong> per creare ogni database e il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>..</td>
     </tr>
     </tbody>
     </table>

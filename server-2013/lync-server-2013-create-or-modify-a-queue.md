@@ -117,7 +117,7 @@ Per creare o modificare una coda, utilizzare una delle procedure illustrate di s
     
 
     > [!NOTE]
-    > Per utilizzare un file audio per il messaggio, eseguire il cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Per informazioni dettagliate, vedere <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > Per utilizzare un file audio per il messaggio, eseguire il cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Per informazioni dettagliate, vedere <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -127,7 +127,7 @@ Per creare o modificare una coda, utilizzare una delle procedure illustrate di s
     
 
     > [!NOTE]
-    > Per informazioni dettagliate sulle azioni possibili e sulla relativa sintassi, vedere <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>.
+    > Per informazioni dettagliate sulle azioni possibili e sulla relativa sintassi, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     Ad esempio:
@@ -144,7 +144,7 @@ Per creare o modificare una coda, utilizzare una delle procedure illustrate di s
     
 
     > [!NOTE]
-    > Per utilizzare un file audio per il messaggio, eseguire il cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Per informazioni dettagliate, vedere <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > Per utilizzare un file audio per il messaggio, eseguire il cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Per informazioni dettagliate, vedere <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -154,7 +154,7 @@ Per creare o modificare una coda, utilizzare una delle procedure illustrate di s
     
 
     > [!NOTE]
-    > Per informazioni dettagliate sulle azioni possibili e sulla relativa sintassi, vedere <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>.
+    > Per informazioni dettagliate sulle azioni possibili e sulla relativa sintassi, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     Ad esempio:
@@ -171,7 +171,7 @@ Per creare o modificare una coda, utilizzare una delle procedure illustrate di s
     
 
     > [!NOTE]
-    > Per informazioni dettagliate sulla creazione del gruppo di agenti, vedere <A href="new-csrgsagentgroup.md">New-CsRgsAgentGroup</A>.
+    > Per informazioni dettagliate sulla creazione del gruppo di agenti, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>.
 
 
 
@@ -191,11 +191,11 @@ Per creare o modificare una coda, utilizzare una delle procedure illustrate di s
 
 #### Ulteriori risorse
 
-[New-CsRgsQueue](new-csrgsqueue.md)  
-[Set-CsRgsQueue](set-csrgsqueue.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
-[Get-CsRgsQueue](get-csrgsqueue.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
-[Remove-CsRgsQueue](remove-csrgsqueue.md)
+[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)  
+[Set-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsQueue)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsQueue)
 

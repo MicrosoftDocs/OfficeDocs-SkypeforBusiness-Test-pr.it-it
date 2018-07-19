@@ -53,7 +53,7 @@ Quando un utente fa clic sul collegamento di una riunione in una convocazione di
     
         Get-CsWebServiceConfiguration
 
-3.  Eseguire il comando seguente, con i parametri impostati su True o False in base alle proprie preferenze. Per informazioni dettagliate sui parametri per questo cmdlet, vedere la documentazione relativa a [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md) nella documentazione relativa a Lync Server 2013 Management Shell:
+3.  Eseguire il comando seguente, con i parametri impostati su True o False in base alle proprie preferenze. Per informazioni dettagliate sui parametri per questo cmdlet, vedere la documentazione relativa a [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration) nella documentazione relativa a Lync Server 2013 Management Shell:
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
@@ -61,5 +61,5 @@ Quando un utente fa clic sul collegamento di una riunione in una convocazione di
 
 #### Ulteriori risorse
 
-[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
 

@@ -83,7 +83,7 @@ Per informazioni dettagliate sulla disabilitazione di BranchCache, vedere la rel
 
 ## Verifica della distribuzione di Lync Web App
 
-È possibile usare il cmdlet Test-CsUcwaConference per verificare che una coppia di utenti di test possa partecipare a una conferenza tramite UCWA (Unified Communications Web API). Per informazioni dettagliate su questo cmdlet, vedere [Test-CsUcwaConference](test-csucwaconference.md) nella documentazione di Lync Server Management Shell.
+È possibile usare il cmdlet Test-CsUcwaConference per verificare che una coppia di utenti di test possa partecipare a una conferenza tramite UCWA (Unified Communications Web API). Per informazioni dettagliate su questo cmdlet, vedere [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference) nella documentazione di Lync Server Management Shell.
 
 ## Risoluzione dei problemi relativi all'installazione del plug-in in Windows Server 2008 R2
 

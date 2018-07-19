@@ -38,11 +38,11 @@ Utilizzare **Remove-CsCommonAreaPhone** per rimuovere un telefono di area comune
     
         Get-CsCommonAreaPhone | Where-Object {$_.LineUri  -match "^tel:\+1425"} | Remove-CsCommonAreaPhone
 
-Per informazioni dettagliate, vedere l'argomento della guida relativo al cmdlet [Remove-CsCommonAreaPhone](remove-cscommonareaphone.md).
+Per informazioni dettagliate, vedere l'argomento della guida relativo al cmdlet [Remove-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCommonAreaPhone).
 
 ## Vedere anche
 
 #### Ulteriori risorse
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
 

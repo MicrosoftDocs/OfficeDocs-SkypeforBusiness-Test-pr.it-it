@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-07-29_
 
 Dopo avere configurato il computer che fungerà da nodo Watcher, è necessario eseguire le operazioni seguenti:
 
-1.  Creare gli account di test che devono essere utilizzati da questi nodi Watcher. Se si utilizza il metodo di autenticazione Negotiate, è inoltre necessario utilizzare il cmdlet [Set-CsTestUserCredential](set-cstestusercredential.md) per abilitare questi account di test per l'utilizzo nel nodo Watcher.
+1.  Creare gli account di test che devono essere utilizzati da questi nodi Watcher. Se si utilizza il metodo di autenticazione Negotiate, è inoltre necessario utilizzare il cmdlet [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) per abilitare questi account di test per l'utilizzo nel nodo Watcher.
 
 2.  Aggiornare le impostazioni di configurazione del nodo Watcher.
 

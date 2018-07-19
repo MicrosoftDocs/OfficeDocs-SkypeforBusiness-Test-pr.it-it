@@ -31,7 +31,7 @@ Esempio:
 
 
 
-Gli ambiti a livello di singolo computer possono essere definiti durante l'esecuzione di un comando [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md) e [Update-CsClsLogging](update-csclslogging.md) mediante il parametro –Computers. Il parametro –Computers accetta un elenco con valori separati da virgole di nomi di dominio completi dei computer di destinazione.
+Gli ambiti a livello di singolo computer possono essere definiti durante l'esecuzione di un comando [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) e [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) mediante il parametro –Computers. Il parametro –Computers accetta un elenco con valori separati da virgole di nomi di dominio completi dei computer di destinazione.
 
 <table>
 <thead>
@@ -57,7 +57,7 @@ Gli ambiti a livello di sito e globali sono definiti nei cmdlet **New-**, **Set-
 </thead>
 <tbody>
 <tr class="odd">
-<td>I comandi illustrati possono contenere i parametri e concetti trattati in altre sezioni. I comandi di esempio servono a illustrare l'uso del parametro <strong>–Identity</strong> per definire l'ambito e gli altri parametri sono inclusi per completezza e per specificare l'ambito. Per dettagli sui cmdlet <strong>Set-CsClsConfiguration</strong>, vedere <a href="set-csclsconfiguration.md">Set-CsClsConfiguration</a> nella documentazione sulle operazioni.</td>
+<td>I comandi illustrati possono contenere i parametri e concetti trattati in altre sezioni. I comandi di esempio servono a illustrare l'uso del parametro <strong>–Identity</strong> per definire l'ambito e gli altri parametri sono inclusi per completezza e per specificare l'ambito. Per dettagli sui cmdlet <strong>Set-CsClsConfiguration</strong>, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> nella documentazione sulle operazioni.</td>
 </tr>
 </tbody>
 </table>
@@ -145,7 +145,7 @@ Il comando indica al CLSAgent in ogni computer e pool del sito Redmond di impost
     
 
     > [!NOTE]
-    > New-CsClsConfiguration offre accesso a numerose impostazioni di configurazione facoltative. Per dettagli sulle opzioni di configurazioni, vedere <A href="get-csclsconfiguration.md">Get-CsClsConfiguration</A> e <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Informazioni sulle impostazioni di configurazione del servizio di registrazione centralizzato</A>.
+    > New-CsClsConfiguration offre accesso a numerose impostazioni di configurazione facoltative. Per dettagli sulle opzioni di configurazioni, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</A> e <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Informazioni sulle impostazioni di configurazione del servizio di registrazione centralizzato</A>.
 
     
     Ad esempio, per creare una nuova configurazione che definisce una cartella di rete per i file di cache, il periodo di rollover per i file di log e le dimensioni di rollover per tali file, occorre digitare quanto segue:
@@ -183,8 +183,8 @@ Se si sceglie di rimuovere una configurazione a livello di sito, il sito userà 
 #### Ulteriori risorse
 
 [Gestione delle impostazioni di configurazione del servizio di registrazione centralizzato tramite PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 

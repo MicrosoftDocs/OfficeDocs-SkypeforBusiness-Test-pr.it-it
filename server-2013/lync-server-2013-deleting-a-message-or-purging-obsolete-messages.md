@@ -23,5 +23,5 @@ Questo esempio consente invece di sostituire tutti i messaggi rimossi con la not
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com" -ReplaceMessage "This message is no longer available."
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Remove-CsPersistentChatMessage](remove-cspersistentchatmessage.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Remove-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPersistentChatMessage).
 

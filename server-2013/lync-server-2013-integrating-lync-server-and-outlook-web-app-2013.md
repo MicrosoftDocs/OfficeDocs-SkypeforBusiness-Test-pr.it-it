@@ -35,7 +35,7 @@ Lync Server 2013 supporta l'individuazione automatica di qualsiasi server Exchan
 
 
 > [!NOTE]
-> La causa è il fatto che la topologia di Lync Server includerebbe due voci per lo stesso computer, ovvero la voce individuata automaticamente e quella aggiunta manualmente. Per risolvere il problema e ripristinare il funzionamento di Outlook Web App, utilizzare Windows PowerShell per rimuovere le voci del pool attendibile e dell'applicazione attendibile per il server. Per ulteriori informazioni, vedere gli argomenti della Guida per i cmdlet <A href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</A> e <A href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</A>.
+> La causa è il fatto che la topologia di Lync Server includerebbe due voci per lo stesso computer, ovvero la voce individuata automaticamente e quella aggiunta manualmente. Per risolvere il problema e ripristinare il funzionamento di Outlook Web App, utilizzare Windows PowerShell per rimuovere le voci del pool attendibile e dell'applicazione attendibile per il server. Per ulteriori informazioni, vedere gli argomenti della Guida per i cmdlet <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</A> e <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</A>.
 
 
 

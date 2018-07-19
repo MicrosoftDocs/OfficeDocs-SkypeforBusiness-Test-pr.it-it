@@ -19,13 +19,13 @@ Le aree all'interno di una rete sono collegate tramite connettività fisica WAN.
 
 Per informazioni dettagliate sull'utilizzo di collegamenti area di rete, vedere la documentazione di Lync Server Management Shell per i cmdlet seguenti:
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
-  - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
+  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)
+  - [Set-CsNetworkRegionLink](href: https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)
 
-  - [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)
+  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)
 
 Nella topologia di esempio è presente un collegamento tra il Nord America e le aree APAC e un collegamento tra le aree EMEA e APAC. Ognuno di questi collegamenti area è vincolato dalla larghezza di banda WAN, come descritto nella tabella di informazioni sulla larghezza di banda dei collegamenti area nella sezione [Esempio: raccolta dei requisiti dell'organizzazione per il controllo di ammissione di chiamata in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) della documentazione relativa alla pianificazione.
 

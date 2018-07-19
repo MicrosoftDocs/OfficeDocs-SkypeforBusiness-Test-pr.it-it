@@ -256,7 +256,7 @@ Gli utenti inseriti nei file del server della Rubrica possono essere controllati
 
 
 > [!WARNING]
-> Per ulteriori informazioni sul meccanismo di filtro della Rubrica, vedere <A href="lync-server-2013-address-book-server-cmdlets.md">Cmdlet per i server della Rubrica</A> e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrare la Rubrica di Lync 2013</A>
+> Per ulteriori informazioni sul meccanismo di filtro della Rubrica, vedere <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlet per i server della Rubrica</A> e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrare la Rubrica di Lync 2013</A>
 
 
 

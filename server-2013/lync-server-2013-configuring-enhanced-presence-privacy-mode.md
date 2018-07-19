@@ -53,7 +53,7 @@ Per questi motivi, in uno scenario di migrazione, prima di abilitare la modalit√
 
 #### Ulteriori risorse
 
-[Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)  
-[New-CsPrivacyConfiguration](new-csprivacyconfiguration.md)  
-[Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+[Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPrivacyConfiguration)  
+[Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 

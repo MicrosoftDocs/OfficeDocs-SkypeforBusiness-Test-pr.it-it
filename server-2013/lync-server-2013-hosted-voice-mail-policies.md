@@ -55,7 +55,7 @@ I criteri di segreteria telefonica definiscono due attributi che l'applicazione 
 
 
 > [!NOTE]
-> L'amministratore tenant del servizio di messaggistica unificata di Exchange ospitato fornirà i valori necessari per le impostazioni degli attributi Destination e Organization. Per configurare i criteri, è necessario eseguire il cmdlet New-CsHostedVoicemailPolicy o utilizzare il cmdlet Set-CsHostedVoicemailPolicy per modificare quelli esistenti, ad esempio i criteri globali.
+> L'amministratore tenant del servizio di messaggistica unificata di Exchange ospitato fornirà i valori necessari per le impostazioni degli attributi Destination e Organization. Per configurare i criteri, è necessario eseguire il cmdlet New-CsHostedVoicemailPolicy o utilizzare il cmdlet set-cshostedvoicemailpolicy per modificare quelli esistenti, ad esempio i criteri globali.
 
 
 
@@ -63,7 +63,7 @@ Per informazioni dettagliate sulla gestione dei criteri di segreteria telefonica
 
   - New-CsHostedVoicemailPolicy
 
-  - Set-CsHostedVoicemailPolicy
+  - set-cshostedvoicemailpolicy
 
   - Get-CsHostedVoicemailPolicy
 

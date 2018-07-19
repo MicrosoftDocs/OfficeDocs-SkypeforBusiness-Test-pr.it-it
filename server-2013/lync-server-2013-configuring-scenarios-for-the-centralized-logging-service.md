@@ -25,7 +25,7 @@ Gli scenari definiscono l'ambito (globale, sito, pool o computer) e i provider d
 </thead>
 <tbody>
 <tr class="odd">
-<td>Per un determinato ambito (sito, globale, pool o computer), è possibile eseguire un massimo di due scenari alla volta. Per determinare quali scenari sono in esecuzione, utilizzare Windows PowerShell e <a href="get-csclsscenario.md">Get-CsClsScenario</a>. Con Windows PowerShell e <a href="set-csclsscenario.md">Set-CsClsScenario</a> è possibile modificare dinamicamente gli scenari in esecuzione. È possibile modificare gli scenari durante una sessione di registrazione, al fine di regolare o rifinire i dati che vengono raccolti, nonché i provider.</td>
+<td>Per un determinato ambito (sito, globale, pool o computer), è possibile eseguire un massimo di due scenari alla volta. Per determinare quali scenari sono in esecuzione, utilizzare Windows PowerShell e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a> è possibile modificare dinamicamente gli scenari in esecuzione. È possibile modificare gli scenari durante una sessione di registrazione, al fine di regolare o rifinire i dati che vengono raccolti, nonché i provider.</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Come anticipato in [Panoramica del servizio di registrazione centralizzato](lync
 
 1.  Avviare Lync Server Management Shell: fare clic sul pulsante **Start**, scegliere **Tutti i programmi**, **Microsoft Lync Server 2013** e quindi **Lync Server Management Shell**.
 
-2.  Per creare un nuovo scenario per una sessione di registrazione, utilizzare [New-CsClsProvider](new-csclsprovider.md) e definire il nome dello scenario (ovvero, un'identificazione univoca). Scegliere un tipo di formato di registrazione da WPP (ovvero, Windows software trace preprocessor e predefinito), EventLog (ovvero, il formato del registro eventi di Windows) o IISLog (ovvero, il file formato ASCII basato sul formato dei file di registro IIS). Definire quindi il livello (Secondo la definizione dei livelli di registrazione in questo argomento) e i contrassergni (secondo la definizione dei contrassegni in questo argomento).
+2.  Per creare un nuovo scenario per una sessione di registrazione, utilizzare [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider) e definire il nome dello scenario (ovvero, un'identificazione univoca). Scegliere un tipo di formato di registrazione da WPP (ovvero, Windows software trace preprocessor e predefinito), EventLog (ovvero, il formato del registro eventi di Windows) o IISLog (ovvero, il file formato ASCII basato sul formato dei file di registro IIS). Definire quindi il livello (Secondo la definizione dei livelli di registrazione in questo argomento) e i contrassergni (secondo la definizione dei contrassegni in questo argomento).
     
     In questo scenario di esempio, utilizzeremo LyssProvider come provider variabile di esempio.
     

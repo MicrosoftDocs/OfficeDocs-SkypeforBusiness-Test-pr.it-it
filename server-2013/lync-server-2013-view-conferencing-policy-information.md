@@ -82,5 +82,5 @@ Per visualizzare i criteri conferenza, è inoltre possibile utilizzare PowerShel
         TotalReceiveVideoBitRateKb                : 6000
         EnableMultiViewJoin                       : True
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Get-CsConferencingPolicy](get-csconferencingpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy).
 

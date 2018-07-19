@@ -49,5 +49,5 @@ Le impostazioni delle riunioni possono anche essere eliminate mediante Windows P
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativa al cmdlet [Remove-CsMeetingConfiguration](remove-csmeetingconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativa al cmdlet [Remove-CsMeetingConfiguration](ttps://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMeetingConfiguration).
 

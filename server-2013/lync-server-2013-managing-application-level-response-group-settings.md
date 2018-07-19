@@ -42,7 +42,7 @@ La musica di attesa predefinita viene riprodotta quando una chiamata viene messa
 
 #### Ulteriori risorse
 
-[Get-CsRgsConfiguration](get-csrgsconfiguration.md)  
-[Set-CsRgsConfiguration](set-csrgsconfiguration.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)
+[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)  
+[Set-CsRgsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsConfiguration)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)
 

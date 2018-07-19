@@ -69,13 +69,13 @@ In questo argomento viene descritto come importare e creare annunci. Per informa
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Per ulteriori informazioni su questi cmdlet e per visualizzare l'elenco dei codici di lingua da utilizzare nel parametro **TextToSpeechPrompt**, vedere [New-CsAnnouncement](new-csannouncement.md).
+    Per ulteriori informazioni su questi cmdlet e per visualizzare l'elenco dei codici di lingua da utilizzare nel parametro **TextToSpeechPrompt**, vedere [New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement).
 
 ## Vedere anche
 
 #### Ulteriori risorse
 
-[Import-CsAnnouncementFile](import-csannouncementfile.md)  
-[New-CsAnnouncement](new-csannouncement.md)  
+[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
+[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
 [Configurare la tabella dei numeri non assegnati in Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
 

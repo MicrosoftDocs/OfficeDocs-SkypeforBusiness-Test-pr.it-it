@@ -97,7 +97,7 @@ L'archiviazione può essere abilitata e disabilitata, per le sessioni di comunic
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Set-CsArchivingPolicy](set-csarchivingpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy).
 
 ## Vedere anche
 

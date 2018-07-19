@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-02-21_
 
 Una subnet di rete deve essere associata a un sito di rete per la determinazione della posizione geografica dell'host appartenente alla subnet. È possibile utilizzare il Pannello di controllo di Lync Server per configurare le subnet. Dal Pannello di controllo di Lync Server è infatti possibile creare, modificare o eliminare una subnet di rete. Per informazioni sull'eliminazione delle subnet di rete, vedere [Eliminazione di subnet di rete](lync-server-2013-deleting-network-subnets.md)
 
-Nella maggior parte delle distribuzioni di Microsoft Lync Server 2013 in cui è implementato il controllo di ammissione di chiamata (CAC) generalmente sarà presente un numero elevato di subnet. Di conseguenza, spesso è consigliabile configurare le subnet tramite Lync Server Management Shell, da cui è possibile chiamare **New-CsNetworkSubnet** insieme al cmdlet **Import-CSV** di Windows PowerShell. L'utilizzo congiunto di questi due cmdlet consente di leggere le impostazioni delle subnet da un file con valori delimitati da virgole (con estensione csv) e di creare più subnet contemporaneamente. Per alcuni esempi di come creare subnet da un file csv, vedere [New-CsNetworkSubnet](new-csnetworksubnet.md).
+Nella maggior parte delle distribuzioni di Microsoft Lync Server 2013 in cui è implementato il controllo di ammissione di chiamata (CAC) generalmente sarà presente un numero elevato di subnet. Di conseguenza, spesso è consigliabile configurare le subnet tramite Lync Server Management Shell, da cui è possibile chiamare **New-CsNetworkSubnet** insieme al cmdlet **Import-CSV** di Windows PowerShell. L'utilizzo congiunto di questi due cmdlet consente di leggere le impostazioni delle subnet da un file con valori delimitati da virgole (con estensione csv) e di creare più subnet contemporaneamente. Per alcuni esempi di come creare subnet da un file csv, vedere [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 ## Per creare una subnet di rete
 
@@ -73,8 +73,8 @@ Nella maggior parte delle distribuzioni di Microsoft Lync Server 2013 in cui è 
 
 #### Ulteriori risorse
 
-[New-CsNetworkSubnet](new-csnetworksubnet.md)  
-[Set-CsNetworkSubnet](set-csnetworksubnet.md)  
-[Remove-CsNetworkSubnet](remove-csnetworksubnet.md)  
-[Get-CsNetworkSubnet](get-csnetworksubnet.md)
+[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)  
+[Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 

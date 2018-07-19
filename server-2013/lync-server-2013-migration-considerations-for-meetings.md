@@ -72,7 +72,7 @@ Le seguenti informazioni sull'account utente non vengono tuttavia spostate nel n
 
   - Contenuto della riunione, ad esempio presentazioni di PowerPoint, contenuto della lavagna e dati dei sondaggi
 
-Per spostare il contenuto condiviso nelle riunioni, utilizzare il parametro MoveMeetingContent del cmdlet Move-CsUser. Per informazioni dettagliate su come utilizzare questo cmdlet, vedere [Move-CsUser](move-csuser.md) nella documentazione dei cmdlet di Lync Server 2013.
+Per spostare il contenuto condiviso nelle riunioni, utilizzare il parametro MoveMeetingContent del cmdlet Move-CsUser. Per informazioni dettagliate su come utilizzare questo cmdlet, vedere [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) nella documentazione dei cmdlet di Lync Server 2013.
 
 ## Migrazione di riunioni da Office Communications Server 2007 R2
 

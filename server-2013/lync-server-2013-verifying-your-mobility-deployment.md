@@ -61,6 +61,6 @@ Per testare l'invio di un messaggio istantaneo tra due utenti che utilizzano Lyn
 
 #### Ulteriori risorse
 
-[Test-CsMcxP2PIM](test-csmcxp2pim.md)  
-[Test-CsUcwaConference](test-csucwaconference.md)
+[Test-CsMcxP2PIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM)  
+[Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference)
 

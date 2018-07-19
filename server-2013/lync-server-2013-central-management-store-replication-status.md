@@ -31,5 +31,5 @@ Per restituire un elenco di tutti i ruoli RBAC (Role-Based Access Control) a cui
 
 #### Ulteriori risorse
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

@@ -33,7 +33,7 @@ Utilizzare la procedura seguente per eliminare un intervallo di numeri per la ri
     
 
     > [!NOTE]
-    > Per informazioni dettagliate su ulteriori opzioni, vedere <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > Per informazioni dettagliate su ulteriori opzioni, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 
 
@@ -45,6 +45,6 @@ Utilizzare la procedura seguente per eliminare un intervallo di numeri per la ri
 
 #### Ulteriori risorse
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

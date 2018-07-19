@@ -19,7 +19,7 @@ Seguire la procedura per abilitare gli utenti di Lync Server 2013 per la segrete
 
 Per informazioni dettagliate, vedere [Gestione di utenti di Exchange ospitati in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) nella documentazione relativa alla pianificazione.
 
-Per informazioni dettagliate sul cmdlet [Set-CsUser](set-csuser.md), vedere la documentazione relativa a Lync Server Management Shell.
+Per informazioni dettagliate sul cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), vedere la documentazione relativa a Lync Server Management Shell.
 
 <table>
 <thead>

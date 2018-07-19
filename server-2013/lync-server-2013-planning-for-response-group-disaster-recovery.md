@@ -63,7 +63,7 @@ Quando si esegue il ripristino creando un nuovo pool con un FQDN diverso, è nec
 
 
 
-È possibile definire un unico set di impostazioni di configurazione di Response Group a livello di applicazione per pool. Le impostazioni includono la configurazione di musica di attesa predefinita, il file audio di musica di attesa predefinita, il periodo di tolleranza di richiamata agente e la configurazione del contesto di chiamata. Per visualizzare queste impostazioni di configurazione, eseguire il cmdlet **Get-CsRgsConfiguration**. Per informazioni dettagliate sul cmdlet **Get-CsRgsConfiguration**, vedere [Get-CsRgsConfiguration](get-csrgsconfiguration.md).
+È possibile definire un unico set di impostazioni di configurazione di Response Group a livello di applicazione per pool. Le impostazioni includono la configurazione di musica di attesa predefinita, il file audio di musica di attesa predefinita, il periodo di tolleranza di richiamata agente e la configurazione del contesto di chiamata. Per visualizzare queste impostazioni di configurazione, eseguire il cmdlet **Get-CsRgsConfiguration**. Per informazioni dettagliate sul cmdlet **Get-CsRgsConfiguration**, vedere [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration).
 
 È possibile trasferire queste impostazioni a livello di applicazione da un pool a un altro utilizzando il cmdlet **Import-CsRgsConfiguration** con parametro –ReplaceExistingSettings. L'operazione tuttavia sostituisce le impostazioni nel pool di destinazione.
 

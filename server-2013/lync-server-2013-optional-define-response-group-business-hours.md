@@ -61,7 +61,7 @@ Le impostazioni relative all'orario di ufficio consentono di definire quando è 
 
 3.  Per ogni intervallo univoco di ore che si desidera definire, eseguire:
     
-        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Per creare la raccolta di orari di ufficio che utilizza gli intervalli definiti, eseguire:
     
@@ -83,6 +83,6 @@ Le impostazioni relative all'orario di ufficio consentono di definire quando è 
 
 #### Ulteriori risorse
 
-[New-CsRgsTimeRange](new-csrgstimerange.md)  
-[New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

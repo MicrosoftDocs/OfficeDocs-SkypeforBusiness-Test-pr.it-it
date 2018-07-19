@@ -19,7 +19,7 @@ Nella tabella PurgeSettings sono incluse informazioni che specificano se e quand
 
     Get-CsCdrConfiguration
 
-La tabella PurgeSettings deve essere considerata di sola lettura dagli amministratori. Le modifiche relative alle impostazioni di eliminazione dei dettagli chiamata devono essere apportate solo mediante il cmdlet [New-CsCdrConfiguration](new-cscdrconfiguration.md) o [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+La tabella PurgeSettings deve essere considerata di sola lettura dagli amministratori. Le modifiche relative alle impostazioni di eliminazione dei dettagli chiamata devono essere apportate solo mediante il cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) o [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 Questa tabella è stata introdotta in Microsoft Lync Server 2013.
 

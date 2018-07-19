@@ -49,7 +49,7 @@ Effettuare la procedura seguente per modificare i criteri PIN a livello di utent
         PINLifetime          : 0
         MaximumLogonAttempts :
 
-Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Get-CsPinPolicy](get-cspinpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Get-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPinPolicy).
 
 ## Vedere anche
 

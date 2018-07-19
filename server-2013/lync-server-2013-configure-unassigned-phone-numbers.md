@@ -27,7 +27,7 @@ La configurazione della tabella dei numeri non assegnati dipende dall'utilizzo p
 </thead>
 <tbody>
 <tr class="odd">
-<td>Prima di configurare la tabella dei numeri non assegnati, è necessario che sia definito almeno un annuncio o che sia impostato un Operatore automatico Messaggistica unificata di Exchange. Per informazioni dettagliate sulla creazione di annunci, vedere <a href="lync-server-2013-create-an-announcement.md">Creare un annuncio in Lync Server 2013</a>. Per verificare se le impostazioni della Messaggistica unificata di Exchange sono state configurate, eseguire il cmdlet <strong>Get-CsExUmContact</strong>. Per informazioni dettagliate, <a href="get-csexumcontact.md">Get-CsExUmContact</a>.</td>
+<td>Prima di configurare la tabella dei numeri non assegnati, è necessario che sia definito almeno un annuncio o che sia impostato un Operatore automatico Messaggistica unificata di Exchange. Per informazioni dettagliate sulla creazione di annunci, vedere <a href="lync-server-2013-create-an-announcement.md">Creare un annuncio in Lync Server 2013</a>. Per verificare se le impostazioni della Messaggistica unificata di Exchange sono state configurate, eseguire il cmdlet <strong>Get-CsExUmContact</strong>. Per informazioni dettagliate, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</a>.</td>
 </tr>
 </tbody>
 </table>
