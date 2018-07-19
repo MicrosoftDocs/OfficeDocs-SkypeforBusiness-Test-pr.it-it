@@ -59,7 +59,7 @@ Per descrizioni dettagliate dei parametri, vedere [Remove-CsNetworkInterSitePoli
 
 #### Concetti
 
-[Cmdlet per il servizio Controllo di ammissione di chiamata](lync-server-2013-call-admission-control-cmdlets.md)  
+[Cmdlet per il servizio Controllo di ammissione di chiamata](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### Ulteriori risorse
 

@@ -49,7 +49,7 @@ Dopo aver installato il modulo, sarà possibile stabilire una sessione remota co
 
 Per ulteriori informazioni su come stabilire una sessione remota di PowerShell con Skype for Business online, vedere [Connessione a Lync Online tramite Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-Per ulteriori informazioni su come usare il modulo PowerShell di Skype for Business online, vedere [Uso di Windows PowerShell per gestire Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+Per ulteriori informazioni su come usare il modulo PowerShell di Skype for Business online, vedere [Uso di Windows PowerShell per gestire Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 ## Vedere anche
 

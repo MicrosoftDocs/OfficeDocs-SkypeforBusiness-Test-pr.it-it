@@ -93,7 +93,7 @@ Per agevolare il failover, il record CNAME deve essere aggiornato in modo che fa
 #### Concetti
 
 [Pianificazione per la disponibilità elevata e il ripristino di emergenza in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Cmdlet di backup e disponibilità elevata](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[Cmdlet di backup e disponibilità elevata](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### Ulteriori risorse
 
