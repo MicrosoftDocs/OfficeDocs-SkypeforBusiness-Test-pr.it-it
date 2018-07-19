@@ -53,7 +53,7 @@ Eseguire i passaggi della procedura seguente per spostare i Response Group da un
     
 
     > [!NOTE]
-    > Le impostazioni a livello di applicazione includono la configurazione della musica di attesa predefinita, il file audio della musica di attesa predefinito, il periodo di tolleranza di richiamata degli agenti e la configurazione del contesto chiamata. Per visualizzare queste impostazioni di configurazione, eseguire il cmdlet <STRONG>Get-CsRgsConfiguration</STRONG>. Per informazioni dettagliate su questo cmdlet, vedere <A href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</A>.
+    > Le impostazioni a livello di applicazione includono la configurazione della musica di attesa predefinita, il file audio della musica di attesa predefinito, il periodo di tolleranza di richiamata degli agenti e la configurazione del contesto chiamata. Per visualizzare queste impostazioni di configurazione, eseguire il cmdlet <STRONG>Get-CsRgsConfiguration</STRONG>. Per informazioni dettagliate su questo cmdlet, vedere <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
 
 
 

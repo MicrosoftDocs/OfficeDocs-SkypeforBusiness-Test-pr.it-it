@@ -79,7 +79,7 @@ Per informazioni dettagliate sull'assegnazione di un dial plan utente o sull'ese
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsDialPlan](grant-csdialplan.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan).
 
 ## Vedere anche
 

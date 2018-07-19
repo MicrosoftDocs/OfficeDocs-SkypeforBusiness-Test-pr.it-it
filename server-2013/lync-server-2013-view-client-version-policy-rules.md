@@ -56,5 +56,5 @@ Un criterio versione client è costituito da un set di regole relative ai criter
         Enabled           : True
         CompareOp         : LEQ
 
-Per informazioni dettagliate, vedere l'argomento della guida relativo al cmdlet [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md).
+Per informazioni dettagliate, vedere l'argomento della guida relativo al cmdlet [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule).
 

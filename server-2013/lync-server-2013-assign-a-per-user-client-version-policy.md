@@ -127,7 +127,7 @@ Per informazioni dettagliate sulla creazione di criteri di versione client per u
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Vedere anche
 

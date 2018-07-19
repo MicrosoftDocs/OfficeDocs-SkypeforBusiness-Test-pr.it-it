@@ -107,5 +107,5 @@ Per configurare il certificato nelle directory virtuali di Internet Information 
 #### Ulteriori risorse
 
 [Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
-[Set-CsCertificate](set-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

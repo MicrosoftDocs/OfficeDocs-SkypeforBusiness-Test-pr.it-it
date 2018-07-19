@@ -129,7 +129,7 @@ Per informazioni dettagliate sulla creazione di criteri di conferenza per utente
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Vedere anche
 

@@ -37,5 +37,5 @@ Per una descrizione dettagliata del comando completo, fare riferimento all'argom
 
 #### Ulteriori risorse
 
-[Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)
+[Get-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAddressBookConfiguration)
 

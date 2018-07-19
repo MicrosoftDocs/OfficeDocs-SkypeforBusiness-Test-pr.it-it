@@ -67,7 +67,7 @@ Si supponga inoltre che esistano due utenti. Il primo è Ken Myer, al quale è a
 
 Come si può vedere, Ken Myer può comunicare con i provider di messaggistica istantanea pubblici, in quanto il criterio per utente che gli è assegnato prevale sulle importazioni del criterio globale. Pilar Ackerman non può invece comunicare con i provider di messaggistica istantanea pubblici, in quanto è gestita dal criterio globale, che vieta tali comunicazioni.
 
-I criteri per utente devono essere creati dal supporto di Office 365. Dopo la creazione dei criteri, sarà possibile assegnarli agli utenti usando il cmdlet **Grant-Cs** appropriato, ad esempio [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md). I criteri per utente sono semplici da identificare, in quanto il parametro Identity del criterio inizia sempre con il **prefisso** tag. Ad esempio:
+I criteri per utente devono essere creati dal supporto di Office 365. Dopo la creazione dei criteri, sarà possibile assegnarli agli utenti usando il cmdlet **Grant-Cs** appropriato, ad esempio [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy). I criteri per utente sono semplici da identificare, in quanto il parametro Identity del criterio inizia sempre con il **prefisso** tag. Ad esempio:
 
     Identity : tag:AllowPublicIMCommunication
 

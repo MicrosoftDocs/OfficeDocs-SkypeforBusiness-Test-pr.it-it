@@ -39,5 +39,5 @@ I criteri globali di accesso esterno possono essere reimpostati tramite Windows 
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

@@ -67,5 +67,5 @@ Le informazioni dettagliate su tutte le regole di aggiornamento dispositivi poss
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 
-Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Get-CsDeviceUpdateRule](get-csdeviceupdaterule.md).
+Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateRule).
 

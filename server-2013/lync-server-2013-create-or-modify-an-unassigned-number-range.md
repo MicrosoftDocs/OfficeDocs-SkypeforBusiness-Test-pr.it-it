@@ -149,7 +149,7 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
 
 #### Ulteriori risorse
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
 [Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

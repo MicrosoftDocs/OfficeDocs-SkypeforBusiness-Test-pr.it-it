@@ -51,5 +51,5 @@ Il servizio Web di aggiornamento dispositivi crea e mantiene aggiornata un'ampia
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md).
+Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog).
 

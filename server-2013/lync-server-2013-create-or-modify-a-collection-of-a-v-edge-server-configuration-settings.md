@@ -25,7 +25,7 @@ Quando si installa Lync Server, viene creata automaticamente una raccolta global
 
   - Le impostazioni dell'ambito globale vengono utilizzate solo se non sono state configurate impostazioni del servizio nel singolo server e se non sono presenti impostazioni del sito per il sito in cui si trova il server in oggetto.
 
-Tutte le impostazioni possono essere quindi modificate utilizzando il cmdlet Set-CsAVEdgeConfiguration. Per ulteriori informazioni, vedere gli argomenti della Guida relativi ai cmdlet [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) e [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md).
+Tutte le impostazioni possono essere quindi modificate utilizzando il cmdlet Set-CsAVEdgeConfiguration. Per ulteriori informazioni, vedere gli argomenti della Guida relativi ai cmdlet [New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) e [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration).
 
 ## Creazione di nuove impostazioni di configurazione di A/V Edge nell'ambito del sito
 
@@ -61,6 +61,6 @@ Tutte le impostazioni possono essere quindi modificate utilizzando il cmdlet Set
 #### Ulteriori risorse
 
 [Audio/Video (A/V) Edge Server in Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

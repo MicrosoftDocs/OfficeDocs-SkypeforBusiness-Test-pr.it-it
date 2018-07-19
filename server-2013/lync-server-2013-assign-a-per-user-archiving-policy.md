@@ -127,7 +127,7 @@ Per informazioni dettagliate sulla creazione di criteri di archiviazione per ute
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Vedere anche
 

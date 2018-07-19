@@ -47,7 +47,7 @@ Eseguire una delle seguenti procedure per rimuovere un intervallo orbit del Parc
     
 
     > [!NOTE]
-    > Per informazioni dettagliate sulle altre opzioni, vedere <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > Per informazioni dettagliate sulle altre opzioni, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 
 
@@ -59,6 +59,6 @@ Eseguire una delle seguenti procedure per rimuovere un intervallo orbit del Parc
 
 #### Ulteriori risorse
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

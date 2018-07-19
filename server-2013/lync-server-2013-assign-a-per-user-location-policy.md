@@ -129,5 +129,5 @@ Per informazioni dettagliate sulla creazione di criteri percorso, vedere [Creare
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

@@ -4005,7 +4005,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
       - name: Gestione dell'autenticazione da server a server (Oauth) e applicazioni partner in Lync Server 2013
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4195,7 +4195,7 @@
         - name: Cmdlet di Windows PowerShell per la gestione della rubrica
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: New-CsAddressBookConfiguration per la gestione della rubrica
+          - name: new-csaddressbookconfiguration per la gestione della rubrica
             href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration per la gestione della rubrica
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
@@ -4215,7 +4215,7 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService per la gestione della rubrica
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: New-CsWebServiceConfiguration per la gestione della rubrica
+          - name: new-cswebserviceconfiguration per la gestione della rubrica
             href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration per la gestione della rubrica
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
@@ -4840,9 +4840,9 @@
       - name: Modifiche apportate durante la preparazione del dominio in Lync Server 2013
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Modifiche apportate da Grant-CsSetupPermission in Lync Server 2013
-        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission
       - name: Modifiche apportate da Grant-CsOUPermission in Lync Server 2013
-        href: lync-server-2013-changes-made-by-grant-csoupermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission
   - name: Lync Server Management Shell
     href: https://docs.microsoft.com/en-us/powershell/module/skype/
   - name: Glossario

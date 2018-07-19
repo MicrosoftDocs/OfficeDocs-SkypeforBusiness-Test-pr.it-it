@@ -67,7 +67,7 @@ I criteri di archiviazione per utente possono inoltre essere assegnati utilizzan
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per informazioni dettagliate, vedere la documentazione relativa al cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Per informazioni dettagliate, vedere la documentazione relativa al cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Vedere anche
 

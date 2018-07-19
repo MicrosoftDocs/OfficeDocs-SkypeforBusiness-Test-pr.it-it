@@ -51,7 +51,7 @@ Per rimuovere gli account utente è anche possibile usare il cmdlet Disable-CsUs
     
     Dopo aver eseguito questo comando, non sarà più possibile riabilitare l'account e le relative impostazioni precedenti. Sarà invece necessario usare il cmdlet Enable-CsUser per creare un account completamente nuovo per Davide Garghentini.
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Disable-CsUser](disable-csuser.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser).
 
 ## Vedere anche
 

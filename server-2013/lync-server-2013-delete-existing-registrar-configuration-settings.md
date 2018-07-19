@@ -53,5 +53,5 @@ Eseguire la procedura seguente per eliminare una funzione di registrazione.
     
         Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
 
-Per informazioni dettagliate, vedere [Remove-CsProxyConfiguration](remove-csproxyconfiguration.md).
+Per informazioni dettagliate, vedere [Remove-CsProxyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsProxyConfiguration).
 

@@ -23,7 +23,7 @@ Le impostazioni di configurazione del trunk SIP definiscono la relazione e le fu
 
   - Se è richiesta la crittografia SRTP (Secure Real-Time Protocol) per ciascun trunk.
 
-Quando si installa Microsoft Lync Server 2013, viene creata automaticamente una raccolta globale di impostazioni di configurazione dei trunk SIP. Questa raccolta non può essere eliminata, tuttavia è possibile utilizzare il Pannello di controllo di Lync Server o il cmdlet [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) per ripristinare i valori predefiniti delle proprietà della raccolta globale. Se ad esempio la proprietà Enable3pccRefer è stata impostata su True, quando si ripristinano i valori predefiniti, la proprietà Enable3pccRefer viene reimpostata su False.
+Quando si installa Microsoft Lync Server 2013, viene creata automaticamente una raccolta globale di impostazioni di configurazione dei trunk SIP. Questa raccolta non può essere eliminata, tuttavia è possibile utilizzare il Pannello di controllo di Lync Server o il cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) per ripristinare i valori predefiniti delle proprietà della raccolta globale. Se ad esempio la proprietà Enable3pccRefer è stata impostata su True, quando si ripristinano i valori predefiniti, la proprietà Enable3pccRefer viene reimpostata su False.
 
 Gli amministratori possono inoltre creare impostazioni di configurazione personalizzate per i trunk con ambito sito o servizio (per un gateway PSTN singolo) che possono essere rimosse. Quando si rimuovono le impostazioni personalizzate, tenere presente che:
 
@@ -67,5 +67,5 @@ Gli amministratori possono inoltre creare impostazioni di configurazione persona
     
         Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration).
 

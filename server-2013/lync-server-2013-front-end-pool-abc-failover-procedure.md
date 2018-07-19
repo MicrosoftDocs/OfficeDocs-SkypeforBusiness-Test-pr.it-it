@@ -33,7 +33,7 @@ Per eseguire i cmdlet, aprire Lync Server Management Shell con Esegui come ammin
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    È quindi consigliabile spostare il server di archivio centrale dal pool B in un altro pool accoppiato esistente per ottenere ulteriore resilienza. Per informazioni dettagliate, vedere [Move-CsManagementServer](move-csmanagementserver.md).
+    È quindi consigliabile spostare il server di archivio centrale dal pool B in un altro pool accoppiato esistente per ottenere ulteriore resilienza. Per informazioni dettagliate, vedere [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer).
 
 3.  Se il pool A contiene il server di gestione centrale, importare la configurazione LIS dal database LIS (Lis.mdf) del pool A a quello del pool B. Ciò funzionerà solo se è stato eseguito un backup regolare dei dati LIS. Per importare la configurazione LIS, eseguire i cmdlet seguenti:
     

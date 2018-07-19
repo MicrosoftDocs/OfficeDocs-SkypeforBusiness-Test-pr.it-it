@@ -43,7 +43,7 @@ Le notifiche Push, sotto forma di riquadri, icone o avvisi, possono essere invia
         EnableApplePushNotificationService     : False
         EnableMicrosoftPushNotificationService : False
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration).
 
 ## Vedere anche
 

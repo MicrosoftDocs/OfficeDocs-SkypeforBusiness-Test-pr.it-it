@@ -21,7 +21,7 @@ Tutti questi cmdlet vengono inviati tramite Lync Server Management Shell, dispon
 
 ## Argomenti della sezione
 
-  - [New-CsAddressBookConfiguration per la gestione della rubrica](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [new-csaddressbookconfiguration per la gestione della rubrica](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
 
   - [Set-CsAddressBookConfiguration per la gestione della rubrica](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Tutti questi cmdlet vengono inviati tramite Lync Server Management Shell, dispon
 
   - [Get-CsService per la gestione della rubrica](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [New-CsWebServiceConfiguration per la gestione della rubrica](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [new-cswebserviceconfiguration per la gestione della rubrica](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
 
   - [Get-CsWebServiceConfiguration per la gestione della rubrica](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

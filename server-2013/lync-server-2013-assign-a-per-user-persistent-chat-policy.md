@@ -121,7 +121,7 @@ Per assegnare i criteri di chat persistente per utente, è inoltre possibile uti
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy).
 
 ## Vedere anche
 

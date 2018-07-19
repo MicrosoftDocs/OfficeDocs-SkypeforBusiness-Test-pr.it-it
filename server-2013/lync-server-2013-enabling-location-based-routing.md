@@ -31,7 +31,7 @@ Dopo aver distribuito il VoIP aziendale e configurato i siti di rete, è possibi
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-Per ulteriori informazioni, vedere [New-CsVoiceRoutingPolicy](new-csvoiceroutingpolicy.md).
+Per ulteriori informazioni, vedere [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy).
 
 In questo esempio la tabella seguente e i comandi di Windows PowerShell illustrano due criteri di routing vocale con i relativi utilizzi PSTN associati definiti in questo scenario. Nella tabella sono incluse a titolo di esempio solo le impostazioni specifiche del routing in base alla posizione.
 
@@ -123,7 +123,7 @@ Prima di poter abilitare una configurazione trunk per il routing in base alla po
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-Per ulteriori informazioni, vedere [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Per ulteriori informazioni, vedere [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 In questo esempio vengono utilizzati i comandi di Windows PowerShell seguenti per creare una configurazione trunk per ogni trunk della distribuzione definita in questo scenario.
 
@@ -132,23 +132,23 @@ In questo esempio vengono utilizzati i comandi di Windows PowerShell seguenti pe
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Dopo aver applicato la configurazione trunk a ogni trunk, è possibile utilizzare il comando Set-CsTrunkConfiguration di Lync ServerWindows PowerShell per abilitare il routing in base alla posizione per i trunk che devono applicare le limitazioni del routing. Abilitare il routing in base alla posizione per i trunk che instradano le chiamate ai gateway PSTN che instradano le chiamate a PSTN e associare il sito di rete in cui si trova il gateway.
+Dopo aver applicato la configurazione trunk a ogni trunk, è possibile utilizzare il comando set-cstrunkconfiguration di Lync ServerWindows PowerShell per abilitare il routing in base alla posizione per i trunk che devono applicare le limitazioni del routing. Abilitare il routing in base alla posizione per i trunk che instradano le chiamate ai gateway PSTN che instradano le chiamate a PSTN e associare il sito di rete in cui si trova il gateway.
 
-    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-Per ulteriori informazioni, vedere [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Per ulteriori informazioni, vedere [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 In questo esempio il routing in base alla posizione viene abilitato per ogni trunk associato ai gateway PSTN di Delhi e Hyderabad:
 
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 Anche se non è necessario abilitare il routing in base alla posizione per i trunk che non instradano le chiamate a PSTN, il trunk deve essere comunque associato al sito di rete in cui si trova il sistema. Le limitazioni del routing in base alla posizione devono infatti essere applicate per le chiamate PSTN che raggiungono gli endpoint connessi tramite il trunk. In questo esempio il routing in base alla posizione non viene abilitato per tutti i trunk associati ai sistemi PBX di Delhi e Hyderabad:
 
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 Agli endpoint connessi ai sistemi che non instradano le chiamate a PSTN, ad esempio PBX, verranno applicate limitazioni simili a quelle applicate agli endpoint di Lync per gli utenti abilitati per il routing in base alla posizione. Ciò significa che tali utenti potranno ricevere ed effettuare chiamate da e verso gli utenti Lync indipendentemente dalla loro posizione. Potranno inoltre ricevere ed effettuare chiamate da e verso altri sistemi che non instradano le chiamate alla rete PSTN, ad esempio un endpoint connesso a un altro PBX, indipendentemente dal sito di rete a cui i sistemi sono associati. Tutte le chiamate in ingresso e le chiamate in uscita, nonché tutti i trasferimenti e gli inoltri di chiamata che coinvolgono gli endpoint PSTN saranno soggetti all'applicazione del routing in base alla posizione. Tali chiamate devono utilizzare solo i gateway PSTN definiti come locali in questi sistemi.
@@ -201,7 +201,7 @@ Per applicare il routing in base alla posizione a utenti specifici, è necessari
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-Per ulteriori informazioni, vedere [New-CsVoicePolicy](new-csvoicepolicy.md).
+Per ulteriori informazioni, vedere [New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy).
 
 In questo esempio la tabella seguente e i comandi di Windows PowerShell illustrano come impedire il bypass delle chiamate a tariffa PSTN per i criteri vocali di Delhi e Hyderabad definiti in questo scenario. Nella tabella sono incluse a titolo di esempio solo le impostazioni specifiche del routing in base alla posizione.
 
@@ -249,7 +249,7 @@ Infine, abilitare globalmente il routing in base alla posizione nella configuraz
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-Per ulteriori informazioni, vedere [Set-CsRoutingConfiguration](set-csroutingconfiguration.md).
+Per ulteriori informazioni, vedere [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
 
 > [!NOTE]

@@ -45,5 +45,5 @@ Utilizzare la procedura seguente per le informazioni della applicazioni affidabi
         ExUmEnabled            : False
         Enabled                : True
 
-For details, see [Get-CsTrustedApplication](get-cstrustedapplication.md).
+For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
 

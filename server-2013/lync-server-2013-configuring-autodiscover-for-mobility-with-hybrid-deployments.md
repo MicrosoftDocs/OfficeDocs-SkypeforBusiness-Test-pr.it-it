@@ -44,5 +44,5 @@ Per abilitare i client mobili per l'individuazione della distribuzione in cui si
 #### Ulteriori risorse
 
 [Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](set-cshostingprovider.md)
+[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
 

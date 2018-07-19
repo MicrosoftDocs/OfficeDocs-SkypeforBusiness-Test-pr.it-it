@@ -65,5 +65,5 @@ I criteri di accesso esterno per utente possono essere assegnati tramite Windows
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

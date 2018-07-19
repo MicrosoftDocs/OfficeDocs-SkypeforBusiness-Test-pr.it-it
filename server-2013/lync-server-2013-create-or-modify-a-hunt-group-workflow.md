@@ -265,7 +265,7 @@ Eseguire una delle procedure seguenti per creare o modificare il flusso di lavor
     
 
     > [!NOTE]
-    > Per utilizzare un file audio per il messaggio, eseguire il cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Per informazioni dettagliate, vedere <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > Per utilizzare un file audio per il messaggio, eseguire il cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Per informazioni dettagliate, vedere <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -273,7 +273,7 @@ Eseguire una delle procedure seguenti per creare o modificare il flusso di lavor
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    Per informazioni dettagliate sulla creazione della coda, vedere [New-CsRgsQueue](new-csrgsqueue.md).
+    Per informazioni dettagliate sulla creazione della coda, vedere [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Definire l'azione predefinita da eseguire quando viene aperto un flusso di lavoro durante l'orario di ufficio e salvarla in una variabile. Nella riga di comando digitare il comando seguente:
     
@@ -290,7 +290,7 @@ Eseguire una delle procedure seguenti per creare o modificare il flusso di lavor
 
 6.  Se si desidera definire l'orario di ufficio e le festività, è necessario eseguire questa operazione prima della creazione o della modifica del flusso di lavoro. Per informazioni dettagliate, vedere [Definire l'orario di ufficio dei Response Group (facoltativo) in Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) e [Definire gli insiemi di festività dei Response Group (facoltativo)](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  Se si desidera fare in modo che vengano inviati avvisi per le chiamate ricevute al di fuori dell'orario di ufficio o durante le festività, utilizzare il cmdlet **New-CsRgsPrompt** per definire l'avviso e il cmdlet **New-CsRgsCallAction** per definire l'azione da eseguire dopo l'avviso. Per informazioni dettagliate, vedere [New-CsRgsPrompt](new-csrgsprompt.md) e [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  Se si desidera fare in modo che vengano inviati avvisi per le chiamate ricevute al di fuori dell'orario di ufficio o durante le festività, utilizzare il cmdlet **New-CsRgsPrompt** per definire l'avviso e il cmdlet **New-CsRgsCallAction** per definire l'azione da eseguire dopo l'avviso. Per informazioni dettagliate, vedere [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) e [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Recuperare il nome del servizio per Lync Server, Response Group Service e assegnarlo a una variabile. Nella riga di comando digitare il comando seguente:
     
@@ -319,7 +319,7 @@ Eseguire una delle procedure seguenti per creare o modificare il flusso di lavor
     
 
     > [!NOTE]
-    > Per informazioni dettagliate su ulteriori parametri facoltativi, vedere <A href="new-csrgsworkflow.md">New-CsRgsWorkflow</A> o <A href="set-csrgsworkflow.md">Set-CsRgsWorkflow</A>
+    > Per informazioni dettagliate su ulteriori parametri facoltativi, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> o <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
 
 
@@ -335,8 +335,8 @@ Eseguire una delle procedure seguenti per creare o modificare il flusso di lavor
 
 #### Ulteriori risorse
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

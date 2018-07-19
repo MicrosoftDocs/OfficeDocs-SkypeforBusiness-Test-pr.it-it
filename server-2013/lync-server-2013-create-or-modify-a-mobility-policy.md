@@ -79,7 +79,7 @@ In ambito sito o utente è possibile creare i criteri dispositivi mobili anche u
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
-Per informazioni dettagliate, vedere l'argomento della Guida per i cmdlet [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) e [Set-CsMobilityPolicy](set-csmobilitypolicy.md).
+Per informazioni dettagliate, vedere l'argomento della Guida per i cmdlet [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) e [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy).
 
 ## Vedere anche
 

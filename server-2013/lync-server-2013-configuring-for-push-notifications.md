@@ -132,5 +132,5 @@ Per configurare la topologia in modo da supportare le notifiche push, eseguire l
 #### Ulteriori risorse
 
 [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
 

@@ -73,7 +73,7 @@ Le impostazioni di configurazione consistono nel nome della raccolta, l'ambito (
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-Per informazioni dettagliate, vedere [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md).
+Per informazioni dettagliate, vedere [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration).
 
 ## Vedere anche
 

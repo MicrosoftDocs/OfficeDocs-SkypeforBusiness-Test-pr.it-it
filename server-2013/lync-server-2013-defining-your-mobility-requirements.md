@@ -155,7 +155,7 @@ Di seguito sono elencate le decisioni da considerare:
     </tbody>
     </table>
     
-    Per una descrizione delle impostazioni criteri configurabili e della gestione dei criteri, vedere [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) e [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Per una descrizione delle impostazioni criteri configurabili e della gestione dei criteri, vedere [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) e [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Partecipazione alle conferenze con un clic da parte degli utenti non abilitati per VoIP aziendale**
     

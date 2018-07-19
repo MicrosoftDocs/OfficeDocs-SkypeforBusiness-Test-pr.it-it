@@ -127,7 +127,7 @@ Per informazioni dettagliate sulla creazione di criteri per il PIN per utente pe
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per informazioni dettagliate, vedere [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Per informazioni dettagliate, vedere [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Vedere anche
 

@@ -121,7 +121,7 @@ I criteri dispositivi mobili rappresentano una delle singole impostazioni di un 
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per informazioni dettagliate, vedere [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Per informazioni dettagliate, vedere [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Vedere anche
 

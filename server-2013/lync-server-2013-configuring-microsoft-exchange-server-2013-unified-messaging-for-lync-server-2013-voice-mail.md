@@ -67,7 +67,7 @@ Dopo averne abilitato la cassetta postale, l'utente kenmyer@litwareinc.com dovre
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Se è presente un secondo utente per cui è stata abilitata la messaggistica unificata, è possibile utilizzare il cmdlet [Test-CsExUMVoiceMail](test-csexumvoicemail.md) per verificare che possa lasciare un messaggio della segreteria telefonica per il primo utente.
+Se è presente un secondo utente per cui è stata abilitata la messaggistica unificata, è possibile utilizzare il cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) per verificare che possa lasciare un messaggio della segreteria telefonica per il primo utente.
 
     $credential = Get-Credential "litwareinc\pilar"
     

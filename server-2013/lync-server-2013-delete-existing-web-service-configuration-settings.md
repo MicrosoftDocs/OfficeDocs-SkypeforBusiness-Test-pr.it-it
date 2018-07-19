@@ -53,7 +53,7 @@ Eseguire la procedura seguente per eliminare criteri del servizio Web.
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
-Per informazioni dettagliate, vedere [Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md).
+Per informazioni dettagliate, vedere [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration).
 
 ## Vedere anche
 

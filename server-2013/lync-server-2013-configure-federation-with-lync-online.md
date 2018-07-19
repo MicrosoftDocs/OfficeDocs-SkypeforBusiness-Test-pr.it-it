@@ -55,5 +55,5 @@ Per ulteriori informazioni su come usare il modulo PowerShell di Skype for Busin
 
 #### Ulteriori risorse
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

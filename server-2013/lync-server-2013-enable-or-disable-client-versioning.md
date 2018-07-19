@@ -53,5 +53,5 @@ Le impostazioni di configurazione della versione client vengono utilizzate per a
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

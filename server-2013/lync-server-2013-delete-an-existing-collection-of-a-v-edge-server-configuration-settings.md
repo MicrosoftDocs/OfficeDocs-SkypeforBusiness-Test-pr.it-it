@@ -21,7 +21,7 @@ Quando si installa Lync Server, viene creata automaticamente una raccolta global
 
 È comunque possibile utilizzare il cmdlet Remove-CsAVEdgeConfiguration per eliminare le raccolte di impostazioni personalizzate create con ambito sito o con ambito servizio. Se si eliminano le impostazioni a livello di sito, i server A/V Edge in tale sito verranno gestiti dalle impostazioni globali. Se si eliminano le impostazioni con ambito servizio, il server verrà gestito dalle impostazioni a livello sito, se esistenti, o dalle impostazioni globali se non sono disponibili impostazioni a livello di sito.
 
-Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration).
 
 ## Reimpostazione della raccolta globale
 
@@ -51,5 +51,5 @@ Per ulteriori informazioni, vedere l'argomento della guida relativo al cmdlet [R
 #### Ulteriori risorse
 
 [Audio/Video (A/V) Edge Server in Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

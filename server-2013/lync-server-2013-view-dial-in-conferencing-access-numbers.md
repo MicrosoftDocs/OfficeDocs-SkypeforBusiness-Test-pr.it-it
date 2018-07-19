@@ -54,5 +54,5 @@ I numeri di accesso per le conferenze telefoniche con accesso esterno possono an
         HostingProvider    :
         Regions            : {US}
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber).
 

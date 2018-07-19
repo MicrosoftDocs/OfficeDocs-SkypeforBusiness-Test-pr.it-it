@@ -68,8 +68,8 @@ Non è possibile modificare i **Siti associati** in questa pagina. L'elenco dei 
 
 #### Ulteriori risorse
 
-[New-CsNetworkRegion](new-csnetworkregion.md)  
-[Set-CsNetworkRegion](set-csnetworkregion.md)  
-[Remove-CsNetworkRegion](remove-csnetworkregion.md)  
-[Get-CsNetworkRegion](get-csnetworkregion.md)
+[New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)  
+[Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)  
+[Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)  
+[Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 

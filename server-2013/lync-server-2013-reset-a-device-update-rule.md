@@ -85,7 +85,7 @@ Le regole di aggiornamento dispositivi possono essere reimpostate anche mediante
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md).
+Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule).
 
 ## Vedere anche
 

@@ -55,5 +55,5 @@ Eseguire questa procedura per eliminare un criterio di conferenza a livello di u
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
-Per informazioni dettagliate, vedere [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md).
+Per informazioni dettagliate, vedere [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
 

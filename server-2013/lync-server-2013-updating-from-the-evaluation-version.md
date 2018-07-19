@@ -43,7 +43,7 @@ Se non si è certi che la versione di Lync Server in esecuzione in un determinat
 
     Get-CsServerVersion
 
-Il cmdlet [Get-CsServerVersion](get-csserverversion.md) analizzerà il computer locale e fornirà una delle indicazioni seguenti:
+Il cmdlet [Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) analizzerà il computer locale e fornirà una delle indicazioni seguenti:
 
   - Il codice del contratto multilicenza di Lync Server è installato nel computer e ciò indica che non è necessario l'aggiornamento.
 

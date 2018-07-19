@@ -106,7 +106,7 @@ Al primo avvio di un nuovo pool Front End, è fondamentale che l'85% dei server 
 </table>
 
 
-A ogni avvio successivo del pool, sarà necessario l'avvio dell'85% dei server (come illustrato nella tabella precedente). Se non è possibile raggiungere questa soglia ma è comunque possibile avviare un numero di server sufficiente a non determinare la perdita del quorum a livello di pool, è possibile utilizzare il cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** per consentire al pool di eseguire il recupero dalla perdita del quorum a livello di gruppo di routing e proseguire. Per ulteriori informazioni sull'utilizzo del cmdlet, vedere [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md).
+A ogni avvio successivo del pool, sarà necessario l'avvio dell'85% dei server (come illustrato nella tabella precedente). Se non è possibile raggiungere questa soglia ma è comunque possibile avviare un numero di server sufficiente a non determinare la perdita del quorum a livello di pool, è possibile utilizzare il cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** per consentire al pool di eseguire il recupero dalla perdita del quorum a livello di gruppo di routing e proseguire. Per ulteriori informazioni sull'utilizzo del cmdlet, vedere [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
 
 > [!NOTE]
@@ -193,7 +193,7 @@ Per aggiornare o applicare la patch ai server di un pool Front End, è necessari
 
   - Non passare al dominio di aggiornamento successivo se uno dei server nell'ultimo dominio di aggiornamento a cui è stata applicata la patch è bloccato o non è stato riavviato. Lo stesso vale se non è possibile avviare uno dei server di un aggiornamento. Eseguire **Get-CsPoolFabricState** per verificare che tutti i gruppi di routing dispongano di un'istanza primaria e almeno di un'istanza secondaria. In questo modo sarà possibile accertarsi che tutti gli utenti dispongano del servizio.
 
-  - Se alcuni utenti dispongono del servizio e altri no, eseguire **Get-CsPoolFabricState** con l'opzione –Verbose per individuare i gruppi di routing con repliche mancanti. Non riavviare l'intero pool come primo tentativo di risoluzione del problema. Per ulteriori informazioni sul cmdlet, vedere [Get-CsPoolFabricState](get-cspoolfabricstate.md).
+  - Se alcuni utenti dispongono del servizio e altri no, eseguire **Get-CsPoolFabricState** con l'opzione –Verbose per individuare i gruppi di routing con repliche mancanti. Non riavviare l'intero pool come primo tentativo di risoluzione del problema. Per ulteriori informazioni sul cmdlet, vedere [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState).
 
   - Verificare che tutte le istanze delle finestre di Visualizzatore eventi o Performance Monitor vengano chiuse per le installazioni e disinstallazioni di Windows Fabric.
 
