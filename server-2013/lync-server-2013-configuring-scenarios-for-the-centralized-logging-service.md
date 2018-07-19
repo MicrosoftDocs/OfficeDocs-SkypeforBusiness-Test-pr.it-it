@@ -25,7 +25,7 @@ Gli scenari definiscono l'ambito (globale, sito, pool o computer) e i provider d
 </thead>
 <tbody>
 <tr class="odd">
-<td>Per un determinato ambito (sito, globale, pool o computer), è possibile eseguire un massimo di due scenari alla volta. Per determinare quali scenari sono in esecuzione, utilizzare Windows PowerShell e <a href="get-csclsscenario.md">Get-CsClsScenario</a>. Con Windows PowerShell e <a href="set-csclsscenario.md">Set-CsClsScenario</a> è possibile modificare dinamicamente gli scenari in esecuzione. È possibile modificare gli scenari durante una sessione di registrazione, al fine di regolare o rifinire i dati che vengono raccolti, nonché i provider.</td>
+<td>Per un determinato ambito (sito, globale, pool o computer), è possibile eseguire un massimo di due scenari alla volta. Per determinare quali scenari sono in esecuzione, utilizzare Windows PowerShell e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell e <a href="set-csclsscenario.md">Set-CsClsScenario</a> è possibile modificare dinamicamente gli scenari in esecuzione. È possibile modificare gli scenari durante una sessione di registrazione, al fine di regolare o rifinire i dati che vengono raccolti, nonché i provider.</td>
 </tr>
 </tbody>
 </table>

@@ -45,7 +45,7 @@ Dopo aver creato il nuovo criterio, bisognerà assegnarlo agli utenti ai quali s
 
 Dopo che il criterio è stato assegnato, Lync Server inizierà a migrare i contatti dell'utente verso l'archivio unificato per i contatti. Al termine della migrazione, i contatti dell'utente saranno archiviati in Exchange e non in Lync Server. Se l'utente ha effettuato l'accesso a Lync 2013 al termine della migrazione, una casella di testo chiederà di disconnettersi da Lync e connettersi nuovamente per finalizzare il processo. I contatti degli utenti ai quali non è stato assegnato questo criterio per utente non verranno migrati all'archivio unificato per i contatti. Tali utenti vengono infatti gestiti dal criterio globale in cui è stato disabilitato l'archivio unificato.
 
-È possibile verificare che i contatti di un utente sono stati migrati correttamente all'archivio unificato per i contatti, eseguendo il cmdlet [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) da Lync Server Management Shell:
+È possibile verificare che i contatti di un utente sono stati migrati correttamente all'archivio unificato per i contatti, eseguendo il cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) da Lync Server Management Shell:
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 

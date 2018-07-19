@@ -32,11 +32,11 @@ I due comandi sono identici perché, per impostazione predefinita, se non si inc
 
 I cmdlet seguenti funzionano solo nell'ambito globale:
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
 
   - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
 
   - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
 
@@ -50,7 +50,7 @@ I cmdlet seguenti funzionano solo nell'ambito globale:
 
   - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 
 Si noti che il cmdlet **Remove-CsVoicePolicy** costituisce un'anomalia. Prima di tutto non richiede l'inclusione del parametro Identity:
 

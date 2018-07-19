@@ -124,7 +124,7 @@ Dove $LyssProvider è la variabile che contiene lo scenario definito creato con 
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-Il risultato finale del comando è l'aggiornamento dei flag per lo scenario site:Redmond/RedmondLyssInfo e l'assegnazione del livello per il provider. Per visualizzare il nuovo scenario, utilizzare Get-CsClsScenario. Per informazioni dettagliate, vedere [Get-CsClsScenario](get-csclsscenario.md).
+Il risultato finale del comando è l'aggiornamento dei flag per lo scenario site:Redmond/RedmondLyssInfo e l'assegnazione del livello per il provider. Per visualizzare il nuovo scenario, utilizzare Get-CsClsScenario. Per informazioni dettagliate, vedere [Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario).
 
 
 > [!WARNING]
@@ -168,7 +168,7 @@ Quando si rimuove uno scenario tramite il cmdlet **Remove-CsClsScenario**, si ri
 
 #### Ulteriori risorse
 
-[Get-CsClsScenario](get-csclsscenario.md)  
+[Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario)  
 [New-CsClsScenario](new-csclsscenario.md)  
 [Remove-CsClsScenario](remove-csclsscenario.md)  
 [Set-CsClsScenario](set-csclsscenario.md)  

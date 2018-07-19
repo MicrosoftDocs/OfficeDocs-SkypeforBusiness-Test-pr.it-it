@@ -19,7 +19,7 @@ Nelle tabelle di questo argomento sono elencate tutte le impostazioni dei criter
 
 ## Impostazione dei criteri per organizzatori
 
-Nella tabella seguente sono elencate tutte le impostazioni dei criteri di conferenza applicabili agli organizzatori di conferenze. Per l'elenco aggiornato delle impostazioni dei criteri di conferenza, vedere l'argomento della Guida per il cmdlet [Set-CsClientPolicy](set-csclientpolicy.md).
+Nella tabella seguente sono elencate tutte le impostazioni dei criteri di conferenza applicabili agli organizzatori di conferenze. Per l'elenco aggiornato delle impostazioni dei criteri di conferenza, vedere l'argomento della Guida per il cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 ### Impostazione dei criteri per organizzatori
 

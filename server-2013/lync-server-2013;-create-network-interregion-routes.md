@@ -21,7 +21,7 @@ Se i collegamenti di area impostano limitazioni della larghezza di banda per le 
 
 Per informazioni dettagliate sull'utilizzo delle route tra aree di rete, vedere la documentazione di Lync Server Management Shell per i cmdlet seguenti:
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
   - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
 

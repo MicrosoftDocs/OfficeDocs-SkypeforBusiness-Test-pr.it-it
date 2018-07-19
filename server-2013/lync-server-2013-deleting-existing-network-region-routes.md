@@ -49,7 +49,7 @@ Ogni area di una configurazione di controllo di ammissione di chiamata deve in q
 
 #### Ulteriori risorse
 
-[New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)  
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 [Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)  
 [Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)  
 [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)

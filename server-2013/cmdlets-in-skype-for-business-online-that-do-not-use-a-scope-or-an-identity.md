@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2015-06-22_
 
 I cmdlet usati per modificare gli elenchi di domini autorizzati e bloccati (elenchi che determinano con quali organizzazioni esterne possono comunicare gli utenti) non usano né un ambito né un'identità. Il cmdlet **New-CsEdgeAllowAllKnownDomains** non ha di fatto parametri di alcun tipo. I cmdlet che non usano né un ambito né un'identità sono:
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
   - [New-CsEdgeAllowList](new-csedgeallowlist.md)
 

@@ -55,7 +55,7 @@ I criteri di accesso esterno per utente possono essere assegnati tramite Windows
 
 ## Per assegnare criteri di accesso esterno per utente a più utenti
 
-  - Questo comando assegna il criterio di accesso esterno per utente USAExternalAccessPolicy a tutti gli utenti che dispongono di account nell'unità organizzativa UnitedStates in Active Directory. Per maggiori informazioni sul parametro OU (unità organizzativa) utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](get-csuser.md).
+  - Questo comando assegna il criterio di accesso esterno per utente USAExternalAccessPolicy a tutti gli utenti che dispongono di account nell'unità organizzativa UnitedStates in Active Directory. Per maggiori informazioni sul parametro OU (unità organizzativa) utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 

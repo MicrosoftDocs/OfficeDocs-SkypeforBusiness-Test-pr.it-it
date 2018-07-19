@@ -31,5 +31,5 @@ Per una descrizione dettagliata del comando completo, fare riferimento all'argom
 
 #### Ulteriori risorse
 
-[Set-CsClientPolicy](set-csclientpolicy.md)
+[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy)
 

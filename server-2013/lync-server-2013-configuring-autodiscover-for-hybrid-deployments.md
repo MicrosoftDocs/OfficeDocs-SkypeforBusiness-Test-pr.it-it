@@ -43,6 +43,6 @@ Per abilitare i client per l'individuazione della distribuzione in cui si trova 
 
 #### Ulteriori risorse
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
 [Set-CsHostingProvider](set-cshostingprovider.md)
 

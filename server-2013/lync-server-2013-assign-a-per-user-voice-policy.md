@@ -65,7 +65,7 @@ I criteri vocali per utente possono anche essere assegnati mediante Windows Powe
 
 ## Assegnazione di un criterio vocale per utente a più utenti
 
-  - Questo comando assegnare il criterio vocale per utente FinanceVoicePolicy a tutti gli utenti con account nell'unità organizzativa Finance in Active Directory. Per ulteriori informazioni nel parametro OU usato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](get-csuser.md).
+  - Questo comando assegnare il criterio vocale per utente FinanceVoicePolicy a tutti gli utenti con account nell'unità organizzativa Finance in Active Directory. Per ulteriori informazioni nel parametro OU usato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -75,7 +75,7 @@ I criteri vocali per utente possono anche essere assegnati mediante Windows Powe
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## Vedere anche
 

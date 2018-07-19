@@ -143,7 +143,7 @@ Nella tabella seguente sono riportati i client supportati dal routing in base al
 
 
 > [!NOTE]
-> Per disabilitare la funzionalità VoIP per i client di Lync Mobile 2013, assegnare un criterio dei dispositivi mobili con l'impostazione Abilita audio/video IP disabilitata per tutti gli utenti per i quali è abilitato il routing in base alla posizione. Per ulteriori dettagli sui criteri dei dispositivi mobili, vedere <A href="new-csmobilitypolicy.md">New-CsMobilityPolicy</A>.
+> Per disabilitare la funzionalità VoIP per i client di Lync Mobile 2013, assegnare un criterio dei dispositivi mobili con l'impostazione Abilita audio/video IP disabilitata per tutti gli utenti per i quali è abilitato il routing in base alla posizione. Per ulteriori dettagli sui criteri dei dispositivi mobili, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 

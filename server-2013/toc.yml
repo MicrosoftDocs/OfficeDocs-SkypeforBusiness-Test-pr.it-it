@@ -2561,12 +2561,12 @@
     - name: Panoramica delle distribuzioni ibride
       href: lync-server-2013-overview-of-hybrid-deployments.md
     - name: Pianificazione delle distribuzioni ibride
-      href: jj205406(v=ocs.15).md
+      href: lync-server-2013-overview-of-hybrid-deployments.md
       items:
       - name: Pianificazione delle distribuzioni ibride di Lync Server
-        href: jj205403(v=ocs.15).md
+        href: lync-server-2013-planning-for-hybrid-deployments.md
       - name: Configurazioni ibride supportate
-        href: jj945633(v=ocs.15).md
+        href: lync-server-2013-supported-hybrid-configurations.md
     - name: Configurazione di distribuzioni ibride
       href: lync-server-2013-configuring-hybrid-deployments.md
       items:

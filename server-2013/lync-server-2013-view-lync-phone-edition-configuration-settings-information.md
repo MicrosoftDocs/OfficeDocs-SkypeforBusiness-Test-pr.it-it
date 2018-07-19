@@ -49,7 +49,7 @@ Le impostazioni di configurazione di Lync Phone Edition possono essere inoltre v
         Voice8021p           : 0
         LoggingLevel         : Off
 
-Per informazioni dettagliate vedere [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+Per informazioni dettagliate vedere [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 ## Vedere anche
 

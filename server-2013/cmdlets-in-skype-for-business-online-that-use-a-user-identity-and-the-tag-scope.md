@@ -42,7 +42,7 @@ Per ottenere le identità di tutti i criteri per utente, o almeno tutti i criter
 
 I cmdlet seguenti usano sia l'identità utente che l'ambito tag:
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
   - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
 
@@ -52,7 +52,7 @@ I cmdlet seguenti usano sia l'identità utente che l'ambito tag:
 
   - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Vedere anche
 

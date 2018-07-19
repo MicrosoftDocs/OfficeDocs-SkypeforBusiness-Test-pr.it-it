@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2015-06-22_
 
-Per ottenere informazioni sui provider di servizi di audioconferenza con cui l'organizzazione ha stipulato un contratto, è possibile chiamare semplicemente il cmdlet [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) senza parametri:
+Per ottenere informazioni sui provider di servizi di audioconferenza con cui l'organizzazione ha stipulato un contratto, è possibile chiamare semplicemente il cmdlet [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) senza parametri:
 
     Get-CsAudioConferencingProvider
 
@@ -25,7 +25,7 @@ Se si desidera limitare i dati restituiti a un solo provider (in questo esempio,
 
 Esiste un solo cmdlet di Skype for Business online che accetta l'ID di un provider di servizi di audioconferenza:
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
 
 ## Vedere anche
 

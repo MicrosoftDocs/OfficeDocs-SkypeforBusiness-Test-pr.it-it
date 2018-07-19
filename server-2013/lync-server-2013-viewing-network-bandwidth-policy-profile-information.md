@@ -49,7 +49,7 @@ Nel servizio Controllo di ammissione di chiamata (CAC) viene utilizzato un crite
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
 ## Vedere anche
 

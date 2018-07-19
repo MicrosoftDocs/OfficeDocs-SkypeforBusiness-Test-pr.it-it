@@ -125,7 +125,7 @@ Quando si configurano i criteri per il supporto di partner federati XMPP (Extens
 #### Ulteriori risorse
 
 [Gestire i partner federati XMPP per l'organizzazione in Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
 [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
 [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  

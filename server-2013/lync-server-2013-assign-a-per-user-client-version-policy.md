@@ -117,7 +117,7 @@ Per informazioni dettagliate sulla creazione di criteri di versione client per u
 
 ## Per assegnare un criterio di versione client per utente a più utenti
 
-  - Il comando assegna il criterio di versione client per utente RedmondClientVersionPolicy a tutti gli utenti a cui è attualmente assegnato il criterio vocale RedmondVoicePolicy. Per ulteriori informazioni sul parametro Filter utilizzato in questo comando, consultare la documentazione relativa al cmdlet [Get-CsUser](get-csuser.md).
+  - Il comando assegna il criterio di versione client per utente RedmondClientVersionPolicy a tutti gli utenti a cui è attualmente assegnato il criterio vocale RedmondVoicePolicy. Per ulteriori informazioni sul parametro Filter utilizzato in questo comando, consultare la documentazione relativa al cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 

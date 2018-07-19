@@ -111,7 +111,7 @@ I criteri dispositivi mobili rappresentano una delle singole impostazioni di un 
 
 ## Per assegnare criteri dispositivi mobili per utente a più utenti
 
-  - Il comando seguente assegna il criterio dispositivi mobili per utente RedmondMobilityPolicy a tutti gli utenti a cui è attualmente assegnato il criterio NorthAmericaMobilityPolicy. Per informazioni dettagliate sul parametro Filter utilizzato nel comando, vedere [Get-CsUser](get-csuser.md).
+  - Il comando seguente assegna il criterio dispositivi mobili per utente RedmondMobilityPolicy a tutti gli utenti a cui è attualmente assegnato il criterio NorthAmericaMobilityPolicy. Per informazioni dettagliate sul parametro Filter utilizzato nel comando, vedere [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 

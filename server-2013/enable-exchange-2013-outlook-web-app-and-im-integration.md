@@ -25,7 +25,7 @@ Per abilitare l'integrazione di Exchange 2013 Outlook Web Access (OWA) e della m
     
         Get-CsSite
     
-    Verrà restituito l'ID sito per il nome del sito in cui si sta creando il pool. Per informazioni dettagliate, vedere [Get-CsSite](get-cssite.md) nella documentazione di Lync Server 2013 Management Shell.
+    Verrà restituito l'ID sito per il nome del sito in cui si sta creando il pool. Per informazioni dettagliate, vedere [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) nella documentazione di Lync Server 2013 Management Shell.
 
 3.  Eseguire il cmdlet seguente:
     

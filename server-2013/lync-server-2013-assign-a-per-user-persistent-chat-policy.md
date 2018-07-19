@@ -111,7 +111,7 @@ Per assegnare i criteri di chat persistente per utente, è inoltre possibile uti
 
 ## Assegnazione di criteri di chat persistente per utente a più utenti
 
-  - Questo comando consente di assegnare i criteri di chat persistente per utente RedmondUsersPersistentChatPolicy a tutti gli utenti che fanno parte del reparto IT. Per ulteriori informazioni sul parametro LdapFilter utilizzato in questo comando, vedere la documentazione per il cmdlet [Get-CsUser](get-csuser.md).
+  - Questo comando consente di assegnare i criteri di chat persistente per utente RedmondUsersPersistentChatPolicy a tutti gli utenti che fanno parte del reparto IT. Per ulteriori informazioni sul parametro LdapFilter utilizzato in questo comando, vedere la documentazione per il cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 

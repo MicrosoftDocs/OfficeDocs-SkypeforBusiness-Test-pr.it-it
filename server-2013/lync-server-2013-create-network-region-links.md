@@ -19,7 +19,7 @@ Le aree all'interno di una rete sono collegate tramite connettività fisica WAN.
 
 Per informazioni dettagliate sull'utilizzo di collegamenti area di rete, vedere la documentazione di Lync Server Management Shell per i cmdlet seguenti:
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
   - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
 

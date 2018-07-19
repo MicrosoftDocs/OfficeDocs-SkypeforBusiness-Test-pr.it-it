@@ -52,5 +52,5 @@ Per abilitare o disabilitare l'hotdesking in un telefono, si utilizza il paramet
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
-Per informazioni dettagliate, vedere gli argomenti della Guida per i cmdlet [New-CsClientPolicy](new-csclientpolicy.md) e [Set-CsClientPolicy](set-csclientpolicy.md).
+Per informazioni dettagliate, vedere gli argomenti della Guida per i cmdlet [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) e [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 

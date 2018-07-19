@@ -19,7 +19,7 @@ Lync Server 2013 include un'interfaccia di servizio Web standard che può essere
 
 Se è installata un'applicazione SNMP e il servizio Informazioni percorso non riesce a trovare una corrispondenza nel database delle posizioni, il servizio Informazioni percorso inoltrerà automaticamente una query all'applicazione tramite l'indirizzo MAC fornito dal client. Il servizio Informazioni percorso utilizzerà quindi le informazioni su porta e commutatore restituite dall'applicazione SNMP per rieseguire la query nel database delle posizioni.
 
-Per informazioni dettagliate, vedere [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md).
+Per informazioni dettagliate, vedere [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
 
 > [!NOTE]

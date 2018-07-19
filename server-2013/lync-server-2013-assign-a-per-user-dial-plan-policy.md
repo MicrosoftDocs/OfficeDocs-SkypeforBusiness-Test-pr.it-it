@@ -69,7 +69,7 @@ Per informazioni dettagliate sull'assegnazione di un dial plan utente o sull'ese
 
 ## Assegnazione di un dial plan per utente a più utenti
 
-  - Questo comando assegna il dial plan per utente RedmondDialPlan a tutti gli utenti che lavorano nella città di Redmond. Per ulteriori informazioni sul parametro LdapFilter utilizzato nel comando, vedere la documentazione relativa al cmdlet [Get-CsUser](get-csuser.md).
+  - Questo comando assegna il dial plan per utente RedmondDialPlan a tutti gli utenti che lavorano nella città di Redmond. Per ulteriori informazioni sul parametro LdapFilter utilizzato nel comando, vedere la documentazione relativa al cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 

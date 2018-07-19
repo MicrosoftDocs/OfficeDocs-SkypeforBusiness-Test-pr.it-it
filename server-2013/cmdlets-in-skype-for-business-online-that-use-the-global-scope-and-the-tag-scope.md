@@ -39,7 +39,7 @@ Per restituire tutti i criteri, eccetto quelli globali, ovvero tutti i criteri p
 
 I cmdlet seguenti funzionano sia nell'ambito globale che in quello per utente (tag):
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
   - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
 

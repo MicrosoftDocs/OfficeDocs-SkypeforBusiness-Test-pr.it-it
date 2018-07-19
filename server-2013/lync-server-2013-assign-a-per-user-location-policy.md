@@ -119,7 +119,7 @@ Per informazioni dettagliate sulla creazione di criteri percorso, vedere [Creare
 
 ## Per assegnare un criterio percorso per utente a più utenti
 
-  - Questo comando assegna il criterio percorso per utente AccountingDepartmentLocationPolicy a tutti gli utenti che lavorano per il reparto Contabilità. Per ulteriori informazioni sul parametro LdapFilter utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](get-csuser.md).
+  - Questo comando assegna il criterio percorso per utente AccountingDepartmentLocationPolicy a tutti gli utenti che lavorano per il reparto Contabilità. Per ulteriori informazioni sul parametro LdapFilter utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 

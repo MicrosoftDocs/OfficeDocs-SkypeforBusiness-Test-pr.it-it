@@ -25,7 +25,7 @@ Per fornire agli utenti di Lync Server 2013 delle funzionalità di segreteria te
 
 Per informazioni dettagliate, vedere la documentazione di Lync Server Management Shell relativa a cmdlet seguenti:
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
   - [New-CsHostingProvider](new-cshostingprovider.md)
 

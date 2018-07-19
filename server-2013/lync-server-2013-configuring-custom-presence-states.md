@@ -82,7 +82,7 @@ Localizzare lo stato di presenza personalizzato specificando uno o più schemi d
 
 5.  Utilizzare il cmdlet **Grant-CSClientPolicy** per assegnare questo nuovo criterio agli utenti.
 
-Per informazioni dettagliate, vedere [New-CsClientPolicy](new-csclientpolicy.md) e [Grant-CsClientPolicy](grant-csclientpolicy.md) nella documentazione di Lync Server Management Shell.
+Per informazioni dettagliate, vedere [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) e [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) nella documentazione di Lync Server Management Shell.
 
 
 > [!NOTE]
