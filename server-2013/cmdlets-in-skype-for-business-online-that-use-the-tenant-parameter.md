@@ -19,7 +19,7 @@ Quando si modificano le impostazioni del provider pubblico, è sempre necessario
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Per fortuna, non è necessario digitare l'ID del tenant (ad esempio, bf19b7db-6960-41e5-a139-2aa373474354) ogni volta che si esegue uno di questi cmdlet. È infatti possibile recuperare l'ID eseguendo il cmdlet [Get-CsTenant](get-cstenant.md), archiviare l'ID in una variabile e quindi usare tale variabile quando si chiama uno degli altri cmdlet. Ad esempio:
+Per fortuna, non è necessario digitare l'ID del tenant (ad esempio, bf19b7db-6960-41e5-a139-2aa373474354) ogni volta che si esegue uno di questi cmdlet. È infatti possibile recuperare l'ID eseguendo il cmdlet [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), archiviare l'ID in una variabile e quindi usare tale variabile quando si chiama uno degli altri cmdlet. Ad esempio:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
@@ -34,17 +34,17 @@ Non è necessario specificare l'ID del tenant quando si chiama il cmdlet **Get-C
 
 I cmdlet seguenti accettano un'identità del tenant ma in questi casi il parametro è facoltativo e non deve necessariamente essere immesso quando si chiama il cmdlet. Windows PowerShell immetterà infatti automaticamente l'identità del tenant in base al tenant di Skype for Business online a cui si è attualmente connessi:
 
-  - [Get-CsTenant](get-cstenant.md)
+  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
 
-  - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
+  - [Set-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantFederationConfiguration)
 
-  - [Set-CsTenantHybridConfiguration](set-cstenanthybridconfiguration.md)
+  - [Set-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
 
 Il cmdlet **Get-CsTenantFederationConfiguration** può ad esempio essere chiamato mediante questo comando:
 
@@ -59,5 +59,5 @@ Anche se non è necessario, è possibile includere il parametro Tenant quando si
 #### Concetti
 
 [Identità, ambiti e tenant](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Cmdlet di Lync Online](the-skype-for-business-online-cmdlets.md)
+[Cmdlet di Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

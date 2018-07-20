@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2012-11-01_
 
-Il cmdlet Stop-CsClsLogging consente di interrompere una sessione di registrazione in esecuzione. In generale, le situazioni in cui può essere necessario interrompere una sessione di registrazione non sono molte. Ad esempio, è possibile eseguire ricerche nei log e modificare configurazioni senza bisogno di interrompere la registrazione. Se sono in esecuzione due scenari, ad esempio AlwaysOn e UserReplicator, ed è necessario raccogliere informazioni relative all'autenticazione, per poter avviare lo scenario Authentication sarà necessario interrompere uno dei due scenari, a livello globale, di pool o di sito. Per informazioni dettagliate, vedere [Stop-CsClsLogging](stop-csclslogging.md).
+Il cmdlet Stop-CsClsLogging consente di interrompere una sessione di registrazione in esecuzione. In generale, le situazioni in cui può essere necessario interrompere una sessione di registrazione non sono molte. Ad esempio, è possibile eseguire ricerche nei log e modificare configurazioni senza bisogno di interrompere la registrazione. Se sono in esecuzione due scenari, ad esempio AlwaysOn e UserReplicator, ed è necessario raccogliere informazioni relative all'autenticazione, per poter avviare lo scenario Authentication sarà necessario interrompere uno dei due scenari, a livello globale, di pool o di sito. Per informazioni dettagliate, vedere [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging).
 
 
 > [!NOTE]
@@ -41,7 +41,7 @@ Ad esempio:
     
     ![Console di Windows PowerShell dopo la chiamata a Show-CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Console di Windows PowerShell dopo la chiamata a Show-CsCl")
     
-    Il risultato di Show-CsClsLogging è un riepilogo degli scenari in esecuzione e dei relativi ambiti di esecuzione. Per informazioni dettagliate, vedere [Show-CsClsLogging](show-csclslogging.md).
+    Il risultato di Show-CsClsLogging è un riepilogo degli scenari in esecuzione e dei relativi ambiti di esecuzione. Per informazioni dettagliate, vedere [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging).
 
 3.  Per interrompere una sessione di registrazione in esecuzione con uno scenario specifico, digitare:
     
@@ -55,7 +55,7 @@ Ad esempio:
     
 
     > [!NOTE]
-    > I log creati nel corso di questa sessione di registrazione utilizzando lo scenario UserReplicator non vengono eliminati. La registrazione resta disponibile per l'esecuzione di ricerche mediante il comando Search-CsClsLogging. Per informazioni dettagliate, vedere <A href="search-csclslogging.md">Search-CsClsLogging</A>.
+    > I log creati nel corso di questa sessione di registrazione utilizzando lo scenario UserReplicator non vengono eliminati. La registrazione resta disponibile per l'esecuzione di ricerche mediante il comando Search-CsClsLogging. Per informazioni dettagliate, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging">Search-CsClsLogging</A>.
 
 
 
@@ -73,7 +73,7 @@ Il cmdlet Stop-CsClsLogging funge da comando complementare a Start-CsClsLogging 
 
 #### Ulteriori risorse
 
-[Show-CsClsLogging](show-csclslogging.md)  
-[Start-CsClsLogging](start-csclslogging.md)  
-[Stop-CsClsLogging](stop-csclslogging.md)
+[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)  
+[Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging)  
+[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)
 

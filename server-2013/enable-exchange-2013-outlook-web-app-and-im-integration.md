@@ -25,13 +25,13 @@ Per abilitare l'integrazione di Exchange 2013 Outlook Web Access (OWA) e della m
     
         Get-CsSite
     
-    Verrà restituito l'ID sito per il nome del sito in cui si sta creando il pool. Per informazioni dettagliate, vedere [Get-CsSite](get-cssite.md) nella documentazione di Lync Server 2013 Management Shell.
+    Verrà restituito l'ID sito per il nome del sito in cui si sta creando il pool. Per informazioni dettagliate, vedere [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) nella documentazione di Lync Server 2013 Management Shell.
 
 3.  Eseguire il cmdlet seguente:
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    Per informazioni dettagliate, vedere [New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md) nella documentazione di Lync Server 2013 Management Shell.
+    Per informazioni dettagliate, vedere [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool) nella documentazione di Lync Server 2013 Management Shell.
     
     Il nome di dominio completo (FQDN) del server di Exchange deve essere configurato come nome oggetto (SN) del certificato Exchange OWA o come nome alternativo del soggetto (SAN).
     
@@ -69,7 +69,7 @@ Per abilitare l'integrazione di Exchange 2013 Outlook Web Access (OWA) e della m
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    Per informazioni dettagliate, vedere l'argomento [New-CsTrustedApplication](new-cstrustedapplication.md) nella documentazione di Lync Server 2013 Management Shell.
+    Per informazioni dettagliate, vedere l'argomento [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) nella documentazione di Lync Server 2013 Management Shell.
 
 3.  Eseguire **Enable-CsTopology** .
 

@@ -19,7 +19,7 @@ La registrazione dettagli chiamata consente di tenere traccia dell'utilizzo di e
 
 Quando si installa Microsoft Lync Server 2013, viene creata automaticamente una singola raccolta globale di impostazioni di configurazione di registrazione dettagli chiamata. Gli amministratori possono inoltre creare impostazioni personalizzate nell'ambito del sito che, se utilizzate, hanno la precedenza sulle impostazioni globali. Se ad esempio si creano impostazioni dell'ambito del sito Redmond, verranno utilizzate tali impostazioni e non le impostazioni globali per la gestione della registrazione dettagli chiamata nel sito Redmond.
 
-Per creare impostazioni di configurazione di registrazione dettagli chiamata, è possibile utilizzare il Pannello di controllo di Lync Server oppure il cmdlet [New-CsCdrConfiguration](new-cscdrconfiguration.md). Per modificare impostazioni esistenti, è possibile utilizzare il Pannello di controllo di Lync Server oppure il cmdlet [Set-CsCdrConfiguration](set-cscdrconfiguration.md). Se si utilizza il Pannello di controllo di Lync Server per creare o modificare impostazioni, saranno disponibili le opzioni seguenti:
+Per creare impostazioni di configurazione di registrazione dettagli chiamata, è possibile utilizzare il Pannello di controllo di Lync Server oppure il cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration). Per modificare impostazioni esistenti, è possibile utilizzare il Pannello di controllo di Lync Server oppure il cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration). Se si utilizza il Pannello di controllo di Lync Server per creare o modificare impostazioni, saranno disponibili le opzioni seguenti:
 
 
 <table>
@@ -67,7 +67,7 @@ Per creare impostazioni di configurazione di registrazione dettagli chiamata, è
 
 
 > [!NOTE]
-> I nuovi cmdlet New-CsCdrConfiguration e Set-CsCdrConfiguration includono ulteriori opzioni non disponibili nel Pannello di controllo di Lync Server. Per ulteriori informazioni, vedere nella Guida gli argomenti relativi a <A href="new-cscdrconfiguration.md">New-CsCdrConfiguration</A> e <A href="set-cscdrconfiguration.md">Set-CsCdrConfiguration</A>.
+> I nuovi cmdlet New-CsCdrConfiguration e Set-CsCdrConfiguration includono ulteriori opzioni non disponibili nel Pannello di controllo di Lync Server. Per ulteriori informazioni, vedere nella Guida gli argomenti relativi a <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> e <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A>.
 
 
 
@@ -111,5 +111,5 @@ Le impostazioni di configurazione di registrazione dettagli chiamata possono ess
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [New-CsCdrConfiguration](new-cscdrconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration).
 

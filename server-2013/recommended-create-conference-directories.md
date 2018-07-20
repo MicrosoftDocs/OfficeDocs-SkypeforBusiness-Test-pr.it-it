@@ -39,5 +39,5 @@ La creazione di più directory conferenze assicura che gli ID conferenza rimanga
 
 #### Ulteriori risorse
 
-[New-CsConferenceDirectory](new-csconferencedirectory.md)
+[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
 

@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-02-23_
 
 La registrazione dettagli chiamata consente di tenere traccia dell'utilizzo delle sessioni di messaggistica istantanea peer-to-peer, delle chiamate telefoniche VoIP (Voice over Internet Protocol) e delle conferenze telefoniche. Questi dati sull'utilizzo includono informazioni sui chiamanti, sugli utenti chiamati, sulla data della chiamata e sulla durata della conversazione.
 
-Quando si installa Microsoft Lync Server 2013, viene creata automaticamente una raccolta globale singola di impostazioni di configurazione per la registrazione dettagli chiamata. Gli amministratori possono inoltre creare raccolte di impostazioni personalizzate che possono essere applicate a singoli siti. È possibile visualizzare le impostazioni di configurazione per la registrazione dettagli chiamata utilizzate nella propria organizzazione, attraverso il Pannello di controllo di Lync Server o il cmdlet [Get-CsCdrConfiguration](get-cscdrconfiguration.md).
+Quando si installa Microsoft Lync Server 2013, viene creata automaticamente una raccolta globale singola di impostazioni di configurazione per la registrazione dettagli chiamata. Gli amministratori possono inoltre creare raccolte di impostazioni personalizzate che possono essere applicate a singoli siti. È possibile visualizzare le impostazioni di configurazione per la registrazione dettagli chiamata utilizzate nella propria organizzazione, attraverso il Pannello di controllo di Lync Server o il cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
 
 ## Visualizzare le informazioni di configurazione della registrazione dettagli chiamata attraverso Pannello di controllo di Lync Server
 
@@ -44,5 +44,5 @@ Quando si installa Microsoft Lync Server 2013, viene creata automaticamente una 
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsCdrConfiguration](get-cscdrconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
 

@@ -30,13 +30,13 @@ Eseguire le procedure seguenti per creare o modificare siti di rete. Se ad esemp
 
 Per informazioni dettagliate sull'utilizzo dei siti di rete, vedere nella documentazione relativa a Lync Server Management Shell i cmdlet seguenti:
 
-  - [New-CsNetworkSite](new-csnetworksite.md)
+  - [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite)
 
-  - [Get-CsNetworkSite](get-csnetworksite.md)
+  - [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite)
 
-  - [Set-CsNetworkSite](set-csnetworksite.md)
+  - [Set-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSite)
 
-  - [Remove-CsNetworkSite](remove-csnetworksite.md)
+  - [Remove-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSite)
 
 ## Creare un sito di rete
 

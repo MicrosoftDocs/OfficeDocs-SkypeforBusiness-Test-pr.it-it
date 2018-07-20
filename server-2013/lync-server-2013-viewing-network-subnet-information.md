@@ -53,7 +53,7 @@ Per visualizzare informazioni sulle subnet, è inoltre possibile utilizzare Powe
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsNetworkSubnet](get-csnetworksubnet.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
 
 ## Vedere anche
 

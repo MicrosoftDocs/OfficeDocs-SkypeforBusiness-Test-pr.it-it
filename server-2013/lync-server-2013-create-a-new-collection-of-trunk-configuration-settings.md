@@ -60,7 +60,7 @@ Per la creazione di impostazioni di configurazione di trunk SIP mediante Pannell
 <tr class="even">
 <td><p>Livello di supporto crittografia</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indica il livello di supporto per la protezione del traffico multimediale tra il Mediation Server e il gateway PSTN, il sistema IP-PBX o il servizio SBC presso il provider dei servizi. Nel caso del bypass multimediale, questo valore deve essere compatibile con l'impostazione di EncryptionLevel nella configurazione degli elementi multimediali. La configurazione degli elementi multimediali viene definita tramite i cmdlet <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> e <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
+<td><p>Indica il livello di supporto per la protezione del traffico multimediale tra il Mediation Server e il gateway PSTN, il sistema IP-PBX o il servizio SBC presso il provider dei servizi. Nel caso del bypass multimediale, questo valore deve essere compatibile con l'impostazione di EncryptionLevel nella configurazione degli elementi multimediali. La configurazione degli elementi multimediali viene definita tramite i cmdlet <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
 <p>I valori consentiti sono:</p>
 <ul>
 <li><p>Obbligatorio: è necessario usare la crittografia SRTP.</p></li>
@@ -147,7 +147,7 @@ Per la creazione di impostazioni di configurazione di trunk SIP mediante Pannell
 
 
 > [!NOTE]
-> I cmdlet CsTrunkConfiguration di Lync Server supportano ulteriori proprietà non visualizzate nel Pannello di controllo di Lync Server. Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet <A href="new-cstrunkconfiguration.md">New-CsTrunkConfiguration</A>.
+> I cmdlet CsTrunkConfiguration di Lync Server supportano ulteriori proprietà non visualizzate nel Pannello di controllo di Lync Server. Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</A>.
 
 
 

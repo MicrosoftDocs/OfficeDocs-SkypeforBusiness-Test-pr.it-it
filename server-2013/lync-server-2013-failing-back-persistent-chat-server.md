@@ -124,5 +124,5 @@ Per ripristinare lo stato normale del pool, eseguire il comando seguente di Wind
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Set-CsPersistentChatState](set-cspersistentchatstate.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Set-CsPersistentChatState](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatState).
 

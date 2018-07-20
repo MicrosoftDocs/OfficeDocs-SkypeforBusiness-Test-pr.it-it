@@ -42,7 +42,7 @@ La transazione sintetica per Messaggistica unificata di Exchange verifica che gl
 
 ## Transazioni sintetiche per Chat persistente
 
-Per utilizzare la transazione sintetica per Chat persistente, gli amministratori devono prima creare un canale e concedere agli utenti di prova le autorizzazioni per il suo utilizzo. È possibile utilizzare il cmdlet [Test-CsPersistentChatMessage](test-cspersistentchatmessage.md) per configurare correttamente questi utenti di prova:
+Per utilizzare la transazione sintetica per Chat persistente, gli amministratori devono prima creare un canale e concedere agli utenti di prova le autorizzazioni per il suo utilizzo. È possibile utilizzare il cmdlet [Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) per configurare correttamente questi utenti di prova:
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -61,7 +61,7 @@ La chat room creata da Test-CsPersistentChatMessage può essere eliminata solo d
 
 ## Transazioni sintetiche per chiamate peer-to-peer PSTN
 
-La transazione sintetica [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md) verifica la possibilità di effettuare e ricevere chiamate tramite la rete PSTN (Public Switched Telephone Network).
+La transazione sintetica [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) verifica la possibilità di effettuare e ricevere chiamate tramite la rete PSTN (Public Switched Telephone Network).
 
 Per eseguire questa transazione sintetica, gli amministratori devono configurare:
 

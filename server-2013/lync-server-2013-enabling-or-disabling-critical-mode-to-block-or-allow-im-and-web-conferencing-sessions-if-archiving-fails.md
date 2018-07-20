@@ -59,7 +59,7 @@ Le configurazioni per l'archiviazione vengono inizialmente impostate quando si d
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Vedere anche
 

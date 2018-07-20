@@ -51,5 +51,5 @@ I numeri di accesso alle conferenze telefoniche con accesso esterno possono anch
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Remove-CsDialInConferencingAccessNumber](remove-csdialinconferencingaccessnumber.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber).
 

@@ -23,7 +23,7 @@ Il Dashboard di monitoraggio offre agli amministratori una veloce panoramica del
 
   - Totali per il mese e totali tendenziali per i sei mesi precedenti (solo per l'utilizzo del sistema).
 
-Si noti che è possibile usare il cmdlet [Get-CsReportingConfiguration](get-csreportingconfiguration.md) per restituire l'URL per accedere a Relazioni monitoraggio di Lync Server 2013:
+Si noti che è possibile usare il cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) per restituire l'URL per accedere a Relazioni monitoraggio di Lync Server 2013:
 
     Get-CsReportingConfiguration
 

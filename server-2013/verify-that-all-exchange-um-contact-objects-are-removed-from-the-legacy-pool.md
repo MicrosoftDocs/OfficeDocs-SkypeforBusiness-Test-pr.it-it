@@ -25,5 +25,5 @@ Lo strumento **OCSUmUtil** deve essere eseguito da un account utente:
 
   - Con diritti a livello di dominio per creare oggetti contatto nel contenitore di unità organizzative specificato
 
-Per informazioni dettagliate sull'utilizzo del cmdlet **Get-CsExumContact**, vedere [Get-CsExUmContact](get-csexumcontact.md) nella documentazione relativa a Lync Server Management Shell.
+Per informazioni dettagliate sull'utilizzo del cmdlet **Get-CsExumContact**, vedere [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact) nella documentazione relativa a Lync Server Management Shell.
 

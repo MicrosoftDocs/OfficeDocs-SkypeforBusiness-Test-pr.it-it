@@ -75,14 +75,14 @@ In questa sezione viene descritta la sequenza di passaggi necessari per distribu
 <tr class="even">
 <td><p>Testare la distribuzione per dispositivi mobili per Lync 2010 Mobile utilizzando il servizio Mobility Mcx</p></td>
 <td><p>Eseguire <strong>Test-CsMcxP2PIM</strong> per testare l'invio di un messaggio istantaneo da una persona a un'altra.</p>
-<p>Per un elenco completo delle opzioni, vedere la documentazione del cmdlet Lync Server Management Shell per <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a>.</p></td>
+<p>Per un elenco completo delle opzioni, vedere la documentazione del cmdlet Lync Server Management Shell per <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a>.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifica della distribuzione per dispositivi mobili in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Testare la distribuzione per dispositivi mobili per i client Lync 2013 Mobile tramite i componenti Web UCWA</p></td>
 <td><p>Utilizzare il cmdlet <strong>Test-CsUcwaConference</strong> per testare e verificare che gli utenti predefiniti per il test o una coppia di utenti effettivi possano utilizzare UCWA per creare una conferenza e parteciparvi.</p>
-<p>Per un elenco completo delle opzioni, vedere la documentazione del cmdlet Lync Server Management Shell per <a href="test-csucwaconference.md">Test-CsUcwaConference</a>.</p></td>
+<p>Per un elenco completo delle opzioni, vedere la documentazione del cmdlet Lync Server Management Shell per <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a>.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifica della distribuzione per dispositivi mobili in Lync Server 2013</a></p></td>
 </tr>

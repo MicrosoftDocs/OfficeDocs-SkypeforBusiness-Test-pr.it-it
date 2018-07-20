@@ -61,5 +61,5 @@ Quando si sposta un utente in un pool di Lync Server 2013, i dati dell'utente ve
 
 3.  I criteri di conferenza che consentono i partecipanti anonimi hanno l'impostazione **Consenti ai partecipanti di invitare utenti anonimi** selezionata nel Pannello di controllo di Lync Server 2013 e l'impostazione **AllowAnonymousParticipantsInMeetings** configurata su **True** nell'output del cmdlet **Get-CsConferencingPolicy** in Lync Server Management Shell.
 
-4.  Per informazioni dettagliate sulla configurazione dei criteri di conferenza tramite Lync Server Management Shell, vedere [Set-CsConferencingPolicy](set-csconferencingpolicy.md) nella documentazione di Lync Server Management Shell.
+4.  Per informazioni dettagliate sulla configurazione dei criteri di conferenza tramite Lync Server Management Shell, vedere [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) nella documentazione di Lync Server Management Shell.
 

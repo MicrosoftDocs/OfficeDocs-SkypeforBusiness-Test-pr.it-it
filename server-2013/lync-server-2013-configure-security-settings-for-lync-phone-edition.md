@@ -53,7 +53,7 @@ Aumentare la protezione dei dispositivi che eseguono Lync Phone Edition attraver
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -MinPhonePinLength 7
 
-Per ulteriori informazioni, vedere [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+Per ulteriori informazioni, vedere [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 ## Vedere anche
 

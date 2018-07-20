@@ -57,7 +57,7 @@ I criteri di archiviazione per utente possono inoltre essere assegnati utilizzan
 
 ## Assegnazione di criteri di archiviazione per utente a più utenti
 
-  - Questo comando consente di assegnare i criteri di archiviazione per utente denominati RedmondArchivingPolicy a tutti gli utenti con account ospitati nel pool di registrazione atl-cs-001.litwareinc.com. Per informazioni dettagliate sul parametro Filter utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](get-csuser.md).
+  - Questo comando consente di assegnare i criteri di archiviazione per utente denominati RedmondArchivingPolicy a tutti gli utenti con account ospitati nel pool di registrazione atl-cs-001.litwareinc.com. Per informazioni dettagliate sul parametro Filter utilizzato in questo comando, vedere la documentazione relativa al cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -67,7 +67,7 @@ I criteri di archiviazione per utente possono inoltre essere assegnati utilizzan
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per informazioni dettagliate, vedere la documentazione relativa al cmdlet [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Per informazioni dettagliate, vedere la documentazione relativa al cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Vedere anche
 

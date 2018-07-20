@@ -135,7 +135,7 @@ Se il server o i server perimetrali sono già stati distribuiti, l'aggiunta dell
 
 2.  Definire e configurare qualsiasi host DNS richiesto (A o AAAA per IPv6) e record DNS SRV
 
-3.  Definire e configurare i criteri usando il Pannello di controllo di Lync Server oppure Lync Server Management Shell e i cmdlet appropriati. Per informazioni dettagliate sui cmdlet Lync Server Management Shell, vedere [Cmdlet per la federazione e l'accesso esterno in Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md)
+3.  Definire e configurare i criteri usando il Pannello di controllo di Lync Server oppure Lync Server Management Shell e i cmdlet appropriati. Per informazioni dettagliate sui cmdlet Lync Server Management Shell, vedere [Cmdlet per la federazione e l'accesso esterno in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
     
 
     > [!NOTE]

@@ -21,7 +21,7 @@ Quando si installa Microsoft Lync Server 2013, viene automaticamente creata una 
 
 Tenere presente che è anche possibile "eliminare" le impostazioni globali. Tuttavia, le impostazioni globali non vengono effettivamente rimosse. Invece, tutte le proprietà nella raccolta vengono reimpostate sui valori predefiniti. Ad esempio, per impostazione predefinita la rimozione è abilitata in una raccolta delle impostazioni di configurazione di Registrazione dettagli chiamata. Supponiamo di modificare la raccolta globale in modo da disabilitare la rimozione. Se successivamente si eliminano le impostazioni globali, tutte le proprietà verranno reimpostate sui valori predefiniti. In questo caso, ciò significa che l'eliminazione verrà riabilitata.
 
-È possibile rimuovere le impostazioni di Registrazione dettagli chiamata mediante il Pannello di controllo di Lync Server oppure il cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+È possibile rimuovere le impostazioni di Registrazione dettagli chiamata mediante il Pannello di controllo di Lync Server oppure il cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 
 ## Per rimuovere le impostazioni di configurazione di Registrazione dettagli chiamata mediante il Pannello di controllo di Lync Server
 
@@ -55,5 +55,5 @@ Tenere presente che è anche possibile "eliminare" le impostazioni globali. Tutt
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 

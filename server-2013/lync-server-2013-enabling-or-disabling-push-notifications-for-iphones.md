@@ -61,7 +61,7 @@ Le notifiche push, sotto forma di notifiche, icone o avvisi, possono essere invi
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 
-Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md).
+Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration).
 
 ## Vedere anche
 

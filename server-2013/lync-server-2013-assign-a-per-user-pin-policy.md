@@ -117,7 +117,7 @@ Per informazioni dettagliate sulla creazione di criteri per il PIN per utente pe
 
 ## Per assegnare criteri PIN per utente a più utenti
 
-  - Il comando seguente assegna il criterio PIN per utente RedmondUsersPinPolicy a tutti gli utenti che lavorano nella città di Redmond. Per informazioni dettagliate sul parametro LdapFilter utilizzato nel comando, vedere [Get-CsUser](get-csuser.md).
+  - Il comando seguente assegna il criterio PIN per utente RedmondUsersPinPolicy a tutti gli utenti che lavorano nella città di Redmond. Per informazioni dettagliate sul parametro LdapFilter utilizzato nel comando, vedere [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -127,7 +127,7 @@ Per informazioni dettagliate sulla creazione di criteri per il PIN per utente pe
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Per informazioni dettagliate, vedere [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Per informazioni dettagliate, vedere [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Vedere anche
 

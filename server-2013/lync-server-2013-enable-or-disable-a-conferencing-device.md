@@ -36,5 +36,5 @@ _**Ultima modifica dell'argomento:** 2013-02-20_
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
-Per informazioni dettagliate, vedere gli argomenti della Guida per i cmdlet [Enable-CsMeetingRoom](enable-csmeetingroom.md) e [Disable-CsMeetingRoom](disable-csmeetingroom.md).
+Per informazioni dettagliate, vedere gli argomenti della Guida per i cmdlet [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) e [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom).
 

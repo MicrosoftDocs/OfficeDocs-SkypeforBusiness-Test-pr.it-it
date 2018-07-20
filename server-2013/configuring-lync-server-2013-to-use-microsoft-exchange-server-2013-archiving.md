@@ -25,7 +25,7 @@ Microsoft Lync Server 2013 consente agli amministratori di archiviare le trascri
 </thead>
 <tbody>
 <tr class="odd">
-<td>Per disabilitare completamente l'archiviazione della conversazione Lync, è inoltre necessario disabilitare la cronologia conversazioni Lync. Per ulteriori informazioni, vedere gli argomenti seguenti: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestione dell'archiviazione delle comunicazioni interne ed esterne in Lync Server 2013</a>, <a href="new-csclientpolicy.md">New-CsClientPolicy</a> e <a href="set-csclientpolicy.md">Set-CsClientPolicy</a>.</td>
+<td>Per disabilitare completamente l'archiviazione della conversazione Lync, è inoltre necessario disabilitare la cronologia conversazioni Lync. Per ulteriori informazioni, vedere gli argomenti seguenti: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestione dell'archiviazione delle comunicazioni interne ed esterne in Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.</td>
 </tr>
 </tbody>
 </table>

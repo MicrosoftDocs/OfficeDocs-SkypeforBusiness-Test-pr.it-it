@@ -23,7 +23,7 @@ Utilizzare le procedure incluse in questa sezione per gestire le applicazioni at
 
 ## Sezioni correlate
 
-[Cmdlet per le applicazioni attendibili](lync-server-2013-trusted-applications-cmdlets.md)
+[Cmdlet per le applicazioni attendibili](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## Vedere anche
 

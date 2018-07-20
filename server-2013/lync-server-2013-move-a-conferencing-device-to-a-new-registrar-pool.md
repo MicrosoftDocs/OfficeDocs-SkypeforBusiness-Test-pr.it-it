@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2013-02-20_
 
-Spostare un dispositivo per conferenze da un pool di registrazione in un altro utilizzando il cmdlet **Move-CsMeetingRoom**. Questo cmdlet può essere eseguito da Lync Server 2013 Management Shell o da una sessione remota di Windows PowerShell.
+Spostare un dispositivo per conferenze da un pool di registrazione in un altro utilizzando il cmdlet **move-csmeetingroom**. Questo cmdlet può essere eseguito da Lync Server 2013 Management Shell o da una sessione remota di Windows PowerShell.
 
 
 > [!NOTE]
@@ -28,7 +28,7 @@ Spostare un dispositivo per conferenze da un pool di registrazione in un altro u
 
   - Per spostare un dispositivo per conferenze, è necessario specificare l'identità della chat room da spostare, quindi impostare il parametro di destinazione sul nome di dominio completo (FQDN) del pool di registrazione in cui verrà spostato il dispositivo. Ad esempio:
     
-        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [Move-CsMeetingRoom](move-csmeetingroom.md).
+Per informazioni dettagliate, vedere l'argomento della Guida relativo al cmdlet [move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom).
 

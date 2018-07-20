@@ -47,7 +47,7 @@ Per eliminare un intervallo di numeri non assegnati per gli annunci, eseguire le
     
 
     > [!NOTE]
-    > Per informazioni dettagliate su ulteriori opzioni, vedere <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > Per informazioni dettagliate su ulteriori opzioni, vedere <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 
 
@@ -59,6 +59,6 @@ Per eliminare un intervallo di numeri non assegnati per gli annunci, eseguire le
 
 #### Ulteriori risorse
 
-[Remove-CsUnassignedNumber](remove-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Remove-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

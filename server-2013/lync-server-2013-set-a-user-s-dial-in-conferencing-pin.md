@@ -102,7 +102,7 @@ Per partecipare a una conferenza telefonica con accesso esterno come utente aute
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Set-CsClientPin](set-csclientpin.md).
+Per ulteriori informazioni, vedere l'argomento della Guida per il cmdlet [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin).
 
 ## Vedere anche
 
