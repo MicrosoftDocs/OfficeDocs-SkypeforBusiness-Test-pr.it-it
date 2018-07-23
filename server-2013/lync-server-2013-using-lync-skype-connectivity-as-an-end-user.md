@@ -63,13 +63,13 @@ La connettività Lync-Skype consente agli utenti di Skype e a quelli di Lync di 
 
 Per altre informazioni sul supporto per i contatti, vedere [Aggiungere un contatto in Lync](http://office.microsoft.com/it-it/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx) e [Aggiungere un contatto esterno in Lync](http://office.microsoft.com/it-it/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)
 
-Quando l'account Microsoft di un utente di Skype usa un nome di dominio personalizzato, ad esempio **guido@contoso.com**, l'utente di Lync può aggiungere l'account Microsoft a Lync in due modi:
+Quando l'account Microsoft di un utente di Skype usa un nome di dominio personalizzato, ad esempio <strong>guido@contoso.com</strong>, l'utente di Lync può aggiungere l'account Microsoft a Lync in due modi:
 
 1.  Usando l'icona **Aggiungi contatto** oppure
 
 2.  Usando il campo **Trovare un contatto o una chat room oppure comporre un numero**.
 
-In ogni istanza, l'utente di Lync deve inserire l'indirizzo di posta elettronica dell'utente di Skype nel formato seguente: **utente(nome di dominio)@msn.com**.
+In ogni istanza, l'utente di Lync deve inserire l'indirizzo di posta elettronica dell'utente di Skype nel formato seguente: <strong>utente(nome di dominio)@msn.com</strong>.
 
 <table>
 <thead>
@@ -93,7 +93,7 @@ In ogni istanza, l'utente di Lync deve inserire l'indirizzo di posta elettronica
     
     ![Aggiunta di un contatto di Skype nel client Lync](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Aggiunta di un contatto di Skype nel client Lync")
 
-3.  Nel campo **Indirizzo di messaggistica istantanea** immettere l'account Microsoft (MSA) dell'utente di Skype nel formato **utente(nome di dominio)@msn.com**. Per l'utente guido@contoso.com immettere quindi **guido(contoso.com)@msn.com**, come illustrato di seguito.
+3.  Nel campo **Indirizzo di messaggistica istantanea** immettere l'account Microsoft (MSA) dell'utente di Skype nel formato <strong>utente(nome di dominio)@msn.com</strong>. Per l'utente guido@contoso.com immettere quindi <strong>guido(contoso.com)@msn.com</strong>, come illustrato di seguito.
     
     ![Impostazioni del nuovo contatto del client Lync](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Impostazioni del nuovo contatto del client Lync")
 
@@ -101,7 +101,7 @@ In ogni istanza, l'utente di Lync deve inserire l'indirizzo di posta elettronica
 
 5.  Nell'elenco a discesa **Impostare la relazione di privacy** selezionare l'impostazione del contatto appropriata e fare clic su **OK**.
 
-6.  Un utente di Lync può inoltre usare il campo **Trovare un contatto o una chat room oppure comporre un numero** in Lync e aggiungere un indirizzo nel formato **utente(nome di dominio)@msn.com**. Per l'account Microsoft guido@contoso.com il formato sarà quindi **guido(contoso.com)@msn.com**, come illustrato di seguito.
+6.  Un utente di Lync può inoltre usare il campo **Trovare un contatto o una chat room oppure comporre un numero** in Lync e aggiungere un indirizzo nel formato <strong>utente(nome di dominio)@msn.com</strong>. Per l'account Microsoft guido@contoso.com il formato sarà quindi <strong>guido(contoso.com)@msn.com</strong>, come illustrato di seguito.
     
     ![Ricerca di un contatto nel client Lync](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Ricerca di un contatto nel client Lync")
 
