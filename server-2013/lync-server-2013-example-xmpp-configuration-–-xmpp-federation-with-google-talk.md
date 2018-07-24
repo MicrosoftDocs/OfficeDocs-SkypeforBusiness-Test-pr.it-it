@@ -103,9 +103,12 @@ Una configurazione di esempio per la distribuzione del proxy XMPP definisce una 
 
 23. Dopo aver ricevuto, importato e assegnato il certificato pubblico, è necessario arrestare e riavviare i servizi del server perimetrale. Avviare Lync Server Management Shell: fare clic sul pulsante **Start**, scegliere **Tutti i programmi**, **Microsoft Lync Server 2013** e quindi **Lync Server Management Shell**.. In Lync Server Management Shell digitare:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 24. Per configurare DNS per la federazione XMPP, aggiungere il record SRV seguente al DNS esterno:\_xmpp-server.\_tcp. *\<nome dominio\>* . Il record SRV risolverà l'FQDN dell'Access Edge del server perimetrale con un valore di porta 5269.
 

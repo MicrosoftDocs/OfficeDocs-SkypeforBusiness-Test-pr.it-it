@@ -142,13 +142,17 @@ Se sono presenti più siti contenenti pool Front End e il provider DNS supporta 
 
 Per eseguire questa configurazione, creare due indirizzi GeoDNS. Ogni indirizzo presenta due record DNS A o CNAME che si risolvono in due pool che vengono accoppiati per il ripristino di emergenza. Un indirizzo GeoDNS viene usato per l'accesso interno e si risolve nell'FQDN Web interno o nell'indirizzo IP del bilanciamento del carico per i due pool. L'altro indirizzo GeoDNS viene usato per l'accesso esterno e si risolve nell'FQDN Web esterno o nell'indirizzo IP del bilanciamento del carico per i due pool. Di seguito viene riportato un esempio dell'URL semplice Riunione, in cui vengono usati gli FQDN per i pool.
 
-    Meet-int.geolb.contoso.com
-         Pool1InternalWebFQDN.contoso.com
-         Pool2InternalWebFQDN.contoso.com
+```
+Meet-int.geolb.contoso.com
+     Pool1InternalWebFQDN.contoso.com
+     Pool2InternalWebFQDN.contoso.com
+```
 
-    Meet-ext.geolb.contoso.com
-         Pool1ExternalWebFQDN.contoso.com
-         Pool2ExternalWebFQDN.contoso.com
+```
+Meet-ext.geolb.contoso.com
+     Pool1ExternalWebFQDN.contoso.com
+     Pool2ExternalWebFQDN.contoso.com
+```
 
 Creare quindi i record CNAME che risolvono l'URL semplice riunione (ad esempio meet.contoso.com) nei due indirizzi GeoDNS.
 

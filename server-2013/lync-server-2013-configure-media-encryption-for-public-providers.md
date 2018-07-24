@@ -39,10 +39,12 @@ Se si sta implementando la federazione audio/video (A/V) con Windows Live Messen
 
 2.  Al prompt dei comandi digitare i comandi seguenti:
     
-        Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
-        Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
-    
+    ```
+    Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+    ```
+    ```
+    Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
 
     > [!NOTE]
     > Questo passaggio è necessario perché Windows Live Messenger non supporta la crittografia dei dati audio/video. Il comando configura il criterio globale su un'impostazione di crittografia supportata anziché di crittografia richiesta per tali dati. I client che supportano la crittografia, come Lync 2013, la utilizzeranno comunque.

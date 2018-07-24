@@ -65,11 +65,14 @@ Nei passaggi seguenti viene descritto come creare una configurazione personalizz
 
 1.  Dalla riga di comando di Lync Server Management Shell creare una nuova configurazione del proxy per ogni pool di server perimetrali, pool Enterprise e server Standard Edition di Lync Server 2013 con aggiornamenti cumulativi di luglio 2013 che verranno abilitati per l'autenticazione passiva eseguendo il comando seguente:
     
-        New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
-        -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-    
-        New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
-        -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
+    New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
+    -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
+    ```
+    New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
+    -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
 
 2.  Verificare che tutti gli altri tipi di autenticazione proxy siano stati correttamente disabilitati eseguendo il comando seguente:
     

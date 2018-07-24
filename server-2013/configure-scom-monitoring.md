@@ -37,9 +37,12 @@ Di seguito sono riportate le istruzioni per l'esecuzione di ognuna di tali attiv
 
 2.  Nella riga di comando digitare quanto segue:
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    ```
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
     
 
     > [!NOTE]

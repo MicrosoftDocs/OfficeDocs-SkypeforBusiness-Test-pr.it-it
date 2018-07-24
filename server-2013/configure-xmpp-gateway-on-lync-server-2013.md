@@ -101,9 +101,12 @@ Le ultime operazioni per la migrazione del gateway XMPP consistono nel configura
 
 17. Dopo aver ricevuto, importato e assegnato il certificato pubblico, è necessario arrestare e riavviare i servizi del server perimetrale. A tale scopo, digitare quanto segue nella console di gestione di Lync Server:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurare un nuovo gateway XMPP di Lync Server 2013
 

@@ -77,9 +77,12 @@ Per il controllo delle chiamate remote è necessario che ogni pool Lync Server s
 
 4.  Per conservare una route statica appena creata nell' archivio di gestione centrale, eseguire uno dei comandi seguenti, a seconda delle esigenze:
     
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+    ```
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
 
 ## Vedere anche
 

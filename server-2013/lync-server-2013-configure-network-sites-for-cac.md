@@ -47,11 +47,15 @@ Per visualizzare la topologia di rete di esempio, vedere [Esempio: raccolta dei 
 
 2.  Eseguire il cmdlet **New-CsNetworkSite** per creare i siti di rete e applicare un profilo di criteri di larghezza di banda appropriato a ogni sito. Ad esempio, eseguire:
     
-        New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-    
-        New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-    
-        New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+    ```
+    New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
+    ```
+    ```
+    New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
+    ```
+    ```
+    New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+    ```
 
 3.  Per completare la creazione dei siti di rete per l'intera topologia di esempio, ripetere il passaggio 2 per i siti di rete vincolati dalla larghezza di banda nelle aree EMEA e APAC.
 

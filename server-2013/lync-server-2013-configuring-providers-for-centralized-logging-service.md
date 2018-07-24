@@ -144,9 +144,12 @@ In cui ogni provider definito con la direttiva Add è già stato definito tramit
 
 2.  I cmdlet indicati consentono di aggiornare i provider esistenti e di crearne di nuovi. Per rimuovere un provider, è necessario utilizzare la direttiva Replace per il parametro Provider in **Set-CsClsScenario**. L'unico modo per rimuovere completamente un provider consiste nel sostituirlo con un provider ridefinito con lo stesso nome e poi utilizzare la direttiva Update. Il provider LyssProvider utilizzato negli esempi precedenti, ad esempio, è definito con il tipo di log WPP, il livello di registrazione Debug e i flag TF\_CONNECTION e TF\_DIAG. Supponendo di dover modificare i flag e impostare "All". per modificare il provider digitare il comando seguente:
     
-        $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-    
-        Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
+    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+    ```
+    ```
+    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
 
 3.  Se si desidera rimuovere completamente uno scenario e i provider associati, digitare il comando seguente:
     

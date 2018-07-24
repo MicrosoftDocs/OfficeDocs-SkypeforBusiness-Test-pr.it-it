@@ -185,13 +185,18 @@ L'opzione **Mostra un'immagine da un sito Web** diventa disponibile in Lync 2013
 
 È possibile impostare il criterio client in modo da abilitare l'impostazione **Mostra un'immagine da un sito Web** eseguendo il criterio [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) in Lync Server Management Shell. I cmdlet di esempio seguenti illustrano come impostare il criterio in modo globale per tutti gli utenti nella distribuzione:
 
-    $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-
-    $po=Get-CsClientPolicy -Identity Global
-
-    $po.PolicyEntry.Add($pe)
-
-    Set-CsClientPolicy -Instance $po
+```
+$pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
+```
+```
+$po=Get-CsClientPolicy -Identity Global
+```
+```
+$po.PolicyEntry.Add($pe)
+```
+```
+Set-CsClientPolicy -Instance $po
+```
 
 Quando un'immagine viene caricata nella cassetta postale dell'utente, Exchange crea automaticamente una versione a risoluzione inferiore dell'immagine, che può essere usata nelle applicazioni client. La foto dell'utente viene aggiornata anche in Servizi di dominio Active Directory.
 

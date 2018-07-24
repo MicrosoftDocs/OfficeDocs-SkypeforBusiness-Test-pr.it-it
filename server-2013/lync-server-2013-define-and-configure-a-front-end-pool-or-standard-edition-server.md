@@ -89,9 +89,7 @@ Dopo avere stabilito la topologia, utilizzare la procedura seguente per definire
 
 3.  Nella pagina **Definire i computer nel pool corrente** immettere l'FQDN di un computer per il primo Front End Server nel pool e quindi fare clic su **Aggiungi**. Ripetere questo passaggio per tutti gli altri computer (fino a dodici) da aggiungere al pool e quindi fare clic su **Avanti**.
 
-4.  
-    
-    Nella pagina **Selezionare funzionalità** selezionare le caselle di controllo corrispondenti alle caratteristiche desiderate per il pool Front End. Se si è scelto di distribuire solo le caratteristiche di messaggistica istantanea e presenza, ad esempio, è necessario selezionare la casella di controllo **Servizio di conferenza** per consentire la messaggistica istantanea con più partecipanti, ma non le caselle di controllo **Servizi di conferenza telefonica con accesso esterno (PSTN)**, **VoIP aziendale** e **Controllo di ammissione di chiamata** perché corrispondono a funzionalità vocali, video e di conferenza per la collaborazione.
+4. Nella pagina **Selezionare funzionalità** selezionare le caselle di controllo corrispondenti alle caratteristiche desiderate per il pool Front End. Se si è scelto di distribuire solo le caratteristiche di messaggistica istantanea e presenza, ad esempio, è necessario selezionare la casella di controllo **Servizio di conferenza** per consentire la messaggistica istantanea con più partecipanti, ma non le caselle di controllo **Servizi di conferenza telefonica con accesso esterno (PSTN)**, **VoIP aziendale** e **Controllo di ammissione di chiamata** perché corrispondono a funzionalità vocali, video e di conferenza per la collaborazione.
     
       - **Servizio di conferenza :** questa opzione consente un ricco insieme di caratteristiche, tra le quali:
         

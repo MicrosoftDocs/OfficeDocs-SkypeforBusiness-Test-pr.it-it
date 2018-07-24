@@ -57,12 +57,15 @@ Per l'installazione dei database, **Install-CsDatabase** utilizza tre metodi pri
 
 3.  Utilizzare il cmdlet di **Install-CsDatabase** per installare l' archivio di gestione centrale.
     
-        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
-        -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
-        -Report <path to report file>
-    
-        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
-    
+    ```
+    Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
+    -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
+    -Report <path to report file>
+    ```
+    ```
+    Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+    ```
+
     <table>
     <thead>
     <tr class="header">
@@ -109,11 +112,14 @@ Per l'installazione dei database, **Install-CsDatabase** utilizza tre metodi pri
 
 4.  Utilizzare il cmdlet di **Install-CsDatabase** per installare i database configurati di Generatore di topologie.
     
-        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
-         -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    
-        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
-        -Report "C:\Logs\InstallDatabases.html"
+    ```
+    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
+     -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
+    ```
+    ```
+    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
+    -Report "C:\Logs\InstallDatabases.html"
+    ```
     
     <table>
     <thead>

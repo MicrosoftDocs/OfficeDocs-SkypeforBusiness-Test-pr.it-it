@@ -21,9 +21,12 @@ Eseguire i passaggi in questa sezione per configurare l'interoperabilità tra la
 
 La federazione consente agli utenti nella distribuzione locale di comunicare con gli utenti di Office 365 nell'organizzazione. Per configurare la federazione, eseguire i seguenti cmdlet:
 
-    Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
-
-    New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+```
+Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
+```
+```
+New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+```
 
 ## Configurare il tenant Skype for Business online per uno spazio di indirizzi SIP condiviso
 
@@ -39,13 +42,18 @@ Per stabilire una sessione remota di PowerShell con Skype for Business online, �
 
 Dopo aver installato il modulo, sarà possibile stabilire una sessione remota con i seguenti cmdlet:
 
-    Import-Module LyncOnlineConnector
-
-    $cred = Get-Credential
-
-    $CSSession = New-CsOnlineSession -Credential $cred
-
-    Import-PSSession $CSSession -AllowClobber
+```
+Import-Module LyncOnlineConnector
+```
+```
+$cred = Get-Credential
+```
+```
+$CSSession = New-CsOnlineSession -Credential $cred
+```
+```
+Import-PSSession $CSSession -AllowClobber
+```
 
 Per ulteriori informazioni su come stabilire una sessione remota di PowerShell con Skype for Business online, vedere [Connessione a Lync Online tramite Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 

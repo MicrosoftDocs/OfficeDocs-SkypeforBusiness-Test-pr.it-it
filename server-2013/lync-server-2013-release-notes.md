@@ -90,9 +90,12 @@ Quando si modifica la configurazione degli indirizzi IP per una distribuzione di
 
 Per risolvere questo problema, riavviare i servizi di Lync Server dopo aver apportato modifiche alla configurazione degli indirizzi IP della distribuzione. A tale scopo, eseguire i cmdlet seguenti nella Lync Server Management Shell:
 
-    Stop-CsWindowsService -graceful
-
-    Start-CsWindowsService
+```
+Stop-CsWindowsService -graceful
+```
+```
+Start-CsWindowsService
+```
 
 ## Il cmdlet delle transazioni sintetiche delle conferenze telefoniche con accesso esterno non è più disponibile in Lync Server 2013 Management Pack (3212342)
 
@@ -346,9 +349,12 @@ Per risolvere questo problema, aggiornare il Registro di sistema prima di instal
 
 1.  Avviare Windows PowerShell ed eseguire i cmdlet seguenti:
     
-        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
-        $a="HKU:\.Default\Control Panel\International"
+    ```
+    New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+    ```
+    ```
+    $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Per visualizzare il valore corrente, eseguire il cmdlet seguente:
     

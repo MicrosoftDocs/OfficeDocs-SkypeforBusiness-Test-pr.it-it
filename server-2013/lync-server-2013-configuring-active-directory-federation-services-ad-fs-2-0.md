@@ -46,16 +46,22 @@ Nella sezione seguente viene descritto come configurare Active Directory Federat
 
 8.  Eseguire i comandi seguenti per creare e assegnare una regola di autorizzazione al rilascio per il trust della relying party che utilizza Windows PowerShell:
     
-        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-    
-        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
-        -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+    ```
+    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+    ```
+    ```
+    Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
+    -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+    ```
 
 9.  Eseguire i comandi seguenti per creare e assegnare una regola di trasformazione rilascio per il trust della relying party che utilizza Windows PowerShell:
     
-        $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
-        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+    ```
+    $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+    ```
+    ```
+    Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+    ```
 
 10. Nella console di gestione di AD FS 2.0 fare clic con il pulsante destro del mouse sul trust della relying party e scegliere **Modifica regole attestazione**.
 

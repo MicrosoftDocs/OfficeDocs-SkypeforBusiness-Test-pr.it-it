@@ -45,9 +45,12 @@ Per i dettagli sulla configurazione di oggetti contatto, vedere la documentazion
 
 2.  Eseguire il cmdlet New-CsExUmContact per creare gli oggetti contatto necessari per la distribuzione. Ad esempio, per creare un oggetto contatto Operatore automatico e un oggetto contatto Accesso sottoscrittore:
     
-        New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-    
-        New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+    ```
+    New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
+    ```
+    ```
+    New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+    ```
     
     In questi esempi vengono impostati i parametri seguenti:
     

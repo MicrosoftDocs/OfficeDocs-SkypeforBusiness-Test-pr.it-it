@@ -97,9 +97,12 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 22. Dopo aver ricevuto, importato e assegnato il certificato pubblico, è necessario arrestare e riavviare i servizi del server perimetrale. A tale scopo, digitare quanto segue nella console di gestione di Lync Server:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 23. Per configurare DNS per la federazione XMPP, aggiungere il record SRV seguente al DNS esterno:\_xmpp-server.\_tcp.\<nome dominio\> Il record SRV risolverà l'FQDN dell'Access Edge del server perimetrale con un valore di porta 5269. È inoltre necessario configurare un record host 'A' (ad esempio, xmpp.contoso.com) che punta all'indirizzo IP del server Access Edge.
     
@@ -119,23 +122,32 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 24. Configurare nuovi criteri di accesso esterno per abilitare tutti gli utenti. A tale scopo, aprire Lync Server Management Shell nel Front End Server e digitare:
     
-        New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
-        New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
-        Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
-    
+    ```
+    New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
+    ```
+    ```
+    New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
+    ```
+    ```
+    Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
+    ```
     Abilitare l'accesso XMPP per gli utenti esterni digitando:
     
-        Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-    
-        Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+    ```
+    Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
+    ```
+    ```
+    Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+    ```
 
 25. Nel server perimetrale in cui è distribuito il proxy XMPP aprire un prompt dei comandi o un' interfaccia della riga di comando Windows PowerShell™ e digitare il comando seguente:
     
-        Netstat -ano | findstr 5269
-    
-        Netstat -ano | findstr 23456
+    ```
+    Netstat -ano | findstr 5269
+    ```
+    ```
+    Netstat -ano | findstr 23456
+    ```
     
     Il comando **netstat -ano** è un comando per le statistiche di rete, i parametri **-ano** richiedono che il comando netstat visualizzi tutte le connessioni e le porte di attesa, che l'indirizzo e le porte vengano visualizzati in forma numerica e che l'ID del processo proprietario venga associato a ogni connessione. Il carattere **|** definisce una pipe per il comando successivo, **findstr**, ovvero "find string" (trova stringa). I numeri 5269 e 23456 passati a findstr come parametro indicano al comando di cercare le stringhe 5269 e 23456 nell'output di netstat. Se la configurazione di XMPP è corretta, il risultato dei comandi dovrebbe essere l'ascolto e l'attivazione delle connessioni sia sull'interfaccia esterna (porta 5269) che interna (porta 23456) del server perimetrale.
     
