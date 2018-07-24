@@ -25,26 +25,19 @@ Lync Server 2013 utilizza i certificati per garantire la crittografia delle comu
 
 Non viene fornito il supporto per una voce con caratteri jolly come nome soggetto, ovvero come nome comune o CN, per alcun ruolo. Quando si utilizzano voci con caratteri jolly nel nome alternativo del soggetto, sono supportati i ruoli del server seguenti:
 
-  -   
-    **Proxy inverso.**   La voce SAN con caratteri jolly è supportata per il certificato di pubblicazione con un URL semplice (Meet e Dialin).
+   **Proxy inverso.**   La voce SAN con caratteri jolly è supportata per il certificato di pubblicazione con un URL semplice (Meet e Dialin).  
 
-  -   
-    **Proxy inverso.**   La voce SAN con caratteri jolly è supportata per le voci SAN per LyncDiscover nel certificato di pubblicazione.
+   **Proxy inverso.**   La voce SAN con caratteri jolly è supportata per le voci SAN per LyncDiscover nel certificato di pubblicazione.  
 
-  -   
-    **Director.**   La voce SAN con caratteri jolly è supportata per gli URL semplici (Meet e Dialin) e per le voci SAN per LyncDiscover e LyncDiscoverInternal nei componenti Web di Director.
+   **Director.**   La voce SAN con caratteri jolly è supportata per gli URL semplici (Meet e Dialin) e per le voci SAN per LyncDiscover e LyncDiscoverInternal nei componenti Web di Director.  
 
-  -   
-    **Front End Server ( Standard Edition) e pool Front End ( Enterprise Edition).** La voce SAN con caratteri jolly è supportata per gli URL semplici (Meet e Dialin) e per le voci SAN per LyncDiscover e LyncDiscoverInternal nei componenti Web Front End.
+   **Front End Server ( Standard Edition) e pool Front End ( Enterprise Edition).** La voce SAN con caratteri jolly è supportata per gli URL semplici (Meet e Dialin) e per le voci SAN per LyncDiscover e LyncDiscoverInternal nei componenti Web Front End.  
 
-  -   
-    **Messaggistica unificata di Exchange.**   Il server non utilizza voci di nome alternativo del soggetto quando viene distribuito come server autonomo.
+   **Messaggistica unificata di Exchange.**   Il server non utilizza voci di nome alternativo del soggetto quando viene distribuito come server autonomo.  
 
-  -   
-    **Server Accesso client di Microsoft Exchange Server.**   Le voci con caratteri jolly nel nome SAN sono supportate per i client interni ed esterni.
+   **Server Accesso client di Microsoft Exchange Server.**   Le voci con caratteri jolly nel nome SAN sono supportate per i client interni ed esterni.  
 
-  -   
-    **Messaggistica unificata di Exchange e server Accesso client di Microsoft Exchange Server nello stesso server.**   Le voci di nome alternativo del soggetto con caratteri jolly sono supportate.
+   **Messaggistica unificata di Exchange e server Accesso client di Microsoft Exchange Server nello stesso server.**   Le voci di nome alternativo del soggetto con caratteri jolly sono supportate.  
 
 In questo argomento non vengono trattati i ruoli del server seguenti:
 

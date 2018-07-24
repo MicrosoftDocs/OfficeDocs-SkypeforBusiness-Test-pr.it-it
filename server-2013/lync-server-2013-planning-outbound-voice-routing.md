@@ -59,17 +59,13 @@ Il routing delle chiamate in uscita viene applicato alle chiamate destinate a un
 
 In questa sezione vengono fornite le linee guida per la configurazione delle impostazioni seguenti del server di routing delle chiamate in uscita:
 
-  -   
-    [Dial plan e regole di normalizzazione in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
+   [Dial plan e regole di normalizzazione in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)  
 
-  -   
-    [Criteri vocali in Lync Server 2013](lync-server-2013-voice-policies.md)
+   [Criteri vocali in Lync Server 2013](lync-server-2013-voice-policies.md)  
 
-  -   
-    [Record utilizzo PSTN in Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+   [Record utilizzo PSTN in Lync Server 2013](lync-server-2013-pstn-usage-records.md)  
 
-  -   
-    [Route vocali in Lync Server 2013](lync-server-2013-voice-routes.md)
+   [Route vocali in Lync Server 2013](lync-server-2013-voice-routes.md)  
 
 ## Vedere anche
 

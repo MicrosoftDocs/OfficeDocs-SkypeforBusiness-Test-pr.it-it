@@ -25,14 +25,11 @@ La federazione, la connettività per la messaggistica istantanea pubblica e il p
 
 La connettività per la messaggistica istantanea pubblica è un tipo speciale di federazione che consente a un client Lync Server di accedere ai partner di messaggistica istantanea pubblica configurati con Lync 2013. I partner di connettività per la messaggistica istantanea pubblica correnti sono:
 
-  -   
-    America Online
+   America Online  
 
-  -   
-    Windows Live
+   Windows Live  
 
-  -   
-    Yahoo\!
+   Yahoo\!  
 
 Una configurazione di connettività per la messaggistica istantanea pubblica consente agli utenti di Lync di accedere agli utenti di connettività per la messaggistica istantanea pubblica mediante:
 

@@ -17,11 +17,9 @@ _**Ultima modifica dell'argomento:** 2013-01-30_
 
 Se si decide di abilitare le conferenze Web, è necessario pianificare quanto segue:
 
-  -   
-    Accesso all'archivio file utilizzato per l'archiviazione del contenuto delle conferenze Web.
+  Accesso all'archivio file utilizzato per l'archiviazione del contenuto delle conferenze Web.
 
-  -   
-    Integrazione con Server Office Web Apps, necessaria per condividere i file di PowerPoint durante una conferenza.
+  Integrazione con Server Office Web Apps, necessaria per condividere i file di PowerPoint durante una conferenza.
 
 ## Archivio file
 

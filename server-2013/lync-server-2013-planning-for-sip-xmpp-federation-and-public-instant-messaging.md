@@ -131,14 +131,11 @@ La distribuzione e la configurazione di XMPP sono illustrate in [Distribuzione d
 
 Negli argomenti seguenti sono fornite informazioni per la definizione di certificati, porte del firewall e voci DNS per i tipi di scenari di federazione supportati.
 
-  -   
-    [Riepilogo dei certificati - SIP, federazione di XMPP e messaggistica istantanea pubblica](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Riepilogo dei certificati - SIP, federazione di XMPP e messaggistica istantanea pubblica](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)  
 
-  -   
-    [Riepilogo porte: SIP, federazione di XMPP e messaggistica istantanea pubblica](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Riepilogo porte: SIP, federazione di XMPP e messaggistica istantanea pubblica](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)  
 
-  -   
-    [Riepilogo DNS: SIP, federazione di XMPP e messaggistica istantanea pubblica](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Riepilogo DNS: SIP, federazione di XMPP e messaggistica istantanea pubblica](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)  
 
 ## Vedere anche
 

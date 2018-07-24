@@ -61,32 +61,25 @@ Gli argomenti e le procedure seguenti utilizzano Forefront Threat Management Gat
 ## Operazioni preliminari
 
 Per una distribuzione corretta di Forefront Threat Management Gateway 2010 come proxy inverso, è necessario impostare e configurare un server utilizzando i prerequisiti e i requisiti hardware definiti nella documentazione di Forefront Threat Management Gateway 2010. Per configurare correttamente l'hardware e installare Forefront Threat Management Gateway 2010 sul server prima di continuare, vedere gli argomenti seguenti.
-
-  -   
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
-
-  -   
-    [Specifiche hardware di Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
+  
+   [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+  
+   [Specifiche hardware di Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
 
 Per una distribuzione corretta di IIS ARR come proxy inverso, è necessario configurare l'hardware e i prerequisiti software come illustrato negli argomenti seguenti.
 
-  -   
-    Per installare IIS in Windows Server 2008 o Windows Server 2008 R2, consultare le istruzioni sull' [installazione di IIS 7 in Windows Server 2008 o Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
-
-  -   
-    Per installare IIS in Windows Server 2012, consultare le istruzioni sull' [installazione di IIS 8 in Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
-
-  -   
-    Per installare IIS in Windows Server 2012 R2, vedere [Installazione di IIS 8.5 in Windows Server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
-
-  -   
-    Per scaricare l'estensione di Application Request Routing per IIS, seguire le istruzioni della [pagina per il download di Application Request Routing v2.5](http://go.microsoft.com/fwlink/?linkid=291298)
-
-  -   
-    Per installare ARR, seguire le istruzioni della [pagina sull'installazione di Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)
+   Per installare IIS in Windows Server 2008 o Windows Server 2008 R2, consultare le istruzioni sull' [installazione di IIS 7 in Windows Server 2008 o Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
+  
+   Per installare IIS in Windows Server 2012, consultare le istruzioni sull' [installazione di IIS 8 in Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
+  
+   Per installare IIS in Windows Server 2012 R2, vedere [Installazione di IIS 8.5 in Windows Server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
+  
+   Per scaricare l'estensione di Application Request Routing per IIS, seguire le istruzioni della [pagina per il download di Application Request Routing v2.5](http://go.microsoft.com/fwlink/?linkid=291298)
+  
+   Per installare ARR, seguire le istruzioni della [pagina sull'installazione di Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)
     
 
-    > [!NOTE]
-    > Le istruzioni attualmente disponibili sono per ARR 2.0. I passaggi da eseguire per l'installazione dell'estensione sono uguali per entrambe le versioni.
+   > [!NOTE]
+   > Le istruzioni attualmente disponibili sono per ARR 2.0. I passaggi da eseguire per l'installazione dell'estensione sono uguali per entrambe le versioni.
 
 

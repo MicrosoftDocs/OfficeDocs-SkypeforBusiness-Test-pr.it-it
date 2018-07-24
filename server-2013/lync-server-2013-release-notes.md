@@ -23,38 +23,27 @@ In questo documento sono disponibili informazioni importanti che è consigliabil
 
 Sezioni del documento:
 
-  -   
-    Client Lync 2013
+   Client Lync 2013
 
-  -   
-    Lync Server
+   Lync Server
 
-  -   
-    Installazione
+   Installazione
 
-  -   
-    Mobilità
+   Mobilità
+  
+   Servizi di conferenza
 
-  -   
-    Servizi di conferenza
+   VoIP aziendale
 
-  -   
-    VoIP aziendale
+   Presenza
 
-  -   
-    Presenza
+   applicazione Response Group, applicazione Parcheggio di chiamata e risposta alle chiamate di gruppo
 
-  -   
-    applicazione Response Group, applicazione Parcheggio di chiamata e risposta alle chiamate di gruppo
+   Pannello di controllo di Lync Server, Generatore di topologie e Strumento di pianificazione
 
-  -   
-    Pannello di controllo di Lync Server, Generatore di topologie e Strumento di pianificazione
+   Localizzazione
 
-  -   
-    Localizzazione
-
-  -   
-    Copyright
+   Copyright
 
 ## Client Lync 2013
 
@@ -93,6 +82,7 @@ Per risolvere questo problema, riavviare i servizi di Lync Server dopo aver appo
 ```
 Stop-CsWindowsService -graceful
 ```
+
 ```
 Start-CsWindowsService
 ```

@@ -17,14 +17,11 @@ _**Ultima modifica dell'argomento:** 2012-09-08_
 
 Se nell'organizzazione è necessario il supporto di meno di 15.000 connessioni client al servizio Access Edge, 1.000 connessioni client attive al servizio Web Conferencing di Lync Server e 500 sessioni A/V Edge contemporanee e se non è importante garantire la disponibilità elevata del server perimetrale, questa topologia offre come vantaggi costi hardware inferiori e una distribuzione più semplice. Se si desidera una maggiore capacità o disponibilità, è consigliabile distribuire una topologia di server perimetrale consolidata con scalabilità implementata.
 
-  -   
-    [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP privati tramite NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+   [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP privati tramite NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)  
 
-  -   
-    [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+   [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
 
-  -   
-    [Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+   [Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)  
 
 > [!important]  
 > Quando viene utilizzato l'indirizzo IP pubblico nel server perimetrale, il gateway predefinito nel server perimetrale non è più il firewall o il router locale, ma il router o il firewall del perimetro pubblico, che sarà un indirizzo pubblico. Il proxy inverso continua a utilizzare il router o il firewall associato alla rete perimetrale più esterna. La differenza tra il proxy inverso e il server perimetrale con gli indirizzi IP pubblici è costituita dal fatto che il proxy inverso utilizza ancora la conversione NAT mentre il server perimetrale utilizza una relazione di route.

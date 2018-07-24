@@ -16,15 +16,12 @@ ms.translationtype: HT
 _**Ultima modifica dell'argomento:** 2012-09-08_
 
 Se nell'organizzazione è necessario il supporto di meno di 15.000 connessioni client al servizio Access Edge, 1.000 connessioni client al servizio Web Conferencing Lync Server attivo e 500 sessioni A/V Edge contemporanee e se non è importante garantire la disponibilità elevata del server perimetrale, questa topologia offre come vantaggi costi hardware inferiori e una distribuzione più semplice. Se si desidera una maggiore capacità o disponibilità, è necessario distribuire la topologia perimetrale consolidata con scalabilità implementata. Per informazioni dettagliate, vedere uno degli argomenti seguenti:
+  
+   [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP privati tramite NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  
+   [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  -   
-    [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP privati tramite NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
-
-  -   
-    [Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
-
-  -   
-    [Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+   [Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 La figura non mostra i Director, ovvero un ruolo server facoltativo distribuito nella rete interna tra il server perimetrali e il pool Front End o il server. Per informazioni dettagliate sulla topologia per i Director, vedere [Componenti richiesti per il server Director in Lync Server 2013](lync-server-2013-components-required-for-the-director.md). Nella figura è rappresentato un singolo proxy inverso.
 
