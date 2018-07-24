@@ -89,19 +89,8 @@ Quando si ripristina un server, è necessario iniziare con un computer nuovo o p
 
   - Un server nuovo o pulito con lo stesso nome di dominio completo (FQDN) del server in cui si è verificato l'errore.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Quando si installa il sistema operativo, fare attenzione a non eliminare l'account del computer in Servizi di dominio Active Directory e verificare che vengano mantenute le autorizzazioni di gruppo per l'account.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Quando si installa il sistema operativo, fare attenzione a non eliminare l'account del computer in Servizi di dominio Active Directory e verificare che vengano mantenute le autorizzazioni di gruppo per l'account.
 
   - Software di installazione per il sistema operativo. Per installare il sistema operativo, è possibile utilizzare le procedure di distribuzione del server e le configurazioni stabilite dall'organizzazione. Quando si ripristina il servizio, è necessario avere a disposizione tali requisiti di configurazione e procedure.
 
@@ -115,19 +104,8 @@ Quando si ripristina un server, è necessario iniziare con un computer nuovo o p
 
   - Software per l'acquisizione di immagini di sistema.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È consigliabile acquisire una copia dell'immagine del sistema dopo l'installazione del sistema operativo e di SQL Server e prima di iniziare il ripristino, in modo che sia possibile utilizzare questa immagine come punto di ripristino dello stato precedente in caso di problemi durante il ripristino.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > È consigliabile acquisire una copia dell'immagine del sistema dopo l'installazione del sistema operativo e di SQL Server e prima di iniziare il ripristino, in modo che sia possibile utilizzare questa immagine come punto di ripristino dello stato precedente in caso di problemi durante il ripristino.
 
   - Software di installazione di Lync Server 2013. La Distribuzione guidata di Lync Server è disponibile nella cartella o nel supporto di installazione di Lync Server in \\setup\\amd64\\Setup.exe.
 

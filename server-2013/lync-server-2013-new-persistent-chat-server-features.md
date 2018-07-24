@@ -75,19 +75,8 @@ L'esecuzione di questi servizi in ogni server Chat persistente consente di usufr
 
 Per supportare il caricamento e il download di file in chat room di Chat persistente, il server Chat persistente include un servizio Web. Nelle versioni precedenti questo servizio è collocato nel Front End Server del server Chat persistente e richiede l'installazione di Internet Information Services (IIS) come prerequisito. Nel server Chat persistente di Lync Server 2013 il servizio Web di caricamento/download dei file è collocato con il Front End Server di Lync Server 2013, pertanto Internet Information Services (IIS) non è più un prerequisito per il server Chat persistente. Il servizio Web di caricamento/download dei file è identificato come **PersistentChat** in Gestione Internet Information Services (IIS).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il ruolo <strong>PersistentChatService</strong> può essere eseguito nello stesso server di Lync Server 2013Front End Server solo se il Front End Server è di tipo Standard EditionFront End Server. Il ruolo <strong>PersistentChatService</strong> non può essere eseguito separatamente da Lync Server 2013Front End Server. Può essere installato solo nel contesto di una distribuzione di Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il ruolo <strong>PersistentChatService</strong> può essere eseguito nello stesso server di Lync Server 2013Front End Server solo se il Front End Server è di tipo Standard EditionFront End Server. Il ruolo <strong>PersistentChatService</strong> non può essere eseguito separatamente da Lync Server 2013Front End Server. Può essere installato solo nel contesto di una distribuzione di Lync Server 2013.
 
 Nel server Chat persistente il servizio di ricerca è stato eliminato. In Lync Server 2010, Group Chat il servizio di ricerca viene eseguito in ogni Front End Server di Group Chat Server ed esegue il routing in uno dei Channel Server. Lync Server 2013 si basa sul routing utilizzando oggetti contatto, in cui ogni pool di server Chat persistente è rappresentato da un oggetto contatto utilizzato dai Lync ServerFront End Server per identificare e instradare le richieste a un pool di server Chat persistente appropriato e a uno dei computer che eseguono il server Chat persistente nel pool.
 
@@ -97,19 +86,8 @@ In Lync Server 2013 sono state apportate modifiche al servizio Conformità:
 
   - La coda di Accodamento messaggi (noto anche come MSMQ) condivisa dal servizio Chat persistente e dal servizio Conformità in ogni Front End Server del server Chat persistente è ora una coda privata condivisa solo dai due servizi. Tutti i servizi di conformità scrivono nello stesso database back-end di conformità. Leggono inoltre i dati da tale database per inviarli alla propria istanza dell'adattatore. Il server back-end di conformità è rappresentato da un nuovo ruolo server back-end.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Analogamente alle versioni precedenti, tutti i dati di conformità vengono elaborati solo una volta. I dati possono essere elaborati da qualsiasi istanza dell'adattatore richiamata dal servizio di conformità in esecuzione nei diversi computer server Chat persistente di Lync Server 2013. Nel server Chat persistente i dati possono essere elaborati da qualsiasi istanza dell'adattatore.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > Analogamente alle versioni precedenti, tutti i dati di conformità vengono elaborati solo una volta. I dati possono essere elaborati da qualsiasi istanza dell'adattatore richiamata dal servizio di conformità in esecuzione nei diversi computer server Chat persistente di Lync Server 2013. Nel server Chat persistente i dati possono essere elaborati da qualsiasi istanza dell'adattatore.    
 
     > [!NOTE]
     > Per informazioni sull'installazione di Accodamento messaggi, vedere <A href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Installare i sistemi operativi e il software prerequisito nei server per Lync Server 2013</A> nella documentazione relativa alla distribuzione.

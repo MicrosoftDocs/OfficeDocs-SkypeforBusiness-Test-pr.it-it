@@ -27,19 +27,8 @@ In questa sezione vengono definiti scenari per le distribuzioni di server perime
 
 Attraverso questo processo è possibile pianificare e documentare la configurazione di tutte le funzionalità potenziali che si intende distribuire agli utenti. È tuttavia possibile aggiungere servizi di federazione e Mobility dopo la distribuzione del server perimetrale e confermare la correttezza dell'operazione prima di aggiungere altre funzionalità. Il processo di aggiunta di funzionalità a una distribuzione di server perimetrale esistente è trattato nella sezione Distribuzione. Per informazioni sulla distribuzione, vedere [Distribuzione dell'accesso degli utenti esterni in Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Se si include la pianificazione per queste funzionalità durante il processo di pianificazione iniziale, è possibile preparare i requisiti di DNS, firewall e certificati per le funzionalità aggiunte, per acquisire i certificati e configurare i requisiti di DNS e porte/protocolli in anticipo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si intende pianificare l'installazione di server perimetrali e proxy inverso e aggiungere funzionalità successivamente (ad esempio federazione e Mobility), determinare quali certificati saranno necessari per tutti i servizi dopo la distribuzione. La pianificazione e l'acquisizione dei certificati per tutte le funzionalità in anticipo, che vengano o meno distribuite inizialmente, evita di dover ordinare nuovi certificati per soddisfare i requisiti di federazione (nei server perimetrali) o del proxy inverso (per i servizi Mobility).</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Se si intende pianificare l'installazione di server perimetrali e proxy inverso e aggiungere funzionalità successivamente (ad esempio federazione e Mobility), determinare quali certificati saranno necessari per tutti i servizi dopo la distribuzione. La pianificazione e l'acquisizione dei certificati per tutte le funzionalità in anticipo, che vengano o meno distribuite inizialmente, evita di dover ordinare nuovi certificati per soddisfare i requisiti di federazione (nei server perimetrali) o del proxy inverso (per i servizi Mobility).
 
 
 > [!NOTE]
@@ -88,19 +77,8 @@ Attraverso questo processo è possibile pianificare e documentare la configurazi
 <td><p><a href="lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md">Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Gli scenari di federazione consentono di pianificare la funzionalità per estendere i tipi di partner con cui possono comunicare gli utenti.</p>
-<ul>
-<li><p>Federazione Lync Server</p></li>
-<li><p>Federazione Office Communications Server</p></li>
-<li><p>Connettività per messaggistica istantanea pubblica</p></li>
-<li><p>Federazione XMPP</p></li>
-</ul></td>
-<td><p>Pianificazione per gli scenari di federazione</p>
-<ul>
-<li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Pianificazione della federazione di Lync Server e Office Communications Server</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Pianificazione della connettività per messaggistica istantanea pubblica</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Pianificazione per la federazione di XMPP (Extensible Messaging and Presence Protocol) in Lync Server 2013</a></p></li>
-</ul></td>
+<td><p>Gli scenari di federazione consentono di pianificare la funzionalità per estendere i tipi di partner con cui possono comunicare gli utenti.</p><ul><li><p>Federazione Lync Server</p></li><li><p>Federazione Office Communications Server</p></li><li><p>Connettività per messaggistica istantanea pubblica</p></li><li><p>Federazione XMPP</p></li></ul></td>
+<td><p>Pianificazione per gli scenari di federazione</p><ul><li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Pianificazione della federazione di Lync Server e Office Communications Server</a></p></li><li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Pianificazione della connettività per messaggistica istantanea pubblica</a></p></li><li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Pianificazione per la federazione di XMPP (Extensible Messaging and Presence Protocol) in Lync Server 2013</a></p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>I servizi Mobility vengono offerti tramite il proxy inverso. I servizi che abilitano la mobilità per gli utenti esterni sono distribuiti nel Front End Server o nel pool Front End. Per abilitare i servizi Mobility per gli utenti esterni, creare regole di pubblicazione o modificare quelle esistenti nel proxy inverso.</p></td>
@@ -110,16 +88,5 @@ Attraverso questo processo è possibile pianificare e documentare la configurazi
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nelle sezioni Scenari di seguito sono illustrate architetture di riferimento, esempi di DNS, definizioni di porte/protocolli e requisiti di certificati. Sono inoltre inclusi diagrammi per esigenze relative a DNS, definizioni di porte/protocolli e certificati. I diagrammi offrono un modello da compilare e distribuire ad altri team (ad esempio il team di rete, il team di infrastruttura di chiave pubblica e il team di distribuzione server dell'organizzazione). I diagrammi hanno l'obiettivo di migliorare le comunicazioni e garantire che gli elementi di configurazione obbligatori del server perimetrale vengano illustrati in modo efficiente ai responsabili della configurazione. Si consiglia di utilizzare i diagrammi e le architetture di riferimento associate per pianificare la distribuzione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Nelle sezioni Scenari di seguito sono illustrate architetture di riferimento, esempi di DNS, definizioni di porte/protocolli e requisiti di certificati. Sono inoltre inclusi diagrammi per esigenze relative a DNS, definizioni di porte/protocolli e certificati. I diagrammi offrono un modello da compilare e distribuire ad altri team (ad esempio il team di rete, il team di infrastruttura di chiave pubblica e il team di distribuzione server dell'organizzazione). I diagrammi hanno l'obiettivo di migliorare le comunicazioni e garantire che gli elementi di configurazione obbligatori del server perimetrale vengano illustrati in modo efficiente ai responsabili della configurazione. Si consiglia di utilizzare i diagrammi e le architetture di riferimento associate per pianificare la distribuzione.

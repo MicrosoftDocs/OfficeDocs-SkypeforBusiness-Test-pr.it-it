@@ -37,19 +37,8 @@ Per abilitare l'integrazione di Exchange 2013 Outlook Web Access (OWA) e della m
     
     In Exchange OWA verificare anche che il nome FQDN del pool sia attendibile.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se il server CAS <em>non</em> è collocato nello stesso server che esegue la messaggistica unificata di Exchange 2013, ignorare i passaggi rimanenti di questa procedura ed eseguire direttamente la procedura &quot;Creare un'applicazione attendibile per il server CAS di Exchange 2013&quot; più avanti in questo argomento. Se il server CAS è collocato nello stesso server che esegue la messaggistica unificata di Exchange 2013, completare i passaggi di questa procedura e non eseguire la procedura &quot;Creare un'applicazione attendibile per il server CAS Exchange 2013&quot;.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se il server CAS <em>non</em> è collocato nello stesso server che esegue la messaggistica unificata di Exchange 2013, ignorare i passaggi rimanenti di questa procedura ed eseguire direttamente la procedura &quot;Creare un'applicazione attendibile per il server CAS di Exchange 2013&quot; più avanti in questo argomento. Se il server CAS è collocato nello stesso server che esegue la messaggistica unificata di Exchange 2013, completare i passaggi di questa procedura e non eseguire la procedura &quot;Creare un'applicazione attendibile per il server CAS Exchange 2013&quot;.
 
 4.  Eseguire **Enable-CsTopology** .
 

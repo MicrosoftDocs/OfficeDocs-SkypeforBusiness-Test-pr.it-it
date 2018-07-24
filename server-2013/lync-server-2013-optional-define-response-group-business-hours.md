@@ -19,19 +19,8 @@ _**Ultima modifica dell'argomento:** 2012-11-01_
 
 Le impostazioni relative all'orario di ufficio consentono di definire quando è disponibile il flusso di lavoro per rispondere alle chiamate e di specificare le azioni da eseguire per le chiamate ricevute al di fuori dell'orario di ufficio. Gli amministratori di Response Group possono utilizzare il cmdlet **New-CsRgsHoursOfBusiness** per creare pianificazioni predefinite da utilizzare per qualsiasi numero di Response Group.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando si crea o si modifica un flusso di lavoro, è possibile specificare una pianificazione personalizzata da applicare solo a tale flusso di lavoro. Per informazioni dettagliate, vedere <a href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Creare o modificare un flusso di lavoro di un gruppo di risposta in Lync Server 2013</a> o <a href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Creare o modificare un flusso di lavoro interattivo in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Quando si crea o si modifica un flusso di lavoro, è possibile specificare una pianificazione personalizzata da applicare solo a tale flusso di lavoro. Per informazioni dettagliate, vedere <a href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Creare o modificare un flusso di lavoro di un gruppo di risposta in Lync Server 2013</a> o <a href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Creare o modificare un flusso di lavoro interattivo in Lync Server 2013</a>.
 
 
 > [!NOTE]
@@ -39,19 +28,8 @@ Le impostazioni relative all'orario di ufficio consentono di definire quando è 
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Utilizzare il formato 24 ore per i parametri dei cmdlet seguenti, ad esempio 20:00 = 8:00 di sera.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Utilizzare il formato 24 ore per i parametri dei cmdlet seguenti, ad esempio 20:00 = 8:00 di sera.
 
 ## Per creare una raccolta di orari di ufficio predefinita
 

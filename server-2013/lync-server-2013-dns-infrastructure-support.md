@@ -37,16 +37,5 @@ Lync Server 2013 richiede il sistema DNS (Domain Name System) e lo utilizza nei 
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il nome specificato deve essere identico al nome del computer configurato nel server. Per impostazione predefinita, il nome di un computer non aggiunto a un dominio è un nome breve, non un nome di dominio completo (FQDN). Il Generatore di topologie usa i nomi di dominio completi, non i nomi brevi, pertanto è necessario aggiungere un suffisso DNS al nome di ogni computer non aggiunto a un dominio da distribuire come server perimetrale. Quando si assegnano i nomi di dominio completi dei server Lync, dei server perimetrali e dei pool è consigliabile <strong>usare solo i caratteri standard</strong> (inclusi i caratteri A-Z, a-z, 0-9 e i trattini). Non usare i caratteri Unicode e i caratteri di sottolineatura. I caratteri non standard di un FQDN spesso non sono supportati dal sistema DNS esterno e dalle CA pubbliche. Ciò accade quando l'FQDN deve essere assegnato al nome soggetto nel certificato.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il nome specificato deve essere identico al nome del computer configurato nel server. Per impostazione predefinita, il nome di un computer non aggiunto a un dominio è un nome breve, non un nome di dominio completo (FQDN). Il Generatore di topologie usa i nomi di dominio completi, non i nomi brevi, pertanto è necessario aggiungere un suffisso DNS al nome di ogni computer non aggiunto a un dominio da distribuire come server perimetrale. Quando si assegnano i nomi di dominio completi dei server Lync, dei server perimetrali e dei pool è consigliabile <strong>usare solo i caratteri standard</strong> (inclusi i caratteri A-Z, a-z, 0-9 e i trattini). Non usare i caratteri Unicode e i caratteri di sottolineatura. I caratteri non standard di un FQDN spesso non sono supportati dal sistema DNS esterno e dalle CA pubbliche. Ciò accade quando l'FQDN deve essere assegnato al nome soggetto nel certificato.

@@ -37,16 +37,5 @@ Prima di distribuire un server Chat persistente per l'organizzazione, per ottimi
 
   - Ci sono requisiti normativi da rispettare? Se la società si trova in un paese o in un'area geografica in cui i dati devono essere conservati all'interno del paese, potrebbe essere necessario distribuire più pool di server Chat persistente, uno per ciascuna area geografica specifica. Le chat room, le categorie e i componenti aggiuntivi non si estendono su più pool, ma appartengono a un solo pool di server Chat persistente. È possibile gestire l'insieme di categorie, componenti aggiuntivi e chat room per ogni pool di server Chat persistente. È possibile configurare gli utenti in modo che possano accedere alle chat room di uno o più pool, utilizzando l'ambito AllowedMembers della categoria o l'ambito dei membri della chat room, a seconda di come sono progettate le categorie.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Più pool di server Chat persistente non implicano una scala maggiore: in tutti i pool di server Chat persistente sono ancora possibili solo 80.000 utenti connessi simultaneamente. Il motivo principale per cui vengono supportati più pool di server Chat persistente è supportare i problemi legati alla regolamentazione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Più pool di server Chat persistente non implicano una scala maggiore: in tutti i pool di server Chat persistente sono ancora possibili solo 80.000 utenti connessi simultaneamente. Il motivo principale per cui vengono supportati più pool di server Chat persistente è supportare i problemi legati alla regolamentazione.

@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2012-09-21_
 
 Con Lync Server 2010, il numero di telefono dell'utente chiamato, ovvero il numero di telefono chiamato, può essere convertito dal formato E.164 nel formato di composizione locale richiesto dal *peer trunk*, ovvero il gateway, il centralino (PBX) o il trunk SIP associato. A tale scopo, è necessario definire una o più regole per la conversione dell'URI di richiesta prima del routing al peer trunk.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La possibilità di associare una o più regole di conversione a una configurazione trunk di VoIP aziendale è un'<em>alternativa</em> alla configurazione di regole di conversione nel peer trunk. Non associare regole di conversione a una configurazione trunk di VoIP aziendale se sono state configurate regole di conversione nel peer trunk, perché le due regole potrebbero essere in conflitto.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La possibilità di associare una o più regole di conversione a una configurazione trunk di VoIP aziendale è un'<em>alternativa</em> alla configurazione di regole di conversione nel peer trunk. Non associare regole di conversione a una configurazione trunk di VoIP aziendale se sono state configurate regole di conversione nel peer trunk, perché le due regole potrebbero essere in conflitto.
 
 È possibile utilizzare uno dei metodi seguenti per creare e modificare una regola di conversione:
 

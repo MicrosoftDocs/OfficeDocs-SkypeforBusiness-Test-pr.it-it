@@ -15,19 +15,8 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2013-11-07_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando si esegue la Configurazione guidata certificati, verificare di aver effettuato l'accesso con un account membro di un gruppo che dispone delle autorizzazioni appropriate per il tipo di modello di certificato da utilizzare. Per impostazione predefinita, per una richiesta di certificato di Lync Server 2013 viene utilizzato il modello di certificato WebServer. Se per la richiesta di un certificato con questo modello si utilizza un account membro del gruppo RTCUniversalServerAdmins, verificare che al gruppo siano state assegnate le autorizzazioni di registrazione necessarie per l'utilizzo del modello.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Quando si esegue la Configurazione guidata certificati, verificare di aver effettuato l'accesso con un account membro di un gruppo che dispone delle autorizzazioni appropriate per il tipo di modello di certificato da utilizzare. Per impostazione predefinita, per una richiesta di certificato di Lync Server 2013 viene utilizzato il modello di certificato WebServer. Se per la richiesta di un certificato con questo modello si utilizza un account membro del gruppo RTCUniversalServerAdmins, verificare che al gruppo siano state assegnate le autorizzazioni di registrazione necessarie per l'utilizzo del modello.
 
 Per l'interfaccia interna di ogni server perimetrale è necessario un unico certificato. I certificati per l'interfaccia interna possono essere emessi da un'Autorità di certificazione (CA) globale (enterprise) interna o da una CA pubblica. Se nell'organizzazione è distribuita una CA interna, è possibile emettere il certificato per l'interfaccia interna utilizzando la CA interna, evitando la spesa legata all'utilizzo di certificati pubblici. Per la creazione dei certificati è possibile utilizzare una CA interna Windows Server 2008 o Windows Server 2008 R2.
 
@@ -212,19 +201,8 @@ Se sono presenti più siti con server perimetrali, ovvero se è disponibile una 
 
 6.  Fare doppio clic su **Certificati (computer locale)** per espandere gli archivi certificati. Fare doppio clic su **Personale** e quindi su **Certificati** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se nell'archivio personale dei certificati non sono presenti certificati per il computer locale, al certificato importato non è associata alcuna chiave privata. Rivedere i passaggi della richiesta e dell'impostazione. Se il problema persiste, rivolgersi all'amministratore o al provider dell'autorità di certificazione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se nell'archivio personale dei certificati non sono presenti certificati per il computer locale, al certificato importato non è associata alcuna chiave privata. Rivedere i passaggi della richiesta e dell'impostazione. Se il problema persiste, rivolgersi all'amministratore o al provider dell'autorità di certificazione.
 
 7.  Nell'archivio personale dei certificati per il computer locale fare clic con il pulsante destro del mouse sul certificato che si desidera esportare. Scegliere **Tutte le attività** e quindi fare clic su **Esporta** .
 

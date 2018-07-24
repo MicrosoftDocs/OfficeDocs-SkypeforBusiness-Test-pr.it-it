@@ -73,19 +73,8 @@ Abilitando la federazione tra Microsoft Lync Server 2013, Lync Server 2010 e Off
       -   
         Per la federazione di partner individuati, in cui i partner possono individuare il server perimetrale, creare un record SRV nel DNS esterno, ad esempio \_sipfederationtls.\_tcp.contoso.com, che punta alla porta 5061 e al record (A) host del server perimetrale.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se si supportano client Microsoft Lync Mobile in Windows Phone o Apple iPhone, iPad o altri dispositivi Apple e si utilizza il servizio notifica Push o il servizio notifica Push, è necessario eseguire la pianificazione di record SRV di tipo _sipfederationtls._tcp. <em>&lt;dominio SIP&gt;</em> per ogni dominio SIP nei client Lync Mobile. In Android e Nokia Symbian Lync Mobile non viene utilizzata la notifica push e non è previsto questo requisito.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!important]  
+        > Se si supportano client Microsoft Lync Mobile in Windows Phone o Apple iPhone, iPad o altri dispositivi Apple e si utilizza il servizio notifica Push o il servizio notifica Push, è necessario eseguire la pianificazione di record SRV di tipo _sipfederationtls._tcp. <em>&lt;dominio SIP&gt;</em> per ogni dominio SIP nei client Lync Mobile. In Android e Nokia Symbian Lync Mobile non viene utilizzata la notifica push e non è previsto questo requisito.
 
   - Configurare criteri di accesso degli utenti esterni per il supporto dei domini federati.
 
@@ -95,19 +84,8 @@ Le informazioni seguenti consentono di definire i requisiti di certificati, port
 
 La pianificazione dei requisiti di certificati, firewall, porte/protocolli e DNS è in genere un processo semplice se sono stati già pianificati e distribuiti server perimetraliMicrosoft Lync Server 2013. Poiché la federazione è una funzionalità aggiuntiva che utilizza il server perimetrale esistente, i requisiti di pianificazione sono normalmente già soddisfatti con la pianificazione e la distribuzione del server perimetrale. È consigliabile utilizzare le tabelle seguenti per verificare che i requisiti vengano soddisfatti e apportare eventuali modifiche a porte/protocolli e DNS in base alle esigenze.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si dispone di un pool di server perimetrali e si attua la federazione con partner Lync Server 2013 o Lync Server 2010, è possibile utilizzare il bilanciamento del carico DNS o dispositivi di bilanciamento del carico hardware sulle interfacce interne ed esterne dei server perimetrali. Se si attua la federazione con Office Communications Server 2007 oppure Office Communications Server 2007 R2, il bilanciamento del carico hardware garantirà il supporto per il failover in caso di errore di un server perimetrale. Office Communications Server 2007 e Office Communications Server 2007 R2 non supportano il bilanciamento del carico DNS. I server perimetrali partner stabiliranno una comunicazione con il primo server perimetrale del pool che risponderà. In caso di errore del server perimetrale, non verrà eseguito automaticamente il failover.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se si dispone di un pool di server perimetrali e si attua la federazione con partner Lync Server 2013 o Lync Server 2010, è possibile utilizzare il bilanciamento del carico DNS o dispositivi di bilanciamento del carico hardware sulle interfacce interne ed esterne dei server perimetrali. Se si attua la federazione con Office Communications Server 2007 oppure Office Communications Server 2007 R2, il bilanciamento del carico hardware garantirà il supporto per il failover in caso di errore di un server perimetrale. Office Communications Server 2007 e Office Communications Server 2007 R2 non supportano il bilanciamento del carico DNS. I server perimetrali partner stabiliranno una comunicazione con il primo server perimetrale del pool che risponderà. In caso di errore del server perimetrale, non verrà eseguito automaticamente il failover.
 
 I requisiti dei certificati in genere vengono soddisfatti mediante la pianificazione di certificati per il server perimetrale selezionato o il piano di server perimetrale in pool.
 
@@ -121,25 +99,14 @@ La connettività per messaggistica istantanea pubblica è una classe di federazi
 
   - Contatti di AOL (America Online)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utente per Connettività per messaggistica istantanea pubblica di Microsoft Lync (&quot;PIC USL&quot;) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio (la data esatta non è ancora stata definita, ma non sarà anteriore a giugno 2013).</p></li>
-<li><p>La licenza PIC USL è una licenza di sottoscrizione di tipo mensile per utente, richiesta per la federazione di Lync Server o Office Communications Server con Yahoo! Messenger. La possibilità di Microsoft di fornire questo servizio dipende dal supporto offerto da Yahoo! e il contratto sottostante non verrà rinnovato.</p></li>
-<li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti in tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze per utente/dispositivo in aggiunta alla licenza CAL Lync Standard. La federazione con Skype verrà aggiunta a questo elenco per consentire agli utenti di Lync di raggiungere centinaia di milioni di persone tramite messaggistica istantanea e comunicazioni vocali.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> <ul>
+> <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utente per Connettività per messaggistica istantanea pubblica di Microsoft Lync (&quot;PIC USL&quot;) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio (la data esatta non è ancora stata definita, ma non sarà anteriore a giugno 2013).</p></li>
+> 
+> <li><p>La licenza PIC USL è una licenza di sottoscrizione di tipo mensile per utente, richiesta per la federazione di Lync Server o Office Communications Server con Yahoo! Messenger. La possibilità di Microsoft di fornire questo servizio dipende dal supporto offerto da Yahoo! e il contratto sottostante non verrà rinnovato.</p></li>
+> 
+> 
+> <li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti in tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze per utente/dispositivo in aggiunta alla licenza CAL Lync Standard. La federazione con Skype verrà aggiunta a questo elenco per consentire agli utenti di Lync di raggiungere centinaia di milioni di persone tramite messaggistica istantanea e comunicazioni vocali.</p></li></ul>
 
 
 Per questa classe di federazione è necessario tenere conto delle considerazioni seguenti per la pianificazione:
@@ -156,33 +123,11 @@ Le versioni precedenti di Lync Server e Office Communications Server includono u
 
 La distribuzione e la configurazione di XMPP sono illustrate in [Distribuzione dell'accesso degli utenti esterni in Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Per pianificare il supporto di XMPP in un'organizzazione, occorre definire le regole delle porte e del protocollo nel firewall, la configurazione dei certificati e l'aggiunta dei record DNS. Negli argomenti seguenti di questa sezione vengono riepilogate le informazioni necessarie per pianificare correttamente la federazione XMPP per la distribuzione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La funzionalità XMPP di Lync Server 2013 è testata e supportata da Microsoft per la federazione di messaggistica istantanea con Google Talk. Per altri sistemi XMPP, contattare il fornitore di terze parti per verificare l'eventuale supporto della federazione con Lync Server 2013 e per indicazioni per la distribuzione o la risoluzione dei problemi.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> La funzionalità XMPP di Lync Server 2013 è testata e supportata da Microsoft per la federazione di messaggistica istantanea con Google Talk. Per altri sistemi XMPP, contattare il fornitore di terze parti per verificare l'eventuale supporto della federazione con Lync Server 2013 e per indicazioni per la distribuzione o la risoluzione dei problemi.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La federazione XMPP non è supportata per gli utenti ospitati in Survivable Branch Appliance. Lo stesso vale per la visualizzazione di informazioni sulla presenza e lo scambio di messaggi istantanei.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La federazione XMPP non è supportata per gli utenti ospitati in Survivable Branch Appliance. Lo stesso vale per la visualizzazione di informazioni sulla presenza e lo scambio di messaggi istantanei.
 
 Negli argomenti seguenti sono fornite informazioni per la definizione di certificati, porte del firewall e voci DNS per i tipi di scenari di federazione supportati.
 

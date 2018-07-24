@@ -27,20 +27,8 @@ Gli utenti di dispositivi mobili hanno a che fare con diversi scenari di applica
 
 I requisiti di affinità dei cookie nei servizi di bilanciamento del carico hardware è sostanzialmente ridotta e si sostituisce l'affinità TCP (Transmission Control Protocol) se si utilizza Lync Mobile di Lync Server 2013. È sempre possibile utilizzare l'affinità dei cookie, ma non sarà più richiesta dai servizi Web.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tutto il traffico dei servizi per dispositivi mobili passa attraverso il proxy inverso, indipendentemente dalla posizione del punto di origine, interna o esterna. Nel caso di un singolo proxy inverso o di una farm di proxy inversi oppure di un dispositivo che fornisce le funzioni di proxy inverso, può verificarsi un problema quando il traffico interno esce attraverso un'interfaccia e tenta immediatamente l'ingresso sulla stessa interfaccia. Ciò causa spesso una violazione delle regole di sicurezza nota come spoofing di pacchetti TCP o semplicemente spoofing. L'<em>hairpinning</em> (ovvero l'uscita e l'ingresso immediato di un pacchetto o di una serie di pacchetti) deve essere consentito per supportare le funzionalità per dispositivi mobili. Uno dei modi per risolvere questo problema consiste nell'utilizzare un proxy inverso separato dal firewall (per motivi di sicurezza, nel firewall dovrebbe essere sempre applicata la regola per la prevenzione dello spoofing). Il fenomeno dell'hairpinning può verificarsi sull'interfaccia esterna del proxy inverso anziché sull'interfaccia esterna del firewall. Lo spoofing viene rilevato nel firewall e la regola può essere evitata nel proxy inverso, consentendo così l'hairpinning necessario per le funzionalità per dispositivi mobili.<br />
-Se possibile, utilizzare record host o CNAME DNS (Domain Name System), e non il firewall, per definire il proxy inverso in relazione al comportamento di hairpinning.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Tutto il traffico dei servizi per dispositivi mobili passa attraverso il proxy inverso, indipendentemente dalla posizione del punto di origine, interna o esterna. Nel caso di un singolo proxy inverso o di una farm di proxy inversi oppure di un dispositivo che fornisce le funzioni di proxy inverso, può verificarsi un problema quando il traffico interno esce attraverso un'interfaccia e tenta immediatamente l'ingresso sulla stessa interfaccia. Ciò causa spesso una violazione delle regole di sicurezza nota come spoofing di pacchetti TCP o semplicemente spoofing. L'<em>hairpinning</em> (ovvero l'uscita e l'ingresso immediato di un pacchetto o di una serie di pacchetti) deve essere consentito per supportare le funzionalità per dispositivi mobili. Uno dei modi per risolvere questo problema consiste nell'utilizzare un proxy inverso separato dal firewall (per motivi di sicurezza, nel firewall dovrebbe essere sempre applicata la regola per la prevenzione dello spoofing). Il fenomeno dell'hairpinning può verificarsi sull'interfaccia esterna del proxy inverso anziché sull'interfaccia esterna del firewall. Lo spoofing viene rilevato nel firewall e la regola può essere evitata nel proxy inverso, consentendo così l'hairpinning necessario per le funzionalità per dispositivi mobili.<br />Se possibile, utilizzare record host o CNAME DNS (Domain Name System), e non il firewall, per definire il proxy inverso in relazione al comportamento di hairpinning.
 
 Lync Server 2013 supporta i servizi per dispositivi mobili per i client mobili di Lync 2010 Mobile e Lync 2013. Entrambi i client utilizzano il servizio di individuazione automatica di Lync Server 2013 per trovare il punto di ingresso per i dispositivi mobili, ma utilizzano servizi per dispositivi mobili diversi. Lync 2010 Mobile utilizza il servizio Mobility noto come *Mcx* , introdotto nell'aggiornamento cumulativo per Lync Server 2010 di novembre 2011. I client mobili di Lync 2013 utilizzano l'API Web Unified Communications, o *UCWA* , come provider di servizi per dispositivi mobili.
 

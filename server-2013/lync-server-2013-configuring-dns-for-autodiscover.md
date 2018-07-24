@@ -85,19 +85,8 @@ I record DNS possono essere record A (host) o record CNAME, in base alla possibi
     > Se non si utilizza un Server Director, utilizzare l'FQDN dei servizi Web interni ed esterni del pool Front End oppure, nel caso di un server singolo, l'FQDN del Front End Server o del server Standard Edition.
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È necessario creare un nuovo record CNAME di individuazione automatica nella zona di ricerca diretta di ogni dominio SIP supportato nell'ambiente Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È necessario creare un nuovo record CNAME di individuazione automatica nella zona di ricerca diretta di ogni dominio SIP supportato nell'ambiente Lync Server 2013.
 
 ## Per creare record A DNS
 
@@ -169,19 +158,8 @@ I record DNS possono essere record A (host) o record CNAME, in base alla possibi
 
 11. Per creare un record A aggiuntivo, ripetere i passaggi da 8 a 10.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È necessario creare un nuovo record lyncdiscover e record A lyncdiscoverinternal nell'area di ricerca diretta di ogni dominio SIP supportato nell'ambiente di Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È necessario creare un nuovo record lyncdiscover e record A lyncdiscoverinternal nell'area di ricerca diretta di ogni dominio SIP supportato nell'ambiente di Lync Server 2013.
 
 12. Dopo aver terminato di creare i record A (per IPv6, AAAA), fare clic su **Fine**.
 

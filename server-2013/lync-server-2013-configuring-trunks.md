@@ -25,19 +25,8 @@ Durante la distribuzione di VoIP aziendale, configurare un trunk tra un Mediatio
 
 Per informazioni dettagliate, vedere [Pianificazione per la connettività PSTN in Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) nella documentazione relativa alla pianificazione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prima di iniziare la configurazione del trunk, verificare che la topologia sia stata creata e che il Mediation Server e il relativo peer siano stati configurati e associati l'uno all'altro. Per informazioni dettagliate, vedere <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definire un gateway in Generatore di topologie in Lync Server 2013</a> nella documentazione relativa alla distribuzione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Prima di iniziare la configurazione del trunk, verificare che la topologia sia stata creata e che il Mediation Server e il relativo peer siano stati configurati e associati l'uno all'altro. Per informazioni dettagliate, vedere <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definire un gateway in Generatore di topologie in Lync Server 2013</a> nella documentazione relativa alla distribuzione.
 
 
 > [!NOTE]

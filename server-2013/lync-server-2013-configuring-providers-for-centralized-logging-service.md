@@ -27,20 +27,8 @@ Ad esempio:
 
 Le informazioni nel resto dell'argomento sono incentrate su come definire i provider, modificare un provider e il contenuto della definizione di un provider per ottimizzare la risoluzione dei problemi. Esistono due modi per eseguire i comandi del servizio di registrazione centralizzato. È possibile utilizzare CLSController.exe, disponibile per impostazione predefinita nella directory C:\\Programmi\\Common Files\\Microsoft Lync Server 2013\\CLSAgent oppure utilizzare Lync Server Management Shell per eseguire comandi Windows PowerShell. È importante tenere presente che quando si utilizza CLSController.exe al prompt dei comandi esiste una scelta limitata di scenari disponibili, nei quali i provider sono già definiti e non sono modificabili, ma è possibile definire il livello di registrazione. Quando si utilizza Windows PowerShell, invece, è possibile definire nuovi provider per l'utilizzo nelle sessioni di registrazione e disporre del controllo completo sulla loro creazione, sui dati raccolti e sul livello di raccolta dei dati.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Come già accennato, i provider sono uno strumento dalle grandi potenzialità. Gli scenari, tuttavia, sono ancora più efficaci perché incorporano tutte le informazioni necessarie per impostare ed eseguire la traccia sui componenti rappresentati dai provider. Dato che gli scenari sono in effetti una raccolta di provider, possono essere paragonati all'esecuzione di un file batch contenente centinaia di comandi per raccogliere grandi quantità di informazioni anziché eseguire centinaia di comandi, uno alla volta, dalla riga di comando.<br />
-Per evitare di dover approfondire nei dettagli il funzionamento dei provider, il servizio di registrazione centralizzato include numerosi scenari già definiti, appropriati per la stragrande maggioranza dei possibili problemi che possono verificarsi. In rari casi potrebbe risultare necessario creare e definire provider e assegnarli a scenari. È consigliabile imparare a conoscere nei dettagli ogni scenario disponibile, prima di affrontare la creazione di nuovi provider e scenari. Sebbene in questo argomento siano disponibili informazioni sulla creazione dei provider per capire come gli scenari utilizzino gli elementi dei provider per raccogliere informazioni di traccia, non sono fornite informazioni dettagliate sui provider stessi.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Come già accennato, i provider sono uno strumento dalle grandi potenzialità. Gli scenari, tuttavia, sono ancora più efficaci perché incorporano tutte le informazioni necessarie per impostare ed eseguire la traccia sui componenti rappresentati dai provider. Dato che gli scenari sono in effetti una raccolta di provider, possono essere paragonati all'esecuzione di un file batch contenente centinaia di comandi per raccogliere grandi quantità di informazioni anziché eseguire centinaia di comandi, uno alla volta, dalla riga di comando.<br />Per evitare di dover approfondire nei dettagli il funzionamento dei provider, il servizio di registrazione centralizzato include numerosi scenari già definiti, appropriati per la stragrande maggioranza dei possibili problemi che possono verificarsi. In rari casi potrebbe risultare necessario creare e definire provider e assegnarli a scenari. È consigliabile imparare a conoscere nei dettagli ogni scenario disponibile, prima di affrontare la creazione di nuovi provider e scenari. Sebbene in questo argomento siano disponibili informazioni sulla creazione dei provider per capire come gli scenari utilizzino gli elementi dei provider per raccogliere informazioni di traccia, non sono fornite informazioni dettagliate sui provider stessi.
 
 Come indicato nelle informazioni introduttive in [Panoramica del servizio di registrazione centralizzato](lync-server-2013-overview-of-the-centralized-logging-service.md), gli elementi principali per la definizione di un provider per l'utilizzo in uno scenario sono:
 

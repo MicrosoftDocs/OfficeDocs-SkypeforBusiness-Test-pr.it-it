@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2013-02-22_
 
 I vantaggi offerti dal servizio di registrazione centralizzato diventano evidenti quando si esegue una ricerca e si ottiene un file che può essere utilizzato per individuare un problema segnalato. È possibile procedere in diversi modi per leggere il file. Il file di output è in un formato di testo standard e può essere aperto con Notepad.exe o con qualsiasi altro programma abilitato per l'apertura e la lettura di file di testo. Per file di grandi dimensioni e problemi più complessi, è possibile utilizzare uno strumento come Snooper.exe, progettato per leggere e analizzare l'output di registrazione del servizio di registrazione centralizzato. Snooper è incluso in Lync Server 2013 Debugging Tools, disponibile come download separato. Non sono disponibili scelte rapida da tastiera o voci di menu per Lync Server 2013 Debugging Tools. Dopo aver installato Lync Server 2013 Debugging Tools, aprire Esplora risorse, una finestra della riga di comando oppure Lync Server Management Shell e passare alla directory (percorso predefinito) C:\\Programmi\\Microsoft Lync Server 2013\\Debugging Tools. Fare doppio clic su Snooper.exe oppure digitare Snooper.exe e quindi premere INVIO qualora si utilizzi la riga di comando o Lync Server Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lo scopo di questo argomento non è descrivere nei dettagli le tecniche di risoluzione dei problemi. La risoluzione dei problemi e i processi correlati sono un argomento complesso. Per informazioni dettagliate sulle nozioni fondamentali per la risoluzione dei problemi e sui carichi di lavoro specifici della risoluzione dei problemi, vedere la documentazione di riferimento tecnico del Resource Kit di Microsoft Lync Server 2010 all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0x410" class="uri">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0x410</a>. I processi e le procedure si applicano anche a Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Lo scopo di questo argomento non è descrivere nei dettagli le tecniche di risoluzione dei problemi. La risoluzione dei problemi e i processi correlati sono un argomento complesso. Per informazioni dettagliate sulle nozioni fondamentali per la risoluzione dei problemi e sui carichi di lavoro specifici della risoluzione dei problemi, vedere la documentazione di riferimento tecnico del Resource Kit di Microsoft Lync Server 2010 all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0x410" class="uri">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0x410</a>. I processi e le procedure si applicano anche a Lync Server 2013.
 
 In Lync Server 2013 è stata introdotta una versione aggiornata di Snooper che include alcune nuove funzionalità. Nella cattura di schermata seguente viene mostrata la versione di Snooper di Office Communications Server 2007.
 

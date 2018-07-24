@@ -23,19 +23,8 @@ Se si prevede di configurare Lync Server 2013 per IPv6, tenere conto dei requisi
 
   - Ogni indirizzo IPv6 prevede un ambito. I tre ambiti che è possibile utilizzare per l'indirizzamento IPv6 sono gli indirizzi globali IPv6 (simili agli indirizzi IPv4 pubblici), gli indirizzi locali univoci IPv6 (simili agli intervalli di indirizzi IPv4 privati) e gli indirizzi IPv6 locali rispetto al collegamento (simili agli indirizzi IP privati automatici in Windows Server per IPv4). Tutti i server di un pool devono disporre di indirizzi IPv6 con lo stesso ambito.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>IPv6 è un argomento complesso che richiede una pianificazione accurata con il team di rete e il provider Internet affinché gli indirizzi assegnati a livello di Windows Server e di Lync Server 2013 funzionino come previsto. Vedere i collegamenti alla fine dell'argomento per risorse aggiuntive sull'indirizzamento IPv6 e la pianificazione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> IPv6 è un argomento complesso che richiede una pianificazione accurata con il team di rete e il provider Internet affinché gli indirizzi assegnati a livello di Windows Server e di Lync Server 2013 funzionino come previsto. Vedere i collegamenti alla fine dell'argomento per risorse aggiuntive sull'indirizzamento IPv6 e la pianificazione.
 
 ## Vedere anche
 

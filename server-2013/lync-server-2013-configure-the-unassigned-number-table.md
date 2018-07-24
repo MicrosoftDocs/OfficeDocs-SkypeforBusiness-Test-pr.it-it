@@ -19,33 +19,11 @@ In Lync Server 2013 è possibile specificare il comportamento per le chiamate in
 
 La configurazione della tabella dei numeri non assegnati dipende dal modo in cui si desidera utilizzarla. È possibile configurare la tabella con tutti gli interni validi dell'organizzazione, solo con gli interni non assegnati o con una combinazione di numeri di entrambi i tipi. La tabella dei numeri non assegnati può includere sia numeri assegnati che numeri non assegnati ma viene richiamata solo se un chiamante compone un numero non assegnato. Se nella tabella dei numeri non assegnati si inseriscono tutti gli interni validi, è possibile specificare l'azione da eseguire quando un utente lascia l'organizzazione, senza alcuna necessità di riconfigurare la tabella. Se nella tabella si inseriscono interni non assegnati, è possibile modificare l'azione da eseguire per numeri specifici. Se ad esempio si modifica l'interno del servizio di assistenza clienti, è possibile inserire il vecchio numero nella tabella e quindi assegnarlo a un annuncio in cui viene indicato il nuovo numero.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prima di configurare la tabella di numeri non assegnati, è possibile che nel sistema siano già stati definiti annunci o che sia stato impostato un operatore automatico di Messaggistica unificata di Exchange.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Prima di configurare la tabella di numeri non assegnati, è possibile che nel sistema siano già stati definiti annunci o che sia stato impostato un operatore automatico di Messaggistica unificata di Exchange.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando viene effettuata una chiamata a un numero non assegnato, in Lync Server viene eseguita una ricerca nella tabella dei numeri non assegnati, dall'alto verso il basso, e viene utilizzato il primo intervallo corrispondente. Pertanto, per l'ultimo intervallo della tabella è consigliabile specificare un'azione che si desidera venga eseguita come ultima risorsa.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Quando viene effettuata una chiamata a un numero non assegnato, in Lync Server viene eseguita una ricerca nella tabella dei numeri non assegnati, dall'alto verso il basso, e viene utilizzato il primo intervallo corrispondente. Pertanto, per l'ultimo intervallo della tabella è consigliabile specificare un'azione che si desidera venga eseguita come ultima risorsa.
 
 ## Argomenti della sezione
 

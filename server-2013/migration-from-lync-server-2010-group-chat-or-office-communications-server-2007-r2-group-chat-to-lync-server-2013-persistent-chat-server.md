@@ -17,33 +17,11 @@ _**Ultima modifica dell'argomento:** 2012-10-06_
 
 Negli argomenti di questa sezione viene illustrato il processo di migrazione da Lync Server 2010, Group Chat o Office Communications Server 2007 R2Group Chat a Lync Server 2013, server Chat persistente. Se si desidera che la distribuzione di Lync Server 2013, server Chat persistente coesista con una distribuzione di Lync Server 2010, Group Chat o Office Communications Server 2007 R2Group Chat, in questa guida è possibile trovare inoltre alcune informazioni fondamentali per l'utilizzo di un ambiente misto. Le informazioni nella guida sono incentrate principalmente sulla migrazione dei dati per server Chat persistente. Per gli utenti che eseguono la migrazione da versioni legacy di Lync Server a Lync Server 2013, vedere [Migrazione da Lync Server 2010 a Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) e [Migrazione da Office Communications Server 2007 R2 a Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>In questo argomento si presuppone che Lync Server 2013 sia già stato installato in coesistenza con Lync Server 2010 o Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> In questo argomento si presuppone che Lync Server 2013 sia già stato installato in coesistenza con Lync Server 2010 o Office Communications Server 2007 R2.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Questa guida descrive i passaggi normalmente necessari per eseguire ogni fase della migrazione. Non sono descritti tutti gli scenari di migrazione o tutte le topologie di distribuzione legacy possibili. Per questi motivi, potrebbe non essere necessario eseguire tutti i passaggi descritti oppure potrebbero servirne altri, a seconda della distribuzione. Nella guida sono inoltre disponibili alcuni esempi dei passaggi di verifica, forniti allo scopo di illustrare quali aspetti ed elementi considerare per assicurarsi che ogni fase venga completata correttamente, man mano che si procede nella migrazione. È possibile modificare tali passaggi di verifica per adattarli allo specifico processo di migrazione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Questa guida descrive i passaggi normalmente necessari per eseguire ogni fase della migrazione. Non sono descritti tutti gli scenari di migrazione o tutte le topologie di distribuzione legacy possibili. Per questi motivi, potrebbe non essere necessario eseguire tutti i passaggi descritti oppure potrebbero servirne altri, a seconda della distribuzione. Nella guida sono inoltre disponibili alcuni esempi dei passaggi di verifica, forniti allo scopo di illustrare quali aspetti ed elementi considerare per assicurarsi che ogni fase venga completata correttamente, man mano che si procede nella migrazione. È possibile modificare tali passaggi di verifica per adattarli allo specifico processo di migrazione.
 
 Questa guida include informazioni specifiche per l'aggiornamento della distribuzione esistente e non spiega come modificare la topologia esistente. Non viene descritta l'implementazione delle nuove funzionalità. Se una procedura dettagliata è descritta altrove, in questa guida vengono forniti riferimenti al documento o alla sezione del documento appropriato.
 
@@ -66,20 +44,8 @@ server Chat persistente è un'estensione dell'infrastruttura di Lync Server 2013
 
 Se l'organizzazione richiede il supporto della conformità, questa funzionalità viene ora installata automaticamente in ogni server Chat persistente. Non è più necessario un server separato per la conformità.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È necessario installare server Chat persistente in un file system NTFS per garantire un livello adeguato di sicurezza del file system. Il file system FAT32 non è supportato per server Chat persistente.<br />
-Se l'organizzazione richiede il supporto della conformità, questa funzionalità viene ora installata automaticamente in ogni server Chat persistente. Non è più necessario un server separato per la conformità. Per ulteriori dettagli sulle modifiche introdotte in Lync Server 2013server Chat persistente, vedere <a href="lync-server-2013-new-persistent-chat-server-features.md">Nuove funzionalità del server Chat persistente in Lync Server 2013</a> nella documentazione introduttiva.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> È necessario installare server Chat persistente in un file system NTFS per garantire un livello adeguato di sicurezza del file system. Il file system FAT32 non è supportato per server Chat persistente.<br />Se l'organizzazione richiede il supporto della conformità, questa funzionalità viene ora installata automaticamente in ogni server Chat persistente. Non è più necessario un server separato per la conformità. Per ulteriori dettagli sulle modifiche introdotte in Lync Server 2013server Chat persistente, vedere <a href="lync-server-2013-new-persistent-chat-server-features.md">Nuove funzionalità del server Chat persistente in Lync Server 2013</a> nella documentazione introduttiva.
 
 ## Contenuto della sezione
 

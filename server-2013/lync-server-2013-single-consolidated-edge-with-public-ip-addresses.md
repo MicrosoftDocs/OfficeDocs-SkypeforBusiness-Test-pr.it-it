@@ -26,19 +26,8 @@ Se nell'organizzazione è necessario il supporto di meno di 15.000 connessioni c
   -   
     [Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando viene utilizzato l'indirizzo IP pubblico nel server perimetrale, il gateway predefinito nel server perimetrale non è più il firewall o il router locale, ma il router o il firewall del perimetro pubblico, che sarà un indirizzo pubblico. Il proxy inverso continua a utilizzare il router o il firewall associato alla rete perimetrale più esterna. La differenza tra il proxy inverso e il server perimetrale con gli indirizzi IP pubblici è costituita dal fatto che il proxy inverso utilizza ancora la conversione NAT mentre il server perimetrale utilizza una relazione di route.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Quando viene utilizzato l'indirizzo IP pubblico nel server perimetrale, il gateway predefinito nel server perimetrale non è più il firewall o il router locale, ma il router o il firewall del perimetro pubblico, che sarà un indirizzo pubblico. Il proxy inverso continua a utilizzare il router o il firewall associato alla rete perimetrale più esterna. La differenza tra il proxy inverso e il server perimetrale con gli indirizzi IP pubblici è costituita dal fatto che il proxy inverso utilizza ancora la conversione NAT mentre il server perimetrale utilizza una relazione di route.
 
 La figura non mostra i Director, ovvero un ruolo server facoltativo distribuito nella rete interna tra il server perimetrali e il pool Front End o il server. Per informazioni dettagliate sulla topologia per i Director, vedere [Componenti richiesti per il server Director in Lync Server 2013](lync-server-2013-components-required-for-the-director.md). Nella figura è rappresentato un singolo proxy inverso.
 
@@ -64,19 +53,8 @@ Esistono tecnologie di conversione degli indirizzi di rete (NAT) per IPv6 che su
 
 ![Scenario per singolo server perimetrale consolidato](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "Scenario per singolo server perimetrale consolidato")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si utilizza il servizio Controllo di ammissione di chiamata, è ancora necessario assegnare indirizzi IPv4 all'interfaccia interna del server perimetrale. Il servizio Controllo di ammissione di chiamata utilizza indirizzi IPv4 e deve averli a disposizione per il corretto funzionamento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se si utilizza il servizio Controllo di ammissione di chiamata, è ancora necessario assegnare indirizzi IPv4 all'interfaccia interna del server perimetrale. Il servizio Controllo di ammissione di chiamata utilizza indirizzi IPv4 e deve averli a disposizione per il corretto funzionamento.
 
 ## Argomenti della sezione
 

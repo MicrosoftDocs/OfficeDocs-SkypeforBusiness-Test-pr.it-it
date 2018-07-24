@@ -25,22 +25,10 @@ Il processo di provisioning per la connettività Lync-Skype è stato modificato 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><ol>
-<li><p>Numero di contratto Microsoft</p></li>
-<li><p>Nome di dominio completo (FQDN) del servizio Access Edge</p></li>
-<li><p>Dominio o domini SIP (Session Initiation Protocol)</p></li>
-<li><p>Eventuali FQDN aggiuntivi del servizio Access Edge</p></li>
-<li><p>Informazioni di contatto</p></li>
-</ol></td>
+<td><ol><li><p>Numero di contratto Microsoft</p></li><li><p>Nome di dominio completo (FQDN) del servizio Access Edge</p></li><li><p>Dominio o domini SIP (Session Initiation Protocol)</p></li><li><p>Eventuali FQDN aggiuntivi del servizio Access Edge</p></li><li><p>Informazioni di contatto</p></li></ol></td>
 </tr>
 <tr class="even">
-<td><ol>
-<li><p>Numero di contratto Microsoft</p></li>
-<li><p>Nome di dominio completo (FQDN) del servizio Access Edge</p></li>
-<li><p>Dominio o domini SIP (Session Initiation Protocol)</p></li>
-<li><p>Eventuali FQDN aggiuntivi del servizio Access Edge</p></li>
-<li><p>Informazioni di contatto</p></li>
-</ol></td>
+<td><ol><li><p>Numero di contratto Microsoft</p></li><li><p>Nome di dominio completo (FQDN) del servizio Access Edge</p></li><li><p>Dominio o domini SIP (Session Initiation Protocol)</p></li><li><p>Eventuali FQDN aggiuntivi del servizio Access Edge</p></li><li><p>Informazioni di contatto</p></li></ol></td>
 </tr>
 </tbody>
 </table>
@@ -54,56 +42,32 @@ Il processo di provisioning per la connettività Lync-Skype è stato modificato 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><ol>
-<li><p>Accedere al sito Web <strong>https://pic.lync.com</strong> utilizzando il Microsoft Windows Live ID.</p></li>
-<li><p>Selezionare il tipo di contratto di licenza Microsoft.</p></li>
-<li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
-<li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
-<li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
-<li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
+<td><ol><li><p>Accedere al sito Web <strong>https://pic.lync.com</strong> utilizzando il Microsoft Windows Live ID.</p></li><li><p>Selezionare il tipo di contratto di licenza Microsoft.</p></li>
+> <li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
+> <li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
+> 
+> <li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
+> 
+> 
+> <li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.</td>
-</tr>
-</tbody>
-</table>
-
-</div></li>
-<li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li>
-</ol></td>
+> [!important]  
+> Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.
+</div></li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
 </tr>
 <tr class="even">
-<td><ol>
-<li><p>Accedere al sito Web <strong>https://pic.lync.com</strong> utilizzando il Microsoft Windows Live ID.</p></li>
-<li><p>Selezionare il tipo di contratto di licenza Microsoft.</p></li>
-<li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
-<li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
-<li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
-<li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
+<td><ol><li><p>Accedere al sito Web <strong>https://pic.lync.com</strong> utilizzando il Microsoft Windows Live ID.</p></li><li><p>Selezionare il tipo di contratto di licenza Microsoft.</p></li>
+> <li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
+> <li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
+> 
+> <li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
+> 
+> 
+> <li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.</td>
-</tr>
-</tbody>
-</table>
-
-</div></li>
-<li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li>
-</ol></td>
+> [!important]  
+> Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.
+</div></li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
 </tr>
 </tbody>
 </table>
@@ -121,19 +85,8 @@ Per preparare l'ambiente di Lync Server per la connettività Lync-Skype, l'ammin
 
 La federazione è obbligatoria per consentire agli utenti di Skype di comunicare con quelli di Lync all'interno dell'organizzazione. Il servizio PIC (Public Instant Messaging Connectivity) è una classe di federazione e deve essere configurato per consentire agli utenti di Lync di comunicare con quelli di Skype. I servizi di federazione e PIC possono essere configurati tramite il Pannello di controllo di Lync Server, illustrato di seguito.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La federazione PIC non è più supportata da Live Communication Server 2005 SP1 o da Office Communications Server 2007. Le piattaforme supportate per la federazione PIC includono Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La federazione PIC non è più supportata da Live Communication Server 2005 SP1 o da Office Communications Server 2007. Le piattaforme supportate per la federazione PIC includono Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2.
 
 ## 2\. Configurare almeno un criterio per il supporto dell'accesso utente federato
 

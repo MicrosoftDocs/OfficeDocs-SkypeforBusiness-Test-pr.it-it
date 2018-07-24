@@ -27,16 +27,5 @@ Dopo aver eseguito la migrazione degli utenti Lync Server 2013, eseguire le oper
 
 5.  (Facoltativo) Se nell'organizzazione è necessaria la modalità privacy della presenza avanzata di Lync Server 2013, al termine della migrazione definire una regola dei criteri delle versioni dei client per impedire l'accesso a versioni precedenti dei client. Quindi, abilitare la modalità privacy della presenza avanzata.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Non abilitare la modalità privacy della presenza avanzata di Lync 2013 se tutti gli utenti di un determinato pool di server non dispongono delle versioni più recenti dei client installate.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Non abilitare la modalità privacy della presenza avanzata di Lync 2013 se tutti gli utenti di un determinato pool di server non dispongono delle versioni più recenti dei client installate.

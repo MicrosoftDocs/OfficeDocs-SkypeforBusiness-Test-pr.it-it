@@ -25,19 +25,8 @@ Se si dispone di un server back-end Enterprise Edition con mirroring e si verifi
 
 Se si verificano errori nell'archivio di gestione centrale, vedere [Ripristino del server che ospita l'archivio di gestione centrale](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Se si verificano errori in un server membro di Enterprise Edition che non corrisponde al server back-end, vedere [Ripristino di un server membro Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È consigliabile creare una copia dell'immagine del sistema prima di avviare il ripristino. È possibile utilizzare questa immagine come punto di rollback, in caso di problemi durante il ripristino. Potrebbe essere utile creare la copia dell'immagine dopo avere installato il sistema operativo e SQL Server, quindi ripristinare o registrare nuovamente i certificati.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> È consigliabile creare una copia dell'immagine del sistema prima di avviare il ripristino. È possibile utilizzare questa immagine come punto di rollback, in caso di problemi durante il ripristino. Potrebbe essere utile creare la copia dell'immagine dopo avere installato il sistema operativo e SQL Server, quindi ripristinare o registrare nuovamente i certificati.
 
 ## Per ripristinare un server back-end Enterprise Edition
 
@@ -80,19 +69,8 @@ Se si verificano errori nell'archivio di gestione centrale, vedere [Ripristino d
     
     7.  Eseguire il resto della procedura guidata e quindi fare clic su **Fine**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Invece di eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsDatabase</strong> per creare ogni database e il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere la documentazione di Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Invece di eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsDatabase</strong> per creare ogni database e il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere la documentazione di Lync Server Management Shell.
 
 5.  Ripristinare i dati degli utenti eseguendo le operazioni seguenti:
     

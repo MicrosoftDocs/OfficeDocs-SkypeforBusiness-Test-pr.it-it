@@ -98,19 +98,8 @@ Per creare o modificare un flusso di lavoro interattivo, utilizzare una delle pr
     
     2.  Digitare l'URI SIP degli ulteriori responsabili da aggiungere al flusso di lavoro e fare clic su **Aggiungi** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>A ogni utente designato come responsabile di un Response Group deve essere assegnato il ruolo CsResponseGroupManager. Se non viene assegnato loro questo ruolo, non potranno gestire i Response Group.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > A ogni utente designato come responsabile di un Response Group deve essere assegnato il ruolo CsResponseGroupManager. Se non viene assegnato loro questo ruolo, non potranno gestire i Response Group.
 
 16. In **Passaggio 2 Selezionare una lingua** fare clic sulla lingua da utilizzare per il riconoscimento vocale e la sintesi vocale.
 
@@ -258,19 +247,8 @@ Per creare o modificare un flusso di lavoro interattivo, utilizzare una delle pr
 
 29. In **Risposta 1** specificare la prima risposta possibile alla domanda eseguendo le operazioni seguenti:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Non utilizzare le virgolette doppie (&quot;) nelle risposte vocali poiché il sistema IVR potrebbe non funzionare.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > Non utilizzare le virgolette doppie (&quot;) nelle risposte vocali poiché il sistema IVR potrebbe non funzionare.    
 
     > [!NOTE]
     > È possibile scegliere di consentire ai chiamanti di rispondere a voce o tramite tastierino alfanumerico oppure in entrambi i modi.

@@ -21,27 +21,15 @@ Prima di rendere l'app Windows Store Lync disponibile agli utenti, è necessario
 
 Negli Aggiornamenti cumulativi per Lync Server 2013: giugno 2013 è stato aggiunto il supporto dell'autenticazione a più fattori per i clienti dell'app Windows Store Lync. Oltre al nome e alla password utente, è perciò possibile richiedere ulteriori metodi di autenticazione, ad esempio smart card o PIN, per autenticare gli utenti esterni quando eseguono l'accesso alle riunioni di Lync. È possibile abilitare l'autenticazione a più fattori distribuendo il server federativo di Active Directory Federation Service (ADFS) e abilitando l'autenticazione passiva in Lync Server 2013. Dopo la configurazione di ADFS, agli utenti esterni che tentano di partecipare a riunioni di Lync viene visualizzata una pagina Web di autenticazione a più fattori ADFS contenente la richiesta di nome e password utente, con gli eventuali altri metodi di autenticazione configurati.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prima di configurare ADFS per l'autenticazione a più fattori per l'app Windows Store Lync, è importante considerare gli aspetti seguenti:
-<ul>
-<li><p>È necessario almeno Lync Server 2013 con gli Aggiornamenti cumulativi per Lync Server 2013: giugno 2013. I client desktop Lync 2013 non richiedono gli Aggiornamenti cumulativi per Lync Server 2013: giugno 2013, pertanto potrebbe sembrare che l'autenticazione passiva funzioni perché i client Lync 2013 riescono a eseguire l'autenticazione. In realtà il processo di autenticazione dei clienti dell'app Windows Store Lync non viene completato, senza che venga visualizzata una notifica o un messaggio di errore.</p></li>
-<li><p>Il server deve essere configurato in modo che l'autenticazione passiva sia l'unico tipo di autenticazione offerto.</p></li>
-<li><p>Se si usano dispositivi di bilanciamento del carico hardware, abilitare il salvataggio permanente dei cookie in tali dispositivi, in modo che tutte le richieste provenienti dal client dell'app Windows Store Lync vengano gestite dallo stesso server front-end.</p></li>
-<li><p>Quando si stabilisce una relazione di trust di relying party tra i server ADFS e Lync Server, assegnare ai token una durata tale da coprire la lunghezza massima delle riunioni di Lync. 240 minuti in genere sono una durata sufficiente per i token.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Prima di configurare ADFS per l'autenticazione a più fattori per l'app Windows Store Lync, è importante considerare gli aspetti seguenti:<ul>
+> <li><p>È necessario almeno Lync Server 2013 con gli Aggiornamenti cumulativi per Lync Server 2013: giugno 2013. I client desktop Lync 2013 non richiedono gli Aggiornamenti cumulativi per Lync Server 2013: giugno 2013, pertanto potrebbe sembrare che l'autenticazione passiva funzioni perché i client Lync 2013 riescono a eseguire l'autenticazione. In realtà il processo di autenticazione dei clienti dell'app Windows Store Lync non viene completato, senza che venga visualizzata una notifica o un messaggio di errore.</p></li>
+> <li><p>Il server deve essere configurato in modo che l'autenticazione passiva sia l'unico tipo di autenticazione offerto.</p></li>
+> 
+> <li><p>Se si usano dispositivi di bilanciamento del carico hardware, abilitare il salvataggio permanente dei cookie in tali dispositivi, in modo che tutte le richieste provenienti dal client dell'app Windows Store Lync vengano gestite dallo stesso server front-end.</p></li>
+> 
+> 
+> <li><p>Quando si stabilisce una relazione di trust di relying party tra i server ADFS e Lync Server, assegnare ai token una durata tale da coprire la lunghezza massima delle riunioni di Lync. 240 minuti in genere sono una durata sufficiente per i token.</p></li></ul>
 
 
 **Per configurare l'autenticazione a più fattori**

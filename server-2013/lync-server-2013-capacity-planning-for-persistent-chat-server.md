@@ -41,19 +41,8 @@ Da ora è offerto il supporto per server Chat persistente su server Standard Edi
 
 La configurazione minima e la distribuzione più semplice di server Chat persistente prevede una topologia server Chat persistenteFront End Server a server singolo. In questa distribuzione è richiesto un singolo server che esegue server Chat persistente (ed esegue facoltativamente il servizio di conformità, se la conformità è abilitata), un server che ospita entrambi i database di SQL Server e, se è richiesta la conformità, il database di SQL Server per archiviare i dati di conformità.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Non è possibile aggiungere server aggiuntivi a un pool di server Chat persistente avviato come distribuzione a server singolo in Generatore di topologie. È consigliabile utilizzare la topologia del pool a server multiplo anche nei casi in cui si utilizza un server singolo, poiché in questo modo è possibile aggiungere più server in seguito, qualora se ne presentasse la necessità.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Non è possibile aggiungere server aggiuntivi a un pool di server Chat persistente avviato come distribuzione a server singolo in Generatore di topologie. È consigliabile utilizzare la topologia del pool a server multiplo anche nei casi in cui si utilizza un server singolo, poiché in questo modo è possibile aggiungere più server in seguito, qualora se ne presentasse la necessità.
 
 Nella figura seguente sono illustrati tutti i componenti obbligatori e facoltativi di una topologia per un singolo server Chat persistenteFront End Server con conformità.
 
@@ -351,19 +340,8 @@ In questo esempio vengono illustrate le chat suddivise in base alle categorie di
 
 Per ogni chat, la tabella di pianificazione della capacità precedente specifica il numero di voci di controllo di accesso associate, incluse le voci assegnate direttamente alla chat. È possibile controllare l'accesso a singole chat tramite elenchi di controllo di accesso. È inoltre possibile controllare l'accesso a livello di categoria. In un elenco di controllo di accesso una singola voce di controllo di accesso può corrispondere a un gruppo di utenti, ad esempio un gruppo di sicurezza, una lista di distribuzione o a un singolo utente. È possibile definire voci di controllo di accesso per gestori, relatori e membri delle chat.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nel pianificare la strategia per la gestione delle chat, tenere presente che il numero totale di voci di controllo di accesso consentite è 2 milioni. Se le voci di controllo di accesso calcolate superano i 2 milioni, le prestazioni del server possono subire conseguenze negative significative. Per evitare questo problema, assicurarsi che le voci di controllo di accesso siano costituite, laddove possibile, da gruppi di utenti anziché da singoli utenti.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Nel pianificare la strategia per la gestione delle chat, tenere presente che il numero totale di voci di controllo di accesso consentite è 2 milioni. Se le voci di controllo di accesso calcolate superano i 2 milioni, le prestazioni del server possono subire conseguenze negative significative. Per evitare questo problema, assicurarsi che le voci di controllo di accesso siano costituite, laddove possibile, da gruppi di utenti anziché da singoli utenti.
 
 ## Pianificazione della capacità per la gestione dell'accesso alle chat in base a invito
 
@@ -371,19 +349,8 @@ Per ogni chat, la tabella di pianificazione della capacità precedente specifica
 
 I dati di esempio contenuti nella tabella seguente presuppongono che nella pagina **Impostazioni chat** per il 50% di tutte le chat l'opzione **Invitations** è impostata su **Sì** .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se il valore calcolato per il numero di inviti generati dal server supera 1 milione, le prestazioni del server possono subire conseguenze negative significative. Per evitare questo problema, assicurarsi di ridurre al minimo il numero di chat configurate per l'invio di inviti o di limitare il numero di utenti che possono partecipare alle chat configurate per l'invio di inviti.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se il valore calcolato per il numero di inviti generati dal server supera 1 milione, le prestazioni del server possono subire conseguenze negative significative. Per evitare questo problema, assicurarsi di ridurre al minimo il numero di chat configurate per l'invio di inviti o di limitare il numero di utenti che possono partecipare alle chat configurate per l'invio di inviti.
 
 ### Esempio di accesso alle chat in base a invito
 

@@ -101,16 +101,5 @@ La modalità di implementazione del lato provider di servizi di una connessione 
 
 Per informazioni dettagliate sui provider di trunking SIP certificati Microsoft, contattare il rappresentante Microsoft.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È necessario usare un provider di servizi certificato Microsoft per garantire che il provider ITSP supporti tutte le funzionalità che attraversano il trunk SIP, ad esempio la configurazione e la gestione delle sessioni e il supporto di tutti i servizi VoIP estesi. Il supporto tecnico Microsoft non si estende alle configurazioni che usano provider non certificati. Se attualmente si usa un provider di servizi Internet non certificato per il trunking SIP, è possibile scegliere di continuare a usarlo come ISP, passando a un provider certificato Microsoft per il trunking SIP.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> È necessario usare un provider di servizi certificato Microsoft per garantire che il provider ITSP supporti tutte le funzionalità che attraversano il trunk SIP, ad esempio la configurazione e la gestione delle sessioni e il supporto di tutti i servizi VoIP estesi. Il supporto tecnico Microsoft non si estende alle configurazioni che usano provider non certificati. Se attualmente si usa un provider di servizi Internet non certificato per il trunking SIP, è possibile scegliere di continuare a usarlo come ISP, passando a un provider certificato Microsoft per il trunking SIP.

@@ -19,33 +19,11 @@ _**Ultima modifica dell'argomento:** 2013-02-24_
 
 Prima di distribuire la configurazione del routing vocale, è consigliabile testarla su diversi numeri di telefono per assicurarsi che i risultati siano quelli previsti.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È possibile utilizzare i comandi <strong>Esporta test case</strong> e <strong>Importa test case</strong> per salvare i test case del routing vocale e importarli per l'uso su un altro computer.</td>
-</tr>
-</tbody>
-</table>
+> [!tip]  
+> È possibile utilizzare i comandi <strong>Esporta test case</strong> e <strong>Importa test case</strong> per salvare i test case del routing vocale e importarli per l'uso su un altro computer.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Attenzione:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si elimina una parte della configurazione del routing vocale, ad esempio un dial plan, un criterio vocale, una route vocale o un utilizzo del telefono, è necessario controllare e aggiornare i test case del routing vocale. Il Pannello di controllo di Lync Server non invia un avviso agli utenti quando i test case non sono più validi a causa delle modifiche apportate alle configurazioni.</td>
-</tr>
-</tbody>
-</table>
-
+> [!Caution]  
+> Se si elimina una parte della configurazione del routing vocale, ad esempio un dial plan, un criterio vocale, una route vocale o un utilizzo del telefono, è necessario controllare e aggiornare i test case del routing vocale. Il Pannello di controllo di Lync Server non invia un avviso agli utenti quando i test case non sono più validi a causa delle modifiche apportate alle configurazioni.
 
 ## Argomenti della sezione
 

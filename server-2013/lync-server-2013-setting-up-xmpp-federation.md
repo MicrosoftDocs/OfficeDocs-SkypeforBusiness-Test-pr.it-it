@@ -31,19 +31,8 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 6.  Nel server perimetrale fare clic su Riesegui nella Distribuzione guidata accanto a Passaggio 3: Richiesta, installazione o assegnazione dei certificati.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.
 
 7.  Nella pagina Attività certificato disponibili fare clic su Crea una nuova richiesta di certificato.
 
@@ -73,19 +62,8 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 17. Nella pagina Configura nomi alternativi soggetto aggiuntivi specificare eventuali nomi alternativi soggetto aggiuntivi richiesti.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.
 
 18. Nella pagina Riepilogo richiesta esaminare le informazioni sul certificato da utilizzare per generare la richiesta.
 
@@ -106,19 +84,8 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 23. Per configurare DNS per la federazione XMPP, aggiungere il record SRV seguente al DNS esterno:\_xmpp-server.\_tcp.\<nome dominio\> Il record SRV risolverà l'FQDN dell'Access Edge del server perimetrale con un valore di porta 5269. È inoltre necessario configurare un record host 'A' (ad esempio, xmpp.contoso.com) che punta all'indirizzo IP del server Access Edge.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se esistono pool di server perimetrali in più siti, è consigliabile aggiungere più record SRV per la federazione XMPP. Aggiungere un record SRV per ogni pool di server perimetrali nell'organizzazione e assegnare una diversa priorità a ognuno di questi record SRV. Quando tutti i pool di server perimetrali sono in esecuzione, le richieste XMPP verranno tutte gestite dal pool di server perimetrali prioritario, ma se tale pool di server perimetrali diventa inattivo sarà necessario aggiungere un nuovo record SRV per ripristinare la funzionalità di federazione XMPP.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se esistono pool di server perimetrali in più siti, è consigliabile aggiungere più record SRV per la federazione XMPP. Aggiungere un record SRV per ogni pool di server perimetrali nell'organizzazione e assegnare una diversa priorità a ognuno di questi record SRV. Quando tutti i pool di server perimetrali sono in esecuzione, le richieste XMPP verranno tutte gestite dal pool di server perimetrali prioritario, ma se tale pool di server perimetrali diventa inattivo sarà necessario aggiungere un nuovo record SRV per ripristinare la funzionalità di federazione XMPP.
 
 24. Configurare nuovi criteri di accesso esterno per abilitare tutti gli utenti. A tale scopo, aprire Lync Server Management Shell nel Front End Server e digitare:
     
@@ -179,19 +146,8 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 10. Pubblicare la topologia. Per informazioni dettagliate, vedere [Pubblicare la topologia in Lync Server 2013](lync-server-2013-publish-your-topology.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sebbene non sia richiesto e in genere non occorra, potrebbe risultare necessario riavviare il server perimetrali</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Sebbene non sia richiesto e in genere non occorra, potrebbe risultare necessario riavviare il server perimetrali
 
 11. Tramite il processo netstat utilizzato in precedenza, verificare che il server perimetrale sia ora in attesa o abbia stabilito sessioni sulle porte 5269 e 23456.
 

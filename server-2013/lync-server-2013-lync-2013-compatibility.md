@@ -203,12 +203,7 @@ Nella tabella seguente viene descritto il supporto di Lync 2013 per diverse vers
 </tr>
 <tr class="odd">
 <td><p>Exchange Server 2007 con Service Pack 1 (SP1) (obbligatorio) o il Service Pack più recente (consigliato)</p></td>
-<td><p>Le funzionalità seguenti sono disponibili solo tramite i Servizi Web Exchange:</p>
-<ul>
-<li><p>Lettura o eliminazione di elementi nella cartella Cronologia conversazioni</p></li>
-<li><p>Lettura o eliminazione di elementi della segreteria telefonica</p></li>
-<li><p>Visualizzazione delle informazioni sulla disponibilità e oggetto e sede delle riunioni</p></li>
-</ul>
+<td><p>Le funzionalità seguenti sono disponibili solo tramite i Servizi Web Exchange:</p><ul><li><p>Lettura o eliminazione di elementi nella cartella Cronologia conversazioni</p></li><li><p>Lettura o eliminazione di elementi della segreteria telefonica</p></li><li><p>Visualizzazione delle informazioni sulla disponibilità e oggetto e sede delle riunioni</p></li></ul>
 <p>Le cartelle pubbliche sono facoltative in Exchange Server 2007 con Service Pack 1 (SP1) (obbligatorio) o il Service Pack o la versione più recente (consigliato).</p></td>
 </tr>
 <tr class="even">
@@ -273,25 +268,14 @@ La funzionalità di integrazione XMPP di Lync Server 2013 consente inoltre agli 
 
 \*A/V è supportato con la versione più recente di Windows Live Messenger. Se si implementa la federazione audio/video (A/V) con Windows Live Messenger, è necessario modificare anche il livello di crittografia del server. Per impostazione predefinita, il livello di crittografia è impostato su Richiesto. È necessario modificare questa impostazione in Supportato mediante Lync Server Management Shell.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>
-<li><p>La licenza PIC USL è una licenza di sottoscrizione di tipo mensile per utente richiesta per la federazione di Lync Server o Office Communications Server con Yahoo! Messenger. La capacità di Microsoft di fornire questo servizio dipende dal supporto offerto da Yahoo!, il cui contratto è in fase di chiusura.</p></li>
-<li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti di tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze utente/dispositivo in aggiunta alla licenza CAL Standard per Lync.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> <ul>
+> <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>
+> 
+> <li><p>La licenza PIC USL è una licenza di sottoscrizione di tipo mensile per utente richiesta per la federazione di Lync Server o Office Communications Server con Yahoo! Messenger. La capacità di Microsoft di fornire questo servizio dipende dal supporto offerto da Yahoo!, il cui contratto è in fase di chiusura.</p></li>
+> 
+> 
+> <li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti di tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze utente/dispositivo in aggiunta alla licenza CAL Standard per Lync.</p></li></ul>
 
 
 ## Vedere anche

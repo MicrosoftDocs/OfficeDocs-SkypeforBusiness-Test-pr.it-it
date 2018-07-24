@@ -25,19 +25,8 @@ Per informazioni dettagliate sul funzionamento delle configurazioni di archiviaz
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per abilitare l'archiviazione, è necessario specificare i relativi criteri allo scopo di controllare l'archiviazione delle comunicazioni interne ed esterne a livello globale e, se appropriato, a livello di sito e utente. Se si configurano i criteri a livello utente, è necessario assegnare i criteri utente a utenti specifici. Per informazioni dettagliate sulla creazione e la configurazione dei criteri di archiviazione, vedere <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestione dell'archiviazione delle comunicazioni interne ed esterne in Lync Server 2013</a> nella documentazione relativa alle operazioni.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Per abilitare l'archiviazione, è necessario specificare i relativi criteri allo scopo di controllare l'archiviazione delle comunicazioni interne ed esterne a livello globale e, se appropriato, a livello di sito e utente. Se si configurano i criteri a livello utente, è necessario assegnare i criteri utente a utenti specifici. Per informazioni dettagliate sulla creazione e la configurazione dei criteri di archiviazione, vedere <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestione dell'archiviazione delle comunicazioni interne ed esterne in Lync Server 2013</a> nella documentazione relativa alle operazioni.
 
 ## Per configurare le opzioni di archiviazione a livello del sito
 

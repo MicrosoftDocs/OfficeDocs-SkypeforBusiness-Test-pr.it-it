@@ -29,25 +29,13 @@ Questi passaggi sono pensati per consentite il ripristino della configurazione e
 
 1.  Cancellare tutti i server dall'elenco dei server attivi del server Chat persistente utilizzando il cmdlet `Set-CsPersistentChatActiveServer` da Lync Server Management Shell. Verrà così impedito a tutti i server Chat persistente di connettersi ai database mgc e mgccomp durante il failback.
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È necessario che SQL Server Agent sia in esecuzione nel server back-end di server Chat persistente secondario con un account privilegiato. In particolare, l'account deve disporre di:
-    <ul>
-    <li><p>Accesso in lettura alla condivisione di rete in cui vengono posizionati i backup.</p></li>
-    <li><p>Accesso in scrittura alla directory locale specifica in cui vengono copiati i backup.</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!important]  
+    > È necessario che SQL Server Agent sia in esecuzione nel server back-end di server Chat persistente secondario con un account privilegiato. In particolare, l'account deve disporre di:    <ul>    
+> 
+> <li><p>Accesso in lettura alla condivisione di rete in cui vengono posizionati i backup.</p></li>    
+> 
+> 
+> <li><p>Accesso in scrittura alla directory locale specifica in cui vengono copiati i backup.</p></li>    </ul>
 
 
 2.  Disabilitare il mirroring nel database mgc di backup:
@@ -106,19 +94,8 @@ Questi passaggi sono pensati per consentite il ripristino della configurazione e
 
 6.  Impostare i server attivi del server Chat persistente. In Lync Server Management Shell utilizzare il cmdlet **Set-CsPersistentChatActiveServer** per impostare l'elenco dei server attivi.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Tutti i server attivi devono essere collocati nello stesso centro dati del nuovo database primario oppure in un centro dati con una connessione a bassa latenza e con larghezza di banda elevata al database.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Tutti i server attivi devono essere collocati nello stesso centro dati del nuovo database primario oppure in un centro dati con una connessione a bassa latenza e con larghezza di banda elevata al database.
 
 Per ripristinare lo stato normale del pool, eseguire il comando seguente di Windows PowerShell:
 

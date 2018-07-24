@@ -19,19 +19,8 @@ In questo argomento viene descritto come installare gli strumenti di amministraz
 
 Prima di installare o utilizzare gli strumenti di amministrazione di Lync Server 2013, analizzare i requisiti relativi a infrastruttura, sistema operativo e diritti di amministratore. Per informazioni dettagliate sui requisiti dell'infrastruttura, vedere [Requisiti dell'infrastruttura degli Strumenti di amministrazione in Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Per informazioni dettagliate sui requisiti di sistema operativo e software per l'installazione degli strumenti di amministrazione di Lync Server 2013, vedere [Supporto del sistema operativo per server e strumenti in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [Requisiti software aggiuntivi per Lync Server 2013](lync-server-2013-additional-software-requirements.md) e [Requisiti e supporto per i server aggiuntivi in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Per informazioni dettagliate sulle autorizzazioni e sui diritti utente necessari per installare gli strumenti, vedere [Autorizzazioni e diritti di amministratore necessari per l'installazione e l'amministrazione di Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se l'organizzazione richiede che Internet Information Services (IIS) e tutti i servizi Web si trovino in un'unità diversa dall'unità di sistema, è possibile modificare il percorso di installazione per i file di Lync Server nella finestra di dialogo del programma di installazione. Se si installano i file di installazione, incluso OCSCore.msi, in questo percorso, anche gli altri file di Lync Server 2013 verranno distribuiti in questa unità.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se l'organizzazione richiede che Internet Information Services (IIS) e tutti i servizi Web si trovino in un'unità diversa dall'unità di sistema, è possibile modificare il percorso di installazione per i file di Lync Server nella finestra di dialogo del programma di installazione. Se si installano i file di installazione, incluso OCSCore.msi, in questo percorso, anche gli altri file di Lync Server 2013 verranno distribuiti in questa unità.
 
 ## Per installare gli strumenti di amministrazione di Lync Server 2013
 
@@ -43,19 +32,8 @@ Prima di installare o utilizzare gli strumenti di amministrazione di Lync Server
 
 4.  Nella pagina **Percorso di installazione di Microsoft Lync Server 2013**, fare clic su **OK** . Sostituire il percorso indicato con un altro percorso o un'altra unità se è necessario installare i file in una diversa posizione.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se l'organizzazione richiede che Internet Information Services (IIS) e tutti i servizi Web si trovino in un'unità diversa dall'unità di sistema, è possibile modificare il percorso di installazione per i file di Lync Server 2013 nella finestra di dialogo del programma di installazione. Se si installano i file di installazione, incluso OCSCore.msi, in questo percorso, anche gli altri file di Lync Server 2013 verranno distribuiti in questa unità.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se l'organizzazione richiede che Internet Information Services (IIS) e tutti i servizi Web si trovino in un'unità diversa dall'unità di sistema, è possibile modificare il percorso di installazione per i file di Lync Server 2013 nella finestra di dialogo del programma di installazione. Se si installano i file di installazione, incluso OCSCore.msi, in questo percorso, anche gli altri file di Lync Server 2013 verranno distribuiti in questa unità.
 
 5.  Nella pagina **Contratto di licenza con l'utente finale** leggere le condizioni di licenza, fare clic su **Accetto** e quindi su **OK** . Questo passaggio è obbligatorio per poter continuare.
 

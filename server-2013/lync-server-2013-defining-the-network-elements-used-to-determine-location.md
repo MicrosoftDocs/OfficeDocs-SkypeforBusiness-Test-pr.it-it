@@ -31,19 +31,8 @@ Gli elementi di rete sono elencati in ordine di precedenza. Se un client può es
 
 Nelle sezioni seguenti sono disponibili ulteriori dettagli sull'utilizzo di ciascun elemento di rete.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando si utilizzano elementi di rete per eseguire il mapping dei chiamanti alle località, è di primaria importanza che il database di servizio Informazioni percorso sia aggiornato. Ad esempio, se si aggiunge o modifica un elemento di rete, ad esempio se si aggiunge un punto di accesso wireless, è necessario eliminare la voce esistente e aggiungere la nuova nel database delle località.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Quando si utilizzano elementi di rete per eseguire il mapping dei chiamanti alle località, è di primaria importanza che il database di servizio Informazioni percorso sia aggiornato. Ad esempio, se si aggiunge o modifica un elemento di rete, ad esempio se si aggiunge un punto di accesso wireless, è necessario eliminare la voce esistente e aggiungere la nuova nel database delle località.
 
 ## Punto di accesso wireless
 

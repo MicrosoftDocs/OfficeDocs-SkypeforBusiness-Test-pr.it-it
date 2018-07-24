@@ -46,18 +46,13 @@ Tutti i risultati in termini di prestazioni e le indicazioni sulla distribuzione
 </tr>
 <tr class="odd">
 <td><p>Disco</p></td>
-<td><ul>
-<li><p>8 o più unità disco rigido a 10.000 rpm con almeno 72 GB di spazio libero.</p>
+<td><ul><li><p>8 o più unità disco rigido a 10.000 rpm con almeno 72 GB di spazio libero.</p>
 <p>Due dei dischi dovrebbero utilizzare RAID 1 e sei dovrebbero utilizzare RAID 10.</p>
-<p>-OPPURE-</p></li>
-<li><p>Unità SSD (Solid State Drive) con prestazioni simili a otto unità disco meccanico da 10.000 RPM.</p></li>
-</ul></td>
+<p>-OPPURE-</p></li><li><p>Unità SSD (Solid State Drive) con prestazioni simili a otto unità disco meccanico da 10.000 RPM.</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p>Rete</p></td>
-<td><ul>
-<li><p>Una scheda di rete dual port, 1 Gbps o superiore (due consigliate, da associare a un singolo indirizzo MAC e a un singolo indirizzo IP)</p></li>
-</ul></td>
+<td><ul><li><p>Una scheda di rete dual port, 1 Gbps o superiore (due consigliate, da associare a un singolo indirizzo MAC e a un singolo indirizzo IP)</p></li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -147,19 +142,8 @@ Il numero di utenti supportati da un determinato pool Front End assicurando un l
 
   - L'utilizzo dell'organizzazione si discosta notevolmente dai modelli utente, ad esempio il traffico delle conferenze è molto superiore.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>In Lync Server 2013, i database delle presenze sono ora ospitati in Front End Server, a differenza di Lync Server 2010 in cui sono ospitati nel server back-end. Ciò significa che le prestazioni e la capacità dei dischi dei Front End Server non devono essere compromessi dalle indicazioni elencate in precedenza in questa sezione e in <a href="lync-server-2013-server-hardware-platforms.md">Piattaforme hardware server per Lync Server 2013</a>, indipendentemente dal numero di utenti ospitati dai Front End Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> In Lync Server 2013, i database delle presenze sono ora ospitati in Front End Server, a differenza di Lync Server 2010 in cui sono ospitati nel server back-end. Ciò significa che le prestazioni e la capacità dei dischi dei Front End Server non devono essere compromessi dalle indicazioni elencate in precedenza in questa sezione e in <a href="lync-server-2013-server-hardware-platforms.md">Piattaforme hardware server per Lync Server 2013</a>, indipendentemente dal numero di utenti ospitati dai Front End Server.
 
 Nella tabella seguente è illustrata la larghezza di banda media per messaggistica istantanea e presenza, dato il modello utente definito in [Modelli utente in Lync Server 2013](lync-server-2013-user-models.md).
 
@@ -427,9 +411,7 @@ Durante i test delle prestazioni, Microsoft ha usato l'hardware descritto nella 
 </tr>
 <tr class="even">
 <td><p>Rete</p></td>
-<td><ul>
-<li><p>Una scheda di rete dual port, 1 Gbps o superiore (due consigliate, da associare a un singolo indirizzo MAC e a un singolo indirizzo IP)</p></li>
-</ul></td>
+<td><ul><li><p>Una scheda di rete dual port, 1 Gbps o superiore (due consigliate, da associare a un singolo indirizzo MAC e a un singolo indirizzo IP)</p></li></ul></td>
 </tr>
 </tbody>
 </table>

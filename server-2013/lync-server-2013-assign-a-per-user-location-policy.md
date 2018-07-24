@@ -49,36 +49,14 @@ Per informazioni dettagliate sulla creazione di criteri percorso, vedere [Creare
     
     4.  A seconda della proprietà utente selezionata, immettere i criteri che si desidera utilizzare per filtrare i risultati della ricerca digitandoli oppure facendo clic sulla freccia nell'elenco a discesa.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!tip]  
+        > Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
 
 6.  Fare clic su un utente nei risultati della ricerca, su **Azione** e quindi su **Assegna criteri**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si desidera applicare lo stesso criterio percorso per utente a più utenti, selezionare più utenti nei risultati della ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se si desidera applicare lo stesso criterio percorso per utente a più utenti, selezionare più utenti nei risultati della ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.
 
 7.  In **Criteri percorso** in **Assegna criteri** eseguire una delle operazioni seguenti:
     
@@ -91,19 +69,8 @@ Per informazioni dettagliate sulla creazione di criteri percorso, vedere [Creare
     
       - Fare clic sul nome di un criterio percorso per utente precedentemente definito eseguendo il cmdlet **New-CsLocationPolicy**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per scegliere il criterio da assegnare, dopo aver fatto clic sul nome, fare clic su <strong>Visualizza</strong> per visualizzare le autorizzazioni e i diritti utente definiti nel criterio.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!tip]  
+        > Per scegliere il criterio da assegnare, dopo aver fatto clic sul nome, fare clic su <strong>Visualizza</strong> per visualizzare le autorizzazioni e i diritti utente definiti nel criterio.
 
 8.  Al termine, fare clic su **OK**.
 

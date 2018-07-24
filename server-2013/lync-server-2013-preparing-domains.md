@@ -32,19 +32,8 @@ Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond
 
 Per informazioni dettagliate sul cmdlet **Grant-CsOuPermission**, vedere la documentazione relativa a Lync Server Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per ulteriori informazioni sulle voci di controllo di accesso create nella radice del dominio e nei contenitori degli utenti, dei computer e dei controller di dominio, vedere <a href="lync-server-2013-changes-made-by-domain-preparation.md">Modifiche apportate durante la preparazione del dominio in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Per ulteriori informazioni sulle voci di controllo di accesso create nella radice del dominio e nei contenitori degli utenti, dei computer e dei controller di dominio, vedere <a href="lync-server-2013-changes-made-by-domain-preparation.md">Modifiche apportate durante la preparazione del dominio in Lync Server 2013</a>.
 
 ## Argomenti della sezione
 

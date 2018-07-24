@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 I server interni che eseguono Lync Server e che richiedono certificati sono server Standard Edition, Front End Server Enterprise Edition, Mediation Server e director. Nella tabella seguente sono riportati i requisiti dei certificati per tali server. È possibile utilizzare la Configurazione guidata certificati di Lync Server per richiedere questi certificati.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>I certificati con caratteri jolly sono supportati per i nomi alternativi del soggetto associati agli URL semplici nel pool Front End, nel Front End Server o nel Director. Per informazioni dettagliate sul supporto dei certificati con caratteri jolly, vedere <a href="lync-server-2013-wildcard-certificate-support.md">Supporto dei certificati con caratteri jolly in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> I certificati con caratteri jolly sono supportati per i nomi alternativi del soggetto associati agli URL semplici nel pool Front End, nel Front End Server o nel Director. Per informazioni dettagliate sul supporto dei certificati con caratteri jolly, vedere <a href="lync-server-2013-wildcard-certificate-support.md">Supporto dei certificati con caratteri jolly in Lync Server 2013</a>.
 
 Benché per i server interni sia consigliata un'autorità di certificazione (CA) globale (enterprise) interna, è inoltre possibile utilizzare una CA pubblica. Per l'elenco delle CA pubbliche che forniscono certificati conformi a requisiti specifici dei certificati per comunicazioni unificate e che hanno collaborato con Microsoft per garantire il funzionamento di tali certificati con la Configurazione guidata certificati di Lync Server, vedere l'articolo 929395 della Microsoft Knowledge Base, "Partner per certificati per comunicazioni unificate per Exchange Server e Communications Server" all'indirizzo [http://go.microsoft.com/fwlink/?linkid=202834\&clcid=0x410](http://go.microsoft.com/fwlink/?linkid=202834%26clcid=0x410).
 
@@ -88,15 +77,8 @@ Si noti che l'utilizzo chiavi avanzato nel server viene configurato automaticame
 <tr class="even">
 <td><p>Interno Web</p></td>
 <td><p>FQDN del server</p></td>
-<td><p>Ognuno dei seguenti:</p>
-<ul>
-<li><p>FQDN Web interno, che corrisponde all'FQDN del server</p></li>
-<li><p>URL semplici per le riunioni (meet)</p></li>
-<li><p>URL semplice accesso esterno</p></li>
-<li><p>URL semplice per l'accesso amministrativo (admin)</p>
-<p></p></li>
-<li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li>
-</ul>
+<td><p>Ognuno dei seguenti:</p><ul><li><p>FQDN Web interno, che corrisponde all'FQDN del server</p></li><li><p>URL semplici per le riunioni (meet)</p></li><li><p>URL semplice accesso esterno</p></li><li><p>URL semplice per l'accesso amministrativo (admin)</p>
+<p></p></li><li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li></ul>
 <p></p></td>
 <td><p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>Nel caso di un certificato con caratteri jolly:</p>
@@ -108,13 +90,7 @@ Si noti che l'utilizzo chiavi avanzato nel server viene configurato automaticame
 <tr class="odd">
 <td><p>Esterno Web</p></td>
 <td><p>FQDN del server</p></td>
-<td><p>Ognuno dei seguenti:</p>
-<ul>
-<li><p>FQDN Web esterno</p></li>
-<li><p>URL semplice accesso esterno</p></li>
-<li><p>URL semplici riunione per ogni dominio SIP</p></li>
-<li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li>
-</ul></td>
+<td><p>Ognuno dei seguenti:</p><ul><li><p>FQDN Web esterno</p></li><li><p>URL semplice accesso esterno</p></li><li><p>URL semplici riunione per ogni dominio SIP</p></li><li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li></ul></td>
 <td><p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>Nel caso di un certificato con caratteri jolly:</p>
 <p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
@@ -159,16 +135,7 @@ Si noti che l'utilizzo chiavi avanzato nel server viene configurato automaticame
 <tr class="even">
 <td><p>Interno Web</p></td>
 <td><p>FQDN del pool</p></td>
-<td><p>Ognuno dei seguenti:</p>
-<ul>
-<li><p>FQDN Web interno, che NON corrisponde all'FQDN del server</p></li>
-<li><p>FQDN del server</p></li>
-<li><p>FQDN del pool di Lync</p></li>
-<li><p>URL semplici per le riunioni (meet)</p></li>
-<li><p>URL semplice accesso esterno</p></li>
-<li><p>URL semplice per l'accesso amministrativo (admin)</p></li>
-<li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li>
-</ul>
+<td><p>Ognuno dei seguenti:</p><ul><li><p>FQDN Web interno, che NON corrisponde all'FQDN del server</p></li><li><p>FQDN del server</p></li><li><p>FQDN del pool di Lync</p></li><li><p>URL semplici per le riunioni (meet)</p></li><li><p>URL semplice accesso esterno</p></li><li><p>URL semplice per l'accesso amministrativo (admin)</p></li><li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li></ul>
 <p></p></td>
 <td><p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>Nel caso di un certificato con caratteri jolly:</p>
@@ -179,13 +146,7 @@ Si noti che l'utilizzo chiavi avanzato nel server viene configurato automaticame
 <tr class="odd">
 <td><p>Esterno Web</p></td>
 <td><p>FQDN del pool</p></td>
-<td><p>Ognuno dei seguenti:</p>
-<ul>
-<li><p>FQDN Web esterno</p></li>
-<li><p>URL semplice accesso esterno</p></li>
-<li><p>URL semplice per l'accesso amministrativo (admin)</p></li>
-<li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li>
-</ul></td>
+<td><p>Ognuno dei seguenti:</p><ul><li><p>FQDN Web esterno</p></li><li><p>URL semplice accesso esterno</p></li><li><p>URL semplice per l'accesso amministrativo (admin)</p></li><li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li></ul></td>
 <td><p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>Nel caso di un certificato con caratteri jolly:</p>
 <p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
@@ -225,14 +186,7 @@ Si noti che l'utilizzo chiavi avanzato nel server viene configurato automaticame
 <tr class="even">
 <td><p>Interno Web</p></td>
 <td><p>FQDN del server</p></td>
-<td><p>Ognuno dei seguenti:</p>
-<ul>
-<li><p>FQDN Web interno, che corrisponde all'FQDN del server</p></li>
-<li><p>URL semplici per le riunioni (meet)</p></li>
-<li><p>URL semplice accesso esterno</p></li>
-<li><p>URL semplice per l'accesso amministrativo (admin)</p></li>
-<li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li>
-</ul>
+<td><p>Ognuno dei seguenti:</p><ul><li><p>FQDN Web interno, che corrisponde all'FQDN del server</p></li><li><p>URL semplici per le riunioni (meet)</p></li><li><p>URL semplice accesso esterno</p></li><li><p>URL semplice per l'accesso amministrativo (admin)</p></li><li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li></ul>
 <p></p></td>
 <td><p>SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=*.contoso.com</p></td>
@@ -240,13 +194,7 @@ Si noti che l'utilizzo chiavi avanzato nel server viene configurato automaticame
 <tr class="odd">
 <td><p>Esterno Web</p></td>
 <td><p>FQDN del server</p></td>
-<td><p>Ognuno dei seguenti:</p>
-<ul>
-<li><p>FQDN Web esterno</p></li>
-<li><p>URL semplice accesso esterno</p></li>
-<li><p>URL semplice per l'accesso amministrativo (admin)</p></li>
-<li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li>
-</ul></td>
+<td><p>Ognuno dei seguenti:</p><ul><li><p>FQDN Web esterno</p></li><li><p>URL semplice accesso esterno</p></li><li><p>URL semplice per l'accesso amministrativo (admin)</p></li><li><p>In alternativa, una voce con caratteri jolly per gli URL semplici</p></li></ul></td>
 <td><p>L'FQDN Web esterno del Director deve essere diverso dal pool Front End o dal Front End Server.</p>
 <p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=*.contoso.com</p></td>

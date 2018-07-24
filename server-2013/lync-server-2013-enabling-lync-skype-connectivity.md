@@ -25,19 +25,8 @@ La federazione è obbligatoria per consentire agli utenti di Skype di comunicare
 
 ![Visualizzazione di PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Visualizzazione di PIC")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La federazione PIC non è più supportata da Live Communication Server 2005 SP1 o da Office Communications Server 2007. Le piattaforme supportate per la federazione PIC includono Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La federazione PIC non è più supportata da Live Communication Server 2005 SP1 o da Office Communications Server 2007. Le piattaforme supportate per la federazione PIC includono Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2.
 
 ## 2\. Configurare almeno un criterio per il supporto dell'accesso utente federato
 

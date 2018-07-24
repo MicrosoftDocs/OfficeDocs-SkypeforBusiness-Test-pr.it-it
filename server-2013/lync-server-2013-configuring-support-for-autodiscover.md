@@ -19,19 +19,8 @@ Il **servizio di individuazione automatica** dei servizi Web di Lync Server è s
 
 Il servizio di individuazione automatica è utilizzato come una posizione unica per tutti i client per richiedere informazioni sui servizi e sulle funzionalità disponibili e su come contattare i servizi (tramite un nome di dominio completo o un riferimento URL Web). Il servizio di individuazione automatica espone un numero di funzionalità e ogni client esegue richieste in base alle funzionalità che può utilizzare. Un client desktop di Lync 2013 utilizzerà ad esempio il servizio di individuazione automatica per stabilire i servizi Web esterni, ma non utilizzerà i servizi Mobility (Mcx). Per definire nel modo corretto e abilitare i client per l'utilizzo delle funzionalità disponibili, è necessario definire gli scenari che consentono a un client di trovare e utilizzare le voci dell'individuazione automatica. Per utilizzare tale servizio nella propria distribuzione è necessario che un proxy inverso pubblichi i servizi Web di Lync Server, che i record DNS siano configurati per risolvere le query DNS per il servizio di individuazione automatica di Lync Server e i servizi Web di Lync Server e che i servizi certificato siano configurati nel modo corretto per lo scenario specificato.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per informazioni tecniche sulle funzioni degli elementi nella richiesta/risposta dell'individuazione automatica, vedere <a href="lync-server-2013-understanding-autodiscover.md">Informazioni sull'individuazione automatica</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Per informazioni tecniche sulle funzioni degli elementi nella richiesta/risposta dell'individuazione automatica, vedere <a href="lync-server-2013-understanding-autodiscover.md">Informazioni sull'individuazione automatica</a>.
 
 Le informazioni e le tabelle seguenti definiscono, per scenario, le configurazioni necessarie da implementare per fornire l'utilizzo completo del servizio di individuazione automatica. Negli argomenti seguenti sono incluse informazioni specifiche per Microsoft Lync Server 2013. Per informazioni su come pianificare i servizi Mobility per Lync Server 2010, vedere <http://go.microsoft.com/fwlink/?linkid=275113>. Per distribuire i servizi Mobility per Lync Server 2010, vedere <http://go.microsoft.com/fwlink/?linkid=275114>
 

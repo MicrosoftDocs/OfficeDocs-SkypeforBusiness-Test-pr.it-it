@@ -25,19 +25,8 @@ Per il controllo delle chiamate remote è necessario che ogni pool Lync Server s
 
 3.  Per creare una route statica e inserirla nella variabile $TLSRoute o $TCPRoute, effettuare una delle operazioni seguenti:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Per includere tutti i domini figlio di un dominio, è possibile specificare un valore con caratteri jolly nel parametro MatchUri, ad esempio <strong>*.contoso.net</strong> . Tale valore consente di includere qualsiasi dominio che termina con il suffisso <strong>contoso.net</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!tip]  
+    > Per includere tutti i domini figlio di un dominio, è possibile specificare un valore con caratteri jolly nel parametro MatchUri, ad esempio <strong>*.contoso.net</strong> . Tale valore consente di includere qualsiasi dominio che termina con il suffisso <strong>contoso.net</strong> .    
       - Per una connessione TLS (Transport Layer Security), al prompt dei comandi digitare il comando seguente:
         
             $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>

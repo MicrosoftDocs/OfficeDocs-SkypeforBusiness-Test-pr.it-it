@@ -19,54 +19,20 @@ La federazione è una relazione di trust tra due o più domini SIP che consente 
 
 Utilizzare le procedure riportate di seguito per la transizione della route di federazione e della route del traffico multimediale dal server perimetrale e dal Director Office Communications Server 2007 R2 al server perimetrale Lync Server 2013, per una distribuzione a sito singolo.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per modificare la route di federazione e la route del traffico multimediale, è necessario pianificare un intervallo di tempo di inattività per la manutenzione per i server perimetrali di Lync Server 2013 e Office Communications Server 2007 R2. L'intero processo di transizione comporta inoltre la non disponibilità dell'accesso federato per tutta la durata dell'interruzione dei servizi. È consigliabile pianificare il tempo di inattività nel periodo di attività minima degli utenti e inviare una notifica agli utenti finali. Eseguire le pianificazioni tenendo conto di questo periodo di interruzione e definire previsioni appropriate nell'organizzazione.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Per modificare la route di federazione e la route del traffico multimediale, è necessario pianificare un intervallo di tempo di inattività per la manutenzione per i server perimetrali di Lync Server 2013 e Office Communications Server 2007 R2. L'intero processo di transizione comporta inoltre la non disponibilità dell'accesso federato per tutta la durata dell'interruzione dei servizi. È consigliabile pianificare il tempo di inattività nel periodo di attività minima degli utenti e inviare una notifica agli utenti finali. Eseguire le pianificazioni tenendo conto di questo periodo di interruzione e definire previsioni appropriate nell'organizzazione.
+
+> [!important]  
+> Se il server perimetrale Office Communications Server 2007 R2 legacy è configurato per utilizzare lo stesso FQDN per i servizi Access Edge, Web Conferencing Edge e A/V Edge, le procedure in questa sezione per la transizione dell'impostazione di federazione a un server perimetrale Lync Server 2013 non sono supportate. Se i servizi perimetrali legacy sono configurati per utilizzare lo stesso FQDN, è necessario innanzitutto eseguire la migrazione di tutti gli utenti da Office Communications Server 2007 R2 a Lync Server 2013 e quindi rimuovere le autorizzazioni per il server perimetrale Office Communications Server 2007 R2 prima di abilitare la federazione nel server perimetrale Lync Server 2013. Per informazioni dettagliate, vedere gli argomenti seguenti:<ul>
+> 
+> <li><p><a href="move-remaining-users-to-lync-server-2013_1.md">Spostare gli utenti rimanenti in Lync Server 2013</a></p></li>
+> 
+> 
+> <li><p>&quot;Rimozione di server e ruoli del server&quot; all'indirizzo <a href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?linkId=268790</a></p></li></ul>
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se il server perimetrale Office Communications Server 2007 R2 legacy è configurato per utilizzare lo stesso FQDN per i servizi Access Edge, Web Conferencing Edge e A/V Edge, le procedure in questa sezione per la transizione dell'impostazione di federazione a un server perimetrale Lync Server 2013 non sono supportate. Se i servizi perimetrali legacy sono configurati per utilizzare lo stesso FQDN, è necessario innanzitutto eseguire la migrazione di tutti gli utenti da Office Communications Server 2007 R2 a Lync Server 2013 e quindi rimuovere le autorizzazioni per il server perimetrale Office Communications Server 2007 R2 prima di abilitare la federazione nel server perimetrale Lync Server 2013. Per informazioni dettagliate, vedere gli argomenti seguenti:
-<ul>
-<li><p><a href="move-remaining-users-to-lync-server-2013_1.md">Spostare gli utenti rimanenti in Lync Server 2013</a></p></li>
-<li><p>&quot;Rimozione di server e ruoli del server&quot; all'indirizzo <a href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?linkId=268790</a></p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se la federazione XMPP è instradata attraverso un server perimetrale Lync Server 2013, gli utenti legacy di Office Communications Server 2007 R2 non potranno comunicare con il partner federato XMPP finché tutti gli utenti non saranno stati spostati in Lync Server 2013, i certificati e i criteri XMPP non saranno stati configurati, il partner federato XMPP non sarà stato configurato in Lync Server 2013 e le voci DNS non saranno state aggiornate.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se la federazione XMPP è instradata attraverso un server perimetrale Lync Server 2013, gli utenti legacy di Office Communications Server 2007 R2 non potranno comunicare con il partner federato XMPP finché tutti gli utenti non saranno stati spostati in Lync Server 2013, i certificati e i criteri XMPP non saranno stati configurati, il partner federato XMPP non sarà stato configurato in Lync Server 2013 e le voci DNS non saranno state aggiornate.
 
 Per pubblicare, abilitare o disabilitare correttamente una topologia quando si aggiunge o si rimuove un ruolo del server, è necessario aver eseguito l'accesso come utente membro dei gruppi RTCUniversalServerAdmins e Domain Admins. È inoltre possibile delegare le autorizzazioni e i diritti utente appropriati per l'aggiunta di ruoli del server. Per informazioni dettagliate, vedere [Delegare le autorizzazioni di installazione in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) nella documentazione relativa alla distribuzione di server Standard Edition o Enterprise Edition. Per poter apportare altre modifiche alla configurazione, è necessaria solo l'appartenenza al gruppo RTCUniversalServerAdmins.
 
@@ -106,19 +72,8 @@ Per pubblicare, abilitare o disabilitare correttamente una topologia quando si a
 
 5.  In **Specificare il perimetro esterno** deselezionare la casella di controllo **Questo pool di server perimetrali è utilizzato per la federazione e la connettività di messaggistica istantanea pubblica** . In questo modo verrà rimossa l'associazione di federazione con BackCompatSite.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Questo passaggio è importante. È necessario deselezionare questa opzione per rimuovere l'associazione di federazione legacy.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Questo passaggio è importante. È necessario deselezionare questa opzione per rimuovere l'associazione di federazione legacy.
 
 6.  Fare clic su **Avanti** e accettare le impostazioni predefinite delle pagine rimanenti della procedura guidata.
 

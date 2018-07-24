@@ -23,19 +23,8 @@ La creazione di certificati per i server perimetrali è semplificata in Lync Ser
 
 Creare un singolo certificato pubblico, verificare di disporre di una chiave privata esportabile definita per il certificato e assegnarlo alle interfacce esterne dei server perimetrali seguenti utilizzando la Configurazione guidata certificati:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>I certificati con caratteri jolly non sono supportati in Lync Server, ad eccezione di quando sono utilizzati per riepilogare gli URL semplici tramite il proxy inverso. È necessario definire nomi soggetto alternativi (SAN, Subject Alternate Name) distinti per ogni nome di dominio SIP, servizio Web Conferencing Edge, servizio A/V Edge e dominio XMPP offerto dalla distribuzione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> I certificati con caratteri jolly non sono supportati in Lync Server, ad eccezione di quando sono utilizzati per riepilogare gli URL semplici tramite il proxy inverso. È necessario definire nomi soggetto alternativi (SAN, Subject Alternate Name) distinti per ogni nome di dominio SIP, servizio Web Conferencing Edge, servizio A/V Edge e dominio XMPP offerto dalla distribuzione.
 
 
 > [!NOTE]
@@ -43,19 +32,8 @@ Creare un singolo certificato pubblico, verificare di disporre di una chiave pri
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nel caso di un pool di server perimetrali, esportare il certificato con la chiave privata in ciascun server perimetrale e assegnare il certificato a ciascun servizio del server perimetrale. Eseguire la stessa operazione per il certificato interno del server perimetrale, esportando il certificato con la chiave privata e assegnandolo a ciascuna interfaccia interna perimetrale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Nel caso di un pool di server perimetrali, esportare il certificato con la chiave privata in ciascun server perimetrale e assegnare il certificato a ciascun servizio del server perimetrale. Eseguire la stessa operazione per il certificato interno del server perimetrale, esportando il certificato con la chiave privata e assegnandolo a ciascuna interfaccia interna perimetrale.
 
   - Verificare di disporre di una chiave privata esportabile assegnata per il certificato
 
@@ -69,19 +47,8 @@ Creare un singolo certificato interno con chiave privata esportabile, copiarlo e
 
   - Server perimetrale (denominato **Edge Server interno** nella Configurazione guidata certificati)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È possibile utilizzare certificati separati e distinti per ciascun servizio del server perimetrale. Scegliere di separare i certificati se si desidera utilizzare la nuova funzionalità di certificati in sequenza per il certificato servizio A/V Edge. In tal caso, è consigliabile separare il certificato servizio A/V Edge dal servizio Access Edge e dal servizio Web Conferencing Edge. Se si sceglie di richiedere, acquisire e assegnare certificati separati per ciascun servizio, è necessario che la chiave privata sia esportabile per il servizio A/V Edge (anche in questo caso, si tratta del servizio di autenticazione A/V) e assegnare lo stesso certificato all'interfaccia esterna perimetrale A/V in ciascun server perimetrale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> È possibile utilizzare certificati separati e distinti per ciascun servizio del server perimetrale. Scegliere di separare i certificati se si desidera utilizzare la nuova funzionalità di certificati in sequenza per il certificato servizio A/V Edge. In tal caso, è consigliabile separare il certificato servizio A/V Edge dal servizio Access Edge e dal servizio Web Conferencing Edge. Se si sceglie di richiedere, acquisire e assegnare certificati separati per ciascun servizio, è necessario che la chiave privata sia esportabile per il servizio A/V Edge (anche in questo caso, si tratta del servizio di autenticazione A/V) e assegnare lo stesso certificato all'interfaccia esterna perimetrale A/V in ciascun server perimetrale.
 
 ## Vedere anche
 

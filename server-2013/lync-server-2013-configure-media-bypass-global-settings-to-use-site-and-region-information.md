@@ -63,19 +63,8 @@ Per un corretto funzionamento del bypass, è inoltre necessaria la coerenza tra 
 
 Aggiungere quindi le subnet al sito di rete come descritto in [Associare subnet a siti di rete per bypass multimediale](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md). Le effettive procedure per associare subnet a siti di rete sono riportate in [Associare una subnet a un sito di rete in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md). Dopo aver associato tutte le subnet ai siti di rete, la distribuzione del bypass multimediale può considerarsi completata.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se non sono stati ancora creati i siti e le aree di rete, è necessario crearli prima di poter proseguire con la distribuzione del bypass multimediale. Per informazioni dettagliate, vedere <a href="lync-server-2013-create-or-modify-a-network-region.md">Creare o modificare un'area di rete in Lync Server 2013</a> e <a href="lync-server-2013-create-or-modify-a-network-site.md">Creare o modificare un sito di rete in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se non sono stati ancora creati i siti e le aree di rete, è necessario crearli prima di poter proseguire con la distribuzione del bypass multimediale. Per informazioni dettagliate, vedere <a href="lync-server-2013-create-or-modify-a-network-region.md">Creare o modificare un'area di rete in Lync Server 2013</a> e <a href="lync-server-2013-create-or-modify-a-network-site.md">Creare o modificare un sito di rete in Lync Server 2013</a>.
 
 ## Vedere anche
 

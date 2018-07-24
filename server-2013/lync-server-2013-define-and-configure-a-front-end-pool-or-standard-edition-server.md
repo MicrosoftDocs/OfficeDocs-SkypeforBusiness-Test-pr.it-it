@@ -64,17 +64,35 @@ Se si distribuisce un server Enterprise, è necessario che sia in esecuzione, co
 > [!NOTE]
 > In Lync Server 2013, tutte le volte che si aggiungono o rimuovono Front End Server dal pool, è necessario riavviare i servizi. La rimozione e l'aggiunta di server devono essere eseguite come operazioni separate. Ad esempio, se si ha bisogno di aggiungere due Front End Server e rimuovere due Front End Server, seguire questa procedura: 
 > <OL>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Rimuovere i due Front End Server</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Pubblicare e riattivare la topologia.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Riavviare i servizi.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Aggiungere i due Front End Server</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Pubblicare e riattivare la topologia.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Riavviare i servizi.</P></LI></OL>
 
 
@@ -215,35 +233,13 @@ Dopo avere stabilito la topologia, utilizzare la procedura seguente per definire
     
       - Per definire una nuova condivisione file, selezionare **Definisci nuova condivisione file** , nella casella **FQDN file server** immettere l'FQDN del file server esistente in cui deve trovarsi la condivisione file e quindi immettere un nome per la condivisione nella casella **Condivisione file** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La condivisione file per Lync Server 2013 non può trovarsi nel server Front End Server. Si noti che in questo esempio la condivisione file è stata posizionata nel server Back End Server basato su SQL Server. Questa posizione può non risultare ottimale per i requisiti dell'organizzazione e un file server può rappresentare una scelta migliore. È possibile definire la condivisione file senza che questa sia stata creata. Sarà necessario creare la condivisione file nella posizione definita prima di pubblicare la topologia.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > La condivisione file per Lync Server 2013 non può trovarsi nel server Front End Server. Si noti che in questo esempio la condivisione file è stata posizionata nel server Back End Server basato su SQL Server. Questa posizione può non risultare ottimale per i requisiti dell'organizzazione e un file server può rappresentare una scelta migliore. È possibile definire la condivisione file senza che questa sia stata creata. Sarà necessario creare la condivisione file nella posizione definita prima di pubblicare la topologia.
 
 9.  Nella pagina **Specificare l'URL dei servizi Web** eseguire una o entrambe le operazioni seguenti:
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L'URL di base è l'identità dei servizi Web per l'URL, senza https://. Se, ad esempio, l'URL completo per i servizi Web del pool è https://pool01.contoso.net, l'URL di base sarà pool01.contoso.net.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > L'URL di base è l'identità dei servizi Web per l'URL, senza https://. Se, ad esempio, l'URL completo per i servizi Web del pool è https://pool01.contoso.net, l'URL di base sarà pool01.contoso.net.    
 
     > [!WARNING]
     > Se si hanno più pool Front End o Front End Server, l'FQDN dei servizi Web esterni deve essere univoco. Ad esempio, se si definisce l'FQDN dei servizi Web esterni di un Front End Server come <STRONG>pool01.contoso.com</STRONG>, non sarà possibile utilizzare <STRONG>pool01.contoso.com</STRONG> per un altro pool Front End o Front End Server.

@@ -40,16 +40,5 @@ Quando si usa il cmdlet **Set-CsKerberosAccountPassword** per impostare una pass
     > È necessario specificare il parametro UserAccount nel formato Dominio\Utente. Il formato Utente@Dominio.estensione non è supportato per fare riferimento a oggetti computer creati ai fini dell'autenticazione Kerberos.
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dopo aver apportato le necessarie modifiche all'autenticazione Kerberos, ad esempio l'aggiunta o la rimozione di un account, è necessario eseguire <strong>Enable-CsTopology</strong> dal prompt dei comandi di Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Dopo aver apportato le necessarie modifiche all'autenticazione Kerberos, ad esempio l'aggiunta o la rimozione di un account, è necessario eseguire <strong>Enable-CsTopology</strong> dal prompt dei comandi di Lync Server Management Shell.

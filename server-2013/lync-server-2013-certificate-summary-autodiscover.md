@@ -23,19 +23,8 @@ La decisione relativa all'utilizzo degli elenchi dei nomi alternativi soggetto n
 
   - **Pubblicato sulla porta 443**   L'elenco dei nomi alternativi soggetto nei certificati utilizzati dalla regola di pubblicazione dei servizi Web esterni deve contenere una voce *lyncdiscover.\<dominiosip\>* per ogni dominio SIP all'interno dell'organizzazione.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È consigliabile utilizzare HTTPS anziché HTTP. HTTPS utilizza i certificati per crittografare il traffico. HTTP non fornisce la crittografia e i dati verranno inviati in formato di testo normale.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È consigliabile utilizzare HTTPS anziché HTTP. HTTPS utilizza i certificati per crittografare il traffico. HTTP non fornisce la crittografia e i dati verranno inviati in formato di testo normale.
 
 La riemissione dei certificati tramite un'autorità di certificazione interna in genere è un processo semplice, ma per i certificati pubblici utilizzati nella regola di pubblicazione dei servizi Web l'aggiunta di più voci dei nomi alternativi soggetto può diventare un'attività dispendiosa. Per ovviare al problema, viene fornito il supporto per la connessione di individuazione automatica iniziale sulla porta 80, con conseguente reindirizzamento alla porta 8080 del pool di server Server Director o Front End Server.
 

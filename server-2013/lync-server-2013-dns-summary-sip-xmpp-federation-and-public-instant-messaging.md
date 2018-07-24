@@ -19,19 +19,8 @@ I record DNS (Domain Name System) che saranno necessari per definire una federaz
 
 La tabella di riepilogo dei record DNS indica le voci obbligatorie per una federazione aperta o individuabile. Se non si desidera implementare l'individuazione della federazione, è possibile decidere di non configurare il record \_sipfederationtls.\_tcp. *\<nome di dominio SIP\>*.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Esistono scenari specifici in cui si richiedere il record SRV _sipfederationtls._tcp. <em>&lt;nome di dominioSIP&gt;</em>, ma non si desidera disporre di una federazione individuabile, ed esempio quando è stata distribuita la mobilità per gli utenti. La federazione PNCH (push notification clearinghouse) della mobilità è un tipo speciale usato per i client Microsoft Lync Mobile su Apple iPhone o iPad usando il client Lync 2010 Mobile o su Windows Phone usando i client Lync 2010 Mobile o Lync 2013 Mobile. Il record SRV _sipfederationtls._tcp. <em>&lt;nome di dominio SIP&gt;</em> viene usato in caso di mobilità e notifiche push. Per attenuare il problema e controllare l'individuabilità, deselezionare l'impostazione <strong>Abilita individuazione dominio partner</strong> per disattivare l'individuazione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Esistono scenari specifici in cui si richiedere il record SRV _sipfederationtls._tcp. <em>&lt;nome di dominioSIP&gt;</em>, ma non si desidera disporre di una federazione individuabile, ed esempio quando è stata distribuita la mobilità per gli utenti. La federazione PNCH (push notification clearinghouse) della mobilità è un tipo speciale usato per i client Microsoft Lync Mobile su Apple iPhone o iPad usando il client Lync 2010 Mobile o su Windows Phone usando i client Lync 2010 Mobile o Lync 2013 Mobile. Il record SRV _sipfederationtls._tcp. <em>&lt;nome di dominio SIP&gt;</em> viene usato in caso di mobilità e notifiche push. Per attenuare il problema e controllare l'individuabilità, deselezionare l'impostazione <strong>Abilita individuazione dominio partner</strong> per disattivare l'individuazione.
 
 Per configurare il protocollo XMPP (Extensible Messaging and Presence Protocol) per la distribuzione, creare due record DNS (Domain Name System) in un server DNS esterno che risolverà i record nel servizio Access Edge del server perimetrale o pool di server perimetrali.
 
@@ -62,19 +51,8 @@ Quando si configura il DNS (Domain Name System) per la connettività per messagg
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna servizio Access Edge Necessario per l'individuazione DNS automatica della federazione per altri partner federativi potenziali ed è noto come &quot;Domini SIP consentiti&quot; (federazione avanzata nelle versioni precedenti). Ripetere secondo necessità per tutti i domini SIP con utenti predisposti per Lync</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Questo record SRV è necessario per la mobilità e PNCH. Nei casi in cui sono presenti più domini SIP, creare e pubblicare un record SRV per ogni dominio che avrà client Lync Mobile. Il servizio notifica Push e il servizio notifica Push Apple potrebbero non funzionare come previsto nei casi in cui non sia presente un record SRV esplicito per ogni dominio SIP supportato dalla distribuzione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Questo record SRV è necessario per la mobilità e PNCH. Nei casi in cui sono presenti più domini SIP, creare e pubblicare un record SRV per ogni dominio che avrà client Lync Mobile. Il servizio notifica Push e il servizio notifica Push Apple potrebbero non funzionare come previsto nei casi in cui non sia presente un record SRV esplicito per ogni dominio SIP supportato dalla distribuzione.
 </div></td>
 </tr>
 </tbody>

@@ -21,19 +21,8 @@ I certificati necessari per supportare l'accesso utente esterno includono i cert
 
   - I certificati necessari per l'interfaccia interna possono essere emessi da una CA pubblica o da una CA globale (enterprise) interna. È consigliabile utilizzare una CA interna di Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 o Windows Server 2012 R2 per creare questi certificati, per risparmiare sui costi di utilizzo dei certificati pubblici.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L'elaborazione delle richieste di certificati può richiedere tempo, in particolare per le richiesta a CA pubbliche. È quindi consigliabile richiedere i certificati per i server perimetrali con sufficiente anticipo per assicurarsi che siano disponibili quando si inizia la distribuzione dei componenti dei server perimetrale. Per un riepilogo dei requisiti dei certificati per i server perimetrali, vedere <a href="lync-server-2013-certificate-requirements-for-external-user-access.md">Requisiti dei certificati per l'accesso utente esterno in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> L'elaborazione delle richieste di certificati può richiedere tempo, in particolare per le richiesta a CA pubbliche. È quindi consigliabile richiedere i certificati per i server perimetrali con sufficiente anticipo per assicurarsi che siano disponibili quando si inizia la distribuzione dei componenti dei server perimetrale. Per un riepilogo dei requisiti dei certificati per i server perimetrali, vedere <a href="lync-server-2013-certificate-requirements-for-external-user-access.md">Requisiti dei certificati per l'accesso utente esterno in Lync Server 2013</a>.
 
 Anche se per il certificato del perimetro interno è possibile utilizzare un'autorità di certificazione (CA) pubblica, per ridurre al minimo i costi è consigliabile utilizzare una CA globale (enterprise). Per un riepilogo dei requisiti dei certificati per i server perimetrali, vedere [Requisiti dei certificati per l'accesso utente esterno in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 

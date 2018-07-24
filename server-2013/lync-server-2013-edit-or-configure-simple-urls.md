@@ -37,32 +37,10 @@ Per impostazione predefinita, gli URL semplici saranno configurati (ad esempio, 
 
 2.  Nella casella **URL di accesso amministrativo** immettere l'URL semplice che si desidera utilizzare per l'accesso amministrativo al Pannello di controllo di Lync Server 2013 e quindi fare clic su **OK** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È consigliabile utilizzare l'URL più semplice possibile per l'accesso amministrativo. L'opzione più semplice è <strong>https://admin.</strong> <em>&lt;domain&gt;</em> .</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si modifica un URL semplice dopo la distribuzione iniziale, è necessario considerare quali modifiche influiscono sui record DNS (Domain Name System) e sui certificati per gli URL semplici. Se la modifica influisce sulla base di un URL semplice, sarà necessario modificare anche i record DNS e i certificati. Ad esempio, la modifica da https://lync.contoso.com/Meet a https://meet.contoso.com comporta la modifica dell'URL di base da lync.contoso.com a meet.contoso.com, pertanto sarà necessario modificare i record DNS e i certificati in modo che facciano riferimento a meet.contoso.com. Se l'URL semplice è stato modificato da https://lync.contoso.com/Meet a https://lync.contoso.com/Meetings, l'URL di base lync.contoso.com resterà invariato, pertanto non sarà necessario apportare modifiche ai record DNS o ai certificati. Ogni volta che si modifica il nome di un URL semplice, sarà tuttavia necessario eseguire il cmdlet <strong>Enable-CsComputer</strong> su ogni server Server Director e Front End Server per registrare la modifica.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > È consigliabile utilizzare l'URL più semplice possibile per l'accesso amministrativo. L'opzione più semplice è <strong>https://admin.</strong> <em>&lt;domain&gt;</em> .    
+    > [!important]  
+    > Se si modifica un URL semplice dopo la distribuzione iniziale, è necessario considerare quali modifiche influiscono sui record DNS (Domain Name System) e sui certificati per gli URL semplici. Se la modifica influisce sulla base di un URL semplice, sarà necessario modificare anche i record DNS e i certificati. Ad esempio, la modifica da https://lync.contoso.com/Meet a https://meet.contoso.com comporta la modifica dell'URL di base da lync.contoso.com a meet.contoso.com, pertanto sarà necessario modificare i record DNS e i certificati in modo che facciano riferimento a meet.contoso.com. Se l'URL semplice è stato modificato da https://lync.contoso.com/Meet a https://lync.contoso.com/Meetings, l'URL di base lync.contoso.com resterà invariato, pertanto non sarà necessario apportare modifiche ai record DNS o ai certificati. Ogni volta che si modifica il nome di un URL semplice, sarà tuttavia necessario eseguire il cmdlet <strong>Enable-CsComputer</strong> su ogni server Server Director e Front End Server per registrare la modifica.
 
 ## Vedere anche
 

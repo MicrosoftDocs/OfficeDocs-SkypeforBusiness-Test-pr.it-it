@@ -762,19 +762,8 @@ Il parametro *DropExistingDatabasesOnMirror* determina l'eliminazione dei databa
 
 3.  Pubblicare la topologia.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ogni volta che si apporta una modifica a una relazione di mirroring dei database back-end, è necessario riavviare tutti i Front End Server nel pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Ogni volta che si apporta una modifica a una relazione di mirroring dei database back-end, è necessario riavviare tutti i Front End Server nel pool.
 
 ## Vengono restituiti errori di convalida in Generatore di topologie quando un amministratore tenta di rimuovere una distribuzione con un pool Front End a cui è associato un archivio di controllo (3199266)
 

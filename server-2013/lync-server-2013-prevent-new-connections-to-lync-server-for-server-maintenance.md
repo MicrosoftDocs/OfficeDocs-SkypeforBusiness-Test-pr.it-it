@@ -35,19 +35,8 @@ Per informazioni dettagliate sul bilanciamento del carico DNS, vedere [Bilanciam
 
 Oltre a impedire nuove connessioni per tutti i servizi in un server che esegue Lync Server, è inoltre possibile impedire nuove connessioni per singoli servizi di Lync Server. Questo metodo è utile, ad esempio, nei casi in cui è necessario installare un aggiornamento di Lync Server che non richiede l'arresto dell'intero server. Si noti che quando si impediscono le connessioni per un servizio, è necessario selezionare un servizio nel modo in cui è raggruppato e visualizzato nell'elenco dei servizi di Windows. Il servizio Lync Server Front-End e l'agente di raccolta dati per il monitoraggio, ad esempio, sono servizi di Lync Server separati, ma nell'elenco dei servizi di Windows sono riuniti e visualizzati come servizio Lync Server Front End. È possibile impedire nuove connessioni per il servizio Lync Server Front End, ma non si possono impedire nuove connessioni per questi due singoli servizi di Lync Server sottostanti separatamente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando si riavvia un server che è stato impostato in modo da impedire nuove connessioni, per impostazione predefinita il server inizierà immediatamente ad accettare nuove connessioni subito dopo l'avvio. Per ovviare a questo problema, prima di riavviare il server impostarlo in modo che sia possibile sospendere e riprendere le operazioni solo manualmente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Quando si riavvia un server che è stato impostato in modo da impedire nuove connessioni, per impostazione predefinita il server inizierà immediatamente ad accettare nuove connessioni subito dopo l'avvio. Per ovviare a questo problema, prima di riavviare il server impostarlo in modo che sia possibile sospendere e riprendere le operazioni solo manualmente.
 
 ## Per impedire nuove connessioni a Lync Server:
 
@@ -61,19 +50,8 @@ Oltre a impedire nuove connessioni per tutti i servizi in un server che esegue L
 
 5.  Accanto a **Tipo di avvio** fare clic su **Manuale**. Questa operazione è facoltativa, ma consigliata.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Quando si imposta un server per impedire nuove connessioni e quindi si riavvia il server, per impostazione predefinita il server inizierà immediatamente ad accettare nuove connessioni dopo l'avvio. Per evitarlo, impostare il server solo per la sospensione e la ripresa manuali, prima di riavviarlo.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Quando si imposta un server per impedire nuove connessioni e quindi si riavvia il server, per impostazione predefinita il server inizierà immediatamente ad accettare nuove connessioni dopo l'avvio. Per evitarlo, impostare il server solo per la sospensione e la ripresa manuali, prima di riavviarlo.
 
 6.  Al termine, fare clic su **OK**.
 

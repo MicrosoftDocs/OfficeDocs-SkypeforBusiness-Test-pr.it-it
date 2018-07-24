@@ -31,16 +31,5 @@ La distribuzione di un server Standard Edition in una distribuzione Enterprise E
 
 6.  Impostare e installare un server Standard Edition.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Attenzione:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se è stato distribuito un ambiente solo con un server Standard Edition, è possibile avviare il processo di configurazione dalla Distribuzione guidata di Lync Server utilizzando il collegamento <strong>Prepara primo Server Standard</strong> per installare i file di database iniziali nel nuovo server Standard Edition. <strong>Non</strong> seguire tale processo per installare un server Standard Edition in una distribuzione di Lync Server 2013 già esistente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!Caution]  
+    > Se è stato distribuito un ambiente solo con un server Standard Edition, è possibile avviare il processo di configurazione dalla Distribuzione guidata di Lync Server utilizzando il collegamento <strong>Prepara primo Server Standard</strong> per installare i file di database iniziali nel nuovo server Standard Edition. <strong>Non</strong> seguire tale processo per installare un server Standard Edition in una distribuzione di Lync Server 2013 già esistente.

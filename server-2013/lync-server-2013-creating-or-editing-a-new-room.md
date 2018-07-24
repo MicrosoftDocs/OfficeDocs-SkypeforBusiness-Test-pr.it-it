@@ -19,19 +19,8 @@ La configurazione delle chat room di Chat persistente in genere viene gestita da
 
 Gli utenti con il ruolo di **Autori** in una determinata categoria possono utilizzare il client Lync per creare e gestire le chat room. Gli utenti designati come responsabili di una specifica chat room possono inoltre occuparsi della gestione continuata della chat room, ad esempio modificandone le proprietà o i membri.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Gli amministratori di Chat persistente possono essere anche autori e non sono soggetti alle restrizioni applicate agli autori.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Gli amministratori di Chat persistente possono essere anche autori e non sono soggetti alle restrizioni applicate agli autori.
 
 Facoltativamente, se si è amministratori di Chat persistente, è possibile utilizzare un'interfaccia utente per creare e gestire le chat room invece di avvalersi dei cmdlet di Windows PowerShell. A tale scopo, abilitare per SIP un amministratore del server Chat persistente e quindi utilizzare il client Lync per creare e gestire le chat room.
 

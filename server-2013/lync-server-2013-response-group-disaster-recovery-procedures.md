@@ -39,19 +39,8 @@ Utilizzare i passaggi della procedura riportata di seguito per effettuare la pre
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Attenzione:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se non si sostituiscono le impostazioni nel pool di backup e il pool principale non può essere ripristinato, le impostazioni del pool principale andranno perse. Per informazioni dettagliate, vedere <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Pianificazione per il ripristino di emergenza dei Response Group in Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!Caution]  
+    > Se non si sostituiscono le impostazioni nel pool di backup e il pool principale non può essere ripristinato, le impostazioni del pool principale andranno perse. Per informazioni dettagliate, vedere <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Pianificazione per il ripristino di emergenza dei Response Group in Lync Server 2013</a>.
 
 4.  Verificare che l'importazione sia stata eseguita correttamente visualizzando i Response Group importati. Tali Response Group sono ancora di proprietà del pool principale. Eseguire le operazioni seguenti:
     
@@ -99,19 +88,8 @@ Utilizzare i passaggi della procedura riportata di seguito per effettuare la pre
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È necessario utilizzare il parametro –ShowAll oppure il parametro –Owner, altrimenti i Response Group importati nel pool di backup non verranno elencati nei risultati restituiti dai cmdlet.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È necessario utilizzare il parametro –ShowAll oppure il parametro –Owner, altrimenti i Response Group importati nel pool di backup non verranno elencati nei risultati restituiti dai cmdlet.
 
 5.  Verificare che l'importazione sia stata eseguita correttamente effettuando una chiamata a un Response Group importato e controllando che la chiamata venga gestita correttamente.
 
@@ -119,19 +97,8 @@ Utilizzare i passaggi della procedura riportata di seguito per effettuare la pre
 
 7.  Gestire e modificare come di consueto i Response Group importati.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Mentre i Response Group si trovano nel pool di backup, è necessario utilizzare Lync Server Management Shell per gestirli. Non è possibile utilizzare il Pannello di controllo di Lync Server per gestire i Response Group importati nel pool di backup.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Mentre i Response Group si trovano nel pool di backup, è necessario utilizzare Lync Server Management Shell per gestirli. Non è possibile utilizzare il Pannello di controllo di Lync Server per gestire i Response Group importati nel pool di backup.
 
 8.  Dopo il ripristino del pool principale e il completamento del failback, esportare i Response Group del pool principale che erano stati importati nel pool di backup. Nella riga di comando digitare quanto segue:
     
@@ -158,19 +125,8 @@ Utilizzare i passaggi della procedura riportata di seguito per effettuare la pre
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se non si desidera sostituire le impostazioni a livello di applicazione e il file audio predefinito della musica di attesa per il nuovo pool con le impostazioni del pool di backup, il nuovo pool utilizzerà le impostazioni predefinite a livello di applicazione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se non si desidera sostituire le impostazioni a livello di applicazione e il file audio predefinito della musica di attesa per il nuovo pool con le impostazioni del pool di backup, il nuovo pool utilizzerà le impostazioni predefinite a livello di applicazione.
 
 10. Verificare che la reimportazione nel pool principale sia stata eseguita correttamente visualizzando la configurazione di Response Group importata. Eseguire le operazioni seguenti:
     

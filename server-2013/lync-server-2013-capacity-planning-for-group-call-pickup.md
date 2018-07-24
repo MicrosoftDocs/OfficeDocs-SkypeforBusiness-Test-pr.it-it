@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 Nella tabella seguente viene descritto il modello utente della funzionalità di risposta alle chiamate di gruppo che è possibile utilizzare come base per i requisiti di pianificazione della capacità.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La risposta alle chiamate di gruppo si basa sull'applicazione Parcheggio di chiamata. Tenere presente che, per la pianificazione della capacità di ripristino di emergenza, ciascun pool di una coppia di pool deve essere in grado di gestire i carichi di lavoro per i servizi di Parcheggio di chiamata, inclusa la risposta alle chiamate di gruppo, in entrambi i pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La risposta alle chiamate di gruppo si basa sull'applicazione Parcheggio di chiamata. Tenere presente che, per la pianificazione della capacità di ripristino di emergenza, ciascun pool di una coppia di pool deve essere in grado di gestire i carichi di lavoro per i servizi di Parcheggio di chiamata, inclusa la risposta alle chiamate di gruppo, in entrambi i pool.
 
 ### Modello utente della risposta alle chiamate di gruppo
 
@@ -79,9 +68,15 @@ Nella tabella seguente viene descritto il modello utente della funzionalità di 
 
 > [!NOTE]
 > <UL>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Per i pool Front End con meno di otto Front End Server, calcolare la metrica in modo lineare. Ad esempio, se il pool Front End dispone di un Front End Server, calcolare il carico massimo come 1/8 dei valori mostrati nella tabella.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>È possibile diminuire o aumentare il numero consigliato di utenti per gruppo e il numero di gruppi purché non si superi il numero massimo di utenti per pool. Ad esempio, il server Standard Edition può disporre di 120 gruppi con 25 utenti per gruppo perché il numero di utenti abilitati per la risposta alla chiamata di gruppo non supera il numero massimo del modello utente (120 gruppi per 25 utenti significa 3.000 utenti abilitati per la risposta alle chiamate di gruppo).</P></LI></UL>
 
 

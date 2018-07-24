@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2012-10-22_
 
 Un Server Director è un server con il software di comunicazioneMicrosoft Lync Server 2013 in grado di autenticare le richieste degli utenti, ma in cui non sono ospitati account utente. Il Server Director ospita inoltre servizi Web come il Front End Server e autentica le richieste di ticket Web oltre a fornire altri servizi.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si distribuiscono server Director, è necessario pubblicare i servizi Web del Server Director all'esterno tramite il proxy inverso, nonché i servizi Web del Front End Server. Negli argomenti seguenti viene descritto il processo di pianificazione per le topologie di Server Director possibili.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se si distribuiscono server Director, è necessario pubblicare i servizi Web del Server Director all'esterno tramite il proxy inverso, nonché i servizi Web del Front End Server. Negli argomenti seguenti viene descritto il processo di pianificazione per le topologie di Server Director possibili.
 
 ## Argomenti della sezione
 

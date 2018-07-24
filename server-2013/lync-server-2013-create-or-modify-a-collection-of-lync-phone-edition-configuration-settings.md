@@ -33,19 +33,8 @@ Le impostazioni di configurazione consistono nel nome della raccolta, l'ambito (
     
       - Per modificare le impostazioni di una raccolta esistente, fare clic sulla raccolta, selezionare il menu **Modifica**, fare clic su **Mostra dettagli** e apportare le modifiche.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per tornare a utilizzare le impostazioni predefinite di una raccolta globale, fare clic sulla stessa, quindi sul menu <strong>Modifica</strong> e su <strong>Elimina</strong>, quindi fare clic su <strong>OK</strong>. La raccolta globale non viene eliminata, ma le impostazioni vengono ripristinate ai valori predefiniti.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!tip]  
+        > Per tornare a utilizzare le impostazioni predefinite di una raccolta globale, fare clic sulla stessa, quindi sul menu <strong>Modifica</strong> e su <strong>Elimina</strong>, quindi fare clic su <strong>OK</strong>. La raccolta globale non viene eliminata, ma le impostazioni vengono ripristinate ai valori predefiniti.
 
 5.  Fare clic su **Commit**.
 

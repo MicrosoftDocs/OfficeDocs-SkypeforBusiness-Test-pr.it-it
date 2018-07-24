@@ -29,19 +29,8 @@ Tra i requisiti di rete per le funzionalità audio/video (A/V) in una distribuzi
 
   - Se si distribuisce un server perimetrale singolo o un pool di server perimetrali usando il bilanciamento del carico DNS, è possibile configurare il firewall esterno come NAT. Non è possibile configurare il firewall interno come NAT. Per informazioni dettagliate su questi requisiti, vedere [Determinare i requisiti di porte e firewall A/V esterni per Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) nella documentazione relativa alla pianificazione.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si dispone di un pool di server perimetrali e si utilizza un bilanciamento del carico hardware, è necessario usare indirizzi IP pubblici per ciascuno dei server perimetrali e non è possibile usare il NAT per i server del pool nel dispositivo NAT (ad esempio il firewall o un altro dispositivo dell'infrastruttura che eseguirebbe il NAT del traffico in entrata o in uscita). Per informazioni dettagliate, vedere <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Riepilogo delle porte - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013</a> nella documentazione relativa alla pianificazione per l'accesso utente esterno.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se si dispone di un pool di server perimetrali e si utilizza un bilanciamento del carico hardware, è necessario usare indirizzi IP pubblici per ciascuno dei server perimetrali e non è possibile usare il NAT per i server del pool nel dispositivo NAT (ad esempio il firewall o un altro dispositivo dell'infrastruttura che eseguirebbe il NAT del traffico in entrata o in uscita). Per informazioni dettagliate, vedere <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Riepilogo delle porte - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware in Lync Server 2013</a> nella documentazione relativa alla pianificazione per l'accesso utente esterno.
 
   - Se nell'organizzazione è prevista un'infrastruttura di qualità del servizio (QoS), il sottosistema multimediale è progettato per essere utilizzato nell'infrastruttura esistente.
 

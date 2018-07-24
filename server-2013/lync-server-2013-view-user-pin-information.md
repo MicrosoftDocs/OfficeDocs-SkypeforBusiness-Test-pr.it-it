@@ -47,19 +47,8 @@ Per partecipare a una conferenza telefonica con accesso esterno come utente aute
     
     4.  A seconda della proprietà utente selezionata, immettere i criteri che si desidera utilizzare per filtrare i risultati della ricerca digitandoli oppure facendo clic sulla freccia nell'elenco a discesa.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!tip]  
+        > Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
     
 

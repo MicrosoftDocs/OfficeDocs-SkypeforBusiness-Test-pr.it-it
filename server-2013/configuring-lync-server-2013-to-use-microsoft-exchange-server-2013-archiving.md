@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
 
 Microsoft Lync Server 2013 consente agli amministratori di archiviare le trascrizioni di messaggistica istantanea e Web Conferencing nella cassetta postale di Microsoft Exchange Server 2013 di un utente anziché in un database di SQL Server. Se si abilita questa opzione, le trascrizioni vengono scritte nella cartella Eliminazioni della cassetta postale dell'utente. Questa cartella è nascosta e si trova nella cartella Elementi ripristinabili. Sebbene questa cartella non sia visibile agli utenti finali, è indicizzata dal motore di ricerca di Exchange e può essere rilevata utilizzando la ricerca cassetta postale di Exchange e/o Microsoft SharePoint Server 2013. Poiché le informazioni sono archiviate nella stessa cartella utilizzata dalla funzionalità Archiviazione sul posto di Exchange (responsabile dell'archiviazione di posta elettronica e altre comunicazioni di Exchange), gli amministratori hanno la possibilità di utilizzare un solo strumento per cercare tutte le comunicazioni elettroniche archiviate per un utente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per disabilitare completamente l'archiviazione della conversazione Lync, è inoltre necessario disabilitare la cronologia conversazioni Lync. Per ulteriori informazioni, vedere gli argomenti seguenti: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestione dell'archiviazione delle comunicazioni interne ed esterne in Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Per disabilitare completamente l'archiviazione della conversazione Lync, è inoltre necessario disabilitare la cronologia conversazioni Lync. Per ulteriori informazioni, vedere gli argomenti seguenti: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestione dell'archiviazione delle comunicazioni interne ed esterne in Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.
 
 Per archiviare le trascrizioni in Exchange 2013, è necessario iniziare a configurare l'autenticazione da server a server tra i due server. Dopo la configurazione dell'autenticazione da server a server, è possibile eseguire le attività seguenti in Microsoft Lync Server 2013 (si noti che, in base all'installazione e alla configurazione, potrebbe non essere necessario completare tutte le attività):
 

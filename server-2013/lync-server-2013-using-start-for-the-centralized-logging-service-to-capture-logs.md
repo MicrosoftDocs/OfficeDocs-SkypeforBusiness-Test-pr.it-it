@@ -60,19 +60,8 @@ servizio di registrazione centralizzato offre due modi per specificare i comandi
     
         Start-CsClsLogging -Scenario Authentication
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È possibile eseguire un totale di due scenari su qualsiasi computer in qualsiasi momento. Se l'ambito del comando è globale, lo o gli scenari verranno eseguiti da tutti i computer della distribuzione. Per avviare un terzo scenario è necessario interrompere la registrazione nel computer, pool, sito o ambito globale in cui si vuole eseguire il nuovo scenario. Se è stato avviato un ambito globale, è possibile interrompere la registrazione per uno o per entrambi gli scenari in uno o più computer e pool. Per informazioni dettagliate sugli scenari in esecuzione, vedere <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilizzo del comando Stop per il servizio di registrazione centralizzato</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È possibile eseguire un totale di due scenari su qualsiasi computer in qualsiasi momento. Se l'ambito del comando è globale, lo o gli scenari verranno eseguiti da tutti i computer della distribuzione. Per avviare un terzo scenario è necessario interrompere la registrazione nel computer, pool, sito o ambito globale in cui si vuole eseguire il nuovo scenario. Se è stato avviato un ambito globale, è possibile interrompere la registrazione per uno o per entrambi gli scenari in uno o più computer e pool. Per informazioni dettagliate sugli scenari in esecuzione, vedere <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilizzo del comando Stop per il servizio di registrazione centralizzato</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.
 
 ## Per eseguire Start-CsClsLogging con Windows PowerShell usando comandi avanzati
 

@@ -77,19 +77,8 @@ Eseguire la procedura seguente per utilizzare il Generatore di topologie per def
 
 10. Fare clic su **Fine** .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prima di completare questo passaggio, verificare che il peer definito sia in esecuzione e utilizzi l'FQDN o l'indirizzo IP specificato.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Prima di completare questo passaggio, verificare che il peer definito sia in esecuzione e utilizzi l'FQDN o l'indirizzo IP specificato.
 
 Per aggiungere successivamente il peer alla topologia, seguire le procedure illustrate in [Pubblicare la topologia in Lync Server 2013](lync-server-2013-publish-the-topology.md) nella documentazione relativa alla distribuzione. È necessario pubblicare la topologia ogni volta che si utilizza il Generatore di topologie per creare o modificare la topologia, in modo che i dati possano essere utilizzati per installare i file per i server che eseguono Lync Server.
 

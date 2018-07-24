@@ -19,19 +19,8 @@ Lync Server 2013 di VoIP aziendale richiede che tutte le stringhe di composizion
 
 Eseguendo la conversione della route in uscita nel server, è possibile ridurre i requisiti di configurazione in ogni singolo trunk peer per tradurre i numeri di telefono in un formato di composizione locale. Nel pianificare quali e quanti gateway associare a un cluster di Mediation Server specifico, può essere utile raggruppare i trunk peer con requisiti di composizione locali simili in modo da ridurre il numero di regole di conversione necessarie e il tempo richiesto per scriverle.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L'associazione di una o più regole di conversione a una configurazione trunk VoIP aziendale può essere utilizzata come alternativa alla configurazione di regole di conversione nel trunk peer. Non associare regole di conversione a una configurazione trunk VoIP aziendale se sono state configurate regole di conversione nel trunk peer, perché le due regole potrebbero creare conflitti.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> L'associazione di una o più regole di conversione a una configurazione trunk VoIP aziendale può essere utilizzata come alternativa alla configurazione di regole di conversione nel trunk peer. Non associare regole di conversione a una configurazione trunk VoIP aziendale se sono state configurate regole di conversione nel trunk peer, perché le due regole potrebbero creare conflitti.
 
 ## Esempi di regole di traduzione
 

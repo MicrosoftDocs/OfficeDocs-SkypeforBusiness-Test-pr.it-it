@@ -41,41 +41,17 @@ Con il mirroring SQL, la modalità di recupero del database è impostata sempre 
 
 Nel mirroring SQL è possibile configurare la topologia per il mirroring al momento della creazione dei pool, o in seguito.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L'utilizzo di Generatore di topologie o dei cmdlet per la configurazione e la rimozione del mirroring SQL è supportata unicamente quando i server primario, mirror e di controllo (se desiderato) appartengono allo stesso dominio. Per configurare il mirroring SQL tra server su domini diversi, vedere la documentazione relativa a SQL Server.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> L'utilizzo di Generatore di topologie o dei cmdlet per la configurazione e la rimozione del mirroring SQL è supportata unicamente quando i server primario, mirror e di controllo (se desiderato) appartengono allo stesso dominio. Per configurare il mirroring SQL tra server su domini diversi, vedere la documentazione relativa a SQL Server.
 
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando si apportano modifiche a una relazione di mirroring di un database di back end, è necessario riavviare tutti i Front End Server nel pool.<br />
-Per apportare una modifica nel mirroring, ad esempio per modificare la località di un mirror, è necessario utilizzare Generatore di topologie per eseguire i tre passaggi successivi:
-<ol>
-<li><p>Rimuovere il mirroring dal server mirror meno recente.</p></li>
-<li><p>Aggiungere il mirroring al nuovo server mirror.</p></li>
-<li><p>Pubblicare la topologia.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Quando si apportano modifiche a una relazione di mirroring di un database di back end, è necessario riavviare tutti i Front End Server nel pool.<br />Per apportare una modifica nel mirroring, ad esempio per modificare la località di un mirror, è necessario utilizzare Generatore di topologie per eseguire i tre passaggi successivi:<ol>
+> <li><p>Rimuovere il mirroring dal server mirror meno recente.</p></li>
+> 
+> <li><p>Aggiungere il mirroring al nuovo server mirror.</p></li>
+> 
+> 
+> <li><p>Pubblicare la topologia.</p></li></ol>
 
 
 

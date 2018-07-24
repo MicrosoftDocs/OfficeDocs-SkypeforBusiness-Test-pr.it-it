@@ -23,19 +23,8 @@ La decisione relativa all'utilizzo degli elenchi dei nomi alternativi del sogget
 
   - **Pubblicato sulla porta 443**   L'elenco dei nomi alternativi soggetto nei certificati utilizzati dalla regola di pubblicazione dei servizi Web esterni deve contenere una voce `lyncdiscover.<sipdomain>` per ogni dominio SIP all'interno dell'organizzazione.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Per le nuove installazioni o gli aggiornamenti da Lync Server 2010 in cui si distribuisce il servizio Mobility, è possibile scegliere di utilizzare la porta 80 per l'individuazione automatica del servizio Mobility oppure di riemettere i certificati con il nome soggetto e i nomi alternativi soggetto appropriati. Controllare i certificati nel Server Director e nel Front End Server per verificare quale dei due percorsi è stato scelto.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Per le nuove installazioni o gli aggiornamenti da Lync Server 2010 in cui si distribuisce il servizio Mobility, è possibile scegliere di utilizzare la porta 80 per l'individuazione automatica del servizio Mobility oppure di riemettere i certificati con il nome soggetto e i nomi alternativi soggetto appropriati. Controllare i certificati nel Server Director e nel Front End Server per verificare quale dei due percorsi è stato scelto.
 
 ### Dettagli del firewall per il server proxy inverso: interfaccia esterna
 
