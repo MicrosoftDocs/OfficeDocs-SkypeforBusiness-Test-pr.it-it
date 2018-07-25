@@ -70,4 +70,3 @@ Nella topologia di esempio è presente un collegamento tra il Nord America e le 
 9.  Fare clic su **Commit**.
 
 10. Per completare la creazione dei collegamenti area di rete per la topologia, ripetere i passaggi da 4 a 9 con le impostazioni per le altre aree.
-
