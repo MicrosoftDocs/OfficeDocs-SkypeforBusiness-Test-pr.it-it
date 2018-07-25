@@ -37,18 +37,8 @@ Una configurazione di esempio per la distribuzione del proxy XMPP definisce una 
 
 7.  Nell' server perimetrale, nella Distribuzione guidata di Lync Server, accanto a **Passaggio 3: Richiesta, installazione o assegnazione dei certificati** , fare clic su **Riesegui** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.
 
 
 8.  Nella pagina **Attività certificato disponibili** fare clic su **Crea una nuova richiesta di certificato** .
@@ -79,18 +69,8 @@ Una configurazione di esempio per la distribuzione del proxy XMPP definisce una 
 
 18. Nella pagina **Configura nomi alternativi soggetto aggiuntivi** specificare eventuali nomi alternativi del soggetto aggiuntivi necessari.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.
 
 
 19. Nella pagina **Riepilogo richiesta** esaminare le informazioni sul certificato da utilizzare per generare la richiesta.

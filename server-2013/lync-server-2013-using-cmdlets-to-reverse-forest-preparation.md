@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2013-06-19_
 
 Utilizzare il cmdlet **Disable-CsAdForest** per annullare il passaggio di preparazione della foresta.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Attenzione:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si esegue il cmdlet <strong>Disable-CsAdForest</strong> in un ambiente in cui è anche distribuita una versione precedente di Lync Server, verranno eliminate anche le impostazioni globali per la versione precedente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!CAUTION]
+> Se si esegue il cmdlet <strong>Disable-CsAdForest</strong> in un ambiente in cui è anche distribuita una versione precedente di Lync Server, verranno eliminate anche le impostazioni globali per la versione precedente.
 
 ## Per utilizzare cmdlet per annullare la preparazione della foresta
 

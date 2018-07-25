@@ -34,18 +34,9 @@ Nella tabella seguente vengono riepilogati il gruppo o i gruppi a cui deve appar
 <td><p><strong>Setup.exe</strong> – File eseguibile che avvia l'installazione degli strumenti di amministrazione di Lync Server 2013.</p></td>
 <td><p>Membro del gruppo Administrators locale nel computer da cui viene eseguito il file. Membro del gruppo Domain Users per la lettura delle informazioni in Servizi di dominio Active Directory. Questo livello di autorizzazione è necessario perché l'installazione automatica dei pacchetti MSI richiesti nel computer locale richiede privilegi che consentano la lettura e scrittura di risorse del computer locale protette, come le directory Programmi e l'hive Local Machine del Registro di sistema.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È inoltre possibile delegare le autorizzazioni per l'installazione a utenti o gruppi a cui non si desidera concedere l'appartenenza al gruppo Domain Admins. Per informazioni dettagliate, vedere <a href="lync-server-2013-granting-setup-permissions.md">Concessione di autorizzazioni di installazione in Lync Server 2013</a> nella documentazione relativa alla distribuzione.</td>
-</tr>
-</tbody>
-</table>
+
+> [!TIP]
+> È inoltre possibile delegare le autorizzazioni per l'installazione a utenti o gruppi a cui non si desidera concedere l'appartenenza al gruppo Domain Admins. Per informazioni dettagliate, vedere <a href="lync-server-2013-granting-setup-permissions.md">Concessione di autorizzazioni di installazione in Lync Server 2013</a> nella documentazione relativa alla distribuzione. 
 
 </div></td>
 </tr>

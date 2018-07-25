@@ -46,7 +46,8 @@ L'utilità di integrazione della messaggistica unificata di Exchange consente di
 <p>Per Microsoft Exchange Server 2010, vedere &quot;Creazione di un dial plan di messaggistica unificata&quot; all'indirizzo <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
 <p>Per Microsoft Exchange Server 2007 Service Pack 1 (SP1), vedere &quot;Creazione di un dial plan di messaggistica unificata URI SIP&quot; all'indirizzo <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li><li><p>Creare uno o più dial plan di Lync Server corrispondenti come illustrato in <a href="lync-server-2013-create-a-dial-plan.md">Creare un dial plan in Lync Server 2013</a>.</p>
 <div class="alert">
-> [!important]  
+
+> [!IMPORTANT]  
 > Se si utilizza una versione di Exchange precedente a Microsoft Exchange Server 2010 SP1, sarà necessario immettere il nome di dominio completo (FQDN) del dial plan di messaggistica unificata SIP di Messaggistica unificata di Exchange corrispondente nel campo <strong>Nome semplice</strong> del dial plan di Lync Server 2013. Se si utilizza Microsoft Exchange Server 2010 SP1 o un Service Pack più recente, tale corrispondenza del nome del dial plan non è necessaria.
 </div></li><li><p>Creare un operatore automatico e verificare che il numero di accesso del sottoscrittore e il numero dell'operatore automatico siano nel formato E.164.</p></li></ul></td>
 </tr>

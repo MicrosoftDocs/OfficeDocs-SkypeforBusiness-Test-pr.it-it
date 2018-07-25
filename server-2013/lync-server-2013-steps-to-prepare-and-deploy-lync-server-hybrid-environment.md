@@ -57,18 +57,9 @@ Nella tabella seguente vengono elencati i passaggi necessari per preparare l'amb
 <td><p>Preparare la sincronizzazione di Active Directory</p></td>
 <td><p>La sincronizzazione di Active Directory mantiene Active Directory in locale sempre sincronizzato con Office 365. In questo modo è possibile creare versioni sincronizzate di ogni account utente e gruppo di utenti e viene abilitata la sincronizzazione dell'elenco indirizzi globale dall'ambiente Microsoft Exchange Server locale a Microsoft Exchange Online.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È necessario sincronizzare gli account AD per tutti gli utenti Lync nell'organizzazione tra le distribuzioni di Lync in locale e online, anche se gli utenti non vengono spostati in Lync Online. Se gli utenti non vengono sincronizzati, la comunicazione tra utenti locali e online nell'organizzazione potrebbe non funzionare nella maniera desiderata.</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]
+> È necessario sincronizzare gli account AD per tutti gli utenti Lync nell'organizzazione tra le distribuzioni di Lync in locale e online, anche se gli utenti non vengono spostati in Lync Online. Se gli utenti non vengono sincronizzati, la comunicazione tra utenti locali e online nell'organizzazione potrebbe non funzionare nella maniera desiderata.
 
 </div>
 <p>Per preparare l'ambiente alla sincronizzazione Active Directory, seguire i passaggi descritti in <a href="http://go.microsoft.com/fwlink/p/?linkid=254988">Roadmap sulla sincronizzazione della directory</a>, inclusa la configurazione di Single Sign-On.</p></td>
