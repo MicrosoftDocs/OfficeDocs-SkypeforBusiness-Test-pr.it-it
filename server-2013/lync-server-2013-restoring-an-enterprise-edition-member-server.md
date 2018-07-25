@@ -27,19 +27,8 @@ Se si verifica un errore in un server che esegue uno dei ruoli del server seguen
 
   - Server perimetrale
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È consigliabile creare una copia dell'immagine del sistema prima di avviare il ripristino. È possibile utilizzarla come punto di rollback in caso di problemi durante il ripristino. È possibile creare questa copia dopo aver installato il sistema operativo e SQL Server e dopo aver ripristinato o registrato di nuovo i certificati.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> È consigliabile creare una copia dell'immagine del sistema prima di avviare il ripristino. È possibile utilizzarla come punto di rollback in caso di problemi durante il ripristino. È possibile creare questa copia dopo aver installato il sistema operativo e SQL Server e dopo aver ripristinato o registrato di nuovo i certificati.
 
 ## Per ripristinare un server membro
 

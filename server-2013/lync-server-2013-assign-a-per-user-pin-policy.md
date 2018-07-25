@@ -47,36 +47,14 @@ Per informazioni dettagliate sulla creazione di criteri per il PIN per utente pe
     
     4.  A seconda della proprietà utente selezionata, digitare i criteri da utilizzare per filtrare i risultati della ricerca oppure selezionarli facendo clic sulla freccia nell'elenco a discesa.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per aggiungere altre clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!tip]  
+        > Per aggiungere altre clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
 
 6.  Fare clic su un utente nei risultati della ricerca, fare clic su **Azione** e quindi su **Assegna criteri**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si desidera applicare gli stessi criteri per il PIN per utente a più utenti, selezionarli nei risultati di ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se si desidera applicare gli stessi criteri per il PIN per utente a più utenti, selezionarli nei risultati di ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.
 
 7.  In **Assegna criteri** eseguire una delle operazioni seguenti in **Criteri PIN**:
     
@@ -89,19 +67,8 @@ Per informazioni dettagliate sulla creazione di criteri per il PIN per utente pe
     
       - Fare clic sul nome di un criterio PIN per utente definito in precedenza nella pagina **Criteri PIN**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per decidere i criteri da assegnare, dopo aver fatto clic su un nome di criteri fare clic su <strong>Visualizza</strong> per visualizzare i diritti e le autorizzazioni utente che definisce.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!tip]  
+        > Per decidere i criteri da assegnare, dopo aver fatto clic su un nome di criteri fare clic su <strong>Visualizza</strong> per visualizzare i diritti e le autorizzazioni utente che definisce.
 
 8.  Al termine, fare clic su **OK**.
 

@@ -83,32 +83,10 @@ Per apportare una di queste modifiche, è necessario eseguire il Generatore di t
     
       - Per passare all'integrazione di Microsoft Exchange per archiviare i file e i dati di archiviazione nei server di Exchange 2013 (se tutti gli utenti della distribuzione sono disponibili nei server di Exchange 2013), eliminare tutte le informazioni relative ai database di Archiviazione.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se sono presenti utenti Lync non disponibili nei server di Exchange 2013, non eliminare le informazioni dell'archivio SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se sono presenti utenti Lync non disponibili nei server di Exchange 2013, non eliminare le informazioni dell'archivio SQL Server.
 
 8.  Per salvare la configurazione, fare clic su **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le modifiche apportate nel Generatore di topologie diventano effettive solo dopo la pubblicazione della nuova topologia. Per informazioni dettagliate, vedere <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Pubblicazione della topologia aggiornata per l'aggiunta dei database di archiviazione</a> nella documentazione relativa alla distribuzione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Le modifiche apportate nel Generatore di topologie diventano effettive solo dopo la pubblicazione della nuova topologia. Per informazioni dettagliate, vedere <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Pubblicazione della topologia aggiornata per l'aggiunta dei database di archiviazione</a> nella documentazione relativa alla distribuzione.

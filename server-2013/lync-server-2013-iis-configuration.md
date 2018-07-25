@@ -19,19 +19,8 @@ Per eseguire questa procedura, è necessario aver eseguito l'accesso al server a
 
 Prima di poter configurare e installare il Front End Server per Lync Server 2013, Standard Edition o il primo Front End Server in un pool, è necessario installare e configurare il ruolo del server e i servizi Web per Internet Information Services (IIS).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se l'organizzazione richiede di posizionare IIS e tutti i servizi Web in un'unità diversa dall'unità di sistema, è possibile modificare il percorso di installazione per i file di Lync Server 2013 nella finestra di dialogo del programma di installazione durante l'installazione iniziale degli strumenti di amministrazione di Lync Server 2013, che vengono installati prima di IIS. Se si installano i file del programma di installazione in questo percorso, incluso OCSCore.msi, anche il resto dei file di Lync Server 2013 verrà distribuito in questa unità. Per informazioni dettagliate, vedere <a href="lync-server-2013-install-lync-server-administrative-tools.md">Installare gli strumenti di amministrazione di Lync Server 2013</a>. Per informazioni dettagliate su come spostare la directory INETPUB distribuita da Server Manager di Windows durante l'installazione di IIS, vedere la pagina Web all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se l'organizzazione richiede di posizionare IIS e tutti i servizi Web in un'unità diversa dall'unità di sistema, è possibile modificare il percorso di installazione per i file di Lync Server 2013 nella finestra di dialogo del programma di installazione durante l'installazione iniziale degli strumenti di amministrazione di Lync Server 2013, che vengono installati prima di IIS. Se si installano i file del programma di installazione in questo percorso, incluso OCSCore.msi, anche il resto dei file di Lync Server 2013 verrà distribuito in questa unità. Per informazioni dettagliate, vedere <a href="lync-server-2013-install-lync-server-administrative-tools.md">Installare gli strumenti di amministrazione di Lync Server 2013</a>. Per informazioni dettagliate su come spostare la directory INETPUB distribuita da Server Manager di Windows durante l'installazione di IIS, vedere la pagina Web all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
 Nella tabella seguente vengono indicati i servizi ruolo di IIS 7.5 necessari.
 
@@ -319,19 +308,8 @@ In Windows Server 2012 e Windows Server 2012 R2 è possibile utilizzare Windows 
 
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il parametro -Source è una novità di Windows Server 2012 e definisce il percorso in cui è disponibile il supporto di origine di Windows Server 2012. Il supporto può essere definito come un'unità DVD (ad esempio, D:\Sources\Sxs) o come una condivisione di rete in cui sono stati copiati i file del supporto (ad esempio, \\fileserver\windows2012\sources\Sxs).</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il parametro -Source è una novità di Windows Server 2012 e definisce il percorso in cui è disponibile il supporto di origine di Windows Server 2012. Il supporto può essere definito come un'unità DVD (ad esempio, D:\Sources\Sxs) o come una condivisione di rete in cui sono stati copiati i file del supporto (ad esempio, \\fileserver\windows2012\sources\Sxs).
 
 ## Vedere anche
 

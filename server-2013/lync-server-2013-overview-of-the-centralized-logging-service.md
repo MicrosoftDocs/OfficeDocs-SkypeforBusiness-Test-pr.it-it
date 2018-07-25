@@ -47,33 +47,10 @@ Quando un utente richiede una ricerca di log, ClsController determina i computer
 
 Quando si avvia una sessione di registrazione, si specificano scenari relativi al problema da risolvere. È possibile eseguire due scenari alla volta. Uno di questi scenari deve essere quello AlwaysOn, ovvero deve essere sempre in esecuzione nella distribuzione per raccogliere informazioni su tutti i computer, i pool e i componenti.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per impostazione predefinita, lo scenario AlwaysOn non è in esecuzione nella distribuzione. È necessario avviarlo in modo esplicito. Una volta avviato, il servizio continua a essere eseguito fino all'arresto esplicito e lo stato di esecuzione permane nonostante i riavvii del computer. Per informazioni dettagliate sull'avvio e l'arresto degli scenari, vedere <a href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Utilizzo del comando Start per l'acquisizione dei log da parte del servizio di registrazione centralizzato</a> e <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilizzo del comando Stop per il servizio di registrazione centralizzato</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Per impostazione predefinita, lo scenario AlwaysOn non è in esecuzione nella distribuzione. È necessario avviarlo in modo esplicito. Una volta avviato, il servizio continua a essere eseguito fino all'arresto esplicito e lo stato di esecuzione permane nonostante i riavvii del computer. Per informazioni dettagliate sull'avvio e l'arresto degli scenari, vedere <a href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Utilizzo del comando Start per l'acquisizione dei log da parte del servizio di registrazione centralizzato</a> e <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilizzo del comando Stop per il servizio di registrazione centralizzato</a>.
 
 Quando si verifica un problema, avviare un secondo scenario correlato al problema segnalato. Riprodurre il problema e arrestare la registrazione per il secondo scenario. Iniziare le ricerche dei log relativi al problema segnalato. La raccolta aggregata dei log produce un file di log contenente i messaggi di traccia di tutti i computer nel sito oppure dell'ambito globale della distribuzione. Se la ricerca restituisce più dati di quanti sia possibile analizzarne (condizione nota in genere come rapporto segnale/rumore, in cui il rumore è troppo elevato), è possibile eseguire un'altra ricerca con parametri più limitati. A questo punto, è possibile iniziare a osservare i modelli risultati in modo da formarsi un quadro più chiaro del problema. Infine, dopo aver eseguito un paio di ricerche perfezionate, è possibile individuare i dati rilevanti per il problema e dedurne la causa principale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quando si presenta uno scenario di problema in Lync Server, iniziare chiedendosi quali informazioni sono disponibili sul problema. Se si delineano i confini del problema, è possibile eliminare una gran parte delle entità operative di Lync Server.<br />
-Considerare ad esempio uno scenario in cui si sa che gli utenti non ricevono risultati aggiornati quando cercano un contatto. Non sarà in questo caso necessario cercare le cause del problema nei componenti multimediali, in VoIP aziendale, nei servizi per conferenza e in numerosi altri componenti. Ciò che potrebbe non essere noto è la posizione effettiva da cui trae origine il problema: lato client o lato server? I contatti sono raccolti da Active Directory mediante User Replicator e recapitare al client mediante il server della Rubrica (ABServer). ABServer ottiene gli aggiornamenti dal database RTC (dopo i dati sono stati scritti da User Replicator) e li raccoglie in file della rubrica per impostazione predefinita alle 1.30. I clienti Lync Server recuperano la nuova rubrica in base a una pianificazione casuale. Poiché si conosce la modalità di funzionamento del processo, è possibile ridurre la ricerca della causa potenziale individuandola in un problema correlato alla raccolta dei dati di Active Directory da parte di User Replicator, al mancato recupero o creazione dei file di rubrica da parte di ABServer oppure al mancato download del file della rubrica da parte dei client.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Quando si presenta uno scenario di problema in Lync Server, iniziare chiedendosi quali informazioni sono disponibili sul problema. Se si delineano i confini del problema, è possibile eliminare una gran parte delle entità operative di Lync Server.<br />Considerare ad esempio uno scenario in cui si sa che gli utenti non ricevono risultati aggiornati quando cercano un contatto. Non sarà in questo caso necessario cercare le cause del problema nei componenti multimediali, in VoIP aziendale, nei servizi per conferenza e in numerosi altri componenti. Ciò che potrebbe non essere noto è la posizione effettiva da cui trae origine il problema: lato client o lato server? I contatti sono raccolti da Active Directory mediante User Replicator e recapitare al client mediante il server della Rubrica (ABServer). ABServer ottiene gli aggiornamenti dal database RTC (dopo i dati sono stati scritti da User Replicator) e li raccoglie in file della rubrica per impostazione predefinita alle 1.30. I clienti Lync Server recuperano la nuova rubrica in base a una pianificazione casuale. Poiché si conosce la modalità di funzionamento del processo, è possibile ridurre la ricerca della causa potenziale individuandola in un problema correlato alla raccolta dei dati di Active Directory da parte di User Replicator, al mancato recupero o creazione dei file di rubrica da parte di ABServer oppure al mancato download del file della rubrica da parte dei client.

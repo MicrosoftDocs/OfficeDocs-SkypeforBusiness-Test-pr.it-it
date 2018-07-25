@@ -70,18 +70,9 @@ Per uscire da Lync, è possibile chiudere la visualizzazione, disconnettere la s
 <td><p>Disconnetti</p></td>
 <td><p>Termina la sessione di Lync associata all'ID utente, ma Lync rimane in esecuzione in background. Quando ci si disconnette, viene visualizzata la finestra di accesso.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Selezionare <strong>Elimina le informazioni di accesso</strong> dopo la disconnessione per rimuovere i dati relativi a ID e password di accesso dal computer. Questa operazione consente al personale del supporto tecnico di risolvere più facilmente i problemi di accesso e può anche essere utile per garantire una maggiore sicurezza delle informazioni di accesso, limitando la possibilità che utenti non autorizzati accedano con le proprie credenziali.</td>
-</tr>
-</tbody>
-</table>
+
+> [!TIP]  
+> Selezionare <strong>Elimina le informazioni di accesso</strong> dopo la disconnessione per rimuovere i dati relativi a ID e password di accesso dal computer. Questa operazione consente al personale del supporto tecnico di risolvere più facilmente i problemi di accesso e può anche essere utile per garantire una maggiore sicurezza delle informazioni di accesso, limitando la possibilità che utenti non autorizzati accedano con le proprie credenziali.
 
 </div></td>
 <td><p>Nella finestra principale di Lync fare clic sul pulsante <strong>Opzioni</strong> e quindi selezionare <strong>File</strong> &gt; <strong>Disconnetti</strong>.</p></td>

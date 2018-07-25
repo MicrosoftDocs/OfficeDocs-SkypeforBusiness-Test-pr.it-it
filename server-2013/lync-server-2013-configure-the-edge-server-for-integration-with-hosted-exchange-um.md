@@ -29,19 +29,8 @@ Per informazioni dettagliate, vedere la documentazione di Lync Server Management
 
   - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prima di eseguire queste operazioni, è necessario creare un record DNS SRV esterno per il servizio Exchange di hosting. Per informazioni dettagliate, vedere <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Creare un Record DNS SRV per l'integrazione con la messaggistica unificata di Exchange ospitata</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Prima di eseguire queste operazioni, è necessario creare un record DNS SRV esterno per il servizio Exchange di hosting. Per informazioni dettagliate, vedere <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Creare un Record DNS SRV per l'integrazione con la messaggistica unificata di Exchange ospitata</a>.
 
 ## Per configurare il server perimetrale per la federazione
 

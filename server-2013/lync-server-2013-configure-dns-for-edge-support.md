@@ -43,19 +43,8 @@ Usare le procedure seguenti in "**Per creare un record DNS SRV**” per creare e
 
 1.  Nel server DNS appropriato fare clic sul pulsante **Start** , scegliere **Pannello di controllo** , **Strumenti di amministrazione** e quindi **DNS** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È necessario configurare DNS in modo che siano presenti le voci seguenti: 1) voci DNS esterne per ricerche DNS esterne da parte di utenti remoti e partner federati, 2) voci per ricerche DNS che devono essere utilizzate dai server perimetrali nella rete perimetrale (nota anche come DMZ e subnet schermata), inclusi i record A per i server interni che eseguono Lync Server 2013 e 3) voci DNS interne per ricerche da parte di client e server interni che eseguono Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È necessario configurare DNS in modo che siano presenti le voci seguenti: 1) voci DNS esterne per ricerche DNS esterne da parte di utenti remoti e partner federati, 2) voci per ricerche DNS che devono essere utilizzate dai server perimetrali nella rete perimetrale (nota anche come DMZ e subnet schermata), inclusi i record A per i server interni che eseguono Lync Server 2013 e 3) voci DNS interne per ricerche da parte di client e server interni che eseguono Lync Server 2013.
 
 2.  Nell'albero della console del dominio SIP espandere **Zone di ricerca diretta** e quindi fare clic con il pulsante destro del mouse sul dominio in cui è installato Lync Server 2013.
 

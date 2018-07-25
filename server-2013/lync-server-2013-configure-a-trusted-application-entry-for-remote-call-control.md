@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2012-10-22_
 
 Il gateway SIP/CSTA deve essere configurato come applicazione attendibile perché Lync Server possa applicare una route statica per instradare le chiamate al gateway.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si esegue la migrazione di utenti da una versione precedente della distribuzione di Lync Server prima di eseguire le procedure illustrate in questo argomento verificare di aver rimosso tutte le voci esistenti di applicazioni attendibili (precedentemente note come voci di host autorizzati) create per il gateway SIP/CSTA. Per informazioni dettagliate, vedere <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Rimuovere un host autorizzato legacy in Lync Server 2013 (facoltativo)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se si esegue la migrazione di utenti da una versione precedente della distribuzione di Lync Server prima di eseguire le procedure illustrate in questo argomento verificare di aver rimosso tutte le voci esistenti di applicazioni attendibili (precedentemente note come voci di host autorizzati) create per il gateway SIP/CSTA. Per informazioni dettagliate, vedere <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Rimuovere un host autorizzato legacy in Lync Server 2013 (facoltativo)</a>.
 
 ## Per configurare una voce di applicazione attendibile per il gateway SIP/CSTA
 

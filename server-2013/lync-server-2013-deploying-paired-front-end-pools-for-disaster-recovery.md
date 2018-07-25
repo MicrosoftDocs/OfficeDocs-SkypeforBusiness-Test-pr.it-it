@@ -51,15 +51,21 @@ _**Ultima modifica dell'argomento:** 2013-02-21_
 
 10. Forzare la sincronizzazione dei dati utente e di conferenza di entrambi i pool specificando i cmdlet seguenti:
     
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-    
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
     
     La sincronizzazione dei dati potrebbe richiedere alcuni minuti. Per controllare lo stato è possibile usare i cmdlet seguenti. Assicurarsi che in entrambe le direzioni lo stato sia stazionario.
     
-        Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-    
-        Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 
 > [!NOTE]

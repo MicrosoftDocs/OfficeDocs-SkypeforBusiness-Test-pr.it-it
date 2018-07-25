@@ -41,19 +41,8 @@ Il criterio PIN globale definisce le regole per i PIN delle conferenze telefonic
 
 11. Per consentire schemi comuni di cifre nei PIN, ad esempio numeri progressivi o gruppi ripetuti di numeri, selezionare la casella di controllo **Consenti formati comuni** . Se non si seleziona questa opzione, saranno consentiti solo schemi complessi di cifre, come da impostazione predefinita.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È consigliabile evitare di consentire i formati comuni.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È consigliabile evitare di consentire i formati comuni.
 
 12. Fare clic su **Commit** .
 

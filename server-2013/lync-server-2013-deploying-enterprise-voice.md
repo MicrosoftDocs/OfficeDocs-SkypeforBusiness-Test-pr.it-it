@@ -39,19 +39,8 @@ Per visualizzare le topologie di riferimento con esempi delle posizioni in cui √
 
 Per visualizzare una topologia di riferimento che illustra e spiega una semplice distribuzione di controllo di ammissione di chiamata, inclusi siti di rete, aree di rete e subnet, vedere [Esempio: raccolta dei requisiti dell'organizzazione per il controllo di ammissione di chiamata in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) nella documentazione relativa alla pianificazione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per distribuire VoIP aziendale in un sito centrale, continuare con la lettura degli argomenti in questa sezione. Per distribuire VoIP aziendale in un sito di succursale, passare a <a href="lync-server-2013-deploying-branch-sites.md">Distribuzione di siti di succursale in Lync Server 2013</a> nella documentazione relativa alla distribuzione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Per distribuire VoIP aziendale in un sito centrale, continuare con la lettura degli argomenti in questa sezione. Per distribuire VoIP aziendale in un sito di succursale, passare a <a href="lync-server-2013-deploying-branch-sites.md">Distribuzione di siti di succursale in Lync Server 2013</a> nella documentazione relativa alla distribuzione.
 
 In questa sezione sono incluse le procedure per le distribuzioni con un Mediation Server collocato in ogni Front End Server o server Standard Edition, come consigliato, nonch√© per le distribuzioni con un pool Mediation Server autonomo.
 

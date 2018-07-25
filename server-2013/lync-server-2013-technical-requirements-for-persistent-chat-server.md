@@ -55,19 +55,8 @@ Per informazioni dettagliate sul software aggiuntivo richiesto per la distribuzi
 
 server Chat persistente utilizza il database di Chat persistente per archiviare la cronologia delle chat, la configurazione e i dati di provisioning degli utenti. Facoltativamente, viene utilizzato il database di conformità di Chat persistente per archiviare i dati di conformità.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il database di Chat persistente (mgc) e il database di conformità (mgccomp) possono essere posizionati nella stessa istanza di SQL Server o in istanze diverse di SQL Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il database di Chat persistente (mgc) e il database di conformità (mgccomp) possono essere posizionati nella stessa istanza di SQL Server o in istanze diverse di SQL Server.
 
 Per preparare una piattaforma server di database, assicurarsi che ogni computer soddisfi i requisiti hardware e installare quindi il software prerequisito.
 

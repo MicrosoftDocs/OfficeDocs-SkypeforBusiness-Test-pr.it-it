@@ -31,19 +31,8 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 6.  Nel server perimetrale fare clic su Riesegui nella Distribuzione guidata accanto a Passaggio 3: Richiesta, installazione o assegnazione dei certificati.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.
 
 7.  Nella pagina Attività certificato disponibili fare clic su Crea una nuova richiesta di certificato.
 
@@ -73,19 +62,8 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 17. Nella pagina Configura nomi alternativi soggetto aggiuntivi specificare eventuali nomi alternativi soggetto aggiuntivi richiesti.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.
 
 18. Nella pagina Riepilogo richiesta esaminare le informazioni sul certificato da utilizzare per generare la richiesta.
 
@@ -97,45 +75,46 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 22. Dopo aver ricevuto, importato e assegnato il certificato pubblico, è necessario arrestare e riavviare i servizi del server perimetrale. A tale scopo, digitare quanto segue nella console di gestione di Lync Server:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 23. Per configurare DNS per la federazione XMPP, aggiungere il record SRV seguente al DNS esterno:\_xmpp-server.\_tcp.\<nome dominio\> Il record SRV risolverà l'FQDN dell'Access Edge del server perimetrale con un valore di porta 5269. È inoltre necessario configurare un record host 'A' (ad esempio, xmpp.contoso.com) che punta all'indirizzo IP del server Access Edge.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se esistono pool di server perimetrali in più siti, è consigliabile aggiungere più record SRV per la federazione XMPP. Aggiungere un record SRV per ogni pool di server perimetrali nell'organizzazione e assegnare una diversa priorità a ognuno di questi record SRV. Quando tutti i pool di server perimetrali sono in esecuzione, le richieste XMPP verranno tutte gestite dal pool di server perimetrali prioritario, ma se tale pool di server perimetrali diventa inattivo sarà necessario aggiungere un nuovo record SRV per ripristinare la funzionalità di federazione XMPP.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se esistono pool di server perimetrali in più siti, è consigliabile aggiungere più record SRV per la federazione XMPP. Aggiungere un record SRV per ogni pool di server perimetrali nell'organizzazione e assegnare una diversa priorità a ognuno di questi record SRV. Quando tutti i pool di server perimetrali sono in esecuzione, le richieste XMPP verranno tutte gestite dal pool di server perimetrali prioritario, ma se tale pool di server perimetrali diventa inattivo sarà necessario aggiungere un nuovo record SRV per ripristinare la funzionalità di federazione XMPP.
 
 24. Configurare nuovi criteri di accesso esterno per abilitare tutti gli utenti. A tale scopo, aprire Lync Server Management Shell nel Front End Server e digitare:
     
-        New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
-        New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
-        Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
-    
+    ```
+    New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
+    ```
+    ```
+    New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
+    ```
+    ```
+    Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
+    ```
     Abilitare l'accesso XMPP per gli utenti esterni digitando:
     
-        Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-    
-        Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+    ```
+    Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
+    ```
+    ```
+    Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+    ```
 
 25. Nel server perimetrale in cui è distribuito il proxy XMPP aprire un prompt dei comandi o un' interfaccia della riga di comando Windows PowerShell™ e digitare il comando seguente:
     
-        Netstat -ano | findstr 5269
-    
-        Netstat -ano | findstr 23456
+    ```
+    Netstat -ano | findstr 5269
+    ```
+    ```
+    Netstat -ano | findstr 23456
+    ```
     
     Il comando **netstat -ano** è un comando per le statistiche di rete, i parametri **-ano** richiedono che il comando netstat visualizzi tutte le connessioni e le porte di attesa, che l'indirizzo e le porte vengano visualizzati in forma numerica e che l'ID del processo proprietario venga associato a ogni connessione. Il carattere **|** definisce una pipe per il comando successivo, **findstr**, ovvero "find string" (trova stringa). I numeri 5269 e 23456 passati a findstr come parametro indicano al comando di cercare le stringhe 5269 e 23456 nell'output di netstat. Se la configurazione di XMPP è corretta, il risultato dei comandi dovrebbe essere l'ascolto e l'attivazione delle connessioni sia sull'interfaccia esterna (porta 5269) che interna (porta 23456) del server perimetrale.
     
@@ -167,19 +146,8 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 10. Pubblicare la topologia. Per informazioni dettagliate, vedere [Pubblicare la topologia in Lync Server 2013](lync-server-2013-publish-your-topology.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sebbene non sia richiesto e in genere non occorra, potrebbe risultare necessario riavviare il server perimetrali</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Sebbene non sia richiesto e in genere non occorra, potrebbe risultare necessario riavviare il server perimetrali
 
 11. Tramite il processo netstat utilizzato in precedenza, verificare che il server perimetrale sia ora in attesa o abbia stabilito sessioni sulle porte 5269 e 23456.
 

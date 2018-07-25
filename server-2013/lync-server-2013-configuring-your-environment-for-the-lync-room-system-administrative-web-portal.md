@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2014-05-22_
 
 Per usare il portale Web di amministrazione di Lync Room System (LRS) è necessario installare o configurare i prerequisiti seguenti.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se per il server è configurata sia l'autenticazione Kerberos che NTLM e LRS viene eseguito in un computer non aggiunto al dominio, l'autenticazione Kerberos avrà esito negativo e l'utente non potrà vedere lo stato di LRS nel portale amministrativo. Per risolvere il problema, configurare il server con l'autenticazione NTLM oppure sia con l'autenticazione NTLM che TLS-DSK (senza Kerberos) oppure aggiungere il computer LRS al dominio.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se per il server è configurata sia l'autenticazione Kerberos che NTLM e LRS viene eseguito in un computer non aggiunto al dominio, l'autenticazione Kerberos avrà esito negativo e l'utente non potrà vedere lo stato di LRS nel portale amministrativo. Per risolvere il problema, configurare il server con l'autenticazione NTLM oppure sia con l'autenticazione NTLM che TLS-DSK (senza Kerberos) oppure aggiungere il computer LRS al dominio.
 
 1.  Installare Aggiornamenti cumulativi per Lync Server 2013: luglio 2013 nella topologia di Lync Server.
     

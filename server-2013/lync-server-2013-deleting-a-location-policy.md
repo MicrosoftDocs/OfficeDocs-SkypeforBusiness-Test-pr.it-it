@@ -39,19 +39,8 @@ In Lync Server 2013, è possibile usare i criteri di posizione per applicare imp
 
 6.  Fare clic su **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Non è possibile eliminare il criterio percorso Globale. Se si tenta di eliminare tale criterio, verrà visualizzato un messaggio di avviso e il criterio verrà reimpostato sui relativi valori predefiniti.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Non è possibile eliminare il criterio percorso Globale. Se si tenta di eliminare tale criterio, verrà visualizzato un messaggio di avviso e il criterio verrà reimpostato sui relativi valori predefiniti.
 
 ## Vedere anche
 

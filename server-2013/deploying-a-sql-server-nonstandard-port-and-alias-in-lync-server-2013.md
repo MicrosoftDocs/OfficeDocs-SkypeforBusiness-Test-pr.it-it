@@ -91,19 +91,8 @@ Prima che Lync Server 2013Generatore di topologie possa farvi riferimento, l'ali
     
     ![Reimpostare il servizio SQL Server per l'istanza.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Reimpostare il servizio SQL Server per l'istanza.")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Assicurarsi di aggiornare le impostazioni firewall in funzione della nuova porta di SQL Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Assicurarsi di aggiornare le impostazioni firewall in funzione della nuova porta di SQL Server.
 
 **Creare e configurare un alias di SQL Server**
 
@@ -121,19 +110,8 @@ Prima che Lync Server 2013Generatore di topologie possa farvi riferimento, l'ali
     
     ![Creazione di un nuovo alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Creazione di un nuovo alias")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Attenzione:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Assicurarsi di inserire la stessa porta non standard utilizzata nel passaggio precedente. SQL Server utilizzerà infatti questa porta per creare un'istanza di attesa. Se un alias configurato si connette a un FQDN errato o a un'istanza errata di SQL Server, disabilitare e riabilitare il protocollo di rete associato. In questo modo verranno cancellate tutte le informazioni di connessione memorizzate nella cache e il client potrà connettersi correttamente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!Caution]  
+    > Assicurarsi di inserire la stessa porta non standard utilizzata nel passaggio precedente. SQL Server utilizzerà infatti questa porta per creare un'istanza di attesa. Se un alias configurato si connette a un FQDN errato o a un'istanza errata di SQL Server, disabilitare e riabilitare il protocollo di rete associato. In questo modo verranno cancellate tutte le informazioni di connessione memorizzate nella cache e il client potrà connettersi correttamente.
 
 **Creare un record di risorse CNAME DNS**
 

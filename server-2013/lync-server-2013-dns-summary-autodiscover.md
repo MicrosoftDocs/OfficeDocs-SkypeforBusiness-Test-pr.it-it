@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'individuazione automatica è un servizio flessibile perché accetta la comunicazione tramite HTTP o HTTPS. A questo scopo, è necessario configurare correttamente il DNS (Domain Name System) e i certificati utilizzati dai server che ospitano il servizio di individuazione automatica. I requisiti dei certificati sono illustrati in [Riepilogo certificato - Individuazione automatica](lync-server-2013-certificate-summary-autodiscover.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La logica di ricerca DNS per i client Lync Server utilizza un ordine di risoluzione specifico. È consigliabile includere sempre nel DNS sia lyncdiscoverinternal.&lt;dominio&gt; che lyncdiscover.&lt;dominio&gt;. Se si esclude il record lyncdiscoverinternal.&lt;dominio&gt;, i client interni non saranno in grado di connettersi ai servizi desiderati o riceveranno una risposta errata di individuazione automatica.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La logica di ricerca DNS per i client Lync Server utilizza un ordine di risoluzione specifico. È consigliabile includere sempre nel DNS sia lyncdiscoverinternal.&lt;dominio&gt; che lyncdiscover.&lt;dominio&gt;. Se si esclude il record lyncdiscoverinternal.&lt;dominio&gt;, i client interni non saranno in grado di connettersi ai servizi desiderati o riceveranno una risposta errata di individuazione automatica.
 
 ### Record DNS interni
 

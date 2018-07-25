@@ -15,19 +15,8 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2012-09-21_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se sono state già create aree di rete per il servizio di emergenza (E9-1-1) o per il bypass multimediale, è possibile modificare le aree di rete esistenti aggiungendo impostazioni specifiche del servizio Controllo di ammissione di chiamata utilizzando il cmdlet <strong>Set-CsNetworkRegion</strong>. Per un esempio della modifica di un'area di rete, vedere <a href="lync-server-2013-create-or-modify-a-network-region.md">Creare o modificare un'area di rete in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se sono state già create aree di rete per il servizio di emergenza (E9-1-1) o per il bypass multimediale, è possibile modificare le aree di rete esistenti aggiungendo impostazioni specifiche del servizio Controllo di ammissione di chiamata utilizzando il cmdlet <strong>Set-CsNetworkRegion</strong>. Per un esempio della modifica di un'area di rete, vedere <a href="lync-server-2013-create-or-modify-a-network-region.md">Creare o modificare un'area di rete in Lync Server 2013</a>.
 
 Le *aree di rete* sono hub o backbone di rete che si utilizzano nella configurazione del servizio Controllo di ammissione di chiamata, nel servizio di emergenza (E9-1-1) e nel bypass multimediale. Eseguire la procedura seguente per creare aree di rete allineate a quelle dell'esempio di topologia di rete per il servizio Controllo di ammissione di chiamata. Per visualizzare l'esempio di topologia di rete, vedere [Esempio: raccolta dei requisiti dell'organizzazione per il controllo di ammissione di chiamata in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) nella documentazione relativa alla pianificazione.
 

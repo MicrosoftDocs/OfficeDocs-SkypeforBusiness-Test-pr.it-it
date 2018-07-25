@@ -27,19 +27,8 @@ Per il proxy inverso sono previsti requisiti minimi per il firewall, la porta e 
     
     ![Proxy inverso e servizi Web esterni](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "Proxy inverso e servizi Web esterni")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Attenzione:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Non confondere la porta 4443 su TCP dal proxy inverso alla distribuzione interna con il traffico della porta 4443 su TCP dal server Standard Edition al pool Front End che gestisce il ruolo archivio di gestione centrale.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!Caution]  
+    > Non confondere la porta 4443 su TCP dal proxy inverso alla distribuzione interna con il traffico della porta 4443 su TCP dal server Standard Edition al pool Front End che gestisce il ruolo archivio di gestione centrale.
 
 ## Informazioni dettagliate relative a porta e protocollo
 

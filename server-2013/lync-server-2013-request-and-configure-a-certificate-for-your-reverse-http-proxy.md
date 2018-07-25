@@ -44,19 +44,8 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 <td><p>FQDN del pool</p></td>
 <td><p>webext.contoso.com</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il nome soggetto deve essere presente anche nel nome alternativo soggetto.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il nome soggetto deve essere presente anche nel nome alternativo soggetto.
 </div></td>
 </tr>
 <tr class="odd">
@@ -118,19 +107,8 @@ Le richieste di certificato vengono create nel proxy inverso. La richiesta viene
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si pianificano i certificati del server perimetrale e del proxy inverso contemporaneamente, è importante tenere presente che i requisiti dei due certificati sono molto simili. Quando si configura e si richiede il certificato del server perimetrale, è consigliabile combinare i nomi soggetto alternativi del server perimetrale e del proxy inverso. È possibile usare lo stesso certificato per il proxy inverso se si esporta il certificato e la chiave privata e si copia il file esportato nel proxy inverso, quindi si importa la coppia certificato/chiave e la si assegna in base alle procedure disponibili. Fare riferimento ai requisiti dei certificati per il server perimetrale  <a href="lync-server-2013-plan-for-edge-server-certificates.md">Pianificare i certificati dei server perimetrali in Lync Server 2013</a> e del proxy inverso <a href="lync-server-2013-certificate-summary-reverse-proxy.md">Riepilogo dei certificati - proxy inverso in Lync Server 2013</a>. Assicurarsi di creare il certificato con una chiave privata esportabile. La creazione del certificato e della richiesta di certificato con una chiave privata esportabile è necessaria per i server perimetrali in pool, pertanto si tratta di una procedura normale. La Configurazione guidata certificati dello Distribuzione guidata di Lync Server per il server perimetrale consente di impostare il flag <strong>Consenti esportazione chiave privata</strong> . Una volta che la richiesta di certificato viene restituita dall'autorità di certificazione pubblica, esportare il certificato e la chiave privata. Per informazioni dettagliate su come creare ed esportare il certificato con una chiave privata, vedere la sezione relativa all'esportazione del certificato con la chiave privata per i server perimetrali di un pool nell'articolo <a href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Impostare i certificati per l'interfaccia perimetrale esterna per Lync Server 2013</a>. L'estensione del certificato deve essere di tipo <strong>pfx</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Se si pianificano i certificati del server perimetrale e del proxy inverso contemporaneamente, è importante tenere presente che i requisiti dei due certificati sono molto simili. Quando si configura e si richiede il certificato del server perimetrale, è consigliabile combinare i nomi soggetto alternativi del server perimetrale e del proxy inverso. È possibile usare lo stesso certificato per il proxy inverso se si esporta il certificato e la chiave privata e si copia il file esportato nel proxy inverso, quindi si importa la coppia certificato/chiave e la si assegna in base alle procedure disponibili. Fare riferimento ai requisiti dei certificati per il server perimetrale  <a href="lync-server-2013-plan-for-edge-server-certificates.md">Pianificare i certificati dei server perimetrali in Lync Server 2013</a> e del proxy inverso <a href="lync-server-2013-certificate-summary-reverse-proxy.md">Riepilogo dei certificati - proxy inverso in Lync Server 2013</a>. Assicurarsi di creare il certificato con una chiave privata esportabile. La creazione del certificato e della richiesta di certificato con una chiave privata esportabile è necessaria per i server perimetrali in pool, pertanto si tratta di una procedura normale. La Configurazione guidata certificati dello Distribuzione guidata di Lync Server per il server perimetrale consente di impostare il flag <strong>Consenti esportazione chiave privata</strong> . Una volta che la richiesta di certificato viene restituita dall'autorità di certificazione pubblica, esportare il certificato e la chiave privata. Per informazioni dettagliate su come creare ed esportare il certificato con una chiave privata, vedere la sezione relativa all'esportazione del certificato con la chiave privata per i server perimetrali di un pool nell'articolo <a href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Impostare i certificati per l'interfaccia perimetrale esterna per Lync Server 2013</a>. L'estensione del certificato deve essere di tipo <strong>pfx</strong>.
 
 Per generare una richiesta di firma del certificato nel computer a cui verranno assegnati il certificato e la chiave privata, eseguire le operazioni seguenti:
 
@@ -162,19 +140,8 @@ Per generare una richiesta di firma del certificato nel computer a cui verranno 
 
 13. Nella pagina **Proprietà certificato** fare clic sulla scheda **Chiave privata** . Fare clic sulla freccia **Opzioni chiave** . Per **Dimensioni chiave** selezionare **2048** nell'elenco a discesa. Se si genera questa coppia di chiavi con richiesta di firma del certificato in un computer diverso dal proxy inverso per cui è stato creato il certificato, selezionare **Consenti esportazione chiave privata** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />SicurezzaNota:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La selezione dell'opzione <strong>Consenti esportazione chiave privata</strong> è in genere consigliabile quando si dispone di più proxy inversi in una farm, in quanto il certificato e la chiave privata verranno copiati in ogni computer della farm. Se si consente l'esportazione della chiave privata, è necessario dedicare particolare attenzione al certificato e al computer in cui è stato generato. La chiave privata, se danneggiata, renderà inutile il certificato e potrà esporre il computer o i computer all'accesso esterno e ad altre vulnerabilità della sicurezza.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!security]  
+    > La selezione dell'opzione <strong>Consenti esportazione chiave privata</strong> è in genere consigliabile quando si dispone di più proxy inversi in una farm, in quanto il certificato e la chiave privata verranno copiati in ogni computer della farm. Se si consente l'esportazione della chiave privata, è necessario dedicare particolare attenzione al certificato e al computer in cui è stato generato. La chiave privata, se danneggiata, renderà inutile il certificato e potrà esporre il computer o i computer all'accesso esterno e ad altre vulnerabilità della sicurezza.
 
 14. Nella scheda **Chiave privata** fare clic sulla freccia **Tipo chiave** . Selezionare l'opzione **Exchange** .
 
@@ -190,16 +157,5 @@ Per generare una richiesta di firma del certificato nel computer a cui verranno 
 
 20. Individuare il file della richiesta salvato al passaggio precedente. Inviarlo all'autorità di certificazione pubblica.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft ha identificato le autorità di certificazione pubbliche che soddisfano i requisiti per le comunicazioni unificate. Un elenco è disponibile nell'articolo della Knowledge Base disponibile all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Microsoft ha identificato le autorità di certificazione pubbliche che soddisfano i requisiti per le comunicazioni unificate. Un elenco è disponibile nell'articolo della Knowledge Base disponibile all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>

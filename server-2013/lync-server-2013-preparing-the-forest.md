@@ -19,19 +19,8 @@ Con la preparazione della foresta vengono creati oggetti e impostazioni globali 
 
 Con la preparazione della foresta vengono creati inoltre oggetti contenenti insiemi di proprietà e identificatori di visualizzazione utilizzati da Lync Server 2013. Tali oggetti vengono memorizzati nel contenitore di configurazione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Assicurarsi che le modifiche della preparazione dello schema siano state replicate in tutti i controller di dominio prima di eseguire la procedura di preparazione della foresta. Se la replica non è completa, si verifica un errore.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Assicurarsi che le modifiche della preparazione dello schema siano state replicate in tutti i controller di dominio prima di eseguire la procedura di preparazione della foresta. Se la replica non è completa, si verifica un errore.
 
 Se si esegue una nuova distribuzione di Lync Server, è necessario memorizzare le impostazioni globali nel contenitore di configurazione. Se invece si esegue l'aggiornamento da una versione precedente e si memorizzano ancora le impostazioni globali nel contenitore di sistema, è possibile continuare a utilizzare tale contenitore.
 

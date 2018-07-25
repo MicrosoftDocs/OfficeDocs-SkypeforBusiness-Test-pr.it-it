@@ -21,19 +21,8 @@ La funzionalità per dispositivi mobili introdotta negli aggiornamenti cumulativ
 
 La funzionalità per dispositivi mobili introdotta negli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013 supporta la funzionalità client per dispositivi mobili di Lync 2013. Gli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013 installano l'API Web Unified Communications o UCWA. UCWA è il componente utilizzato per i client di dispositivi mobili di Lync 2013. In Lync Server 2013 viene utilizzato Mcx per i client di Lync 2010 Mobile. Gli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013 introducono UCWA come il nuovo punto di ingresso per i servizi Mobility. Contemporaneamente, Lync Server 2013 implementa il servizio Mobility (Mcx) introdotto negli aggiornamenti cumulativi per Lync Server 2010: novembre 2011 e fornisce il supporto per Lync 2010 Mobile. Quando si distribuiscono gli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013, gli utenti possono utilizzare i dispositivi mobili Apple iOS, Android e Windows Phone supportati per eseguire le attività seguenti:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le funzionalità supportate dal servizio Mobility negli aggiornamenti cumulativi per Lync Server 2010: novembre 2011 sono evidenziate con (Mcx). Tutte le funzionalità elencate sono supportate dall'API UCWA, introdotta negli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Le funzionalità supportate dal servizio Mobility negli aggiornamenti cumulativi per Lync Server 2010: novembre 2011 sono evidenziate con (Mcx). Tutte le funzionalità elencate sono supportate dall'API UCWA, introdotta negli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013.
 
   - Invio e ricezione di messaggi istantanei (Mcx)
 
@@ -63,19 +52,8 @@ La funzionalità per dispositivi mobili introdotta negli aggiornamenti cumulativ
 
 Gli utenti di Apple iPad avranno accesso a funzionalità avanzate. Quando si partecipa a una riunione utilizzando la richiamata audio, un utente di iPad sarà in grado di visualizzare presentazioni di Microsoft PowerPoint caricate in una riunione, condividere applicazioni e desktop, visualizzare l'elenco dei partecipanti alla riunione e ricevere notifiche di altri tipi di contenuti condivisi all'interno della riunione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Con il numero unico, un utente riceve sul telefono cellulare le chiamate effettuate al suo numero dell'ufficio. Con la chiamata tramite ufficio, l'utente effettua una chiamata in uscita dal client di Lync Mobile utilizzando il numero di un telefono di lavoro anziché il numero del cellulare. Con la chiamata in uscita il client invia una richiesta a Mcx o UCWA (in base alla versione di Lync Mobile) per effettuare la chiamata per suo conto. Il server perciò avvia la chiamata e quindi richiama l'utente sul cellulare. Quando l'utente risponde, il server completa la chiamata componendo il numero dell'altra parte. Mediante la chiamata tramite ufficio, gli utenti possono mantenere la loro identità di lavoro durante una chiamata, pertanto il destinatario non vedrà il numero di cellulare del chiamante e a quest'ultimo non verranno addebitati i costi della chiamata in uscita.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Con il numero unico, un utente riceve sul telefono cellulare le chiamate effettuate al suo numero dell'ufficio. Con la chiamata tramite ufficio, l'utente effettua una chiamata in uscita dal client di Lync Mobile utilizzando il numero di un telefono di lavoro anziché il numero del cellulare. Con la chiamata in uscita il client invia una richiesta a Mcx o UCWA (in base alla versione di Lync Mobile) per effettuare la chiamata per suo conto. Il server perciò avvia la chiamata e quindi richiama l'utente sul cellulare. Quando l'utente risponde, il server completa la chiamata componendo il numero dell'altra parte. Mediante la chiamata tramite ufficio, gli utenti possono mantenere la loro identità di lavoro durante una chiamata, pertanto il destinatario non vedrà il numero di cellulare del chiamante e a quest'ultimo non verranno addebitati i costi della chiamata in uscita.
 
 
 > [!NOTE]
@@ -85,19 +63,8 @@ Gli utenti di Apple iPad avranno accesso a funzionalità avanzate. Quando si par
 
 Quando si utilizza la funzione di individuazione automatica di Lync Server 2013, le applicazioni per dispositivi mobili sono in grado di individuare automaticamente i servizi Web di Lync Server 2013 senza che gli utenti debbano immettere manualmente gli URL nelle impostazioni del dispositivo. Tale immissione manuale degli URL è comunque supportata, principalmente per la risoluzione dei problemi.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Mcx e UCWA sono servizi complementari ed entrambi vengono distribuiti per supportare i client di Lync 2010 Mobile e Lync 2013 Mobile. Lync 2013 Mobile non potrà accedere alle distribuzioni di Lync Server 2010. Lync 2010 Mobile e Lync 2013 Mobile saranno in grado di utilizzare una distribuzione di Lync Server 2013 se vengono applicati gli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Mcx e UCWA sono servizi complementari ed entrambi vengono distribuiti per supportare i client di Lync 2010 Mobile e Lync 2013 Mobile. Lync 2013 Mobile non potrà accedere alle distribuzioni di Lync Server 2010. Lync 2010 Mobile e Lync 2013 Mobile saranno in grado di utilizzare una distribuzione di Lync Server 2013 se vengono applicati gli aggiornamenti cumulativi per Lync Server 2013: febbraio 2013.
 
 La funzionalità per dispositivi mobili inoltre supporta le *notifiche Push* per i dispositivi mobili che non supportano le applicazioni eseguite in background. Una notifica Push è una notifica inviata a un dispositivo mobile relativamente a un evento che si verifica mentre un'applicazione per dispositivi mobili non è attiva. Una notifica Push ad esempio può essere inviata per eventi quali inviti di messaggistica istantanea non letti.
 

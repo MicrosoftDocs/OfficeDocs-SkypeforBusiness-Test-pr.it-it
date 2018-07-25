@@ -67,19 +67,8 @@ Quando si esegue il ripristino creando un nuovo pool con un FQDN diverso, è nec
 
 È possibile trasferire queste impostazioni a livello di applicazione da un pool a un altro utilizzando il cmdlet **Import-CsRgsConfiguration** con parametro –ReplaceExistingSettings. L'operazione tuttavia sostituisce le impostazioni nel pool di destinazione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il vincolo sul trasferimento di impostazioni a un altro pool è valido solo per le impostazioni a livello di applicazione e per il file audio della musica di attesa predefinita. Non si applica a gruppi di agenti, code, flussi di lavoro, orario di ufficio e set di festività.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il vincolo sul trasferimento di impostazioni a un altro pool è valido solo per le impostazioni a livello di applicazione e per il file audio della musica di attesa predefinita. Non si applica a gruppi di agenti, code, flussi di lavoro, orario di ufficio e set di festività.
 
 Se non si desidera sostituire le impostazioni a livello di applicazione nel pool di backup in caso di emergenza e il pool principale non può essere ripristinato, le impostazioni a livello di applicazione nel pool principale saranno perse. Se durante il ripristino è necessario creare un nuovo pool in sostituzione del pool principale con lo stesso FQDN o un FQDN diverso, non è possibile ripristinare le impostazioni a livello di applicazione originali. In questo caso, è necessario configurare il nuovo pool con queste impostazioni e includere il file audio di musica di attesa.
 
@@ -128,54 +117,21 @@ Per informazioni dettagliate sull'esecuzione di questi passaggi, vedere [Procedu
 <td><p>Dopo l'importazione</p></td>
 <td><p>Eseguire i cmdlet Response Group con il parametro –ShowAll, se si desidera visualizzare tutti i Response Group, o con il parametro –Owner, se si desidera visualizzare solo i Response Group importati, per verificare che tutte le configurazioni dei Response Group siano state importate nel pool di backup.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Senza il parametro –ShowAll o –Owner, i Response Group importati nel pool di backup non saranno elencati nei risultati restituiti dai cmdlet.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Senza il parametro –ShowAll o –Owner, i Response Group importati nel pool di backup non saranno elencati nei risultati restituiti dai cmdlet.
 </div>
-<p>Eseguire i seguenti cmdlet:</p>
-<ul>
-<li><p><strong>Get-CsRgsWorkflow</strong></p></li>
-<li><p><strong>Get-CsRgsQueue</strong></p></li>
-<li><p><strong>Get-CsRgsAgentGroup</strong></p></li>
-<li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li>
-<li><p><strong>Get-CsRgsHolidaySet</strong></p></li>
-</ul></td>
+<p>Eseguire i seguenti cmdlet:</p><ul><li><p><strong>Get-CsRgsWorkflow</strong></p></li><li><p><strong>Get-CsRgsQueue</strong></p></li><li><p><strong>Get-CsRgsAgentGroup</strong></p></li><li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li><li><p><strong>Get-CsRgsHolidaySet</strong></p></li></ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
 </tr>
 <tr class="even">
 <td><p>Dopo il failover</p></td>
-<td><ul>
-<li><p>Effettuare una chiamata di prova a un Response Group importato nel pool di backup e verificare che sia gestita correttamente.</p></li>
-<li><p>Tutti gli agenti formali devono effettuare di nuovo l'accesso ai propri gruppi formali nel pool di backup.</p></li>
-<li><p>Gestire le modifiche di configurazione:</p>
+<td><ul><li><p>Effettuare una chiamata di prova a un Response Group importato nel pool di backup e verificare che sia gestita correttamente.</p></li><li><p>Tutti gli agenti formali devono effettuare di nuovo l'accesso ai propri gruppi formali nel pool di backup.</p></li><li><p>Gestire le modifiche di configurazione:</p>
 <p>I Response Group contenuti nel pool di backup possono essere modificati come al solito durante l'interruzione, a prescindere se siano importati o di proprietà nel pool di backup.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Utilizzare Lync Server Management Shell per gestire i Response Group importati nel pool di backup. Non è possibile utilizzare Pannello di controllo di Lync Server per gestire questi Response Group mentre si trovano nel pool di backup.</td>
-</tr>
-</tbody>
-</table>
-
-</div></li>
-</ul></td>
+> [!important]  
+> Utilizzare Lync Server Management Shell per gestire i Response Group importati nel pool di backup. Non è possibile utilizzare Pannello di controllo di Lync Server per gestire questi Response Group mentre si trovano nel pool di backup.
+</div></li></ul></td>
 <td><p>N/D</p></td>
 </tr>
 <tr class="odd">
@@ -186,26 +142,14 @@ Per informazioni dettagliate sull'esecuzione di questi passaggi, vedere [Procedu
 </tr>
 <tr class="even">
 <td><p>Dopo il failback</p></td>
-<td><ul>
-<li><p>Eseguire il cmdlet <strong>Import-CsRgsConfiguration</strong> per importare di nuovo i Response Group nel pool principale.</p>
+<td><ul><li><p>Eseguire il cmdlet <strong>Import-CsRgsConfiguration</strong> per importare di nuovo i Response Group nel pool principale.</p>
 <div class="alert">
 
 > [!NOTE]
 > Se il pool principale non è ripristinabile e in sostituzione viene distribuito un nuovo pool, utilizzare il parametro –ReplaceExistingSettings per trasferire le impostazione a livello di applicazione dal pool di backup al nuovo pool. In caso contrario, il nuovo pool utilizzerà le impostazioni predefinite.
 
 
-</div></li>
-<li><p>Eseguire i cmdlet riportati di seguito con il parametro –ShowAll, se si desidera visualizzare tutti i Response Group, o il parametro –Owner, se si desidera visualizzare solo i Response Group importati, per verificare che tutte le configurazioni dei Response Group siano state reimportate correttamente nel pool principale:</p>
-<ul>
-<li><p><strong>Get-CsRgsWorkflow</strong></p></li>
-<li><p><strong>Get-CsRgsQueue</strong></p></li>
-<li><p><strong>Get-CsRgsAgentGroup</strong></p></li>
-<li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li>
-<li><p><strong>Get-CsRgsHolidaySet</strong></p></li>
-</ul></li>
-<li><p>Effettuare una chiamata di prova a un Response Group reimportato nel pool principale e verificare che sia gestita correttamente.</p></li>
-<li><p>Facoltativamente, eseguire il cmdlet <strong>Export-CsRgsConfiguration</strong> nel pool di backup con il parametro –RemoveExportedConfiguration per rimuovere i Response Group di proprietà del pool principale dal pool di backup.</p></li>
-</ul></td>
+</div></li><li><p>Eseguire i cmdlet riportati di seguito con il parametro –ShowAll, se si desidera visualizzare tutti i Response Group, o il parametro –Owner, se si desidera visualizzare solo i Response Group importati, per verificare che tutte le configurazioni dei Response Group siano state reimportate correttamente nel pool principale:</p><ul><li><p><strong>Get-CsRgsWorkflow</strong></p></li><li><p><strong>Get-CsRgsQueue</strong></p></li><li><p><strong>Get-CsRgsAgentGroup</strong></p></li><li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li><li><p><strong>Get-CsRgsHolidaySet</strong></p></li></ul></li><li><p>Effettuare una chiamata di prova a un Response Group reimportato nel pool principale e verificare che sia gestita correttamente.</p></li><li><p>Facoltativamente, eseguire il cmdlet <strong>Export-CsRgsConfiguration</strong> nel pool di backup con il parametro –RemoveExportedConfiguration per rimuovere i Response Group di proprietà del pool principale dal pool di backup.</p></li></ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
 </tr>

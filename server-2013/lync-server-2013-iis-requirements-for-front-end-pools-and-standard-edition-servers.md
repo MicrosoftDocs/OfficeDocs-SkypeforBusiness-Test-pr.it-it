@@ -45,19 +45,8 @@ Inoltre, l'aggiornamento cumulativo di novembre 2011 del programma di installazi
 
 Per Lync Server, è necessario installare i moduli IIS seguenti:
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se l'organizzazione richiede che IIS e tutti i servizi Web vengano posizionati in un'unità diversa da quella di sistema, è possibile cambiare il percorso di installazione dei file di Lync Server nella finestra di dialogo del programma di installazione. Se i file del programma di installazione, incluso OCSCore.msi, vengono installati in questo percorso, anche gli altri file di Lync Server verranno distribuiti in questa unità. Per informazioni dettagliate su come spostare la directory INETPUB distribuita da Server Manager di Windows durante l'installazione di IIS, vedere <a href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se l'organizzazione richiede che IIS e tutti i servizi Web vengano posizionati in un'unità diversa da quella di sistema, è possibile cambiare il percorso di installazione dei file di Lync Server nella finestra di dialogo del programma di installazione. Se i file del programma di installazione, incluso OCSCore.msi, vengono installati in questo percorso, anche gli altri file di Lync Server verranno distribuiti in questa unità. Per informazioni dettagliate su come spostare la directory INETPUB distribuita da Server Manager di Windows durante l'installazione di IIS, vedere <a href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</a>.
 
   - Contenuto statico
 
@@ -179,16 +168,5 @@ Nella tabella seguente vengono elencati gli URI delle directory virtuali per l'a
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />SicurezzaNota:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È necessario utilizzare lo snap-in di amminsitrazione di IIS per assegnare il certificato utilizzato dal server del componente Web IIS.</td>
-</tr>
-</tbody>
-</table>
-
+> [!security]  
+> È necessario utilizzare lo snap-in di amminsitrazione di IIS per assegnare il certificato utilizzato dal server del componente Web IIS.

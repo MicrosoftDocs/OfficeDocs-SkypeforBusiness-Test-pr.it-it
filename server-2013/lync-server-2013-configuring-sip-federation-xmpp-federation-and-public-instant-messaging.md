@@ -25,14 +25,11 @@ La federazione, la connettività per la messaggistica istantanea pubblica e il p
 
 La connettività per la messaggistica istantanea pubblica è un tipo speciale di federazione che consente a un client Lync Server di accedere ai partner di messaggistica istantanea pubblica configurati con Lync 2013. I partner di connettività per la messaggistica istantanea pubblica correnti sono:
 
-  -   
-    America Online
+   America Online  
 
-  -   
-    Windows Live
+   Windows Live  
 
-  -   
-    Yahoo\!
+   Yahoo\!  
 
 Una configurazione di connettività per la messaggistica istantanea pubblica consente agli utenti di Lync di accedere agli utenti di connettività per la messaggistica istantanea pubblica mediante:
 
@@ -56,19 +53,8 @@ La federazione XMPP definisce una distribuzione esterna basata sul protocollo XM
 
   - Creazione di contatti federati XMPP nel client Lync
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La funzionalità XMPP di Lync Server 2013 è testata e supportata da Microsoft per la federazione di messaggistica istantanea con Google Talk. Per altri sistemi XMPP, contattare il fornitore di terze parti per verificare l'eventuale supporto della federazione con Lync Server 2013 e per indicazioni per la distribuzione o la risoluzione dei problemi.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La funzionalità XMPP di Lync Server 2013 è testata e supportata da Microsoft per la federazione di messaggistica istantanea con Google Talk. Per altri sistemi XMPP, contattare il fornitore di terze parti per verificare l'eventuale supporto della federazione con Lync Server 2013 e per indicazioni per la distribuzione o la risoluzione dei problemi.
 
 ## Processo di distribuzione della federazione esterna dei server perimetrali, della connettività per la messaggistica istantanea pubblica e degli utenti XMPP
 
@@ -104,25 +90,14 @@ La federazione XMPP definisce una distribuzione esterna basata sul protocollo XM
 </tr>
 <tr class="even">
 <td><p>Effettuare la preparazione per l'impostazione</p></td>
-<td><ol>
-<li><p>Verificare che vengano soddisfatti i prerequisiti del sistema.</p></li>
-<li><p>Configurare i record DNS interni ed esterni per supportare la connettività per la messaggistica istantanea pubblica, la federazione di Lync e la federazione XMPP</p></li>
-<li><p>Configurare le porte e i protocolli sul firewall per supportare i tipi di federazione da distribuire</p></li>
-<li><p>Ottenere e installare certificati pubblici. Il tempo necessario per ottenere i certificati dipende dall'autorità di certificazione (CA) che emette il certificato. Tale passaggio è facoltativo a questo punto della distribuzione. Se non si esegue questo passaggio in questa fase, sarà necessario eseguirlo durante la configurazione dei server perimetrali. Il servizio del server perimetrale non può essere avviato finché non si ottengono i certificati.</p></li>
-</ol>
+<td><ol><li><p>Verificare che vengano soddisfatti i prerequisiti del sistema.</p></li><li><p>Configurare i record DNS interni ed esterni per supportare la connettività per la messaggistica istantanea pubblica, la federazione di Lync e la federazione XMPP</p></li><li><p>Configurare le porte e i protocolli sul firewall per supportare i tipi di federazione da distribuire</p></li><li><p>Ottenere e installare certificati pubblici. Il tempo necessario per ottenere i certificati dipende dall'autorità di certificazione (CA) che emette il certificato. Tale passaggio è facoltativo a questo punto della distribuzione. Se non si esegue questo passaggio in questa fase, sarà necessario eseguirlo durante la configurazione dei server perimetrali. Il servizio del server perimetrale non può essere avviato finché non si ottengono i certificati.</p></li></ol>
 <p></p></td>
 <td><p>A seconda dell'organizzazione, in quanto questi ruoli in genere sono divisi tra numerosi gruppi di lavoro</p></td>
 <td><p><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Pianificazione per SIP, federazione XMPP e messaggistica istantanea pubblica in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Impostare i server perimetrali per gli scenari di federazione</p></td>
-<td><ol>
-<li><p>Trasportare in ogni server perimetrale il file di configurazione della topologia esportato o consentire il completamento della replica.</p></li>
-<li><p>Eseguire di nuovo la Distribuzione guidata per installare i componenti per il supporto della federazione</p></li>
-<li><p>Configurare i server perimetrali.</p></li>
-<li><p>Richiedere e installare i certificati per ogni server perimetrale.</p></li>
-<li><p>Riavviare i servizi dei server perimetrali.</p></li>
-</ol></td>
+<td><ol><li><p>Trasportare in ogni server perimetrale il file di configurazione della topologia esportato o consentire il completamento della replica.</p></li><li><p>Eseguire di nuovo la Distribuzione guidata per installare i componenti per il supporto della federazione</p></li><li><p>Configurare i server perimetrali.</p></li><li><p>Richiedere e installare i certificati per ogni server perimetrale.</p></li><li><p>Riavviare i servizi dei server perimetrali.</p></li></ol></td>
 <td><p>Gruppo Administrators</p></td>
 <td><p><a href="lync-server-2013-setting-up-lync-federation.md">Configurazione della federazione di Lync in Lync Server 2013</a></p>
 <p><a href="lync-server-2013-setting-up-public-instant-messaging-connectivity.md">Configurazione della connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p>
@@ -130,13 +105,7 @@ La federazione XMPP definisce una distribuzione esterna basata sul protocollo XM
 </tr>
 <tr class="even">
 <td><p>Configurare il supporto per l'accesso degli utenti esterni</p></td>
-<td><ol>
-<li><p>Utilizzare Accesso utenti esterni del Pannello di controllo di Lync Server.</p></li>
-<li><p>Configurare i criteri di accesso esterno per consentire le comunicazioni con gli utenti federati o gli utenti pubblici.</p></li>
-<li><p>Configurare i domini federati SIP per consentire o bloccare i domini</p></li>
-<li><p>Abilitare i provider federati SIP per i provider di connettività per la messaggistica istantanea pubblica.</p></li>
-<li><p>Configurare i partner federati XMPP per ogni dominio XMPP.</p></li>
-</ol></td>
+<td><ol><li><p>Utilizzare Accesso utenti esterni del Pannello di controllo di Lync Server.</p></li><li><p>Configurare i criteri di accesso esterno per consentire le comunicazioni con gli utenti federati o gli utenti pubblici.</p></li><li><p>Configurare i domini federati SIP per consentire o bloccare i domini</p></li><li><p>Abilitare i provider federati SIP per i provider di connettività per la messaggistica istantanea pubblica.</p></li><li><p>Configurare i partner federati XMPP per ogni dominio XMPP.</p></li></ol></td>
 <td><p>Gruppo RTCUniversalServerAdmins o account utente assegnato al ruolo CSAdministrator</p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-external-user-access.md">Configurazione del supporto per l'accesso degli utenti esterni in Lync Server 2013</a></p>
 <p><a href="lync-server-2013-configure-media-encryption-for-public-providers.md">Configurare la crittografia multimediale per i provider pubblici in Lync Server 2013</a></p></td>

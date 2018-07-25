@@ -23,19 +23,8 @@ Utilizzare la procedura seguente per creare o modificare un intervallo di numeri
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>All'intervallo di numeri per la risposta alle chiamate di gruppo deve essere assegnato il tipo GroupPickup. Gli utenti sono abilitati per la risposta alle chiamate di gruppo solo se il numero di gruppo a cui sono assegnati è di tipo GroupPickup.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> All'intervallo di numeri per la risposta alle chiamate di gruppo deve essere assegnato il tipo GroupPickup. Gli utenti sono abilitati per la risposta alle chiamate di gruppo solo se il numero di gruppo a cui sono assegnati è di tipo GroupPickup.
 
 Gli intervalli di numeri per la risposta alle chiamate di gruppo devono rispettare le regole seguenti:
 
@@ -69,19 +58,8 @@ Gli intervalli di numeri per la risposta alle chiamate di gruppo devono rispetta
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Utilizzare questo cmdlet per modificare il tipo assegnato agli intervalli di numeri solo se il tipo inizialmente specificato non è corretto e l'intervallo di numeri non è ancora in uso. Se di cambia il tipo dell'intervallo di numeri da CallPark a GroupPickup o viceversa e l'intervallo di numeri è già in uso, il parcheggio di chiamata o la risposta alle chiamate di gruppo non funzionerà più per tale intervallo. Ad esempio, se si cambia il tipo di un intervallo di numeri da CallPark a GroupPickup, l'applicazione Parcheggio di chiamata non potrà più utilizzare l'intervallo di codici orbit per il parcheggio delle chiamate.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Utilizzare questo cmdlet per modificare il tipo assegnato agli intervalli di numeri solo se il tipo inizialmente specificato non è corretto e l'intervallo di numeri non è ancora in uso. Se di cambia il tipo dell'intervallo di numeri da CallPark a GroupPickup o viceversa e l'intervallo di numeri è già in uso, il parcheggio di chiamata o la risposta alle chiamate di gruppo non funzionerà più per tale intervallo. Ad esempio, se si cambia il tipo di un intervallo di numeri da CallPark a GroupPickup, l'applicazione Parcheggio di chiamata non potrà più utilizzare l'intervallo di codici orbit per il parcheggio delle chiamate.
 
 ## Vedere anche
 

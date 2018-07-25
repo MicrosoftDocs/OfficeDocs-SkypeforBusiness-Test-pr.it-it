@@ -45,19 +45,8 @@ Il 1° luglio 2012 il nuovo certificato verrà configurato come certificato OAut
 
 Se non si desidera utilizzare Windows PowerShell, è possibile utilizzare la console MMC Certificati per esportare un certificato da un Front End Server e quindi importarlo in tutti gli altri Front End Server. Se si sceglie questa soluzione, esportare la chiave privata insieme al certificato.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Attenzione:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>In questo caso, la procedura deve essere eseguita in ogni Front End Server. Se infatti si esportano e si importano certificati procedendo in questo modo, Lync Server 2013 non replicherà il certificato in ogni Front End Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!Caution]  
+> In questo caso, la procedura deve essere eseguita in ogni Front End Server. Se infatti si esportano e si importano certificati procedendo in questo modo, Lync Server 2013 non replicherà il certificato in ogni Front End Server.
 
 Dopo aver importato il certificato in tutti i Front End Server, è possibile assegnarlo utilizzando la Distribuzione guidata di Lync Server anziché Windows PowerShell. Per assegnare un certificato utilizzando la Distribuzione guidata, eseguire le operazioni seguenti in un computer in cui è stata installata la Distribuzione guidata:
 

@@ -41,36 +41,14 @@ _**Ultima modifica dell'argomento:** 2013-02-22_
     
     4.  A seconda della proprietà utente selezionata, immettere il criterio da utilizzare per filtrare i risultati di ricerca digitandolo o facendo clic sulla freccia nell'elenco a discesa.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!tip]  
+        > Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
 
 6.  Fare clic su un utente nei risultati di ricerca, fare clic su **Azione** e quindi fare clic su **Assegna criteri**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si desidera applicare gli stessi criteri di chat persistente a più utenti, selezionare più utenti all'interno dei risultati di ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se si desidera applicare gli stessi criteri di chat persistente a più utenti, selezionare più utenti all'interno dei risultati di ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.
 
 7.  In **Assegna criteri** eseguire una delle operazioni seguenti in **Criteri chat persistente**:
     
@@ -83,19 +61,8 @@ _**Ultima modifica dell'argomento:** 2013-02-22_
     
       - Fare clic sul nome dei criteri di chat persistente per utente precedentemente definiti nella pagina **Criteri chat persistente**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Per decidere quali criteri assegnare, dopo aver selezionato un nome di criteri, fare clic su <strong>Visualizza</strong> per visualizzare i diritti utente e le autorizzazioni definite nei criteri.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!tip]  
+        > Per decidere quali criteri assegnare, dopo aver selezionato un nome di criteri, fare clic su <strong>Visualizza</strong> per visualizzare i diritti utente e le autorizzazioni definite nei criteri.
 
 8.  Al termine, fare clic su **OK**.
 

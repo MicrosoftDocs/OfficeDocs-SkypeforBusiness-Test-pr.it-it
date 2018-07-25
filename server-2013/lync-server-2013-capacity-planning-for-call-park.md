@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 Nella tabella riportata di seguito viene descritto il modello utenti di Parcheggio di chiamata che è possibile utilizzare come base per i requisiti di pianificazione della capacità.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si tenga presente che, per la pianificazione della capacità nelle situazioni di ripristino di emergenza, ciascun pool di una coppia di pool deve essere in grado di gestire carichi di lavoro per i servizi Parcheggio di chiamata in entrambi i pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Si tenga presente che, per la pianificazione della capacità nelle situazioni di ripristino di emergenza, ciascun pool di una coppia di pool deve essere in grado di gestire carichi di lavoro per i servizi Parcheggio di chiamata in entrambi i pool.
 
 ### Modello utente del parcheggio di chiamata
 

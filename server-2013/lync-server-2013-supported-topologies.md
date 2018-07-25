@@ -25,19 +25,8 @@ Caratteristiche di una distribuzione di Lync Server 2013 in locale:
     
       - Pool Enterprise Edition Front End, costituito da uno o più server front-end (in genere almeno due per la scalabilità) e un server back-end separato. Un pool Front End può includere un massimo di dodici server front-end. In presenza di più server front-end è richiesto il bilanciamento del carico. Per il traffico SIP è consigliato il bilanciamento del carico DNS, ma è supportato anche il bilanciamento del carico hardware. Se si usa il bilanciamento del carico DNS per il traffico SIP, è comunque necessario un dispositivo di bilanciamento del carico hardware per il traffico HTTP. È consigliabile usare il mirroring di SQL Server per garantire una disponibilità dei database elevata. Il database back-end richiede un'istanza separata, ma è possibile collocare insieme a esso il database di Archiviazione, il database di Monitoraggio, il database di Chat persistente e il database di Conformità Chat persistente. Lync Server 2013 supporta inoltre l'uso di un cluster condiviso per le condivisioni file della distribuzione. Per informazioni dettagliate sui requisiti di archiviazione dei database, vedere [Supporto per il software di database in Lync Server 2013](lync-server-2013-database-software-support.md). Per informazioni dettagliate sui requisiti di archiviazione dei file, vedere [Supporto dell'archiviazione di file in Lync Server 2013](lync-server-2013-file-storage-support.md).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se si posizionano database di Lync Server, è consigliabile valutare tutti i fattori che possono influire sulla disponibilità e sulle prestazioni. Per verificare le capacità di failover, è consigliabile testare tutti gli scenari di failover.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!important]  
+        > Se si posizionano database di Lync Server, è consigliabile valutare tutti i fattori che possono influire sulla disponibilità e sulle prestazioni. Per verificare le capacità di failover, è consigliabile testare tutti gli scenari di failover.    
       - Server Standard Edition, che include un database di SQL Server Express collocato.
 
   - Nella distribuzione possono inoltre essere presenti uno o più siti di succursale associati a un sito centrale.

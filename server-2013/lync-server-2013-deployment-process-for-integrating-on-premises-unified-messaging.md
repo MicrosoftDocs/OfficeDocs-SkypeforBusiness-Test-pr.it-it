@@ -19,19 +19,8 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 
 ## Processo di integrazione di messaggistica unificata
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È importante rivolgersi agli amministratori di Exchange dell'organizzazione per verificare le attività da eseguire per garantire un'integrazione rapida e corretta.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> È importante rivolgersi agli amministratori di Exchange dell'organizzazione per verificare le attività da eseguire per garantire un'integrazione rapida e corretta.
 
 
 <table>
@@ -51,25 +40,10 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Distribuire uno dei prodotti seguenti:</p>
-<ul>
-<li><p>Microsoft Exchange Server 2007 Service Pack 1 (SP2) o Service Pack più recente</p></li>
-<li><p>Microsoft Exchange Server 2010 o service pack più recente</p></li>
-<li><p>Microsoft Exchange Server 2013</p></li>
-</ul></td>
-<td><p>Se si usa Microsoft Exchange Server 2013, installare i ruoli di Exchange Server seguenti nella stessa foresta di Lync Server 2013 o in una foresta diversa:</p>
-<ul>
-<li><p>Accesso client</p></li>
-<li><p>Cassetta postale</p></li>
-</ul>
+<td><p>Distribuire uno dei prodotti seguenti:</p><ul><li><p>Microsoft Exchange Server 2007 Service Pack 1 (SP2) o Service Pack più recente</p></li><li><p>Microsoft Exchange Server 2010 o service pack più recente</p></li><li><p>Microsoft Exchange Server 2013</p></li></ul></td>
+<td><p>Se si usa Microsoft Exchange Server 2013, installare i ruoli di Exchange Server seguenti nella stessa foresta di Lync Server 2013 o in una foresta diversa:</p><ul><li><p>Accesso client</p></li><li><p>Cassetta postale</p></li></ul>
 <p>Se Microsoft Exchange Server 2013 e Messaggistica unificata di Exchange sono installati in foreste diverse, configurare ogni foresta di Exchange in modo che consideri attendibile la foresta di Lync Server 2013.</p>
-<p>Se si usa Exchange 2010, installare i ruoli di Exchange Server seguenti nella stessa foresta di Lync Server 2013 o in una foresta diversa:</p>
-<ul>
-<li><p>Messaggistica unificata</p></li>
-<li><p>Trasporto Hub</p></li>
-<li><p>Accesso client</p></li>
-<li><p>Cassetta postale</p></li>
-</ul>
+<p>Se si usa Exchange 2010, installare i ruoli di Exchange Server seguenti nella stessa foresta di Lync Server 2013 o in una foresta diversa:</p><ul><li><p>Messaggistica unificata</p></li><li><p>Trasporto Hub</p></li><li><p>Accesso client</p></li><li><p>Cassetta postale</p></li></ul>
 <p>Se Lync Server 2013 e Messaggistica unificata di Exchange sono installati in foreste diverse, configurare ogni foresta di Exchange in modo che consideri attendibile la foresta di Lync Server 2013.</p></td>
 <td><p>Amministratori dell'organizzazione (se è il primo Exchange Server dell'organizzazione)</p>
 <p>-OPPURE-</p>
@@ -136,12 +110,7 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 </tr>
 <tr class="odd">
 <td><p>Eseguire lo script exchucutil.ps1.</p></td>
-<td><p>Sul server che esegue i servizi di Messaggistica unificata di Exchange, aprire Exchange Management Shell ed eseguire lo script exchucutil.ps1 che esegue le operazioni seguenti:</p>
-<ul>
-<li><p>Concede a Lync Server 2013 l'autorizzazione per leggere gli oggetti Servizi di dominio Active Directory di Messaggistica unificata di Exchange, in modo particolare i dial plan SIP creati nell'attività precedente.</p></li>
-<li><p>Crea un oggetto gateway IP di messaggistica unificata in Active Directory per ogni pool Enterprise Edition di Lync Server 2013 o server Standard Edition che ospita gli utenti abilitati per VoIP aziendale.</p></li>
-<li><p>Crea un gruppo di risposta di Messaggistica unificata di Exchange per ogni gateway. L'identificatore pilota del gruppo di risposta sarà il nome del dial plan associato al gateway corrispondente. Deve esistere un mapping uno a uno in caso di più dial plan.</p></li>
-</ul></td>
+<td><p>Sul server che esegue i servizi di Messaggistica unificata di Exchange, aprire Exchange Management Shell ed eseguire lo script exchucutil.ps1 che esegue le operazioni seguenti:</p><ul><li><p>Concede a Lync Server 2013 l'autorizzazione per leggere gli oggetti Servizi di dominio Active Directory di Messaggistica unificata di Exchange, in modo particolare i dial plan SIP creati nell'attività precedente.</p></li><li><p>Crea un oggetto gateway IP di messaggistica unificata in Active Directory per ogni pool Enterprise Edition di Lync Server 2013 o server Standard Edition che ospita gli utenti abilitati per VoIP aziendale.</p></li><li><p>Crea un gruppo di risposta di Messaggistica unificata di Exchange per ogni gateway. L'identificatore pilota del gruppo di risposta sarà il nome del dial plan associato al gateway corrispondente. Deve esistere un mapping uno a uno in caso di più dial plan.</p></li></ul></td>
 <td><p>Amministratore dell'organizzazione di Exchange</p>
 <p>Amministratore destinatari di Exchange</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Configurare la messaggistica unificata in Microsoft Exchange per Lync Server 2013</a></p></td>
@@ -169,27 +138,12 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 </tr>
 <tr class="odd">
 <td><p>Eseguire lo strumento di integrazione di Messaggistica unificata di Exchange.</p></td>
-<td><p>In Lync Server 2013 eseguire <strong>ocsumutil.exe</strong>, che esegue le operazioni seguenti:</p>
-<ul>
-<li><p>Crea oggetti contatto Accesso sottoscrittore e Operatore automatico.</p></li>
-<li><p>Verifica l'esistenza di un dial plan VoIP aziendale con un nome corrispondente all'FQDN del dial plan di messaggistica unificata di Exchange. Se si esegue Exchange 2010 SP1 o Service Pack più recente, i nomi dei dial plan non devono necessariamente corrispondere ed è possibile ignorare il relativo avviso generato dallo strumento.</p></li>
-</ul>
+<td><p>In Lync Server 2013 eseguire <strong>ocsumutil.exe</strong>, che esegue le operazioni seguenti:</p><ul><li><p>Crea oggetti contatto Accesso sottoscrittore e Operatore automatico.</p></li><li><p>Verifica l'esistenza di un dial plan VoIP aziendale con un nome corrispondente all'FQDN del dial plan di messaggistica unificata di Exchange. Se si esegue Exchange 2010 SP1 o Service Pack più recente, i nomi dei dial plan non devono necessariamente corrispondere ed è possibile ignorare il relativo avviso generato dallo strumento.</p></li></ul>
 <p>Questo strumento funziona analizzando le impostazioni di Active Directory per la messaggistica unificata di Exchange e consentendo all'amministratore di Lync Server 2013 di visualizzare, creare e modificare gli oggetti contatto.</p></td>
 <td><p>RTCUniversalServerAdmins <em>e</em> TCUniversalUserAdmins</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per eseguire correttamente ocsumutil.exe, l'utente deve appartenere a entrambi i gruppi.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Per eseguire correttamente ocsumutil.exe, l'utente deve appartenere a entrambi i gruppi.
 </div>
 <div class="alert">
 
@@ -202,22 +156,12 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 </tr>
 <tr class="even">
 <td><p>Se necessario, eseguire altre operazioni di configurazione di VoIP aziendale.</p></td>
-<td><p>Se le impostazioni di VoIP aziendale non sono state già configurate per i server o gli utenti, eseguire una o più delle operazioni seguenti:</p>
-<ul>
-<li><p>Distribuire e configurare</p>
-<p>i gateway PSTN (Public Switched Telephone Network) e i Mediation Server</p></li>
-<li><p>Definire criteri vocali, record di utilizzo PSTN e route di chiamate in uscita.</p></li>
-<li><p>Abilitare gli utenti per VoIP aziendale.</p></li>
-<li><p>Facoltativamente, configurare utenti specifici con i dial plan.</p></li>
-</ul>
+<td><p>Se le impostazioni di VoIP aziendale non sono state già configurate per i server o gli utenti, eseguire una o più delle operazioni seguenti:</p><ul><li><p>Distribuire e configurare</p>
+<p>i gateway PSTN (Public Switched Telephone Network) e i Mediation Server</p></li><li><p>Definire criteri vocali, record di utilizzo PSTN e route di chiamate in uscita.</p></li><li><p>Abilitare gli utenti per VoIP aziendale.</p></li><li><p>Facoltativamente, configurare utenti specifici con i dial plan.</p></li></ul>
 <p>A seconda delle funzionalità di VoIP aziendale abilitate, potrebbero essere necessarie altre operazioni di configurazione.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>RTCUniversalUserAdmins</p></td>
-<td><p>Vedere gli argomenti nelle sezioni seguenti:</p>
-<ul>
-<li><p><a href="lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md">Configurazione di criteri vocali, record di utilizzo PSTN e route vocali in Lync Server 2013</a></p></li>
-<li><p><a href="lync-server-2013-deploying-enterprise-voice.md">Distribuzione di VoIP aziendale in Lync Server 2013</a></p></li>
-</ul></td>
+<td><p>Vedere gli argomenti nelle sezioni seguenti:</p><ul><li><p><a href="lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md">Configurazione di criteri vocali, record di utilizzo PSTN e route vocali in Lync Server 2013</a></p></li><li><p><a href="lync-server-2013-deploying-enterprise-voice.md">Distribuzione di VoIP aziendale in Lync Server 2013</a></p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Abilitare gli utenti VoIP aziendale per Messaggistica unificata di Exchange.</p></td>

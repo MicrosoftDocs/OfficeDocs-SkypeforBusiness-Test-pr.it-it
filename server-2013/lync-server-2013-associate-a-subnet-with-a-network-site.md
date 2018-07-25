@@ -17,27 +17,22 @@ _**Ultima modifica dell'argomento:** 2014-10-20_
 
 Ogni subnet della rete deve essere associata a un sito di rete specifico. Le informazioni della subnet, infatti, vengono utilizzate per determinare il sito di rete in cui si trova un endpoint durante un tentativo di avvio di una nuova sessione. Quando è nota la posizione di ogni parte coinvolta in una sessione, tali informazioni possono essere utilizzate dalle funzionalità di VoIP aziendale avanzate per determinare come gestire la configurazione o il routing delle chiamate.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Alle impostazioni della configurazione di rete è necessario aggiungere tutti gli indirizzi IP pubblici configurati degli Audio/Video Edge Server nella distribuzione. Tali indirizzi IP vengono aggiunti come subnet con una maschera pari a 32. Il sito di rete associato deve corrispondere al sito di rete configurato appropriato. Ad esempio, il NetworkSiteID dell'indirizzo IP pubblico corrispondente all'A/V Edge Server nel sito centrale di Chicago sarà Chicago. Per informazioni dettagliate sugli indirizzi IP pubblici, vedere <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinare i requisiti di porte e firewall A/V esterni per Lync Server 2013</a> nella documentazione relativa alla pianificazione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Alle impostazioni della configurazione di rete è necessario aggiungere tutti gli indirizzi IP pubblici configurati degli Audio/Video Edge Server nella distribuzione. Tali indirizzi IP vengono aggiunti come subnet con una maschera pari a 32. Il sito di rete associato deve corrispondere al sito di rete configurato appropriato. Ad esempio, il NetworkSiteID dell'indirizzo IP pubblico corrispondente all'A/V Edge Server nel sito centrale di Chicago sarà Chicago. Per informazioni dettagliate sugli indirizzi IP pubblici, vedere <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinare i requisiti di porte e firewall A/V esterni per Lync Server 2013</a> nella documentazione relativa alla pianificazione.
 
 
 > [!NOTE]
 > Viene generato un avviso KHI (Key Health Indicator) in cui è riportato un elenco di indirizzi IP presenti all'interno della rete. Tali indirizzi però non sono associati ad alcuna subnet oppure sono inclusi in una subnet, ma quest'ultima non è associata ad alcun sito di rete. Nel corso di un periodo di otto ore questo avviso viene generato solo una volta. Di seguito sono riportate le informazioni rilevanti dell'avviso con un esempio:<BR><STRONG>Origine :</STRONG> Servizio criteri larghezza di banda CS (Core)<BR><STRONG>Numero evento :</STRONG> 36034<BR><STRONG>Livello :</STRONG> 2<BR><STRONG>Descrizione :</STRONG> le subnet per gli indirizzi IP seguenti: &lt;Elenco di indirizzi IP&gt; non sono configurate oppure non sono associate a un sito di rete.<BR><STRONG>Causa :</STRONG> le subnet per gli indirizzi IP corrispondenti non sono presenti nelle impostazioni della configurazione di rete oppure non sono associate a un sito di rete.<BR><STRONG>Soluzione :</STRONG> aggiungere le subnet corrispondenti all'elenco di indirizzi IP nelle impostazioni della configurazione di rete e associare ogni subnet a un sito di rete.<BR>Se, ad esempio, gli indirizzi IP all'interno dell'avviso corrispondono a 10.121.248.226 e 10.121.249.20, tali indirizzi non sono associati ad alcuna subnet oppure la subnet a cui sono associati non appartiene a un sito di rete. Se le subnet corrispondenti agli indirizzi sono 10.121.248.0/24 e 10.121.249.0/24, è possibile risolvere il problema come segue: 
 > <OL>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Verificare che l'indirizzo IP 10.121.248.226 sia associato alla subnet 10.121.248.0/24 e che l'indirizzo IP 10.121.249.20 sia associato alla subnet 10.121.249.0/24.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Verificare che le subnet 10.121.248.0/24 e 10.121.249.0/24 siano associate ognuna a un sito di rete.</P></LI></OL>
 
 
@@ -52,19 +47,8 @@ Per i dettagli sull'utilizzo di subnet di rete, vedere la documentazione di Lync
 
   - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si utilizza un elevato numero di subnet, per associare queste ultime ai siti è consigliabile utilizzare un file con valori delimitati da virgole (CSV). Il file CSV deve contenere le quattro colonne seguenti: <strong>IPAddress</strong>, <strong>mask</strong>, <strong>description</strong> e <strong>NetworkSiteID</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Se si utilizza un elevato numero di subnet, per associare queste ultime ai siti è consigliabile utilizzare un file con valori delimitati da virgole (CSV). Il file CSV deve contenere le quattro colonne seguenti: <strong>IPAddress</strong>, <strong>mask</strong>, <strong>description</strong> e <strong>NetworkSiteID</strong>.
 
 ## Per associare una subnet a un sito di rete utilizzando Management Shell
 

@@ -57,19 +57,8 @@ I certificati per il pool di server Director, il pool Front End e il proxy inver
 
 8.  Se il certificato si trova nel computer in uso, selezionare **Computer locale**. Se il certificato si trova in un altro computer, selezionare **Altro computer**, digitare il nome di dominio completo del computer o fare clic su **Sfoglia**. In **Immettere il nome dell'oggetto da selezionare** digitare il nome del computer. Fare clic su **Controlla nomi**. Dopo la risoluzione, il nome del computer viene sottolineato. Fare clic su **OK** e quindi su **Fine**. Fare clic su **OK** per eseguire il commit della selezione e chiudere la finestra di dialogo **Aggiungi/Rimuovi snap-in**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se il certificato non viene visualizzato nella console, verificare di non avere selezionato Utente o Servizio. È necessario selezionare Computer, altrimenti non sarà possibile individuare il certificato corretto.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se il certificato non viene visualizzato nella console, verificare di non avere selezionato Utente o Servizio. È necessario selezionare Computer, altrimenti non sarà possibile individuare il certificato corretto.
 
 9.  Per visualizzare le proprietà del certificato, espandere **Certificati**, espandere **Personali** e selezionare **Certificati**. Selezionare il certificato da visualizzare, fare clic con il pulsante destro del mouse sul certificato e scegliere **Apri**.
 

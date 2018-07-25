@@ -317,7 +317,7 @@
           - name: 'Riepilogo DNS: SIP, federazione di XMPP e messaggistica istantanea pubblica'
             href: lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md
           - name: Riepilogo di DNS - connettività per messaggistica istantanea pubblica
-            href: 
+            href: this-topic-is-no-longer-available.md
           - name: Riepilogo di DNS - federazione di XMPP (Extensible Messaging and Presence Protocol)
             href: lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
       - name: Requisiti delle porte
@@ -672,7 +672,7 @@
             - name: Riepilogo delle porte - connettività per messaggistica istantanea pubblica
               href: lync-server-2013-port-summary-public-instant-messaging-connectivity.md
             - name: Riepilogo di DNS - connettività per messaggistica istantanea pubblica
-              href: 
+              href: this-topic-is-no-longer-available.md
           - name: Pianificazione per la federazione di XMPP (Extensible Messaging and Presence Protocol) in Lync Server 2013
             href: lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md
             items:
@@ -1280,7 +1280,7 @@
         - name: Windows Update per Lync Server 2013
           href: lync-server-2013-windows-update-for-lync-server.md
         - name: Protecting the Edge Server Against DoS and Password Brute-Force Attacks in Lync Server
-          href: 
+          href: this-topic-is-no-longer-available_1.md
       - name: Distribuzione di una porta e di un alias non standard di SQL Server in Lync Server 2013
         href: deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md
   - name: Distribuzione
@@ -2561,7 +2561,7 @@
     - name: Panoramica delle distribuzioni ibride
       href: lync-server-2013-overview-of-hybrid-deployments.md
     - name: Pianificazione delle distribuzioni ibride
-      href: lync-server-2013-overview-of-hybrid-deployments.md
+      href: this-topic-is-no-longer-available_2.md
       items:
       - name: Pianificazione delle distribuzioni ibride di Lync Server
         href: lync-server-2013-planning-for-hybrid-deployments.md
@@ -4005,7 +4005,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
       - name: Gestione dell'autenticazione da server a server (Oauth) e applicazioni partner in Lync Server 2013
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4844,6 +4844,6 @@
       - name: Modifiche apportate da Grant-CsOUPermission in Lync Server 2013
         href: lync-server-2013-changes-made-by-grant-csoupermission.md
   - name: Lync Server Management Shell
-    href: https://docs.microsoft.com/en-us/powershell/module/skype/
+    href: lync-server-2013-lync-server-management-shell.md
   - name: Glossario
     href: lync-server-2013-glossary.md

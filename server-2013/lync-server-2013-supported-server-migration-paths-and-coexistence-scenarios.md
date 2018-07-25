@@ -29,8 +29,7 @@ La migrazione da un ambiente in cui vengono eseguite entrambe le versioni sopra 
 
 Lync Server 2013 supporta solo il metodo di migrazione seguente:
 
-  -   
-    **Migrazione side-by-side** In questo tipo di migrazione Lync Server 2013 viene distribuito accanto a una distribuzione esistente di Microsoft Lync Server 2010 o di Office Communications Server 2007 R2 e quindi le operazioni vengono trasferite nei nuovi server e gli utenti vengono spostati in Lync Server 2013. Questo metodo richiede l'uso di ulteriori piattaforme server, inclusi hardware e software, durante la migrazione e i nomi dei sistemi e dei pool sono diversi nella nuova configurazione. Se è necessario ripristinare la versione precedente, è possibile spostare di nuovo le operazioni nei server precedenti.
+   **Migrazione side-by-side** In questo tipo di migrazione Lync Server 2013 viene distribuito accanto a una distribuzione esistente di Microsoft Lync Server 2010 o di Office Communications Server 2007 R2 e quindi le operazioni vengono trasferite nei nuovi server e gli utenti vengono spostati in Lync Server 2013. Questo metodo richiede l'uso di ulteriori piattaforme server, inclusi hardware e software, durante la migrazione e i nomi dei sistemi e dei pool sono diversi nella nuova configurazione. Se è necessario ripristinare la versione precedente, è possibile spostare di nuovo le operazioni nei server precedenti.
 
 La migrazione attraverso foreste di Servizi di dominio Active Directory non è supportata.
 

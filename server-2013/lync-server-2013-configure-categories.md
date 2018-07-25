@@ -25,19 +25,8 @@ Le categorie di chat room possono contenere chat room, ma non altre categorie. O
 
 2.  Dal menu **Start** selezionare il Pannello di controllo di Lync Server o aprire una finestra del browser e quindi immettere l'URL di amministrazione. Per informazioni dettagliate sui diversi metodi utilizzabili per avviare il Pannello di controllo di Lync Server, vedere [Aprire gli strumenti di amministrazione di Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È inoltre possibile usare i cmdlet di Windows PowerShell. Per informazioni dettagliate, vedere <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurazione del server Chat persistente tramite i cmdlet di Windows PowerShell</a> nella documentazione relativa alla distribuzione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È inoltre possibile usare i cmdlet di Windows PowerShell. Per informazioni dettagliate, vedere <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurazione del server Chat persistente tramite i cmdlet di Windows PowerShell</a> nella documentazione relativa alla distribuzione.
 
 3.  Nella barra di spostamento sinistra fare clic su **Chat persistente** e quindi su **Categoria** .
     
@@ -57,19 +46,8 @@ Le categorie di chat room possono contenere chat room, ma non altre categorie. O
     
     4.  Per controllare i caricamenti file nelle chat room che appartengono a questa categoria, selezionare o deselezionare la casella di controllo **Abilita caricamento file** . Se selezionata, per le chat di questa categoria è possibile abilitare o disabilitare i caricamenti file. Se deselezionata, per le chat di questa categoria non sono consentiti caricamenti file.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Questa impostazione viene applicata sul server in quanto le applicazioni personalizzate o i client Group Chat precedenti che usano Office Communications Server 2007 R2Group Chat Server o Lync Server 2010, Group Chat possono inviare file a una chat. Il client Lync 2013 non dispone di una funzionalità di caricamento/download dei file. Pertanto, nel caso di una distribuzione di Lync 2013 pura o di un client Lync 2013, non è possibile inviare file a una chat room di server Chat persistente.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!important]  
+        > Questa impostazione viene applicata sul server in quanto le applicazioni personalizzate o i client Group Chat precedenti che usano Office Communications Server 2007 R2Group Chat Server o Lync Server 2010, Group Chat possono inviare file a una chat. Il client Lync 2013 non dispone di una funzionalità di caricamento/download dei file. Pertanto, nel caso di una distribuzione di Lync 2013 pura o di un client Lync 2013, non è possibile inviare file a una chat room di server Chat persistente.    
     5.  Per controllare la cronologia chat, selezionare o deselezionare la casella di controllo **Abilita cronologia chat** . Se selezionata, le chat room diventano permanenti. In caso contrario, i messaggi delle chat non vengono memorizzati. Se è abilitata la conformità, le chat room vengono salvate in conformità, ma gli utenti non potranno accedere ai messaggi più vecchi. Questa opzione può essere usata per le chat progettate per collaborazioni ad hoc in tempo reale che non richiedono la memorizzazione permanente della cronologia chat.
 
 7.  In **Modifica categoria** eseguire le operazioni seguenti:

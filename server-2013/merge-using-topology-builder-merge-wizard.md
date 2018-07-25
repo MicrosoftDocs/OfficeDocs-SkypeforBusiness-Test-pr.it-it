@@ -27,19 +27,8 @@ _**Ultima modifica dell'argomento:** 2012-10-02_
 
 5.  In **Specificare il tipo di server perimetrale** immettere il tipo di configurazione del server perimetrale e quindi fare clic su **Avanti** . In questo esempio viene utilizzata l'opzione **Server perimetrale singolo** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Distribuzione server perimetrale espanso</strong> non è una configurazione supportata. Un <strong>Server perimetrale espanso</strong> deve essere prima convertito in un <strong>Server perimetrale singolo</strong> o in un <strong>Server perimetrale consolidato con carico bilanciato</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > <strong>Distribuzione server perimetrale espanso</strong> non è una configurazione supportata. Un <strong>Server perimetrale espanso</strong> deve essere prima convertito in un <strong>Server perimetrale singolo</strong> o in un <strong>Server perimetrale consolidato con carico bilanciato</strong> .
 
 6.  In **Specificare le impostazioni del perimetro interno** immettere le informazioni necessarie per le porte e l'FQDN interno del pool di server perimetrali e quindi fare clic su **Avanti** .
     
@@ -47,19 +36,8 @@ _**Ultima modifica dell'argomento:** 2012-10-02_
 
 7.  In **Specificare il perimetro esterno** immettere le informazioni relative all'FQDN di Web Conferencing per il server perimetrale.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Prima di fare clic su <strong>Avanti</strong> , eseguire il passaggio successivo di questa procedura. È molto importante non ignorare questo passaggio.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Prima di fare clic su <strong>Avanti</strong> , eseguire il passaggio successivo di questa procedura. È molto importante non ignorare questo passaggio.
 
 8.  Selezionare la casella di controllo **Questo pool di server perimetrali è utilizzato per la federazione e la connettività per messaggistica istantanea pubblica** se si intende utilizzare il server perimetrale Office Communications Server 2007 R2 legacy per la federazione. Se sono distribuiti più server perimetrali, solo uno di essi sarà abilitato per la federazione. Se non si seleziona questa casella di controllo e si decide successivamente di abilitare la federazione, sarà necessario eseguire l'unione guidata di Generatore di topologie e ripubblicare la topologia.
     

@@ -27,19 +27,8 @@ Per informazioni dettagliate, vedere la documentazione di Lync Server Management
 
   - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un criterio intersito di rete è necessario <em>solo</em> se è presente un collegamento incrociato diretto tra due siti di rete.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Un criterio intersito di rete è necessario <em>solo</em> se è presente un collegamento incrociato diretto tra due siti di rete.
 
 Nell'area Nord America della topologia di esempio esiste un collegamento diretto tra i siti Reno e Albuquerque. Questi due siti richiedono un criterio intersito che applica un profilo dei criteri di larghezza di banda appropriato. Nell'esempio seguente viene applicato il profilo 20Mb\_Link.
 

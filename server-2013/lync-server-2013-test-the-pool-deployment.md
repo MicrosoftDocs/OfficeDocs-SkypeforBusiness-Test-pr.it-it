@@ -21,19 +21,8 @@ Nella procedura seguente viene descritto come testare la distribuzione del pool 
 
 1.  Utilizzare Utenti e computer Active Directory per aggiungere l'oggetto utente di Active Directory del ruolo di amministratore per la distribuzione di Lync Server 2013 (in cui è installato il Pannello di controllo di Lync Server 2013) al gruppo **CSAdministrator** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se non si aggiungono gli utenti e i gruppi appropriati al gruppo CsAdministrator, verrà visualizzato un errore all'apertura del Pannello di controllo di Lync Server con il messaggio &quot;Non autorizzato: accesso negato a causa di autorizzazione di controllo di accesso basato su ruoli (RBAC) non riuscita&quot;.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se non si aggiungono gli utenti e i gruppi appropriati al gruppo CsAdministrator, verrà visualizzato un errore all'apertura del Pannello di controllo di Lync Server con il messaggio &quot;Non autorizzato: accesso negato a causa di autorizzazione di controllo di accesso basato su ruoli (RBAC) non riuscita&quot;.
 
 2.  Se l'oggetto utente è connesso, disconnettersi e rieseguire l'accesso per registrare la nuova assegnazione al gruppo.
     

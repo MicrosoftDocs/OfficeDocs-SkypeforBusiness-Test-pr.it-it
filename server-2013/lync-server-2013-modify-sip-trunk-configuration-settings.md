@@ -61,12 +61,7 @@ Quando si modificano le impostazioni di configurazione del trunk SIP attraverso 
 <td><p>Livello di supporto della crittografia</p></td>
 <td><p>SRTPMode</p></td>
 <td><p>Indica il livello di supporto per la protezione del traffico multimediale tra Mediation Server e il gateway PSTN, il sistema IP-PBX o il servizio SBC nel provider dei servizi. Nel caso del bypass multimediale, questo valore deve essere compatibile con l'impostazione di EncryptionLevel nella configurazione degli elementi multimediali. La configurazione degli elementi multimediali viene definita utilizzando i cmdlet <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
-<p>I valori consentiti sono:</p>
-<ul>
-<li><p>Obbligatorio: è necessario utilizzare la crittografia SRTP.</p></li>
-<li><p>Facoltativo: SRTP verrà utilizzato se supportato dal gateway.</p></li>
-<li><p>Non supportato: la crittografia SRTP non è supportata, pertanto non verrà utilizzata.</p></li>
-</ul>
+<p>I valori consentiti sono:</p><ul><li><p>Obbligatorio: è necessario utilizzare la crittografia SRTP.</p></li><li><p>Facoltativo: SRTP verrà utilizzato se supportato dal gateway.</p></li><li><p>Non supportato: la crittografia SRTP non è supportata, pertanto non verrà utilizzata.</p></li></ul>
 <p>SRTPMode viene utilizzato solo se il gateway è configurato per l'uso di TLS (Transport Layer Security). Se il gateway è configurato con il protocollo TCP (Transmission Control Protocol) per il trasporto, SRTPMode viene impostato internamente su NotSupported.</p></td>
 </tr>
 <tr class="odd">

@@ -23,38 +23,27 @@ In questo documento sono disponibili informazioni importanti che è consigliabil
 
 Sezioni del documento:
 
-  -   
-    Client Lync 2013
+   Client Lync 2013
 
-  -   
-    Lync Server
+   Lync Server
 
-  -   
-    Installazione
+   Installazione
 
-  -   
-    Mobilità
+   Mobilità
+  
+   Servizi di conferenza
 
-  -   
-    Servizi di conferenza
+   VoIP aziendale
 
-  -   
-    VoIP aziendale
+   Presenza
 
-  -   
-    Presenza
+   applicazione Response Group, applicazione Parcheggio di chiamata e risposta alle chiamate di gruppo
 
-  -   
-    applicazione Response Group, applicazione Parcheggio di chiamata e risposta alle chiamate di gruppo
+   Pannello di controllo di Lync Server, Generatore di topologie e Strumento di pianificazione
 
-  -   
-    Pannello di controllo di Lync Server, Generatore di topologie e Strumento di pianificazione
+   Localizzazione
 
-  -   
-    Localizzazione
-
-  -   
-    Copyright
+   Copyright
 
 ## Client Lync 2013
 
@@ -90,9 +79,13 @@ Quando si modifica la configurazione degli indirizzi IP per una distribuzione di
 
 Per risolvere questo problema, riavviare i servizi di Lync Server dopo aver apportato modifiche alla configurazione degli indirizzi IP della distribuzione. A tale scopo, eseguire i cmdlet seguenti nella Lync Server Management Shell:
 
-    Stop-CsWindowsService -graceful
+```
+Stop-CsWindowsService -graceful
+```
 
-    Start-CsWindowsService
+```
+Start-CsWindowsService
+```
 
 ## Il cmdlet delle transazioni sintetiche delle conferenze telefoniche con accesso esterno non è più disponibile in Lync Server 2013 Management Pack (3212342)
 
@@ -346,9 +339,12 @@ Per risolvere questo problema, aggiornare il Registro di sistema prima di instal
 
 1.  Avviare Windows PowerShell ed eseguire i cmdlet seguenti:
     
-        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
-        $a="HKU:\.Default\Control Panel\International"
+    ```
+    New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+    ```
+    ```
+    $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Per visualizzare il valore corrente, eseguire il cmdlet seguente:
     
@@ -756,19 +752,8 @@ Il parametro *DropExistingDatabasesOnMirror* determina l'eliminazione dei databa
 
 3.  Pubblicare la topologia.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ogni volta che si apporta una modifica a una relazione di mirroring dei database back-end, è necessario riavviare tutti i Front End Server nel pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Ogni volta che si apporta una modifica a una relazione di mirroring dei database back-end, è necessario riavviare tutti i Front End Server nel pool.
 
 ## Vengono restituiti errori di convalida in Generatore di topologie quando un amministratore tenta di rimuovere una distribuzione con un pool Front End a cui è associato un archivio di controllo (3199266)
 

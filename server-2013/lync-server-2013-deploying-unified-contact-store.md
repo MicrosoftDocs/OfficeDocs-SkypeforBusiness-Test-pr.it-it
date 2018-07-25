@@ -23,19 +23,8 @@ Per l'abilitazione dell'archivio contatti unificato in Lync Server 2013 non sono
 
 Dopo la migrazione dei contatti di un utente, operazione che avviene automaticamente quando un utente esegue l'accesso con Lync 2013, l'utente potrà visualizzare e gestire i contatti di Lync da Lync 2013, Outlook 2013 o Outlook Web Access. Non è necessario che l'utente sia connesso a Lync per gestire i contatti personali da Outlook o Outlook Web Access.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se un utente esegue l'accesso da Lync 2010 dopo la migrazione, i contatti e i gruppi sono disponibili e aggiornati, ma l'utente non potrà gestire tali contatti, ovvero aggiungerli, eliminarli, spostarli, modificarli oppure aggiungere o rimuovere tag.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se un utente esegue l'accesso da Lync 2010 dopo la migrazione, i contatti e i gruppi sono disponibili e aggiornati, ma l'utente non potrà gestire tali contatti, ovvero aggiungerli, eliminarli, spostarli, modificarli oppure aggiungere o rimuovere tag.
 
 ## Argomenti della sezione
 

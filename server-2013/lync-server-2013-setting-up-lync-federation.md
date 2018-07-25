@@ -35,19 +35,8 @@ Se il server o i server perimetrali sono già stati distribuiti, l'aggiunta dell
 
 5.  In Installazione componenti di Lync Server fare clic su Avanti. Nella schermata di riepilogo verranno visualizzate le azioni in esecuzione. Al termine della distribuzione, fare clic su Visualizza log per visualizzare i file di log disponibili. Fare clic su Fine per completare la distribuzione.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È possibile selezionare questa opzione, tuttavia solo un pool di server perimetrali o un server perimetrale dell'organizzazione può essere pubblicato esternamente per la federazione. Tutto l'accesso da parte di utenti federati, inclusi gli utenti di messaggistica istantanea pubblica, passa per lo stesso pool di server perimetrali o server perimetrale singolo. Se, ad esempio, la distribuzione include un pool di server perimetrali o un singolo server perimetrale distribuito a New York e uno distribuito a Londra e si abilita il supporto per la federazione nel pool di server perimetrali o nel server perimetrale di New York, il traffico dei segnali per gli utenti federati passerà per il pool di server perimetrali o il singolo server perimetrale di New York. Ciò vale anche per le comunicazioni con gli utenti di Londra, anche se un utente interno di Londra che chiami un utente federato di Londra utilizzerà il pool o il server perimetrale di Londra per il traffico audio/video.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È possibile selezionare questa opzione, tuttavia solo un pool di server perimetrali o un server perimetrale dell'organizzazione può essere pubblicato esternamente per la federazione. Tutto l'accesso da parte di utenti federati, inclusi gli utenti di messaggistica istantanea pubblica, passa per lo stesso pool di server perimetrali o server perimetrale singolo. Se, ad esempio, la distribuzione include un pool di server perimetrali o un singolo server perimetrale distribuito a New York e uno distribuito a Londra e si abilita il supporto per la federazione nel pool di server perimetrali o nel server perimetrale di New York, il traffico dei segnali per gli utenti federati passerà per il pool di server perimetrali o il singolo server perimetrale di New York. Ciò vale anche per le comunicazioni con gli utenti di Londra, anche se un utente interno di Londra che chiami un utente federato di Londra utilizzerà il pool o il server perimetrale di Londra per il traffico audio/video.
 
 ## Configurazione della federazione con i partner
 
@@ -73,59 +62,55 @@ Se il server o i server perimetrali sono già stati distribuiti, l'aggiunta dell
     <tr class="odd">
     <td><p>Dominio partner individuato</p></td>
     <td><p>Configurare il record SRV di format _sipfederationtls._tcp.&lt;nome dominio esterno&gt;In cui il valore della porta per il record SRV è TCP 5061 e l' <strong>Host che offre questo servizio</strong> è definito come sip. &lt;nome dominio esterno&gt;, ovvero l'FQDN del servizio Access Edge. Vedere <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurare DNS per il supporto dei componenti perimetrali in Lync Server 2013</a> per informazioni dettagliate sulla creazione del record SRV</p></td>
-    <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Abilitare o disabilitare l'individuazione dei partner della federazione in Lync Server 2013</a></p></li>
-    </ul></td>
+    <td><ul>    
+> 
+> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>    
+> 
+> 
+> <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Abilitare o disabilitare l'individuazione dei partner della federazione in Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Nelle versioni precedenti si fa riferimento a questo tipo di federazione come alla <strong>Federazione avanzata aperta</strong>. Questo tipo di federazione richiede la creazione del record SRV e ha lo scopo di consentire agli altri partner di individuare la federazione.</p></td>
     </tr>
     <tr class="even">
     <td><p>Dominio partner consentito</p></td>
     <td><p>Configurare il record SRV di format _sipfederationtls._tcp.&lt;nome dominio esterno&gt;In cui il valore della porta per il record SRV è TCP 5061 e l' <strong>Host che offre questo servizio</strong> è definito come sip. &lt;nome dominio esterno&gt;, ovvero l'FQDN del servizio Access Edge. Vedere <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurare DNS per il supporto dei componenti perimetrali in Lync Server 2013</a> per informazioni dettagliate sulla creazione del record SRV</p></td>
-    <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>
-    </ul></td>
+    <td><ul>    
+> 
+> 
+> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Nelle versioni precedenti si fa riferimento a questo tipo di federazione come alla <strong>Federazione avanzata</strong>. Per questo tipo di federazione la creazione del record SRV è facoltativa e ha lo scopo di consentire agli altri partner di individuare la federazione. Si tratta pertanto di un tipo <strong>Federazione avanzata aperta</strong> o <strong>Dominio partner individuato</strong></p></td>
     </tr>
     <tr class="odd">
     <td><p>Server partner consentito</p></td>
     <td><p>Configurare il nome di dominio SIP e l'FQDN del server perimetrale partner come partner della federazione nei criteri</p></td>
-    <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurare il supporto per i domini esterni consentiti in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configurare il supporto per i domini esterni bloccati in Lync Server 2013</a></p></li>
-    </ul></td>
+    <td><ul>    
+> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>    
+> 
+> <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurare il supporto per i domini esterni consentiti in Lync Server 2013</a></p></li>    
+> 
+> 
+> <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configurare il supporto per i domini esterni bloccati in Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Questo tipo di federazione è la definizione di una relazione uno a uno e non consente l'individuazione di altri partner della federazione. Ogni partner della federazione viene configurato esplicitamente. Nelle versioni precedenti questa funzionalità è denominata <strong>Federazione diretta</strong></p></td>
     </tr>
     <tr class="even">
     <td><p>Provider di hosting e Provider di servizi di messaggistica istantanea pubblici</p></td>
     <td><p>Per questo tipo di federazione non sono definiti requisiti DNS specifici</p></td>
-    <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Creare o modificare provider federati SIP pubblici in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Creare o modificare provider federati SIP ospitati in Lync Server 2013</a></p></li>
-    </ul></td>
+    <td><ul>    
+> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Abilitare o disabilitare la federazione e la connettività per la messaggistica istantanea pubblica in Lync Server 2013</a></p></li>    
+> 
+> <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Creare o modificare provider federati SIP pubblici in Lync Server 2013</a></p></li>    
+> 
+> 
+> <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Creare o modificare provider federati SIP ospitati in Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Questo tipo di federazione definisce servizi e provider di hosting che si desidera configurare per gli utenti. Tra gli usi più comuni è inclusa la configurazione per i provider di servizi di messaggistica istantanea pubblici come Windows Live Messenger, Yahoo! e AOL, nonché provider di hosting come Lync Online e Office 365</p>
     <div class="alert">
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><ul>
-    <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>
-    <li><p>La licenza PIC USL è una licenza di sottoscrizione di tipo mensile per utente, richiesta per la federazione di Lync Server o Office Communications Server con Yahoo! Messenger. La capacità di Microsoft di fornire questo servizio dipende dal supporto offerto da Yahoo! e il contratto sottostante è in fase di chiusura.</p></li>
-    <li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti di tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze per utente/dispositivo in aggiunta alla licenza CAL Standard per Lync. La federazione con Skype verrà aggiunta a questo elenco, consentendo agli utenti di Lync di raggiungere centinaia di milioni di persone tramite messaggistica istantanea e comunicazioni vocali.</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!important]  
+    > <ul>    
+> <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>    
+> 
+> <li><p>La licenza PIC USL è una licenza di sottoscrizione di tipo mensile per utente, richiesta per la federazione di Lync Server o Office Communications Server con Yahoo! Messenger. La capacità di Microsoft di fornire questo servizio dipende dal supporto offerto da Yahoo! e il contratto sottostante è in fase di chiusura.</p></li>    
+> 
+> 
+> <li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti di tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze per utente/dispositivo in aggiunta alla licenza CAL Standard per Lync. La federazione con Skype verrà aggiunta a questo elenco, consentendo agli utenti di Lync di raggiungere centinaia di milioni di persone tramite messaggistica istantanea e comunicazioni vocali.</p></li>    </ul>
 
     </div></td>
     </tr>

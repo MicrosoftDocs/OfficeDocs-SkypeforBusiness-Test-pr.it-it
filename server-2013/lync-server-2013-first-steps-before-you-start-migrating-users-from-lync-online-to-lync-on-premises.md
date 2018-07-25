@@ -25,13 +25,18 @@ Prima di iniziare a spostare gli utenti di Lync Online nell'ambiente locale, ver
     
     Dopo aver installato il modulo, sarà possibile stabilire una sessione remota digitando i seguenti cmdlet in Lync Server Management Shell:
     
-        Import-Module LyncOnlineConnector
-    
-        $cred = Get-Credential
-    
-        $CSSession = New-CsOnlineSession -Credential $cred
-    
-        Import-PSSession $CSSession -AllowClobber
+    ```
+    Import-Module LyncOnlineConnector
+    ```
+    ```
+    $cred = Get-Credential
+    ```
+    ```
+    $CSSession = New-CsOnlineSession -Credential $cred
+    ```
+    ```
+    Import-PSSession $CSSession -AllowClobber
+    ```
     
     Per ulteriori informazioni su come stabilire una sessione remota di PowerShell con Skype for Business online, vedere [Connessione a Lync Online tramite Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     

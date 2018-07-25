@@ -141,35 +141,13 @@ Server peggiori in base alla percentuale di chiamate con qualità insufficiente
 
 Come accennato, vengono visualizzati per impostazione predefinita i totali per la settimana corrente e i valori tendenziali per le sei settimane precedenti. Se si preferisce visualizzare i totali per il mese corrente e i valori tendenziali per i sei mesi precedenti, fare clic sul collegamento **Visualizzazione mensile** nell'angolo in alto a destra del dashboard. Se si decide di visualizzare i totali mensili, il testo del collegamento diventerà **Visualizzazione settimanale** e sarà possibile fare clic su tale collegamento per tornare alla visualizzazione settimanale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il Dashboard di monitoraggio consente esclusivamente di esaminare i totali per la settimana o il mese corrente e i valori tendenziali per le sei settimane o i sei mesi precedenti. Non è possibile modificare queste date e ore. Non è possibile, ad esempio, utilizzare il Dashboard per visualizzare i totali dei rapporti per un periodo di nove mesi.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Il Dashboard di monitoraggio consente esclusivamente di esaminare i totali per la settimana o il mese corrente e i valori tendenziali per le sei settimane o i sei mesi precedenti. Non è possibile modificare queste date e ore. Non è possibile, ad esempio, utilizzare il Dashboard per visualizzare i totali dei rapporti per un periodo di nove mesi.
 
 I valori indicati nelle colonne **Questa settimana**, **Questo mese** o **Oggi** sono collegati a informazioni più dettagliate sull'elemento. Tenere presente che il nome della colonna e i valori visualizzati in tale colonna spesso variano a seconda della metrica scelta e della visualizzazione selezionata, ovvero settimanale o mensile. Se si fa clic sui totali visualizzati per la metrica **Accessi utente univoci**, ad esempio, verrà visualizzato il **Rapporto registrazione utenti** per il periodo di tempo specificato. È possibile tornare al Dashboard di monitoraggio in qualsiasi momento facendo clic su **Dashboard**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È inoltre possibile accedere alla home page dei rapporti di Monitoring Server facendo clic sul collegamento <strong>Rapporti</strong> nell'angolo in alto a destra del Dashboard.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> È inoltre possibile accedere alla home page dei rapporti di Monitoring Server facendo clic sul collegamento <strong>Rapporti</strong> nell'angolo in alto a destra del Dashboard.
 
 Nella colonna **Tendenza** viene visualizzato un semplice grafico a linee che mostra i totali per le sei settimane precedenti (oppure, a seconda della metrica e dell'intervallo di tempo, per i sei giorni o i sei mesi precedenti). Questi semplici grafici a linee visualizzano un punto dati senza etichetta per ogni periodo di tempo, ad esempio un punto dati per ognuna delle sei settimane precedenti. È comunque possibile recuperare i valori effettivi per questi grafici posizionando il puntatore del mouse sul grafico. In questo modo, i valori massimo e minimo nel grafico vengono visualizzati in una descrizione comandi.
 

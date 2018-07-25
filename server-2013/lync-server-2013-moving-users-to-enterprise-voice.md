@@ -85,19 +85,8 @@ Il formato previsto del numero specificato in questo attributo è il seguente:
 
   - Tel:5550100 (per i numeri di interno univoci a livello aziendale)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La normalizzazione eseguita dal servizio Rubrica (ABS) non sostituisce né elimina in altro modo la necessità di normalizzare il numero di telefono primario di ogni utente in Servizi di dominio Active Directory. ABS infatti non dispone dell'accesso a Servizi di dominio Active Directory e pertanto non può copiare i numeri primari nell'attributo <strong>msRTCSIP-line</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > La normalizzazione eseguita dal servizio Rubrica (ABS) non sostituisce né elimina in altro modo la necessità di normalizzare il numero di telefono primario di ogni utente in Servizi di dominio Active Directory. ABS infatti non dispone dell'accesso a Servizi di dominio Active Directory e pertanto non può copiare i numeri primari nell'attributo <strong>msRTCSIP-line</strong>.
 
 ## Passaggio 2. Abilitare gli utenti per VoIP aziendale
 

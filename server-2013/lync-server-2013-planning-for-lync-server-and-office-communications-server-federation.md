@@ -61,19 +61,8 @@ Abilitando la federazione tra Microsoft Lync Server 2013, Lync Server 2010 e Off
       -   
         Per la federazione di partner individuati, in cui i partner possono individuare il server perimetrale, creare un record SRV nel DNS esterno, ad esempio \_sipfederationtls.\_tcp.contoso.com, che punta alla porta 5061 e al record (A) host del server perimetrale.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se si supportano client Microsoft Lync Mobile in Windows Phone o Apple iPhone, iPad o altri dispositivi Apple e si utilizza il servizio notifica Push o il servizio notifica Push, è necessario eseguire la pianificazione di record SRV di tipo _sipfederationtls._tcp. <em>&lt;dominio SIP&gt;</em> per ogni dominio SIP nei client Lync Mobile. In Android e Nokia Symbian Lync Mobile non viene utilizzata la notifica push e non è previsto questo requisito.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!important]  
+        > Se si supportano client Microsoft Lync Mobile in Windows Phone o Apple iPhone, iPad o altri dispositivi Apple e si utilizza il servizio notifica Push o il servizio notifica Push, è necessario eseguire la pianificazione di record SRV di tipo _sipfederationtls._tcp. <em>&lt;dominio SIP&gt;</em> per ogni dominio SIP nei client Lync Mobile. In Android e Nokia Symbian Lync Mobile non viene utilizzata la notifica push e non è previsto questo requisito.
 
   - Configurare criteri di accesso utenti esterni per il supporto dei domini federati.
 
@@ -83,19 +72,8 @@ Le informazioni seguenti consentono di definire i requisiti di certificati, port
 
 La pianificazione dei requisiti di certificati, firewall, porte/protocolli e DNS in genere è un processo semplice se sono stati già pianificati e distribuiti server perimetraliMicrosoft Lync Server 2013. Poiché la federazione è una funzionalità aggiuntiva che utilizza il server perimetrale esistente, i requisiti di pianificazione sono in genere già soddisfatti con la pianificazione e la distribuzione del server perimetrale. È consigliabile utilizzare le tabelle seguenti per verificare che i requisiti vengano soddisfatti e apportare eventuali modifiche a porte/protocolli e DNS in base alle esigenze.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si dispone di un pool di server perimetrali e si attua la federazione con partner Lync Server 2013 o Lync Server 2010, è possibile utilizzare il bilanciamento del carico DNS o dispositivi di bilanciamento del carico hardware sulle interfacce interne ed esterne dei server perimetrali. Se si attua la federazione con Office Communications Server 2007 oppure Office Communications Server 2007 R2, il bilanciamento del carico hardware garantirà il supporto per il failover in caso di errore di un server perimetrale. Office Communications Server 2007 e Office Communications Server 2007 R2 non supportano il bilanciamento del carico DNS. I server perimetrali partner stabiliranno una comunicazione con il primo server perimetrale del pool che risponderà. In caso di errore del server perimetrale, non verrà eseguito automaticamente il failover.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se si dispone di un pool di server perimetrali e si attua la federazione con partner Lync Server 2013 o Lync Server 2010, è possibile utilizzare il bilanciamento del carico DNS o dispositivi di bilanciamento del carico hardware sulle interfacce interne ed esterne dei server perimetrali. Se si attua la federazione con Office Communications Server 2007 oppure Office Communications Server 2007 R2, il bilanciamento del carico hardware garantirà il supporto per il failover in caso di errore di un server perimetrale. Office Communications Server 2007 e Office Communications Server 2007 R2 non supportano il bilanciamento del carico DNS. I server perimetrali partner stabiliranno una comunicazione con il primo server perimetrale del pool che risponderà. In caso di errore del server perimetrale, non verrà eseguito automaticamente il failover.
 
 I requisiti dei certificati in genere vengono soddisfatti mediante la pianificazione di certificati per il server perimetrale selezionato o il piano di server perimetrale in pool.
 

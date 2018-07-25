@@ -60,19 +60,8 @@ In Lync Server 2013 è possibile eseguire l'override della quantità di tempo pr
     
       - **Maschera di composizione di emergenza**   Un numero che si desidera venga convertito nel valore del numero di composizione di emergenza quando viene composto. Ad esempio, se si immette 212 in questo campo mentre nel campo del numero di composizione di emergenza il valore è 911, quando un utente compone 212, la chiamata viene comunque effettuata al 911. In questo modo viene consentita la composizione di numeri di emergenza alternativi per raggiungere comunque i servizi di emergenza (ad esempio, se una persona proveniente da un altro paese con un diverso numero di emergenza tenta di comporre il numero di quel paese anziché il numero del paese in cui si trova attualmente). È possibile definire più maschere di composizione del numero di emergenza separando i valori con un punto e virgola, ad esempio 212;414. La lunghezza massima della stringa è 100 caratteri. Ogni carattere deve essere una cifra compresa tra 0 e 9.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Accertarsi che il valore specificato come maschera di composizione non corrisponda a un numero dell'intervallo di codici orbit del parcheggio di chiamata. L'instradamento del parcheggio di chiamata avrà infatti la precedenza sulla conversione delle stringhe di composizione per le chiamate di emergenza. Per visualizzare gli intervalli di codici orbit del parcheggio di chiamata esistenti, fare clic su <strong>Funzionalità vocali</strong> nella barra di spostamento sinistra e quindi fare clic su <strong>Parcheggio di chiamata</strong>. Per informazioni dettagliate, vedere <a href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">Configurare le estensioni del numeri di telefono per il parcheggio chiamata</a>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!important]  
+        > Accertarsi che il valore specificato come maschera di composizione non corrisponda a un numero dell'intervallo di codici orbit del parcheggio di chiamata. L'instradamento del parcheggio di chiamata avrà infatti la precedenza sulla conversione delle stringhe di composizione per le chiamate di emergenza. Per visualizzare gli intervalli di codici orbit del parcheggio di chiamata esistenti, fare clic su <strong>Funzionalità vocali</strong> nella barra di spostamento sinistra e quindi fare clic su <strong>Parcheggio di chiamata</strong>. Per informazioni dettagliate, vedere <a href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">Configurare le estensioni del numeri di telefono per il parcheggio chiamata</a>.    
       - **URI notifica**   Uno o più URI (Uniform Resource Identifier) SIP a cui inviare una notifica quando viene effettuata una chiamata di emergenza. Ad esempio, l'ufficio che si occupa della sicurezza aziendale potrebbe ricevere una notifica tramite messaggio istantaneo ogni volta che viene effettuata una chiamata di emergenza. Se la posizione del chiamante è disponibile, verrà inclusa nella notifica. Per includere più URI SIP, utilizzare un elenco separato da virgole, ad esempio "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". Le liste di distribuzione non sono supportate. La stringa deve avere una lunghezza compresa tra 1 e 256 caratteri e deve iniziare con il prefisso "sip:". Prima di fare clic nel campo URI notifica, viene visualizzato un esempio.
     
       - **URI conferenza**   L'URI SIP, in questo caso il numero di telefono, di terze persone che parteciperanno alle chiamate di emergenza effettuate. Ad esempio, l'ufficio che si occupa della sicurezza aziendale potrebbe ricevere una chiamata quando viene effettuata una chiamata di emergenza e ascoltare o partecipare alla chiamata (in base al valore specificato nel campo **Modalità conferenza**). La stringa deve avere una lunghezza compresa tra 1 e 256 caratteri e deve iniziare con il prefisso sip:. Finché non si fa clic in questo campo, viene visualizzato un esempio.
@@ -85,20 +74,8 @@ In Lync Server 2013 è possibile eseguire l'override della quantità di tempo pr
 
 6.  Fare clic su **Commit**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Quando si crea un criterio utente, inizialmente tale criterio non viene applicato ad alcun utente o sito di rete. Per applicare il criterio a un utente, fare clic su <strong>Utenti</strong> sulla barra di spostamento sinistra, individuare l'utente a cui applicare il criterio, scegliere <strong>Mostra dettagli</strong> dal menu <strong>Modifica</strong> e nella pagina <strong>Modifica utente di Lync Server</strong> selezionare il nuovo criterio percorso nell'elenco a discesa <strong>Criteri percorso</strong>, quindi fare clic su <strong>Commit</strong>.<br />
-    Per applicare il criterio a un sito di rete, fare clic su <strong>Configurazione di rete</strong> sulla barra di spostamento sinistra, fare clic su <strong>Sito</strong>, individuare il sito di rete a cui applicare il criterio, scegliere <strong>Mostra dettagli</strong> dal menu <strong>Modifica</strong> e in <strong>Modifica sito</strong> selezionare il nuovo criterio percorso nell'elenco a discesa <strong>Criteri percorso</strong>, quindi fare clic su <strong>Commit</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Quando si crea un criterio utente, inizialmente tale criterio non viene applicato ad alcun utente o sito di rete. Per applicare il criterio a un utente, fare clic su <strong>Utenti</strong> sulla barra di spostamento sinistra, individuare l'utente a cui applicare il criterio, scegliere <strong>Mostra dettagli</strong> dal menu <strong>Modifica</strong> e nella pagina <strong>Modifica utente di Lync Server</strong> selezionare il nuovo criterio percorso nell'elenco a discesa <strong>Criteri percorso</strong>, quindi fare clic su <strong>Commit</strong>.<br />    Per applicare il criterio a un sito di rete, fare clic su <strong>Configurazione di rete</strong> sulla barra di spostamento sinistra, fare clic su <strong>Sito</strong>, individuare il sito di rete a cui applicare il criterio, scegliere <strong>Mostra dettagli</strong> dal menu <strong>Modifica</strong> e in <strong>Modifica sito</strong> selezionare il nuovo criterio percorso nell'elenco a discesa <strong>Criteri percorso</strong>, quindi fare clic su <strong>Commit</strong>.
 
 ## Per modificare un criterio percorso in Pannello di controllo di Lync Server
 

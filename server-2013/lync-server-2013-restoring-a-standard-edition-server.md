@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2013-02-21_
 
 In caso di errore di un server Standard Edition che non ospita archivio di gestione centrale, seguire le procedure riportate in questa sezione. In caso di errore dell'archivio di gestione centrale, vedere [Ripristino del server che ospita l'archivio di gestione centrale](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È consigliabile creare una copia dell'immagine del sistema prima di avviare il ripristino. È possibile utilizzare questa immagine come punto di rollback, in caso di problemi durante il ripristino. Potrebbe essere utile creare la copia dell'immagine dopo avere installato il sistema operativo e SQL Server, quindi ripristinare o registrare nuovamente i certificati.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> È consigliabile creare una copia dell'immagine del sistema prima di avviare il ripristino. È possibile utilizzare questa immagine come punto di rollback, in caso di problemi durante il ripristino. Potrebbe essere utile creare la copia dell'immagine dopo avere installato il sistema operativo e SQL Server, quindi ripristinare o registrare nuovamente i certificati.
 
 ## Per ripristinare un server Standard Edition
 
@@ -45,19 +34,8 @@ In caso di errore di un server Standard Edition che non ospita archivio di gesti
 
 3.  Ripristinare l'Archivio file copiando l'Archivio file appropriato da $Backup nella posizione dell'Archivio file sul server e condividere la cartella.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il nome del percorso e del file dell'Archivio file ripristinato devono essere identici a quelli dell'Archivio file di cui è stato eseguito il backup in modo che i componenti che utilizzano i file possano accedervi.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Il nome del percorso e del file dell'Archivio file ripristinato devono essere identici a quelli dell'Archivio file di cui è stato eseguito il backup in modo che i componenti che utilizzano i file possano accedervi.
 
 4.  Eseguire Generatore di topologie:
     

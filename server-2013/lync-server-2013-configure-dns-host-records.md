@@ -29,19 +29,8 @@ Per eseguire correttamente questa procedura, è necessario connettersi al server
 
 5.  Fare clic su **Indirizzo IP** e digitare l'IP virtuale (VIP) del servizio di bilanciamento del carico per il pool Front End.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nelle distribuzioni in cui viene utilizzato un pool di server Director, i record host (A) per gli URL semplici devono puntare al VIP del servizio di bilanciamento del carico dei server Director.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > Nelle distribuzioni in cui viene utilizzato un pool di server Director, i record host (A) per gli URL semplici devono puntare al VIP del servizio di bilanciamento del carico dei server Director.    
 
     > [!NOTE]
     > Se si distribuisce solo un Server Enterprise o un server Director connesso alla topologia senza un servizio di bilanciamento del carico o si distribuisce un server Standard Edition, digitare l'indirizzo IP del Server Enterprise, del server Standard Edition o del server Director. Un servizio di bilanciamento del carico è necessario se si distribuiscono più Server Enterprise o server Director in un pool. I servizi di bilanciamento del carico non vengono utilizzati con server Standard Edition.

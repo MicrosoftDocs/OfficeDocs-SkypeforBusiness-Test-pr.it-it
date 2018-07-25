@@ -19,19 +19,8 @@ Per gestire le impostazioni utente e i criteri per gli utenti di cui è stata es
 
 ## Rispostamento degli utenti in locale
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le informazioni contenute in questa sezione sono applicabili solo agli utenti creati e abilitati per Lync in locale e in seguito spostati da una distribuzione in locale a Lync Online. Se si desidera spostare gli utenti creati in Lync Online (e mai abilitati per Lync in una distribuzione in locale) vedere, <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Spostare gli utenti da Lync Online a Lync in locale in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Le informazioni contenute in questa sezione sono applicabili solo agli utenti creati e abilitati per Lync in locale e in seguito spostati da una distribuzione in locale a Lync Online. Se si desidera spostare gli utenti creati in Lync Online (e mai abilitati per Lync in una distribuzione in locale) vedere, <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Spostare gli utenti da Lync Online a Lync in locale in Lync Server 2013</a>.
 
   - Eseguire i seguenti cmdlet per rispostare un utente da Lync Online a Lync in locale:
     

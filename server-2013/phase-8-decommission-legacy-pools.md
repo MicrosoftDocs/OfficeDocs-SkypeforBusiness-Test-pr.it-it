@@ -19,19 +19,8 @@ L'argomento seguente contiene informazioni relative all'aggiornamento delle voci
 
 Per una copertura esaustiva della rimozione di server e ruoli server di Lync Server 2010 e una guida dettagliata alla rimozione di una distribuzione di Lync Server 2010, vedere l'articolo relativo alla disinstallazione di Microsoft Lync Server 2010 e alla rimozione dei ruoli server scaricabile all'indirizzo [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per informazioni sulla migrazione e l'aggiornamento delle applicazioni Microsoft Unified Communications Managed API (UCMA), prima della rimozione delle autorizzazione dell'ambiente legacy, vedere <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Per informazioni sulla migrazione e l'aggiornamento delle applicazioni Microsoft Unified Communications Managed API (UCMA), prima della rimozione delle autorizzazione dell'ambiente legacy, vedere <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 ## Argomenti della sezione
 

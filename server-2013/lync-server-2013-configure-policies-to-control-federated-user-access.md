@@ -69,19 +69,8 @@ Se si tratta di criteri utente è inoltre necessario applicarli agli utenti ai q
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Per il parametro “EnablePublicCloudAudioVideoAccess” non esiste un'opzione corrispondente nel Pannello di controllo di Lync Server</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Per il parametro “EnablePublicCloudAudioVideoAccess” non esiste un'opzione corrispondente nel Pannello di controllo di Lync Server
 
 ## Per creare nuovi criteri mediante Windows PowerShell e supportare l'accesso da parte di utenti di domini federati
 

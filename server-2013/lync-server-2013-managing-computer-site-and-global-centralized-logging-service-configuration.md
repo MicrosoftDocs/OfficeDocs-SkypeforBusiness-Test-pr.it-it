@@ -33,35 +33,13 @@ Esempio:
 
 Gli ambiti a livello di singolo computer possono essere definiti durante l'esecuzione di un comando [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) e [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) mediante il parametro –Computers. Il parametro –Computers accetta un elenco con valori separati da virgole di nomi di dominio completi dei computer di destinazione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È inoltre possibile definire –Pools e un elenco di valori separati da virgole di pool in cui si desidera eseguire i comandi di registrazione.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> È inoltre possibile definire –Pools e un elenco di valori separati da virgole di pool in cui si desidera eseguire i comandi di registrazione.
 
 Gli ambiti a livello di sito e globali sono definiti nei cmdlet **New-**, **Set-** e **Remove-** per il servizio di registrazione centralizzato. Negli esempi seguenti viene illustrato come impostare un ambito a livello di sito o globale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>I comandi illustrati possono contenere i parametri e concetti trattati in altre sezioni. I comandi di esempio servono a illustrare l'uso del parametro <strong>–Identity</strong> per definire l'ambito e gli altri parametri sono inclusi per completezza e per specificare l'ambito. Per dettagli sui cmdlet <strong>Set-CsClsConfiguration</strong>, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> nella documentazione sulle operazioni.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> I comandi illustrati possono contenere i parametri e concetti trattati in altre sezioni. I comandi di esempio servono a illustrare l'uso del parametro <strong>–Identity</strong> per definire l'ambito e gli altri parametri sono inclusi per completezza e per specificare l'ambito. Per dettagli sui cmdlet <strong>Set-CsClsConfiguration</strong>, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> nella documentazione sulle operazioni.
 
 ## Per recuperare la configurazione del servizio di registrazione centralizzato
 

@@ -47,36 +47,13 @@ In questo argomento vengono descritti i passaggi necessari per definire e pubbli
     
     2.  Per creare una nuova condivisione file, fare clic su **Definisci nuova condivisione file** , digitare l'FQDN del percorso della condivisione file in **FQDN file server** , digitare il nome della condivisione in **Condivisione file** e quindi fare clic su **Avanti** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La condivisione file specificata o creata in questo passaggio deve esistere o essere creata prima della pubblicazione della topologia.<br />
-    La condivisione file assegnata a un Director non viene usata effettivamente, pertanto è possibile assegnare la condivisione file di qualsiasi pool nell'organizzazione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > La condivisione file specificata o creata in questo passaggio deve esistere o essere creata prima della pubblicazione della topologia.<br />    La condivisione file assegnata a un Director non viene usata effettivamente, pertanto è possibile assegnare la condivisione file di qualsiasi pool nell'organizzazione.
 
 7.  Nella finestra di dialogo **Specificare l'URL dei servizi Web** , in **URL di base esterno** , specificare l'FQDN dei Director e quindi fare clic su **Fine** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il nome deve essere risolvibile dai server DNS Internet e puntare all'indirizzo IP pubblico del proxy inverso, che resta in attesa delle richieste HTTP/HTTPS a tale URL e le trasmette tramite proxy alla directory virtuale dei servizi Web esterni in tale Director.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > Il nome deve essere risolvibile dai server DNS Internet e puntare all'indirizzo IP pubblico del proxy inverso, che resta in attesa delle richieste HTTP/HTTPS a tale URL e le trasmette tramite proxy alla directory virtuale dei servizi Web esterni in tale Director.    
 
     > [!WARNING]
     > Se si hanno più pool Front End o Front End Server, l'FQDN dei servizi Web esterni deve essere univoco. Ad esempio, se si definisce l'FQDN dei servizi Web esterni di un Front End Server come <STRONG>pool01.contoso.com</STRONG>, non sarà possibile utilizzare <STRONG>pool01.contoso.com</STRONG> per un altro pool Front End o Front End Server. Se si distribuisce anche Director, l'FQDN dei servizi Web definito per ciascun Server Director o pool di server Director deve essere univoco rispetto agli altri Server Director o pool di server Director, e univoco anche rispetto agli altri pool Front End e Front End Server. Se si decide di sostituire i servizi Web interni con un FQDN definito autonomamente, ciascun FQDN deve essere diverso da quello degli altri pool Front End, Server Director o pool di server Director.
@@ -113,36 +90,13 @@ In questo argomento vengono descritti i passaggi necessari per definire e pubbli
     
       - Per creare una nuova condivisione file, fare clic su **Definisci nuova condivisione file** , digitare l'FQDN del percorso della condivisione file in **FQDN file server** , digitare il nome della condivisione in **Condivisione file** e quindi fare clic su **Avanti** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La condivisione file specificata o creata in questo passaggio deve esistere o essere creata prima della pubblicazione della topologia.<br />
-    La condivisione file assegnata a un Director non viene usata effettivamente, pertanto è possibile assegnare la condivisione file di qualsiasi pool nell'organizzazione.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > La condivisione file specificata o creata in questo passaggio deve esistere o essere creata prima della pubblicazione della topologia.<br />    La condivisione file assegnata a un Director non viene usata effettivamente, pertanto è possibile assegnare la condivisione file di qualsiasi pool nell'organizzazione.
 
 8.  Nella finestra di dialogo **Specificare l'URL dei servizi Web** , in **URL di base esterno** , specificare l'FQDN dei Director e quindi fare clic su **Fine** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il nome deve essere risolvibile dai server DNS Internet e puntare all'indirizzo IP pubblico del proxy inverso che è in attesa delle richieste HTTP/HTTPS inviate a tale URL e le trasmette mediante proxy alla directory virtuale dei Servizi Web esterni su tale pool di server Director.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > Il nome deve essere risolvibile dai server DNS Internet e puntare all'indirizzo IP pubblico del proxy inverso che è in attesa delle richieste HTTP/HTTPS inviate a tale URL e le trasmette mediante proxy alla directory virtuale dei Servizi Web esterni su tale pool di server Director.    
 
     > [!WARNING]
     > Se si hanno più pool Front End o Front End Server, l'FQDN dei servizi Web esterni deve essere univoco. Ad esempio, se si definisce l'FQDN dei servizi Web esterni di un Front End Server come <STRONG>pool01.contoso.com</STRONG>, non sarà possibile utilizzare <STRONG>pool01.contoso.com</STRONG> per un altro pool Front End o Front End Server. Se si distribuisce anche Director, l'FQDN dei servizi Web definito per ciascun Server Director o pool di server Director deve essere univoco rispetto agli altri Server Director o pool di server Director, e univoco anche rispetto agli altri pool Front End e Front End Server. Se si decide di sostituire i servizi Web interni con un FQDN definito autonomamente, ciascun FQDN deve essere diverso da quello degli altri pool Front End, Server Director o pool di server Director.

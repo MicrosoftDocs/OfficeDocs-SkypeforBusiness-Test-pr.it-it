@@ -35,37 +35,15 @@ Eseguire la procedura seguente per continuare il log shipping se per il database
 
 9.  Se la cartella di backup si trova nel server primario, digitare il percorso locale della cartella di backup nella casella **Se la cartella di backup si trova nel server primario, digitare il percorso locale della cartella** . Se la cartella di backup non è nel server primario, lasciare vuota questa casella.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se l'account del servizio SQL Server nel server primario viene eseguito con l'account di sistema locale, è necessario creare la cartella di backup nel server primario e specificare il percorso locale della cartella.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se l'account del servizio SQL Server nel server primario viene eseguito con l'account di sistema locale, è necessario creare la cartella di backup nel server primario e specificare il percorso locale della cartella.
 
 10. Configurare i parametri **Elimina i file più vecchi di** e **Invia avviso se il backup non viene eseguito entro** .
 
 11. Esaminare il programma del backup presente nella cartella **Pianificazione** in **Processo di backup** . Per personalizzare la pianificazione dell'installazione, fare clic su **Pianificazione** e modificare la pianificazione dell'agente SQL Server secondo le esigenze.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Usare le stesse impostazioni del database primario.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Usare le stesse impostazioni del database primario.
 
 12. In **Compressione** selezionare **Utilizza l'impostazione predefinita del server** e fare clic su **OK** .
 
@@ -85,19 +63,8 @@ Eseguire la procedura seguente per continuare il log shipping se per il database
 
 20. Selezionare ed eseguire la prima metà della query (vedere il passaggio 18) fino alla riga: -- \*\*\*\*\*\* Fine: script da eseguire nel server primario: \*\*\*\*\*\*.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>È necessario eseguire manualmente questo script perché SQL Server Management Studio non supporta più di un database primario in una configurazione di log shipping di SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > È necessario eseguire manualmente questo script perché SQL Server Management Studio non supporta più di un database primario in una configurazione di log shipping di SQL Server.
 
 21. Selezionare **Annulla** per chiudere il pannello di configurazione del log shipping e stabilire una configurazione funzionante per l'implementazione corretta del log shipping sia per il database primario che per il database mirror, in caso di failover.
 

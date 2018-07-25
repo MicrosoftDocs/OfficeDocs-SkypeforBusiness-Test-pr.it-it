@@ -29,19 +29,8 @@ La funzione servizio di registrazione centralizzato è nuova in Lync Server 2013
     
       - Utilizzare un *provider* esistente, o crearne uno nuovo. Un *provider* definisce cosa viene raccolto da una sessione di registrazione, nonché il livello di dettagli, i componenti da tracciare e i contrassegni applicati.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Se si ha familiarità con OCSLogger, il termine <em>provider</em> fa riferimento alla raccolta di <strong>componenti</strong> (ad esempio, S4, SIPStack), un <strong>tipo di registrazione</strong> (ad esempio, WPP, EventLog o IIS logfile), un <strong>livello di traccia</strong> (ad esempio, All, verbose, debug) e <strong>contrassegni</strong> (ad esempio, TF_COMPONENT, TF_DIAG). Questi elementi sono definiti nel provider (una variabile di Windows PowerShell) e passati al comando di servizio di registrazione centralizzato.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!tip]  
+        > Se si ha familiarità con OCSLogger, il termine <em>provider</em> fa riferimento alla raccolta di <strong>componenti</strong> (ad esempio, S4, SIPStack), un <strong>tipo di registrazione</strong> (ad esempio, WPP, EventLog o IIS logfile), un <strong>livello di traccia</strong> (ad esempio, All, verbose, debug) e <strong>contrassegni</strong> (ad esempio, TF_COMPONENT, TF_DIAG). Questi elementi sono definiti nel provider (una variabile di Windows PowerShell) e passati al comando di servizio di registrazione centralizzato.    
       - Configurare i computer e i pool dai quali si desidera raccogliere registri.
     
       - Definire l'ambito della sessione di registrazione dalle opzioni **Sito** (per eseguire raccolte di registri su computer che si trovano su quel sito soltanto), o **Globale** (per eseguire raccolte di registri su tutti i computer della distribuzione).

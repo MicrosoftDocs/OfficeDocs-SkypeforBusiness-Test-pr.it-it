@@ -143,19 +143,8 @@ Se i criteri richiedono la definizione di regole del firewall sia in ingresso ch
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per Microsoft Office Communications Server 2007 è necessaria una configurazione leggermente diversa. L'intervallo di porte TCP e UDP 50.000-59.999 deve essere aperto sia per il traffico in ingresso che in uscita. Questo requisito è valido solo per Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 e Lync Server 2013 richiedono solo l'apertura dell'intervallo TCP 50.000-59.999 in uscita.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Per Microsoft Office Communications Server 2007 è necessaria una configurazione leggermente diversa. L'intervallo di porte TCP e UDP 50.000-59.999 deve essere aperto sia per il traffico in ingresso che in uscita. Questo requisito è valido solo per Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 e Lync Server 2013 richiedono solo l'apertura dell'intervallo TCP 50.000-59.999 in uscita.
 
 ## Requisiti NAT per l'accesso degli utenti esterni
 
@@ -163,19 +152,8 @@ Il processo NAT è una funzione di routing, ma è possibile configurare per NAT 
 
 Lync Server 2013  software di comunicazione non supporta il processo NAT per il traffico verso o dall'interfaccia interna perimetrale, mentre per l'interfaccia esterna perimetrale è richiesto il comportamento NAT seguente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È necessario configurare il processo NAT simmetrico per il traffico in ingresso e in uscita. Il processo NAT simmetrico è la tecnologia NAT descritta in questo argomento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> È necessario configurare il processo NAT simmetrico per il traffico in ingresso e in uscita. Il processo NAT simmetrico è la tecnologia NAT descritta in questo argomento.
 
 In questa documentazione vengono utilizzati i termini Modifica destinazione e Modifica origine nelle tabelle e nelle figure per definire il comportamento richiesto seguente:
 

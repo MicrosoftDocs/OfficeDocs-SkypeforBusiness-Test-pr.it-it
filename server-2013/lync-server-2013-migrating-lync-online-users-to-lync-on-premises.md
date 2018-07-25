@@ -15,20 +15,8 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2015-03-09_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Questi passaggi sono necessari solo per la migrazione di account utente abilitati originariamente per Lync in Lync Online, prima della distribuzione di Lync in locale. Per spostare gli utenti abilitati originariamente per Lync in locale e spostati in un secondo momento in Lync Online, vedere <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Amministrazione degli utenti in una distribuzione ibrida di Lync Server 2013</a>.<br />
-Inoltre, è necessario che tutti gli utenti da spostare dispongano di account nell'Active Directory locale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Questi passaggi sono necessari solo per la migrazione di account utente abilitati originariamente per Lync in Lync Online, prima della distribuzione di Lync in locale. Per spostare gli utenti abilitati originariamente per Lync in locale e spostati in un secondo momento in Lync Online, vedere <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Amministrazione degli utenti in una distribuzione ibrida di Lync Server 2013</a>.<br />Inoltre, è necessario che tutti gli utenti da spostare dispongano di account nell'Active Directory locale.
 
 ## Migrazione di utenti abilitati originariamente in Lync Online a Lync in locale
 
@@ -40,9 +28,12 @@ Inoltre, è necessario che tutti gli utenti da spostare dispongano di account ne
     
       - Nella distribuzione locale, in Lync Server Management Shell, digitare i seguenti cmdlet per creare il provider di hosting per Lync Online:
         
-            Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        
-            New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+        ```
+        Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+        ```
+        ```
+        New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+        ```
 
 2.  Verificare che nei server perimetrali locali sia presente la catena di certificati che consente la connessione a Lync Online, come mostrato nella tabella seguente. È possibile eseguire il download della catena qui: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     
@@ -107,9 +98,12 @@ Inoltre, è necessario che tutti gli utenti da spostare dispongano di account ne
     
     Per spostare un singolo utente, digitare:
     
-        $cred = Get-Credential
-    
-        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
+    $cred = Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
     
     È possibile spostare più utenti tramite il cmdlet **Get-CsUSer** con il parametro –Filter per selezionare gli utenti con una proprietà specifica. Ad esempio, è possibile selezionare tutti gli utenti di Lync Online applicando un filtro basato su {Hosting Provider –eq “sipfed.online.lync.om”}. È quindi possibile inviare gli utenti restituiti al cmdlet **Move-CsUSer**, come mostrato di seguito.
     

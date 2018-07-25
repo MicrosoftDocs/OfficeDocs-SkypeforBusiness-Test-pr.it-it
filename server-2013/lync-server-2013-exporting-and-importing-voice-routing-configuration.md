@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2012-11-01_
 
 Se si desidera salvare la configurazione del routing vocale senza pubblicarla, eseguire questa procedura per utilizzare i comandi di esportazione e importazione della configurazione del Pannello di controllo di Lync Server per salvare e recuperare uno snapshot della configurazione del routing vocale. Se si importa un file di configurazione del routing vocale (con estensione vcfg) e nel frattempo sono state apportate modifiche alla configurazione del routing vocale nel server, nelle pagine nel gruppo **Routing vocale** del Pannello di controllo di Lync Server verrà indicato che esistono modifiche del routing vocale di cui non è stato eseguito il commit. Tali modifiche costituiscono le differenze tra le due configurazioni di cui deve essere eseguita la riconciliazione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se sono state apportate modifiche di cui non è stato eseguito il commit alle impostazioni di una pagina all'interno del gruppo <strong>Routing vocale</strong> , le modifiche vengono salvate nel file di configurazione vocale esportato ( con estensione vcfg). In questo modo è possibile modificare la configurazione del routing vocale durante più sessioni del Pannello di controllo di Lync Server prima di pubblicare le modifiche.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se sono state apportate modifiche di cui non è stato eseguito il commit alle impostazioni di una pagina all'interno del gruppo <strong>Routing vocale</strong> , le modifiche vengono salvate nel file di configurazione vocale esportato ( con estensione vcfg). In questo modo è possibile modificare la configurazione del routing vocale durante più sessioni del Pannello di controllo di Lync Server prima di pubblicare le modifiche.
 
 ## Argomenti della sezione
 

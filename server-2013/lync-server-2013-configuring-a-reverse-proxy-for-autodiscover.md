@@ -95,19 +95,8 @@ Nelle procedure incluse in questa sezione viene descritto come creare o modifica
 
 1.  Fare clic sul pulsante **Start**, scegliere **Programmi**, **Microsoft Forefront TMG** e quindi fare clic su **Forefront TMG Management**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ripetere la modifica per ogni listener e regola di pubblicazione disponibile. In genere sono disponibili una regola e un listener per i pool Front End e una regola e un listener per i pool di server Director o Server Director facoltativi, se sono stati distribuiti.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Ripetere la modifica per ogni listener e regola di pubblicazione disponibile. In genere sono disponibili una regola e un listener per i pool Front End e una regola e un listener per i pool di server Director o Server Director facoltativi, se sono stati distribuiti.
 
 2.  Nel riquadro sinistro espandere **NomeServer**, fare clic con il pulsante destro del mouse su **Criterio firewall** e quindi scegliere la regola applicabile. Nella scheda **Attività** fare clic su **Modifica regola selezionata**.
 

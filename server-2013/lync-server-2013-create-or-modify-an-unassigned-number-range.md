@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2012-11-01_
 
 Per configurare gli intervalli di numeri non assegnati per l' applicazione Annuncio, eseguire le procedure illustrate di seguito.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prima di configurare la tabella dei numeri non assegnati è necessario che sia definito almeno un annuncio o che sia impostato un Operatore automatico messaggistica unificata di Exchange.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Prima di configurare la tabella dei numeri non assegnati è necessario che sia definito almeno un annuncio o che sia impostato un Operatore automatico messaggistica unificata di Exchange.
 
 ## Per utilizzare il Pannello di controllo di Lync Server per configurare i numeri di telefono non assegnati
 
@@ -55,11 +44,20 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
 
     > [!NOTE]
     > <UL>
-    > <LI>
+    > 
+> 
+> 
+> <li>
     > <P>Il numero iniziale dell'intervallo deve essere minore o uguale al numero finale dell'intervallo stesso.</P>
-    > <LI>
+    > 
+> 
+> 
+> <li>
     > <P>Se il numero iniziale o il numero finale dell'intervallo include un numero di interno, devono includerlo entrambi. Il numero di interno deve essere lo stesso per ambedue.</P>
-    > <LI>
+    > 
+> 
+> 
+> <li>
     > <P>Il numero deve corrispondere all'espressione regolare (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Ciò significa che il numero può iniziare con la stringa tel: (se questa non viene specificata, verrà aggiunta automaticamente), un segno più (+) e una cifra compresa tra 1 e 9. Il numero di telefono può contenere fino a 17 cifre e può essere seguito da un interno nel formato ;ext= seguito dal numero dell'interno.</P></LI></UL>
 
 
@@ -82,19 +80,8 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
 
 10. Nella pagina **Numero non assegnato** verificare che gli intervalli di numeri non assegnati siano disposti nell'ordine desiderato. Per modificare la posizione di un intervallo nella tabella, fare clic su uno o più nomi consecutivi nell'elenco di intervalli e quindi fare clic sulla freccia in su o sulla freccia in giù.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server esegue una ricerca all'interno della tabella dei numeri non assegnati dall'inizio alla fine e utilizza il primo intervallo che corrisponde al numero non assegnato. Se vi sono intervalli che si sovrappongono e per un intervallo è specificata un'azione da eseguire come ultimo tentativo, verificare che tale intervallo si trovi alla fine dell'elenco.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Lync Server esegue una ricerca all'interno della tabella dei numeri non assegnati dall'inizio alla fine e utilizza il primo intervallo che corrisponde al numero non assegnato. Se vi sono intervalli che si sovrappongono e per un intervallo è specificata un'azione da eseguire come ultimo tentativo, verificare che tale intervallo si trovi alla fine dell'elenco.
 
 11. Quando gli intervalli di numeri non assegnati si trovano nell'ordine desiderato, fare clic su **Salva tutto** .
 
@@ -106,19 +93,8 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
 
 3.  Utilizzare **New-CsUnassignedNumber** per creare un nuovo intervallo di numeri non assegnati. Utilizzare **Set-CsUnassignedNumber** per modificare un intervallo di numeri non assegnati esistente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se vi sono intervalli che si sovrappongono e si desidera che gli intervalli vengano applicati in un ordine specifico, includere il parametro Priority. Alla chiamata verrà applicato l'intervallo con la priorità più alta.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!tip]  
+    > Se vi sono intervalli che si sovrappongono e si desidera che gli intervalli vengano applicati in un ordine specifico, includere il parametro Priority. Alla chiamata verrà applicato l'intervallo con la priorità più alta.    
     Nella riga di comando eseguire una delle operazioni seguenti:
     
       - Per creare un intervallo di numeri per un servizio Annuncio, eseguire quanto segue:

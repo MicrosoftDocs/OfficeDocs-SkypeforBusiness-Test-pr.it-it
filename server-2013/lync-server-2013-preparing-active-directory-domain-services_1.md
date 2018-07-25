@@ -19,19 +19,8 @@ Nel Lync Server 2013 è possibile utilizzare la Distribuzione guidata di Lync Se
 
 La Distribuzione guidata di Lync Server guida l'utente nelle attività di preparazione di Active Directory. La Distribuzione guidata esegue cmdlet di Lync Server Management Shell. Questo strumento è utile per gli ambienti con una topologia a singolo dominio e a singola foresta o con un'altra topologia simile.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È possibile distribuire Lync Server in una foresta o in un dominio in cui i controller di dominio eseguono versioni a 32 bit di alcuni sistemi operativi (per informazioni dettagliate, vedere <a href="lync-server-2013-active-directory-infrastructure-requirements.md">Requisiti dell'infrastruttura di Active Directory per Lync Server 2013</a>). In questi ambienti non è tuttavia possibile utilizzare la Distribuzione guidata di Lync Server per eseguire la preparazione dello schema, della foresta e del dominio, in quanto la procedura guidata e i file di supporto sono solo a 64 bit. È tuttavia possibile utilizzare ldifde.exe e i file con estensione ldf associati in un controller di dominio a 32 bit per preparare lo schema, la foresta e il dominio. Vedere la sezione &quot;Utilizzo dei cmdlet e di Ldifde.exe&quot; più avanti in questo argomento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> È possibile distribuire Lync Server in una foresta o in un dominio in cui i controller di dominio eseguono versioni a 32 bit di alcuni sistemi operativi (per informazioni dettagliate, vedere <a href="lync-server-2013-active-directory-infrastructure-requirements.md">Requisiti dell'infrastruttura di Active Directory per Lync Server 2013</a>). In questi ambienti non è tuttavia possibile utilizzare la Distribuzione guidata di Lync Server per eseguire la preparazione dello schema, della foresta e del dominio, in quanto la procedura guidata e i file di supporto sono solo a 64 bit. È tuttavia possibile utilizzare ldifde.exe e i file con estensione ldf associati in un controller di dominio a 32 bit per preparare lo schema, la foresta e il dominio. Vedere la sezione &quot;Utilizzo dei cmdlet e di Ldifde.exe&quot; più avanti in questo argomento.
 
 È possibile utilizzare i cmdlet di Lync Server Management Shell per eseguire attività in remoto o per ambienti più complessi.
 

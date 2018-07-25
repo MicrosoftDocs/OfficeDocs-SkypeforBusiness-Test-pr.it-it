@@ -21,19 +21,8 @@ Anche nel caso di una distribuzione di Lync Server 2013 limitata, nella rete son
 
 Usare quindi questa sezione come punto di partenza per affrontare l'aspetto della sicurezza della distribuzione di Lync Server. Sono disponibili linee guida generali e procedure consigliate per la valutazione e la gestione dei più comuni rischi per la sicurezza. Alla fine di ogni argomento sono elencate altre risorse relative a sicurezza e prodotti.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L'argomento della sicurezza è in costante evoluzione. Man mano che si concretizzano nuove minacce e soluzioni, i documenti, le soluzioni, le procedure e i metodi obsoleti dovranno essere sostituiti con materiale aggiornato.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> L'argomento della sicurezza è in costante evoluzione. Man mano che si concretizzano nuove minacce e soluzioni, i documenti, le soluzioni, le procedure e i metodi obsoleti dovranno essere sostituiti con materiale aggiornato.
 
 ## Argomenti della sezione
 

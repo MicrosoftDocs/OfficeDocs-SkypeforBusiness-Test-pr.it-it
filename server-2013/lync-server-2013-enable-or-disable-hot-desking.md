@@ -32,19 +32,8 @@ Per abilitare o disabilitare l'hotdesking in un telefono, si utilizza il paramet
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dopo aver creato questi criteri, è necessario assegnarli ai telefoni delle aree comuni appropriati. Per informazioni dettagliate, vedere <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assegnare criteri a un telefono di area comune</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Dopo aver creato questi criteri, è necessario assegnarli ai telefoni delle aree comuni appropriati. Per informazioni dettagliate, vedere <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assegnare criteri a un telefono di area comune</a>.
 
 ## Disabilitazione dell'hotdesking
 

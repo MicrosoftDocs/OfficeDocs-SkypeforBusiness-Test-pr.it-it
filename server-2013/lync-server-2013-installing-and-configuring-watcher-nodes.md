@@ -154,17 +154,13 @@ A seconda delle dimensioni della distribuzione, le transazioni sintetiche potreb
 
 È possibile distribuire i nodi Watcher Lync Server 2013 sia all'interno che all'esterno di un'organizzazione per facilitare le seguenti verifiche:
 
-  -   
-    Connettività ai pool per gli utenti all'interno dell'organizzazione.
+   Connettività ai pool per gli utenti all'interno dell'organizzazione.
 
-  -   
-    Connettività tramite reti perimetrali per gli utenti remoti che lavorano all'esterno dell'organizzazione.
-
-  -   
-    Connettività a Survivable Branch Appliance.
-
-  -   
-    Connettività a Lync Server 2010 all'interno dell'organizzazione e attraverso le reti perimetrali.
+   Connettività tramite reti perimetrali per gli utenti remoti che lavorano all'esterno dell'organizzazione.
+  
+   Connettività a Survivable Branch Appliance.
+  
+   Connettività a Lync Server 2010 all'interno dell'organizzazione e attraverso le reti perimetrali.
 
 Sono disponibili opzioni di autenticazione diverse per le connessioni dall'interno e dall'esterno per semplificare l'amministrazione. Per informazioni dettagliate, vedere [Configurazione di un nodo Watcher per l'esecuzione di transazioni sintetiche](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).
 

@@ -39,19 +39,8 @@ Dopo aver completato l'installazione di Lync Server 2013, Strumento di pianifica
 
 4.  Rispondere alle domande di ogni sezione selezionando i criteri appropriati per il progetto e quindi fare clic su **Avanti** per passare alla pagina successiva della procedura guidata. Fare clic su **Indietro** per modificare le pagine precedenti.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ogni pagina contiene una descrizione dei criteri di selezione e alcuni consigli in base alle procedure preferite e alla pianificazione della capacità. Se sono necessari ulteriori dettagli, fare clic su <strong>Ulteriori informazioni</strong> per leggere altre informazioni nella documentazione relativa alla pianificazione di Lync Server 2013 sul sito Web Microsoft TechNet. Per accedere a questo sito Web, è necessario disporre di connettività Internet.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Ogni pagina contiene una descrizione dei criteri di selezione e alcuni consigli in base alle procedure preferite e alla pianificazione della capacità. Se sono necessari ulteriori dettagli, fare clic su <strong>Ulteriori informazioni</strong> per leggere altre informazioni nella documentazione relativa alla pianificazione di Lync Server 2013 sul sito Web Microsoft TechNet. Per accedere a questo sito Web, è necessario disporre di connettività Internet.
 
 5.  Selezionare le opzioni appropriate per la progettazione. Dopo la definizione dei criteri iniziali, verrà visualizzata la conferma del completamento della panoramica iniziale.
 
@@ -71,19 +60,8 @@ Dopo aver completato l'installazione di Lync Server 2013, Strumento di pianifica
 
 10. Modificare le selezioni per la collaborazione online, gli utenti, le funzionalità voce, altre opzioni di distribuzione o applicazioni server, se necessario.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>In questa fase della progettazione, è possibile selezionare o deselezionare solo queste opzioni per la distribuzione. È tuttavia possibile configurare altre opzioni in una fase successiva dello Strumento di pianificazione. Alcune opzioni non sono disponibili e non possono essere deselezionate. Inoltre, può essere necessario deselezionare un'opzione per deselezionarne un'altra. Se ad esempio si seleziona l'opzione <strong>VoIP aziendale</strong> in Voce, verranno deselezionate anche le opzioni <strong>Response Group</strong> , <strong>Annunci</strong> e <strong>Parcheggio di chiamata</strong> in Applicazioni server (tutte funzionalità di VoIP aziendale).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > In questa fase della progettazione, è possibile selezionare o deselezionare solo queste opzioni per la distribuzione. È tuttavia possibile configurare altre opzioni in una fase successiva dello Strumento di pianificazione. Alcune opzioni non sono disponibili e non possono essere deselezionate. Inoltre, può essere necessario deselezionare un'opzione per deselezionarne un'altra. Se ad esempio si seleziona l'opzione <strong>VoIP aziendale</strong> in Voce, verranno deselezionate anche le opzioni <strong>Response Group</strong> , <strong>Annunci</strong> e <strong>Parcheggio di chiamata</strong> in Applicazioni server (tutte funzionalità di VoIP aziendale).
 
 11. Dopo aver definito il nome del sito e il numero di utenti, fare clic su **Avanti** .
 

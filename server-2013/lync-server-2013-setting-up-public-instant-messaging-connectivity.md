@@ -37,16 +37,5 @@ Se l'organizzazione desidera supportare la connettività di messaggistica istant
     
     Il nome predefinito del certificato del modello usato per Lync Server è Web Server. Specificare solo \<nome modello\> se è necessario utilizzare un modello diverso da quello predefinito.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se l'organizzazione desidera supportare la messaggistica istantanea pubblica con AOL, è necessario utilizzare Windows PowerShell anziché la Configurazione guidata certificato per richiedere il certificato da assegnare al perimetro esterno per il servizio Access Edge. Il motivo è che il modello Web Server dell'Autorità di certificazione utilizzato dalla Configurazione guidata certificato per richiedere un certificato non supporta la configurazione dell'utilizzo chiavi avanzato (EKU) client. Prima di utilizzare Windows PowerShell per creare il certificato, l'amministratore della CA deve creare e distribuire un nuovo modello che supporta l'EKU client.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Se l'organizzazione desidera supportare la messaggistica istantanea pubblica con AOL, è necessario utilizzare Windows PowerShell anziché la Configurazione guidata certificato per richiedere il certificato da assegnare al perimetro esterno per il servizio Access Edge. Il motivo è che il modello Web Server dell'Autorità di certificazione utilizzato dalla Configurazione guidata certificato per richiedere un certificato non supporta la configurazione dell'utilizzo chiavi avanzato (EKU) client. Prima di utilizzare Windows PowerShell per creare il certificato, l'amministratore della CA deve creare e distribuire un nuovo modello che supporta l'EKU client.

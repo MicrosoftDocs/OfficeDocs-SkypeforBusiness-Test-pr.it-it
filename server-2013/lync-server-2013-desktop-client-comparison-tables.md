@@ -33,28 +33,26 @@ Nelle tabelle riportate di seguito vengono messe a confronto le caratteristiche 
 
 Queste tabelle indicano le caratteristiche disponibili agli utenti di Lync in una distribuzione di Lync Server 2013 locale. Le stesse funzionalità sono disponibili anche per gli utenti di Lync Online e Office 365 se non diversamente specificato.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vedere <a href="lync-server-2013-mobile-client-comparison-tables.md">Tabelle di confronto dei client mobili per Lync Server 2013</a> per informazioni dettagliate sulle caratteristiche disponibili nei client mobili di Lync 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Vedere <a href="lync-server-2013-mobile-client-comparison-tables.md">Tabelle di confronto dei client mobili per Lync Server 2013</a> per informazioni dettagliate sulle caratteristiche disponibili nei client mobili di Lync 2013.
 
 
 > [!NOTE]
 > <UL>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Per informazioni dettagliate sui piani di sottoscrizione a Lync Online, vedere la descrizione del servizio di Lync Online all'indirizzo <A href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</A>.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Lync Server 2013 supporta i client rilasciati in precedenza seguenti: Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Per informazioni su questi client, vedere la versione Lync 2010 delle Tabelle di confronto dei client all'indirizzo <A href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</A>.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Il client Lync 2013 supporta audio e video in un ambiente VDI (Virtual Desktop Infrastructure). Per informazioni dettagliate sulle caratteristiche di Lync 2013 in un ambiente VDI, vedere <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Tecnologie di virtualizzazione supportate e limitazioni note in Lync Server 2013</A>.</P></LI></UL>
 
 
@@ -881,11 +879,20 @@ Queste tabelle indicano le caratteristiche disponibili agli utenti di Lync in un
 
 > [!NOTE]
 > <UL>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Le funzionalità di riunione di Lync non sono disponibili nel Piano autonomo 1 di Lync Online.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Nelle sessioni da Lync a Lync, un utente del Piano 1 di Lync Online può partecipare alla condivisione desktop e alla condivisione applicazioni se è stato invitato da un utente che ha accesso alle funzionalità di condivisione.</P>
-> <LI>
+> 
+> 
+> 
+> <li>
 > <P>Per informazioni, vedere la descrizione del servizio di Lync Online all'indirizzo <A class=uri href="http://go.microsoft.com/fwlink/?linkid=282430">http://go.microsoft.com/fwlink/?linkid=282430</A>.</P></LI></UL>
 
 

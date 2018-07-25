@@ -50,19 +50,8 @@ Per evitare problemi di routing, verificare che nei server perimetrali siano pre
     
     Gli indirizzi di Web Conferencing e A/V Edge sono secondari.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configurazione del server perimetrale con due schede di rete è un'opzione. L'altra consiste nell'utilizzare una scheda di rete per l'interfaccia interna e tre schede di rete per l'interfaccia esterna del server perimetrale. Il vantaggio principale di questa opzione è l'utilizzo di una scheda di rete separata ogni servizio di server perimetrale e la raccolta di dati potenzialmente più concisi per eventuali attività di risoluzione dei problemi.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> La configurazione del server perimetrale con due schede di rete è un'opzione. L'altra consiste nell'utilizzare una scheda di rete per l'interfaccia interna e tre schede di rete per l'interfaccia esterna del server perimetrale. Il vantaggio principale di questa opzione è l'utilizzo di una scheda di rete separata ogni servizio di server perimetrale e la raccolta di dati potenzialmente più concisi per eventuali attività di risoluzione dei problemi.
 
 ### Record DNS necessari per un server perimetrale consolidato singolo con indirizzi IP privati e NAT (esempio)
 
@@ -122,19 +111,8 @@ Per evitare problemi di routing, verificare che nei server perimetrali siano pre
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>I record elencati nella tabella precedente sono visualizzati con estensione <em>net</em> o <em>com</em> per evidenziare la zona in cui devono trovarsi se non si utilizza DNS di tipo split brain. Se si utilizza DNS di tipo split brain, tutti i record devono trovarsi nella stessa zona <em>com</em> , con l'unica distinzione tra versione interna ed esterna della zona DNS. Per informazioni dettagliate, vedere &quot;DNS di tipo split brain&quot; in <a href="lync-server-2013-determine-dns-requirements.md">Determinare i requisiti di DNS per Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> I record elencati nella tabella precedente sono visualizzati con estensione <em>net</em> o <em>com</em> per evidenziare la zona in cui devono trovarsi se non si utilizza DNS di tipo split brain. Se si utilizza DNS di tipo split brain, tutti i record devono trovarsi nella stessa zona <em>com</em> , con l'unica distinzione tra versione interna ed esterna della zona DNS. Per informazioni dettagliate, vedere &quot;DNS di tipo split brain&quot; in <a href="lync-server-2013-determine-dns-requirements.md">Determinare i requisiti di DNS per Lync Server 2013</a>.
 
 ## Record necessari per la federazione
 
@@ -161,19 +139,8 @@ Per evitare problemi di routing, verificare che nei server perimetrali siano pre
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner, condizione nota come &quot;domini SIP consentiti&quot;, nonché come federazione avanzata nelle versioni precedenti. Ripetere secondo le necessità per tutti i domini SIP con utenti abilitati per Lync.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Questo record SRV è necessario per il fornitore di servizi di accesso a terze parti per notifiche Push e dispositivi mobili.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Questo record SRV è necessario per il fornitore di servizi di accesso a terze parti per notifiche Push e dispositivi mobili.
 </div></td>
 </tr>
 </tbody>

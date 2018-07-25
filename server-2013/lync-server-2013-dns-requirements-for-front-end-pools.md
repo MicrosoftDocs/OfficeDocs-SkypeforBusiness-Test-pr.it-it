@@ -79,18 +79,9 @@ Nella tabella seguente sono indicati i requisiti DNS per la distribuzione di un 
 <td><p>Individuazione del servizio Web Aggiornamento dispositivi tramite dispositivi per comunicazioni unificate</p></td>
 <td><p>Un record A interno con il nome ucupdates-r2.&lt;dominio SIP&gt; risolto nel'indirizzo IP del pool Front End che ospita il servizio Web Aggiornamento dispositivi. Se viene acceso un dispositivo per comunicazioni unificate, ma un utente non ha mai eseguito l'accesso al dispositivo, il record A consente al dispositivo di individuare il pool Front End che ospita il servizio Web Aggiornamento dispositivi e ottenere gli aggiornamenti. In caso contrario, i dispositivi ottengono queste informazioni tramite il provisioning di tipo in-band la prima volta che un utente esegue l'accesso.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se è disponibile una distribuzione esistente del servizio Web Aggiornamento dispositivi in Lync Server 2010, è già stato creato un record A interno con il nome ucupdates.<em>&lt;dominio SIP&gt;</em>. Per Microsoft Office Communications Server 2007 R2 è necessario creare un record A DNS aggiuntivo con il nome ucupdates-r2.<em>&lt;dominio SIP&gt;</em>.</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]
+> Se è disponibile una distribuzione esistente del servizio Web Aggiornamento dispositivi in Lync Server 2010, è già stato creato un record A interno con il nome ucupdates.<em>&lt;dominio SIP&gt;</em>. Per Microsoft Office Communications Server 2007 R2 è necessario creare un record A DNS aggiuntivo con il nome ucupdates-r2.<em>&lt;dominio SIP&gt;</em>.
 
 </div></td>
 </tr>

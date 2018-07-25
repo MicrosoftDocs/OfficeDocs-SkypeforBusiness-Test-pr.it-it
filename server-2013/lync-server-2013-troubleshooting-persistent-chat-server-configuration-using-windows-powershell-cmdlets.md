@@ -19,16 +19,6 @@ Utilizzare le soluzioni seguenti per risolvere i problemi relativi alla configur
 
   - Se viene visualizzato il messaggio di errore che informa che non è stato eseguito il provisioning dell'entità, l'entità che si sta tentando di aggiungere non è disponibile.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Soluzione: nessuna. Questo messaggio di errore indica che l'entità non è disponibile.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]
+    > Soluzione: nessuna. Questo messaggio di errore indica che l'entità non è disponibile.
 

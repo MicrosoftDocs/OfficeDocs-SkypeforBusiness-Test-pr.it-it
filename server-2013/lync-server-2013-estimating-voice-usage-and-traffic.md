@@ -17,14 +17,11 @@ _**Ultima modifica dell'argomento:** 2012-08-07_
 
 Microsoft Lync Server 2013, Strumento di pianificazione utilizza la metrica seguente per stimare il traffico utente in ogni sito e il numero di porte necessarie per supportare tale traffico.
 
-  -   
-    Per un livello di **traffico leggero** (una chiamata PSTN per utente all'ora) considerare 15 utenti per porta.
+   Per un livello di **traffico leggero** (una chiamata PSTN per utente all'ora) considerare 15 utenti per porta.  
 
-  -   
-    Per un livello di **traffico medio** (2 chiamate PSTN per utente all'ora) considerare 10 utenti per porta.
+   Per un livello di **traffico medio** (2 chiamate PSTN per utente all'ora) considerare 10 utenti per porta.  
 
-  -   
-    Per un livello di **traffico pesante** (3 chiamate PSTN o più per utente all'ora) considerare 5 utenti per porta.
+   Per un livello di **traffico pesante** (3 chiamate PSTN o più per utente all'ora) considerare 5 utenti per porta.  
 
 Il numero di porte determina a sua volta il numero di Mediation Server e gateway che saranno necessari. I gateway PSTN (Public Switched Telephone Network) distribuiti nella maggior parte delle organizzazioni variano in dimensione da 2 a 960 porte. Sono disponibili anche gateway più grandi, ma vengono utilizzati principalmente dai provider di servizi di telefonia.
 

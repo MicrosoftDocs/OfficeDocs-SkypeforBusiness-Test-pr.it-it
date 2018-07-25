@@ -19,26 +19,14 @@ Per creare una nuova chat room di server Chat persistente
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-PersistentChatPoolFqdn non è necessario se si verifica una delle condizioni seguenti:
-<ul>
-<li><p>È presente un solo pool di server Chat persistente.</p></li>
-<li><p>Si specifica l'FQDN di un pool per la categoria.</p></li>
-<li><p>Si specifica l'FQDN di un pool per l'aggiunta della chat room.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> -PersistentChatPoolFqdn non è necessario se si verifica una delle condizioni seguenti:<ul>
+> <li><p>È presente un solo pool di server Chat persistente.</p></li>
+> 
+> <li><p>Si specifica l'FQDN di un pool per la categoria.</p></li>
+> 
+> 
+> <li><p>Si specifica l'FQDN di un pool per l'aggiunta della chat room.</p></li></ul>
 
 
 Per apportare modifiche a una chat room di server Chat persistente esistente

@@ -25,25 +25,13 @@ Per le procedure di ripristino di emergenza presenti nel resto della sezione ven
 
   - Se l' archivio di gestione centrale è ospitato in uno dei pool, è installato e in esecuzione in entrambi i pool abbinati, con uno dei pool che ospita il master attivo e l'altro pool quello in standby.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nelle procedure seguenti il parametro <em>PoolFQDN</em> si riferisce al nome di dominio completo (FQDN) del pool interessato dall'emergenza, non al pool da cui gli utenti interessati dal problema vengono reindirizzati. Per lo stesso gruppo di utenti interessati dal problema, si riferisce allo stesso pool nei cmdlet di failover e failback (il pool che ospitava gli utenti prima del failover).<br />
-Si supponga ad esempio un caso in cui per tutti gli utenti ospitati in un pool P1 sia stato eseguito il failover nel pool di backup, P2. Se l'amministratore desidera spostare tutti gli utenti serviti da P2 in modo che siano serviti da P1, è necessario che esegua le procedure seguenti:
-<ol>
-<li><p>Eseguire il failback di tutti gli utenti originariamente ospitati in P1 da P2 a P1 utilizzando il cmdlet di failback. In tal caso, <em>PoolFQDN</em> è il nome di dominio completo (FQDN) di P1.</p></li>
-<li><p>Eseguire il failover di tutti gli utenti originariamente ospitati in P2 a P1 utilizzando il cmdlet di failover. In tal caso, <em>PoolFQDN</em> è il nome di dominio completo (FQDN) di P2.</p></li>
-<li><p>Se successivamente l'amministratore desidera eseguire il failback degli utenti P2 a P2, <em>PoolFQDN</em> è il nome di dominio completo (FQDN) di P2.</p></li>
-</ol>
-Per preservare l'integrità del pool, è necessario eseguire la procedura 1 prima della procedura 2. Se si esegue la procedura 2 prima della procedura 1, il cmdlet della procedura 2 avrà esito negativo.</td>
+> [!IMPORTANT]  
+> Nelle procedure seguenti il parametro <em>PoolFQDN</em> si riferisce al nome di dominio completo (FQDN) del pool interessato dall'emergenza, non al pool da cui gli utenti interessati dal problema vengono reindirizzati. Per lo stesso gruppo di utenti interessati dal problema, si riferisce allo stesso pool nei cmdlet di failover e failback (il pool che ospitava gli utenti prima del failover).<br />Si supponga ad esempio un caso in cui per tutti gli utenti ospitati in un pool P1 sia stato eseguito il failover nel pool di backup, P2. Se l'amministratore desidera spostare tutti gli utenti serviti da P2 in modo che siano serviti da P1, è necessario che esegua le procedure seguenti:
+> <ol>
+> <li><p>Eseguire il failback di tutti gli utenti originariamente ospitati in P1 da P2 a P1 utilizzando il cmdlet di failback. In tal caso, <em>PoolFQDN</em> è il nome di dominio completo (FQDN) di P1.</p></li>
+> <li><p>Eseguire il failover di tutti gli utenti originariamente ospitati in P2 a P1 utilizzando il cmdlet di failover. In tal caso, <em>PoolFQDN</em> è il nome di dominio completo (FQDN) di P2.</p></li>
+> <li><p>Se successivamente l'amministratore desidera eseguire il failback degli utenti P2 a P2, <em>PoolFQDN</em> è il nome di dominio completo (FQDN) di P2.</p></li></ol>
+> Per preservare l'integrità del pool, è necessario eseguire la procedura 1 prima della procedura 2. Se si esegue la procedura 2 prima della procedura 1, il cmdlet della procedura 2 avrà esito negativo.</td>
 </tr>
 </tbody>
 </table>

@@ -47,19 +47,8 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 
 Dopo aver eseguito il cmdlet, riavviare tutti i server front-end nel pool o i server Standard Edition in cui è stata abilitata l'applicazione per conferenze con routing in base alla posizione.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il routing in base alla posizione non viene applicato alle conferenze o ai trasferimenti con consultazione finché non vengono riavviati tutti i server Standard Edition o i server front-end nei pool interessati. Se <strong>–Critical</strong> viene impostato su <strong>$true</strong> nei cmdlet precedenti, i servizi di Lync verranno riavviati immediatamente. Se non si desidera che questi servizi vengano riavviati immediatamente, impostare momentaneamente <strong>–Critical</strong> su <strong>$false</strong> e utilizzare <strong>Set-CsServerApplication</strong> per modificare il valore di <strong>-Critical</strong> in <strong>$true</strong> in un secondo momento, in seguito al riavvio dei servizi.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il routing in base alla posizione non viene applicato alle conferenze o ai trasferimenti con consultazione finché non vengono riavviati tutti i server Standard Edition o i server front-end nei pool interessati. Se <strong>–Critical</strong> viene impostato su <strong>$true</strong> nei cmdlet precedenti, i servizi di Lync verranno riavviati immediatamente. Se non si desidera che questi servizi vengano riavviati immediatamente, impostare momentaneamente <strong>–Critical</strong> su <strong>$false</strong> e utilizzare <strong>Set-CsServerApplication</strong> per modificare il valore di <strong>-Critical</strong> in <strong>$true</strong> in un secondo momento, in seguito al riavvio dei servizi.
 
 Dopo avere abilitato l'applicazione per conferenze con routing in base alla posizione e riavviato tutti i server Lync applicabili, tutte le conferenze organizzate da utenti di Lync abilitati per il routing in base alla posizione vengono monitorate allo scopo di impedire il bypass delle chiamate a tariffa PSTN.
 

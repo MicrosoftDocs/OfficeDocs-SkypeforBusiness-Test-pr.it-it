@@ -57,16 +57,5 @@ Per eseguire la migrazione degli oggetti contatto Operatore automatico e Accesso
     
     dove *forest FQDN* specifica la foresta in cui è distribuito Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Riavviare il servizio <strong>Lync Server Front End</strong> (rtcsrv.exe) <em>dopo</em> aver eseguito exchucutil.ps1. In caso contrario Lync Server 2013 non rileverà la messaggistica unificata nella topologia.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Riavviare il servizio <strong>Lync Server Front End</strong> (rtcsrv.exe) <em>dopo</em> aver eseguito exchucutil.ps1. In caso contrario Lync Server 2013 non rileverà la messaggistica unificata nella topologia.

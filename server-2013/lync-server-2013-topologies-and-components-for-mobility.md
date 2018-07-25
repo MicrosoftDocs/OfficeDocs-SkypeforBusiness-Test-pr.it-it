@@ -25,21 +25,8 @@ Per supportare le applicazioni Lync Mobile sui dispositivi mobili, in Lync Serve
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se si pianifica la connettività di utenti esterni, ad esempio con federazione, accesso utenti esterni o funzionalità per dispositivi mobili, è necessario utilizzare i server perimetrali con il server Standard Edition e il Front End Server o il pool Front End. Il server Standard Edition e il Front End Server o il pool Front End non dispongono dei componenti necessari per consentire agli utenti esterni di accedere alla distribuzione interna o per consentire alla distribuzione interna di comunicare con gli utenti esterni. Per tutti gli scenari che includono utenti esterni che collaborano o comunicano con utenti interni, inclusi i servizi per dispositivi mobili, è necessario distribuire almeno un server perimetrale e un proxy inverso.<br />
-La <em>notifica Push</em> utilizza un tipo di federazione con i servizi di Lync Online che ospita il fornitore di servizi di accesso a terze parti della notifica Push (PNCH, Push Notification Clearing House). La notifica Push comprende gli avvisi sonori, gli avvisi su schermo (testo) e i riquadri che vengono inviati tramite push dalle applicazioni ai dispositivi Apple iPhone, iPad e Windows Phone quando il dispositivo mobile è inattivo. PNCH riceve le notifiche Push da Lync Server. Quando PNCH riceve una notifica di un messaggio, inoltra una notifica ai client mobili tramite i Servizi di notifica Push Apple o il Servizio di notifica Push di Lync Server 2013, a seconda del client mobile a cui è destinato il messaggio. PNCH è un servizio necessario per questi client mobili. Per stabilire una federazione con Lync Online, PNCH utilizza server perimetrali e certificati per garantire la riservatezza e l'autenticazione, criteri e record DNS (Domain Name System) configurati correttamente. I client Lync Mobile basati su Android e Nokia Symbian non utilizzano PNCH. Per informazioni dettagliate sulla pianificazione e la distribuzione dei server perimetrali, vedere <a href="lync-server-2013-planning-for-external-user-access.md">Pianificazione dell'accesso degli utenti esterni in Lync Server 2013</a> e <a href="lync-server-2013-deploying-external-user-access.md">Distribuzione dell'accesso degli utenti esterni in Lync Server 2013</a>.<br />
-I client Lync 2013 Mobile per dispositivi Apple introdotti con gli aggiornamenti cumulativi per Lync Server 2013 di febbraio 2013 non utilizzano più la notifica Push o il fornitore di servizi di accesso a terze parti della notifica Push (PNCH, Push Notification Clearing House). I client Lync 2013 Mobile in Windows Phone continuano a utilizzare la notifica Push e PNCH.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se si pianifica la connettività di utenti esterni, ad esempio con federazione, accesso utenti esterni o funzionalità per dispositivi mobili, è necessario utilizzare i server perimetrali con il server Standard Edition e il Front End Server o il pool Front End. Il server Standard Edition e il Front End Server o il pool Front End non dispongono dei componenti necessari per consentire agli utenti esterni di accedere alla distribuzione interna o per consentire alla distribuzione interna di comunicare con gli utenti esterni. Per tutti gli scenari che includono utenti esterni che collaborano o comunicano con utenti interni, inclusi i servizi per dispositivi mobili, è necessario distribuire almeno un server perimetrale e un proxy inverso.<br />La <em>notifica Push</em> utilizza un tipo di federazione con i servizi di Lync Online che ospita il fornitore di servizi di accesso a terze parti della notifica Push (PNCH, Push Notification Clearing House). La notifica Push comprende gli avvisi sonori, gli avvisi su schermo (testo) e i riquadri che vengono inviati tramite push dalle applicazioni ai dispositivi Apple iPhone, iPad e Windows Phone quando il dispositivo mobile è inattivo. PNCH riceve le notifiche Push da Lync Server. Quando PNCH riceve una notifica di un messaggio, inoltra una notifica ai client mobili tramite i Servizi di notifica Push Apple o il Servizio di notifica Push di Lync Server 2013, a seconda del client mobile a cui è destinato il messaggio. PNCH è un servizio necessario per questi client mobili. Per stabilire una federazione con Lync Online, PNCH utilizza server perimetrali e certificati per garantire la riservatezza e l'autenticazione, criteri e record DNS (Domain Name System) configurati correttamente. I client Lync Mobile basati su Android e Nokia Symbian non utilizzano PNCH. Per informazioni dettagliate sulla pianificazione e la distribuzione dei server perimetrali, vedere <a href="lync-server-2013-planning-for-external-user-access.md">Pianificazione dell'accesso degli utenti esterni in Lync Server 2013</a> e <a href="lync-server-2013-deploying-external-user-access.md">Distribuzione dell'accesso degli utenti esterni in Lync Server 2013</a>.<br />I client Lync 2013 Mobile per dispositivi Apple introdotti con gli aggiornamenti cumulativi per Lync Server 2013 di febbraio 2013 non utilizzano più la notifica Push o il fornitore di servizi di accesso a terze parti della notifica Push (PNCH, Push Notification Clearing House). I client Lync 2013 Mobile in Windows Phone continuano a utilizzare la notifica Push e PNCH.
 
 ## Componenti di mobilità
 
@@ -55,19 +42,8 @@ I servizi che supportano i dispositivi mobili sono i seguenti:
 
   - **Servizio Mobility (Mcx) di Lync Server 2013**   Questo servizio supporta le funzionalità Lync, ad esempio messaggistica istantanea, presenza e contatti, sui dispositivi mobili. Il servizio Mobility viene installato in ogni Front End Server di ciascun pool pianificato per il supporto delle funzionalità Lync nei dispositivi mobili. Quando si installa Lync Server 2013, viene creata una nuova directory virtuale (Mcx) sia nel sito Web interno che nel sito Web esterno dei Front End Server.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 con gli aggiornamenti cumulativi per Lync Server 2013 di febbraio 2013 supporta sia il servizio Mobility introdotto nell'aggiornamento cumulativo per Lync Server 2010 di novembre 2011, comunemente noto come Mcx, sia il componente Web UCWA. La combinazione di questi due servizi per dispositivi mobili garantisce l'interoperabilità e consente agli utenti l'utilizzo con i client Lync 2010 Mobile e Lync 2013 Mobile in Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Lync Server 2013 con gli aggiornamenti cumulativi per Lync Server 2013 di febbraio 2013 supporta sia il servizio Mobility introdotto nell'aggiornamento cumulativo per Lync Server 2010 di novembre 2011, comunemente noto come Mcx, sia il componente Web UCWA. La combinazione di questi due servizi per dispositivi mobili garantisce l'interoperabilità e consente agli utenti l'utilizzo con i client Lync 2010 Mobile e Lync 2013 Mobile in Lync Server 2013.
 
   - **Servizio di individuazione automatica di Lync Server 2013**   Questo servizio identifica la posizione dell'utente e consente ai dispositivi mobili e ad altri client Lync di individuare le risorse, come gli URL interni ed esterni per i servizi Web di Lync Server 2013 e l'URL per Mcx o UCWA, indipendentemente dalla posizione di rete. L'individuazione automatica utilizza nomi host hardcoded (lyncdiscoverinternal per gli utenti all'interno della rete, lyncdiscover per quelli all'esterno) e il dominio SIP dell'utente. Sono supportate connessioni client che utilizzano HTTP o HTTPS.
     
@@ -103,19 +79,8 @@ Il server perimetrale può essere un server perimetrale di Lync Server 2010. 
 
 Una distribuzione di Lync Server 2013 senza gli aggiornamenti cumulativi per Lync Server 2013 di febbraio 2013 utilizzerà il servizio Mobility Mcx e sarà in grado di offrire servizi solo per Lync 2010 Mobile.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il servizio Mobility è supportato nei Front End Server collocati con il ruolo Mediation Server con due interfacce di rete, ma è necessario eseguire i passaggi appropriati per configurare le interfacce. È necessario assegnare gli indirizzi IP all'interfaccia specifica che comunicherà come Mediation Server e l'IP dell'interfaccia di rete che comunicherà come Front End Server. È possibile eseguire questa operazione in Generatore di topologie selezionando l'indirizzo IP corretto per ogni servizio, anziché utilizzare l'opzione predefinita <strong>Usa tutti gli indirizzi IP configurati</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Il servizio Mobility è supportato nei Front End Server collocati con il ruolo Mediation Server con due interfacce di rete, ma è necessario eseguire i passaggi appropriati per configurare le interfacce. È necessario assegnare gli indirizzi IP all'interfaccia specifica che comunicherà come Mediation Server e l'IP dell'interfaccia di rete che comunicherà come Front End Server. È possibile eseguire questa operazione in Generatore di topologie selezionando l'indirizzo IP corretto per ogni servizio, anziché utilizzare l'opzione predefinita <strong>Usa tutti gli indirizzi IP configurati</strong>.
 
 ## Vedere anche
 

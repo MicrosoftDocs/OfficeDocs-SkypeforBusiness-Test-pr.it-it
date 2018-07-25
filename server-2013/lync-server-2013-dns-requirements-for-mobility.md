@@ -95,18 +95,9 @@ I record DNS possono essere di tipo CNAME o A (host).
 <p>Viene risolto in un record host (A o AAAA) per il servizio Access Edge</p></td>
 <td><p>Per supportare servizio notifica Push e servizio notifica Push Apple, è necessario creare un record SRV per ogni dominio SIP con client Microsoft Lync Mobile.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Questo requisito è valido solo per i client Microsoft Lync Mobile in dispositivi mobili Apple o Microsoft. I dispositivi Android e Nokia Symbian non utilizzano le notifiche push.</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]
+> Questo requisito è valido solo per i client Microsoft Lync Mobile in dispositivi mobili Apple o Microsoft. I dispositivi Android e Nokia Symbian non utilizzano le notifiche push.
 
 </div></td>
 </tr>

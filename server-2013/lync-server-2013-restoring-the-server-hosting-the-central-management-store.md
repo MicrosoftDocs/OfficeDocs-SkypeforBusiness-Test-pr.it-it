@@ -27,19 +27,8 @@ Se il server back-end che ospita l'archivio di gestione centrale si trova in una
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È consigliabile acquisire una copia dell'immagine del sistema prima di avviare il ripristino, per poterla utilizzare come punto di ripristino dello stato precedente in caso di problemi durante le operazioni di ripristino. È possibile acquisire la copia dell'immagine dopo l'installazione del sistema operativo e di SQL Server e ripristinare o registrare di nuovo i certificati.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> È consigliabile acquisire una copia dell'immagine del sistema prima di avviare il ripristino, per poterla utilizzare come punto di ripristino dello stato precedente in caso di problemi durante le operazioni di ripristino. È possibile acquisire la copia dell'immagine dopo l'installazione del sistema operativo e di SQL Server e ripristinare o registrare di nuovo i certificati.
 
 ## Per ripristinare l'archivio di gestione centrale
 
@@ -55,19 +44,8 @@ Se il server back-end che ospita l'archivio di gestione centrale si trova in una
 
 3.  Se si desidera ripristinare un server Standard Edition, ripristinare l'Archivio file copiando l'Archivio file appropriato da $Backup nel percorso dell'Archivio file nel server e quindi condividere la cartella.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il percorso e il nome file dell'Archivio file ripristinato devono corrispondere esattamente a quelli dell'Archivio file di cui è stato eseguito il backup in modo che i componenti che utilizzano i file possano accedervi.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Il percorso e il nome file dell'Archivio file ripristinato devono corrispondere esattamente a quelli dell'Archivio file di cui è stato eseguito il backup in modo che i componenti che utilizzano i file possano accedervi.
 
 4.  Eseguire una delle operazioni seguenti:
     
@@ -146,19 +124,8 @@ Se il server back-end che ospita l'archivio di gestione centrale si trova in una
     
     7.  Seguire il resto della procedura guidata e quindi fare clic su **Fine**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Anziché eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsDatabase</strong> per creare ogni database e il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>..</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Anziché eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsDatabase</strong> per creare ogni database e il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>..
 
 11. Se si ripristina un server Standard Edition, passare alla cartella o al supporto di installazione di Lync Server e avviare la Distribuzione guidata di Lync Server contenuta in \\setup\\amd64\\Setup.exe. Utilizzare la Distribuzione guidata di Lync Server per eseguire le operazioni seguenti:
     

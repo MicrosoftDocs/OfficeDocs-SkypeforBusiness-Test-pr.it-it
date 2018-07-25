@@ -23,25 +23,17 @@ Se l'ereditarietà delle autorizzazioni è disabilitata o le autorizzazioni degl
 
 Se nell'organizzazione vengono utilizzate unità organizzative anziché i tre contenitori predefiniti, ovvero Utenti, Computer e Controller di dominio, sarà necessario concedere al gruppo Authenticated Users l'accesso in lettura alle unità organizzative. L'accesso in lettura ai contenitori è necessario per la preparazione del dominio. Se il gruppo Utenti autenticati non dispone di accesso in lettura all'unità organizzativa, eseguire il cmdlet **Grant-CsOuPermission** come illustrato negli esempi di codice seguenti per concedere l'autorizzazione di lettura per ogni unità organizzativa.
 
-    Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
-
-    Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+```
+Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
+```
+```
+Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+```
 
 Per informazioni dettagliate sul cmdlet **Grant-CsOuPermission**, vedere la documentazione relativa a Lync Server Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Per ulteriori informazioni sulle voci di controllo di accesso create nella radice del dominio e nei contenitori degli utenti, dei computer e dei controller di dominio, vedere <a href="lync-server-2013-changes-made-by-domain-preparation.md">Modifiche apportate durante la preparazione del dominio in Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Per ulteriori informazioni sulle voci di controllo di accesso create nella radice del dominio e nei contenitori degli utenti, dei computer e dei controller di dominio, vedere <a href="lync-server-2013-changes-made-by-domain-preparation.md">Modifiche apportate durante la preparazione del dominio in Lync Server 2013</a>.
 
 ## Argomenti della sezione
 

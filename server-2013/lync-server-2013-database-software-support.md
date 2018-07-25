@@ -39,43 +39,21 @@ Lync Server 2013 supporta i sistemi di gestione di database seguenti:
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Lync Server 2013 non supporta l'edizione a 32 bit di SQL Server. È necessario utilizzare l'edizione a 64 bit.</p></li>
-<li><p>SQL Server Web Edition e SQL Server Workgroup Edition nono sono supportati e non è possibile utilizzarli con Lync Server 2013.</p></li>
-<li><p>Lync Server 2013 supporta il mirroring di database nativi.</p></li>
-<li><p>Per utilizzare il ruolo Monitoring Server, è necessario installare SQL Server Reporting Services.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> <ul>
+> <li><p>Lync Server 2013 non supporta l'edizione a 32 bit di SQL Server. È necessario utilizzare l'edizione a 64 bit.</p></li>
+> <li><p>SQL Server Web Edition e SQL Server Workgroup Edition nono sono supportati e non è possibile utilizzarli con Lync Server 2013.</p></li>
+> 
+> <li><p>Lync Server 2013 supporta il mirroring di database nativi.</p></li>
+> 
+> 
+> <li><p>Per utilizzare il ruolo Monitoring Server, è necessario installare SQL Server Reporting Services.</p></li></ul>
 
 
 In un pool Front End, il database back-end può essere un singolo computer SQL Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Se i database di Lync Server vengono installati nella stessa posizione di altri database, è consigliabile valutare tutti i fattori che potrebbero influire su disponibilità e prestazioni, oltre ad assicurarsi che, in caso di errore di un nodo, il nodo rimanente sia in grado di gestire il carico. Per verificare le funzionalità di failover, è consigliabile testare tutti i possibili scenari.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Se i database di Lync Server vengono installati nella stessa posizione di altri database, è consigliabile valutare tutti i fattori che potrebbero influire su disponibilità e prestazioni, oltre ad assicurarsi che, in caso di errore di un nodo, il nodo rimanente sia in grado di gestire il carico. Per verificare le funzionalità di failover, è consigliabile testare tutti i possibili scenari.
 
 ## Uso del mirroring e del clustering SQL
 

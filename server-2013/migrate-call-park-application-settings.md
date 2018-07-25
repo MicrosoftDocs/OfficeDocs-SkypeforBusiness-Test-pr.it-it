@@ -17,9 +17,12 @@ _**Ultima modifica dell'argomento:** 2012-10-19_
 
 La migrazione dell'applicazione Parcheggio chiamata da Lync Server 2010 a Lync Server 2013 include il provisioning del pool di Lync Server 2013 con eventuali file di musica di attesa personalizzati caricati in Lync Server 2010, il ripristino delle impostazioni di livello di servizio e il reindirizzamento di tutti i codici orbit di Parcheggio chiamata al pool di Lync Server 2013. Se i file di musica di attesa personalizzati sono stati configurati nel pool di Lync Server 2010, devono essere copiati nel nuovo pool di Lync Server 2013. È inoltre consigliabile eseguire il backup dei file di musica di attesa personalizzati di Parcheggio chiamata da Lync Server 2010 in un'altra destinazione per conservare una copia di backup separata di qualsiasi file di musica di attesa personalizzato caricato per Parcheggio chiamata. I file di musica di attesa personalizzati per l'applicazione Parcheggio chiamata sono archiviati nell'archivio file del pool. Per copiare i file audio da un archivio file del pool di Lync Server 2010 in un archivio file di Lync Server 2013, utilizzare il comando **Xcopy** con i parametri seguenti:
 
-    Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
-
-    Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
+Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
+```
+```
+Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
 
 Quando tutti i file audio personalizzati sono stati copiati nell'archivio file di Lync Server 2013, è necessario configurare le impostazioni dell'applicazione Parcheggio chiamata del pool di Lync Server 2013 e riassegnare al pool di Lync Server 2013 gli intervalli di codici orbit di Parcheggio chiamata associati al pool di Lync Server 2010.
 

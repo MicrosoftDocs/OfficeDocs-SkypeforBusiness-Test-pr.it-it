@@ -17,35 +17,13 @@ _**Ultima modifica dell'argomento:** 2012-09-29_
 
 È possibile spostare gli utenti nella nuova distribuzione di Lync Server 2013 mediante il Pannello di controllo di Lync Server o Lync Server Management Shell. Per garantire una transizione senza problemi in Lync Server 2013, devono essere soddisfatti alcuni requisiti. Per informazioni dettagliate sui prerequisiti per eseguire le procedure descritte in questo argomento, vedere [Configurare i client per la migrazione](configure-clients-for-migration.md). informazioni dettagliate sullo spostamento degli utenti, vedere [Fase 4: spostare gli utenti di prova nel pool pilota](phase-4-move-test-users-to-the-pilot-pool.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Non è possibile utilizzare lo snap-in Utenti e computer di Active Directory o gli strumenti di amministrazione di Lync Server 2010 per spostare gli utenti dall'ambiente legacy a Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Non è possibile utilizzare lo snap-in Utenti e computer di Active Directory o gli strumenti di amministrazione di Lync Server 2010 per spostare gli utenti dall'ambiente legacy a Lync Server 2013.
 
 Quando si sposta un utente in un pool di Lync Server 2013, i dati dell'utente vengono spostati nel database back-end associato al nuovo pool.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>In questi dati sono incluse le riunioni attive create dall'utente legacy. Se ad esempio un utente legacy ha configurato una conferenza <strong>riunione personale</strong> , tale conferenza sarà ancora disponibile nel nuovo pool di Lync Server 2013 dopo lo spostamento dell'utente. I dettagli per accedere alla riunione saranno lo stesso   URL e lo stesso ID conferenza. L'unica differenza è costituita dal fatto che la conferenza ora è ospitata nel pool di Lync Server 2013 e non nel pool di Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> In questi dati sono incluse le riunioni attive create dall'utente legacy. Se ad esempio un utente legacy ha configurato una conferenza <strong>riunione personale</strong> , tale conferenza sarà ancora disponibile nel nuovo pool di Lync Server 2013 dopo lo spostamento dell'utente. I dettagli per accedere alla riunione saranno lo stesso   URL e lo stesso ID conferenza. L'unica differenza è costituita dal fatto che la conferenza ora è ospitata nel pool di Lync Server 2013 e non nel pool di Lync Server 2010.
 
 
 > [!NOTE]

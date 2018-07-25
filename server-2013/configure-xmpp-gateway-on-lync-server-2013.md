@@ -17,37 +17,15 @@ _**Ultima modifica dell'argomento:** 2013-10-28_
 
 Le ultime operazioni per la migrazione del gateway XMPP consistono nel configurare i certificati per il server perimetrale Lync Server 2013, distribuire il gateway XMPP di Lync Server 2013 e aggiornare i record DNS per il gateway XMPP. Queste operazioni devono essere eseguite in parallelo per ridurre al minimo il tempo di inattività del gateway XMPP. Prima di procedere con queste operazioni, è necessario spostare tutti gli utenti nella distribuzione di Microsoft Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La federazione XMPP non è supportata per gli utenti ospitati in Survivable Branch Appliance. Lo stesso vale per la visualizzazione di informazioni sulla presenza e lo scambio di messaggi istantanei.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La federazione XMPP non è supportata per gli utenti ospitati in Survivable Branch Appliance. Lo stesso vale per la visualizzazione di informazioni sulla presenza e lo scambio di messaggi istantanei.
 
 ## Configurare i certificati del gateway XMPP nel server perimetrale Lync Server 2013
 
 1.  Nel server perimetrale fare clic su **Riesegui** nella Distribuzione guidata accanto a **Passaggio 3: Richiesta, installazione o assegnazione dei certificati** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.
 
 2.  Nella pagina **Attività certificato disponibili** fare clic su **Crea una nuova richiesta di certificato** .
 
@@ -77,19 +55,8 @@ Le ultime operazioni per la migrazione del gateway XMPP consistono nel configura
 
 12. Nella pagina **Configura nomi alternativi soggetto aggiuntivi** specificare eventuali nomi alternativi del soggetto aggiuntivi necessari.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398201.tip(OCS.15).gif" title="tip" alt="tip" />Suggerimento:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.
 
 13. Nella pagina **Riepilogo richiesta** esaminare le informazioni sul certificato da utilizzare per generare la richiesta.
 
@@ -101,9 +68,12 @@ Le ultime operazioni per la migrazione del gateway XMPP consistono nel configura
 
 17. Dopo aver ricevuto, importato e assegnato il certificato pubblico, è necessario arrestare e riavviare i servizi del server perimetrale. A tale scopo, digitare quanto segue nella console di gestione di Lync Server:
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurare un nuovo gateway XMPP di Lync Server 2013
 

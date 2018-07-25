@@ -17,19 +17,8 @@ _**Ultima modifica dell'argomento:** 2013-11-07_
 
 Prima di iniziare la progettazione e la pianificazione dell'infrastruttura di Lync Server 2013 con Microsoft Lync Server 2013, Strumento di pianificazione, è necessario installare lo Strumento di pianificazione. Non è necessario distribuire lo Strumento di pianificazione in una workstation o in un server che fa parte del dominio o dell'infrastruttura in cui si prevede di installare Lync Server 2013. Nel file Leggimi fornito con Strumento di pianificazione vengono fornite informazioni importanti sull'installazione e l'utilizzo dello strumento. Alcune delle informazioni contenute nel file Leggimi vengono riportate in questo argomento per maggiore chiarezza.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L'installazione di Strumento di pianificazione in un computer deve essere eseguita da un utente che dispone di diritti e autorizzazioni di amministratore in tale computer.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> L'installazione di Strumento di pianificazione in un computer deve essere eseguita da un utente che dispone di diritti e autorizzazioni di amministratore in tale computer.
 
 I sistemi operativi supportati per l'installazione e il funzionamento dello Strumento di pianificazione sono i seguenti:
 

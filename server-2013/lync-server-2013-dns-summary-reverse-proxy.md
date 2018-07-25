@@ -63,18 +63,9 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 <td><p>Listener assegnato per risorse pubblicate esternamente</p></td>
 <td><p>Servizi Web esterni per i Director o i pool di Server Director all'interno della distribuzione. È possibile definire qualsiasi numero di Director perché si tratta di Director distinti, associabili ad altri domini SIP.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La definizione dei record DNS e la pubblicazione dei Director non è una decisione che spetta al pool Front End né al Server Director. Se si usano i Director, è necessario definire e pubblicare sia il Server Director che i servizi Web esterni del pool Front End. Tipi di traffico specifici (per l'autenticazione e altri usi) verranno inviati prima al Server Director, se definito nella topologia.</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]
+> La definizione dei record DNS e la pubblicazione dei Director non è una decisione che spetta al pool Front End né al Server Director. Se si usano i Director, è necessario definire e pubblicare sia il Server Director che i servizi Web esterni del pool Front End. Tipi di traffico specifici (per l'autenticazione e altri usi) verranno inviati prima al Server Director, se definito nella topologia.
 
 </div></td>
 </tr>

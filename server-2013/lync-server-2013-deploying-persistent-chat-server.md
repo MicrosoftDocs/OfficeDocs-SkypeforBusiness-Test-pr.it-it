@@ -31,19 +31,8 @@ Il server Chat persistente è disponibile con Lync Server 2013Enterprise Edition
 
 Per informazioni dettagliate sule configurazioni di collocazione supportate, vedere [Collocazione di server supportata in Lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La disponibilità elevata non è supportata per server Chat persistenteStandard Edition. Prestazioni e scalabilità saranno limitate, Sono inoltre supportati solo server Chat persistenteserver Standard Edition nuovi. Non è supportato l'aggiornamento da Lync Server 2010, Group Chat Server a un server Chat persistente di Lync Server 2013Standard Edition.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La disponibilità elevata non è supportata per server Chat persistenteStandard Edition. Prestazioni e scalabilità saranno limitate, Sono inoltre supportati solo server Chat persistenteserver Standard Edition nuovi. Non è supportato l'aggiornamento da Lync Server 2010, Group Chat Server a un server Chat persistente di Lync Server 2013Standard Edition.
 
 Se l'organizzazione richiede il supporto della conformità, è possibile installare il servizio di conformità del server Chat persistente nel server Chat persistenteFront End Server. Per la conformità è necessario un database separato.
 
@@ -59,19 +48,8 @@ Un singolo server Chat persistenteFront End Server può supportare 20.000 utenti
 
 server Chat persistente è inoltre supportato in un server virtuale. Quest'ultimo può supportare fino a 20.000 utenti se ha le stesse specifiche del server fisico.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412908.important(OCS.15).gif" title="important" alt="important" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>È necessario installare server Chat persistente in un file system NTFS per garantire un livello adeguato di sicurezza del file system. Il file system FAT32 non è supportato per server Chat persistente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> È necessario installare server Chat persistente in un file system NTFS per garantire un livello adeguato di sicurezza del file system. Il file system FAT32 non è supportato per server Chat persistente.
 
 ## Contenuto della sezione
 
