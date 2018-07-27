@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2012-09-08_
 
-> [!important]  
+> [!IMPORTANT]  
 > Quando si esegue la Configurazione guidata certificati, verificare di aver effettuato l'accesso con un account membro di un gruppo che dispone delle autorizzazioni appropriate per il tipo di modello di certificato da utilizzare. Per impostazione predefinita, per una richiesta di certificato di Lync Server viene utilizzato il modello di certificato WebServer. Se per la richiesta di un certificato con questo modello si utilizza un account membro del gruppo RTCUniversalServerAdmins, verificare che al gruppo siano state assegnate le autorizzazioni di registrazione necessarie per l'utilizzo del modello.
 
 Per ogni server perimetrale è necessario un certificato pubblico nell'interfaccia tra la rete perimetrale e Internet e il nome alternativo soggetto del certificato deve contenere i nomi esterni dei nomi di dominio completi (FQDN) del servizio Access Edge e del servizio Web Conferencing Edge.
@@ -162,7 +162,7 @@ Se si decide di utilizzare la console MMC (Microsoft Management Console) Certifi
 
 6.  Fare doppio clic su **Certificati (computer locale)** per espandere gli archivi di certificati, fare doppio clic su **Personale** e quindi doppio clic su **Certificati** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se nell'archivio personale dei certificati non sono presenti certificati per il computer locale, al certificato importato non è associata alcuna chiave privata. Rivedere i passaggi della richiesta e dell'impostazione. Se il problema persiste, rivolgersi all'amministratore o al provider dell'autorità di certificazione.
 
 7.  Nell'archivio dei certificati personali per il computer locale fare clic con il pulsante destro del mouse sul certificato da esportare, scegliere **Tutte le attività** e quindi fare clic su **Esporta** .

@@ -41,7 +41,7 @@ Con il comando seguente ad esempio si imposta l'intervallo su tre minuti.
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
-> [!important]  
+> [!IMPORTANT]  
 > Benché sia possibile utilizzare questo cmdlet per modificare l'intervallo di sincronizzazione predefinito per il servizio di backup, non è consigliabile modificare questo valore a meno che non sia assolutamente necessario, poiché l'intervallo di sincronizzazione ha un effetto significativo sulle prestazioni e sull''obiettivo in termini di punto di ripristino (RPO, Recovery Point Objective) del servizio di backup.
 
 ## Per ottenere lo stato del servizio di backup per un pool specifico

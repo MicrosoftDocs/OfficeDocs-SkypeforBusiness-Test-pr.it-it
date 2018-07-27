@@ -60,7 +60,7 @@ Dopo aver completato l'installazione di Lync Server 2013, Strumento di pianifica
 
 10. Modificare le selezioni per la collaborazione online, gli utenti, le funzionalità voce, altre opzioni di distribuzione o applicazioni server, se necessario.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > In questa fase della progettazione, è possibile selezionare o deselezionare solo queste opzioni per la distribuzione. È tuttavia possibile configurare altre opzioni in una fase successiva dello Strumento di pianificazione. Alcune opzioni non sono disponibili e non possono essere deselezionate. Inoltre, può essere necessario deselezionare un'opzione per deselezionarne un'altra. Se ad esempio si seleziona l'opzione <strong>VoIP aziendale</strong> in Voce, verranno deselezionate anche le opzioni <strong>Response Group</strong> , <strong>Annunci</strong> e <strong>Parcheggio di chiamata</strong> in Applicazioni server (tutte funzionalità di VoIP aziendale).
 
 11. Dopo aver definito il nome del sito e il numero di utenti, fare clic su **Avanti** .

@@ -37,7 +37,7 @@ In questo argomento vengono fornire informazioni dettagliate per la rimozione di
 
 4.  Espandere **Archivi SQL** , fare clic con il pulsante destro del mouse sul database di SQL Server associato a Standard Edition Front End Server e quindi scegliere **Elimina** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È necessario rimuovere la definizione dei database di SQL Server collocati da Standard Edition Front End Server.
 
 5.  Pubblicare la topologia, controllare lo stato di replica e quindi eseguire la Distribuzione guidata di Lync Server secondo le esigenze.

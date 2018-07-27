@@ -15,17 +15,17 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2012-09-24_
 
-I criteri *globali* di segreteria telefonica ospitata vengono installati con Lync Server 2013. È possibile modificarli in base a specifiche esigenze, ma non è possibile rinominarli né eliminarli. Per modificare i criteri globali, utilizzare il cmdlet set-cshostedvoicemailpolicy per impostare i parametri sui valori appropriati per la distribuzione.
+I criteri *globali* di segreteria telefonica ospitata vengono installati con Lync Server 2013. È possibile modificarli in base a specifiche esigenze, ma non è possibile rinominarli né eliminarli. Per modificare i criteri globali, utilizzare il cmdlet Set-CsHostedVoicemailPolicy per impostare i parametri sui valori appropriati per la distribuzione.
 
-Per informazioni dettagliate sul cmdlet [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), vedere la documentazione relativa a Lync Server Management Shell.
+Per informazioni dettagliate sul cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), vedere la documentazione relativa a Lync Server Management Shell.
 
 ## Per modificare i criteri globali di segreteria telefonica ospitata
 
 1.  Avviare Lync Server Management Shell: fare clic sul pulsante **Start**, scegliere **Tutti i programmi**, **Microsoft Lync Server 2013** e quindi **Lync Server Management Shell**.
 
-2.  Eseguire il cmdlet set-cshostedvoicemailpolicy per impostare i parametri dei criteri globali per l'ambiente. Ad esempio, eseguire:
+2.  Eseguire il cmdlet Set-CsHostedVoicemailPolicy per impostare i parametri dei criteri globali per l'ambiente. Ad esempio, eseguire:
     
-        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     Poiché questo comando non specifica il parametro Identity dei criteri, interfaccia della riga di comando Windows PowerShell imposta i valori seguenti nei criteri globali di segreteria telefonica ospitata:
     
@@ -40,5 +40,5 @@ Per informazioni dettagliate sul cmdlet [set-cshostedvoicemailpolicy](https://do
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        set-cshostedvoicemailpolicy -Organization $a.Organization
+        Set-CsHostedVoicemailPolicy -Organization $a.Organization
 

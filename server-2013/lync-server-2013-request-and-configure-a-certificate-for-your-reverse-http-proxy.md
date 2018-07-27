@@ -44,7 +44,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 <td><p>FQDN del pool</p></td>
 <td><p>webext.contoso.com</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Il nome soggetto deve essere presente anche nel nome alternativo soggetto.
 </div></td>
 </tr>
@@ -157,5 +157,5 @@ Per generare una richiesta di firma del certificato nel computer a cui verranno 
 
 20. Individuare il file della richiesta salvato al passaggio precedente. Inviarlo all'autorità di certificazione pubblica.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Microsoft ha identificato le autorità di certificazione pubbliche che soddisfano i requisiti per le comunicazioni unificate. Un elenco è disponibile nell'articolo della Knowledge Base disponibile all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>

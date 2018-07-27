@@ -25,7 +25,7 @@ Per impostazione predefinita, non vi sono criteri configurati per supportare l'a
 
   - **Criteri utente** È possibile creare e configurare uno o più criteri utente per limitare il supporto per l'accesso utente remoto a utenti specifici. La configurazione dei criteri utente ha la precedenza sui criteri globali e sui criteri sito, ma solo per gli utenti specifici a cui sono assegnati i criteri utente. Se, ad esempio, si abilita l'accesso utente remoto nei criteri globali e nei criteri sito, è possibile specificare criteri utente tramite cui viene disabilitato l'accesso utente remoto e quindi assegnare tali criteri a utenti specifici. Se si creano criteri utente, è necessario applicarli a uno o più utenti affinché diventino attivi.
 
-> [!important]  
+> [!IMPORTANT]  
 > Le impostazioni criteri di Lync Server applicate a un determinato livello di criteri possono sostituire le impostazioni applicate a un altro livello di criteri. La precedenza dei criteri di Lync Server è la seguente: i criteri utente (maggiore influenza) sostituiscono i criteri sito e i criteri sito sostituiscono i criteri globali (minore influenza). Ciò significa che maggiore è la prossimità dell'impostazione criteri all'oggetto su cui influiscono i criteri, maggiore è l'influenza su tale oggetto.
 
 Queste opzioni includono i tipi di accesso esterno seguenti:
@@ -44,7 +44,7 @@ Queste opzioni includono i tipi di accesso esterno seguenti:
 
   - **Abilita comunicazioni con utenti pubblici**    Abilitare questa opzione se si vuole consentire agli utenti interni di comunicare con i contatti dei provider di messaggistica istantanea pubblici, ad esempio quelli forniti da Windows Live, Yahoo\! e America Online (AOL).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>    
 > 

@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-09-17_
 
 Eseguire questa procedura se si desidera creare o modificare un numero di accesso per partecipare a una conferenza telefonica con accesso esterno.
 
-> [!important]  
+> [!IMPORTANT]  
 > Prima di creare un nuovo numero di accesso esterno, è necessario impostare per tale numero un'area di conferenza telefonica con accesso esterno associata al dial plan. Più dial plan possono utilizzare la stessa area.
 
 ## Per creare o modificare un numero di accesso esterno

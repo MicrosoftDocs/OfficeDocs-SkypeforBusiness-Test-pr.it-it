@@ -4195,8 +4195,8 @@
         - name: Cmdlet di Windows PowerShell per la gestione della rubrica
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: new-csaddressbookconfiguration per la gestione della rubrica
-            href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
+          - name: New-CsAddressBookConfiguration per la gestione della rubrica
+            href: lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration per la gestione della rubrica
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
           - name: Get-CsAddressBookConfiguration per la gestione della rubrica
@@ -4215,8 +4215,8 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService per la gestione della rubrica
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: new-cswebserviceconfiguration per la gestione della rubrica
-            href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
+          - name: New-CsWebServiceConfiguration per la gestione della rubrica
+            href: lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration per la gestione della rubrica
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
           - name: Set-CsWebServiceConfiguration per la gestione della rubrica

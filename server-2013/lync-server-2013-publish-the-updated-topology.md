@@ -31,5 +31,5 @@ Prima di pubblicare la topologia, installare i database per server Chat persiste
 
 5.  Nella pagina **Pubblicazione guidata completata** verificare che la topologia sia stata pubblicata correttamente e quindi fare clic su **Fine** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Dopo aver pubblicato la topologia, prima che sia possibile archiviare contenuto di qualsiasi tipo è necessario configurare il supporto per server Chat persistente.

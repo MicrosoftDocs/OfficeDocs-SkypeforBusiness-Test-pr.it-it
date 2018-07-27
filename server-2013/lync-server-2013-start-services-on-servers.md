@@ -27,5 +27,5 @@ Dopo aver installato l'archivio di configurazione locale nei server, installato 
 
 3.  Nella pagina **Esecuzione comandi in corso** dopo aver avviato correttamente tutti i servizi fare clic su **Fine** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il comando di avvio dei servizi sul server rappresenta il massimo sforzo per l'avvio effettivo dei servizi, ma potrebbe non riflettere lo stato effettivo del servizio. È consigliabile effettuare il passaggio <strong>Stato servizio (facoltativo)</strong> immediatamente dopo <strong>Avvia servizi</strong> per aprire Microsoft Management Console (MMC) e verificare che i servizi siano stati avviati correttamente. Se qualsiasi servizio di Lync Server non viene avviato, è possibile fare clic con il pulsante destro del mouse su tale servizio in MMC e quindi scegliere <strong>Avvia</strong> .

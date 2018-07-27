@@ -27,7 +27,7 @@ Grazie all'integrazione tra Lync Server e altri prodotti, quali Outlook e ShareP
 
 Tramite la messaggistica istantanea in Lync Server gli utenti possono scambiarsi rapidamente messaggi con informazioni tempestive. Se lo si desidera, è possibile consentire agli utenti di comunicare con utenti di reti di messaggistica istantanea pubbliche come MSN/Windows Live, Yahoo\! e AOL. Si noti che potrebbe essere necessaria una licenza separata per la connettività di messaggistica istantanea pubblica con Windows Live, Yahoo\! e AOL. Lync Server è inoltre compatibile con XMPP (Extensible Messaging and Presence Protocol), in modo che gli utenti possano scambiare messaggi istantanei e informazioni sulla presenza con utenti di servizi XMPP come Google Talk.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>
 > 

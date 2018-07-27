@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-01-21_
 
 Le regole dei criteri delle versioni client definiscono le azioni che dovrebbero essere eseguite quando gli utenti tentano di eseguire l'accesso con specifici client o versioni client. È possibile creare o modificare singole regole per un set di criteri delle versioni client dal Pannello di controllo di Lync Server 2013.
 
-> [!important]  
+> [!IMPORTANT]  
 > Le regole sono elencate in ordine di priorità. Se ad esempio si dispone di una regola che consente ai client che eseguono la versione 1.5 di connettersi, seguita da una regola che blocca i client che eseguono una versione precedente alla 2.0, la prima regola ha la precedenza e i client che eseguono la versione 1.5 possono connettersi.
 
 ## Per creare o modificare le regole dei criteri delle versioni client con il Pannello di controllo di Lync Server

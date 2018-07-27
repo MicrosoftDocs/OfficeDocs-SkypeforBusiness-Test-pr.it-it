@@ -47,7 +47,7 @@ Eseguire la procedura seguente per creare o modificare un criterio PIN per confe
 
 12. Per consentire schemi comuni di cifre nei PIN, ad esempio numeri progressivi o gruppi ripetuti di numeri, selezionare la casella di controllo **Consenti formati comuni** . Se non si seleziona questa opzione, saranno consentiti solo schemi complessi di cifre, come da impostazione predefinita.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È consigliabile evitare di consentire i formati comuni.
 
 13. Fare clic su **Commit** .

@@ -25,7 +25,7 @@ Oltre a creare un criterio globale, è possibile creare criteri di versione clie
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > I filtri sono elencati in ordine di priorità. Se ad esempio si dispone di un filtro che consente ai client che eseguono la versione 1.5 di connettersi, seguito da un filtro che blocca i client che eseguono una versione precedente alla 2.0, il primo filtro ha la precedenza e i client che eseguono la versione 1.5 possono connettersi.
 
 ## Per modificare i criteri versione client predefiniti

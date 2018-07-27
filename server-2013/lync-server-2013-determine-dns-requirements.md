@@ -17,14 +17,14 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 Utilizzare il diagramma di flusso seguente per determinare i requisiti DNS (Domain Name System). Quando pertinente, vengono segnalate le modifiche introdotte con gli aggiornamenti cumulativi per Lync Server 2013 di febbraio 2013.
 
-> [!important]  
+> [!IMPORTANT]  
 > Microsoft Lync Server 2013 supporta l'uso dell'assegnazione indirizzi IPv6. Per usare gli indirizzi IPv6 è inoltre necessario supportare DNS IPv6 e configurare i record AAAA (noti come “quadrupla A”) dell'host DNS. Nelle distribuzioni in cui si usano indirizzi sia IPv4 sia IPv6, è preferibile configurare e gestire sia i record A per IPv4 sia i record AAAA dell'host per IPv6. Anche se la distribuzione è passata interamente a IPv6, i record dell'host DNS IPv4 potrebbero essere comunque necessari per utenti esterni che usano ancora IPv4.
 
 **Diagramma di flusso Determinazione dei requisiti DNS**
 
 ![Diagramma di flusso dei requisiti DNS](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "Diagramma di flusso dei requisiti DNS")
 
-> [!important]  
+> [!IMPORTANT]  
 > Per impostazione predefinita, il nome di un computer non aggiunto a un dominio è un nome host, non un nome di dominio completo (FQDN). Generatore di topologie usa i nomi di dominio completi, non i nomi host, pertanto è necessario aggiungere un suffisso DNS al nome di ogni computer non aggiunto a un dominio da distribuire come server perimetrale. Quando si assegnano i nomi di dominio completi dei server Lync, dei server perimetrali e dei pool è consigliabile <strong>utilizzare solo i caratteri standard</strong> (inclusi i caratteri A-Z, a-z, 0-9 e i trattini). I caratteri non standard di un nome di dominio completo spesso non sono supportati nel sistema DNS esterno e nelle autorità di certificazione pubbliche (quando il nome di dominio completo deve essere assegnato al nome soggetto nel certificato). Per ulteriori informazioni, vedere <a href="lync-server-2013-configure-dns-host-records.md">Configurare i record host DNS per Lync Server 2013</a>.
 
 ## Modalità di individuazione dei servizi da parte dei client Lync
@@ -90,7 +90,7 @@ L'individuazione automatica è consigliabile rispetto all'individuazione manuale
 
 Il termine DNS split-brain ha varie definizioni, ad esempio DNS suddiviso o DNS split-horizon. Questo termine descrive semplicemente una configurazione in cui esistono due zone DNS con lo stesso spazio dei nomi, di cui una tuttavia serve solo richieste interne e l'altra solo richieste esterne. Tuttavia, molti record DNS SRV e A contenuti nel DNS interno non saranno contenuti nel DNS esterno e viceversa. Nei casi in cui lo stesso record DNS è presente sia nel DNS esterno che nel DNS esterno, ad esempio www.contoso.com, l'indirizzo IP restituito sarà diverso in base al punto in cui viene eseguita la query (interno o esterno).
 
-> [!important]  
+> [!IMPORTANT]  
 > Attualmente, il sistema DNS split-brain non è supportato per le funzionalità per dispositivi mobili e più nello specifico per i record DNS LyncDiscover e LyncDiscoverInternal. LyncDiscover deve essere definito su un server DNS esterno e LyncDiscoverInternal su un server DNS interno.
 
 Ai fini di questo argomento, verrà usato il termine DNS split-brain.

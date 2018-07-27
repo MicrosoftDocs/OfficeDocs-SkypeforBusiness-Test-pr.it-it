@@ -152,7 +152,7 @@ Per evitare problemi di routing, verificare che siano presenti almeno due schede
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner, condizione nota come &quot;domini SIP consentiti&quot;, nonché come federazione avanzata nelle versioni precedenti. Ripetere secondo le necessità per tutti i domini SIP con utenti abilitati per Lync.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Questo record SRV è necessario per il fornitore di servizi di accesso a terze parti per notifiche Push e dispositivi mobili.
 </div></td>
 </tr>

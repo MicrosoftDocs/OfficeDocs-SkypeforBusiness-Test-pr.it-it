@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-01-30_
 
 Per distribuire e gestire la risposta alle chiamate di gruppo, è necessario usare lo strumento SEFAUtil, incluso negli strumenti del Resource Kit di Lync Server 2013. Per potere installare SEFAUtil, innanzitutto necessario disporre di un pool di applicazioni attendibili nella topologia, specificare SEFAUtil come applicazione attendibile e abilitare la topologia.
 
-> [!important]  
+> [!IMPORTANT]  
 > È necessario che Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK sia installato nei computer in cui si prevede di eseguire lo strumento SEFAUtil.
 
 È possibile eseguire SEFAUtil in qualsiasi pool Front End nella distribuzione.

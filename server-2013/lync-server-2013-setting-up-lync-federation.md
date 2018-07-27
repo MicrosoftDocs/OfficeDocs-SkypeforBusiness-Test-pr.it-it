@@ -35,7 +35,7 @@ Se il server o i server perimetrali sono già stati distribuiti, l'aggiunta dell
 
 5.  In Installazione componenti di Lync Server fare clic su Avanti. Nella schermata di riepilogo verranno visualizzate le azioni in esecuzione. Al termine della distribuzione, fare clic su Visualizza log per visualizzare i file di log disponibili. Fare clic su Fine per completare la distribuzione.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È possibile selezionare questa opzione, tuttavia solo un pool di server perimetrali o un server perimetrale dell'organizzazione può essere pubblicato esternamente per la federazione. Tutto l'accesso da parte di utenti federati, inclusi gli utenti di messaggistica istantanea pubblica, passa per lo stesso pool di server perimetrali o server perimetrale singolo. Se, ad esempio, la distribuzione include un pool di server perimetrali o un singolo server perimetrale distribuito a New York e uno distribuito a Londra e si abilita il supporto per la federazione nel pool di server perimetrali o nel server perimetrale di New York, il traffico dei segnali per gli utenti federati passerà per il pool di server perimetrali o il singolo server perimetrale di New York. Ciò vale anche per le comunicazioni con gli utenti di Londra, anche se un utente interno di Londra che chiami un utente federato di Londra utilizzerà il pool o il server perimetrale di Londra per il traffico audio/video.
 
 ## Configurazione della federazione con i partner
@@ -103,7 +103,7 @@ Se il server o i server perimetrali sono già stati distribuiti, l'aggiunta dell
 > <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Creare o modificare provider federati SIP ospitati in Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Questo tipo di federazione definisce servizi e provider di hosting che si desidera configurare per gli utenti. Tra gli usi più comuni è inclusa la configurazione per i provider di servizi di messaggistica istantanea pubblici come Windows Live Messenger, Yahoo! e AOL, nonché provider di hosting come Lync Online e Office 365</p>
     <div class="alert">
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>    
 > 

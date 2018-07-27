@@ -44,7 +44,7 @@ Se il server back-end che ospita l'archivio di gestione centrale si trova in una
 
 3.  Se si desidera ripristinare un server Standard Edition, ripristinare l'Archivio file copiando l'Archivio file appropriato da $Backup nel percorso dell'Archivio file nel server e quindi condividere la cartella.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il percorso e il nome file dell'Archivio file ripristinato devono corrispondere esattamente a quelli dell'Archivio file di cui è stato eseguito il backup in modo che i componenti che utilizzano i file possano accedervi.
 
 4.  Eseguire una delle operazioni seguenti:

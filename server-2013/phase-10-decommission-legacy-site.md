@@ -17,10 +17,10 @@ _**Ultima modifica dell'argomento:** 2012-10-16_
 
 Negli argomenti seguenti vengono fornite informazioni per impostare i pool come non disponibili e per disattivare e rimuovere i server e i pool da una distribuzione legacy di Office Communications Server 2007 R2. Non tutte le procedure elencate in questa sezione sono obbligatorie. Leggere le informazioni in ognuno di questi argomenti per determinare quale procedura utilizzare per rimuovere la disponibilità.
 
-> [!Caution]  
+> [!CAUTION]  
 > Se in Lync Server 2013 sono state importate directory conferenze per conferenze con accesso esterno, è importante trasferire la proprietà di queste directory Lync Server 2013 prima di iniziare la rimozione dei pool. Se si rimuove un pool senza prima trasferire la proprietà delle directory conferenze, la funzionalità di accesso esterno non funzionerà più per tutte le riunioni spostate. È necessario eseguire il passaggio di trasferimento di proprietà una volta per ogni directory conferenze del pool legacy.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per informazioni sulla migrazione e l'aggiornamento delle applicazioni Microsoft Unified Communications Managed API (UCMA), prima della rimozione delle autorizzazione dell'ambiente legacy, vedere <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 ## Contenuto della sezione

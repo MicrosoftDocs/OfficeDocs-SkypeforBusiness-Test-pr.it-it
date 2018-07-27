@@ -31,7 +31,7 @@ Non è possibile eliminare i criteri globali. Se si tenta l'eliminazione, la con
 
 2.  Dal menu **Start** selezionare il Pannello di controllo di Lync Server oppure aprire una finestra del browser e quindi immettere l'URL di amministrazione. Per informazioni dettagliate sui diversi metodi utilizzabili per avviare il Pannello di controllo di Lync Server, vedere [Aprire gli strumenti di amministrazione di Lync Server](lync-server-2013-open-lync-server-administrative-tools.md) nella documentazione relativa alle operazioni.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È inoltre possibile utilizzare i cmdlet di Windows PowerShell. Per informazioni dettagliate, vedere <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurazione del server Chat persistente tramite i cmdlet di Windows PowerShell</a> nella documentazione relativa alla distribuzione.
 
 3.  In Pannello di controllo di Lync Server fare clic su **Chat persistente** e quindi su **Criteri Chat persistente**.

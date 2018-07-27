@@ -69,7 +69,7 @@ Se non si configura il filtro per messaggi istantanei in modo da filtrare gli UR
 
   - **Blocca URL con estensione di file**   Il filtro per messaggi istantanei blocca qualsiasi URL Intranet o Internet attivo contenente un file con un'estensione elencata in **Estensioni di file da bloccare** nella finestra di dialogo **Modifica filtro file**. Quando un URL viene bloccato, al mittente viene visualizzato un messaggio di errore. Se viene selezionata, questa opzione ha la precedenza su tutte le altre opzioni di filtro per le estensioni di file definite in **Estensioni di file da bloccare**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il filtro delle estensioni di file è limitato ai nomi file standard. Il filtro potrebbe non funzionare con estensioni di file incorporate in altri nomi.
 
 Per configurare la modalità con cui vengono gestiti i collegamenti ipertestuali nelle conversazioni istantanee, selezionare una delle opzioni seguenti in **Prefisso di collegamento ipertestuale**:
@@ -108,7 +108,7 @@ Il filtro per il trasferimento di file riguarda sia i messaggi istantanei che le
     
       - **Blocca tutto**   Il server rimuove tutti i messaggi istantanei contenenti richieste di trasferimento di file e restituisce un messaggio di errore al mittente della richiesta. La funzionalità relativa agli stampati del client Office Live Meeting 2007 sarà disabilitata.
 
-> [!important]  
+> [!IMPORTANT]  
 > Il filtro delle estensioni di file è limitato ai nomi file standard. Il filtro potrebbe non funzionare con estensioni di file incorporate in altri nomi.
 
 ## Contenuto della sezione

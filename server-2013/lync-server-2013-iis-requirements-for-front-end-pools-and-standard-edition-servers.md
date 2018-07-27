@@ -45,7 +45,7 @@ Inoltre, l'aggiornamento cumulativo di novembre 2011 del programma di installazi
 
 Per Lync Server, è necessario installare i moduli IIS seguenti:
 
-> [!important]  
+> [!IMPORTANT]  
 > Se l'organizzazione richiede che IIS e tutti i servizi Web vengano posizionati in un'unità diversa da quella di sistema, è possibile cambiare il percorso di installazione dei file di Lync Server nella finestra di dialogo del programma di installazione. Se i file del programma di installazione, incluso OCSCore.msi, vengono installati in questo percorso, anche gli altri file di Lync Server verranno distribuiti in questa unità. Per informazioni dettagliate su come spostare la directory INETPUB distribuita da Server Manager di Windows durante l'installazione di IIS, vedere <a href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</a>.
 
   - Contenuto statico

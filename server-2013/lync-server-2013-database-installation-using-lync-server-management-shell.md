@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2014-02-05_
 
 La separazione dei ruoli e delle responsabilità tra gli amministratori dei server e gli amministratori di SQL Server può causare ritardi nell'implementazione. In Lync Server 2013 viene utilizzato il controllo dell'accesso basato sui ruoli per attenuare queste difficoltà. In alcuni casi, l'amministratore di SQL Server deve gestire l'installazione dei database nel server basato su SQL Server al di fuori del controllo dell'accesso basato sui ruoli. Lync Server 2013 Management Shell consente all'amministratore di SQL Server di eseguire cmdlet di Windows PowerShell progettati per configurare i database con i file di dati e di log appropriati. Per informazioni dettagliate, vedere [Autorizzazioni di distribuzione per SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-> [!important]  
+> [!IMPORTANT]  
 > Nella procedura che segue si presuppone che siano stati installati almeno OCSCore.msi di Lync Server 2013, SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012 Management Objects, Microsoft SQL Server 2012 CLR Types e Microsoft SQL Server 2012 ADOMD.NET. OCSCore.msi si trova nel supporto di installazione nella directory \Setup\AMD64\Setup. Gli altri componenti si trovano in \Setup\amd64. Si presuppone inoltre che siano state completate le operazioni per la preparazione di Active Directory per Lync Server 2013.
 
 **Install-CsDatabase** è il cmdlet di Windows PowerShell utilizzato per installare i database. Il cmdlet **Install-CsDatabase** include un numero elevato di parametri, di cui solo alcuni verranno descritti in questa sezione. Per informazioni dettagliate sui parametri possibili, vedere la documentazione relativa a Lync Server 2013 Management Shell.
@@ -72,7 +72,7 @@ Per l'installazione dei database, **Install-CsDatabase** utilizza tre metodi pri
 
 2.  Eseguire l'accesso a un computer qualsiasi con le credenziali amministrative per la creazione dei database nel server basato su SQL Server. Vedere l'argomento [Autorizzazioni di distribuzione per SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Per poter configurare i database basati su SQL Server, verificare che l'account dell'amministratore di SQL Server utilizzato per eseguire i passaggi descritti in questo argomento sia anche un membro del gruppo sysadmins (o equivalente) sul server che esegue SQL Server e che abbia il ruolo server di gestione centrale. Queste informazioni sono estremamente importanti per gli eventuali pool di Lync Server 2013 aggiuntivi che richiedono l'installazione e la configurazione dei database di SQL Server. Se, ad esempio, si distribuisce un secondo pool (pool02) ma il ruolo server di gestione centrale è assegnato a pool01, il gruppo sysadmin di SQL Server (o equivalente) deve disporre delle autorizzazioni su entrambi i database basati su SQL Server.
 
 3.  Aprire Lync Server 2013 Management Shell, se non è già aperto.
@@ -99,7 +99,7 @@ Per l'installazione dei database, **Install-CsDatabase** utilizza tre metodi pri
 
 2.  Eseguire l'accesso a un computer qualsiasi con le credenziali amministrative per la creazione dei database nel server basato su SQL Server. Vedere l'argomento [Autorizzazioni di distribuzione per SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Per poter configurare i database basati su SQL Server, verificare che l'account dell'amministratore di SQL Server utilizzato per eseguire i passaggi descritti in questo argomento sia anche un membro del gruppo sysadmins (o equivalente) sul server che esegue SQL Server e che abbia il ruolo server di gestione centrale. Queste informazioni sono estremamente importanti per gli eventuali pool di Lync Server aggiuntivi che richiedono l'installazione e la configurazione dei database di SQL Server. Se, ad esempio, si distribuisce un secondo pool (pool02) ma il ruolo server di gestione centrale è assegnato a pool01, il gruppo sysadmin di SQL Server (o equivalente) deve disporre delle autorizzazioni su entrambi i database basati su SQL Server.
 
 3.  Aprire Lync Server Management Shell, se non è già aperto.

@@ -33,17 +33,17 @@ Prima di eseguire la migrazione dei Response Group, è necessario aver distribui
 
 Per eseguire la migrazione dei Response Group da un pool legacy a Lync Server 2013, eseguire il cmdlet **Move-CsRgsConfiguration**.
 
-> [!important]  
+> [!IMPORTANT]  
 > Il cmdlet di migrazione di Response Group sposta la configurazione di Response Group per l'intero pool. Non è possibile selezionare gruppi, code o flussi di lavoro specifici di cui eseguire la migrazione.
 
 Dopo aver eseguito la migrazione dei Response Group, è necessario utilizzare il Pannello di controllo di Lync Server o i cmdlet di Lync Server Management Shell per verificare che siano stati spostati tutti i gruppi di agenti, le code e i flussi di lavoro.
 
 Quando si esegue la migrazione dei Response Group, i Response Group di Lync Server 2010 non vengono rimossi. Quando si gestiscono i Response Group dopo la migrazione utilizzando il Pannello di controllo di Lync Server o Lync Server Management Shell, è possibile visualizzare sia quelli di Lync Server 2010 che quelli di Lync Server 2013. Gli aggiornamenti devono essere applicati esclusivamente ai Response Group di Lync Server 2013. I Response Group di Lync Server 2010 vengono mantenuti solo per scopi di rollback.
 
-> [!Caution]  
+> [!CAUTION]  
 > Al termine della migrazione e della creazione dei nuovi Response Group, nelle versioni Lync Server 2010 e Lync Server 2013 di ogni Response Group vengono visualizzati il Pannello di controllo di Lync Server e Lync Server Management Shell. Non usare Pannello di controllo di Lync Server o Lync Server Management Shell per rimuovere i Response Group di Lync Server 2010. In caso di rimozione di uno di essi, il Response Group corrispondente creato durante la migrazione smetterà di funzionare. I Response Group di Lync Server 2010 verranno rimossi quando verranno rimosse le autorizzazioni del pool di Lync Server 2010.
 
-> [!important]  
+> [!IMPORTANT]  
 > È consigliabile rimuovere i dati dalla distribuzione precedente solo dopo la rimozione del pool. È inoltre consigliabile esportare i Response Group subito dopo la migrazione. Se viene rimosso un Response Group di Lync Server 2010, è poi possibile ripristinare i Response Group dal backup per ripristinare il funzionamento dei Response Group di Lync Server 2013.
 
 In Lync Server 2013 è stata introdotta una nuova funzionalità dei Response Group denominata **Tipo di flusso di lavoro** . Il **Tipo di flusso di lavoro** può essere **Gestito** o **Non gestito** . Tutti i Response Group vengono migrati con il **Tipo di flusso di lavoro** impostato su **Non gestito** e con un elenco di responsabili vuoto.

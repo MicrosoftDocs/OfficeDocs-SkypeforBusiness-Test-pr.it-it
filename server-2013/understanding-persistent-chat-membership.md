@@ -25,7 +25,7 @@ Un amministratore di Chat persistente può creare e gestire categorie di chat ro
 
 server Chat persistente si basa su Active Directory per il pool di utenti Chat persistente interni. Dopo aver installato Chat persistente (client), è possibile aggiungere domini di utenti e gruppi di utenti alla categoria di chat room. È quindi possibile aggiungere questi utenti e gruppi all'appartenenza delle categorie di chat room.
 
-> [!important]  
+> [!IMPORTANT]  
 > È necessario assicurarsi che non vi siano nomi di utenti duplicati che desiderano apportare modifiche alle proprie chat room di Chat persistente. Se sono presenti nomi duplicati, modificarli per consentire agli utenti di apportare le modifiche. Se un utente ha nomi duplicati in Active Directory e tenta di apportare modifiche nelle chat room viene visualizzato un messaggio di errore che richiede all'utente di contattare l'amministratore.
 
 ## Funzionamento degli ambiti delle categorie

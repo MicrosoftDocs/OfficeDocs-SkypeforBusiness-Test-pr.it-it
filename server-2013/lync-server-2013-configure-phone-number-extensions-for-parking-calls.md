@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-09-10_
 
 L'applicazione Parcheggio di chiamata utilizza i numeri di interno nella tabella dei codici orbit di Parcheggio di chiamata per parcheggiare le chiamate. È necessario configurare la tabella dei codici orbit di Parcheggio di chiamata con gli intervalli di numeri di interno riservati dall'organizzazione alla chiamate parcheggiate. Questi interni devono essere virtuali (ovvero interni a cui non è assegnato alcun utente o telefono). Ogni pool Lync Server in cui viene distribuita e configurata un'applicazione Parcheggio di chiamata può avere uno o più intervalli di codici orbit. Gli intervalli di codici orbit devono essere univoci nell'intera distribuzione Lync Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per utilizzare il Parcheggio di chiamata, è necessario selezionare la casella di controllo <strong>Abilita parcheggio di chiamata</strong> nel criterio vocale. Per impostazione predefinita, questa opzione non è selezionata.
 
 ## Argomenti della sezione

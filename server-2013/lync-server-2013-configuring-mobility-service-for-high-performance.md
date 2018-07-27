@@ -31,7 +31,7 @@ Se si utilizza IIS 7.0, è consigliabile installare l'aggiornamento disponibile 
 
 La procedura seguente descrive come modificare il numero massimo di richieste simultanee e thread ASP.NET in IIS 7.0 se non si installa l'aggiornamento reso disponibile tramite l'articolo 2290617 della Knowledge Base. Anche se non si installa questo aggiornamento, è comunque possibile fare riferimento alla documentazione disponibile nell'articolo per applicare alcune modifiche solo ai pool di applicazioni di IIS interni ed esterni per la mobilità. In questo caso, si utilizza un file di configurazione separato per le impostazioni ASP.NET.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se si utilizza la procedura seguente per modificare i valori massimi, le modifiche influiscono su tutti i pool di applicazioni IIS.
 
 Per informazioni dettagliate sulla configurazione di queste impostazioni, vedere [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0x410](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0x410).

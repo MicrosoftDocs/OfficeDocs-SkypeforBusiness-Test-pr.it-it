@@ -19,7 +19,7 @@ Per distribuire il servizio E9-1-1, è innanzitutto necessario configurare una r
 
 
 > [!NOTE]
-> Per includere informazioni sulla posizione in un messaggio INVITE E9-1-1, è necessario configurare il trunk SIP per la connessione al provider di servizi E9-1-1 in modo che esegua il routing delle chiamate di emergenza attraverso il gateway. A tale scopo, impostare il flag EnablePIDFLOSupport nel cmdlet <STRONG>set-cstrunkconfiguration</STRONG> su True. Il valore predefinito per EnablePIDFLOSupport è False. Ad esempio: <CODE>set-cstrunkconfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Non è necessario abilitare la ricezione delle posizioni per i gateway PSTN (Public Switched Telephone Network) di fallback e i gateway ELIN (Emergency Location Identification Number).
+> Per includere informazioni sulla posizione in un messaggio INVITE E9-1-1, è necessario configurare il trunk SIP per la connessione al provider di servizi E9-1-1 in modo che esegua il routing delle chiamate di emergenza attraverso il gateway. A tale scopo, impostare il flag EnablePIDFLOSupport nel cmdlet <STRONG>Set-CsTrunkConfiguration</STRONG> su True. Il valore predefinito per EnablePIDFLOSupport è False. Ad esempio: <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Non è necessario abilitare la ricezione delle posizioni per i gateway PSTN (Public Switched Telephone Network) di fallback e i gateway ELIN (Emergency Location Identification Number).
 
 
 

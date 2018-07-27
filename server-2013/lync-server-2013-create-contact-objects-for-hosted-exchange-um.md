@@ -25,7 +25,7 @@ Per i dettagli sulla configurazione di oggetti contatto, vedere la documentazion
 
   - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-> [!important]  
+> [!IMPORTANT]  
 > Prima che sia possibile abilitare gli oggetti contatto di Lync Server 2013 per la messaggistica unificata di Exchange ospitata, è necessario distribuire criteri di segreteria telefonica ospitata applicabili a tali oggetti. Per informazioni dettagliate, vedere <a href="lync-server-2013-hosted-voice-mail-policies.md">Criteri di segreteria telefonica ospitata in Lync Server 2013</a>.
 
 ## Per creare oggetti contatto Operatore automatico o Accesso sottoscrittore per la messaggistica unificata di Exchange ospitata

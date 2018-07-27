@@ -23,7 +23,7 @@ Utilizzare la procedura seguente per creare o modificare un intervallo di numeri
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > All'intervallo di numeri per la risposta alle chiamate di gruppo deve essere assegnato il tipo GroupPickup. Gli utenti sono abilitati per la risposta alle chiamate di gruppo solo se il numero di gruppo a cui sono assegnati è di tipo GroupPickup.
 
 Gli intervalli di numeri per la risposta alle chiamate di gruppo devono rispettare le regole seguenti:
@@ -58,7 +58,7 @@ Gli intervalli di numeri per la risposta alle chiamate di gruppo devono rispetta
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Utilizzare questo cmdlet per modificare il tipo assegnato agli intervalli di numeri solo se il tipo inizialmente specificato non è corretto e l'intervallo di numeri non è ancora in uso. Se di cambia il tipo dell'intervallo di numeri da CallPark a GroupPickup o viceversa e l'intervallo di numeri è già in uso, il parcheggio di chiamata o la risposta alle chiamate di gruppo non funzionerà più per tale intervallo. Ad esempio, se si cambia il tipo di un intervallo di numeri da CallPark a GroupPickup, l'applicazione Parcheggio di chiamata non potrà più utilizzare l'intervallo di codici orbit per il parcheggio delle chiamate.
 
 ## Vedere anche

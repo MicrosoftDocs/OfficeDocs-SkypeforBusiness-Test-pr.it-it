@@ -19,13 +19,13 @@ La federazione è una relazione di trust tra due o più domini SIP che consente 
 
 Utilizzare le procedure seguenti per la transizione della route di federazione e della route del traffico di contenuto multimediale dal server perimetrale di Lync Server 2010 e dal server Director al server perimetrale di Lync Server 2013, per una distribuzione a singolo sito.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per modificare la route di federazione e la route del traffico multimediale, è necessario pianificare un intervallo di tempo di inattività per la manutenzione per i server perimetrali di Lync Server 2013 e Lync Server 2010. L'intero processo di transizione comporta inoltre la non disponibilità dell'accesso federato per tutta la durata dell'interruzione dei servizi. È consigliabile pianificare il tempo di inattività nel periodo di attività minima degli utenti e inviare una notifica agli utenti finali. Eseguire le pianificazioni tenendo conto di questo periodo di interruzione e definire previsioni appropriate nell'organizzazione.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se il server perimetrale legacy di Lync Server 2010 è configurato per l'uso dello stesso FQDN per il servizio Access Edge, il servizio Web Conferencing Edge e il servizio A/V Edge, le procedure in questa sezione non sono supportate. Se i servizi perimetrali legacy sono configurati per l'uso dello stesso FQDN, è necessario eseguire la migrazione di tutti gli utenti da Lync Server 2010 a Lync Server 2013, quindi la rimozione delle autorizzazioni del server perimetrale di Lync Server 2010 prima di abilitare la federazione nel server perimetrale di Lync Server 2013.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se la federazione XMPP è instradata attraverso un server perimetrale Lync Server 2013, gli utenti legacy di Lync Server 2010 non potranno comunicare con il partner federato XMPP finché tutti gli utenti non saranno stati spostati in Lync Server 2013, i certificati e i criteri XMPP non saranno stati configurati, il partner federato XMPP non sarà stato configurato in Lync Server 2013 e le voci DNS non saranno state aggiornate.
 
 ## Per rimuovere l'associazione di federazione legacy dai siti di Lync Server 2013

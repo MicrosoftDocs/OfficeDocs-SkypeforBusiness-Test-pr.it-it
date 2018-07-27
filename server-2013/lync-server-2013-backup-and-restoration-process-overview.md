@@ -29,7 +29,7 @@ In generale, il funzionamento del processo ripristino è il seguente:
 
   - In caso di errore o guasto, ripristinare i dati nel percorso a fui fa riferimento **$Backup** in un computer nuovo o pulito.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > I dati non vengono ripristinati in uno stato del server esistente, ovvero è necessario che il server sia pulito o nuovo.
 
   - Per consentire il recupero di informazioni utente o conferenza fino al punto di errore, è possibile implementare una topologia di ripristino di emergenza con pool Front End abbinati, come descritto in [Pianificazione per la disponibilità elevata e il ripristino di emergenza in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Oltre a questa opzione, Lync Server supporta solo il modello di recupero con registrazione minima per i database, che prevede il recupero fino al punto dell'ultimo backup completo. Non sarà quindi possibile ripristinare un database fino al punto di errore o fino a un punto specifico nel tempo. Il modello di recupero con registrazione minima risulta ottimale per molte organizzazioni, perché il database back-end di Lync Server (RTCXDS.mdf) ha in effetti dimensioni minori rispetto ai file di log delle transazioni e ha dimensioni significativamente minori rispetto a quelle delle applicazioni database line-of-business tipiche.

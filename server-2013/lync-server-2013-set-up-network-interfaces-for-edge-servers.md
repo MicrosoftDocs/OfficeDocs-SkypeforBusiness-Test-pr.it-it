@@ -24,7 +24,7 @@ Ogni Edge Server è un computer multihomed con interfacce rivolte verso l'estern
 
 1.  Installare due schede di rete per ogni Edge Server, una per l'interfaccia connessa alla rete interna e una per quella connessa alla rete esterna.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le subnet interna ed esterna non devono essere vicendevolmente instradabili.
 
 2.  Nell'interfaccia esterna configurare tre indirizzi IP statici nella subnet della rete perimetrale esterna, denominata anche DMZ o subnet schermata, e puntare il gateway predefinito all'interfaccia interna del firewall esterno. Configurare le impostazioni DNS della scheda in modo da puntare a una coppia di server DNS perimetrali.
@@ -43,7 +43,7 @@ Ogni Edge Server è un computer multihomed con interfacce rivolte verso l'estern
 
 1.  Installare due schede di rete per ogni Edge Server, una per l'interfaccia connessa alla rete interna e una per quella connessa alla rete esterna.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le subnet interna ed esterna non devono essere vicendevolmente instradabili.
 
 2.  Nell'interfaccia esterna configurare tre indirizzi IP statici nella subnet della rete perimetrale esterna. È inoltre possibile configurare il gateway predefinito nell'interfaccia esterna. Ad esempio, definire il router con connessione Internet o il firewall esterno come gateway predefinito. Configurare le impostazioni DNS in modo da puntare a un server DNS, preferibilmente a una coppia di server DNS esterni.

@@ -260,7 +260,7 @@ Per la preparazione per il servizio Controllo di ammissione di chiamata, raccogl
 
 6.  Per ogni subnet della rete, specificare il sito di rete associato.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Ogni subnet della rete deve essere associata a un sito di rete, anche se non vincolato dalla larghezza di banda, poiché il servizio Controllo di ammissione di chiamata utilizza le informazioni delle subnet per determinate il sito di rete in cui è posizionato un endpoint. Dopo che sono state determinate le posizioni in entrambe le parti della sessione, il servizio Controllo di ammissione di chiamata può determinare se la larghezza di banda è sufficiente per stabilire una chiamata. Quando viene stabilita una sessione su un collegamento senza limiti di larghezza di banda, viene generato un avviso.<br />    Se si distribuiscono Audio/Video Edge Server, gli indirizzi IP pubblici di ognuno di questi server deve essere associato al sito di rete in cui è distribuito il server. Ogni indirizzo IP pubblico dell'A/V Edge Server deve essere aggiunto alle impostazioni di configurazione di rete come subnet con subnet mask 32. Se ad esempio si distribuiscono A/V Edge Server nel sito di Chicago, creare per ogni indirizzo IP esterno di tali server una subnet con subnet mask 32 e associare il sito di rete Chicago a tali subnet. Per informazioni dettagliate sugli indirizzi IP pubblici, vedere <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinare i requisiti di porte e firewall A/V esterni per Lync Server 2013</a> nella documentazione relativa alla pianificazione.    
 
     > [!NOTE]

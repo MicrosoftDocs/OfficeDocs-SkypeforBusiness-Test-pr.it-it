@@ -42,5 +42,5 @@ Dopo aver creato un account Kerberos, è necessario assegnarlo a un sito. Questo
     > È necessario specificare il parametro UserAccount utilizzando il formato Dominio\Utente. Il formato Utente@Dominio.estensione non è supportato per fare riferimento agli oggetti computer creati per l'autenticazione Kerberos.
 
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Dopo aver apportato le necessarie modifiche all'autenticazione Kerberos, ad esempio l'aggiunta o la rimozione di un account, è necessario eseguire <strong>Enable-CsTopology</strong> dal prompt dei comandi di Lync Server Management Shell.

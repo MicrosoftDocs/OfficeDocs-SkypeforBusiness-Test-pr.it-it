@@ -35,5 +35,5 @@ Ogni volta che si utilizza Generatore di topologie per generare la topologia, è
     
       - Per chiudere la procedura guidata, fare clic su **Fine** .
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Se si tratta di una nuova installazione di un server perimetrale o di un pool di server perimetrali, sarà necessario esportare la configurazione del server perimetrale da un Front End Server, un pool Front End o un server Standard Edition esistente. Per esportare la configurazione, vedere <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Esportare la topologia di Lync Server 2013 e copiarla su supporto esterno per l'installazione perimetrale</a>. Il file di configurazione verrà importato dalla condivisione di rete o dal supporto esterno durante la fase di installazione e distribuzione dei server perimetrali mediante la Distribuzione guidata di Lync Server.<br />        Dopo che i server perimetrali sono operativi e che il database dell'archivio di gestione della configurazione locale viene replicato con la distribuzione interna, i successivi aggiornamenti apportati alla configurazione di Lync Server 2013 verranno pubblicati e replicati nei server perimetrali.

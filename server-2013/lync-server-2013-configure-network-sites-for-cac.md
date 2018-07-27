@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2012-09-05_
 
-> [!important]  
+> [!IMPORTANT]  
 > Se sono stati già creati siti di rete per il servizio per chiamate di emergenza (E9-1-1) o per il bypass multimediale, è possibile modificare i siti di rete esistenti per applicare un profilo di criteri di larghezza di banda utilizzando il cmdlet <strong>Set-CsNetworkSite</strong>. Per un esempio della modifica di un sito di rete, vedere <a href="lync-server-2013-create-or-modify-a-network-site.md">Creare o modificare un sito di rete in Lync Server 2013</a>.
 
 I *siti di rete* sono gli uffici o le postazioni in ogni area di rete delle distribuzioni del servizio Controllo di ammissione di chiamata (CAC), del servizio per chiamate di emergenza E9-1-1 e del bypass multimediale. Utilizzare le procedure seguenti per creare siti di rete da allineare ai siti di rete nella topologia di rete di esempio per il servizio Controllo di ammissione di chiamata. In queste procedure viene illustrato come creare e configurare siti di rete vincolati dalla larghezza di banda WAN che quindi richiedono criteri di larghezza di banda per limitare il flusso di traffico audio o video in tempo reale.

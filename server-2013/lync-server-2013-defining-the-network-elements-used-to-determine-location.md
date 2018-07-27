@@ -31,7 +31,7 @@ Gli elementi di rete sono elencati in ordine di precedenza. Se un client può es
 
 Nelle sezioni seguenti sono disponibili ulteriori dettagli sull'utilizzo di ciascun elemento di rete.
 
-> [!important]  
+> [!IMPORTANT]  
 > Quando si utilizzano elementi di rete per eseguire il mapping dei chiamanti alle località, è di primaria importanza che il database di servizio Informazioni percorso sia aggiornato. Ad esempio, se si aggiunge o modifica un elemento di rete, ad esempio se si aggiunge un punto di accesso wireless, è necessario eliminare la voce esistente e aggiungere la nuova nel database delle località.
 
 ## Punto di accesso wireless

@@ -47,12 +47,12 @@ In questo argomento vengono descritti i passaggi necessari per definire e pubbli
     
     2.  Per creare una nuova condivisione file, fare clic su **Definisci nuova condivisione file** , digitare l'FQDN del percorso della condivisione file in **FQDN file server** , digitare il nome della condivisione in **Condivisione file** e quindi fare clic su **Avanti** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > La condivisione file specificata o creata in questo passaggio deve esistere o essere creata prima della pubblicazione della topologia.<br />    La condivisione file assegnata a un Director non viene usata effettivamente, pertanto è possibile assegnare la condivisione file di qualsiasi pool nell'organizzazione.
 
 7.  Nella finestra di dialogo **Specificare l'URL dei servizi Web** , in **URL di base esterno** , specificare l'FQDN dei Director e quindi fare clic su **Fine** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il nome deve essere risolvibile dai server DNS Internet e puntare all'indirizzo IP pubblico del proxy inverso, che resta in attesa delle richieste HTTP/HTTPS a tale URL e le trasmette tramite proxy alla directory virtuale dei servizi Web esterni in tale Director.    
 
     > [!WARNING]
@@ -90,12 +90,12 @@ In questo argomento vengono descritti i passaggi necessari per definire e pubbli
     
       - Per creare una nuova condivisione file, fare clic su **Definisci nuova condivisione file** , digitare l'FQDN del percorso della condivisione file in **FQDN file server** , digitare il nome della condivisione in **Condivisione file** e quindi fare clic su **Avanti** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > La condivisione file specificata o creata in questo passaggio deve esistere o essere creata prima della pubblicazione della topologia.<br />    La condivisione file assegnata a un Director non viene usata effettivamente, pertanto è possibile assegnare la condivisione file di qualsiasi pool nell'organizzazione.
 
 8.  Nella finestra di dialogo **Specificare l'URL dei servizi Web** , in **URL di base esterno** , specificare l'FQDN dei Director e quindi fare clic su **Fine** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il nome deve essere risolvibile dai server DNS Internet e puntare all'indirizzo IP pubblico del proxy inverso che è in attesa delle richieste HTTP/HTTPS inviate a tale URL e le trasmette mediante proxy alla directory virtuale dei Servizi Web esterni su tale pool di server Director.    
 
     > [!WARNING]

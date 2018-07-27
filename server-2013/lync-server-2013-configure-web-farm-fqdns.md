@@ -37,7 +37,7 @@ Quando si definisce la configurazione del server Standard Edition, del pool Fron
 
 6.  Fare clic con il pulsante destro del mouse su **Lync Server 2013** e quindi scegliere **Pubblica** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Al termine della pubblicazione, è possibile che venga visualizzato un collegamento in cui viene indicato che devono essere eseguiti passaggi aggiuntivi. Facendo clic sul collegamento viene visualizzato un elenco di server interessati dalle modifiche effettuate in Generatore di topologie e per i quali sarà necessario rieseguire la Distribuzione guidata di Lync Server per aggiornare la configurazione per i componenti aggiunti, rimossi o modificati.
 
 7.  Ripetere questi passaggi per tutti i server Standard Edition, i pool Front End, i Server Director o i pool di server Director all'interno dell'organizzazione.

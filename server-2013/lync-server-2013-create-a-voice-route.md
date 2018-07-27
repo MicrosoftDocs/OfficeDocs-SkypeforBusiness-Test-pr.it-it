@@ -79,7 +79,7 @@ Nella procedura seguente viene illustrato come creare una nuova route vocale uti
 
 14. Fare clic su **OK** per salvare la route vocale.
 
-> [!important]  
+> [!IMPORTANT]  
 > Ogni volta che si crea una route vocale, è necessario eseguire il comando <strong>Salva tutto</strong> per pubblicare la modifica apportata alla configurazione. Per informazioni dettagliate, vedere <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Pubblicare le modifiche in sospeso alla configurazione del routing vocale in Lync Server 2013</a>.
 
 ## Vedere anche

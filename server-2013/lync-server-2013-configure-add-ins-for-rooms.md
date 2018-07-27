@@ -25,7 +25,7 @@ I componenti aggiuntivi sono usati per ampliare l'esperienza all'interno della c
 
 2.  Fare clic sul pulsante **Start** e scegliere Pannello di controllo di Lync Server oppure aprire una finestra del browser e quindi immettere l'URL di amministrazione. Per informazioni dettagliate sui diversi metodi che è possibile utilizzare per avviare il Pannello di controllo di Lync Server, vedere [Aprire gli strumenti di amministrazione di Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È inoltre possibile usare i cmdlet di Windows PowerShell. Per informazioni dettagliate, vedere <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurazione del server Chat persistente tramite i cmdlet di Windows PowerShell</a> nella documentazione relativa alla distribuzione.
 
 3.  Sulla barra di spostamento sinistra fare clic su **Chat persistente** e quindi su **Componente aggiuntivo** .

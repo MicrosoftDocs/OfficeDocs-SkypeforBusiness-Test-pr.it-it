@@ -65,12 +65,12 @@ Per configurare la distribuzione di Lync Server 2013 per l'utilizzo ibrido con S
 
   - Microsoft Office Communications Server 2007 R2 con Lync Server 2013 in locale. È necessario che Lync Server 2013 con server perimetrale federativo e il server dell'hop successivo dal server perimetrale federativo eseguano Lync Server 2013 e che sia stato distribuito un Archivio di gestione centrale. Il server perimetrale e il pool devono essere distribuiti in locale.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Nonostante la topologia sia supportata, alcune funzionalità potrebbero essere limitate. È ad esempio possibile che le informazioni sulla presenza tra gli utenti di Microsoft Lync Online e gli utenti di Office Communications Server 2007 R2 in locale non funzionino nel modo previsto.
 
   - Microsoft Lync Server 2010 con aggiornamenti cumulativi per Lync Server 2010 di marzo 2013 (o aggiornamenti successivi) e gli strumenti amministrativi di Lync Server 2013 installati in locale. È necessario che il server perimetrale federativo e il server dell'hop successivo dal server perimetrale federativo eseguano Microsoft Lync Server 2010 con gli aggiornamenti cumulativi più recenti di marzo 2013 (o successivi) o Lync Server 2013.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Gli strumenti amministrativi di Lync Server 2013 devono essere installati in un server separato che può accedere e connettersi alla distribuzione esistente di Lync Server 2010. Il cmdlet Move-CsUser che consente di spostare utenti dalla distribuzione locale a Lync Online deve essere eseguito dagli strumenti amministrativi di Lync Server 2013 connessi alla distribuzione locale.
 
   - Una distribuzione di Lync Server 2013 con tutti i server che eseguono Lync Server 2013.
@@ -196,7 +196,7 @@ In una distribuzione ibrida di Lync Server 2013, è necessario innanzitutto crea
 
 Quando si sincronizzano gli account utente tra le distribuzioni di Lync locale e di Lync Online con ADFS e Dirsync, è necessario sincronizzare gli account di Active Directory per tutti gli utenti Lync nell'organizzazione tra le distribuzioni di Lync in locale e online, anche se gli utenti non vengono spostati in Lync Online. Se gli utenti non vengono sincronizzati, la comunicazione tra utenti locali e online nell'organizzazione potrebbe non funzionare come previsto.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se l'utente viene creato utilizzando il portale online per Office 365, l'account utente non verrà sincronizzato con Active Directory in locale e l'utente non esisterà in Active Directory in locale. Se sono già stati creati utenti in Lync Online e si desidera impostare una configurazione ibrida con Lync Server in locale, vedere <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Spostare gli utenti da Lync Online a Lync in locale in Lync Server 2013</a>.
 
 Durante la pianificazione di una distribuzione ibrida, è inoltre necessario prendere in considerazione le problematiche seguenti correlate agli utenti.

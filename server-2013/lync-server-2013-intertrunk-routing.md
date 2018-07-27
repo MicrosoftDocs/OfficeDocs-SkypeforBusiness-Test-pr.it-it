@@ -17,9 +17,9 @@ _**Ultima modifica dell'argomento:** 2012-10-20_
 
 Lync Server 2013 può interconnettere un sistema IP-PBX e un gateway PSTN (Public Switched Telephone Network) in modo che le chiamate da un telefono PBX possano essere instradate alla rete PSTN e le chiamate PSTN in arrivo possano essere instradate a un telefono PBX. Analogamente, Lync Server 2013 può interconnettere due o più sistemi IP-PBX in modo che sia possibile effettuare e ricevere chiamate tra i telefoni PBX dei diversi sistemi IP-PBX.
 
-Questa funzionalità di routing tra trunk può essere configurata utilizzando il cmdlet **set-cstrunkconfiguration** di Lync Server Management Shell con il nuovo parametro PstnUsages. Questo parametro specifica l'insieme di record di utilizzo PSTN da applicare. Un trunk si basa su questo utilizzo PSTN per determinare una route e per instradare tutte le chiamate in arrivo di conseguenza.
+Questa funzionalità di routing tra trunk può essere configurata utilizzando il cmdlet **Set-CsTrunkConfiguration** di Lync Server Management Shell con il nuovo parametro PstnUsages. Questo parametro specifica l'insieme di record di utilizzo PSTN da applicare. Un trunk si basa su questo utilizzo PSTN per determinare una route e per instradare tutte le chiamate in arrivo di conseguenza.
 
-    set-cstrunkconfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
+    Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
 Nella figura seguente viene illustrato Lync Server 2013 che interconnette un gateway PSTN e un sistema IP-PBX.
 

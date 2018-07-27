@@ -52,7 +52,7 @@ Di seguito sono elencate le decisioni da considerare:
     > Non sono necessarie altre configurazioni per UCWA. UCWA non dispone di una configurazione solo interna equivalente.
 
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se si utilizza un Front End Server o un pool Front End di Lync Server 2013 e <strong>non si dispone</strong> di Front End Server o pool Front End di Lync Server 2010, <strong>non vi sono requisiti relativi al salvataggio permanente dei cookie</strong>. Se è necessario mantenere Front End Server o pool Front End di Lync Server 2010, per il salvataggio permanente dei cookie si applicheranno le stesse regole valide in Lync Server 2010.
 
   - **Supporto delle notifiche push per dispositivi Apple iOS e Windows Phone**
@@ -61,7 +61,7 @@ Di seguito sono elencate le decisioni da considerare:
     
     Se si desidera supportare notifiche Push nella rete Wi-Fi, oltre a supportare le notifiche Push su reti dati o 3G dei provider di dispositivi mobili, è necessario aprire la porta 5223 in uscita nella rete Wi-Fi aziendale. Il supporto delle notifiche Push nella rete Wi-Fi consente di supportare dispositivi mobili che utilizzano solo Wi-Fi e quelli con una ricezione di scarsa qualità in ambienti chiusi.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'apertura della porta TCP 5223 è necessaria solo quando si supportano dispositivi Apple che eseguono il client Lync 2010 Mobile.    
     Se non si supportano le notifiche Push, gli utenti di dispositivi mobili Apple e di Windows Phone non riceveranno informazioni sugli eventi che si verificano quando l'applicazione mobile è inattiva, come inviti di messaggistica istantanea o messaggi persi.
     

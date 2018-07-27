@@ -67,7 +67,7 @@ L'utilizzo del bilanciamento del carico DNS nei server perimetrali comporta una 
 
   - Scambio di messaggi istantanei con utenti di servizi di messaggistica istantanea pubblica, ad esempio AOL e Yahoo\!, oltre ai server e ai provider basati su XMPP, come Google Talk.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > 
 > <li><p>Google Talk è attualmente l'unico partner XMPP supportato.</p></li>    

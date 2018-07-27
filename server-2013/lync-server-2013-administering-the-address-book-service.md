@@ -309,5 +309,5 @@ Dopo aver modificato la tabella AbAttribute, è possibile aggiornare i dati nell
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Se l'infrastruttura è stata consolidata o modificata in altro modo da una distribuzione a più foreste o padre/figlio (ad esempio in caso di consolidamento dell'infrastruttura prima di passare a Lync Server), il download del servizio Rubrica e le query Web sulla Rubrica potrebbero non riuscire per alcuni utenti. In una distribuzione con più domini o foreste, l'attributo <strong>MsRTCSIP-OriginatorSid</strong> viene popolato negli oggetti utente in cui si presenta il problema. Per risolvere il problema, l'attributo <strong>MsRTCSIP-OriginatorSid</strong> deve essere impostato su NULL in questi oggetti.

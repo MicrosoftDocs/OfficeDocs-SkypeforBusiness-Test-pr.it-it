@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2012-09-08_
 
-> [!important]  
+> [!IMPORTANT]  
 > Quando si esegue la Configurazione guidata certificati, verificare di aver effettuato l'accesso con un account membro di un gruppo che dispone delle autorizzazioni appropriate per il tipo di modello di certificato da utilizzare. Per impostazione predefinita, per una richiesta di certificato di Lync Server 2013 viene utilizzato il modello di certificato WebServer. Se per la richiesta di un certificato con questo modello si utilizza un account membro del gruppo RTCUniversalServerAdmins, verificare che al gruppo siano state assegnate le autorizzazioni di registrazione necessarie per l'utilizzo del modello.
 
 Ogni director richiede un certificato predefinito, un certificato Web interno e un certificato Web esterno. Per informazioni dettagliate sui requisiti dei certificati per i director, vedere [Requisiti dei certificati per i server interni in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) nella documentazione relativa alla pianificazione.

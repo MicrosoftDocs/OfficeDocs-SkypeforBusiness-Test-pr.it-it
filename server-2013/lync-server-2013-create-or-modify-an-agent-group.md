@@ -23,7 +23,7 @@ Utilizzare una delle procedure seguenti per creare o modificare un gruppo di age
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Quando si assegnano utenti come agenti dei Response Group, informarli che, se la modalità Privacy è abilitata, devono cercare i contatti &quot;RGS Presence Watcher&quot; e aggiungerli all'elenco dei contatti. Gli agenti con la modalità Privacy abilitata ma senza &quot;RGS Presence Watcher&quot; nell'elenco dei contatti non possono infatti ricevere chiamate al Response Group. Questa operazione non riguarda gli agenti con la modalità Privacy disabilitata.
 
 ## Per utilizzare Pannello di controllo di Lync Server per creare o modificare un gruppo di agenti
@@ -58,7 +58,7 @@ Utilizzare una delle procedure seguenti per creare o modificare un gruppo di age
 
 8.  In **Tempo per avviso (secondi)** specificare il numero di secondi per l'invio di uno squillo a un agente prima che la chiamata venga inoltrata al successivo agente disponibile (il valore predefinito è 20 secondi).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'impostazione del tempo per l'invio di un avviso all'agente non può essere superiore a 180 secondi. Se il tempo per l'invio di un avviso all'agente supera i 180 secondi, l'applicazione client respinge la chiamata perché il timer delle transazioni SIP avrà raggiunto il massimo tempo di attesa consentito.
 
 9.  In **Metodo di routing** selezionare il metodo per il routing delle chiamate agli agenti del gruppo, nel modo seguente:
@@ -95,7 +95,7 @@ Utilizzare una delle procedure seguenti per creare o modificare un gruppo di age
         
           - Se la lista di distribuzione contiene degli utenti per cui Lync Server 2010 è abilitato ma VoIP aziendale non è abilitato, tali utenti verranno aggiunti al gruppo di agenti come agenti non funzionali. Assicurarsi che VoIP aziendale sia abilitato per gli account utente di tutti i membri della lista di distribuzione.
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Se si utilizza una lista di distribuzione di posta elettronica, le appartenenze nascoste o gli elenchi nascosti potrebbero diventare visibili per l'amministratore o gli utenti di Response Group.        
         Per rendere visibili le appartenenze nascoste o gli elenchi nascosti, procedere nel modo seguente:
         
@@ -119,7 +119,7 @@ Utilizzare una delle procedure seguenti per creare o modificare un gruppo di age
     
         New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'impostazione del tempo per l'invio di un avviso all'agente non può essere superiore a 180 secondi. Se il tempo per l'invio di un avviso all'agente supera i 180 secondi, l'applicazione client respinge la chiamata perché il timer delle transazioni SIP avrà raggiunto il tempo massimo di attesa consentito.
 
 4.  Verificare che il gruppo di agenti sia stato creato. Eseguire:

@@ -53,7 +53,7 @@ Per informazioni dettagliate sulle attività di distribuzione che è possibile e
 
 Il Pannello di controllo di Lync Server viene installato automaticamente su ogni Front End Server o server Standard Edition di Lync Server. In questa versione, i server perimetrali vengono amministrati in remoto. È inoltre possibile installare il Pannello di controllo di Lync Server su un altro computer, ad esempio una console di gestione da cui gestire in modo centralizzato Lync Server. Per informazioni dettagliate, vedere [Installare gli strumenti di amministrazione di Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > 
 > <li><p>Per configurare le impostazioni mediante il Pannello di controllo di Lync Server, è necessario accedere con un account appartenente al ruolo CsAdministrator. Per informazioni dettagliate sui ruoli amministrativi predefiniti disponibili in Lync Server 2013, vedere <a href="lync-server-2013-planning-for-role-based-access-control.md">Pianificazione del controllo di accesso basato sui ruoli in Lync Server 2013</a>.</p></li>
@@ -70,7 +70,7 @@ In Lync Server, Lync Server Management Shell rappresenta un nuovo metodo di ammi
 
 Lo strumento di registrazione di Lync Server facilita la risoluzione dei problemi consentendo di acquisire informazioni di registrazione e traccia dal prodotto mentre è in esecuzione. È possibile utilizzarlo per eseguire sessioni di debug in qualsiasi ruolo server di Lync Server. Per informazioni dettagliate sullo strumento di registrazione, vedere la relativa documentazione nella libreria TechNet all'indirizzo [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).
 
-> [!important]  
+> [!IMPORTANT]  
 > Il servizio di registrazione centralizzato è la soluzione consigliata per tutte le raccolte di dati di registrazione rispetto allo strumento di registrazione di Lync Server in tutti i casi. Lo strumento di registrazione di Lync Server funzionerà comunque, ma interferirà o risulterà in gran parte inutile se il servizio di registrazione centralizzato è già in esecuzione. È necessario utilizzare solo il servizio di registrazione centralizzato o lo strumento di registrazione di Lync Server, ma mai entrambi gli strumenti in contemporanea. Per ulteriori informazioni sul servizio di registrazione centralizzato e sui motivi per cui deve essere utilizzato in modo esclusivo, vedere <a href="lync-server-2013-using-the-centralized-logging-service.md">Utilizzo del servizio di registrazione centralizzato</a>.
 
 ## Contenuto della sezione

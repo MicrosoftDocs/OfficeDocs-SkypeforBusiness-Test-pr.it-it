@@ -35,7 +35,7 @@ Dal Front End Server nella distribuzione di Lync Server 2013 aprire il Pannello 
 
 ![Finestra di dialogo Seleziona URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Finestra di dialogo Seleziona URL")
 
-> [!important]  
+> [!IMPORTANT]  
 > In Lync Server 2013 aggiornare Silverlight a Silverlight versione 5 prima di utilizzare il Pannello di controllo di Lync Server.
 
 Questa topologia ora include i ruoli server di Lync Server 2010 e Lync Server 2013.

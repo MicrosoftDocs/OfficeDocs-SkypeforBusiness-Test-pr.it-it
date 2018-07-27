@@ -71,5 +71,5 @@ Questi file possono essere quindi visualizzati usando Internet Explorer, Visual 
 
 Le transazioni sintetiche eseguite dall'interno di System Center Operations Manager genereranno automaticamente questi file di log in presenza di errori. I log, tuttavia, non verranno generati se l'esecuzione ha esito negativo prima che Windows PowerShell possa caricare ed eseguire la transazione sintetica.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per impostazione predefinita, Lync Server 2013 salva i file di log in una cartella non condivisa. Per rendere i log immediatamente accessibili, è necessario condividere la cartella, ad esempio \\atl-watcher-001.litwareinc.com\WatcherNode.

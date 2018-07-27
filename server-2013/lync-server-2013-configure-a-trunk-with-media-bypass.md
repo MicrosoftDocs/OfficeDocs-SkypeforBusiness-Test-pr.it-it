@@ -69,7 +69,7 @@ In una configurazione trunk come quella descritta di seguito viene raggruppato u
 
 7.  Selezionare la casella di controllo **Abilita bypass multimediale** se si desidera che gli elementi multimediali ignorino il Mediation Server per l'elaborazione da parte del trunk peer.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Per un corretto funzionamento del bypass multimediale, è necessario che il gateway PSTN, il sistema IP-PBX o il Session Border Controller supporti determinate funzionalità. Per informazioni dettagliate, vedere <a href="lync-server-2013-planning-for-media-bypass.md">Pianificazione del bypass multimediale in Lync Server 2013</a> nella documentazione relativa alla pianificazione.
 
 8.  Selezionare la casella di controllo **Elaborazione multimediale centralizzata** se esiste un punto di terminazione multimediale noto, ad esempio un gateway PSTN in cui la terminazione multimediale ha lo stesso IP della terminazione di segnalazione. Deselezionare la casella di controllo se il trunk non dispone di un punto di terminazione multimediale noto.
@@ -78,7 +78,7 @@ In una configurazione trunk come quella descritta di seguito viene raggruppato u
     
 
     > [!NOTE]
-    > Se si disabilita questa opzione mentre è selezionata l'opzione <STRONG>Abilita bypass multimediale</STRONG> saranno necessarie ulteriori impostazioni. Se il trunk peer non supporta la ricezione di richieste SIP REFER dal Mediation Server ed è abilitato il bypass multimediale, sarà inoltre necessario eseguire il cmdlet <STRONG>set-cstrunkconfiguration</STRONG> per disabilitare RTCP per le chiamate attive e in attesa in modo da supportare le condizioni appropriate per il bypass multimediale. Per informazioni dettagliate, vedere la documentazione di <A href="lync-server-2013-lync-server-management-shell.md">Lync Server Management Shell</A>.<BR>In alternativa, è possibile selezionare <STRONG>Abilita il riferimento usando il controllo delle chiamate di terze parti</STRONG> se si vuole applicare il bypass multimediale alle chiamate trasferite e il gateway non supporta richieste SIP REFER.
+    > Se si disabilita questa opzione mentre è selezionata l'opzione <STRONG>Abilita bypass multimediale</STRONG> saranno necessarie ulteriori impostazioni. Se il trunk peer non supporta la ricezione di richieste SIP REFER dal Mediation Server ed è abilitato il bypass multimediale, sarà inoltre necessario eseguire il cmdlet <STRONG>Set-CsTrunkConfiguration</STRONG> per disabilitare RTCP per le chiamate attive e in attesa in modo da supportare le condizioni appropriate per il bypass multimediale. Per informazioni dettagliate, vedere la documentazione di <A href="lync-server-2013-lync-server-management-shell.md">Lync Server Management Shell</A>.<BR>In alternativa, è possibile selezionare <STRONG>Abilita il riferimento usando il controllo delle chiamate di terze parti</STRONG> se si vuole applicare il bypass multimediale alle chiamate trasferite e il gateway non supporta richieste SIP REFER.
 
 
 
@@ -127,12 +127,12 @@ In una configurazione trunk come quella descritta di seguito viene raggruppato u
         
         3.  Fare clic su **OK** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È importante associare i record sull'utilizzo PSTN al peer Mediation Server associato al trunk in corso di configurazione. Se il peer Mediation Server è un gateway PSTN o un Session Border Controller (SBC), è consigliabile che la configurazione trunk non venga associata a un record sull'utilizzo PSTN con routing a una destinazione PSTN o a qualsiasi altro sistema downstream connesso tramite Lync Server.
 
 11. Disporre i record sull'utilizzo PSTN in modo da garantire prestazioni ottimali. Per modificare la posizione di un record nell'elenco, selezionare il record sull'utilizzo PSTN e fare clic sulla freccia verso il basso o verso l'alto.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'ordine in cui sono elencati i record sull'utilizzo PSTN nella configurazione trunk è significativo. Lync Server usa l'elenco dall'alto verso il basso.
 
 12. È consigliabile selezionare l'opzione **Abilita latch RTP** per abilitare il bypass multimediale per i client dietro NAT o firewall e uno SBC che supporta il latch.
@@ -181,7 +181,7 @@ In una configurazione trunk come quella descritta di seguito viene raggruppato u
 
 18. Verificare che le regole di conversione del trunk siano disposte nell'ordine corretto. Per modificare la posizione di una regola nell'elenco, evidenziare il nome della regola e quindi fare clic sulla freccia su o giù.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Lync Server 2013 scorre l'elenco delle regole di conversione dall'alto verso il basso e utilizza la prima regola corrispondente al numero composto. Se si configura un trunk in modo che un numero composto possa soddisfare più di una regola di conversione, assicurarsi che le regole più restrittive risultino al di sopra di quelle meno restrittive. Se ad esempio sono state definite una regola di conversione relativa a qualsiasi numero di 11 cifre e una regola di conversione relativa solo ai numeri di 11 cifre che iniziano con +1425, assicurarsi che la regola relativa a qualsiasi numero di 11 cifre risulti <em>sotto</em> la regola più restrittiva.
 
 19. Al termine della configurazione del trunk, fare clic su **OK** .

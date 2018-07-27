@@ -27,7 +27,7 @@ La modalità di configurazione dell'archiviazione dipende dall'opzione di archiv
 
 Se si abilita l'archiviazione in un pool Front End o in un server Standard Edition, sarà necessario abilitarla per tutti gli altri pool Front End e server Standard Edition nella distribuzione. Questo è dovuto al fatto che gli utenti di cui devono essere archiviate le comunicazioni possono essere invitati a una conversazione di messaggistica istantanea di gruppo oppure a riunioni ospitate in un altro pool. Se l'archiviazione non è abilitata nel pool in cui viene ospitata la conversazione o la riunione, potrebbe non essere possibile archiviare l'intera sessione. In questi casi, è possibile archiviare la messaggistica istantanea con utenti abilitati per l'archiviazione, ma non per file di contenuto delle conferenze e eventi di accesso o abbandono della conferenza.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se per motivi di conformità l'archiviazione è di importanza critica nell'organizzazione, assicurarsi di distribuire l'archiviazione, di configurare criteri e altre opzioni al livello appropriato, e di abilitare l'archiviazione per tutti gli utenti appropriati prima di abilitare tali utenti per Lync Server 2013.
 
 ## Processo di distribuzione dell'archiviazione

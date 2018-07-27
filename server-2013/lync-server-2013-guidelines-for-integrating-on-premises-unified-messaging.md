@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-09-25_
 
 Di seguito sono elencate le linee guida e le procedure consigliate da prendere in considerazione quando si distribuisce VoIP aziendale:
 
-> [!important]  
+> [!IMPORTANT]  
 > Messaggistica unificata di Exchange supporta IPv6 solo se si utilizza anche UCMA 4.
 
   - Distribuire un Lync Server 2013 Standard Edition o un pool Front End. Per informazioni dettagliate sull'installazione, vedere [Distribuzione di Lync Server 2013](lync-server-2013-deploying-lync-server.md) nella documentazione relativa alla distribuzione.
@@ -26,7 +26,7 @@ Di seguito sono elencate le linee guida e le procedure consigliate da prendere i
 
   - Distribuire i ruoli del server di Cassetta postale di Exchange in ogni foresta di Messaggistica unificata di Exchange in cui si desidera abilitare gli utenti per Messaggistica unificata di Exchange. Per informazioni sull'installazione dei ruoli dei server di Exchange, vedere la documentazione di Microsoft Exchange Server 2013.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Quando la Messaggistica unificata di Exchange è installata, è configurata per l'utilizzo di un certificato autofirmato.<br />    Il certificato autofirmato, tuttavia, non consente una relazione di trust tra Lync Server 2013 e la Messaggistica unificata di Exchange e per questo motivo è necessario richiedere un certificato distinto a un'Autorità di certificazione considerata attendibile da entrambi i server.
 
   - Se Lync Server 2013 e la Messaggistica unificata di Exchange sono installati in foreste diverse, configurare ogni foresta di Exchange in modo da considerare attendibile la foresta di Lync Server 2013 e configurare la foresta di Lync Server 2013 in modo da considerare attendibile ogni foresta di Exchange. Impostare inoltre le impostazioni di Messaggistica unificata di Exchange sugli oggetti utente nella foresta di Lync Server 2013, in genere utilizzando uno script o uno strumento tra foreste, ad esempio Identity Lifecycle Manager (ILM).
@@ -39,7 +39,7 @@ Di seguito sono elencate le linee guida e le procedure consigliate da prendere i
 
 ## Distribuzione di server di messaggistica unificata di Exchange ridondanti
 
-> [!important]  
+> [!IMPORTANT]  
 > È consigliabile distribuire almeno due server su cui è eseguita la messaggistica unificata di Exchange per ogni dial plan URI SIP di Messaggistica unificata di Exchange configurato per l'organizzazione. Oltre a garantire maggiori funzionalità, la distribuzione di server ridondanti garantisce una disponibilità elevata. In caso di errore di un server, è possibile configurare Lync Server 2013 per il failover a un altro server.
 
 Le configurazioni di esempio seguenti garantiscono resilienza della messaggistica unificata di Exchange.

@@ -33,20 +33,20 @@ Prima di eseguire la migrazione dei Response Group, è necessario aver distribui
 
 Per eseguire la migrazione dei Response Group da un pool legacy a Lync Server 2013, eseguire il cmdlet **Move-CsRgsConfiguration**. Prima di poter eseguire **Move-CsRgsConfiguration**, è necessario installare il pacchetto delle interfacce utente per la compatibilità con le versioni precedenti di Strumentazione gestione Windows (WMI). Installare questa applicazione eseguendo OCSWMIBC.msi, disponibile nei supporti di installazione nella cartella Setup.
 
-> [!important]  
+> [!IMPORTANT]  
 > Il cmdlet di migrazione di Response Group sposta la configurazione di Response Group per l'intero pool. Non è possibile selezionare gruppi, code o flussi di lavoro specifici di cui eseguire la migrazione.
 
 Dopo aver eseguito la migrazione dei Response Group è necessario aggiornare l'URL utilizzato dagli agenti formali per accedere ai Response Group e disconnettersi, quindi utilizzare il Pannello di controllo di Lync Server o i cmdlet di Lync Server Management Shell per verificare che siano stati spostati tutti i gruppi di agenti, le code e i flussi di lavoro.
 
-> [!Caution]  
+> [!CAUTION]  
 > Quando si esegue la migrazione dei Response Group, i Response Group di Office Communications Server 2007 R2 non vengono rimossi. Non rimuovere i Response Group di Office Communications Server 2007 R2. Se si rimuove un Response Group di Office Communications Server 2007 R2, quelli in Lync Server 2013 smettono di funzionare.
 
-> [!important]  
+> [!IMPORTANT]  
 > È consigliabile rimuovere i dati dalla distribuzione precedente solo dopo la rimozione del pool. È inoltre caldamente consigliabile esportare i Response Group subito dopo la migrazione. Se viene rimosso un Response Group di Office Communications Server 2007 R2 , è poi possibile ripristinare i Response Group dal backup per ripristinare il funzionamento dei Response Group di Lync Server 2013.
 
 Quando si esegue il cmdlet **Move-CsRgsConfiguration**, i gruppi di agenti, le code, i flussi di lavoro e i file audio rimangono nel pool legacy per consentirne il ripristino. Se occorre eseguire il rollback dello stato precedente nel pool legacy, tuttavia, è necessario eseguire il cmdlet **Move-CsApplicationEndpoint** per rispostare gli oggetti contatto nel pool legacy.
 
-> [!important]  
+> [!IMPORTANT]  
 > È consigliabile eliminare eventuali dati dei Response Group nel pool legacy solo dopo la rimozione del pool.
 
 Nella procedura seguente per la migrazione delle configurazioni dei Response Group si presuppone che esista una relazione uno-a-uno tra i pool legacy e i pool Lync Server 2013. Se si prevede di consolidare o dividere i pool durante la migrazione e la distribuzione, è necessario pianificare il mapping tra i pool legacy e il pool Lync Server 2013.

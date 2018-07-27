@@ -23,7 +23,7 @@ Nella figura seguente viene illustrata la topologia di trunking SIP in Lync Serv
 
 Come illustrato nella figura, una rete privata virtuale (VPN, Virtual Private Network) IP viene utilizzata per la connettività tra l'azienda e il provider di servizi PSTN. Lo scopo di questa rete privata è quello di fornire connettività IP, migliorare la protezione e, facoltativamente, ottenere garanzie relative alla qualità del servizio. Data la natura delle VPN, non è necessario utilizzare TLS per il traffico di segnalazione SIP o SRTP per il traffico multimediale. Le connessioni tra l'azienda e il provider di servizi sono pertanto normali connessioni TCP per SIP e RTP (tramite UDP) per i contenuti multimediali potenzialmente inviati tramite una rete VPN IP. Accertarsi che le porte di tutti i firewall tra i router VPN siano aperte per consentire ai router VPN di comunicare e che gli indirizzi IP nei perimetri esterni dei router VPN consentano l'esecuzione del routing pubblicamente.
 
-> [!important]  
+> [!IMPORTANT]  
 > Rivolgersi al proprio provider di servizi per determinare se offra supporto per la disponibilità elevata, failover compreso. In caso affermativo sarà necessario determinare le procedure per configurarla, ad esempio se sia necessario configurare un solo indirizzo IP e un trunk SIP in ogni Mediation Server, oppure se sia necessario configurare più trunk SIP per ogni Mediation Server<br />Se sono presenti più siti centrali, chiedere al provider di servizi se offra anche la capacità di abilitare connessioni da e verso un altro sito centrale.
 
 

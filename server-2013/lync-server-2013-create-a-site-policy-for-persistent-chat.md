@@ -33,7 +33,7 @@ La configurazione dei criteri sito ha la precedenza sui criteri globali, ma solo
 
 3.  Sulla barra di spostamento sinistra fare clic su **Chat persistente** e quindi su **Criteri Chat persistente**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È inoltre possibile usare i cmdlet di Windows PowerShell. Per informazioni dettagliate, vedere <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurazione del server Chat persistente tramite i cmdlet di Windows PowerShell</a> nella documentazione relativa alla distribuzione.
 
 4.  Fare clic su **Nuovo** e quindi su **Criteri sito** .

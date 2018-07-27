@@ -54,7 +54,7 @@ In questa sezione si presuppone che siano già state eseguite le operazioni segu
     > Quando si installa la topologia pubblicata, la pagina Web Impostazioni conferenza telefonica con accesso esterno viene installata nel Front End Server o nel server Standard Edition come parte dei servizi Web.
 
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se si modifica il percorso per l'archivio file in Generatore di topologie dopo la distribuzione di Lync Server 2013, è necessario riavviare le applicazioni Operatore Conferenza e Annuncio conferenza in modo che che venga utilizzato il nuovo percorso.
 
   - Distribuzione di VoIP aziendale. Se VoIP aziendale non è stato incluso nella distribuzione, si è scelto di collocare un Mediation Server nell'Enterprise Edition Front End Server o nel server Standard Edition oppure è stato distribuito un Mediation Server autonomo e un gateway PSTN. Per informazioni dettagliate sulla distribuzione di VoIP aziendale, vedere [Distribuzione di VoIP aziendale in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) nella documentazione relativa alla distribuzione. Per informazioni dettagliate sull'installazione di un Mediation Server autonomo e un gateway PSTN, vedere [Distribuzione di Mediation Server e definizione di peer in Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) nella documentazione relativa alla distribuzione.

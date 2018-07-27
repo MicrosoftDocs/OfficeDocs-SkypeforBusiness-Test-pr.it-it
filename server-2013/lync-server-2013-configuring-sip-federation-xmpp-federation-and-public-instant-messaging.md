@@ -53,7 +53,7 @@ La federazione XMPP definisce una distribuzione esterna basata sul protocollo XM
 
   - Creazione di contatti federati XMPP nel client Lync
 
-> [!important]  
+> [!IMPORTANT]  
 > La funzionalità XMPP di Lync Server 2013 è testata e supportata da Microsoft per la federazione di messaggistica istantanea con Google Talk. Per altri sistemi XMPP, contattare il fornitore di terze parti per verificare l'eventuale supporto della federazione con Lync Server 2013 e per indicazioni per la distribuzione o la risoluzione dei problemi.
 
 ## Processo di distribuzione della federazione esterna dei server perimetrali, della connettività per la messaggistica istantanea pubblica e degli utenti XMPP

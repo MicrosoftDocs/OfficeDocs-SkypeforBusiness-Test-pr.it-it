@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-09-26_
 
 Se è stata distribuita la Messaggistica unificata di Exchange, come descritto in [Pianificazione dell'integrazione della messaggistica unificata di Exchange in Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) nella documentazione relativa alla pianificazione, e si desidera offrire caratteristiche di Messaggistica unificata di Exchange agli utenti VoIP aziendale nell'organizzazione, è possibile utilizzare le procedure seguenti per configurare il certificato nel server che esegue la Messaggistica unificata di Exchange.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per i certificati interni, sia i server che eseguono Lync Server 2013 sia quelli che eseguono Microsoft Exchange devono disporre di certificati di un autorità radice attendibile reciprocamente attendibili. L'autorità di certificazione può essere la stessa o una diversa purché il certificato radice dell'autorità di certificazione dei server sia registrato nell'archivio certificati dell'autorità radice attendibile.
 
 Exchange Server deve essere configurato con un certificato del server per connettersi a Lync Server 2013:

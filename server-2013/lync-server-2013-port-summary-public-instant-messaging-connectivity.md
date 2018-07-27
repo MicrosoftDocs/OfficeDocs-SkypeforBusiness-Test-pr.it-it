@@ -19,7 +19,7 @@ Per configurare il firewall per le porte e i protocolli necessari per supportare
 
 Windows Live Messenger può prendere parte alle comunicazioni audio/video con i client di Lync. Questo avviene grazie alla configurazione molto simile di porte e protocolli firewall che in genere è necessaria nel firewall per supportare i client di Lync come utenti esterni.
 
-> [!important]  
+> [!IMPORTANT]  
 > Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti di tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze per utente/dispositivo in aggiunta alla licenza CAL Standard per Lync. La federazione con Skype verrà aggiunta a questo elenco, consentendo agli utenti di Lync di raggiungere centinaia di milioni di persone tramite messaggistica istantanea e comunicazioni vocali.<br />La federazione con i contatti client di Messenger avrà ufficialmente termine il 15 marzo 2013, fatta eccezione per la Cina continentale. Skype diventerà il client federativo per utenti federati che utilizzavano Messenger in precedenza.
 
 ## Riepilogo firewall - connettività per messaggistica istantanea pubblica

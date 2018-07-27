@@ -19,7 +19,7 @@ Prima di eseguire i passaggi seguenti, assicurarsi di avere eseguito l'accesso a
 
 Per poter eseguire qualsiasi operazione con la Distribuzione guidata di Lync Server, è necessario che l'archivio di configurazione locale esista in un server. Tale archivio è una copia di sola lettura dell'archivio di gestione centrale, che viene creato dopo l'installazione locale di SQL Server Express. L'archivio di gestione centrale viene aggiunto al database di SQL Server esistente installato nel server Standard Edition o al database basato su SQL Server Express.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se non è stata eseguita in precedenza l'installazione di Lync Server 2013 in questo server, verrà richiesto di specificare l'unità e il percorso per l'installazione di Lync Server 2013. Ciò consentirà di eseguire l'installazione in un'unità diversa da quella di sistema, se richiesto dell'organizzazione oppure nel caso esistano problemi di spazio. È possibile cambiare semplicemente il percorso di installazione dei file di Lync Server nella finestra di dialogo del programma di installazione, scegliendo una diversa unità disponibile. Se si installano i file di installazione in questo percorso, incluso il file OCSCore.msi, anche la parte restante dei file di Lync Server 2013 verrà distribuita in tale unità.
 
 ## Per installare l'archivio di configurazione locale

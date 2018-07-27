@@ -38,7 +38,7 @@ Gli ambiti a livello di singolo computer possono essere definiti durante l'esecu
 
 Gli ambiti a livello di sito e globali sono definiti nei cmdlet **New-**, **Set-** e **Remove-** per il servizio di registrazione centralizzato. Negli esempi seguenti viene illustrato come impostare un ambito a livello di sito o globale.
 
-> [!important]  
+> [!IMPORTANT]  
 > I comandi illustrati possono contenere i parametri e concetti trattati in altre sezioni. I comandi di esempio servono a illustrare l'uso del parametro <strong>–Identity</strong> per definire l'ambito e gli altri parametri sono inclusi per completezza e per specificare l'ambito. Per dettagli sui cmdlet <strong>Set-CsClsConfiguration</strong>, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> nella documentazione sulle operazioni.
 
 ## Per recuperare la configurazione del servizio di registrazione centralizzato

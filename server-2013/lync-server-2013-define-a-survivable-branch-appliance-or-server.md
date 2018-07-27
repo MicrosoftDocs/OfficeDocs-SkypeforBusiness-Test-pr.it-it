@@ -25,12 +25,12 @@ Eseguire questa procedura presso il sito centrale se la Survivable Branch Applia
 
 3.  Fare clic con il pulsante destro del mouse su **Survivable Branch Appliance** e quindi scegliere **New Survivable Branch Appliance**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > In <strong>Survivable Branch Appliance</strong> vengono definiti Survivable Branch Server e Survivable Branch Appliance.
 
 4.  Nella finestra di dialogo **Definisci Survivable Branch Appliance** fare clic su **FQDN** , digitare il nome di dominio completo (FQDN) del Survivable Branch Appliance o del Survivable Branch Server che verrà distribuito nel sito di succursale e quindi fare clic su **Avanti** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se si definisce un Survivable Branch Appliance, il nome immesso in <strong>FQDN</strong> deve corrispondere all'FQDN di Survivable Branch Appliance assegnato all'attributo <strong>servicePrincipalName</strong> . Per informazioni dettagliate, vedere <a href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Aggiungere un Survivable Branch Appliance ad Active Directory in Lync Server 2013</a>.
 
 5.  Fare clic su **Pool Front End** , sul Front End Server (pool di servizi utente) del sito centrale a cui si connetterà questo Survivable Branch Appliance o Survivable Branch Server e quindi fare clic su **Avanti** .
@@ -39,7 +39,7 @@ Eseguire questa procedura presso il sito centrale se la Survivable Branch Applia
 
 7.  Fare clic su **FQDN gateway o indirizzo IP** e quindi digitare l'FQDN o l'indirizzo IP del peer gateway a cui è associato il Survivable Branch Appliance o Survivable Branch Server per il routing di chiamate PSTN in ingresso o in uscita.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se si sta definendo un Survivable Branch Appliance, questo è il gateway a cui si connetterà il Mediation Server all'interno del Survivable Branch Appliance per la connettività PSTN.
 
 8.  Fare clic su **Porta di attesa per gateway IP/PSTN** e quindi accettare la porta predefinita.

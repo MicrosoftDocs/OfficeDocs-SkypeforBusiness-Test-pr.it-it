@@ -63,7 +63,7 @@ Non è possibile collocare il ruolo server Chat persistente con Front End Server
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Sebbene la collocazione dei database sia supportata, la dimensione dei database può aumentare rapidamente. Ad esempio, se si intende collocare il database di archiviazione con altri database, è opportuno tenere presente che l'archiviazione dei messaggi di più utenti può comportare un notevole aumento dello spazio su disco richiesto dal database di archiviazione. Per questo motivo, non è consigliabile collocare più database, in particolare il database di archiviazione, il database di Chat persistente o il database di Conformità Chat persistente, con il database back-end.
 
 ## Condivisione file

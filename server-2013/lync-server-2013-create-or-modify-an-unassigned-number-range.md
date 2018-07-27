@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-11-01_
 
 Per configurare gli intervalli di numeri non assegnati per l' applicazione Annuncio, eseguire le procedure illustrate di seguito.
 
-> [!important]  
+> [!IMPORTANT]  
 > Prima di configurare la tabella dei numeri non assegnati è necessario che sia definito almeno un annuncio o che sia impostato un Operatore automatico messaggistica unificata di Exchange.
 
 ## Per utilizzare il Pannello di controllo di Lync Server per configurare i numeri di telefono non assegnati

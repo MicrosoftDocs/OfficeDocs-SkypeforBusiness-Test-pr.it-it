@@ -25,7 +25,7 @@ Configurare i record DNS (Domain Name System) necessari prima di pubblicare la t
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Il nome specificato deve essere uguale al nome computer configurato nel server. Per impostazione predefinita, il nome di un computer non aggiunto a un dominio è un nome breve e non un FQDN. Generatore di topologie usa gli FQDN e non i nomi brevi. <strong>Usare solo i caratteri standard</strong> (A-Z, a-z, 0-9 e i trattini) quando si assegnano gli FQDN dei server che eseguono Lync Server, server perimetrali e pool. Non usare i caratteri Unicode o i caratteri di sottolineatura. I caratteri non standard di un FQDN spesso non sono supportati dalle autorità di certificazione (CA) pubbliche e DNS esterne (quando l'FQDN deve essere assegnato al nome soggetto nel certificato).
 
 Prima di iniziare a utilizzare la topologia dopo che è stata distribuita, verificare che siano stati creati i record DNS e Active Directory seguenti, in base alle proprie esigenze per funzionalità specifiche:

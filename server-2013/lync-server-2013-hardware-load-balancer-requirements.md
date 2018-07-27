@@ -23,7 +23,7 @@ La topologia perimetrale consolidata di Lync Server 2013 con scalabilità implem
 
   - Connettività con utenti di messaggistica istantanea pubblica
 
-> [!important]  
+> [!IMPORTANT]  
 > Non è possibile usare il bilanciamento del carico DNS in un'interfaccia e il bilanciamento del carico hardware in un'altra. È necessario usare lo stesso tipo di bilanciamento del carico per entrambe le interfacce, in quanto non è supportata una combinazione dei due tipi.
 
 

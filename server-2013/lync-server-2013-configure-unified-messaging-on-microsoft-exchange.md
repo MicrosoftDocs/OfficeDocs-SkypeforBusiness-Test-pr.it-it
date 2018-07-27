@@ -107,7 +107,7 @@ In questo argomento viene descritto come configurare la Messaggistica unificata 
     
     Se si dispone di uno o più dial plan di messaggistica unificata associati a più gateway IP, continuare con il passaggio 6. Se i dial plan sono associati ciascuno a un solo gateway IP, saltare il passaggio 6.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Ricordarsi di riavviare il servizio <strong>Lync Server Front End</strong> (rtcsrv.exe) <em>dopo</em> aver eseguito exchucutil.ps1, altrimenti Lync Server non rileverà la messaggistica unificata nella topologia.
 
 6.  Tramite Exchange Management Shell o Exchange Management Console disabilitare le chiamate in uscita per tutti i gateway IP, tranne uno, associati a ciascuno dei dial plan.
@@ -117,7 +117,7 @@ In questo argomento viene descritto come configurare la Messaggistica unificata 
     > Questo passaggio è necessario per garantire che le chiamate in uscita effettuate tramite il server che esegue la messaggistica unificata di Exchange Server e destinate a utenti esterni (ad esempio, come nel caso di scenari di riproduzione al telefono) attraversino correttamente il firewall aziendale.
 
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Quando si seleziona il gateway IP di messaggistica unificata tramite cui consentire le chiamate in uscita, scegliere quello ritenuto più probabilmente in grado di gestire la maggior parte del traffico. Non consentire il traffico in uscita tramite un gateway IP che si connette a un pool di server Director di Lync Server. Evitare inoltre i pool in un altro sito centrale o un sito di succursale. Per impedire il passaggio delle chiamate in uscita attraverso un gateway IP, è possibile utilizzare uno dei metodi seguenti:    
       - Se si utilizza Exchange Management Shell, disattivare ogni gateway IP eseguendo il comando seguente:
         
@@ -129,12 +129,12 @@ In questo argomento viene descritto come configurare la Messaggistica unificata 
     
       - Se si utilizza Exchange Management Console, deselezionare la casella di controllo **Consenti chiamate in uscita tramite questo gateway IP di messaggistica unificata**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se il dial plan di messaggistica unificata URI SIP è associato a un solo gateway IP, non impedire le chiamate in uscita attraverso questo gateway.
 
 7.  Creare un operatore automatico di messaggistica unificata per ogni dial plan di Lync Server.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Non includere spazi nel nome dell'operatore automatico.    
         New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
     

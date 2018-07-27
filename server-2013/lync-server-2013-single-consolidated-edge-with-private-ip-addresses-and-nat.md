@@ -47,7 +47,7 @@ Esistono tecnologie di conversione degli indirizzi di rete (NAT) per IPv6 che su
 
 ![Topologia perimetrale con un singolo server consolidato](images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "Topologia perimetrale con un singolo server consolidato")
 
-> [!important]  
+> [!IMPORTANT]  
 > Se si utilizza il servizio Controllo di ammissione di chiamata, è ancora necessario assegnare indirizzi IPv4 all'interfaccia interna del server perimetrale. Il servizio Controllo di ammissione di chiamata utilizza indirizzi IPv4 e deve averli a disposizione per il corretto funzionamento.
 
 ## Argomenti della sezione

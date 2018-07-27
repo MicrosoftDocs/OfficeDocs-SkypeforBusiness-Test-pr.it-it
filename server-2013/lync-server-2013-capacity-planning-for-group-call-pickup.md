@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 Nella tabella seguente viene descritto il modello utente della funzionalità di risposta alle chiamate di gruppo che è possibile utilizzare come base per i requisiti di pianificazione della capacità.
 
-> [!important]  
+> [!IMPORTANT]  
 > La risposta alle chiamate di gruppo si basa sull'applicazione Parcheggio di chiamata. Tenere presente che, per la pianificazione della capacità di ripristino di emergenza, ciascun pool di una coppia di pool deve essere in grado di gestire i carichi di lavoro per i servizi di Parcheggio di chiamata, inclusa la risposta alle chiamate di gruppo, in entrambi i pool.
 
 ### Modello utente della risposta alle chiamate di gruppo

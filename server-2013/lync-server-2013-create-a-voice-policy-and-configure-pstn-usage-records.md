@@ -126,7 +126,7 @@ Eseguire la procedura seguente se si desidera creare un nuovo criterio vocale. S
 
 9.  Disporre i record di utilizzo PSTN in modo da garantire prestazioni ottimali. Per modificare la posizione di un record nell'elenco, evidenziare il relativo nome e fare clic sulla freccia SU o GIÙ.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'ordine in cui i record di utilizzo PSTN sono disposti nel criterio vocale è significativo. Lync Server attraversa l'elenco dall'alto verso il basso. È consigliabile organizzare l'elenco in base alla frequenza di utilizzo, ad esempio: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 10. Per associare e configurare record di utilizzo PSTN per l'inoltro di chiamata e lo squillo simultaneo in questo criterio vocale, eseguire una delle operazioni seguenti:

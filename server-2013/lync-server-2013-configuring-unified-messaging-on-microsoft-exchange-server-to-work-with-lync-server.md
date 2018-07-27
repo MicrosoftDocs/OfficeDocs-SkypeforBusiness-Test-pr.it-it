@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2012-10-11_
 
-> [!important]  
+> [!IMPORTANT]  
 > Se si desidera utilizzare la Messaggistica unificata di Exchange per garantire il funzionamento del risponditore automatico, di Outlook Voice Access o dei servizi con operatori automatici per gli utenti di VoIP aziendale leggere le informazioni di <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Pianificazione dell'integrazione della messaggistica unificata di Exchange in Lync Server 2013</a> nella documentazione relativa alla pianificazione e quindi seguire le istruzioni riportate in questa sezione.
 
 Per configurare Messaggistica unificata di Exchange per l'utilizzo con VoIP aziendale sarà necessario eseguire le attività seguenti:

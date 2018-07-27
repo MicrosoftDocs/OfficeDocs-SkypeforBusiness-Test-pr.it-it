@@ -111,7 +111,7 @@ Per evitare problemi di routing, verificare che nel server server perimetrali si
 </table>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > I record elencati nella tabella precedente sono visualizzati con estensione <em>net</em> o <em>com</em>, per evidenziare la zona in cui devono trovarsi se non si utilizza il DNS di tipo split brain. Se si utilizza il DNS di tipo split brain, tutti i record devono trovarsi nella stessa zona, con l'unica distinzione tra versione interna ed esterna. Per informazioni dettagliate, vedere “DNS di tipo split brain” in <a href="lync-server-2013-determine-dns-requirements.md">Determinare i requisiti di DNS per Lync Server 2013</a>.
 
 ## Record necessari per la federazione
@@ -139,7 +139,7 @@ Per evitare problemi di routing, verificare che nel server server perimetrali si
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner, condizione nota come &quot;domini SIP consentiti&quot;, nonché come federazione avanzata nelle versioni precedenti. Ripetere secondo le necessità per tutti i domini SIP con utenti abilitati per Lync.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Questo record SRV è necessario per il fornitore di servizi di accesso a terze parti per notifiche Push e dispositivi mobili.
 </div></td>
 </tr>

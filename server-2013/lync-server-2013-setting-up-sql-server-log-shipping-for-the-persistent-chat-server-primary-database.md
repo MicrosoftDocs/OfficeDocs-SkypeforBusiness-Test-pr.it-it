@@ -33,7 +33,7 @@ Utilizzando SQL Server Management Studio connesso all'istanza del database prima
 
 7.  Se la cartella di backup si trova nel server primario, digitare il percorso locale nella casella **Se la cartella di backup si trova nel server primario, digitare il percorso locale della cartella (esempio c:\\backup)** . In caso contrario si può lasciare la casella vuota.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se l'account del servizio SQL Server nel server primario viene eseguito con l'account di sistema locale, è necessario creare la cartella di backup nel server primario e specificare il percorso locale della cartella.
 
 8.  Configurare i parametri **Elimina i file più vecchi di** e **Invia avviso se il backup non viene eseguito entro** .
