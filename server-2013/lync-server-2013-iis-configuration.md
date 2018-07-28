@@ -114,10 +114,12 @@ Nella tabella seguente vengono indicati i servizi ruolo di IIS 7.5 necessari.
 
 Nel sistema operativo Windows Server 2008 R2 SP1 x64 è possibile utilizzare Windows PowerShell 2.0. È prima necessario importare il modulo ServerManager e quindi installare il ruolo e i servizi ruolo di IIS 7.5.
 
-    Import-Module ServerManager
-
-    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
-
+```
+Import-Module ServerManager
+```
+```
+Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+```
 
 > [!NOTE]
 > L'autenticazione anonima viene installata per impostazione predefinita con il ruolo del server IIS. È possibile gestire l'autenticazione anonima dopo l'installazione di IIS. Per istruzioni dettagliate, vedere "Abilitare l'autenticazione anonima (IIS 7)" all'indirizzo <A class=uri href="http://go.microsoft.com/fwlink/?linkid=203935">http://go.microsoft.com/fwlink/?linkid=203935</A>.
@@ -304,9 +306,12 @@ Nella tabella seguente vengono indicati i servizi ruolo di IIS 8.0 e IIS 8.5 nec
 
 In Windows Server 2012 e Windows Server 2012 R2 è possibile utilizzare Windows PowerShell 3.0 per installare i requisiti di IIS. Utilizzando il modulo ServerManager in Windows PowerShell 3.0, digitare:
 
-    Import-Module ServerManager
-
-    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
+Import-Module ServerManager
+```
+```
+Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
 
 > [!IMPORTANT]  
 > Il parametro -Source è una novità di Windows Server 2012 e definisce il percorso in cui è disponibile il supporto di origine di Windows Server 2012. Il supporto può essere definito come un'unità DVD (ad esempio, D:\Sources\Sxs) o come una condivisione di rete in cui sono stati copiati i file del supporto (ad esempio, \\fileserver\windows2012\sources\Sxs).

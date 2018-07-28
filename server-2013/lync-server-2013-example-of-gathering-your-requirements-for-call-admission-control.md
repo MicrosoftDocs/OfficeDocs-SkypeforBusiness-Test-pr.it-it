@@ -265,22 +265,15 @@ Per la preparazione per il servizio Controllo di ammissione di chiamata, raccogl
 
     > [!NOTE]
     > Viene generato un avviso Key Health Indicator (KHI) in cui viene specificato un elenco di indirizzi IP presenti nella rete che non sono associati a una subnet oppure la cui subnet non è associata a un sito di rete. Questo avviso viene generato una sola volta ogni 8 ore. Di seguito vengono riportati un esempio e le informazioni rilevanti dell'avviso:<BR><STRONG>Origine :</STRONG> Servizio criteri larghezza di banda CS (Core)<BR><STRONG>Numero evento :</STRONG> 36034<BR><STRONG>Livello :</STRONG> 2<BR><STRONG>Descrizione :</STRONG> le subnet per gli indirizzi IP seguenti: &lt;Elenco di indirizzi IP&gt; non sono configurate oppure non sono associate a un sito di rete.<BR><STRONG>Causa :</STRONG> le subnet per gli indirizzi IP corrispondenti non sono presenti nelle impostazioni della configurazione di rete oppure non sono associate a un sito di rete.<BR><STRONG>Soluzione :</STRONG> aggiungere le subnet per gli indirizzi IP corrispondenti alle impostazioni della configurazione di rete e associare ogni subnet a un sito di rete.<BR>Se ad esempio nell'elenco di indirizzi IP nell'avviso sono specificati sia 10.121.248.226 che 10.121.249.20, questi indirizzi IP non sono associati a una subnet oppure la subnet a cui sono associati non appartiene a un sito di rete. Se 10.121.248.0/24 e 10.121.249.0/24 sono le subnet corrispondenti per questi indirizzi, è possibile risolvere il problema in questo modo: 
-    > <OL>
-    > 
-> 
-> 
-> <li>
+    > <OL><li>
     > <P>Verificare che l'indirizzo IP 10.121.248.226 sia associato alla subnet 10.121.248.0/24 e che l'indirizzo IP 10.121.249.20 sia associato alla subnet 10.121.249.0/24.</P>
-    > 
-> 
-> 
-> <li>
+    > <li>
     > <P>Verificare che le subnet 10.121.248.0/24 e 10.121.249.0/24 siano associate ognuna a un sito di rete.</P></LI></OL>
 
     
-    ### Siti di rete e subnet associate (larghezza di banda in kbps)
+### Siti di rete e subnet associate (larghezza di banda in kbps)
     
-    <table>
+   <table>
     <colgroup>
     <col style="width: 12%" />
     <col style="width: 12%" />

@@ -27,9 +27,12 @@ Prima di iniziare a spostare gli utenti in Lync Online, può essere utile sposta
 
 Per spostare un utente locale nel tenant di Skype for Business online, eseguire i cmdlet seguenti in Lync Server Management Shell utilizzando le credenziali di amministratore per il tenant di Microsoft Office 365. Sostituire "username@contoso.com" con le informazioni dell'utente da spostare.
 
-    $creds=Get-Credential
-
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
+$creds=Get-Credential
+```
+```
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
 
 Il formato dell'URL specificato per il parametro **HostedMigrationOverrideUrl** deve essere l'URL del pool in cui è in esecuzione il servizio di migrazione ospitata, nel formato seguente: *Https://\<FQDN pool\>/HostedMigration/hostedmigrationService.svc* .
 

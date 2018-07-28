@@ -24,9 +24,12 @@ Per gestire le impostazioni utente e i criteri per gli utenti di cui è stata es
 
   - Eseguire i seguenti cmdlet per rispostare un utente da Lync Online a Lync in locale:
     
-        $cred=Get-Credential
-    
-        Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
+    $cred=Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
 
 Il formato dell'URL specificato per il parametro **HostedMigrationOverrideUrl** deve essere l'URL del pool in cui è in esecuzione il servizio di migrazione ospitata, nel formato seguente:
 
