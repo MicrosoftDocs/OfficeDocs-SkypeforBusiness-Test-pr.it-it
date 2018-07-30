@@ -105,7 +105,7 @@ Per creare regole di pubblicazione Web, eseguire le procedure seguenti.
 
 4.  Assegnare il certificato che verrà utilizzato da HTTPS. Nella parte sinistra della console selezionare l'impostazione **Default Web Site** per il server IIS. Nella parte destra fare clic su **Bindings** . Nella finestra di dialogo **Site Bindings** fare clic su **Add** . Nella finestra di dialogo **Add Site Binding** selezionare **https** in **Type** . Questa opzione consentirà di selezionare il certificato da utilizzare per https. In **SSL certificate** selezionare il certificato importato per il proxy inverso. Fare clic su **OK** . Fare quindi clic su **Chiudi** . Il certificato è ora associato al proxy inverso per SSL (Secure Socket Layer) e TLS (Transport Layer Security).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se quando si chiude la finestra di dialogo Bindings viene visualizzato un avviso per informare che mancano i certificati intermedi, è necessario individuare e importare il certificato autorità radice dell'autorità di certificazione pubblica ed eventuali certificati intermedi dell'autorità di certificazione. Fare riferimento alle istruzioni disponibili presso l'autorità di certificazione pubblica a cui è stato richiesto il certificato e attenersi a quelle relative alla richiesta e all'importazione di una catena di certificati. Se il certificato è stato importato dal server perimetrale, è possibile esportare il certificato dell'autorità di certificazione radice ed eventuali certificati intermedi dell'autorità di certificazione associati al server perimetrale. Importare il certificato radice dell'autorità di certificazione nell'archivio Autorità di certificazione radice disponibile nell'elenco locale del computer (da non confondere con l'archivio utenti) e i certificati intermedi nell'archivio Autorità di certificazione intermedie del computer.
 
 5.  Nella parte sinistra della console sotto il nome del server IIS, fare clic con il pulsante destro del mouse su **Server Farms** e quindi fare clic su **Create Server Farm** .
@@ -135,12 +135,12 @@ Per creare regole di pubblicazione Web, eseguire le procedure seguenti.
 
 10. Fare clic sul nome della server farm. In **Server farm** in Visualizzazione funzionalità di Gestione IIS fare doppio clic su **Proxy**. Nella pagina delle impostazioni del proxy modificare il valore di **Timeout (secondi)** e impostare un valore appropriato per la distribuzione. Fare clic su **Applica** per salvare la modifica.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il valore di timeout del proxy è un numero che varia a seconda della distribuzione. È consigliabile monitorare la distribuzione e modificare il valore in modo da offrire un'esperienza ottimale ai client. Si potrebbe riuscire a impostare un valore basso come 200. Se si supportano client mobili Lync nel'ambiente, il valore deve essere impostato su 960 per consentire il timeout delle notifiche push da Office 365 per le quali è impostato il valore di timeout 900. È molto probabile che sia necessario incrementarlo per evitare la disconnessione dei client quando il valore è troppo basso oppure ridurlo se le connessioni tramite il proxy non vengono disconnesse e chiuse molto tempo dopo la disconnessione del client. Il monitoraggio e la definizione dei valori di base normali per l'ambiente corrente costituiscono l'unico modo per determinare con precisione l'impostazione più adatta per questo valore.
 
 11. Fare clic sul nome della server farm. In **Server Farm** in Features View di IIS Manager fare doppio clic su **Routing Rules** . Nella finestra di dialogo Routing Rules deselezionare la casella di controllo accanto a Enable SSL offloading in Routing. Se non è possibile deselezionare la casella di controllo, selezionare la casella **Use URL Rewrite to inspect incoming requests** . Fare clic su **Apply** per salvare le modifiche.
     
-    > [!Caution]  
+    > [!CAUTION]  
     > La ripartizione del carico di lavoro SSL tramite il proxy inverso non è supportata.
 
 12. Ripetere i passaggi da 5 a 11 per ogni URL che deve attraversare il proxy server. Un elenco comune è simile al seguente:
@@ -157,7 +157,7 @@ Per creare regole di pubblicazione Web, eseguire le procedure seguenti.
     
       - URL di Office Web Apps Server: officewebapps01.contoso.com
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Per l'URL di Server Office Web Apps verrà utilizzato un indirizzo httpsPort diverso. Al passaggio 7 impostare <strong>httpsPort</strong> su <strong>443</strong> e <strong>httpPort</strong> su <strong>80</strong> . Tutte le altre impostazioni di configurazione rimangono invariate.
 
 13. Nella parte sinistra della console fare clic sul nome del server IIS. Nella parte centrale della console individuare **URL Rewrite** in **IIS** . Fare doppio clic su URL Rewrite per aprire la configurazione delle regole di URL Rewrite. Dovrebbero essere visualizzate le regole per ogni server farm creata nei passaggi precedenti. In caso contrario, verificare di aver fatto clic sul nome del **server IIS** immediatamente sotto il nodo **Start Page** della console di Internet Information Server Manager.

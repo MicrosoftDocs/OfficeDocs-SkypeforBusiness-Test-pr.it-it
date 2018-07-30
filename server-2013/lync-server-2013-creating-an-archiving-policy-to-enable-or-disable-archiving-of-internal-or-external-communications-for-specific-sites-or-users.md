@@ -57,7 +57,7 @@ Per informazioni dettagliate sull'implementazione dei criteri, inclusa la gerarc
 
 6.  Fare clic su **Commit**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le impostazioni dei criteri utente si applicano solo agli utenti e ai gruppi di utenti a cui si applicano i criteri. Per informazioni dettagliate, vedere <a href="lync-server-2013-applying-an-archiving-policy-to-users.md">Applicazione di criteri di archiviazione agli utenti</a>
 
 ## Creazione di criteri di archiviazione tramite i cmdlet di Lync Server Management Shell

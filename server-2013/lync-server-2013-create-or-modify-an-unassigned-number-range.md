@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-11-01_
 
 Per configurare gli intervalli di numeri non assegnati per l' applicazione Annuncio, eseguire le procedure illustrate di seguito.
 
-> [!important]  
+> [!IMPORTANT]  
 > Prima di configurare la tabella dei numeri non assegnati è necessario che sia definito almeno un annuncio o che sia impostato un Operatore automatico messaggistica unificata di Exchange.
 
 ## Per utilizzare il Pannello di controllo di Lync Server per configurare i numeri di telefono non assegnati
@@ -43,21 +43,11 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
     
 
     > [!NOTE]
-    > <UL>
-    > 
-> 
-> 
-> <li>
+    > <UL><li>
     > <P>Il numero iniziale dell'intervallo deve essere minore o uguale al numero finale dell'intervallo stesso.</P>
-    > 
-> 
-> 
-> <li>
+    >  <li>
     > <P>Se il numero iniziale o il numero finale dell'intervallo include un numero di interno, devono includerlo entrambi. Il numero di interno deve essere lo stesso per ambedue.</P>
-    > 
-> 
-> 
-> <li>
+    > <li>
     > <P>Il numero deve corrispondere all'espressione regolare (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Ciò significa che il numero può iniziare con la stringa tel: (se questa non viene specificata, verrà aggiunta automaticamente), un segno più (+) e una cifra compresa tra 1 e 9. Il numero di telefono può contenere fino a 17 cifre e può essere seguito da un interno nel formato ;ext= seguito dal numero dell'interno.</P></LI></UL>
 
 

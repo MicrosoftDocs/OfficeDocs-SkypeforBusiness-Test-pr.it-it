@@ -19,7 +19,7 @@ Lync Server 2013 introduce nuove funzionalità che estendono le caratteristiche 
 
   - **Supporto per l'assegnazione indirizzi IPv6**     Lync Server 2013 supporta l'assegnazione indirizzi IPv6 per tutti i servizi server perimetrale. Se sono specificati indirizzi IPv6 per le interfacce tramite la configurazione in Windows Server, è possibile usare gli indirizzi IPv6 nella configurazione server perimetrale tramite la configurazione degli indirizzi IP in Generatore di topologie.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'uso degli indirizzi IPv6 in Lync Server 2013 dipende dal supporto di IPv6 nei router e nei firewall distribuiti dall'organizzazione, nonché il supporto tramite il provider di servizi Internet.
 
   - **Protocollo XMPP (Extensible Messaging and Presence Protocol)**     Lync Server 2013 introduce un proxy XMPP completamente integrato (distribuito nei server perimetrali) e un gateway XMPP distribuito nei Front End Server. È possibile distribuire la federazione XMPP come componente facoltativo. L'aggiunta e la configurazione del proxy XMPP e del gateway XMPP consentono agli utenti di Microsoft Lync 2013 di aggiungere contatti dai partner basati su XMPP per la messaggistica istantanea (IM) e la presenza.

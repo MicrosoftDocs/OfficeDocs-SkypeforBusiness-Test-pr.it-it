@@ -51,7 +51,7 @@ Nella tabella che segue è illustrata una panoramica del processo di distribuzio
 <td><ol>
 <li><p>Creare un nuovo record di utilizzo PSTN, con lo stesso nome utilizzato per l'impostazione <strong>Utilizzo PSTN</strong> nei criteri percorso.</p></li>
 <li><p>Creare o assegnare una route vocale al record di utilizzo PSTN creato nel passaggio precedente e quindi fare in modo che l'attributo del gateway punti al trunk SIP o al gateway ELIN di E9-1-1.</p></li>
-<li><p>Per il provider di servizi E9-1-1 di un trunk SIP, impostare il trunk che gestirà le chiamate E9-1-1 tramite SIP in modo che passi i dati PIDF-LO mediante il cmdlet <strong>set-cstrunkconfiguration –EnablePIDFLOSupport</strong>.</p></li>
+<li><p>Per il provider di servizi E9-1-1 di un trunk SIP, impostare il trunk che gestirà le chiamate E9-1-1 tramite SIP in modo che passi i dati PIDF-LO mediante il cmdlet <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong>.</p></li>
 <li><p>Facoltativamente, per il provider di servizi E9-1-1 di un trunk SIP, creare o assegnare una route PSTN locale per le chiamate che non vengono gestite mediante il trunk SIP del provider di servizi E9-1-1. Questa route verrà utilizzata se la connessione al provider di servizi E9-1-1 non è disponibile. Se consentito dal provider di servizi E9-1-1 in uso, assegnare una regola di configurazione del trunk al gateway che converte la stringa da comporre 911 nel numero DID (Direct Inward Dialing) del centro nazionale/regionale ECRC (Emergency Call Response Center).</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>

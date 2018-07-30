@@ -29,7 +29,7 @@ Per eseguire correttamente questa procedura, è necessario connettersi al server
 
 5.  Fare clic su **Indirizzo IP** e digitare l'IP virtuale (VIP) del servizio di bilanciamento del carico per il pool Front End.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Nelle distribuzioni in cui viene utilizzato un pool di server Director, i record host (A) per gli URL semplici devono puntare al VIP del servizio di bilanciamento del carico dei server Director.    
 
     > [!NOTE]

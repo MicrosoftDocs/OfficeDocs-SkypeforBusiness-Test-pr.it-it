@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-10-28_
 
 Le ultime operazioni per la migrazione del gateway XMPP consistono nel configurare i certificati per il server perimetrale Lync Server 2013, distribuire il gateway XMPP di Lync Server 2013 e aggiornare i record DNS per il gateway XMPP. Queste operazioni devono essere eseguite in parallelo per ridurre al minimo il tempo di inattività del gateway XMPP. Prima di procedere con queste operazioni, è necessario spostare tutti gli utenti nella distribuzione di Microsoft Lync Server 2013.
 
-> [!important]  
+> [!IMPORTANT]  
 > La federazione XMPP non è supportata per gli utenti ospitati in Survivable Branch Appliance. Lo stesso vale per la visualizzazione di informazioni sulla presenza e lo scambio di messaggi istantanei.
 
 ## Configurare i certificati del gateway XMPP nel server perimetrale Lync Server 2013

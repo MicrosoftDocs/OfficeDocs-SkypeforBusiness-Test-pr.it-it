@@ -21,7 +21,7 @@ Per consentire la delega delle attività amministrative continuando a mantenere 
 
 Grazie al controllo di accesso basato sui ruoli, l'accesso e l'autorizzazione sono più strettamente associati al ruolo Lync Server dell'utente. In questo modo si dispone di un più ampio margine per applicare il metodo di sicurezza basato sul principio dei privilegi minimi, che concede agli amministratori e agli utenti solo i diritti necessari per le attività che devono svolgere.
 
-> [!important]  
+> [!IMPORTANT]  
 > Le restrizioni del controllo di accesso basato sui ruoli si applicano solo per gli amministratori che lavorano da postazione remota, utilizzando il Pannello di controllo di Lync Server o Lync Server Management Shell. Un utente che lavora da un server che esegue Lync Server non è soggetto alle restrizioni del controllo di accesso basato sui ruoli. La sicurezza fisica di Lync Server pertanto è importante per mantenere le restrizioni del controllo di accesso basato sui ruoli.
 
 ## Ruoli e ambito

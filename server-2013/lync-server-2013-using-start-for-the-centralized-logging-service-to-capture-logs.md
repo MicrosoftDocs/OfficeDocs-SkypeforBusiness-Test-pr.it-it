@@ -60,7 +60,7 @@ servizio di registrazione centralizzato offre due modi per specificare i comandi
     
         Start-CsClsLogging -Scenario Authentication
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È possibile eseguire un totale di due scenari su qualsiasi computer in qualsiasi momento. Se l'ambito del comando è globale, lo o gli scenari verranno eseguiti da tutti i computer della distribuzione. Per avviare un terzo scenario è necessario interrompere la registrazione nel computer, pool, sito o ambito globale in cui si vuole eseguire il nuovo scenario. Se è stato avviato un ambito globale, è possibile interrompere la registrazione per uno o per entrambi gli scenari in uno o più computer e pool. Per informazioni dettagliate sugli scenari in esecuzione, vedere <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilizzo del comando Stop per il servizio di registrazione centralizzato</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.
 
 ## Per eseguire Start-CsClsLogging con Windows PowerShell usando comandi avanzati

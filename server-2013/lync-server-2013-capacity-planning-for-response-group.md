@@ -23,7 +23,7 @@ Nella tabella riportata di seguito viene descritto il modello utenti di Response
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Tenere presente che, per la pianificazione della capacità per il ripristino di emergenza, ogni pool di un pool accoppiato deve poter gestire i carichi di lavoro per tutti i Response Group in entrambi i pool.
 
 ### Modello utente Response Group

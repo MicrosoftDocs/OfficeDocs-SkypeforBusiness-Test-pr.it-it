@@ -32,7 +32,7 @@ L'attività principale di pianificazione per la messaggistica istantanea e la pr
     > Si noti che potrebbe essere necessaria una licenza separata per la connettività a servizi di messaggistica istantanea pubblica con Windows Live, AOL e Yahoo!
 
     
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (“PIC USL”) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>    
 > 

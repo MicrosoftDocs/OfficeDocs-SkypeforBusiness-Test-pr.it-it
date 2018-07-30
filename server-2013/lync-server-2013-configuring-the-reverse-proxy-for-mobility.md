@@ -95,7 +95,7 @@ Nelle procedure incluse in questa sezione viene descritto come creare o modifica
 
 1.  Fare clic sul pulsante **Start** , scegliere **Programmi** , **Microsoft Forefront TMG** e quindi fare clic su **Forefront TMG Management** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Ripetere la modifica per ogni listener e regola di pubblicazione disponibile. In genere sono disponibili una regola e un listener per i pool Front End e una regola e un listener per i pool Director o Server Director facoltativi, se sono stati distribuiti.
 
 2.  Nel riquadro sinistro espandere **NomeServer** , fare clic con il pulsante destro del mouse su **Criterio firewall** e quindi scegliere la regola applicabile. Nella scheda **Attività** fare clic su **Modifica regola selezionata** .

@@ -35,7 +35,7 @@ Per modificare un dial plan esistente, eseguire i passaggi illustrati nella proc
 
 5.  (Facoltativo) In **Modifica dial plan** modificare il campo **Nome semplice** , in cui viene inserito automaticamente il nome visualizzato nel campo **Nome** , specificando un nome più descrittivo che rifletta il sito, il servizio o l'utente a cui si applica il dial plan.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il <strong>Nome semplice</strong> deve essere univoco tra tutti i dial plan all'interno della distribuzione di Lync Server 2013 e può contenere al massimo 256 caratteri Unicode. Sono supportati i caratteri alfabetici e numerici, il trattino (-), il punto (.), il segno più (+) o il carattere di sottolineatura (_).<br />    Il campo <strong>Nome semplice</strong> non supporta gli spazi.
 
 6.  (Facoltativo) Nel campo **Descrizione** digitare informazioni descrittive sul dial plan.
@@ -76,7 +76,7 @@ Per modificare un dial plan esistente, eseguire i passaggi illustrati nella proc
 
 10. Verificare che le regole di normalizzazione del dial plan siano disposte nell'ordine corretto. Per modificare la posizione di una regola nell'elenco, evidenziare il nome della regola e fare clic sulla freccia su o giù.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Lync Server scorre l'elenco di regole di normalizzazione dall'alto verso il basso e utilizza la prima regola corrispondente al numero composto. Se si configura un dial plan in modo che un numero composto possa corrispondere a più regole di normalizzazione, assicurarsi che le regole più restrittive vengano ordinate prima di quelle meno restrittive.<br />    La regola di normalizzazione predefinita <strong>Mantieni tutti</strong> <strong>^(\d{11})$</strong> corrisponde a qualsiasi numero di 11 cifre. Se ad esempio si aggiunge una regola di normalizzazione che corrisponde ai numeri da 11 cifre che iniziano con 1425, verificare che la regola <strong>Mantieni tutti</strong> sia posta al di sotto della regola più restrittiva <strong>^(1425\d{7})$</strong> .
 
 11. (Facoltativo) Immettere un numero per testare il dial plan e quindi fare clic su **Vai** . I risultati del test vengono visualizzati in **Numero composto da testare** .

@@ -39,7 +39,7 @@ In Lync Server 2013, è possibile usare i criteri di posizione per applicare imp
 
 6.  Fare clic su **OK**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Non è possibile eliminare il criterio percorso Globale. Se si tenta di eliminare tale criterio, verrà visualizzato un messaggio di avviso e il criterio verrà reimpostato sui relativi valori predefiniti.
 
 ## Vedere anche

@@ -84,5 +84,5 @@ Nella tabella seguente vengono descritti i passaggi di base da eseguire per dist
 </table>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > È possibile distribuire uno o più pool di server Chat persistente. Sono supportati più pool di server Chat persistente per motivi legali e normativi in base ai quali i dati generati in una determinata area devono restare in tale area. Se ad esempio si distribuisce un pool di server Chat persistente a Chicago e un altro a Zurigo per conformità alle normative relative ai dati della Svizzera, gli utenti potranno connettersi alle chat room in entrambi i pool di server Chat persistente, purché dispongano dell'accesso.

@@ -29,7 +29,7 @@ Le funzionalità vocali, video e di condivisione disponibili in Lync Web App ric
 
 La versione Lync Server 2013 di Lync Web App supporta l'autenticazione a più fattori. Oltre al nome e alla password utente, è perciò possibile richiedere ulteriori metodi di autenticazione, ad esempio smart card o PIN, per autenticare che partecipano alle riunioni di Lync da reti esterne. È possibile abilitare l'autenticazione a più fattori distribuendo il server federativo di Active Directory Federation Service (ADFS) e abilitando l'autenticazione passiva in Lync Server 2013. Dopo la configurazione di ADFS, agli utenti esterni che tentano di partecipare a riunioni di Lync viene visualizzata una pagina Web di autenticazione a più fattori ADFS contenente la richiesta di nome e password utente, con gli eventuali altri metodi di autenticazione configurati.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se si intende configurare ADFS per l'autenticazione a più fattori, è importante considerare quanto segue:<ul>
 > <li><p>L'autenticazione a più fattori ADFS funziona se il partecipante e l'organizzatore della riunione fanno parte della stessa organizzazione, oppure di un'organizzazione federata ADFS. Non funziona invece per gli utenti federati di Lync, in quanto non è attualmente supportata dall'infrastruttura Web di Lync Server.</p></li>
 > <li><p>Se si utilizzano dispositivi di bilanciamento del carico hardware, abilitare il salvataggio permanente dei cookie in tali dispositivi, in modo che tutte le richieste provenienti dal client Lync Web App vengano gestite dallo stesso Front End Server.</p></li>

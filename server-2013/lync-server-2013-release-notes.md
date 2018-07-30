@@ -143,7 +143,7 @@ Se il valore predefinito di UseNormalizationRules viene impostato su False in mo
     
       - Se la distribuzione include una combinazione di Lync Server 2013 e Lync Server 2010 o Office Communications Server 2007 R2, eseguire il cmdlet indicato di seguito e assegnarlo a ogni pool Lync Server 2013 nella topologia:
         
-            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Attendere che venga eseguita la replica dell'archivio di gestione centrale in tutti i pool.
 
@@ -752,7 +752,7 @@ Il parametro *DropExistingDatabasesOnMirror* determina l'eliminazione dei databa
 
 3.  Pubblicare la topologia.
 
-> [!important]  
+> [!IMPORTANT]  
 > Ogni volta che si apporta una modifica a una relazione di mirroring dei database back-end, è necessario riavviare tutti i Front End Server nel pool.
 
 ## Vengono restituiti errori di convalida in Generatore di topologie quando un amministratore tenta di rimuovere una distribuzione con un pool Front End a cui è associato un archivio di controllo (3199266)

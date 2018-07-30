@@ -33,7 +33,7 @@ Un agente che deve accedere al gruppo e disconnettersi, operazione diversa dall'
 
 Un agente che non deve accedere al gruppo o disconnettersi è denominato *agente informale*. L'accesso degli agenti informali al gruppo viene eseguito automaticamente con l'accesso a Lync Server. Questi agenti non possono disconnettersi dal gruppo.
 
-> [!important]  
+> [!IMPORTANT]  
 > Quando si assegnano utenti come agenti del Response Group, informarli che, se è abilitata la modalità Privacy, dovranno cercare i contatti &quot;RGS Presence Watcher&quot; e aggiungerli all'elenco contatti. Gli agenti con modalità privacy abilitata ma nel cui elenco contatti non sono presenti contatti &quot;RGS Presence Watcher&quot; non possono ricevere chiamate per il Response Group. Questa restrizione non si applica agli agenti non in modalità privacy.
 
 ## Argomenti della sezione

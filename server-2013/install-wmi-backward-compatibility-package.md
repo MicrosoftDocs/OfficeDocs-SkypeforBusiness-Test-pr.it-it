@@ -29,7 +29,7 @@ Per installare il pacchetto di compatibilità con le versioni precedenti di WMI
 
 2.  Installare OCSWMIBC.MSI.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > OCSWMIBC.msi deve essere installato nel computer in cui viene eseguita l'unione guidata del Generatore di topologie. Si consiglia tuttavia di installare OCSWMIBC.msi in tutti i Front End Server della topologia.    
-    > [!important]  
+    > [!IMPORTANT]  
     > OCSWMIBC.msi può essere installato in qualsiasi computer del dominio in cui siano installati i componenti di base di Lync Server 2013 e Lync Server 2013 Management Shell e che disponga di accesso alla topologia Office Communications Server 2007 R2 (provider WMI per Active Directory Domain Services (AD DS) e SQL Server).

@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-09-23_
 
 La distribuzione di componenti perimetrali per Microsoft Lync Server 2013 consente agli utenti esterni che non hanno eseguito l'accesso alla rete interna dell'organizzazione, inclusi gli utenti remoti autenticati e anonimi, i partner federati (tra cui i partner XMPP), i client mobili e gli utenti di servizi di messaggistica istantanea pubblica, di comunicare con altri utenti dell'organizzazione con Lync Server. I processi di distribuzione e configurazione per Lync Server 2013 non si differenziano in modo significativo da Lync Server 2010. Gli strumenti per l'installazione e l'amministrazione sono praticamente gli stessi di Lync Server 2010.
 
-> [!important]  
+> [!IMPORTANT]  
 > Installare e configurare un server perimetrale di Microsoft Lync Server 2013 può essere un processo complesso che richiede uno sforzo significativo di pianificazione e coordinamento con i team interni, tenendo conto tra l'altro di fattori quali la sicurezza, la rete, il firewall, il sistema DNS (Domain Name System), i servizi di bilanciamento del carico e l'infrastruttura a chiave pubblica (PKI). Prima di distribuire i componenti per l'accesso esterno, è consigliabile esaminare e applicare il processo di pianificazione e la documentazione forniti. In questo modo sarà possibile limitare la quantità e l'incidenza di modifiche indesiderate e di problemi nel corso del processo di distribuzione. Per informazioni sulla pianificazione dell'accesso degli utenti esterni, vedere <a href="lync-server-2013-planning-for-external-user-access.md">Pianificazione dell'accesso degli utenti esterni in Lync Server 2013</a>.
 
 ## Argomenti della sezione

@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2015-03-19_
 
 Il server Chat persistente introduce il concetto di membri consentiti/non consentiti, che si applica alle categorie di Chat persistente e consente di controllare l'accesso alle chat di una categoria specifica.
 
-> [!important]  
+> [!IMPORTANT]  
 > Il concetto di membri consentiti/non consentiti di una categoria non equivale a quello del ruolo <strong>Membro</strong>, che si applica a una chat di Chat persistente.<br />Le ricerche visualizzano tutte le chat room aperte e chiuse per le quali l'utente che esegue la ricerca si trova nell'elenco dei membri consentiti/non consentiti. Le chat segrete non vengono visualizzate, a meno che l'utente che esegue la ricerca non ne sia membro. L'utente può eseguire la ricerca solo delle chat di cui è già membro o di quelle per le quali può richiedere l'appartenenza.
 
 L'aspetto principale del concetto di membri consentiti/non consentiti sono gli ethical wall. Ad esempio è frequente negli istituti bancari e finanziari la presenza di vincoli etici che impediscono ai commercianti e agli analisti di condividere le comunicazioni quando implementano criteri e convenzioni. Per ovviare a questo problema, un amministratore può creare le categorie in modo che una categoria consenta la creazione e l'uso delle chat ai commercianti e un'altra agli analisti. Questo vincolo, se progettato nel sistema, non consente di aggiungere un utente come membro della chat se la categoria principale lo impedisce.
@@ -35,7 +35,7 @@ Di seguito sono illustrati i tre ruoli utente del server Chat persistente:
 
   - **Responsabile:** utenti che gestiscono le proprietà di una chat room. I responsabili delle chat room possono modificare l'elenco dei membri (aggiungere o rimuovere membri) e l'elenco dei responsabili delle chat room (aggiungere e rimuovere responsabili). I responsabili delle chat room possono inoltre aggiungere se stessi all'elenco dei membri o dei relatori (per le chat in modalità auditorium) per poter partecipare alla chat room. Possono inoltre disabilitare le chat room (gli amministratori possono eseguire la ricerca delle chat room disabilitate ed eliminarle in modo permanente). I responsabili possono modificare tutte le proprietà di una chat room, ad eccezione della categoria. Solo l'amministratore di Chat persistente può modificare la categoria dopo la creazione della chat room.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se il responsabile è anche Creatore per un'altra categoria, potrà cambiare la categoria in una categoria per la quale è autorizzato a creare chat.
 
   - **Membro:** utenti che sono membri di una chat room. Tali utenti possono vedere le chat room (anche se sono segrete) nella directory, sottoscriverle (comprese le opzioni dei metadati quali messaggi non letti, filtri proprio nome e filtri basati sulle parole chiave) e partecipare (possono inserire messaggi, a meno che non si tratti di una chat in modalità auditorium in cui solo i relatori possono inserire messaggi, ottenere contenuto ed effettuare ricerche). Gli utenti che non sono membri della chat room possono cercare la chat room se sono inclusi nell'elenco Membri consentiti della categoria ma, per partecipare alle chat room e accedere al contenuto, devono richiedere l’accesso. Non è prevista la possibilità di effettuare richieste di accesso o di ricevere approvazioni all'interno del sistema. Queste operazioni vengono eseguite esternamente tramite posta elettronica, telefono o altre modalità di contatto).

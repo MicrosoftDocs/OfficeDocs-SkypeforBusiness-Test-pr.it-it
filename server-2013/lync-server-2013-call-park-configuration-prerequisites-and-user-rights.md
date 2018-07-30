@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-09-10_
 
 L' Parcheggio di chiamata è una funzionalità di gestione delle chiamate che viene installata per impostazione predefinita quando si distribuisce l' VoIP aziendale. In questo argomento vengono illustrati gli elementi di cui si deve disporre prima di poter configurare Parcheggio di chiamata e quali diritti utente sono necessari per eseguire le attività di configurazione.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per i file di musica di attesa personalizzati per l' applicazione Parcheggio di chiamata non viene eseguito il backup come parte del processo di ripristino di emergenza di Lync Server 2013 e i file verranno persi se i file caricati nel pool vengono danneggiati o cancellati. Conservare sempre una copia di backup separata dei file di musica di attesa personalizzati caricati per l' Parcheggio di chiamata.
 
 In questa sezione si presuppone che sia stata letta la documentazione relativa alla pianificazione per l' Parcheggio di chiamata (vedere [Pianificazione delle funzionalità di gestione delle chiamate in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).

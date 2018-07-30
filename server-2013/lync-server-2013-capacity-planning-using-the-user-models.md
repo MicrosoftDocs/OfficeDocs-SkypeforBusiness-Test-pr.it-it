@@ -142,7 +142,7 @@ Il numero di utenti supportati da un determinato pool Front End assicurando un l
 
   - L'utilizzo dell'organizzazione si discosta notevolmente dai modelli utente, ad esempio il traffico delle conferenze è molto superiore.
 
-> [!important]  
+> [!IMPORTANT]  
 > In Lync Server 2013, i database delle presenze sono ora ospitati in Front End Server, a differenza di Lync Server 2010 in cui sono ospitati nel server back-end. Ciò significa che le prestazioni e la capacità dei dischi dei Front End Server non devono essere compromessi dalle indicazioni elencate in precedenza in questa sezione e in <a href="lync-server-2013-server-hardware-platforms.md">Piattaforme hardware server per Lync Server 2013</a>, indipendentemente dal numero di utenti ospitati dai Front End Server.
 
 Nella tabella seguente è illustrata la larghezza di banda media per messaggistica istantanea e presenza, dato il modello utente definito in [Modelli utente in Lync Server 2013](lync-server-2013-user-models.md).

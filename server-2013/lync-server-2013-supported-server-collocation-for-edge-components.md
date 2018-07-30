@@ -23,5 +23,5 @@ I servizi Access Edge, Web Conferencing Edge, A/V Edge e Proxy XMPP sono colloca
 
   - Proxy inverso
 
-> [!important]  
+> [!IMPORTANT]  
 > Il proxy inverso non deve essere destinato esclusivamente a fornire servizi a Lync Server 2013. Ad esempio è possibile offrire servizi per pubblicare i servizi Web di Lync Server e simultaneamente fornire un sito Web pubblicato per un altro sito Web che non dispone di supporto per Lync Server. Se nella rete perimetrale è già presente un server proxy inverso per il supporto di altri servizi è possibile utilizzarlo per Lync Server 2013.

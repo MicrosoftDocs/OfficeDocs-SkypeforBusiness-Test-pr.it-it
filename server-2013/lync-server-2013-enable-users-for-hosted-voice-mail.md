@@ -21,7 +21,7 @@ Per informazioni dettagliate, vedere [Gestione di utenti di Exchange ospitati in
 
 Per informazioni dettagliate sul cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), vedere la documentazione relativa a Lync Server Management Shell.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per poter abilitare un utente di Lync Server 2013 alla segreteria telefonica ospitata, è necessario distribuire un criterio di segreteria telefonica ospitata applicato all'account relativo. Per informazioni dettagliate, vedere <a href="lync-server-2013-hosted-voice-mail-policies.md">Criteri di segreteria telefonica ospitata in Lync Server 2013</a>.
 
 ## Per abilitare gli utenti alla segreteria telefonica ospitata

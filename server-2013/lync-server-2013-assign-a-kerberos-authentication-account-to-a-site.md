@@ -27,20 +27,24 @@ Dopo aver creato un account Kerberos, è necessario assegnarlo a un sito. Questo
 
 3.  Eseguire i due comandi seguenti dalla riga di comando:
     
-        New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
-    
-        Enable-CsTopology
-    
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     Ad esempio:
     
-        New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
-    
-        Enable-CsTopology
-    
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
 
     > [!NOTE]
     > È necessario specificare il parametro UserAccount utilizzando il formato Dominio\Utente. Il formato Utente@Dominio.estensione non è supportato per fare riferimento agli oggetti computer creati per l'autenticazione Kerberos.
 
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Dopo aver apportato le necessarie modifiche all'autenticazione Kerberos, ad esempio l'aggiunta o la rimozione di un account, è necessario eseguire <strong>Enable-CsTopology</strong> dal prompt dei comandi di Lync Server Management Shell.

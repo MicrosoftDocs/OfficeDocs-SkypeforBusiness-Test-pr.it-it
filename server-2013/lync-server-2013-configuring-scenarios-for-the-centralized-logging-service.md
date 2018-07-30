@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2014-02-05_
 
 Gli scenari definiscono l'ambito (globale, sito, pool o computer) e i provider da utilizzare nel servizio di servizio di registrazione centralizzato. Attraverso gli scenari si attivano o disattivano le tracce per i provider (ad esempio, S4, SIPStack, messaggistica immediata e presenza). Attraverso la configurazione di uno scenario, è possibile raggruppare tutti i provider per una data raccolta logica relativa a un problema specifico. Se si ha bisogno di modificare uno scenario per adattarlo alle proprie esigenze di risoluzione dei problemi e registrazione, gli strumenti di debug di Lync Server 2013 forniscono un modulo di Windows PowerShell chiamato *ClsController.psm1*, che contiene una funzione chiamata *Edit-CsClsScenario*. Il modulo consente di modificare le proprietà dello scenario. In questo argomento sono forniti esempi di funzionamento del modulo. È possibile scaricare gli strumenti di debug di Lync Server 2013 al seguente indirizzo: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257).
 
-> [!important]  
+> [!IMPORTANT]  
 > Per un determinato ambito (sito, globale, pool o computer), è possibile eseguire un massimo di due scenari alla volta. Per determinare quali scenari sono in esecuzione, utilizzare Windows PowerShell e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a> è possibile modificare dinamicamente gli scenari in esecuzione. È possibile modificare gli scenari durante una sessione di registrazione, al fine di regolare o rifinire i dati che vengono raccolti, nonché i provider.
 
 Per eseguire le funzioni di servizio di registrazione centralizzato utilizzando Lync Server Management Shell, è necessario essere membri dei gruppi di sicurezza RBAC CsAdministrator o CsServerAdministrator, o avere un ruolo RBAC personalizzato, contenente uno dei due gruppi. Per restituire un elenco di tutti i ruoli RBAC ai quali è stato assegnato questo cmdlet (inclusi eventuali ruoli RBAC personalizzati creati dall'utente), eseguire il comando seguente dal prompt di Lync Server Management Shell o Windows PowerShell:
@@ -38,7 +38,7 @@ Come anticipato in [Panoramica del servizio di registrazione centralizzato](lync
     
     Facoltativamente è possibile utilizzare i parametri –Name and –Parent. Il parametro Name identifica lo scenario in maniera univoca. Se si utilizza il parametro Name, è necessario utilizzare anche il parametro Parent per aggiungere lo scenario all'ambito globale o sito.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se si utilizzano i parametri Name e Parent, non è possibile utilizzare il parametro <strong>–Identity</strong>.
 
 ## Per creare un nuovo scenario con il cmdlet New-CsClsScenario
@@ -117,7 +117,7 @@ Il cmdlet **Remove-CsClsScenario** rimuove lo scenario specificato, ma le tracce
 
 1.  Avviare Lync Server Management Shell: fare clic sul pulsante **Start**, scegliere **Tutti i programmi**, **Microsoft Lync Server 2013** e quindi **Lync Server Management Shell**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il modulo ClsController.psm1 è fornito come download Web separato. Il modulo fa parte degli strumenti di debug di Lync Server 2013. Per impostazione predefinita, gli strumenti di debug sono installati nella cartella C:\Program Files\Lync Server 2013\Debugging Tools.
 
 2.  In Windows PowerShell digitare:

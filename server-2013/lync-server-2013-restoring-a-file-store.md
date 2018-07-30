@@ -21,7 +21,7 @@ Gli archivi file per Standard Edition si trovano in genere nel server Standard E
 
 1.  In caso di errore di un Archivio file, copiare l'Archivio file appropriato da $Backup\\ al percorso dell'Archivio file nel file server o nel server Standard Edition e quindi condividere la cartella.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il percorso e il nome file dell'Archivio file ripristinato devono essere identici a quelli dell'Archivio file di cui è stato eseguito il backup, in modo che i componenti che utilizzano i file possano accedervi.
 
 2.  Se necessario, impostare gli elenchi di controllo di accesso per l'Archivio file. Nella riga di comando digitare:

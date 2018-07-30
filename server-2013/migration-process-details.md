@@ -25,7 +25,7 @@ Verificare che vengano soddisfatti i prerequisiti seguenti prima di eseguire la 
 
 2.  Installare il pool di server Chat persistente di Lync Server 2013. Sarà vuoto e non includerà categorie, chat room o componenti aggiuntivi. Prima di eseguire la migrazione delle categorie, delle chat room o dei componenti aggiuntivi legacy, è possibile creare chat room, categorie o componenti aggiuntivi nella distribuzione del server Chat persistente di Lync Server 2013.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Considerare che questi elementi appena creati possono essere in conflitto con gli elementi legacy di cui viene eseguita la migrazione. Evitare conflitti di denominazione, altrimenti verranno sovrascritti con la migrazione dei dati legacy.
 
 ## Preparazione dei dati di origine per la migrazione
@@ -34,7 +34,7 @@ Eseguire le operazioni seguenti per preparare correttamente i dati di origine pe
 
 1.  Eseguire il backup dei database di origine per Lync Server 2010, Group Chat o per Office Communications Server 2007 R2Group Chat. Per informazioni dettagliate sul backup di SQL Server, vedere "Panoramica del backup (SQL Server)" all'indirizzo <http://go.microsoft.com/fwlink/p/?linkid=254851>.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Servizi di dominio Active Directory deve rimanere lo stesso. Come condizione per la migrazione, non è possibile eseguire la migrazione a un pool in una distribuzione diversa, in particolare in una foresta di Active Directory diversa.
 
 2.  Esaminare le chat room e la configurazione delle categorie di Lync Server 2010, Group Chat o di Office Communications Server 2007 R2  Group Chat. Qualsiasi modifica delle categorie, delle chat room o dei componenti aggiuntivi della distribuzione legacy esistente deve essere eseguita con lo strumento di amministrazione Group Chat.
@@ -79,7 +79,7 @@ Eseguire le operazioni seguenti per la migrazione di Group Chat Server legacy.
 
 7.  È necessario eseguire XCOPY per tutti i file caricati (cartella completa) nel nuovo archivio file di Chat persistente di Lync Server 2013.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il client Lync 2013 non supporta il caricamento o la visualizzazione di file nelle chat room. È comunque possibile utilizzare il client legacy per inviare e visualizzare file nella chat room.
 
 8.  Convertire l'URI del server di ricerca di Lync Server 2010, Group Chat o di Office Communications Server 2007 R2  Group Chat nell'oggetto contatto del server Chat persistente di Lync Server 2013. Le operazioni seguenti sono obbligatorie se i client Lync 2010, Group Chat oppure Office Communicator 2007 R2  Group Chat devono connettersi al client Chat persistenteLync 2013 più recente dopo la migrazione senza modifiche della configurazione sul lato client:
@@ -102,5 +102,5 @@ Eseguire le operazioni seguenti per la migrazione di Group Chat Server legacy.
 
 13. È ora possibile iniziare ad abilitare la funzionalità server Chat persistente nei nuovi client. Per informazioni dettagliate sull'abilitazione del server Chat persistente, vedere [Distribuzione del server Chat persistente in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Lync Server 2013 supporta più pool di server Chat persistente. È supportata tuttavia la migrazione di un pool di Lync 2010, Group Chat o di Office Communications Server 2007 R2  Group Chat in un singolo pool di server Chat persistente di Lync Server 2013. È possibile aggiungere altri nuovi pool di server Chat persistente nella distribuzione per soddisfare esigenze particolari, ad esempio la conservazione dei dati in un'area geografica specifica.

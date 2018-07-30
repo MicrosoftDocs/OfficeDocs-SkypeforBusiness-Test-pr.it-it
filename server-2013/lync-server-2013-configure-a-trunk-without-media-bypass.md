@@ -102,12 +102,12 @@ Una configurazione trunk, come quella descritta di seguito, raggruppa un set di 
         
         3.  Fare clic su **OK** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È importante associare i record sull'utilizzo PSTN al peer Mediation Server associato al trunk in corso di configurazione. Se il peer Mediation Server è un gateway PSTN o un Session Border Controller (SBC), è consigliabile che la configurazione trunk non venga associata a un record sull'utilizzo PSTN con routing a una destinazione PSTN o a qualsiasi altro sistema downstream connesso tramite Lync Server.
 
 10. Disporre i record sull'utilizzo PSTN in modo da garantire prestazioni ottimali. Per modificare la posizione di un record nell'elenco, selezionare il record sull'utilizzo PSTN e fare clic sulla freccia verso il basso o verso l'alto.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'ordine in cui sono elencati i record sull'utilizzo PSTN nella configurazione trunk è significativo. Lync Server usa l'elenco dall'alto verso il basso.
 
 11. Per abilitare il bypass multimediale per i client protetti da NAT o firewall, selezionare **Abilita latch RTP** e un SBC che supporti il latch.
@@ -145,12 +145,12 @@ Una configurazione trunk, come quella descritta di seguito, raggruppa un set di 
     
       - Per rimuovere una regola di conversione dal trunk, evidenziare il nome della regola e fare clic su **Rimuovi** .
     
-    > [!Caution]  
+    > [!CAUTION]  
     > Non associare regole di conversione a un trunk se sono state configurate regole di conversione nel trunk peer associato, perché le due regole potrebbero essere in conflitto.
 
 17. Verificare che le regole di conversione del trunk siano disposte nell'ordine corretto. Per modificare la posizione di una regola nell'elenco, evidenziare il nome della regola e quindi fare clic sulla freccia su o giù.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Lync Server scorre l'elenco delle regole di conversione dall'alto verso il basso e utilizza la prima regola corrispondente al numero composto. Se si configura un trunk in modo che un numero composto possa soddisfare più di una regola di conversione, assicurarsi che le regole più restrittive precedano quelle meno restrittive nell'ordine. Se ad esempio sono state definite una regola di conversione relativa a qualsiasi numero di 11 cifre e una regola di conversione relativa solo ai numeri di 11 cifre che iniziano con +1425, assicurarsi che la regola relativa a qualsiasi numero di 11 cifre risulti <em>sotto</em> la regola più restrittiva.
 
 18. Al termine della configurazione del trunk, fare clic su **OK** .

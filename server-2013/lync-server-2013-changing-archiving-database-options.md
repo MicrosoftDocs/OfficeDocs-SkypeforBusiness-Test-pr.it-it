@@ -83,10 +83,10 @@ Per apportare una di queste modifiche, è necessario eseguire il Generatore di t
     
       - Per passare all'integrazione di Microsoft Exchange per archiviare i file e i dati di archiviazione nei server di Exchange 2013 (se tutti gli utenti della distribuzione sono disponibili nei server di Exchange 2013), eliminare tutte le informazioni relative ai database di Archiviazione.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se sono presenti utenti Lync non disponibili nei server di Exchange 2013, non eliminare le informazioni dell'archivio SQL Server.
 
 8.  Per salvare la configurazione, fare clic su **OK**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le modifiche apportate nel Generatore di topologie diventano effettive solo dopo la pubblicazione della nuova topologia. Per informazioni dettagliate, vedere <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Pubblicazione della topologia aggiornata per l'aggiunta dei database di archiviazione</a> nella documentazione relativa alla distribuzione.

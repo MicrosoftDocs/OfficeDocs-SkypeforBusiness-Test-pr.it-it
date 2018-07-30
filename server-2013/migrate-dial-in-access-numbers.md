@@ -35,7 +35,7 @@ I numeri di accesso esterno creati in Lync Server 2010 e spostati in Lync Server
 
 È necessario completare la migrazione dei numeri di accesso esterno che puntano a un pool di Lync Server 2010 prima di rimuovere il pool di Lync Server 2010. Se non si completa la migrazione come descritto nella procedura seguente, le chiamate in arrivo ai numeri di accesso avranno esito negativo.
 
-> [!important]  
+> [!IMPORTANT]  
 > È necessario eseguire questa procedura prima di rimuovere il pool di Lync Server 2010.
 
 

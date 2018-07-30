@@ -27,7 +27,7 @@ Per pubblicare, abilitare o disabilitare correttamente una topologia quando si a
 
 Se la topologia perimetrale è stata definita durante la definizione e la pubblicazione della topologia interna e non sono richieste modifiche alla topologia perimetrale creata in precedenza, non è necessario definirla e pubblicarla di nuovo. Utilizzare la procedura seguente solo se è necessario apportare modifiche alla topologia perimetrale. È necessario rendere la topologia precedentemente definita e pubblicata disponibile per i server perimetrali, utilizzando la procedura descritta in [Esportare la topologia di Lync Server 2013 e copiarla su supporto esterno per l'installazione perimetrale](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-> [!important]  
+> [!IMPORTANT]  
 > Non è possibile eseguire Generatore di topologie da un server perimetrale, ma è necessario eseguirlo dai server Front End Server o Standard Edition.
 
 Il processo per la definizione della topologia del server perimetrale avviene in Generatore di topologie. In seguito sono elencati i tre tipi principali di topologie dei server perimetrali che è possibile pianificare e configurare:
@@ -52,7 +52,7 @@ Il processo per la definizione della topologia del server perimetrale avviene in
     
       - In **FQDN pool** digitare il nome di dominio completo (FQDN) dell'interfaccia interna per il server perimetrale.
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Il nome specificato deve essere identico al nome del computer configurato nel server. Per impostazione predefinita, il nome di un computer che non fa parte di un dominio è un nome breve, non un FQDN. Poiché Generatore di topologie utilizza gli FQDN e non i nomi brevi, è necessario aggiungere un suffisso DNS al nome del computer che non fa parte di un dominio e che deve essere distribuito come server perimetrale. Nell'assegnare FQDN dei server Lync Server, dei server perimetrali e dei pool, utilizzare solo i caratteri standard (inclusi i caratteri A-Z, a-z, 0-9 e i trattini). Non utilizzare caratteri Unicode o di sottolineatura. I caratteri non standard in un FQDN spesso non sono supportati nel sistema DNS esterno e nelle CA pubbliche (quando l'FQDN deve essere assegnato al nome soggetto nel certificato). Per informazioni dettagliate sull'aggiunta di un suffisso DNS a un nome di computer, vedere <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurare DNS per il supporto dei componenti perimetrali in Lync Server 2013</a>.    
       - Fare clic su **Pool computer singolo** e quindi fare clic su **Avanti** .
 
@@ -156,7 +156,7 @@ Il processo per la definizione della topologia del server perimetrale avviene in
     
       - In **Pool FQDN** digitare il nome di dominio completo (FQDN) della connessione interna del server perimetrale.
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Utilizzare solo caratteri standard, ovvero A-Z, a-z, 0-9 e trattini, per assegnare FQDN dei server Lync Server, dei server perimetrali e dei pool. Non utilizzare caratteri Unicode o di sottolineatura. La presenza di caratteri non standard in un FQDN è spesso non supportata da DNS esterni e CA pubbliche (quando l'FQDN deve essere assegnato al nome soggetto nel certificato). Per informazioni dettagliate sull'aggiunta di un suffisso DNS a un nome di computer, vedere Generatore di topologie.    
       - Fare clic su **Pool di più computer** e quindi su **Avanti** .
 
@@ -290,7 +290,7 @@ Il processo per la definizione della topologia del server perimetrale avviene in
     
       - In **FQDN** digitare il nome di dominio completo (FQDN) scelto per il lato interno del pool di server perimetrali.
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Utilizzare solo caratteri standard, ovvero A-Z, a-z, 0-9 e trattini, per assegnare FQDN dei server Lync Server, dei server perimetrali e dei pool. Non utilizzare caratteri Unicode o di sottolineatura. La presenza di caratteri non standard in un FQDN è spesso non supportata da DNS esterni e CA pubbliche (quando l'FQDN deve essere assegnato al nome soggetto nel certificato). Per informazioni dettagliate sull'aggiunta di un suffisso DNS a un nome di computer, vedere Generatore di topologie.    
     <!-- end list -->
     
@@ -321,7 +321,7 @@ Il processo per la definizione della topologia del server perimetrale avviene in
     
       - **Abilita IPv6 su interfaccia esterna** : selezionare questa casella di controllo se si desidera applicare un indirizzo IPv6 all'interfaccia esterna di server perimetrale o pool di server perimetrali
     
-    > [!important]  
+    > [!IMPORTANT]  
     > <strong>Non</strong> selezionare la casella di controllo <strong>L'indirizzo IP esterno del pool di server perimetrali è convertito da NAT</strong> . Network Address Translation (NAT) non è supportato quando si utilizza il bilanciamento del carico di rete hardware.
 
 9.  In **FQDN esterni** eseguire le operazioni seguenti:

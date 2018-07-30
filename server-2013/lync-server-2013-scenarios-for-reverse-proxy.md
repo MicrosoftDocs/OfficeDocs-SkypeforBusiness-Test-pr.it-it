@@ -37,7 +37,7 @@ Durante la fase di pianificazione della distribuzione di Lync Server 2013, vengo
 
 2.  I servizi Web esterni di Lync Server 2013 (distribuiti in Front End Server e/o Server Director) prevedono una connessione da un proxy inverso sulla porta TCP 4443 e che tale connessione sia SSL/TLS.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le porte di attesa consigliate per i servizi Web sterni sono TCP 8080 per il traffico HTTP e TCP 4443 per il traffico HTTPS. Generatore di topologie offre la possibilità di sostituire i valori predefiniti e definire le proprie porte di attesa per i servizi Web esterni. È importante notare che il proxy inverso comunica con i servizi Web esterni e i client esterni comunicano con il proxy inverso. Il client esterno comunica con il proxy inverso sulla porta TCP 443, ma è possibile ridefinire su quale porta il proxy inverso comunica con i servizi Web esterni. Le opzioni in Generatore di topologie per sostituire le porte di attesa predefinite per i servizi Web consentono di risolvere i conflitti di porta di attesa che potrebbero verificarsi nell'infrastruttura.
 
 3.  Per i servizi Web esterni di Lync Server 2013 è prevista un'intestazione host non modificata dal client per identificare il servizio e la directory server Web che il client sta tentando di utilizzare. Le richieste dovrebbero essere visualizzate come se provenissero dal proxy inverso

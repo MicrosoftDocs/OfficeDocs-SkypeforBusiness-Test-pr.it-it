@@ -51,7 +51,7 @@ Il processo di provisioning per la connettività Lync-Skype è stato modificato 
 > 
 > <li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.
 </div></li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
 </tr>
@@ -65,7 +65,7 @@ Il processo di provisioning per la connettività Lync-Skype è stato modificato 
 > 
 > <li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.
 </div></li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
 </tr>
@@ -85,7 +85,7 @@ Per preparare l'ambiente di Lync Server per la connettività Lync-Skype, l'ammin
 
 La federazione è obbligatoria per consentire agli utenti di Skype di comunicare con quelli di Lync all'interno dell'organizzazione. Il servizio PIC (Public Instant Messaging Connectivity) è una classe di federazione e deve essere configurato per consentire agli utenti di Lync di comunicare con quelli di Skype. I servizi di federazione e PIC possono essere configurati tramite il Pannello di controllo di Lync Server, illustrato di seguito.
 
-> [!important]  
+> [!IMPORTANT]  
 > La federazione PIC non è più supportata da Live Communication Server 2005 SP1 o da Office Communications Server 2007. Le piattaforme supportate per la federazione PIC includono Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2.
 
 ## 2\. Configurare almeno un criterio per il supporto dell'accesso utente federato

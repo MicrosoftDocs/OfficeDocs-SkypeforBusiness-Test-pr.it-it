@@ -27,7 +27,7 @@ L'installazione dell'ultima versione di server Chat persistente richiede i compo
     
       - Servizio di conformità, attivato se la conformità è abilitata
     
-    > [!important]  
+    > [!IMPORTANT]  
     > In Lync Server 2013, i servizi Web di Chat persistente per il caricamento e il download di file sono ora collocati con Lync Server 2013Front End Server.<br />    Anche i servizi Web di Chat persistente per la gestione delle chat room sono collocati con Lync Server 2013Front End Server.
 
   - Il server o i server (più server se si utilizza il mirroring) che ospitano il database back-end di SQL Server per l'hosting del database del contenuto di Chat persistente in cui vengono archiviati il contenuto delle chat room, le chat e le categorie.
@@ -54,7 +54,7 @@ Il servizio di conformità di Chat persistente, se la conformità è abilitata, 
 
 Per Lync Server 2013Enterprise Edition non è consentita la collocazione di server Chat persistente nel Server Enterprise Edition. Il database di SQL Server per server Chat persistente può essere collocato con il database del server back-end di un Enterprise Editionpool Front End. Il database di SQL Server per la conformità di Chat persistente può essere inoltre collocato con il database del server back-end di un pool Enterprise Edition.
 
-> [!important]  
+> [!IMPORTANT]  
 > Il server che ospita il database di Chat persistente può ospitare altri database. Se, tuttavia, si desidera collocare il database di Chat persistente con altri database, è opportuno tenere presente che l'archiviazione dei messaggi di più utenti può comportare un notevole aumento dello spazio su disco richiesto dal database di Chat persistente. Per questo motivo non è consigliabile collocare il database di Chat persistente con il database back-end.
 
 Se si colloca il database di Chat persistente con il database back-end, è possibile utilizzare una singola istanza di SQL Server per uno o per tutti i database o, in alternativa, utilizzare un'istanza di SQL Server separata per ogni database, con la limitazione seguente:
@@ -77,14 +77,14 @@ server Chat persistente supporta le topologie seguenti:
 
 È possibile aggiungere server Chat persistente alla distribuzione di Lync Server 2013 tramite Generatore di topologie. È possibile aggiungere un pool di server Chat persistente con singolo server o più server alla topologia.
 
-> [!important]  
+> [!IMPORTANT]  
 > Dopo aver creato un pool di server Chat persistente con un singolo server tramite Generatore di topologie, non è possibile aggiungere ulteriori server al pool.
 
 ## Topologia a server singolo
 
 La configurazione minima e la distribuzione più semplice di server Chat persistente prevede una topologia server Chat persistenteFront End Server a server singolo. In questa distribuzione è richiesto un singolo server che esegue server Chat persistente (ed esegue facoltativamente il servizio di conformità, se la conformità è abilitata), un server che ospita entrambi i database di SQL Server e, se è richiesta la conformità, il database di SQL Server per archiviare i dati di conformità.
 
-> [!important]  
+> [!IMPORTANT]  
 > Non è possibile aggiungere ulteriori server a un pool di server Chat persistente avviato come distribuzione a server singolo in Generatore di topologie. È consigliabile utilizzare la topologia con pool di più server, anche se si utilizza un singolo server, in modo da poter aggiungere ulteriori server in seguito all'occorrenza.
 
 Nella figura seguente sono illustrati tutti i componenti obbligatori e facoltativi di una topologia per un singolo server Chat persistenteFront End Server con conformità.

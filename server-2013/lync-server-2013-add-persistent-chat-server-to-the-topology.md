@@ -37,7 +37,7 @@ Per distribuire più server pool di server Chat persistente, ripetere il process
     
     È possibile scegliere un **Pool di più computer** o un **Pool computer singolo** . Scegliere la prima opzione se si intende avere più server Chat persistenteFront End Server nel pool di server Chat persistente. Questa selezione deve essere operata subito o in seguito, poiché se si crea un pool computer singolo, non è possibile aggiungervi altri server in seguito. Se si seleziona un pool di più computer, inserire i nomi dei server Chat persistenteFront End Server individuali contenuti nel pool.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se il ruolo del server Chat persistente viene installato su un server Lync Server 2013server Standard Edition, l'FQDN deve corrispondere all'FQDN del server server Standard Edition.
 
 4.  Definire un **Nome visualizzato** semplice per il pool di server Chat persistente. Il nome visualizzato può essere utilizzato dai client personalizzati, in particolare quando ci sono più pool di server Chat persistente, al fine di differenziare le chat room.
@@ -48,7 +48,7 @@ Per distribuire più server pool di server Chat persistente, ripetere il process
 
 7.  Assegnare la persistenza per il pool di server Chat persistente. Selezionare la casella di controllo **Usa questo pool come predefinito per il sito \<NomeSito\>** o **\_Usa questo pool come predefinito per tutti i siti** per impostare questo pool di server Chat persistente come pool predefinito per il sito corrente o tutti i siti. Quando il client di Lync 2013 viene utilizzato per la creazione e la gestione delle chat room, il pool predefinito associato al sito dell'utente è utilizzato dall'esperienza di creazione e gestione delle chat room affinché possa indirizzare le operazioni di creazione e gestione delle chat room a quel pool. Ciò si applica solo quando si hanno più pool di server Chat persistente gestiti, e si desidera utilizzare le funzioni di creazione e gestione delle chat room di server Chat persistente.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È possibile personalizzare le funzionalità di creazione e gestione delle chat room attraverso l'SDK (Software Development Kit) del server Chat persistente.<br />    Per informazioni dettagliate su come configurare i database di backup di SQL Server per il ripristino di emergenza, vedere <a href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configurazione del server Chat persistente per la disponibilità elevata e il ripristino di emergenza in Lync Server 2013</a> nella documentazione relativa alla distribuzione.
 
 8.  Definire l' **archivio SQL per il server back-end della server Chat persistente (in cui è archiviato il contenuto della chat room)** eseguendo una delle seguenti operazioni:
@@ -65,7 +65,7 @@ Per distribuire più server pool di server Chat persistente, ripetere il process
 
 9.  Se è stata abilitata la conformità, definire il database di conformità di SQL Server.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Per informazioni dettagliate su come configurare i mirror di SQL Server per l'elevata disponibilità nel database di server Chat persistente e il database di conformità di server Chat persistente, vedere <a href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configurazione del server Chat persistente per la disponibilità elevata e il ripristino di emergenza in Lync Server 2013</a> nella documentazione relativa alla distribuzione.
 
 10. Definire l'archivio file. Un archivio file è una cartella in cui è archiviata una copia di qualunque file caricato nell'archivio dei file (ad esempio, gli allegati pubblicati in una chat room). Nel caso di una topologia server Chat persistente a più server, questo deve essere rappresentato da un percorso UNC (Universal Naming Convention), mentre per una topologia server Chat persistente a server singolo, può trattarsi di un percorso file locale.
@@ -76,7 +76,7 @@ Per distribuire più server pool di server Chat persistente, ripetere il process
     
       - In **Condivisione file** , specificare l'archivio file che si desidera utilizzare.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È possibile definire l'archivio file in Generatore di topologie prima di creare l'archivio file ma è necessario crearlo nel percorso definito prima di pubblicare la topologia.
 
 11. Selezionare il pool del Front End Server da utilizzare come hop successivo per questo pool di server Chat persistente, ovvero il pool del Front End Server in grado di instradare le richieste del server Chat persistente a questo pool.

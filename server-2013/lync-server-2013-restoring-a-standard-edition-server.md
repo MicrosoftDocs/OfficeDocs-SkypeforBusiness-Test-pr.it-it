@@ -34,7 +34,7 @@ In caso di errore di un server Standard Edition che non ospita archivio di gesti
 
 3.  Ripristinare l'Archivio file copiando l'Archivio file appropriato da $Backup nella posizione dell'Archivio file sul server e condividere la cartella.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il nome del percorso e del file dell'Archivio file ripristinato devono essere identici a quelli dell'Archivio file di cui è stato eseguito il backup in modo che i componenti che utilizzano i file possano accedervi.
 
 4.  Eseguire Generatore di topologie:

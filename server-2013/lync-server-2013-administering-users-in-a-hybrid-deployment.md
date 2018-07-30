@@ -19,14 +19,17 @@ Per gestire le impostazioni utente e i criteri per gli utenti di cui è stata es
 
 ## Rispostamento degli utenti in locale
 
-> [!important]  
+> [!IMPORTANT]  
 > Le informazioni contenute in questa sezione sono applicabili solo agli utenti creati e abilitati per Lync in locale e in seguito spostati da una distribuzione in locale a Lync Online. Se si desidera spostare gli utenti creati in Lync Online (e mai abilitati per Lync in una distribuzione in locale) vedere, <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Spostare gli utenti da Lync Online a Lync in locale in Lync Server 2013</a>.
 
   - Eseguire i seguenti cmdlet per rispostare un utente da Lync Online a Lync in locale:
     
-        $cred=Get-Credential
-    
-        Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
+    $cred=Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
 
 Il formato dell'URL specificato per il parametro **HostedMigrationOverrideUrl** deve essere l'URL del pool in cui è in esecuzione il servizio di migrazione ospitata, nel formato seguente:
 

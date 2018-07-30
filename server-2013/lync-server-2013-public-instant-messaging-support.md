@@ -29,7 +29,7 @@ I partner di connettività di messaggistica istantanea pubblici attualmente supp
 
 Per le comunicazioni con gli utenti di Windows Live, Lync Server 2013 supporta la messaggistica istantanea peer-to-peer e chiamate audio e video. Per le comunicazioni con AOL e Yahoo\!, Lync Server 2013 supporta la messaggistica istantanea peer-to-peer. Potrebbe essere necessaria una licenza separata.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>Dal 1 settembre 2012, la licenza di sottoscrizione utenti per la connettività di messaggistica istantanea pubblica di Microsoft Lync (&quot;PIC USL&quot;) non è più disponibile per l'acquisto per i nuovi contratti o quelli in fase di rinnovo. I clienti con licenze attive potranno continuare a eseguire la federazione con Yahoo! Messenger fino alla data di chiusura del servizio. Giugno 2014 è la data di fine servizio annunciata per Yahoo! e AOL. Per informazioni dettagliate, vedere <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013</a>.</p></li>
 > 

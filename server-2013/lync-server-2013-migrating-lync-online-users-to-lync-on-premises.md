@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Ultima modifica dell'argomento:** 2015-03-09_
 
-> [!important]  
+> [!IMPORTANT]  
 > Questi passaggi sono necessari solo per la migrazione di account utente abilitati originariamente per Lync in Lync Online, prima della distribuzione di Lync in locale. Per spostare gli utenti abilitati originariamente per Lync in locale e spostati in un secondo momento in Lync Online, vedere <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Amministrazione degli utenti in una distribuzione ibrida di Lync Server 2013</a>.<br />Inoltre, è necessario che tutti gli utenti da spostare dispongano di account nell'Active Directory locale.
 
 ## Migrazione di utenti abilitati originariamente in Lync Online a Lync in locale

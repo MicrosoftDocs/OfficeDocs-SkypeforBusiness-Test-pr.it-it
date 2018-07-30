@@ -65,7 +65,7 @@ Le procedure seguenti consentono di aprire il Pannello di controllo di Lync Serv
 
 1.  Da un account utente assegnato al ruolo CsAdministrator o a un altro ruolo con autorizzazioni e diritti utente appropriati per l'attività da eseguire, accedere a qualsiasi computer nella distribuzione interna con una risoluzione minima dello schermo pari a 1024 x 768.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se è stato configurato un URL (Uniform Resource Locator) semplice di amministrazione, è possibile accedere al Pannello di controllo di Lync Server 2013 da un browser Internet in esecuzione in qualsiasi computer interno al firewall dell'organizzazione. Per informazioni dettagliate sulla configurazione dell'URL semplice di amministrazione, vedere <a href="lync-server-2013-planning-for-simple-urls.md">Pianificazione degli URL semplici in Lync Server 2013</a> nella documentazione sulla pianificazione e <a href="lync-server-2013-edit-or-configure-simple-urls.md">Modificare o configurare URL semplici in Lync Server 2013</a> nella documentazione sulla distribuzione.
 
 2.  Aprire una finestra del browser e quindi immettere l'URL di amministrazione configurato per l'organizzazione.

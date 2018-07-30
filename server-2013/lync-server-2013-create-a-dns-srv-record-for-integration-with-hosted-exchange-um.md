@@ -25,7 +25,7 @@ In questo argomento viene descritto come configurare il record DNS (Domain Name 
 
 3.  Nell'albero della console per il dominio SIP espandere **Zone di ricerca diretta** e quindi selezionare il SIP in cui verrà installato Lync Server 2013.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > È necessario creare il record DNS SRV nel dominio SIP in cui Lync Server è o verrà installato. Quando si crea il record SRV, l'FQDN utilizzato per il campo Host che offre questo servizio deve essere l'FQDN esterno del pool di server perimetrali. Ad esempio, se l'FQDN esterno del pool di server perimetrali è edge01.contoso.net, immettere tale valore. Deve inoltre trovarsi nello stesso dominio del record DNS degli host (A).
 
 4.  Fare clic con il pulsante destro del mouse sul dominio selezionato e quindi scegliere **Altri nuovi record** .

@@ -24,7 +24,7 @@ Al momento dell'introduzione dell'individuazione automatica in Lync Server 2010,
 
 Dato che Lync Server 2013 utilizza l'individuazione automatica per tutti i client, lo scenario principale prevede l'utilizzo esclusivo di HTTPS e la creazione dei certificati con lyncdiscover.\<dominio\> come parte della configurazione dei proxy inversi, dei Director e dei Front End Server. Se si implementa l'individuazione automatica in una distribuzione aggiornata da Lync Server 2010, è possibile scegliere di utilizzare HTTP per evitare la riemissione dei certificati. Nelle sezioni seguenti sono disponibili istruzioni per entrambi gli scenari.
 
-> [!important]  
+> [!IMPORTANT]  
 > L'elenco dei nomi alternativi soggetto nei certificati utilizzati dalla regola di pubblicazione dei servizi Web esterni deve contenere una voce <em>lyncdiscover.&lt;dominiosip&gt;</em> per ogni dominio SIP all'interno dell'organizzazione. Per informazioni dettagliate sulle voci dei nomi alternativi soggetto richiesti per Director, Front End Server e proxy inversi, vedere <a href="lync-server-2013-certificate-summary-autodiscover.md">Riepilogo certificato - Individuazione automatica</a>.
 
 ## Argomenti della sezione

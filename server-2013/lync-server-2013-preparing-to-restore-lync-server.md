@@ -89,7 +89,7 @@ Quando si ripristina un server, è necessario iniziare con un computer nuovo o p
 
   - Un server nuovo o pulito con lo stesso nome di dominio completo (FQDN) del server in cui si è verificato l'errore.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Quando si installa il sistema operativo, fare attenzione a non eliminare l'account del computer in Servizi di dominio Active Directory e verificare che vengano mantenute le autorizzazioni di gruppo per l'account.
 
   - Software di installazione per il sistema operativo. Per installare il sistema operativo, è possibile utilizzare le procedure di distribuzione del server e le configurazioni stabilite dall'organizzazione. Quando si ripristina il servizio, è necessario avere a disposizione tali requisiti di configurazione e procedure.

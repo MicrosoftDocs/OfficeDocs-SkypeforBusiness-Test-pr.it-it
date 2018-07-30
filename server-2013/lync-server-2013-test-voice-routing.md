@@ -22,7 +22,7 @@ Prima di distribuire la configurazione del routing vocale, è consigliabile test
 > [!tip]  
 > È possibile utilizzare i comandi <strong>Esporta test case</strong> e <strong>Importa test case</strong> per salvare i test case del routing vocale e importarli per l'uso su un altro computer.
 
-> [!Caution]  
+> [!CAUTION]  
 > Se si elimina una parte della configurazione del routing vocale, ad esempio un dial plan, un criterio vocale, una route vocale o un utilizzo del telefono, è necessario controllare e aggiornare i test case del routing vocale. Il Pannello di controllo di Lync Server non invia un avviso agli utenti quando i test case non sono più validi a causa delle modifiche apportate alle configurazioni.
 
 ## Argomenti della sezione

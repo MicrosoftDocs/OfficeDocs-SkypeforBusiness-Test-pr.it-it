@@ -19,7 +19,7 @@ Il servizio Controllo di ammissione di chiamata è una soluzione che determina s
 
 In questa sezione è contenuto un set di procedure di esempio che illustrano in che modo distribuire e gestire Controllo di ammissione di chiamata nella rete.
 
-> [!important]  
+> [!IMPORTANT]  
 > Prima di distribuire il servizio Controllo di ammissione di chiamata, è necessario raccogliere tutte le informazioni necessarie per la topologia di rete aziendale, come descritto in <a href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Esempio: raccolta dei requisiti dell'organizzazione per il controllo di ammissione di chiamata in Lync Server 2013</a> nella documentazione relativa alla pianificazione. Verificare inoltre che i componenti di Controllo di ammissione di chiamata siano stati installati e attivati, come descritto in <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definire e configurare un pool Front End o un server Standard Edition in Lync Server 2013</a> nella documentazione relativa alla distribuzione.
 
 

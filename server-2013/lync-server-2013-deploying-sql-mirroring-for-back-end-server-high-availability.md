@@ -41,10 +41,10 @@ Con il mirroring SQL, la modalità di recupero del database è impostata sempre 
 
 Nel mirroring SQL è possibile configurare la topologia per il mirroring al momento della creazione dei pool, o in seguito.
 
-> [!important]  
+> [!IMPORTANT]  
 > L'utilizzo di Generatore di topologie o dei cmdlet per la configurazione e la rimozione del mirroring SQL è supportata unicamente quando i server primario, mirror e di controllo (se desiderato) appartengono allo stesso dominio. Per configurare il mirroring SQL tra server su domini diversi, vedere la documentazione relativa a SQL Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Quando si apportano modifiche a una relazione di mirroring di un database di back end, è necessario riavviare tutti i Front End Server nel pool.<br />Per apportare una modifica nel mirroring, ad esempio per modificare la località di un mirror, è necessario utilizzare Generatore di topologie per eseguire i tre passaggi successivi:<ol>
 > <li><p>Rimuovere il mirroring dal server mirror meno recente.</p></li>
 > 

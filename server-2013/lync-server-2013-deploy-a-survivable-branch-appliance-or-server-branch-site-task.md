@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2014-10-28_
 
 Eseguire una delle due procedure descritte in questo argomento nel sito di succursale, dopo aver completato le attività descritte in [Distribuzione di Survivable Branch Appliance o Survivable Branch Server con Lync Server 2013 - Attività presso il sito centrale](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
-> [!important]  
+> [!IMPORTANT]  
 > Per eseguire questa procedura, è necessario essere un membro del gruppo RTCUniversalSBATechnicians.
 
 ## Per distribuire Survivable Branch Appliance

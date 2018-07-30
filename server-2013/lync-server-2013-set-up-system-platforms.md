@@ -29,7 +29,7 @@ Ogni topologia richiede almeno un server con Lync Server 2013 installato e un se
 
 È anche possibile distribuire server Chat persistente con Lync Server 2013Standard Edition. In questo caso, il Front End Server**PersistentChatService** viene collocato sul Server Standard Edition ed è possibile distribuire il server back-end**PersistentChatStore** nell'istanza locale di SQL Server Express.
 
-> [!important]  
+> [!IMPORTANT]  
 > Non è disponibile il supporto di server Chat persistenteStandard Edition per la disponibilità elevata, in quanto le prestazioni e la scala risulterebbero limitati. Inoltre, sono supportate solo le nuove distribuzioni del Server Standard Edition di server Chat persistente e non è supportato l'aggiornamento di un Group Chat Server di Lync Server 2010 a un server Chat persistenteStandard Edition di Lync Server 2013.
 
 ## Vedere anche

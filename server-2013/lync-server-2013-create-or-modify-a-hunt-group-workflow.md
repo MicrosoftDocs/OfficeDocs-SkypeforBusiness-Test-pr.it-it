@@ -104,7 +104,7 @@ Eseguire una delle procedure seguenti per creare o modificare il flusso di lavor
     
     2.  Digitare l'URI SIP di ulteriori responsabili da aggiungere al flusso di lavoro e fare clic su **Aggiungi** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A ogni utente designato come responsabile di un Response Group deve essere assegnato il ruolo CsResponseGroupManager. Se non viene assegnato loro questo ruolo, non potranno gestire i Response Group.
 
 16. In **Passaggio 2 Selezionare una lingua** fare clic sulla lingua che si desidera utilizzare per il riconoscimento vocale e la sintesi vocale.
@@ -293,7 +293,7 @@ Eseguire una delle procedure seguenti per creare o modificare il flusso di lavor
     
         $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
     
-    > [!important]  
+    > [!IMPORTANT]  
     > A tutti gli utenti designati come responsabili dei flussi di lavoro deve essere assegnato il ruolo CsResponseGroupManager.    
 
     > [!NOTE]

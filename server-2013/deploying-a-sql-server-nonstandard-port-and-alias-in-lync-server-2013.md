@@ -91,7 +91,7 @@ Prima che Lync Server 2013Generatore di topologie possa farvi riferimento, l'ali
     
     ![Reimpostare il servizio SQL Server per l'istanza.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Reimpostare il servizio SQL Server per l'istanza.")
 
-> [!important]  
+> [!IMPORTANT]  
 > Assicurarsi di aggiornare le impostazioni firewall in funzione della nuova porta di SQL Server.
 
 **Creare e configurare un alias di SQL Server**
@@ -110,7 +110,7 @@ Prima che Lync Server 2013Generatore di topologie possa farvi riferimento, l'ali
     
     ![Creazione di un nuovo alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Creazione di un nuovo alias")
     
-    > [!Caution]  
+    > [!CAUTION]  
     > Assicurarsi di inserire la stessa porta non standard utilizzata nel passaggio precedente. SQL Server utilizzerà infatti questa porta per creare un'istanza di attesa. Se un alias configurato si connette a un FQDN errato o a un'istanza errata di SQL Server, disabilitare e riabilitare il protocollo di rete associato. In questo modo verranno cancellate tutte le informazioni di connessione memorizzate nella cache e il client potrà connettersi correttamente.
 
 **Creare un record di risorse CNAME DNS**

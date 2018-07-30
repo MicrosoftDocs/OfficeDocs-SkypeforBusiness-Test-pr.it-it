@@ -39,7 +39,7 @@ Lync Server 2013 supporta i sistemi di gestione di database seguenti:
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>Lync Server 2013 non supporta l'edizione a 32 bit di SQL Server. È necessario utilizzare l'edizione a 64 bit.</p></li>
 > <li><p>SQL Server Web Edition e SQL Server Workgroup Edition nono sono supportati e non è possibile utilizzarli con Lync Server 2013.</p></li>
@@ -52,7 +52,7 @@ Lync Server 2013 supporta i sistemi di gestione di database seguenti:
 
 In un pool Front End, il database back-end può essere un singolo computer SQL Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Se i database di Lync Server vengono installati nella stessa posizione di altri database, è consigliabile valutare tutti i fattori che potrebbero influire su disponibilità e prestazioni, oltre ad assicurarsi che, in caso di errore di un nodo, il nodo rimanente sia in grado di gestire il carico. Per verificare le funzionalità di failover, è consigliabile testare tutti i possibili scenari.
 
 ## Uso del mirroring e del clustering SQL

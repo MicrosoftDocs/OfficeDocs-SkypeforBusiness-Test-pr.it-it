@@ -21,7 +21,7 @@ Prima di installare e distribuire Enterprise Edition Front End Server e il datab
 
 Insieme a SQL Server è necessario installare SQL Server Management Studio per gestire le posizioni del database e dei file di log. SQL Server Management Studio viene installato come componente facoltativo quando si installa SQL Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Per installare e distribuire i database nel server basato su SQL Server, è necessario essere membri del gruppo sysadmin di SQL Server per il server basato su SQL Server in cui verranno installati i file di database. Se non si è membri di questo gruppo, è necessario richiedere di essere aggiunti al gruppo finché i file di database non saranno stati distribuiti. Se non è possibile diventare membri del gruppo sysadmin, è necessario fornire all'amministratore di database di SQL Server lo script per configurare e distribuire i database. Per informazioni dettagliate sulle autorizzazioni e sui diritti utente necessari per eseguire le procedure, vedere <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Autorizzazioni di distribuzione per SQL Server in Lync Server 2013</a>.
 
 ## Per configurare il clustering di SQL Server

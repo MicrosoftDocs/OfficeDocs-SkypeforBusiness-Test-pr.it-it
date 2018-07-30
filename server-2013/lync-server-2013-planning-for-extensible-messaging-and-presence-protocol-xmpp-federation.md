@@ -19,7 +19,7 @@ Le versioni precedenti di Lync Server e Office Communications Server includono u
 
 La distribuzione e la configurazione di XMPP sono illustrate in [Distribuzione dell'accesso degli utenti esterni in Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Per pianificare il supporto di XMPP in un'organizzazione, occorre definire le regole delle porte e del protocollo nel firewall, la configurazione dei certificati e l'aggiunta dei record DNS. Negli argomenti seguenti di questa sezione vengono riepilogate le informazioni necessarie per pianificare correttamente la federazione XMPP per la distribuzione.
 
-> [!important]  
+> [!IMPORTANT]  
 > La funzionalità XMPP di Lync Server 2013 è testata e supportata da Microsoft per la federazione di messaggistica istantanea con Google Talk. Per altri sistemi XMPP, contattare il fornitore di terze parti per verificare l'eventuale supporto della federazione con Lync Server 2013 e per indicazioni per la distribuzione o la risoluzione dei problemi.
 
 ## Argomenti della sezione

@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2014-10-20_
 
 Ogni subnet della rete deve essere associata a un sito di rete specifico. Le informazioni della subnet, infatti, vengono utilizzate per determinare il sito di rete in cui si trova un endpoint durante un tentativo di avvio di una nuova sessione. Quando è nota la posizione di ogni parte coinvolta in una sessione, tali informazioni possono essere utilizzate dalle funzionalità di VoIP aziendale avanzate per determinare come gestire la configurazione o il routing delle chiamate.
 
-> [!important]  
+> [!IMPORTANT]  
 > Alle impostazioni della configurazione di rete è necessario aggiungere tutti gli indirizzi IP pubblici configurati degli Audio/Video Edge Server nella distribuzione. Tali indirizzi IP vengono aggiunti come subnet con una maschera pari a 32. Il sito di rete associato deve corrispondere al sito di rete configurato appropriato. Ad esempio, il NetworkSiteID dell'indirizzo IP pubblico corrispondente all'A/V Edge Server nel sito centrale di Chicago sarà Chicago. Per informazioni dettagliate sugli indirizzi IP pubblici, vedere <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinare i requisiti di porte e firewall A/V esterni per Lync Server 2013</a> nella documentazione relativa alla pianificazione.
 
 

@@ -19,7 +19,7 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 
 ## Processo di integrazione di messaggistica unificata
 
-> [!important]  
+> [!IMPORTANT]  
 > È importante rivolgersi agli amministratori di Exchange dell'organizzazione per verificare le attività da eseguire per garantire un'integrazione rapida e corretta.
 
 
@@ -142,7 +142,7 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 <p>Questo strumento funziona analizzando le impostazioni di Active Directory per la messaggistica unificata di Exchange e consentendo all'amministratore di Lync Server 2013 di visualizzare, creare e modificare gli oggetti contatto.</p></td>
 <td><p>RTCUniversalServerAdmins <em>e</em> TCUniversalUserAdmins</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Per eseguire correttamente ocsumutil.exe, l'utente deve appartenere a entrambi i gruppi.
 </div>
 <div class="alert">

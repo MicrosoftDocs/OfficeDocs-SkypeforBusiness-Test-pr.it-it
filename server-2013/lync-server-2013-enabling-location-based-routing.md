@@ -132,23 +132,23 @@ In questo esempio vengono utilizzati i comandi di Windows PowerShell seguenti pe
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Dopo aver applicato la configurazione trunk a ogni trunk, è possibile utilizzare il comando set-cstrunkconfiguration di Lync ServerWindows PowerShell per abilitare il routing in base alla posizione per i trunk che devono applicare le limitazioni del routing. Abilitare il routing in base alla posizione per i trunk che instradano le chiamate ai gateway PSTN che instradano le chiamate a PSTN e associare il sito di rete in cui si trova il gateway.
+Dopo aver applicato la configurazione trunk a ogni trunk, è possibile utilizzare il comando Set-CsTrunkConfiguration di Lync ServerWindows PowerShell per abilitare il routing in base alla posizione per i trunk che devono applicare le limitazioni del routing. Abilitare il routing in base alla posizione per i trunk che instradano le chiamate ai gateway PSTN che instradano le chiamate a PSTN e associare il sito di rete in cui si trova il gateway.
 
-    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 Per ulteriori informazioni, vedere [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 In questo esempio il routing in base alla posizione viene abilitato per ogni trunk associato ai gateway PSTN di Delhi e Hyderabad:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 Anche se non è necessario abilitare il routing in base alla posizione per i trunk che non instradano le chiamate a PSTN, il trunk deve essere comunque associato al sito di rete in cui si trova il sistema. Le limitazioni del routing in base alla posizione devono infatti essere applicate per le chiamate PSTN che raggiungono gli endpoint connessi tramite il trunk. In questo esempio il routing in base alla posizione non viene abilitato per tutti i trunk associati ai sistemi PBX di Delhi e Hyderabad:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 Agli endpoint connessi ai sistemi che non instradano le chiamate a PSTN, ad esempio PBX, verranno applicate limitazioni simili a quelle applicate agli endpoint di Lync per gli utenti abilitati per il routing in base alla posizione. Ciò significa che tali utenti potranno ricevere ed effettuare chiamate da e verso gli utenti Lync indipendentemente dalla loro posizione. Potranno inoltre ricevere ed effettuare chiamate da e verso altri sistemi che non instradano le chiamate alla rete PSTN, ad esempio un endpoint connesso a un altro PBX, indipendentemente dal sito di rete a cui i sistemi sono associati. Tutte le chiamate in ingresso e le chiamate in uscita, nonché tutti i trasferimenti e gli inoltri di chiamata che coinvolgono gli endpoint PSTN saranno soggetti all'applicazione del routing in base alla posizione. Tali chiamate devono utilizzare solo i gateway PSTN definiti come locali in questi sistemi.

@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-02-12_
 
 Le notifiche Push, sotto forma di riquadri, icone o avvisi, possono essere inviate a un dispositivo mobile anche se l'applicazione mobile è inattiva. Le notifiche Push avvisano gli utenti in caso di inviti a sessioni di messaggistica istantanea nuovi o senza risposta e di messaggi in segreteria telefonica. Lync Server 2013 Mobility Service invia le notifiche a un servizio notifica Push Lync Server basato sul cloud, che quindi le invia al servizio notifica Push Apple (APNS) (per un dispositivo Apple che esegue il client Lync 2010 Mobile) o al servizio notifica Push Microsoft (per un dispositivo Windows Phone che esegue il client Lync 2010 Mobile o Lync 2013 Mobile).
 
-> [!important]  
+> [!IMPORTANT]  
 > Se si utilizza Windows Phone con il client Lync 2010 Mobile o Lync 2013 Mobile, la notifica Push è una considerazione importante.<br />Se si utilizza Lync 2010 Mobile su dispositivi Apple, la notifica Push è una considerazione importante.<br />Se si utilizza Lync 2013 Mobile su dispositivi Apple, la notifica Push non è più necessaria.
 
 Per configurare la topologia in modo da supportare le notifiche push, eseguire le operazioni seguenti:

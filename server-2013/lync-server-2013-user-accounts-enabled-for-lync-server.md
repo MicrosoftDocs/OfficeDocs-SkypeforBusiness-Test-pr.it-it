@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 Negli argomenti di questa sezione vengono descritte le procedure dettagliate relative alla configurazione delle impostazioni utente che è possibile eseguire utilizzando il Pannello di controllo di Lync Server 2013.
 
-> [!important]  
+> [!IMPORTANT]  
 > Non è possibile utilizzare il Pannello di controllo di Lync Server per gestire gli utenti membri del gruppo Domain Admins di Active Directory. Per tali utenti, è possibile utilizzare il Pannello di controllo di Lync Server solo per eseguire operazioni di ricerca di sola lettura. Per eseguire operazioni di scrittura per gli utenti del gruppo Domain Admins (ad esempio abilitarli o disabilitarli per Pannello di controllo di Lync Server o modificare le assegnazioni di criteri o pool, le impostazioni di telefonia o l'indirizzo SIP), è necessario utilizzare i cmdlet di Windows PowerShell dopo avere eseguito l'accesso come utente incluso nel gruppo Domain Admins. Per informazioni dettagliate sull'utilizzo dei cmdlet di Windows PowerShell per gestire gli utenti, vedere <a href="lync-server-2013-lync-server-management-shell.md">Lync Server Management Shell</a>.
 
 Quando si esegue qualsiasi attività amministrativa di Lync Server 2013 che implica la ricerca di un utente o il filtro dei risultati della ricerca di utenti, vi sono alcune proprietà utente presenti come attributi in Servizi di dominio Active Directory che non vengono replicate nel catalogo globale fino a quando non viene completata la distribuzione di Microsoft Exchange Server. Microsoft Exchange, e non Lync Server, contrassegna gli attributi seguenti per la replica nel catalogo globale quando viene installato:

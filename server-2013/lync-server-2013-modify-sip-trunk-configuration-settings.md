@@ -142,7 +142,7 @@ Quando si modificano le impostazioni di configurazione del trunk SIP attraverso 
 
 
 > [!NOTE]
-> I cmdlet di Lync Server CsTrunkConfiguration supportano proprietà aggiuntive non visualizzate in Pannello di controllo di Lync Server. Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</A>.
+> I cmdlet di Lync Server CsTrunkConfiguration supportano proprietà aggiuntive non visualizzate in Pannello di controllo di Lync Server. Per ulteriori informazioni, vedere l'argomento della Guida relativo al cmdlet <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A>.
 
 
 

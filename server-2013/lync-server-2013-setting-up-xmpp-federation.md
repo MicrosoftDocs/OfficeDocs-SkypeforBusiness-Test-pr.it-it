@@ -84,7 +84,7 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 23. Per configurare DNS per la federazione XMPP, aggiungere il record SRV seguente al DNS esterno:\_xmpp-server.\_tcp.\<nome dominio\> Il record SRV risolverà l'FQDN dell'Access Edge del server perimetrale con un valore di porta 5269. È inoltre necessario configurare un record host 'A' (ad esempio, xmpp.contoso.com) che punta all'indirizzo IP del server Access Edge.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Se esistono pool di server perimetrali in più siti, è consigliabile aggiungere più record SRV per la federazione XMPP. Aggiungere un record SRV per ogni pool di server perimetrali nell'organizzazione e assegnare una diversa priorità a ognuno di questi record SRV. Quando tutti i pool di server perimetrali sono in esecuzione, le richieste XMPP verranno tutte gestite dal pool di server perimetrali prioritario, ma se tale pool di server perimetrali diventa inattivo sarà necessario aggiungere un nuovo record SRV per ripristinare la funzionalità di federazione XMPP.
 
 24. Configurare nuovi criteri di accesso esterno per abilitare tutti gli utenti. A tale scopo, aprire Lync Server Management Shell nel Front End Server e digitare:

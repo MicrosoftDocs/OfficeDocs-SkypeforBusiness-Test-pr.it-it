@@ -67,7 +67,7 @@ Il database di conformità Chat persistente (mgccomp) non viene sottoposto a fai
 
 7.  Impostare i server attivi del server Chat persistente. Dalla shell dei comandi di Lync Server usare il cmdlet **Set-CsPersistentChatActiveServer** per impostare l'elenco dei server attivi.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Tutti i server attivi devono essere collocati nello stesso centro dati del nuovo database primario oppure in un centro dati con una connessione a bassa latenza e con larghezza di banda elevata al database.    
     A questo punto, il failover dal database primario del server Chat persistente al database di backup del server Chat persistente viene completato.
 

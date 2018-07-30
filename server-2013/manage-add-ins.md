@@ -25,7 +25,7 @@ Per creare un nuovo componente aggiuntivo
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
-> [!important]  
+> [!IMPORTANT]  
 > PersistentChatPoolFqdn &lt;String&gt; è necessario solo vi è più di un pool di server Chat persistente.
 
 Per ottenere un componente aggiuntivo

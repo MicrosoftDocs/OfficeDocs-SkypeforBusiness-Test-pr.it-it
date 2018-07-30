@@ -233,12 +233,12 @@ Dopo avere stabilito la topologia, utilizzare la procedura seguente per definire
     
       - Per definire una nuova condivisione file, selezionare **Definisci nuova condivisione file** , nella casella **FQDN file server** immettere l'FQDN del file server esistente in cui deve trovarsi la condivisione file e quindi immettere un nome per la condivisione nella casella **Condivisione file** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > La condivisione file per Lync Server 2013 non può trovarsi nel server Front End Server. Si noti che in questo esempio la condivisione file è stata posizionata nel server Back End Server basato su SQL Server. Questa posizione può non risultare ottimale per i requisiti dell'organizzazione e un file server può rappresentare una scelta migliore. È possibile definire la condivisione file senza che questa sia stata creata. Sarà necessario creare la condivisione file nella posizione definita prima di pubblicare la topologia.
 
 9.  Nella pagina **Specificare l'URL dei servizi Web** eseguire una o entrambe le operazioni seguenti:
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L'URL di base è l'identità dei servizi Web per l'URL, senza https://. Se, ad esempio, l'URL completo per i servizi Web del pool è https://pool01.contoso.net, l'URL di base sarà pool01.contoso.net.    
 
     > [!WARNING]

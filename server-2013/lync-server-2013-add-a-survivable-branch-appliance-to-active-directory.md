@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-09-23_
 
 Se si intende distribuire una Survivable Branch Appliance, sarà necessario aggiungere la Survivable Branch Appliance a Servizi di dominio Active Directory. Eseguire questa procedura nel sito centrale.
 
-> [!important]  
+> [!IMPORTANT]  
 > Eseguire questa procedura solo se si desidera distribuire un Survivable Branch Appliance. Non eseguirla invece se si distribuisce un Survivable Branch Server.
 
 ## Per aggiungere un Survivable Branch Appliance a Servizi di dominio Active Directory

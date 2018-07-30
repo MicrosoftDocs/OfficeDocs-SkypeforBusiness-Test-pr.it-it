@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-09-21_
 
 Eseguire questa procedura nel sito centrale, che contiene almeno un pool Front End o Server Standard Edition.
 
-> [!important]  
+> [!IMPORTANT]  
 > Prima di eseguire la procedura, è necessario che vengano soddisfatte le condizioni seguenti:<ul>
 > 
 > <li><p>Il Lync Server 2013  software di comunicazione deve essere configurato nel sito centrale.</p></li>

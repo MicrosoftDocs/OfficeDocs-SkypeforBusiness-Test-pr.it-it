@@ -27,7 +27,7 @@ La maggior parte dei componenti perimetrali viene distribuita in una rete perime
 
   - Bilanciamento del carico di tipo per topologie perimetrali con scalabilità implementata (bilanciamento del carico DNS o dispositivo di bilanciamento del carico hardware)
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Non è possibile usare il bilanciamento del carico DNS in un'interfaccia e il bilanciamento del carico hardware in un'altra. È necessario usare lo stesso tipo di bilanciamento del carico per entrambe le interfacce, in quanto non è supportata una combinazione dei due tipi.
 
 ## server perimetrali

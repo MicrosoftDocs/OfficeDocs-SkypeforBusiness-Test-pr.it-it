@@ -28,7 +28,7 @@ Le impostazioni relative all'orario di ufficio consentono di definire quando è 
 
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Utilizzare il formato 24 ore per i parametri dei cmdlet seguenti, ad esempio 20:00 = 8:00 di sera.
 
 ## Per creare una raccolta di orari di ufficio predefinita
@@ -39,7 +39,7 @@ Le impostazioni relative all'orario di ufficio consentono di definire quando è 
 
 3.  Per ogni intervallo univoco di ore che si desidera definire, eseguire:
     
-        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Per creare la raccolta di orari di ufficio che utilizza gli intervalli definiti, eseguire:
     
@@ -61,6 +61,6 @@ Le impostazioni relative all'orario di ufficio consentono di definire quando è 
 
 #### Ulteriori risorse
 
-[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

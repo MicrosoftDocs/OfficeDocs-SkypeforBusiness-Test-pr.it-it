@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 In questa sezione vengono riepilogati i protocolli e le porte utilizzati dai server, dai servizi di bilanciamento del carico e dai client in una distribuzione di Lync Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Una comunicazione uno-a-uno tra un client di Lync e un client di Communicator viene spesso denominata peer-to-peer. Tecnicamente i due client comunicano mediante una conversazione uno-a-uno con l'unità IMMCU (Instant Messaging Multipoint Control Unit) nel mezzo. IMMCU è un componente di Front End Server. Se si posiziona IMMCU nel flusso di lavoro necessario per la comunicazione, è possibile utilizzare la registrazione dettagli chiamata e altre caratteristiche abilitate da Front End Server. La comunicazione avviene da una porta di origine dinamica sul client alla porta TLS/TCP/5061 di Front End Server, purché venga utilizzata la crittografia TLS (Transport Layer Security) consigliata. Per impostazione predefinita, la comunicazione peer-to-peer, così come la messaggistica istantanea con più partecipanti, è possibile solo se Lync Server e IMMCU sono attivi e disponibili.
 
 ## Informazioni dettagliate relative a porta e protocollo

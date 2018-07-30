@@ -49,7 +49,7 @@ Per creare un nuovo dial plan, eseguire i passaggi illustrati nella procedura se
 
 6.  Il campo **Nome semplice** viene prepopolato con lo stesso nome visualizzato nel campo **Nome** . Se si desidera, è possibile modificare il campo per specificare un nome più descrittivo che rifletta il sito, il servizio o l'utente al quale viene applicato il dial plan.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Il <strong>Nome semplice</strong> deve essere univoco tra tutti i dial plan all'interno della distribuzione di Lync Server e può contenere al massimo 256 caratteri Unicode. Sono supportati i caratteri alfabetici e numerici, il trattino (-), il punto (.) o il carattere di sottolineatura (_).<br />    <strong>Non sono supportati</strong> gli spazi e i caratteri riservati indicati in RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). I caratteri riservati <strong>non supportati</strong> nel <strong>Nome semplice</strong> includono i seguenti:<br />    &quot;;&quot; &quot;/&quot; &quot;?&quot; &quot;:&quot; &quot;@&quot; &quot;&amp;&quot; &quot;=&quot; &quot;+&quot; &quot;$&quot; &quot;,&quot;
 
 7.  (Facoltativo) Nel campo **Descrizione** è possibile digitare ulteriori informazioni descrittive sul dial plan.
@@ -90,7 +90,7 @@ Per creare un nuovo dial plan, eseguire i passaggi illustrati nella procedura se
 
 11. Verificare che le regole di normalizzazione del dial plan siano disposte nell'ordine corretto. Per modificare la posizione di una regola nell'elenco, evidenziare il nome della regola e fare clic sulla freccia su o giù.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Lync Server scorre l'elenco di regole di normalizzazione dall'alto verso il basso e utilizza la prima regola corrispondente al numero composto. Se si configura un dial plan in modo che un numero composto possa corrispondere a più regole di normalizzazione, assicurarsi che le regole più restrittive vengano ordinate prima di quelle meno restrittive.<br />    La regola di normalizzazione predefinita <strong>Mantieni tutti</strong> , <strong>^(\d{11})$</strong> , corrisponde a qualsiasi numero a 11 cifre. Se ad esempio si aggiunge una regola di normalizzazione corrispondente ai numeri a 11 cifre che iniziano con 1425, assicurarsi che la regola <strong>Mantieni tutti</strong> sia disposta al di sotto della regola più restrittiva <strong>^(1425\d{7})$</strong> .
 
 12. (Facoltativo) Immettere un numero per testare il dial plan e quindi fare clic su **Vai** . I risultati del test vengono visualizzati in **Numero composto da testare** .
