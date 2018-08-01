@@ -23,7 +23,7 @@ Prima di eseguire la preparazione della foresta, verificare manualmente che la p
 
 2.  Aprire ADSI Edit. A tale scopo, fare clic sul pulsante **Start** , scegliere **Strumenti di amministrazione** , quindi **ADSI Edit** .
     
-    > [!tip]  
+    > [!TIP]  
     > In alternativa, è possibile eseguire <strong>adsiedit.msc</strong> dalla riga di comando.
 
 3.  Nell'albero di Microsoft Management Console (MMC) fare clic su **ADSI Edit** se la voce non è già selezionata.

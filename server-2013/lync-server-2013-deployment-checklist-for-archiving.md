@@ -54,13 +54,12 @@ Nella tabella seguente viene fornita una panoramica dei passaggi da eseguire per
 <tr class="odd">
 <td><p><strong>Installare l'hardware e il software prerequisiti</strong></p></td>
 <td><ul><li><p>Per utilizzare l'integrazione di Microsoft Exchange (utilizzando Exchange 2013 per l'archiviazione di alcuni o tutti gli utenti), è necessaria una distribuzione esistente di Exchange 2013.</p></li><li><p>Per utilizzare database di archiviazione separati (utilizzando database SQL Server) per l'archiviazione di alcuni o tutti gli utenti, è necessario SQL Server sul server che memorizzerà i dati di archiviazione.</p></li></ul>
-<div class="alert">
 
 > [!NOTE]
 > L'archiviazione è eseguita sui server Front End di un pool Enterprise e server Standard Edition. Non esistono ulteriori requisiti di hardware o software oltre a quelli necessari per l'installazione di questi server.
 
 
-</div></td>
+</td>
 <td><p>Utente del dominio membro del gruppo Administrators locale</p></td>
 <td><p><a href="lync-server-2013-supported-hardware.md">Hardware supportato per Lync Server 2013</a> nella documentazione relativa alla supportabilità</p>
 <p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Supporto dell'infrastruttura e del software server in Lync Server 2013</a> nella documentazione relativa alla supportabilità</p>

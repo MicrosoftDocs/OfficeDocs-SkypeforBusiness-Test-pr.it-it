@@ -102,13 +102,12 @@ Nella tabella seguente sono elencate tutte le impostazioni dei criteri di confer
 <tr class="odd">
 <td><p>Consenti ai partecipanti anonimi e federati di assumere il controllo</p></td>
 <td><p>Consente a partecipanti esterni e anonimi di assumere il controllo dell'applicazione condivisa di un altro utente.</p>
-<div class="alert">
 
 > [!NOTE]
 > Se questa opzione è impostata su True e l'opzione <STRONG>Consenti ai partecipanti di assumere il controllo</STRONG> è impostata su False, questa opzione viene ignorata.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

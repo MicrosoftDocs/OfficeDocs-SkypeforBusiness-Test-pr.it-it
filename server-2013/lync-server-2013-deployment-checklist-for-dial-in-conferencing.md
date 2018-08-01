@@ -49,7 +49,6 @@ Prima che gli utenti possano accedere dal PSTN per partecipare a una conferenza 
 <li><p>Eseguire Generatore di topologie per configurare la topologia. Durante questa operazione, selezionare l'opzione relativa alle conferenze telefoniche con accesso esterno.</p></li>
 <li><p>Pubblicare la topologia e distribuire il pool Front End o il server Standard Edition.</p></li>
 <li><p>Se necessario, creare un Mediation Server autonomo e associarlo a un gateway PSTN.</p>
-<div class="alert">
 
 > [!NOTE]
 > Questo passaggio è necessario solo se non si distribuisce VoIP aziendale e non si colloca il Mediation Server su Enterprise EditionFront End Server o sul server Standard Edition. Se si distribuisce VoIP aziendale, è necessario installare e configurare i Mediation Server e i gateway PSTN nell'ambito della distribuzione di VoIP aziendale. Se si colloca il Mediation Server, è necessario installare e configurare il Mediation Server come parte della distribuzione del pool Front End o del server Standard Edition.
@@ -112,13 +111,12 @@ Prima che gli utenti possano accedere dal PSTN per partecipare a una conferenza 
 <tr class="even">
 <td><p><strong>Configurare i numeri di accesso esterno</strong></p></td>
 <td><p>Utilizzare il Pannello di controllo di Lync Server 2013 o la Lync Server Management Shell per impostare numeri di accesso esterno che gli utenti possono chiamare per accedere alle conferenze e specificare le aree che associano il numero di accesso ai dial plan appropriati. I primi tre numeri di accesso per l'area specificata dal dial plan dell'organizzatore vengono inclusi nell'invito alla conferenza. Tutti i numeri di accesso sono disponibili nella pagina Impostazioni conferenza telefonica con accesso esterno.</p>
-<div class="alert">
 
 > [!NOTE]
 > Dopo aver creato i numeri di accesso esterno, è possibile usare il cmdlet <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> per modificare il nome visualizzato degli oggetti contatto di Active Directory in modo che gli utenti possano identificare più facilmente il numero di accesso corretto.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>

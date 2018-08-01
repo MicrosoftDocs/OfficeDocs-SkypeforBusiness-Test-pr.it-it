@@ -52,42 +52,39 @@ Nella tabella seguente sono elencate le funzionalità supportate in una distribu
 <li><p>Pubblicazione dello stato in base alle informazioni sulla disponibilità nel calendario di Outlook</p></li>
 <li><p>Elenco di contatti (tramite archivio contatti unificato)</p>
 <p>Per ulteriori informazioni, vedere <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configurazione di Microsoft Lync Server 2013 per l'utilizzo dell'archivio contatti unificato</a></p>
-<div class="alert">
 
 > [!NOTE]
 > Richiede Exchange 2013.<BR>È necessario un client desktop Lync 2013.
 
 
-</div></li>
+</li>
 <li><p>Foto ad alta risoluzione del contatto nel client Lync 2013 e in Lync Web App</p>
 <p>Per ulteriori informazioni, vedere <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configurazione dell'utilizzo delle foto ad alta risoluzione in Microsoft Lync Server 2013</a></p>
-<div class="alert">
 
 > [!NOTE]
 > Richiede Exchange 2013.
 
 
-</div></li>
+</li>
 <li><p>Delega delle riunioni</p>
 <p>Supportata solo quando entrambi gli utenti sono ospitati online nella stessa foresta oppure quando sono entrambi ospitati in locale.</p></li>
 <li><p>La cronologia delle conversazioni non effettuate e i registri delle chiamate vengono scritti nella cassetta postale di Exchange dell'utente</p></li>
 <li><p>Archiviazione di contenuto (messaggistica istantanea e riunioni) in Exchange</p>
 <p>Per ulteriori informazioni, vedere <a href="lync-server-2013-deployment-checklist-for-archiving.md">Elenco di controllo di distribuzione per l'archiviazione in Lync Server 2013</a></p>
-<div class="alert">
+
 
 > [!NOTE]
 > Richiede Exchange 2013.
 
 
-</div></li>
+</li>
 <li><p>Ricerca nel contenuto archiviato</p>
-<div class="alert">
 
 > [!NOTE]
 > Richiede Exchange 2013.
 
 
-</div></li>
+</li>
 <li><p>Segreteria telefonica</p>
 <p>Per ulteriori informazioni, vedere <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">Distribuzione della messaggistica unificata di Exchange in locale per fornire la funzionalità di segreteria telefonica di Lync Server 2013</a></p></li>
 </ul></td>
@@ -103,13 +100,13 @@ Nella tabella seguente sono elencate le funzionalità supportate in una distribu
 <li><p>Partecipazione a riunioni online da client mobili</p></li>
 <li><p>Pubblicazione dello stato in base alle informazioni sulla disponibilità nel calendario di Outlook</p></li>
 <li><p>Elenco di contatti (tramite archivio contatti unificato). Per ulteriori informazioni, vedere <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configurazione di Microsoft Lync Server 2013 per l'utilizzo dell'archivio contatti unificato</a></p>
-<div class="alert">
+
 
 > [!NOTE]
 > Solo Lync Server 2013. È necessario un client desktop Lync 2013.
 
 
-</div></li>
+</li>
 <li><p>Foto ad alta risoluzione del contatto nel client Lync 2013 e in Lync Web App</p>
 <p>Per ulteriori informazioni, vedere <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configurazione dell'utilizzo delle foto ad alta risoluzione in Microsoft Lync Server 2013</a>.</p></li>
 <li><p>Delega delle riunioni</p>
@@ -129,13 +126,13 @@ Nella tabella seguente sono elencate le funzionalità supportate in una distribu
 <li><p>Messaggistica istantanea/presenza nei client mobili</p></li>
 <li><p>La cronologia delle conversazioni non effettuate e i registri delle chiamate vengono scritti nella cassetta postale di Exchange dell'utente</p></li>
 <li><p>Foto ad alta risoluzione del contatto nel client Lync 2013.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Richiede Microsoft Exchange Server 2013. Non supportata in Lync Web App quando gli utenti sono ospitati in Skype for Business online.
 
 
-</div></li>
+</li>
 <li><p>Partecipazione a riunioni online da client mobili</p></li>
 <li><p>Pubblicazione dello stato in base alle informazioni sulla disponibilità nel calendario di Outlook</p></li>
 <li><p>Delega delle riunioni</p>
@@ -151,13 +148,13 @@ Nella tabella seguente sono elencate le funzionalità supportate in una distribu
 <li><p>Pubblicazione dello stato in base alle informazioni sulla disponibilità nel calendario di Outlook</p></li>
 <li><p>La cronologia delle conversazioni non effettuate e i registri delle chiamate vengono scritti nella cassetta postale di Exchange dell'utente</p></li>
 <li><p>Elenco di contatti (tramite archivio contatti unificato)</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Richiesto client Lync Server 2013
 
 
-</div></li>
+</li>
 <li><p>Foto ad alta risoluzione del contatto nel client Lync 2013 e in Lync Web App</p></li>
 <li><p>Delega delle riunioni</p>
 <p>Supportata solo quando entrambi gli utenti sono ospitati online nella stessa foresta oppure quando sono entrambi ospitati in locale.</p></li>

@@ -38,13 +38,12 @@ In questa sezione viene fornita una panoramica dei passaggi previsti per la dist
 <tr class="odd">
 <td><p>Configurare gli intervalli dei codici orbit di parcheggio di chiamata nella tabella dei codici orbit</p></td>
 <td><p>Utilizzare il Pannello di controllo di Lync Server o il cmdlet <strong>New-CSCallParkOrbit</strong> per creare gli intervalli dei codici orbit nella tabella dei codici orbit di parcheggio di chiamata e associarli al Servizio applicazione che ospita l' applicazione Parcheggio di chiamata.</p>
-<div class="alert">
 
 > [!NOTE]
 > Per l'integrazione completa con i dial plan esistenti, gli intervalli dei codici orbit in genere sono configurati come un blocco di estensioni virtuali. L'assegnazione di numeri Direct Inward Dialing (DID) come numeri di codici orbit nella tabella dei codici orbit di parcheggio di chiamata non è supportata.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
@@ -77,20 +76,16 @@ In questa sezione viene fornita una panoramica dei passaggi previsti per la dist
 <tr class="even">
 <td><p>Configurare il criterio vocale per abilitare Parcheggio di chiamata per gli utenti</p></td>
 <td><p>Utilizzare il cmdlet Pannello di controllo di Lync Server o <strong>Set-CSVoicePolicy</strong> con l'opzione <strong>EnableCallPark</strong> per abilitare Parcheggio di chiamata per gli utenti nel criterio vocale.</p>
-<div class="alert">
 
 > [!NOTE]
 > Per impostazione predefinita, l'applicazione Parcheggio di chiamata è disabilitata per tutti gli utenti.
 
 
-</div>
-<div class="alert">
-
 > [!NOTE]
 > Se si dispone di più criteri vocali, verificare che la proprietà EnableCallPark sia impostata per ogni criterio vocale e non solo per quello predefinito.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsUserAdministrator</p>

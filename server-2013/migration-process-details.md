@@ -39,7 +39,7 @@ Eseguire le operazioni seguenti per preparare correttamente i dati di origine pe
 
 2.  Esaminare le chat room e la configurazione delle categorie di Lync Server 2010, Group Chat o di Office Communications Server 2007 R2  Group Chat. Qualsiasi modifica delle categorie, delle chat room o dei componenti aggiuntivi della distribuzione legacy esistente deve essere eseguita con lo strumento di amministrazione Group Chat.
     
-    > [!tip]  
+    > [!TIP]  
     > Qualsiasi modifica delle categorie, delle chat room o dei componenti aggiuntivi della distribuzione del server Chat persistente di Lync Server 2013 deve essere eseguita con il Pannello di controllo di Lync Server o i cmdlet di Windows PowerShell.    
     Eseguire le operazioni seguenti per preparare il sistema legacy per la migrazione.
     

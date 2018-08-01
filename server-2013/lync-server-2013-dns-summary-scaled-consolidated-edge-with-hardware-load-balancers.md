@@ -50,7 +50,7 @@ Per evitare problemi di routing, verificare che siano presenti almeno due schede
     
     Gli indirizzi IP di servizio Web Conferencing Edge e servizio A/V Edge sono secondari.
 
-> [!tip]  
+> [!TIP]  
 > La configurazione del server perimetrale con due schede di rete è un'opzione. L'altra consiste nell'utilizzare una scheda di rete per l'interfaccia interna e tre schede di rete per l'interfaccia esterna del server perimetrale. Il vantaggio principale di questa opzione è l'utilizzo di una scheda di rete separata ogni servizio di server perimetrale e la raccolta di dati potenzialmente più concisi per eventuali attività di risoluzione dei problemi.
 
 ### Record DNS necessari per la topologia perimetrale consolidata e bilanciamento del carico hardware (esempio)

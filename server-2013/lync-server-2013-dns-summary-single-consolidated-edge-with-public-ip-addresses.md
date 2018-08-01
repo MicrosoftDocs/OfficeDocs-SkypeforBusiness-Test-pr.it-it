@@ -50,7 +50,7 @@ Per evitare problemi di routing, verificare che nel server server perimetrali si
     
     Gli indirizzi IP pubblici di Web conferencing e A/V Edge sono indirizzi IP aggiuntivi nella sezione **Avanzate** delle proprietà di **Internet Protocol Version 4 (TCP/IPv4)** e **Internet Protocol Version 6 (TCP/IPv6)** delle **Proprietà LAN** in Windows Server.
 
-> [!tip]  
+> [!TIP]  
 > La configurazione del server perimetrale con due schede di rete è un'opzione. L'altra consiste nell'utilizzare una scheda di rete per l'interfaccia interna e tre schede di rete per l'interfaccia esterna del server perimetrale. Il vantaggio principale di questa opzione è l'utilizzo di una scheda di rete separata ogni servizio di server perimetrale e la raccolta di dati potenzialmente più concisi per eventuali attività di risoluzione dei problemi.
 
 ### Record DNS necessari per la topologia perimetrale singola con indirizzi IP pubblici (esempio)
@@ -138,10 +138,11 @@ Per evitare problemi di routing, verificare che nel server server perimetrali si
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner, condizione nota come &quot;domini SIP consentiti&quot;, nonché come federazione avanzata nelle versioni precedenti. Ripetere secondo le necessità per tutti i domini SIP con utenti abilitati per Lync.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Questo record SRV è necessario per il fornitore di servizi di accesso a terze parti per notifiche Push e dispositivi mobili.
-</div></td>
+
+</td>
 </tr>
 </tbody>
 </table>

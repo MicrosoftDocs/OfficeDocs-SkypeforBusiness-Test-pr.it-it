@@ -67,7 +67,7 @@ Per evitare problemi di routing, verificare che siano presenti almeno due schede
     
     Gli Indirizzi IP privati del servizio Web Conferencing Edge e del servizio A/V Edge sono indirizzi IP aggiuntivi nella sezione **Avanzate** delle proprietà **Protocollo Internet versione 4 (TCP/IPv4)** e **Protocollo Internet versione 6 (TCP/IPv6)** di **Proprietà connessione alla rete locale (LAN)** in Windows Server.
 
-> [!tip]  
+> [!TIP]  
 > La configurazione del server perimetrale con due schede di rete è un'opzione. L'altra consiste nell'utilizzare una scheda di rete per l'interfaccia interna e tre schede di rete per l'interfaccia esterna del server perimetrale. Il vantaggio principale di questa opzione è l'utilizzo di una scheda di rete separata ogni servizio di server perimetrale e la raccolta di dati potenzialmente più concisi per eventuali attività di risoluzione dei problemi.
 
 ### Record DNS necessari per topologia perimetrale consolidata con scalabilità implementata e bilanciamento del carico DNS con indirizzi IP pubblici (esempio)
@@ -152,11 +152,11 @@ Per evitare problemi di routing, verificare che siano presenti almeno due schede
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna del servizio Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner della federazione. Nota come &quot;dominio SIP consentito&quot;, nonché come federazione avanzata nelle versioni precedenti.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Ripetere in base alle esigenze per tutti i domini SIP con utenti abilitati per Lync e per i client Microsoft Lync Mobile che utilizzano il servizio notifica Push o il servizio notifica Push Apple.
-</div></td>
-</tr>
+
+</td></tr>
 </tbody>
 </table>
 

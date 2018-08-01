@@ -166,7 +166,7 @@ Il comando precedente restituirà informazioni simili alle seguenti, a seconda d
     PersistentChatMessage
     DataConference
 
-> [!tip]  
+> [!TIP]  
 > Per visualizzare le transazioni sintetiche in ordine alfabetico, usare invece il comando seguente:<br />Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object
 
 Per verificare che un nodo Watcher sia stato creato, digitare il comando seguente da Lync Server Management Shell:

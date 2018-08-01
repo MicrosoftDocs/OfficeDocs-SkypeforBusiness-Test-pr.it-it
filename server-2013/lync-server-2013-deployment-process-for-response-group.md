@@ -66,13 +66,13 @@ In questa sezione viene fornita una panoramica delle fasi e delle operazioni nec
 </ol></li>
 <li><p>Facoltativamente, utilizzare Lync Server Management Shell per creare l'orario di ufficio e le festività per Response Group predefiniti.</p></li>
 <li><p>Utilizzare lo Strumento di configurazione di Response Group o Lync Server Management Shell per creare flussi di lavoro, ovvero gruppi di risposta o flussi di chiamate IVR (Interactive Voice Response), inclusi l'orario di ufficio e le festività per Response Group personalizzati.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Per accedere allo Strumento di configurazione di Response Group, è possibile utilizzare il Pannello di controllo di Lync Server.
 
 
-</div></li>
+</li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>

@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2013-02-24_
 
 Prima di distribuire la configurazione del routing vocale, è consigliabile testarla su diversi numeri di telefono per assicurarsi che i risultati siano quelli previsti.
 
-> [!tip]  
+> [!TIP]  
 > È possibile utilizzare i comandi <strong>Esporta test case</strong> e <strong>Importa test case</strong> per salvare i test case del routing vocale e importarli per l'uso su un altro computer.
 
 > [!CAUTION]  

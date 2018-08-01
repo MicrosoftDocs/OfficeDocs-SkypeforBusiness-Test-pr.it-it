@@ -130,8 +130,18 @@ Una configurazione trunk, come quella descritta di seguito, raggruppa un set di 
     
       - Per rimuovere una regola di conversione dal trunk, evidenziare il nome della regola e fare clic su **Rimuovi** .
     
-    > [!security]  
-    > Non associare regole di conversione a un trunk se sono state configurate regole di conversione nel trunk peer associato, perché le due regole potrebbero essere in conflitto.
+    <table>
+    <thead>
+    <tr class="header">
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />SicurezzaNota:</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Non associare regole di conversione a un trunk se sono state configurate regole di conversione nel trunk peer associato, perché le due regole potrebbero essere in conflitto.</td>
+    </tr>
+    </tbody>
+    </table>
 
 16. (Facoltativo) Associare e configurare **regole di conversione per il numero chiamato** per il trunk. Le regole di conversione si applicano al numero chiamato in una chiamata in uscita.
     

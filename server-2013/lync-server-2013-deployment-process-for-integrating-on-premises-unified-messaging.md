@@ -118,21 +118,18 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 <tr class="even">
 <td><p>Configurare i dial plan di Lync Server 2013.</p></td>
 <td><p>Se si esegue l'integrazione con Exchange 2007 SP1 o Service Pack più recente oppure con Exchange 2010, creare un nuovo dial plan VoIP aziendale con un nome che corrisponde all'FQDN del dial plan di messaggistica unificata di Exchange.</p>
-<div class="alert">
 
 > [!NOTE]
 > Sarà necessario eseguire questa operazione per ogni dial plan di messaggistica unificata.
 
 
-</div>
 <p>Se si esegue l'integrazione con Exchange 2010 SP1, verificare che siano stati configurati dial plan VoIP aziendale appropriati a livello globale/di sito o a livello di pool.</p>
-<div class="alert">
 
 > [!NOTE]
 > Se si esegue l'integrazione con Exchange 2010 SP1, i nomi del dial plan di Lync Server e dei dial plan SIP di Messaggistica unificata di Exchange non devono necessariamente corrispondere.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-dial-plans.md">Configurazione dei dial plan in Lync Server 2013</a></p></td>
 </tr>
@@ -141,17 +138,15 @@ Se si desidera integrare la Messaggistica unificata di Exchange con Lync Server 
 <td><p>In Lync Server 2013 eseguire <strong>ocsumutil.exe</strong>, che esegue le operazioni seguenti:</p><ul><li><p>Crea oggetti contatto Accesso sottoscrittore e Operatore automatico.</p></li><li><p>Verifica l'esistenza di un dial plan VoIP aziendale con un nome corrispondente all'FQDN del dial plan di messaggistica unificata di Exchange. Se si esegue Exchange 2010 SP1 o Service Pack più recente, i nomi dei dial plan non devono necessariamente corrispondere ed è possibile ignorare il relativo avviso generato dallo strumento.</p></li></ul>
 <p>Questo strumento funziona analizzando le impostazioni di Active Directory per la messaggistica unificata di Exchange e consentendo all'amministratore di Lync Server 2013 di visualizzare, creare e modificare gli oggetti contatto.</p></td>
 <td><p>RTCUniversalServerAdmins <em>e</em> TCUniversalUserAdmins</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Per eseguire correttamente ocsumutil.exe, l'utente deve appartenere a entrambi i gruppi.
-</div>
-<div class="alert">
 
 > [!NOTE]
 > Per creare oggetti contatto, l'utente che esegue ocsumutil.exe deve disporre dell'autorizzazione appropriata per l'unità organizzativa di Active Directory in cui sono archiviati i nuovi oggetti contatto. Questa autorizzazione può essere concessa eseguendo il cmdlet <STRONG>Grant-CsOUPermission</STRONG>. Per informazioni dettagliate, vedere la documentazione relativa a Lync Server Management Shell.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Configurare Lync Server 2013 per l'utilizzo della messaggistica unificata in Microsoft Exchange Server</a></p></td>
 </tr>
 <tr class="even">

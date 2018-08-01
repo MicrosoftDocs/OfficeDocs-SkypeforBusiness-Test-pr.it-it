@@ -36,7 +36,6 @@ In questa tabella e nelle sezioni successive vengono illustrati i principali set
 <td><p>Messaggistica istantanea e presenza</p></td>
 <td><p>Messaggistica istantanea (IM) e presenza consentono agli utenti di trovarsi e comunicare tra loro in modo efficace ed efficiente.</p>
 <p>La messaggistica istantanea fornisce una piattaforma IM con cronologia delle conversazioni e supporta la connettività di messaggistica istantanea pubblica con gli utenti di reti come MSN/Windows Live, Yahoo!, AOL e Google Talk.</p>
-<div class="alert">
 
 > [!IMPORTANT]
 > <ul>
@@ -45,7 +44,7 @@ In questa tabella e nelle sezioni successive vengono illustrati i principali set
 > <li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti di tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze per utente/dispositivo in aggiunta alla licenza CAL Standard per Lync. La federazione con Skype verrà aggiunta a questo elenco, consentendo agli utenti di Lync di raggiungere centinaia di milioni di persone tramite messaggistica istantanea e comunicazioni vocali.</p></li>
 </ul>
 
-</div>
+
 <p>La presenza determina e visualizza la disponibilità personale di un utente e la sua volontà di comunicare, mediante l'utilizzo di stati comuni quali <strong>Disponibile</strong> o <strong>Occupato</strong> nonché con stati più dettagliati quali <strong>Torno subito</strong> e <strong>Non disturbare</strong> . Queste informazioni sulla presenza avanzata consentono agli altri utenti di utilizzare immediatamente scelte di comunicazione efficienti.</p></td>
 </tr>
 <tr class="even">

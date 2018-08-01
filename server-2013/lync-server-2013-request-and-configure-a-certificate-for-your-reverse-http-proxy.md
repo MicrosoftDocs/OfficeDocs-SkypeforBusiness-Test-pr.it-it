@@ -43,10 +43,11 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 <td><p>Nome alternativo soggetto</p></td>
 <td><p>FQDN del pool</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Il nome soggetto deve essere presente anche nel nome alternativo soggetto.
-</div></td>
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Nome alternativo soggetto</p></td>
@@ -56,13 +57,12 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 <tr class="even">
 <td><p>Nome alternativo soggetto</p></td>
 <td><p>URL semplice riunione</p>
-<div class="alert">
 
 > [!NOTE]
 > Tutti gli URL semplici di riunione devono essere inclusi nel nome alternativo soggetto. Ogni dominio SIP deve avere almeno un URL semplice di riunione attiva.
 
 
-</div></td>
+</td>
 <td><p>meet.contoso.com</p></td>
 </tr>
 <tr class="odd">
@@ -79,13 +79,12 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 <td><p>Nome alternativo soggetto</p></td>
 <td><p>URL servizio di individuazione automatica esterno</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
 
 > [!NOTE]
 > Se si utilizza anche Microsoft Exchange Server, è inoltre necessario configurare le regole del proxy inverso per gli URL dei servizi di individuazione automatica e Web di Exchange.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +106,7 @@ Le richieste di certificato vengono create nel proxy inverso. La richiesta viene
 
 
 
-> [!tip]  
+> [!TIP]  
 > Se si pianificano i certificati del server perimetrale e del proxy inverso contemporaneamente, è importante tenere presente che i requisiti dei due certificati sono molto simili. Quando si configura e si richiede il certificato del server perimetrale, è consigliabile combinare i nomi soggetto alternativi del server perimetrale e del proxy inverso. È possibile usare lo stesso certificato per il proxy inverso se si esporta il certificato e la chiave privata e si copia il file esportato nel proxy inverso, quindi si importa la coppia certificato/chiave e la si assegna in base alle procedure disponibili. Fare riferimento ai requisiti dei certificati per il server perimetrale  <a href="lync-server-2013-plan-for-edge-server-certificates.md">Pianificare i certificati dei server perimetrali in Lync Server 2013</a> e del proxy inverso <a href="lync-server-2013-certificate-summary-reverse-proxy.md">Riepilogo dei certificati - proxy inverso in Lync Server 2013</a>. Assicurarsi di creare il certificato con una chiave privata esportabile. La creazione del certificato e della richiesta di certificato con una chiave privata esportabile è necessaria per i server perimetrali in pool, pertanto si tratta di una procedura normale. La Configurazione guidata certificati dello Distribuzione guidata di Lync Server per il server perimetrale consente di impostare il flag <strong>Consenti esportazione chiave privata</strong> . Una volta che la richiesta di certificato viene restituita dall'autorità di certificazione pubblica, esportare il certificato e la chiave privata. Per informazioni dettagliate su come creare ed esportare il certificato con una chiave privata, vedere la sezione relativa all'esportazione del certificato con la chiave privata per i server perimetrali di un pool nell'articolo <a href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Impostare i certificati per l'interfaccia perimetrale esterna per Lync Server 2013</a>. L'estensione del certificato deve essere di tipo <strong>pfx</strong>.
 
 Per generare una richiesta di firma del certificato nel computer a cui verranno assegnati il certificato e la chiave privata, eseguire le operazioni seguenti:
@@ -139,9 +138,19 @@ Per generare una richiesta di firma del certificato nel computer a cui verranno 
 12. Fare clic sulla freccia **Utilizzo chiave esteso (criteri di applicazione)** per visualizzare **Opzioni disponibili** . In Opzioni disponibili fare clic su **Autenticazione server** e quindi su **Aggiungi** . Fare clic su **Autenticazione client** e quindi su **Aggiungi** . Se la casella di controllo **Rendi gli utilizzi delle chiavi critici** è selezionata, deselezionarla. A differenza di quando si usa la casella di controllo Utilizzo chiave, che deve essere selezionata, è necessario verificare che la casella di controllo Utilizzo chiave esteso non lo sia.
 
 13. Nella pagina **Proprietà certificato** fare clic sulla scheda **Chiave privata** . Fare clic sulla freccia **Opzioni chiave** . Per **Dimensioni chiave** selezionare **2048** nell'elenco a discesa. Se si genera questa coppia di chiavi con richiesta di firma del certificato in un computer diverso dal proxy inverso per cui è stato creato il certificato, selezionare **Consenti esportazione chiave privata** .
-    
-    > [!security]  
-    > La selezione dell'opzione <strong>Consenti esportazione chiave privata</strong> è in genere consigliabile quando si dispone di più proxy inversi in una farm, in quanto il certificato e la chiave privata verranno copiati in ogni computer della farm. Se si consente l'esportazione della chiave privata, è necessario dedicare particolare attenzione al certificato e al computer in cui è stato generato. La chiave privata, se danneggiata, renderà inutile il certificato e potrà esporre il computer o i computer all'accesso esterno e ad altre vulnerabilità della sicurezza.
+
+    <table>
+    <thead>
+    <tr class="header">
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />SicurezzaNota:</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>La selezione dell'opzione <strong>Consenti esportazione chiave privata</strong> è in genere consigliabile quando si dispone di più proxy inversi in una farm, in quanto il certificato e la chiave privata verranno copiati in ogni computer della farm. Se si consente l'esportazione della chiave privata, è necessario dedicare particolare attenzione al certificato e al computer in cui è stato generato. La chiave privata, se danneggiata, renderà inutile il certificato e potrà esporre il computer o i computer all'accesso esterno e ad altre vulnerabilità della sicurezza.</td>
+    </tr>
+    </tbody>
+    </table>
 
 14. Nella scheda **Chiave privata** fare clic sulla freccia **Tipo chiave** . Selezionare l'opzione **Exchange** .
 

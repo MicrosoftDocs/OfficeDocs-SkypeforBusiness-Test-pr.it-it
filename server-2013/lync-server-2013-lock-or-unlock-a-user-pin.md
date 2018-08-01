@@ -41,7 +41,7 @@ _**Ultima modifica dell'argomento:** 2013-02-23_
     
     4.  A seconda della proprietà utente selezionata, immettere i criteri da utilizzare per filtrare i risultati della ricerca digitandoli o facendo clic sulla freccia dell'elenco a discesa.
         
-        > [!tip]  
+        > [!TIP]  
         > Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
     
@@ -71,7 +71,7 @@ _**Ultima modifica dell'argomento:** 2013-02-23_
     
     4.  A seconda della proprietà utente selezionata, immettere i criteri da utilizzare per filtrare i risultati della ricerca digitandoli o facendo clic sulla freccia dell'elenco a discesa.
         
-        > [!tip]  
+        > [!TIP]  
         > Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
     

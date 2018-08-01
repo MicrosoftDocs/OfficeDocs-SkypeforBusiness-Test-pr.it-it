@@ -104,7 +104,7 @@ Quando si ripristina un server, è necessario iniziare con un computer nuovo o p
 
   - Software per l'acquisizione di immagini di sistema.
     
-    > [!tip]  
+    > [!TIP]  
     > È consigliabile acquisire una copia dell'immagine del sistema dopo l'installazione del sistema operativo e di SQL Server e prima di iniziare il ripristino, in modo che sia possibile utilizzare questa immagine come punto di ripristino dello stato precedente in caso di problemi durante il ripristino.
 
   - Software di installazione di Lync Server 2013. La Distribuzione guidata di Lync Server è disponibile nella cartella o nel supporto di installazione di Lync Server in \\setup\\amd64\\Setup.exe.

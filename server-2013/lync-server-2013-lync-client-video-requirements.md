@@ -42,13 +42,12 @@ In Lync 2013 è stata introdotta l'accelerazione hardware per la codifica e la d
 <li><p>La scheda video deve supportare DirectX 9.0 ed esporre la modalità di decodifica DXVA2_ModeH264_VLD_NoFGT.</p></li>
 <li><p>Deve essere installato il driver più recente della scheda video.</p></li>
 </ul>
-<div class="alert">
 
 > [!NOTE]
 > Per dettagli sulle modalità di decodifica, vedere <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Codifica H.264 con accelerazione hardware: requisiti del chipset</p></td>
@@ -68,13 +67,13 @@ In Lync 2013 è stata introdotta l'accelerazione hardware per la codifica e la d
 <tr class="odd">
 <td><p>Codifica H.264 con accelerazione hardware: requisiti fotocamera</p></td>
 <td><p>Fotocamere video USB con codificatore H.264 integrato conforme alla specifica USB Video Class (UVC) versione 1.5.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync 2013 supporta fotocamere UVC 1.5 con Windows 8 o Windows 8.1, il che include il supporto per UVC 1.5. Poiché Windows 7 non include il supporto per UVC 1.5, Lync 2013 tratta le fotocamere UVC 1.5 come fotocamere normali senza supporto per la codifica hardware.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Decodifica H.264 con accelerazione hardware mediante DirectX Video Acceleration (DXVA)</p></td>
@@ -82,13 +81,12 @@ In Lync 2013 è stata introdotta l'accelerazione hardware per la codifica e la d
 <li><p>La scheda video deve supportare DirectX 9.0 ed esporre la modalità di decodifica DXVA2_ModeH264_VLD_NoFGT.</p></li>
 <li><p>Deve essere installato il driver più recente della scheda video.</p></li>
 </ul>
-<div class="alert">
 
 > [!NOTE]
 > Per dettagli sulle modalità di decodifica, vedere <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Codifica H.264 con accelerazione hardware: requisiti del chipset</p></td>
@@ -108,13 +106,13 @@ In Lync 2013 è stata introdotta l'accelerazione hardware per la codifica e la d
 <tr class="even">
 <td><p>Codifica H.264 con accelerazione hardware: requisiti fotocamera</p></td>
 <td><p>Fotocamere video USB con codificatore H.264 integrato conforme alla specifica USB Video Class (UVC) versione 1.5.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync 2013 supporta fotocamere UVC 1.5 con Windows 8 o Windows 8.1, il che include il supporto per UVC 1.5. Poiché Windows 7 non include il supporto per UVC 1.5, Lync 2013 tratta le fotocamere UVC 1.5 come fotocamere normali senza supporto per la codifica hardware.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

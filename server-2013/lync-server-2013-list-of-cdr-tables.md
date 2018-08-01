@@ -266,13 +266,12 @@ Lo schema del database di registrazione dettagli chiamata (CDR) è costituito da
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Tabella VoipDetails in Lync Server 2013</a></p></td>
 <td><p>In questa tabella sono archiviate, per ogni chiamata VoIP/PSTN tra due parti, le informazioni relative alla chiamata, ad esempio l'ID del telefono VoIP, il gateway utilizzato e la parte che si è disconnessa. Fa riferimento alla <a href="lync-server-2013-sessiondetails-table.md">Tabella SessionDetails in Lync Server 2013</a> per la data/ora di inizio e fine delle chiamate e il codice di risposta.</p>
-<div class="alert">
 
 > [!NOTE]
 > Se una parte coinvolta in una chiamata è un utente VoIP o se nella chiamata è coinvolto un Mediation Server, verrà creato un record in questa tabella. Le informazioni relative alle chiamate VoIP/VoIP in cui non è coinvolto un telefono PSTN (Public Switched Telephone Network) vengono acquisite nella <A href="lync-server-2013-sessiondetails-table.md">Tabella SessionDetails in Lync Server 2013</A>.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>
@@ -296,13 +295,12 @@ Lo schema del database di registrazione dettagli chiamata (CDR) è costituito da
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Tabella Locations in Lync Server 2013</a></p></td>
 <td><p>In questa tabella sono archiviate, per ogni chiamata di emergenza, le informazioni relative alla località della chiamata. Fa riferimento alla <a href="lync-server-2013-sessiondetails-table.md">Tabella SessionDetails in Lync Server 2013</a> per la data/ora di inizio e fine delle chiamate e il codice di risposta.</p>
-<div class="alert">
 
 > [!NOTE]
 > In questa tabella è contenuto solo il BLOB della località per la chiamata di emergenza. Fa riferimento alla tabella SessionDetails per altre informazioni dettagliate relative alla chiamata.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

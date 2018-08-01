@@ -50,7 +50,7 @@ Per evitare problemi di routing, verificare che nei server perimetrali siano pre
     
     Gli indirizzi di Web Conferencing e A/V Edge sono secondari.
 
-> [!tip]  
+> [!TIP]  
 > La configurazione del server perimetrale con due schede di rete è un'opzione. L'altra consiste nell'utilizzare una scheda di rete per l'interfaccia interna e tre schede di rete per l'interfaccia esterna del server perimetrale. Il vantaggio principale di questa opzione è l'utilizzo di una scheda di rete separata ogni servizio di server perimetrale e la raccolta di dati potenzialmente più concisi per eventuali attività di risoluzione dei problemi.
 
 ### Record DNS necessari per un server perimetrale consolidato singolo con indirizzi IP privati e NAT (esempio)
@@ -138,11 +138,11 @@ Per evitare problemi di routing, verificare che nei server perimetrali siano pre
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner, condizione nota come &quot;domini SIP consentiti&quot;, nonché come federazione avanzata nelle versioni precedenti. Ripetere secondo le necessità per tutti i domini SIP con utenti abilitati per Lync.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Questo record SRV è necessario per il fornitore di servizi di accesso a terze parti per notifiche Push e dispositivi mobili.
-</div></td>
-</tr>
+
+</td></tr>
 </tbody>
 </table>
 

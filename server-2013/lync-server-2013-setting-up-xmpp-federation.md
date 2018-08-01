@@ -31,7 +31,7 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 6.  Nel server perimetrale fare clic su Riesegui nella Distribuzione guidata accanto a Passaggio 3: Richiesta, installazione o assegnazione dei certificati.
     
-    > [!tip]  
+    > [!TIP]  
     > Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.
 
 7.  Nella pagina Attività certificato disponibili fare clic su Crea una nuova richiesta di certificato.
@@ -62,7 +62,7 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 17. Nella pagina Configura nomi alternativi soggetto aggiuntivi specificare eventuali nomi alternativi soggetto aggiuntivi richiesti.
     
-    > [!tip]  
+    > [!TIP]  
     > Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.
 
 18. Nella pagina Riepilogo richiesta esaminare le informazioni sul certificato da utilizzare per generare la richiesta.
@@ -146,7 +146,7 @@ Per distribuire il proxy XMPP nel server perimetrale, è necessario configurare 
 
 10. Pubblicare la topologia. Per informazioni dettagliate, vedere [Pubblicare la topologia in Lync Server 2013](lync-server-2013-publish-your-topology.md).
     
-    > [!tip]  
+    > [!TIP]  
     > Sebbene non sia richiesto e in genere non occorra, potrebbe risultare necessario riavviare il server perimetrali
 
 11. Tramite il processo netstat utilizzato in precedenza, verificare che il server perimetrale sia ora in attesa o abbia stabilito sessioni sulle porte 5269 e 23456.

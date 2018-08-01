@@ -33,7 +33,7 @@ Le impostazioni di configurazione consistono nel nome della raccolta, l'ambito (
     
       - Per modificare le impostazioni di una raccolta esistente, fare clic sulla raccolta, selezionare il menu **Modifica**, fare clic su **Mostra dettagli** e apportare le modifiche.
         
-        > [!tip]  
+        > [!TIP]  
         > Per tornare a utilizzare le impostazioni predefinite di una raccolta globale, fare clic sulla stessa, quindi sul menu <strong>Modifica</strong> e su <strong>Elimina</strong>, quindi fare clic su <strong>OK</strong>. La raccolta globale non viene eliminata, ma le impostazioni vengono ripristinate ai valori predefiniti.
 
 5.  Fare clic su **Commit**.

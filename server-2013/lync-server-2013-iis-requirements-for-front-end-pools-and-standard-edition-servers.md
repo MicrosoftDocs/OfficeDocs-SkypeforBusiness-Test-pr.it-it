@@ -167,6 +167,15 @@ Nella tabella seguente vengono elencati gli URI delle directory virtuali per l'a
 > Per pool Front End in una configurazione consolidata, è necessario distribuire IIS prima di poter aggiungere server al pool.
 
 
-
-> [!security]  
-> È necessario utilizzare lo snap-in di amminsitrazione di IIS per assegnare il certificato utilizzato dal server del componente Web IIS.
+<table>
+<thead>
+<tr class="header">
+<th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />SicurezzaNota:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>È necessario utilizzare lo snap-in di amminsitrazione di IIS per assegnare il certificato utilizzato dal server del componente Web IIS.</td>
+</tr>
+</tbody>
+</table>
