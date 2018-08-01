@@ -104,13 +104,13 @@ Gli scenari di failover perimetrale supportati con il bilanciamento del carico D
 
 > [!NOTE]
 > Le topologie perimetrale singola e perimetrale in scala (con bilanciamento del carico DNS) possono utilizzare:<ul><li><p>Indirizzi IP pubblici instradabili</p></li><li><p>Indirizzo IP privato non instradabile se viene utilizzato il processo NAT (Network Address Translation) simmetrico</p>
-
+>
 > [!NOTE]
 > Se si utilizza un indirizzo IP pubblico o un indirizzo IP privato con NAT, verrà utilizzato lo stesso numero di indirizzi IP in base alla configurazione scelta in Generatore di topologie. È possibile configurare il server perimetrale per utilizzare un unico indirizzo IP con porte distinte per servizio o utilizzare indirizzi IP distinti per servizio, ma utilizzare la stessa porta (per impostazione predefinita, TCP 443).
-
+>
 > </li></ul>
 > Se si decide di utilizzare indirizzi IP privati non instradabili con NAT:<ul><li><p>È necessario utilizzare gli indirizzi IP privati instradabili in tutte e tre le interfacce esterne</p></li><li><p>È necessario configurare NAT simmetrico per il traffico in arrivo e in uscita</p></li></ul>
-La topologia perimetrale in scala (con bilanciamento del carico hardware) deve utilizzare indirizzi IP pubblici.
+> La topologia perimetrale in scala (con bilanciamento del carico hardware) deve utilizzare indirizzi IP pubblici.
 
 
 Lync Server 2013 supporta il posizionamento di interfacce esterne Access Edge, Web Conferencing Edge e A/V Edge dietro un router o un firewall che esegue NAT (Network Address Translation) per le topologie di server perimetrale consolidato sia singolo che con scalabilità implementata.

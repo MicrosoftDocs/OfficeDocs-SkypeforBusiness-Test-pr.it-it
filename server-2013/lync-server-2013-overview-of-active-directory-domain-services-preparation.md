@@ -43,13 +43,13 @@ Nella tabella che segue vengono descritti i passaggi necessari per preparare Ser
 <td><p>Estende lo schema di Active Directory tramite l'aggiunta di nuove classi e nuovi attributi utilizzati da Lync Server.</p>
 <p>Eseguire il passaggio una volta per ogni foresta nella distribuzione in cui verrà implementato Lync Server.</p></td>
 <td><p>Sul master schema nel dominio radice di ogni foresta in cui verrà distribuito Lync Server.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Non è necessario eseguire questo passaggio nel dominio radice se si dispone delle autorizzazioni sul master di schemi, ma è necessario essere un membro del gruppo Schema Admins nel dominio radice e un membro del gruppo Enterprise Admins nel master di schemi. In una topologia di foresta di risorse eseguire questo passaggio solo nella foresta di risorse e non nelle foreste di utenti. In una topologia di foresta centrale eseguire questo passaggio solo nella foresta centrale e non nelle foreste di utenti.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>2.</p></td>
@@ -57,26 +57,26 @@ Nella tabella che segue vengono descritti i passaggi necessari per preparare Ser
 <td><p>Crea impostazioni globali e gruppi universali utilizzati da Lync Server.</p>
 <p>Eseguire il passaggio una volta per ogni foresta nella distribuzione in cui verrà implementato Lync Server.</p></td>
 <td><p>Nel dominio radice di ogni foresta in cui verrà distribuito Lync Server. Per eseguire questo passaggio, è necessario essere un membro del gruppo Enterprise Admins.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > In una topologia di foresta di risorse eseguire questo passaggio solo nella foresta di risorse e non nelle foreste di utenti. In una topologia di foresta centrale eseguire questo passaggio solo nella foresta centrale e non nelle foreste di utenti.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>3.</p></td>
 <td><p><a href="lync-server-2013-preparing-domains.md">Preparazione dei domini per Lync Server 2013</a></p></td>
 <td><p>Aggiunge autorizzazioni per gli oggetti che verranno utilizzati dai membri dei gruppi universali.</p>
 <p>Eseguire il passaggio una volta per ogni dominio utente o server.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Se si esegue la migrazione da Lync Server 2010 a Lync Server 2013, la Distribuzione guidata potrebbe indicare che la preparazione del dominio è stata già completata e pertanto non è necessario eseguire di nuovo questo passaggio. Le autorizzazioni non sono state modificate nel passaggio da Lync Server 2010 a Lync Server 2013.
 
 
-</div></td>
+</td>
 <td><p>Su un server membro in ogni domino in cui verrà distribuito Lync Server. Per eseguire questo passaggio, è necessario essere un membro del gruppo Domain Admins.</p></td>
 </tr>
 </tbody>

@@ -69,13 +69,12 @@ Per migliorare la sicurezza e le prestazioni dei server perimetrali e facilitare
 </ul>
 <p></p></td>
 <td><p>Gruppi <strong>Domain Admins</strong> e <strong>RTCUniversalServerAdmins</strong> o <strong>CsAdmins</strong></p>
-<div class="alert">
 
 > [!NOTE]
 > È possibile definire una topologia utilizzando un account membro del gruppo degli utenti locali, ma per la pubblicazione di una topologia è necessario un account membro dei gruppi <STRONG>Domain Admins</STRONG> e <STRONG>RTCUniversalServerAdmins</STRONG>.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Creazione di una topologia di server perimetrali e server Director in Lync Server 2013</a> nella documentazione relativa alla distribuzione</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +85,6 @@ Per migliorare la sicurezza e le prestazioni dei server perimetrali e facilitare
 <li><p>Configurare record DNS interni ed esterni (host A e AAAA per IPv4 e IPv6), inclusa la configurazione del suffisso DNS nel computer da distribuire come server perimetrale.</p></li>
 <li><p>(Facoltativo) Creare e installare certificati pubblici. Il tempo necessario per ottenere i certificati dipende dall'Autorità di certificazione (CA) che emette il certificato. Se non si esegue questo passaggio in questa fase, sarà necessario eseguirlo durante l'installazione dei server perimetrali. I servizi dei server perimetrali non possono essere avviati se non si ottengono e installano i certificati.</p></li>
 <li><p>Fornire il supporto per la connettività per messaggistica istantanea pubblica se la distribuzione deve supportare le comunicazioni con utenti di Windows Live, AOL o Yahoo!.</p>
-<div class="alert">
 
 > [!IMPORTANT]
 > <ul>
@@ -96,7 +94,7 @@ Per migliorare la sicurezza e le prestazioni dei server perimetrali e facilitare
 </ul>
 
 
-</div></li>
+</li>
 <li><p>Fornire supporto per XMPP e la federazione per i partner di Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010, se la distribuzione li utilizzerà</p></li>
 <li><p>Configurare i firewall.</p></li>
 </ol></td>

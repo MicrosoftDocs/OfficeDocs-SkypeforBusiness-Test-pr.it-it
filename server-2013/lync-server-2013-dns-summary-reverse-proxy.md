@@ -62,12 +62,11 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 <td><p>webdirext.contoso.com</p></td>
 <td><p>Listener assegnato per risorse pubblicate esternamente</p></td>
 <td><p>Servizi Web esterni per i Director o i pool di Server Director all'interno della distribuzione. È possibile definire qualsiasi numero di Director perché si tratta di Director distinti, associabili ad altri domini SIP.</p>
-<div class="alert">
 
 > [!IMPORTANT]
 > La definizione dei record DNS e la pubblicazione dei Director non è una decisione che spetta al pool Front End né al Server Director. Se si usano i Director, è necessario definire e pubblicare sia il Server Director che i servizi Web esterni del pool Front End. Tipi di traffico specifici (per l'autenticazione e altri usi) verranno inviati prima al Server Director, se definito nella topologia.
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>DNS/A esterno</p></td>

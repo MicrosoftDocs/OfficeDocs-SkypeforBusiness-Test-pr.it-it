@@ -50,10 +50,11 @@ Quando si configura il DNS (Domain Name System) per la connettività per messagg
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna servizio Access Edge Necessario per l'individuazione DNS automatica della federazione per altri partner federativi potenziali ed è noto come &quot;Domini SIP consentiti&quot; (federazione avanzata nelle versioni precedenti). Ripetere secondo necessità per tutti i domini SIP con utenti predisposti per Lync</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Questo record SRV è necessario per la mobilità e PNCH. Nei casi in cui sono presenti più domini SIP, creare e pubblicare un record SRV per ogni dominio che avrà client Lync Mobile. Il servizio notifica Push e il servizio notifica Push Apple potrebbero non funzionare come previsto nei casi in cui non sia presente un record SRV esplicito per ogni dominio SIP supportato dalla distribuzione.
-</div></td>
+
+</td>
 </tr>
 </tbody>
 </table>

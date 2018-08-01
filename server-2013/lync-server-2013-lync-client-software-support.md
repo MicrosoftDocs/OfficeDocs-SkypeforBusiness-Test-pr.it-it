@@ -43,13 +43,12 @@ In questa sezione viene riepilogato il supporto software per Lync 2013 e il comp
 <p>Windows 8</p>
 <p>sistema operativo Windows 7</p>
 <p>Windows Server 2008 R2 con il Service Pack più recente</p>
-<div class="alert">
 
 > [!NOTE]
 > Lync 2013 e il componente aggiuntivo per riunioni online per Lync 2013 non sono supportati in Windows Vista o Windows XP (qualsias versione).
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Installazione e aggiornamenti</p></td>
@@ -62,13 +61,13 @@ In questa sezione viene riepilogato il supporto software per Lync 2013 e il comp
 <p>Browser Internet Internet Explorer 8</p>
 <p>Browser Internet Internet Explorer 7</p>
 <p>Mozilla Firefox</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Se si utilizza Lync con Microsoft Exchange Online e nell'organizzazione è stato distribuito un proxy HTTP per l'autenticazione, è necessario Internet Explorer 9 o Internet Explorer 8.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Integrazione di Microsoft Office</p></td>

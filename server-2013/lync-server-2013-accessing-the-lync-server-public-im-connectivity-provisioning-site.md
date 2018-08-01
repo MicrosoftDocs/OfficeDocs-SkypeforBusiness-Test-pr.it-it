@@ -43,31 +43,27 @@ Il processo di provisioning per la connettività Lync-Skype è stato modificato 
 <tbody>
 <tr class="odd">
 <td><ol><li><p>Accedere al sito Web <strong>https://pic.lync.com</strong> utilizzando il Microsoft Windows Live ID.</p></li><li><p>Selezionare il tipo di contratto di licenza Microsoft.</p></li>
-> <li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
-> <li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
-> 
-> <li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
-> 
-> 
-> <li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
-<div class="alert">
+<li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
+<li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
+<li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
+<li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
+
 > [!IMPORTANT]  
 > Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.
-</div></li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
+
+</li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
 </tr>
 <tr class="even">
 <td><ol><li><p>Accedere al sito Web <strong>https://pic.lync.com</strong> utilizzando il Microsoft Windows Live ID.</p></li><li><p>Selezionare il tipo di contratto di licenza Microsoft.</p></li>
-> <li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
-> <li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
-> 
-> <li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
-> 
-> 
-> <li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
-<div class="alert">
+<li><p>Selezionare la casella di controllo, assicurandosi di avere letto e accettato i diritti di utilizzo del prodotto per Lync Server.</p></li>
+<li><p>Nella pagina di <strong>avvio di una richiesta di provisioning</strong> fare clic sul collegamento appropriato per avviare una richiesta di provisioning:</p></li>
+<li><p>Nella pagina di <strong>specifica delle informazioni di provisioning</strong> immettere il <strong>Servizio Access Edge (FQDN)</strong>. Ad esempio, <strong>accessedge.contoso.com</strong>.</p></li>
+<li><p>Immettere uno o più nomi di dominio SIP, quindi fare clic su <strong>Aggiungi</strong>.</p>
+
 > [!IMPORTANT]  
 > Sono richiesti almeno un Access Edge Server e un dominio SIP per completare il processo di provisioning. Il dominio SIP e l'Access Edge Server devono essere attivi, funzionanti e raggiungibili tramite rete.
-</div></li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
+
+</li><li><p>Nell'elenco di <strong>Provider di servizi di messaggistica istantanea pubblici</strong> selezionare <strong>Skype</strong> e fare clic su <strong>Avanti</strong> per aggiungere le informazioni di contatto, quindi inviare la richiesta di provisioning.</p></li></ol></td>
 </tr>
 </tbody>
 </table>

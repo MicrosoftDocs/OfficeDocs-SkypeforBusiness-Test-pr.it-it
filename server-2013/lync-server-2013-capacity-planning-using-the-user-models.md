@@ -82,14 +82,12 @@ Nella tabella seguente sono riepilogate queste indicazioni.
 <tr class="even">
 <td><p>A/V Conferencing</p></td>
 <td><p>Il servizio A/V Conferencing fornito da un pool Front End supporta le conferenze del pool presupponendo un numero massimo di utenti pari a 250 e un'unica grande conferenza in esecuzione alla volta.</p>
-<div class="alert">
 
 > [!NOTE]
 > È inoltre possibile supportare grandi conferenza con un numero di utenti compreso tra 250 e 1000 utenti distribuendo un pool Front End distinto con due Front End Server per ospitare le conferenze. Per informazioni dettagliate, vedere <A href="lync-server-2013-supporting-large-meetings.md">Supporto di riunioni di grandi dimensioni tramite Lync Server 2013</A>.
 
 
-</div></td>
-</tr>
+</td></tr>
 <tr class="odd">
 <td><p>Un server perimetrale</p></td>
 <td><p>12.000 utenti remoti simultanei</p></td>

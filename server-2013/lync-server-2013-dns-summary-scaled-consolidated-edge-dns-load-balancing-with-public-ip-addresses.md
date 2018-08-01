@@ -152,11 +152,11 @@ Per evitare problemi di routing, verificare che siano presenti almeno due schede
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna del servizio Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner della federazione. Nota come &quot;dominio SIP consentito&quot;, nonché come federazione avanzata nelle versioni precedenti.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Ripetere in base alle esigenze per tutti i domini SIP con utenti abilitati per Lync e per i client Microsoft Lync Mobile che utilizzano il servizio notifica Push o il servizio notifica Push Apple.
-</div></td>
-</tr>
+
+</td></tr>
 </tbody>
 </table>
 

@@ -151,13 +151,13 @@ Di seguito è riportata una tabella con l'elenco dei requisiti:
 <td><p>Accesso utente anonimo a riunioni e conferenze</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Assegnare i criteri di conferenza per supportare gli utenti anonimi in Lync Server 2013</a></p>
-<div class="alert">
+
 
 > [!NOTE]
 > È anche necessario considerare le impostazioni di configurazione seguenti nei criteri di conferenza: <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Creare o modificare criteri conferenza</A> e <A href="lync-server-2013-conferencing-policy-settings-reference.md">Guida di riferimento alle impostazioni dei criteri di conferenza di Lync Server 2013</A>
 
 
-</div></td>
+</td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>

@@ -138,10 +138,11 @@ Per evitare problemi di routing, verificare che nel server server perimetrali si
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaccia esterna Access Edge SIP. Necessario per l'individuazione DNS automatica della federazione con altri potenziali partner, condizione nota come &quot;domini SIP consentiti&quot;, nonché come federazione avanzata nelle versioni precedenti. Ripetere secondo le necessità per tutti i domini SIP con utenti abilitati per Lync.</p>
-<div class="alert">
+
 > [!IMPORTANT]  
 > Questo record SRV è necessario per il fornitore di servizi di accesso a terze parti per notifiche Push e dispositivi mobili.
-</div></td>
+
+</td>
 </tr>
 </tbody>
 </table>

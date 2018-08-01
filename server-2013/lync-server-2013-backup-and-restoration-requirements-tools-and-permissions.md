@@ -66,13 +66,12 @@ Tutti i comandi necessari per il backup di Lync Server possono essere eseguiti t
 </tr>
 <tr class="odd">
 <td><p>Tutti gli archivi file: archivio file di Lync Server, archivio file di archiviazione</p>
-<div class="alert">
 
 > [!NOTE]
 > Non eseguire il backup dei file denominati <STRONG>Meeting.Active</STRONG>. Questi file sono in uso e bloccati mentre è in corso una riunione.
 
 
-</div></td>
+</td>
 <td><p>Strumento di gestione del file system standard, ad esempio Robocopy.</p></td>
 </tr>
 </tbody>
@@ -121,13 +120,12 @@ Per ripristinare Lync Server, utilizzare gli strumenti descritti nella tabella s
 </tr>
 <tr class="even">
 <td><p>Ripristinare il puntatore di Servizi di dominio Active Directory nell'archivio di gestione centrale</p>
-<div class="alert">
 
 > [!NOTE]
 > Se a un certo punto si perde il punto di connessione del servizio, è possibile eseguire di nuovo questo cmdlet.
 
 
-</div></td>
+</td>
 <td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
@@ -147,14 +145,12 @@ Per ripristinare Lync Server, utilizzare gli strumenti descritti nella tabella s
 <tr class="even">
 <td><p>Reinstallare i componenti di Lync Server</p></td>
 <td><p>Programma di installazione di Lync Server</p>
-<div class="alert">
 
 > [!NOTE]
 > Contenuto nella cartella di installazione di Lync Server o sul supporto del prodotto in \setup\amd64\Setup.exe.
 
 
-</div></td>
-</tr>
+</td></tr>
 <tr class="odd">
 <td><p>Ripristinare i dati di Informazioni percorso (E9-1-1) (Lis.mdf)</p></td>
 <td><p>Import-CsLisConfiguration</p></td>
@@ -166,14 +162,12 @@ Per ripristinare Lync Server, utilizzare gli strumenti descritti nella tabella s
 <tr class="odd">
 <td><p>Ripristinare i dati di configurazione di Response Group (RgsConfig.mdf)</p></td>
 <td><p>Import-CsRgsConfiguration</p>
-<div class="alert">
 
 > [!NOTE]
 > Se la configurazione viene ripristinata in un nuovo pool senza dati Response Group nel database, utilizzare l'opzione -OverwriteOwner. Utilizzare questa opzione anche se i dati in corso di ripristino si trovano in un pool con lo stesso nome di dominio completo (FQDN). In caso contrario, l'importazione non verrà completata a causa degli oggetti contatto nei Response Group già esistenti in Active Directory.
 
 
-</div></td>
-</tr>
+</td></tr>
 <tr class="even">
 <td><p>Ripristinare i database seguenti:</p>
 <ul>

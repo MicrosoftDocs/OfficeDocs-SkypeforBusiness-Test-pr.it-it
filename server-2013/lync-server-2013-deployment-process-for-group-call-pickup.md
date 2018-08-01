@@ -50,20 +50,18 @@ In questa sezione viene fornita una panoramica dei passaggi previsti per la dist
 <tr class="even">
 <td><p>Configurare gli intervalli dei numeri di risposta alle chiamate nella tabella dei codici orbit del parcheggio di chiamata</p></td>
 <td><p>Utilizzare il cmdlet <strong>New-CSCallParkOrbit</strong> per creare gli intervalli dei numeri di risposta alle chiamate nella tabella dei codici orbit del parcheggio di chiamata e assegnare il tipo GroupPickup agli intervalli di risposta alle chiamate.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > È necessario utilizzare Lync Server Management Shell per creare, modificare, rimuovere e visualizzare gli intervalli dei numeri di risposta alle chiamate di gruppo nella tabella dei codici orbit del parcheggio di chiamata. Gli intervalli dei numeri di risposta alle chiamate di gruppo non sono disponibili in Pannello di controllo di Lync Server.
 
 
-</div>
-<div class="alert">
 
 > [!NOTE]
 > Per l'integrazione completa con i dial plan esistenti, gli intervalli dei numeri in genere sono configurati come un blocco di estensioni virtuali. L'assegnazione di numeri DID (Direct Inward Dialing) come numeri di intervallo nella tabella dei codici orbit del parcheggio di chiamata non è supportata.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>

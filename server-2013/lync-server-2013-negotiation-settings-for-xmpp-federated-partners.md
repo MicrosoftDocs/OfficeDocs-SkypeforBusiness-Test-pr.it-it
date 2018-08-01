@@ -94,13 +94,13 @@ Le impostazioni per i tipi di negoziazione nella configurazione di un Partner XM
 <td><p>Obbligatorio</p></td>
 <td><p>True</p></td>
 <td><p>SASL su TLS</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > Se SASL e TSL sono entrambi obbligatori, il dialback non verrà utilizzato.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Obbligatorio</p></td>
@@ -114,58 +114,58 @@ Le impostazioni per i tipi di negoziazione nella configurazione di un Partner XM
 <td><p>Obbligatorio</p></td>
 <td><p>True</p></td>
 <td><p>SASL su TLS, dialback TLS, dialback TCP</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL richiede TLS. Impostando TLS come facoltativo, potrebbero verificarsi errori di negoziazione delle sessioni.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Facoltativo</p></td>
 <td><p>Obbligatorio</p></td>
 <td><p>False</p></td>
 <td><p>SASL su TLS</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL richiede TLS. Impostando TLS come facoltativo, potrebbero verificarsi errori di negoziazione delle sessioni.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Non supportato</p></td>
 <td><p>Obbligatorio</p></td>
 <td><p>True</p></td>
 <td><p>Dialback TCP</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL richiede TLS. Impostando TLS come facoltativo, potrebbero verificarsi errori di negoziazione delle sessioni.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Non supportato</p></td>
 <td><p>Obbligatorio</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > Configurazione non valida.
 
 
-</div></td>
-<td><div class="alert">
+</td>
+<td>
 
 > [!WARNING]
 > Poiché SASL richiede TLS, ma TLS non è disponibile, SASL/TLS ha esito negativo. Il dialback TCP è impostato su false e non può essere utilizzato.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Obbligatorio</p></td>
@@ -186,58 +186,58 @@ Le impostazioni per i tipi di negoziazione nella configurazione di un Partner XM
 <td><p>Facoltativo</p></td>
 <td><p>True</p></td>
 <td><p>SASL su TLS, dialback TLS, dialback TCP</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL richiede TLS. Impostando TLS come facoltativo, potrebbero verificarsi errori di negoziazione delle sessioni.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Facoltativo</p></td>
 <td><p>Facoltativo</p></td>
 <td><p>False</p></td>
 <td><p>SASL su TLS</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL richiede TLS. Impostando TLS come facoltativo, potrebbero verificarsi errori di negoziazione delle sessioni.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Non supportato</p></td>
 <td><p>Facoltativo</p></td>
 <td><p>True</p></td>
 <td><p>Dialback TCP</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL richiede TLS. Impostando TLS come facoltativo, potrebbero verificarsi errori di negoziazione delle sessioni.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Non supportato</p></td>
 <td><p>Facoltativo</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > Configurazione non valida.
 
 
-</div></td>
-<td><div class="alert">
+</td>
+<td>
 
 > [!WARNING]
 > SASL richiede TLS. Impostando TLS come facoltativo, potrebbero verificarsi errori di negoziazione delle sessioni.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Obbligatorio</p></td>
@@ -251,13 +251,13 @@ Le impostazioni per i tipi di negoziazione nella configurazione di un Partner XM
 <td><p>Non supportato</p></td>
 <td><p>False</p></td>
 <td><p>Configurazione non valida.</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > È necessario abilitare SASL o Dialback.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Facoltativo</p></td>
@@ -271,13 +271,13 @@ Le impostazioni per i tipi di negoziazione nella configurazione di un Partner XM
 <td><p>Non supportato</p></td>
 <td><p>False</p></td>
 <td><p>Configurazione non valida.</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > È necessario abilitare SASL o Dialback.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Non supportato</p></td>
@@ -291,13 +291,13 @@ Le impostazioni per i tipi di negoziazione nella configurazione di un Partner XM
 <td><p>Non supportato</p></td>
 <td><p>False</p></td>
 <td><p>Configurazione non valida.</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > È necessario abilitare SASL o Dialback.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

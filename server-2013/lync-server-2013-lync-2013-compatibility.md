@@ -189,13 +189,12 @@ Nella tabella seguente viene descritto il supporto di Lync 2013 per diverse vers
 <tr class="odd">
 <td><p>Exchange Server 2013</p></td>
 <td><p>Stesso supporto di Exchange Server 2010, con l'aggiunta dell'archivio contatti unificato, delle immagini ad alta risoluzione e dell'integrazione archiviazione.</p>
-<div class="alert">
 
 > [!NOTE]
 > Per informazioni dettagliate, vedere <A href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrazione di Microsoft Lync Server 2013 e Microsoft Exchange Server 2013</A>.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Exchange Server 2010</p></td>

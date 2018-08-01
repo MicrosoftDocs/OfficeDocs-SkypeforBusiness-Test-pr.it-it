@@ -42,13 +42,12 @@ Per criteri di presenza si intende un insieme di limiti e restrizioni che influi
 <td><p>Numero massimo di sottoscrizioni di categoria dei sottoscrittori</p></td>
 <td><p>Limita il numero di sottoscrizioni di categoria dei sottoscrittori. Ad esempio, quando Communicator sottoscrive la presenza di un utente, ottiene una sottoscrizione di categoria per ogni categoria scheda contatto, dati del calendario, note, servizi e stato.</p>
 <p>Un valore 0 indica che l'utente o l'oggetto contatto non può essere sottoscritto da altri.</p>
-<div class="alert">
 
 > [!NOTE]
 > Questa impostazione può avere un impatto notevole sulle prestazioni se è impostata su un valore elevato e l'utente medio presenta un numero elevato di utenti che sottoscrivono la sua presenza.
 
 
-</div></td>
+</td>
 <td><p>Numero intero</p></td>
 <td><p>0-3000</p></td>
 </tr>

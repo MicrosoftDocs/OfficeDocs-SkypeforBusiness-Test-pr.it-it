@@ -52,13 +52,12 @@ I requisiti di certificato per un solo Server Director consistono in un certific
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Nessuna voce</p></td>
-<td><div class="alert">
+<td>
 
 > [!IMPORTANT]
 > La lunghezza minima della chiave è pari a 1024, ma si potrebbe ricevere un messaggio che informa che la lunghezza minima consigliata è pari a 2048 bit.
 
 
-</div>
 <p>Il certificato OAuthTokenIssuer è un certificato a finalità singola, per l'autenticazione dei server in un ambiente a larga scala, e può essere richiesto a un'autorità di certificazione interna o pubblica. Questo certificato è obbligatorio.</p>
 <p></p></td>
 </tr>

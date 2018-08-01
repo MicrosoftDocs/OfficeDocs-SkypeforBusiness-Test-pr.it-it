@@ -80,13 +80,12 @@ Nella tabella seguente è riportata una panoramica del processo di integrazione 
 <li><p>Creare oggetti contatti Accesso sottoscrittore per la messaggistica unificata di Exchange ospitata.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
-<div class="alert">
 
 > [!NOTE]
 > Per creare, modificare o rimuovere oggetti contatto, l'utente che esegue il cmdlet New-CsExUmContact, Set-CsExUmContact o Remove-CsExUmContact deve disporre della corretta autorizzazione per l'unità organizzativa di Active Directory in cui sono archiviati i nuovi oggetti contatto. Questa autorizzazione può essere concessa eseguendo il cmdlet Grant-CsOUPermission. Per informazioni dettagliate, vedere la documentazione di Lync Server Management Shell.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Creare oggetti contatto per la messaggistica unificata di Exchange ospitata in Lync Server 2013</a></p></td>
 </tr>
 </tbody>

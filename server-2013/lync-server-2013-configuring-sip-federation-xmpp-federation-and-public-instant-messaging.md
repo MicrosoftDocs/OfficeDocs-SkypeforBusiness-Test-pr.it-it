@@ -79,13 +79,12 @@ La federazione XMPP definisce una distribuzione esterna basata sul protocollo XM
 <td><p>Determinare le opzioni da aggiungere alla distribuzione di server perimetrali esistente</p></td>
 <td><p>Eseguire Generatore di topologie per modificare le impostazioni dei server perimetrali e creare e pubblicare la topologia. La topologia di server perimetrali esistente replicherà le modifiche dall' archivio di gestione centrale al server perimetrale.</p></td>
 <td><p>Gruppi Domain Admins e RTCUniversalServerAdmins</p>
-<div class="alert">
 
 > [!NOTE]
 > È possibile modificare una topologia utilizzando un account membro del gruppo degli utenti locali, ma per la pubblicazione di una topologia è necessario un account membro dei gruppi Domain Admins e RTCUniversalServerAdmins.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Creazione di una topologia di server perimetrali e server Director in Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">

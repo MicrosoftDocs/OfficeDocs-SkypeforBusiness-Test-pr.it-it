@@ -136,6 +136,8 @@ In questo argomento viene descritto come configurare la Messaggistica unificata 
     
     > [!IMPORTANT]  
     > Non includere spazi nel nome dell'operatore automatico.    
+        
+        
         New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
     
     Per informazioni dettagliate, vedere quanto segue:

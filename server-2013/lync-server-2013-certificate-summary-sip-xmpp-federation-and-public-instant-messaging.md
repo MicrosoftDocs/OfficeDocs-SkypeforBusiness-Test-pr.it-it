@@ -47,42 +47,35 @@ Per accertarsi di soddisfare correttamente i requisiti dei certificati per la di
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
 
 > [!NOTE]
 > Per supportare lo spazio dei nomi XMPP di contoso.com
 
 
-</div>
 <p>sip.fabrikam.com</p>
-<div class="alert">
 
 > [!NOTE]
 > Per supportare lo spazio dei nomi SIP di fabrikam.com
 
 
-</div>
 <p>fabrikam.com</p>
-<div class="alert">
 
 > [!NOTE]
 > Per supportare lo spazio dei nomi XMPP di fabrikam.com
 
 
-</div></td>
+</td>
 <td><p>Il certificato deve essere stato emesso da un'autorità di certificazione pubblica e deve includere l'EKU del server e del client se si intende distribuire la connettività per la messaggistica istantanea pubblica con AOL. Il certificato viene assegnato alle interfacce del server perimetrale esterno per:</p>
 <ul>
 <li><p>servizio Access Edge</p></li>
 <li><p>servizio Web Conferencing Edge</p></li>
 <li><p>servizio A/V Edge</p></li>
 </ul>
-<div class="alert">
 
 > [!NOTE]
 > Dal punto di vista tecnico, un certificato non viene assegnato a A/V Edge. L'autenticazione e le comunicazioni sicure vengono gestite tramite il servizio di autenticazione Media Relay esterno (MRAS). MRAS utilizza il certificato assegnato all'interfaccia interna del server perimetrale.
 
 
-</div>
 <p>I nomi SAN vengono aggiunti automaticamente al certificato in base alle definizioni nel generatore di topologie. È possibile aggiungere voci relative ai nomi SAN in base alle esigenze per ulteriori domini SIP e altre voci che è necessario supportare. Il nome soggetto viene replicato nel nome SAN e deve essere presente per garantire il corretto funzionamento.</p></td>
 </tr>
 </tbody>

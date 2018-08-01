@@ -81,7 +81,7 @@ Nella tabella seguente viene descritto il modello utente per la registrazione, i
 <li><p>L'50% dei contatti è all'interno dell'organizzazione. Il 10% di questi utenti è rappresentato da utenti remoti che si connettono dall'esterno del firewall.</p></li>
 <li><p>Il 40% dei contatti è rappresentato da utenti di cloud pubblici, ad esempio AOL, Yahoo!, MSN o Google Talk.</p></li>
 <li><p>Il 10% dei contatti proviene da partner federati.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > <ul>
@@ -90,7 +90,7 @@ Nella tabella seguente viene descritto il modello utente per la registrazione, i
 > <li><p>Oggi più che mai, Lync è un potente strumento per la connessione tra diverse organizzazioni e con utenti di tutto il mondo. La federazione con Windows Live Messenger non richiede ulteriori licenze per utente/dispositivo in aggiunta alla licenza CAL Standard per Lync. La federazione con Skype verrà aggiunta a questo elenco, consentendo agli utenti di Lync di raggiungere centinaia di milioni di persone tramite messaggistica istantanea e comunicazioni vocali.</p></li>
 </ul>
 
-</div></li>
+</li>
 </ul>
 <p>Media di 50 contatti per gli utenti senza connettività a cloud pubblici. Di questi utenti:</p>
 <ul>
@@ -241,13 +241,11 @@ Nella tabella seguente viene descritto il modello per i servizi di conferenza.
 <td><p>Combinazioni multimediali per le conferenze</p></td>
 <td><p>Il 75% delle conferenze è rappresentato da conferenze Web, che includono funzionalità audio e altre modalità di collaborazione.</p>
 <p>Per queste conferenze, gli altri metodi di collaborazione sono i seguenti:</p>
-<div class="alert">
 
 > [!NOTE]
 > La somma di questi numeri è maggiore del 100% perché in una conferenza si possono utilizzare più metodi di collaborazione.
 
 
-</div>
 <ul>
 <li><p>Nel 50% viene aggiunta la condivisione di applicazioni. Si presuppone che un utente invii dati fino a un massimo di 1,1 MB al secondo.</p></li>
 <li><p>Nel 50% viene aggiunta la messaggistica istantanea (con una media di due messaggi per utente).</p></li>
