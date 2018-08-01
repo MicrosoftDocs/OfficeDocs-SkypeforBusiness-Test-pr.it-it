@@ -22,7 +22,7 @@ La configurazione della tabella dei numeri non assegnati dipende dal modo in cui
 > [!IMPORTANT]  
 > Prima di configurare la tabella di numeri non assegnati, è possibile che nel sistema siano già stati definiti annunci o che sia stato impostato un operatore automatico di Messaggistica unificata di Exchange.
 
-> [!tip]  
+> [!TIP]  
 > Quando viene effettuata una chiamata a un numero non assegnato, in Lync Server viene eseguita una ricerca nella tabella dei numeri non assegnati, dall'alto verso il basso, e viene utilizzato il primo intervallo corrispondente. Pertanto, per l'ultimo intervallo della tabella è consigliabile specificare un'azione che si desidera venga eseguita come ultima risorsa.
 
 ## Argomenti della sezione

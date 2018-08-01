@@ -53,5 +53,5 @@ In presenza di un server back-end Enterprise Edition in una configurazione con m
     
       - Seguire i vari passaggi della procedura guidata fino a quando non viene visualizzata la richiesta **Creare database mirror**. Selezionare il database che si desidera installare e completare il processo.
         
-        > [!tip]  
+        > [!TIP]  
         > Anziché eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere la documentazione di Lync Server Management Shell.

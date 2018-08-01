@@ -66,7 +66,7 @@ Per evitare problemi di routing, verificare che siano presenti almeno due schede
     
     Gli indirizzi IP privati di Web Conferencing Edge e A/V Edge sono indirizzi IP aggiuntivi nella sezione **Avanzate** delle proprietà di **Protocollo Internet versione 4 (TCP/IPv4)** e **Protocollo Internet versione 6 (TCP/IPv6)** delle proprietà di **Connessione alla rete locale (LAN)** in Windows Server.
 
-> [!tip]  
+> [!TIP]  
 > La configurazione del server perimetrale con due schede di rete è un'opzione. L'altra consiste nell'utilizzare una scheda di rete per l'interfaccia interna e tre schede di rete per l'interfaccia esterna del server perimetrale. Il vantaggio principale di questa opzione è l'utilizzo di una scheda di rete separata ogni servizio di server perimetrale e la raccolta di dati potenzialmente più concisi per eventuali attività di risoluzione dei problemi.
 
 ### Record DNS necessari per server perimetrale consolidato in scala, servizio di bilanciamento del carico DNS con indirizzi IP privati tramite NAT (esempio)

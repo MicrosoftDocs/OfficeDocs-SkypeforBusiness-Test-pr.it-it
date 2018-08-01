@@ -29,7 +29,7 @@ Per ottenere il massimo dalla procedura di failover del pool ABC, è necessario 
     
     L'applicazione Response Group consente di archiviare un solo set di impostazioni a livello di applicazione per pool. Queste impostazioni sono accessibili tramite i cmdlet **Get-CsRgsConfiguration** e includono la configurazione della musica di attesa predefinita, il file audio della musica di attesa predefinita, il periodo di tolleranza per la richiamata dell'agente e la configurazione del contesto di chiamata. Queste impostazioni possono essere trasferite da un pool all'altro tramite il cmdlet **Import-CsRgsConfiguration** utilizzando il parametro **ReplaceExistingSettings**, ma questa operazione comporterà la sostituzione delle eventuali impostazioni a livello di applicazione nel pool di destinazione.
     
-    > [!tip]  
+    > [!TIP]  
     > Conservare in una posizione separata una copia di backup di tutti i file audio originali utilizzati per configurare l'applicazione Response Group , ovvero eventuali registrazioni o file della musica di attesa.    
     Se sono disponibili file di musica di attesa personalizzati caricati per il parcheggio di chiamata in un pool, è consigliabile conservarne una copia in un'altra posizione. Questi file non vengono inclusi nel backup durante il processo di ripristino di emergenza di Lync Server 2013 e verranno persi se i file caricati nel pool vengono danneggiati o cancellati.
     

@@ -27,7 +27,7 @@ In questa sezione vengono definiti scenari per le distribuzioni di server perime
 
 Attraverso questo processo è possibile pianificare e documentare la configurazione di tutte le funzionalità potenziali che si intende distribuire agli utenti. È tuttavia possibile aggiungere servizi di federazione e Mobility dopo la distribuzione del server perimetrale e confermare la correttezza dell'operazione prima di aggiungere altre funzionalità. Il processo di aggiunta di funzionalità a una distribuzione di server perimetrale esistente è trattato nella sezione Distribuzione. Per informazioni sulla distribuzione, vedere [Distribuzione dell'accesso degli utenti esterni in Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Se si include la pianificazione per queste funzionalità durante il processo di pianificazione iniziale, è possibile preparare i requisiti di DNS, firewall e certificati per le funzionalità aggiunte, per acquisire i certificati e configurare i requisiti di DNS e porte/protocolli in anticipo.
 
-> [!tip]  
+> [!TIP]  
 > Se si intende pianificare l'installazione di server perimetrali e proxy inverso e aggiungere funzionalità successivamente (ad esempio federazione e Mobility), determinare quali certificati saranno necessari per tutti i servizi dopo la distribuzione. La pianificazione e l'acquisizione dei certificati per tutte le funzionalità in anticipo, che vengano o meno distribuite inizialmente, evita di dover ordinare nuovi certificati per soddisfare i requisiti di federazione (nei server perimetrali) o del proxy inverso (per i servizi Mobility).
 
 
@@ -88,5 +88,5 @@ Attraverso questo processo è possibile pianificare e documentare la configurazi
 </table>
 
 
-> [!tip]  
+> [!TIP]  
 > Nelle sezioni Scenari di seguito sono illustrate architetture di riferimento, esempi di DNS, definizioni di porte/protocolli e requisiti di certificati. Sono inoltre inclusi diagrammi per esigenze relative a DNS, definizioni di porte/protocolli e certificati. I diagrammi offrono un modello da compilare e distribuire ad altri team (ad esempio il team di rete, il team di infrastruttura di chiave pubblica e il team di distribuzione server dell'organizzazione). I diagrammi hanno l'obiettivo di migliorare le comunicazioni e garantire che gli elementi di configurazione obbligatori del server perimetrale vengano illustrati in modo efficiente ai responsabili della configurazione. Si consiglia di utilizzare i diagrammi e le architetture di riferimento associate per pianificare la distribuzione.

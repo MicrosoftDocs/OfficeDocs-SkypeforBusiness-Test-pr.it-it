@@ -31,7 +31,7 @@ Per configurare il certificato nelle directory virtuali di Internet Information 
 
 3.  In **Gestione Internet Information Services (IIS)** selezionare **NomeServer** . In **Visualizzazione funzionalità** selezionare **Certificati server** , fare clic con il pulsante destro del mouse e scegliere **Apri funzionalità** .
     
-    > [!tip]  
+    > [!TIP]  
     > Eventuali certificati assegnati al server appariranno nella visualizzazione delle funzionalità dei certificati server. Se un certificato corrisponde ai requisiti del sito Web esterno in IIS, è possibile riutilizzarlo. Per visualizzare un certificato, fare clic con il pulsante destro del mouse su di esso e scegliere <strong>Visualizza</strong>
 
 4.  Nel Front End Server o Server Director per cui si sta richiedendo il certificato, fare clic sul pulsante **Start** , scegliere **Tutti i programmi** , **Microsoft Lync Server 2013** e quindi **Lync Server Management Shell**.
@@ -52,7 +52,7 @@ Per configurare il certificato nelle directory virtuali di Internet Information 
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
-    > [!tip]  
+    > [!TIP]  
     > Per impostazione predefinita, Request-CsCertificate inserirà nel nome soggetto il nome del server o del pool e nelle voci del nome soggetto alternativo gli FQDN del server, del pool, degli URL semplici e dei servizi Web interni ed esterni facendo riferimento al documento relativo alla topologia presente nella distribuzione. Se si specifica il parametro –Verbose nel caso di un valore mancante, l'utente verrà informato che i valori calcolati ed effettivi dei nomi alternativi sono diversi, ma non di quali siano i valori mancanti. All'utente viene fornito il valore intero calcolato cui fa riferimento il cmdlet. Utilizzare la stringa dei nomi alternativi calcolati nell'output per richiedere un nuovo certificato che includa tutti i valori.    
     ![Output della richiesta di certificato tramite Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Output della richiesta di certificato tramite Request-CsCertifica")
 

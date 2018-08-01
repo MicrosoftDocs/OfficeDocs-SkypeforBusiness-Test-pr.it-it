@@ -25,7 +25,7 @@ Digitare quanto segue al prompt della riga di comando:
 
     Get-CsClsConfiguration
 
-> [!tip]  
+> [!TIP]  
 > È possibile limitare o espandere l'ambito delle impostazioni di configurazione restituite definendo <code>-Identity</code> e un ambito come &quot;Site:Redmond&quot; in modo da restituire solo CsClsConfiguration per il sito di Redmond. Per ottenere i dettagli relativi a una determinata parte della configurazione, è possibile memorizzare l'output in un altro cmdlet Windows PowerShell. Per ottenere ad esempio i dettagli sugli scenari definiti nella configurazione per il sito di &quot;Redmond&quot;, digitare: <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code>
 
 ![Output di esempio di Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Output di esempio di Get-CsClsConfiguration.")

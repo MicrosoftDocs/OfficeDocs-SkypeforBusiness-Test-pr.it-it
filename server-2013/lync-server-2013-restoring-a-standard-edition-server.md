@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-02-21_
 
 In caso di errore di un server Standard Edition che non ospita archivio di gestione centrale, seguire le procedure riportate in questa sezione. In caso di errore dell'archivio di gestione centrale, vedere [Ripristino del server che ospita l'archivio di gestione centrale](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
 
-> [!tip]  
+> [!TIP]  
 > È consigliabile creare una copia dell'immagine del sistema prima di avviare il ripristino. È possibile utilizzare questa immagine come punto di rollback, in caso di problemi durante il ripristino. Potrebbe essere utile creare la copia dell'immagine dopo avere installato il sistema operativo e SQL Server, quindi ripristinare o registrare nuovamente i certificati.
 
 ## Per ripristinare un server Standard Edition

@@ -29,7 +29,7 @@ La funzione servizio di registrazione centralizzato è nuova in Lync Server 2013
     
       - Utilizzare un *provider* esistente, o crearne uno nuovo. Un *provider* definisce cosa viene raccolto da una sessione di registrazione, nonché il livello di dettagli, i componenti da tracciare e i contrassegni applicati.
         
-        > [!tip]  
+        > [!TIP]  
         > Se si ha familiarità con OCSLogger, il termine <em>provider</em> fa riferimento alla raccolta di <strong>componenti</strong> (ad esempio, S4, SIPStack), un <strong>tipo di registrazione</strong> (ad esempio, WPP, EventLog o IIS logfile), un <strong>livello di traccia</strong> (ad esempio, All, verbose, debug) e <strong>contrassegni</strong> (ad esempio, TF_COMPONENT, TF_DIAG). Questi elementi sono definiti nel provider (una variabile di Windows PowerShell) e passati al comando di servizio di registrazione centralizzato.    
       - Configurare i computer e i pool dai quali si desidera raccogliere registri.
     

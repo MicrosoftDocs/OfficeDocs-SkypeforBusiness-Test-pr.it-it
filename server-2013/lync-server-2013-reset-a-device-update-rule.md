@@ -43,7 +43,7 @@ Se si desidera modificare il funzionamento di un aggiornamento sui dispositivi d
 
 5.  Fare clic su **Azione** e quindi su **Annulla aggiornamenti in sospeso**.
     
-    > [!tip]  
+    > [!TIP]  
     > Se si è certi di non voler distribuire le regole di aggiornamento dispositivi annullate, è possibile eliminarle. Per informazioni dettagliate, vedere <a href="lync-server-2013-remove-a-device-update-rule.md">Rimuovere una regola di aggiornamento dispositivi</a>.
 
 ## Reimpostazione di una regola di aggiornamento dispositivi tramite i cmdlet di Windows PowerShell

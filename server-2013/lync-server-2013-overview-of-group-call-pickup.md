@@ -53,7 +53,7 @@ Non è possibile utilizzare la risposta alle chiamate di gruppo per rispondere a
 
   - Chiamate da un contatto assegnato alla relazione di privacy Amici e parenti
     
-    > [!tip]  
+    > [!TIP]  
     > Un utente membro di un gruppo per la risposta alle chiamate di gruppo può impedire il recupero di determinate chiamate tramite la risposta alle chiamate di gruppo contrassegnando il contatto come contatto personale nel client Lync. Per contrassegnare un contatto come personale, impostare la relazione di privacy per il contatto su Amici e parenti. Qualsiasi chiamata in arrivo da contatti con relazione di privacy Amici e parenti non potrà essere recuperata tramite la funzionalità di risposta alle chiamate di gruppo.
 
   - Parte video delle chiamate audio/video

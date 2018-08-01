@@ -41,13 +41,13 @@ _**Ultima modifica dell'argomento:** 2013-02-22_
     
     4.  A seconda della proprietà utente selezionata, immettere il criterio da utilizzare per filtrare i risultati di ricerca digitandolo o facendo clic sulla freccia nell'elenco a discesa.
         
-        > [!tip]  
+        > [!TIP]  
         > Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
 
 6.  Fare clic su un utente nei risultati di ricerca, fare clic su **Azione** e quindi fare clic su **Assegna criteri**.
     
-    > [!tip]  
+    > [!TIP]  
     > Se si desidera applicare gli stessi criteri di chat persistente a più utenti, selezionare più utenti all'interno dei risultati di ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.
 
 7.  In **Assegna criteri** eseguire una delle operazioni seguenti in **Criteri chat persistente**:
@@ -61,7 +61,7 @@ _**Ultima modifica dell'argomento:** 2013-02-22_
     
       - Fare clic sul nome dei criteri di chat persistente per utente precedentemente definiti nella pagina **Criteri chat persistente**.
         
-        > [!tip]  
+        > [!TIP]  
         > Per decidere quali criteri assegnare, dopo aver selezionato un nome di criteri, fare clic su <strong>Visualizza</strong> per visualizzare i diritti utente e le autorizzazioni definite nei criteri.
 
 8.  Al termine, fare clic su **OK**.

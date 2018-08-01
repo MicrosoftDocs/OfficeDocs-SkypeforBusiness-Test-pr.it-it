@@ -27,7 +27,7 @@ Se il server back-end che ospita l'archivio di gestione centrale si trova in una
 
 
 
-> [!tip]  
+> [!TIP]  
 > È consigliabile acquisire una copia dell'immagine del sistema prima di avviare il ripristino, per poterla utilizzare come punto di ripristino dello stato precedente in caso di problemi durante le operazioni di ripristino. È possibile acquisire la copia dell'immagine dopo l'installazione del sistema operativo e di SQL Server e ripristinare o registrare di nuovo i certificati.
 
 ## Per ripristinare l'archivio di gestione centrale
@@ -124,7 +124,7 @@ Se il server back-end che ospita l'archivio di gestione centrale si trova in una
     
     7.  Seguire il resto della procedura guidata e quindi fare clic su **Fine**.
     
-    > [!tip]  
+    > [!TIP]  
     > Anziché eseguire Generatore di topologie, è possibile utilizzare il cmdlet <strong>Install-CsDatabase</strong> per creare ogni database e il cmdlet <strong>Install-CsMirrorDatabase</strong> per configurare il mirroring. Per informazioni dettagliate, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>..
 
 11. Se si ripristina un server Standard Edition, passare alla cartella o al supporto di installazione di Lync Server e avviare la Distribuzione guidata di Lync Server contenuta in \\setup\\amd64\\Setup.exe. Utilizzare la Distribuzione guidata di Lync Server per eseguire le operazioni seguenti:

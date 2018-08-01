@@ -70,7 +70,7 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
 
 10. Nella pagina **Numero non assegnato** verificare che gli intervalli di numeri non assegnati siano disposti nell'ordine desiderato. Per modificare la posizione di un intervallo nella tabella, fare clic su uno o più nomi consecutivi nell'elenco di intervalli e quindi fare clic sulla freccia in su o sulla freccia in giù.
     
-    > [!tip]  
+    > [!TIP]  
     > Lync Server esegue una ricerca all'interno della tabella dei numeri non assegnati dall'inizio alla fine e utilizza il primo intervallo che corrisponde al numero non assegnato. Se vi sono intervalli che si sovrappongono e per un intervallo è specificata un'azione da eseguire come ultimo tentativo, verificare che tale intervallo si trovi alla fine dell'elenco.
 
 11. Quando gli intervalli di numeri non assegnati si trovano nell'ordine desiderato, fare clic su **Salva tutto** .
@@ -83,7 +83,7 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
 
 3.  Utilizzare **New-CsUnassignedNumber** per creare un nuovo intervallo di numeri non assegnati. Utilizzare **Set-CsUnassignedNumber** per modificare un intervallo di numeri non assegnati esistente.
     
-    > [!tip]  
+    > [!TIP]  
     > Se vi sono intervalli che si sovrappongono e si desidera che gli intervalli vengano applicati in un ordine specifico, includere il parametro Priority. Alla chiamata verrà applicato l'intervallo con la priorità più alta.    
     Nella riga di comando eseguire una delle operazioni seguenti:
     

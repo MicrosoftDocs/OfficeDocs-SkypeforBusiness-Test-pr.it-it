@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2013-03-11_
 
 È possibile utilizzare Pannello di controllo di Lync Server per assegnare gli utenti a un server o a un pool specifico.
 
-> [!tip]  
+> [!TIP]  
 > Se tutti gli utenti di un pool che esegue Microsoft Office Communications Server 2007 R2 o una versione precedente vengono spostati in un pool di Lync Server 2013 di destinazione in un ambiente Active Directory complesso, è possibile che la replica di Active Directory sia più lenta. Per evitare questo problema, è possibile utilizzare filtri di ricerca per spostare separatamente gli utenti da pool che eseguono Microsoft Office Communications Server 2007 R2 o una versione precedente. In alternativa, è possibile utilizzare Lync Server Management Shell per spostare gli utenti con i cmdlet. Inoltre, la funzionalità di filtro funziona con gli utenti di Lync Server 2013.
 
 ## Per spostare un gruppo selezionato di utenti in un server o un pool diverso

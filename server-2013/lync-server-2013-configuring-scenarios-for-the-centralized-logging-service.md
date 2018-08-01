@@ -124,14 +124,14 @@ Il cmdlet **Remove-CsClsScenario** rimuove lo scenario specificato, ma le tracce
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
-    > [!tip]  
+    > [!TIP]  
     > Se il modulo è caricato correttamente, si tornerà al prompt dei comandi di Windows PowerShell. Per confermare che il modulo è caricato e che Edit-CsClsScenario è disponibile, digitare <code>Get-Help Edit-CsClsScenario</code>. Dovrebbe essere visualizzato un riepilogo di base della sintassi per EditCsClsScenario.
 
 3.  Per scaricare i moduli, digitare:
     
         Remove-Module ClsController
     
-    > [!tip]  
+    > [!TIP]  
     > Se il modulo viene scaricato con successo, si torna al prompt dei comandi di Windows PowerShell. Per confermare che il modulo è stato scaricato, digitare <code>Get-Help Edit-CsClsScenario</code>. Windows PowerShell tenterà di localizzare la guida del cmdlet.
 
 ## Per rimuovere un provider esistente da uno scenario attraverso il modulo Edit-ClsController

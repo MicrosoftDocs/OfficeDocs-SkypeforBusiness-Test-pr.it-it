@@ -46,7 +46,7 @@ Eseguire questa procedura nel sito centrale, che contiene almeno un pool Front E
 
 
 
-> [!tip]  
+> [!TIP]  
 > Utilizzare il cmdlet <strong>Set-CsPstnGateway</strong> per modificare le proprietà di un gateway PSTN. Per informazioni dettagliate, vedere <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</a> nella guida di Lync Server Management Shell.
 
 **Passaggio successivo** per la resilienza dei siti derivati: [Configurazione degli utenti per la resilienza dei siti di succursale in Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)

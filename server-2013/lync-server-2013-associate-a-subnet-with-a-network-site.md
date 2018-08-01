@@ -47,7 +47,7 @@ Per i dettagli sull'utilizzo di subnet di rete, vedere la documentazione di Lync
 
   - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
-> [!tip]  
+> [!TIP]  
 > Se si utilizza un elevato numero di subnet, per associare queste ultime ai siti è consigliabile utilizzare un file con valori delimitati da virgole (CSV). Il file CSV deve contenere le quattro colonne seguenti: <strong>IPAddress</strong>, <strong>mask</strong>, <strong>description</strong> e <strong>NetworkSiteID</strong>.
 
 ## Per associare una subnet a un sito di rete utilizzando Management Shell

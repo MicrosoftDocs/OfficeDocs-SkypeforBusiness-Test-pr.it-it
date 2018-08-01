@@ -52,7 +52,7 @@ La funzionalità per dispositivi mobili introdotta negli aggiornamenti cumulativ
 
 Gli utenti di Apple iPad avranno accesso a funzionalità avanzate. Quando si partecipa a una riunione utilizzando la richiamata audio, un utente di iPad sarà in grado di visualizzare presentazioni di Microsoft PowerPoint caricate in una riunione, condividere applicazioni e desktop, visualizzare l'elenco dei partecipanti alla riunione e ricevere notifiche di altri tipi di contenuti condivisi all'interno della riunione.
 
-> [!tip]  
+> [!TIP]  
 > Con il numero unico, un utente riceve sul telefono cellulare le chiamate effettuate al suo numero dell'ufficio. Con la chiamata tramite ufficio, l'utente effettua una chiamata in uscita dal client di Lync Mobile utilizzando il numero di un telefono di lavoro anziché il numero del cellulare. Con la chiamata in uscita il client invia una richiesta a Mcx o UCWA (in base alla versione di Lync Mobile) per effettuare la chiamata per suo conto. Il server perciò avvia la chiamata e quindi richiama l'utente sul cellulare. Quando l'utente risponde, il server completa la chiamata componendo il numero dell'altra parte. Mediante la chiamata tramite ufficio, gli utenti possono mantenere la loro identità di lavoro durante una chiamata, pertanto il destinatario non vedrà il numero di cellulare del chiamante e a quest'ultimo non verranno addebitati i costi della chiamata in uscita.
 
 

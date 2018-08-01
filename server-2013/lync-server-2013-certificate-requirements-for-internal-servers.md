@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 I server interni che eseguono Lync Server e che richiedono certificati sono server Standard Edition, Front End Server Enterprise Edition, Mediation Server e director. Nella tabella seguente sono riportati i requisiti dei certificati per tali server. È possibile utilizzare la Configurazione guidata certificati di Lync Server per richiedere questi certificati.
 
-> [!tip]  
+> [!TIP]  
 > I certificati con caratteri jolly sono supportati per i nomi alternativi del soggetto associati agli URL semplici nel pool Front End, nel Front End Server o nel Director. Per informazioni dettagliate sul supporto dei certificati con caratteri jolly, vedere <a href="lync-server-2013-wildcard-certificate-support.md">Supporto dei certificati con caratteri jolly in Lync Server 2013</a>.
 
 Benché per i server interni sia consigliata un'autorità di certificazione (CA) globale (enterprise) interna, è inoltre possibile utilizzare una CA pubblica. Per l'elenco delle CA pubbliche che forniscono certificati conformi a requisiti specifici dei certificati per comunicazioni unificate e che hanno collaborato con Microsoft per garantire il funzionamento di tali certificati con la Configurazione guidata certificati di Lync Server, vedere l'articolo 929395 della Microsoft Knowledge Base, "Partner per certificati per comunicazioni unificate per Exchange Server e Communications Server" all'indirizzo [http://go.microsoft.com/fwlink/?linkid=202834\&clcid=0x410](http://go.microsoft.com/fwlink/?linkid=202834%26clcid=0x410).

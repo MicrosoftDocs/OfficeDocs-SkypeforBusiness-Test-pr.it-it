@@ -55,7 +55,7 @@ Per l'installazione dei database, **Install-CsDatabase** utilizza tre metodi pri
     Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
     ```
 
-    > [!tip]  
+    > [!TIP]  
     > Il parametro Report è facoltativo ma è utile per documentare il processo di installazione.
 
 4.  **Install-CsDatabase –DatabasePaths** supporta fino a sei parametri di percorso, ognuno dei quali definisce i percorsi per le unità definite nell'articolo relativo al posizionamento dei file di log e dei file di dati di SQL Server. In base alle regole logiche per la configurazione dei database definite in Lync Server 2013, le unità vengono suddivise in bucket di due, quattro o sei. A seconda della configurazione di SQL Server e del numero di bucket, sarà necessario specificare due, quattro o sei percorsi.
@@ -88,7 +88,7 @@ Per l'installazione dei database, **Install-CsDatabase** utilizza tre metodi pri
     -Report "C:\Logs\InstallDatabases.html"
     ```
     
-    > [!tip]  
+    > [!TIP]  
     > Il parametro Report è facoltativo ma è utile per documentare il processo di installazione.
 
 5.  Al termine dell'installazione dei database, chiudere Lync Server 2013 Management Shell.

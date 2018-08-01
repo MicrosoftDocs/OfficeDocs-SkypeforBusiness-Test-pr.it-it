@@ -47,13 +47,13 @@ Per informazioni dettagliate sulla creazione di criteri di archiviazione per ute
     
     4.  A seconda della proprietà utente selezionata, immettere i criteri da utilizzare per filtrare i risultati della ricerca digitandoli o facendo clic sulla freccia dell'elenco a discesa.
         
-        > [!tip]  
+        > [!TIP]  
         > Per aggiungere ulteriori clausole di ricerca alla query, fare clic su <strong>Aggiungi filtro</strong>.    
     5.  Fare clic su **Trova**.
 
 6.  Fare clic su un utente all'interno dei risultati della ricerca, fare clic su **Azione** e quindi fare clic su **Assegna criteri**.
     
-    > [!tip]  
+    > [!TIP]  
     > Se si desidera applicare gli stessi criteri di archiviazione a più utenti, selezionare più utenti all'interno dei risultati di ricerca, fare clic su <strong>Azioni</strong> e quindi su <strong>Assegna criteri</strong>.
 
 7.  In **Assegna criteri**, in **Criteri di archiviazione**, eseguire una delle operazioni seguenti:
@@ -67,7 +67,7 @@ Per informazioni dettagliate sulla creazione di criteri di archiviazione per ute
     
       - Fare clic sul nome di criteri di archiviazione per utente precedentemente definiti nella pagina **Criteri di archiviazione**.
         
-        > [!tip]  
+        > [!TIP]  
         > Per agevolare la scelta dei criteri da assegnare, fare clic su un nome di criteri e quindi fare clic su <strong>Visualizza</strong> per visualizzare i diritti utente e le autorizzazioni definiti nei criteri.
 
 8.  Al termine, fare clic su **OK**.

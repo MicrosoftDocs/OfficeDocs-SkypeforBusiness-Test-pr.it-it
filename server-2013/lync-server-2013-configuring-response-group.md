@@ -21,7 +21,7 @@ I componenti richiesti da Response Group vengono installati e abilitati automati
 
 In questa sezione viene illustrata la configurazione di Lync Server 2013Response Group. Si presuppone che siano state già lette le sezioni sulla pianificazione relative a Response Group e che sia stato distribuito un server Enterprise Edition o un server Standard Edition con VoIP aziendale.
 
-> [!tip]  
+> [!TIP]  
 > Per informazioni dettagliate sulla creazione di un Response Group tramite Lync Server Management Shell, incluso uno script di esempio, vedere &quot;Creazione del primo Response Group tramite Lync Server Management Shell&quot; all'indirizzo <a href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</a>.
 
 ## Argomenti della sezione

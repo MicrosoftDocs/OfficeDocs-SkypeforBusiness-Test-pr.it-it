@@ -23,7 +23,7 @@ Per creare un nuovo annuncio, è necessario eseguire la procedura seguente:
 
 3.  Eseguire il cmdlet **New-CsAnnouncement** per creare l'annuncio e assegnargli un nome. Eseguire questo passaggio per creare annunci con un messaggio audio o un messaggio di sintesi vocale (TTS) oppure senza alcun messaggio.
     
-    > [!tip]  
+    > [!TIP]  
     > È possibile creare un annuncio senza messaggio, ad esempio se si desidera trasferire le chiamate a una destinazione specifica senza riprodurre un messaggio.
 
 4.  Assegnare il nuovo annuncio a un intervallo di numeri della tabella di numeri non assegnati.

@@ -69,7 +69,7 @@ Se sono stati installati gli aggiornamenti cumulativi per Lync Server 2013 di fe
 
 
 
-> [!tip]  
+> [!TIP]  
 > La configurazione predefinita prevede l'indirizzamento di tutto il traffico dei client mobili attraverso il sito esterno. È possibile modificare le impostazioni in modo da restituire solo l'URL interno, se preferibile per requisiti specifici. Con questa configurazione, gli utenti possono utilizzare le applicazioni mobili di Lync sui propri dispositivi mobili solo quando si trovano all'interno della rete aziendale. Per supportare questa configurazione, si utilizza il cmdlet <strong>Set-CsMcxConfiguration</strong>.
 
 

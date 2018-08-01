@@ -24,7 +24,7 @@ Le ultime operazioni per la migrazione del gateway XMPP consistono nel configura
 
 1.  Nel server perimetrale fare clic su **Riesegui** nella Distribuzione guidata accanto a **Passaggio 3: Richiesta, installazione o assegnazione dei certificati** .
     
-    > [!tip]  
+    > [!TIP]  
     > Se si distribuisce il server perimetrale per la prima volta, sarà disponibile il pulsante Esegui anziché Riesegui.
 
 2.  Nella pagina **Attività certificato disponibili** fare clic su **Crea una nuova richiesta di certificato** .
@@ -55,7 +55,7 @@ Le ultime operazioni per la migrazione del gateway XMPP consistono nel configura
 
 12. Nella pagina **Configura nomi alternativi soggetto aggiuntivi** specificare eventuali nomi alternativi del soggetto aggiuntivi necessari.
     
-    > [!tip]  
+    > [!TIP]  
     > Se è installato il proxy XMPP, per impostazione predefinita le voci SAN vengono popolate con il nome di dominio, ad esempio contoso.com. Se sono necessarie ulteriori voci, aggiungerle in questo passaggio.
 
 13. Nella pagina **Riepilogo richiesta** esaminare le informazioni sul certificato da utilizzare per generare la richiesta.

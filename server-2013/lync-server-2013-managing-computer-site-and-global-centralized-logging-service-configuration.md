@@ -33,7 +33,7 @@ Esempio:
 
 Gli ambiti a livello di singolo computer possono essere definiti durante l'esecuzione di un comando [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) e [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) mediante il parametro –Computers. Il parametro –Computers accetta un elenco con valori separati da virgole di nomi di dominio completi dei computer di destinazione.
 
-> [!tip]  
+> [!TIP]  
 > È inoltre possibile definire –Pools e un elenco di valori separati da virgole di pool in cui si desidera eseguire i comandi di registrazione.
 
 Gli ambiti a livello di sito e globali sono definiti nei cmdlet **New-**, **Set-** e **Remove-** per il servizio di registrazione centralizzato. Negli esempi seguenti viene illustrato come impostare un ambito a livello di sito o globale.
