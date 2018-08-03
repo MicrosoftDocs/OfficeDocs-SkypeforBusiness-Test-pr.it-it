@@ -55,6 +55,7 @@ Quando si gestiscono temporaneamente certificati OAuthTokenIssuer, esistono dive
     
     > [!IMPORTANT]  
     > Per un pool di server perimetrali, è necessario avere effettuato la distribuzione e il provisioning di tutti i certificati AudioVideoAuthentication entro la data e l'ora definite dal parametro -EffectiveDate del primo certificato distribuito per evitare possibili interruzioni delle comunicazioni A/V a causa della scadenza di un certificato più vecchio prima del rinnovo di tutti i token client e consumer tramite il nuovo certificato.    
+    
     Comando Set-CsCertificate con i parametri -Roll e -EffectiveTime:
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>

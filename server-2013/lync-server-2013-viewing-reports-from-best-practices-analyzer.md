@@ -49,7 +49,7 @@ Per visualizzare i risultati delle analisi generate in precedenza attraverso lo 
         
 
         > [!NOTE]
-        > Best Practices Analyzer crea un elenco di file locali dalla cartella <EM>&lt;UnitàSistema&gt;</EM>\Documents and Settings\<EM>&lt;utente&gt;</EM>\Application Data\Microsoft\RtcBPA.
+        > Best Practices Analyzer crea un elenco di file locali dalla cartella <EM>&lt;UnitàSistema&gt;</EM>\Documents and Settings\\<EM>&lt;utente&gt;</EM>\Application Data\Microsoft\RtcBPA.
 
     
       - Per visualizzare rapporti dei risultati di un'analisi, memorizzati in un altro percorso, fare clic su **Importa analisi**, localizzare il file contenente i risultati dell'analisi, quindi fare clic su **Apri**.

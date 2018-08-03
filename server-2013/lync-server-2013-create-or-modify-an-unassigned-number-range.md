@@ -85,6 +85,7 @@ Per configurare gli intervalli di numeri non assegnati per l' applicazione Annun
     
     > [!TIP]  
     > Se vi sono intervalli che si sovrappongono e si desidera che gli intervalli vengano applicati in un ordine specifico, includere il parametro Priority. Alla chiamata verrà applicato l'intervallo con la priorità più alta.    
+   
     Nella riga di comando eseguire una delle operazioni seguenti:
     
       - Per creare un intervallo di numeri per un servizio Annuncio, eseguire quanto segue:

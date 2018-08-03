@@ -97,6 +97,7 @@ Utilizzare una delle procedure seguenti per creare o modificare un gruppo di age
         
         > [!IMPORTANT]  
         > Se si utilizza una lista di distribuzione di posta elettronica, le appartenenze nascoste o gli elenchi nascosti potrebbero diventare visibili per l'amministratore o gli utenti di Response Group.        
+        
         Per rendere visibili le appartenenze nascoste o gli elenchi nascosti, procedere nel modo seguente:
         
           - Se una lista di distribuzione è stata configurata in modo che l'appartenenza sia nascosta e che l'amministratore di Response Group assegni la lista di distribuzione all'elenco di agenti, gli utenti possono chiamare il gruppo per scoprirne i membri.

@@ -30,12 +30,10 @@ Questi passaggi sono pensati per consentite il ripristino della configurazione e
 1.  Cancellare tutti i server dall'elenco dei server attivi del server Chat persistente utilizzando il cmdlet `Set-CsPersistentChatActiveServer` da Lync Server Management Shell. Verrà così impedito a tutti i server Chat persistente di connettersi ai database mgc e mgccomp durante il failback.
     
     > [!IMPORTANT]  
-    > È necessario che SQL Server Agent sia in esecuzione nel server back-end di server Chat persistente secondario con un account privilegiato. In particolare, l'account deve disporre di:    <ul>    
-> 
-> <li><p>Accesso in lettura alla condivisione di rete in cui vengono posizionati i backup.</p></li>    
-> 
-> 
-> <li><p>Accesso in scrittura alla directory locale specifica in cui vengono copiati i backup.</p></li>    </ul>
+    > È necessario che SQL Server Agent sia in esecuzione nel server back-end di server Chat persistente secondario con un account privilegiato.   
+    > In particolare, l'account deve disporre di:    
+    > <ul><li><p>Accesso in lettura alla condivisione di rete in cui vengono posizionati i backup.</p></li>    
+    > <li><p>Accesso in scrittura alla directory locale specifica in cui vengono copiati i backup.</p></li>    </ul>
 
 
 2.  Disabilitare il mirroring nel database mgc di backup:

@@ -17,7 +17,7 @@ _**Ultima modifica dell'argomento:** 2012-11-01_
 
 Il servizio di registrazione centralizzato è controllato e configurato da impostazioni e parametri creati e utilizzati dal controller servizio di registrazione centralizzato (CLSController) per inviare comandi all'agente servizio di registrazione centralizzato (CLSAgent) del singolo computer. L'agente elabora i comandi che riceve e, in caso di un comando Start, utilizza la configurazione di scenari, provider, dimensione del log, durata della traccia e flag per iniziare a raccogliere i log di traccia in base alle informazioni di configurazione fornite.
 
-> [!IMPORATANT]  
+> [!IMPORTANT]  
 > Non tutti i cmdlet di Windows PowerShell elencati per il servizio di registrazione centralizzato sono concepiti per essere utilizzati con le distribuzioni locali di Lync Server 2013. Sebbene possa sembrare che funzionino, i cmdlet seguenti non sono progettati per funzionare con le distribuzioni locali di Lync Server 2013:
 > <ul><li><p><strong>Cmdlet CsClsRegion:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</a>.</p></li>
 > <li><p><strong>Cmdlet CsClsSearchTerm:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</a>.</p></li>
