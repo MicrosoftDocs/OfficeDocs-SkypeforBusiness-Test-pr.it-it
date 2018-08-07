@@ -56,7 +56,7 @@ Nel mirroring SQL è possibile configurare la topologia per il mirroring al mome
 
 
 > [!NOTE]
-> È necessario creare una condivisione file in cui scrivere i file mirror e concedere l'accesso in lettura/scrittura al servizio in vengono eseguiti SQL Server e SQL Agent. Se il servizio SQL Server viene eseguito all'interno del Servizio di rete, è possibile aggiungere &lt;Dominio&gt;\&lt;NOMESERVERSQL&gt;$ dell'SQL Server principale e dell'SQL Server mirror alle autorizzazioni di condivisione. Il simbolo $ è importante per indicare che si tratta di un account computer.
+> È necessario creare una condivisione file in cui scrivere i file mirror e concedere l'accesso in lettura/scrittura al servizio in vengono eseguiti SQL Server e SQL Agent. Se il servizio SQL Server viene eseguito all'interno del Servizio di rete, è possibile aggiungere &lt;Dominio&gt;\\&lt;NOMESERVERSQL&gt;$ dell'SQL Server principale e dell'SQL Server mirror alle autorizzazioni di condivisione. Il simbolo $ è importante per indicare che si tratta di un account computer.
 
 
 

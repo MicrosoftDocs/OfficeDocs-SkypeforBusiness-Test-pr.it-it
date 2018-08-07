@@ -41,6 +41,7 @@ Eseguire le operazioni seguenti per preparare correttamente i dati di origine pe
     
     > [!TIP]  
     > Qualsiasi modifica delle categorie, delle chat room o dei componenti aggiuntivi della distribuzione del server Chat persistente di Lync Server 2013 deve essere eseguita con il Pannello di controllo di Lync Server o i cmdlet di Windows PowerShell.    
+    
     Eseguire le operazioni seguenti per preparare il sistema legacy per la migrazione.
     
     1.  Il server Chat persistente supporta un livello singolo di categorie e non un insieme gerarchico complesso di categorie. Dopo la migrazione, ai nomi delle sottocategorie vengono anteposti i nomi completi delle categorie padre. È possibile semplificare la struttura di categorie esistente in modo che la struttura risultante soddisfi le proprie esigenze.

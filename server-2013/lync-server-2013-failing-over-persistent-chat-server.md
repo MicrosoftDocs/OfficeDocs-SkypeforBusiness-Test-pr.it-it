@@ -69,5 +69,6 @@ Il database di conformità Chat persistente (mgccomp) non viene sottoposto a fai
     
     > [!IMPORTANT]  
     > Tutti i server attivi devono essere collocati nello stesso centro dati del nuovo database primario oppure in un centro dati con una connessione a bassa latenza e con larghezza di banda elevata al database.    
+    
     A questo punto, il failover dal database primario del server Chat persistente al database di backup del server Chat persistente viene completato.
 

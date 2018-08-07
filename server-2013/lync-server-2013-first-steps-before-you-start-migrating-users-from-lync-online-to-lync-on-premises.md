@@ -38,9 +38,9 @@ Prima di iniziare a spostare gli utenti di Lync Online nell'ambiente locale, ver
     Import-PSSession $CSSession -AllowClobber
     ```
     
-    Per ulteriori informazioni su come stabilire una sessione remota di PowerShell con Skype for Business online, vedere [Connessione a Lync Online tramite Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
-    
-    Per ulteriori informazioni su come usare il modulo PowerShell di Skype for Business online, vedere [Uso di Windows PowerShell per gestire Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+  Per ulteriori informazioni su come stabilire una sessione remota di PowerShell con Skype for Business online, vedere [Connessione a Lync Online tramite Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+  
+  Per ulteriori informazioni su come usare il modulo PowerShell di Skype for Business online, vedere [Uso di Windows PowerShell per gestire Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
   - È necessario configurare Lync Online per lo spazio indirizzi SIP condiviso. A tale scopo, avviare una sessione remota di PowerShell con Lync Online. Quindi eseguire il seguente cmdlet:
     
