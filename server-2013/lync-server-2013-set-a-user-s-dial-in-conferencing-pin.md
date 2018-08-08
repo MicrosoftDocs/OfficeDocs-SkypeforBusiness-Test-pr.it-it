@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Impostare il PIN di conferenza telefonica con accesso esterno di un utente'
+title: "Lync Server 2013: Imposta PIN di conference call di un utente"
 TOCTitle: Impostare il PIN di conferenza telefonica con accesso esterno di un utente
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg520985(v=OCS.15)

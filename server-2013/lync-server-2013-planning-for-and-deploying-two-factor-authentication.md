@@ -1,6 +1,6 @@
 ﻿---
-title: Pianificazione e distribuzione dell'autenticazione a due fattori in Lync Server 2013
-TOCTitle: Pianificazione e distribuzione dell'autenticazione a due fattori in Lync Server 2013
+title: "Lync Server 2013: Pianifica/distribuisce l'autenticazione a due fattori"
+TOCTitle: "Lync Server 2013: Pianifica/distribuisce l'autenticazione a due fattori"
 ms:assetid: 442a88df-ebc2-4335-9c59-0ce1adc1471e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn308563(v=OCS.15)
 ms:contentKeyID: 56269900

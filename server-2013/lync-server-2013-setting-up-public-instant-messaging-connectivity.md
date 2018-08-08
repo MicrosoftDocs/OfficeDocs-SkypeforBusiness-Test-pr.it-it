@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione della connettività per la messaggistica istantanea pubblica'
+title: "Lync Server 2013: Configuraz. della connettività per messaggistica pubblica"
 TOCTitle: Configurazione della connettività per la messaggistica istantanea pubblica
 ms:assetid: 816dea2a-96fa-4a36-b6c2-a9402675868b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205041(v=OCS.15)

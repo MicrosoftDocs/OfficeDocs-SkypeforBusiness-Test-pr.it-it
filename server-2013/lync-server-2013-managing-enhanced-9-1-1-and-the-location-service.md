@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gestione dei servizi di emergenza avanzati e del servizio di posizione'
+title: "Lync Server 2013: Gestisce servizi di emerg. avanzati e servizi di posizione"
 TOCTitle: Gestione dei servizi di emergenza avanzati e del servizio di posizione
 ms:assetid: 307c5aeb-9917-46a2-a95d-de30dea27beb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688012(v=OCS.15)

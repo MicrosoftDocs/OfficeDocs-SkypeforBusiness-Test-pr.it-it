@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo di DNS - pool di server Director con scalabilità implementata, servizio di bilanciamento del carico'
+title: "#VALUE!"
 TOCTitle: Riepilogo di DNS - pool di server Director con scalabilità implementata, servizio di bilanciamento del carico hardware
 ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204655(v=OCS.15)

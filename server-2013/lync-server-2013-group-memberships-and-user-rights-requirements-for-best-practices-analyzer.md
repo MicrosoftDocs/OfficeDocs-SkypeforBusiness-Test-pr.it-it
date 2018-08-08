@@ -1,6 +1,6 @@
 ﻿---
-title: Requisiti di appartenenze ai gruppi e diritti utente per Best Practices Analyzer
-TOCTitle: Requisiti di appartenenze ai gruppi e diritti utente per Best Practices Analyzer
+title: "Lync Server 2013: Apparten. gruppi e diritti per Best Practices Analyzer"
+TOCTitle: "Lync Server 2013: Apparten. gruppi e diritti per Best Practices Analyzer"
 ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg591354(v=OCS.15)
 ms:contentKeyID: 49302511

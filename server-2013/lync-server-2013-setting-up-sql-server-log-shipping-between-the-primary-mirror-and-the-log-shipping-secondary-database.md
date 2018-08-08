@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione del log shipping di SQL Server tra il mirror primario e il database secondario di log shipping'
+title: "Lync Server 2013: Config. log shipping di SQL Server tra mirror prim. e datab. sec. di log shipping"
 TOCTitle: Configurazione del log shipping di SQL Server tra il mirror primario e il database secondario di log shipping
 ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204887(v=OCS.15)

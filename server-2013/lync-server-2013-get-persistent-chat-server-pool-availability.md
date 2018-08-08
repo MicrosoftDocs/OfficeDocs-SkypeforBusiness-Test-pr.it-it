@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Assicurare la disponibilità del pool di server Chat persistente'
+title: "Lync Server 2013: Assicura la disp. del pool di server Chat persistente"
 TOCTitle: Assicurare la disponibilità del pool di server Chat persistente
 ms:assetid: 61668ff9-1962-47e0-ac9f-a1272acf5372
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204950(v=OCS.15)

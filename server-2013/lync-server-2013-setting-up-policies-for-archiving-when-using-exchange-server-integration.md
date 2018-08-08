@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione dei criteri per l'archiviazione in caso di utilizzo dell'integrazione di Exchange Server
-TOCTitle: Configurazione dei criteri per l'archiviazione in caso di utilizzo dell'integrazione di Exchange Server
+title: "Lync Server 2013: Config. crit. per archiviaz. c/ integraz. di Exchange Server"
+TOCTitle: "Lync Server 2013: Config. crit. per archiviaz. c/ integraz. di Exchange Server"
 ms:assetid: 8b9b2bad-a4b3-42e1-85a7-04022e9442ad
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205063(v=OCS.15)
 ms:contentKeyID: 49301250

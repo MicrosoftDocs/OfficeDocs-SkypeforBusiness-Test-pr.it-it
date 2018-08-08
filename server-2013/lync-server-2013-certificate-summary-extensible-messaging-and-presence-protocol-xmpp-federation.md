@@ -1,6 +1,6 @@
 ﻿---
-title: Riepilogo dei certificati - federazione di XMPP (Extensible Messaging and Presence Protocol)
-TOCTitle: Riepilogo dei certificati - federazione di XMPP (Extensible Messaging and Presence Protocol)
+title: "#VALUE!"
+TOCTitle: "#VALUE!"
 ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ618374(v=OCS.15)
 ms:contentKeyID: 49301681

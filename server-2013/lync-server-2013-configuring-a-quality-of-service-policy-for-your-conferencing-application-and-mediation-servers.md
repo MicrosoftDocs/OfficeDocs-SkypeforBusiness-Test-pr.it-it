@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione dei criteri di Qualità del servizio (QoS) per server per conferenze, server applicazioni e Mediation Server'
+title: "Lync Server 2013: Configura criteri di Qualità del servizio per server per confer. e applicaz. e Mediation Server"
 TOCTitle: Configurazione dei criteri di Qualità del servizio (QoS) per server per conferenze, server applicazioni e Mediation Server
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205076(v=OCS.15)

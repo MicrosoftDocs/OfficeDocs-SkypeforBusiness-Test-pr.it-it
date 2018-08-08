@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Supporto per client e server per il routing in base alla posizione'
+title: "Lync Server 2013: Supporta client e server per routing in base alla posizione"
 TOCTitle: Supporto per client e server per il routing in base alla posizione
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994024(v=OCS.15)

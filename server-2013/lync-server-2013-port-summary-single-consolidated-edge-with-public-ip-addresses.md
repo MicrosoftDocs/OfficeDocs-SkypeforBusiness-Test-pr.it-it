@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo delle porte - singola topologia perimetrale consolidata con indirizzi IP pubblici'
+title: "Lync Server 2013: Porte: sing- topolog. perimetr. consolid. c/ indir. IP pubblici"
 TOCTitle: Riepilogo delle porte - singola topologia perimetrale consolidata con indirizzi IP pubblici
 ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204756(v=OCS.15)

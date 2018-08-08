@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo dei certificati - pool di server Director con scalabilità implementata, servizio di bilanciamento del carico hardware'
+title: "Lync Server 2013: Certif.: pool di Director c/ scalab. implem.,  bilanciam. carico hw"
 TOCTitle: Riepilogo dei certificati - pool di server Director con scalabilità implementata, servizio di bilanciamento del carico hardware
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204846(v=OCS.15)

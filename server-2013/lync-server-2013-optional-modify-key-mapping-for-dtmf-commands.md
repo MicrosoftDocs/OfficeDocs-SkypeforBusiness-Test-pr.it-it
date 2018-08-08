@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Facoltativo) Modificare il mapping dei tasti per i comandi DTMF'
+title: "Lync Server 2013: (Facolt.) Modifica il mapping dei tasti per i comandi DTMF"
 TOCTitle: (Facoltativo) Modificare il mapping dei tasti per i comandi DTMF
 ms:assetid: d753b78d-400c-4df2-957f-e7576b2019c2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398943(v=OCS.15)

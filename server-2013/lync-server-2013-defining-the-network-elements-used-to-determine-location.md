@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definizione degli elementi di rete utilizzati per determinare la posizione'
+title: "Lync Server 2013: Definisce elementi di rete usati per determinare posizione"
 TOCTitle: Definizione degli elementi di rete utilizzati per determinare la posizione
 ms:assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398567(v=OCS.15)

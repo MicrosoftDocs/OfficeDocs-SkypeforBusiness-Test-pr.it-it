@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione di Lync Server per il routing a un gateway SIP/CSTA'
+title: "Lync Server 2013: Configura LS per il routing a un gateway SIP/CSTA"
 TOCTitle: Configurazione di Lync Server 2013 per il routing a un gateway SIP/CSTA
 ms:assetid: d75e4cf6-7b36-430a-a91a-0f2559306ba1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg615038(v=OCS.15)

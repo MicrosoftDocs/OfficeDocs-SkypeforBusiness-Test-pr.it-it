@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Eseguire la migrazione degli utenti nell'archivio contatti unificato"
+title: "Lync Server 2013: Esegue migrazione utenti nell'archivio contatti unificato"
 TOCTitle: Eseguire la migrazione degli utenti nell'archivio contatti unificato
 ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204737(v=OCS.15)

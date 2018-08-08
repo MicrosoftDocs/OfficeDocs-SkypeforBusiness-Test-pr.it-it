@@ -1,5 +1,5 @@
 ﻿---
-title: Lync Server 2013 include nuove funzionalità di controllo di accesso basato sui ruoli
+title: "Lync Server 2013 include nuove funzioni di controllo accesso basato sui ruoli"
 TOCTitle: Nuove funzionalità di controllo di accesso basato sui ruoli
 ms:assetid: 22b4ac42-f234-4b86-bb0c-f20d476205fa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398297(v=OCS.15)

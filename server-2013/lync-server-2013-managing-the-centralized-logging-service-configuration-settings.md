@@ -1,6 +1,6 @@
 ﻿---
-title: Gestione delle impostazioni di configurazione del servizio di registrazione centralizzato tramite PowerShell
-TOCTitle: Gestione delle impostazioni di configurazione del servizio di registrazione centralizzato tramite PowerShell
+title: "Lync Server 2013: Gestisce configuraz. servizio registraz. centralizz. via PowerShell"
+TOCTitle: "Lync Server 2013: Gestisce configuraz. servizio registraz. centralizz. via PowerShell"
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49887826

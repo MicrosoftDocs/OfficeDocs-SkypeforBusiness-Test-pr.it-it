@@ -1,6 +1,6 @@
 ﻿---
-title: Creazione e configurazione dei criteri utente per l'archiviazione in Lync Server
-TOCTitle: Creazione e configurazione dei criteri utente per l'archiviazione in Lync Server
+title: "Lync Server 2013: Crea e configura criteri utente per archiviazione in LS"
+TOCTitle: "Lync Server 2013: Crea e configura criteri utente per archiviazione in LS"
 ms:assetid: 5af0e605-3563-4d6f-a3c6-511d204a3165
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204923(v=OCS.15)
 ms:contentKeyID: 49300679

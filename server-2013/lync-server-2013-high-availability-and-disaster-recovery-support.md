@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Supporto per la disponibilità elevata e il ripristino di emergenza'
+title: "Lync Server 2013: Supporta disponibilità elevata e ripristino di emergenza"
 TOCTitle: Supporto per la disponibilità elevata e il ripristino di emergenza
 ms:assetid: 47e77e85-c7c3-4ade-8db7-a34c71aeafd7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204866(v=OCS.15)

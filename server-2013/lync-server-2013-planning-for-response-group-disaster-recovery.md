@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pianificazione per il ripristino di emergenza dei Response Group'
+title: "Lync Server 2013: Pianifica il ripristino di emergenza dei Response Group"
 TOCTitle: Pianificazione per il ripristino di emergenza dei Response Group
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204699(v=OCS.15)

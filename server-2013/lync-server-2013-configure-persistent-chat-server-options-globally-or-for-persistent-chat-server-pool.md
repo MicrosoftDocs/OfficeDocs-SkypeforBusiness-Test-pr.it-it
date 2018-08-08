@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare le opzioni del server chat persistente a livello globale o per il pool di server chat persistente'
+title: "Lync Server 2013: Configura server Chat persist. globale o per pool di server"
 TOCTitle: Configurare le opzioni del server chat persistente a livello globale o per il pool di server chat persistente
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204731(v=OCS.15)

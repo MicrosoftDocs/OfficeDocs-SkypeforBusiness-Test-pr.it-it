@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Distribuzione di Survivable Branch Appliance o Survivable Branch Server - Attività presso il sito centrale'
+title: "Lync Server 2013: Assegna Survivable Branch Appliance o Server - sito centrale"
 TOCTitle: Distribuzione di Survivable Branch Appliance o Survivable Branch Server - Attività presso il sito centrale
 ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398189(v=OCS.15)

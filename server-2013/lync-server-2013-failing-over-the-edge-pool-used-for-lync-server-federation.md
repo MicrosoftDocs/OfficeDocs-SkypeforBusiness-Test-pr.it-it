@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Failover del pool di server perimetrali utilizzato per la federazione di Lync Server'
+title: "Lync Server 2013: Failover pool di server perimetr. usato per federaz di LS"
 TOCTitle: Failover del pool di server perimetrali utilizzato per la federazione di Lync Server
 ms:assetid: 5c9da0f2-7429-40bb-bb3c-5cc4ecb5a13d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688071(v=OCS.15)

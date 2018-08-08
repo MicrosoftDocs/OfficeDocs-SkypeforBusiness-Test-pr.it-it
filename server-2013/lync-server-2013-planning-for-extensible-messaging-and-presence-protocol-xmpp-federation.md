@@ -1,6 +1,6 @@
 ﻿---
-title: Pianificazione per la federazione di XMPP (Extensible Messaging and Presence Protocol) in Lync Server 2013
-TOCTitle: Pianificazione per la federazione di XMPP (Extensible Messaging and Presence Protocol) in Lync Server 2013
+title: "Lync Server 2013: Pianifica la federazione di XMPP in Lync Server 2013"
+TOCTitle: "Lync Server 2013: Pianifica la federazione di XMPP in Lync Server 2013"
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205107(v=OCS.15)
 ms:contentKeyID: 49301362

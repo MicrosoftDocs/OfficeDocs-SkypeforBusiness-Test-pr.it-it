@@ -1,6 +1,6 @@
 ﻿---
-title: Configurare le impostazioni globali di bypass multimediale per l'utilizzo delle informazioni del sito e dell'area geografica
-TOCTitle: Configurare le impostazioni globali di bypass multimediale per l'utilizzo delle informazioni del sito e dell'area geografica
+title: "Lync Server 2013: Conf. impost. glob. di bypass multim. per info su sito e area geog."
+TOCTitle: "Lync Server 2013: Conf. impost. glob. di bypass multim. per info su sito e area geog."
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398150(v=OCS.15)
 ms:contentKeyID: 49299623

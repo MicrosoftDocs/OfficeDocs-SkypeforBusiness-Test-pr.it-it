@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Esperienza del parcheggio di chiamata durante un errore del pool'
+title: "Lync Server 2013: Esperienza del parcheggio durante un errore del pool"
 TOCTitle: Esperienza del parcheggio di chiamata durante un errore del pool
 ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205383(v=OCS.15)

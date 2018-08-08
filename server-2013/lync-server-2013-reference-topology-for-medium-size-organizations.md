@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topologia di riferimento per le organizzazioni di medie dimensioni'
+title: "Lync Server 2013: Topologia di rif. per organizzazioni di medie dimensioni"
 TOCTitle: Topologia di riferimento per le organizzazioni di medie dimensioni
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425939(v=OCS.15)

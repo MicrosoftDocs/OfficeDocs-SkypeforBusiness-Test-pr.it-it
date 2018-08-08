@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Definire l'orario di ufficio dei Response Group (facoltativo)"
+title: "Lync Server 2013: Definisce orario ufficio dei Response Group (facoltativo)"
 TOCTitle: Definire l'orario di ufficio dei Response Group (facoltativo)
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205291(v=OCS.15)

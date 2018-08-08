@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Ereditarietà delle autorizzazioni disabilitata nei contenitori di oggetti Computer, User o InetOrgPerson'
+title: "Lync Server 2013: Disab. eredit. autorizz. in cont. ogg. PC, User o InetOrgPerson"
 TOCTitle: Ereditarietà delle autorizzazioni disabilitata nei contenitori di oggetti Computer, User o InetOrgPerson
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412970(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare un numero di accesso per una conferenza telefonica con accesso esterno
-TOCTitle: Eliminare un numero di accesso per una conferenza telefonica con accesso esterno
+title: "Lync Server 2013: Elimina numero accesso per conference call"
+TOCTitle: "Lync Server 2013: Elimina numero accesso per conference call"
 ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg520956(v=OCS.15)
 ms:contentKeyID: 49299826

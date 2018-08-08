@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Passaggi per la preparazione e la distribuzione di un ambiente ibrido di Lync Server'
+title: "Lync Server 2013: Passaggi per preparare e distribuire un ambiente ibrido LS"
 TOCTitle: Passaggi per la preparazione e la distribuzione di un ambiente ibrido di Lync Server 2013
 ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205157(v=OCS.15)

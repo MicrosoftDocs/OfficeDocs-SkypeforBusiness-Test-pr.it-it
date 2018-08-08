@@ -1,6 +1,6 @@
 ﻿---
-title: Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013
-TOCTitle: Gestione temporanea dei certificati AV e OAuth utilizzando -Roll in Set-CsCertificate in Lync Server 2013
+title: "Lync Server 2013: Gest. Temp. certificati AV e OAuth c/ -Roll in Set-CsCertificate"
+TOCTitle: "Lync Server 2013: Gest. Temp. certificati AV e OAuth c/ -Roll in Set-CsCertificate"
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ660292(v=OCS.15)
 ms:contentKeyID: 49887477

@@ -1,6 +1,6 @@
 ﻿---
-title: Contrassegnare un'applicazione MSPL (Microsoft SIP Processing Language) come critica o non critica
-TOCTitle: Contrassegnare un'applicazione MSPL (Microsoft SIP Processing Language) come critica o non critica
+title: "Lync Server 2013: Applicaz. MSPL (MS SIP Processing Language) critica o non critica"
+TOCTitle: "Lync Server 2013: Applicaz. MSPL (MS SIP Processing Language) critica o non critica"
 ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182598(v=OCS.15)
 ms:contentKeyID: 49302201

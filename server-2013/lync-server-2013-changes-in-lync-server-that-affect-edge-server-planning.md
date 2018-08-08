@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Modifiche introdotte in Lync Server che incidono sulla pianificazione dei server perimetrali'
+title: "Lync Server 2013: Modifiche in LS che limitano pianificaz. server perimetr."
 TOCTitle: Modifiche introdotte in Lync Server 2013 che incidono sulla pianificazione dei server perimetrali
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204965(v=OCS.15)

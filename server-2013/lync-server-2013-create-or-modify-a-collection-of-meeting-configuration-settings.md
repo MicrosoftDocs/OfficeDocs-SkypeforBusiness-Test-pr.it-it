@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare una raccolta di impostazioni di configurazione delle riunioni
-TOCTitle: Creare o modificare una raccolta di impostazioni di configurazione delle riunioni
+title: "Lync Server 2013: Crea/modifica impostazioni di configurazione delle riunioni"
+TOCTitle: "Lync Server 2013: Crea/modifica impostazioni di configurazione delle riunioni"
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ721889(v=OCS.15)
 ms:contentKeyID: 49887764

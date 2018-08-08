@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare le impostazioni di configurazione esistenti di Registrazione avanzata
-TOCTitle: Eliminare le impostazioni di configurazione esistenti di Registrazione avanzata
+title: "Lync Server 2013: Elimina configurazione di Registrazione avanzata"
+TOCTitle: "Lync Server 2013: Elimina configurazione di Registrazione avanzata"
 ms:assetid: ae43cd75-cae4-4f78-b037-779a2cdb583b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182571(v=OCS.15)
 ms:contentKeyID: 49301663

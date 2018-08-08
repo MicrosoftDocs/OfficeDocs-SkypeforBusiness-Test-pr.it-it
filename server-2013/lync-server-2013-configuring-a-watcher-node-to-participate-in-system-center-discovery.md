@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione di un nodo Watcher per la partecipazione all'individuazione di System Center
-TOCTitle: Configurazione di un nodo Watcher per la partecipazione all'individuazione di System Center
+title: "Lync Server 2013: Configura nodo Watcher per partecipare a individuaz. System Center"
+TOCTitle: "Lync Server 2013: Configura nodo Watcher per partecipare a individuaz. System Center"
 ms:assetid: 15c5dcfd-603b-47ea-af1b-8714c2ec08af
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204704(v=OCS.15)
 ms:contentKeyID: 49299786

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo delle porte - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware'
+title: "Lync Server 2013: Porte: topol. perim. consolid. c/ scalab. implem., bilanc. carico hw"
 TOCTitle: Riepilogo delle porte - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398739(v=OCS.15)

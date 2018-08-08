@@ -1,6 +1,6 @@
 ﻿---
-title: Creare un nuovo filtro URL per gestire i collegamenti ipertestuali nelle conversazioni istantanee
-TOCTitle: Creare un nuovo filtro URL per gestire i collegamenti ipertestuali nelle conversazioni istantanee
+title: "Lync Server 2013: Crea nuovo filtro URL per gestire hyperlink nelle conversaz"
+TOCTitle: "Lync Server 2013: Crea nuovo filtro URL per gestire hyperlink nelle conversaz"
 ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182590(v=OCS.15)
 ms:contentKeyID: 49302044

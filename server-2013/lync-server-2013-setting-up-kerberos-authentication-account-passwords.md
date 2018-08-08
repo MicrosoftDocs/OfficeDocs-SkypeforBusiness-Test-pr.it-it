@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione delle password degli account di autenticazione Kerberos'
+title: "Lync Server 2013: Configura password degli account di autenticaz. Kerberos"
 TOCTitle: Configurazione delle password degli account di autenticazione Kerberos
 ms:assetid: b435f88e-4a77-4be7-b7e5-c17484303b74
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412870(v=OCS.15)

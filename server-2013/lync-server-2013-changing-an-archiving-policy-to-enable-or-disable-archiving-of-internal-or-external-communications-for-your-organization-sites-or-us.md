@@ -1,6 +1,6 @@
 ﻿---
-title: Modifica di criteri di archiviazione per abilitare o disabilitare l'archiviazione delle comunicazioni interne o esterne per l'organizzazione, siti o utenti
-TOCTitle: Modifica di criteri di archiviazione per abilitare o disabilitare l'archiviazione delle comunicazioni interne o esterne per l'organizzazione, siti o utenti
+title: "Lync Server 2013: Abil./disabil. archiv. comunic. int./est. di azienda, siti, utenti"
+TOCTitle: "Lync Server 2013: Abil./disabil. archiv. comunic. int./est. di azienda, siti, utenti"
 ms:assetid: b85dc3fb-8ebd-4e3c-ac90-fc79270ac867
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182576(v=OCS.15)
 ms:contentKeyID: 49301769

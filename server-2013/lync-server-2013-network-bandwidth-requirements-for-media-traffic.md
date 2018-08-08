@@ -1,6 +1,6 @@
 ﻿---
-title: Requisiti di larghezza di banda di rete per il traffico multimediale in Lync Server 2013
-TOCTitle: Requisiti di larghezza di banda di rete per il traffico multimediale in Lync Server 2013
+title: "Lync Server 2013: Requisiti larghezza banda di rete per traffico multimed."
+TOCTitle: "Lync Server 2013: Requisiti larghezza banda di rete per traffico multimed."
 ms:assetid: 83e83b16-0f0e-4d87-901a-0faa4618cdc2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688118(v=OCS.15)
 ms:contentKeyID: 49887634

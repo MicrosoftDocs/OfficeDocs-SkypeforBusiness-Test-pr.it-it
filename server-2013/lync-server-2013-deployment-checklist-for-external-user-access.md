@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Elenco di controllo di distribuzione per l'accesso degli utenti esterni"
+title: "Lync Server 2013: Elenco controllo distribuzione per accesso utenti esterni"
 TOCTitle: Elenco di controllo di distribuzione per l'accesso degli utenti esterni
 ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425910(v=OCS.15)

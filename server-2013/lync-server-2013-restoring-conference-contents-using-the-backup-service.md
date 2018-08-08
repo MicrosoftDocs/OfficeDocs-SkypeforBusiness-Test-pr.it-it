@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Ripristino del contenuto delle conferenze tramite il servizio di backup'
+title: "Lync Server 2013: Ripristino del contenuto delle conferenze tramite backup"
 TOCTitle: Ripristino del contenuto delle conferenze tramite il servizio di backup
 ms:assetid: 3e0f18ec-7319-4c07-a59b-2938e7787bc9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688030(v=OCS.15)

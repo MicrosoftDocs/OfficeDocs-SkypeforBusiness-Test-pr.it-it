@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Distribuzione di Survivable Branch Appliance o Survivable Branch Server'
+title: "Lync Server 2013: Distribuisce Survivable Branch Appliance o Server"
 TOCTitle: Distribuzione di Survivable Branch Appliance o Survivable Branch Server
 ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398849(v=OCS.15)

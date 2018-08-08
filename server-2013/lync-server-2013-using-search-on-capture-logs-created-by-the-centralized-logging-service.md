@@ -1,6 +1,6 @@
 ﻿---
-title: Utilizzo della ricerca sui log di acquisizione creati dal servizio di registrazione centralizzato
-TOCTitle: Utilizzo della ricerca sui log di acquisizione creati dal servizio di registrazione centralizzato
+title: "Lync Server 2013: Usa ric. su log di acquisiz. creati da serviz. di registraz. centr."
+TOCTitle: "Lync Server 2013: Usa ric. su log di acquisiz. creati da serviz. di registraz. centr."
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ687982(v=OCS.15)
 ms:contentKeyID: 49887463

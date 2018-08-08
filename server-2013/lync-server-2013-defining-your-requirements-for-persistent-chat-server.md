@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Definizione dei requisiti dell'organizzazione per il server Chat persistente"
+title: "Lync Server 2013: Definisce requisiti organizzaz. per server Chat persistente"
 TOCTitle: Definizione dei requisiti dell'organizzazione per il server Chat persistente
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398372(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Facoltativo) Verificare la distribuzione del parcheggio di chiamata'
+title: "Lync Server 2013: (Facolt.) Verifica. distribuzione del parcheggio"
 TOCTitle: (Facoltativo) Verificare la distribuzione del parcheggio di chiamata
 ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg413076(v=OCS.15)

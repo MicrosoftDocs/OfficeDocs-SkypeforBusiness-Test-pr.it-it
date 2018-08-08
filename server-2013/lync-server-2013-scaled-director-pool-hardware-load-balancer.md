@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pool di server Director con scalabilità implementata, servizio di bilanciamento del carico hardware'
+title: "Lync Server 2013: Pool di Director c/ scalabilità e bilanciam. carico hw"
 TOCTitle: Pool di server Director con scalabilità implementata, servizio di bilanciamento del carico hardware
 ms:assetid: cf34759a-b384-479c-855f-ea5e80a234b6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205316(v=OCS.15)

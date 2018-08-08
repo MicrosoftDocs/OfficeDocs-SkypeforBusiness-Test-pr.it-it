@@ -1,6 +1,6 @@
 ﻿---
-title: Eseguire la compatibilità con le versioni precedenti per il server Chat persistente
-TOCTitle: Eseguire la compatibilità con le versioni precedenti per il server Chat persistente
+title: "Lync Server 2013: Cerifica compatib. c/ versioni preced. per server Chat persist."
+TOCTitle: "Lync Server 2013: Cerifica compatib. c/ versioni preced. per server Chat persist."
 ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204901(v=OCS.15)
 ms:contentKeyID: 49300611

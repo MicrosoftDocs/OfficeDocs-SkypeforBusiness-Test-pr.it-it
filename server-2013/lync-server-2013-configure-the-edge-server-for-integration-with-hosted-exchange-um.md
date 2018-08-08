@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurare il server perimetrale per l'integrazione con la messaggistica unificata di Exchange ospitata"
+title: "Lync Server 2013: Config. server perimetr. per integr. con messagg. di Exchange osp."
 TOCTitle: Configurare il server perimetrale per l'integrazione con la messaggistica unificata di Exchange ospitata
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg399075(v=OCS.15)

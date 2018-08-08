@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione della messaggistica unificata di Microsoft Exchange Server 2013 per la segreteria telefonica di Microsoft Lync Server 2013
-TOCTitle: Configurazione della messaggistica unificata di Microsoft Exchange Server 2013 per la segreteria telefonica di Microsoft Lync Server 2013
+title: "Lync Server 2013: Config. Messagg. MS Exchange Server 2013 per segret. telef. di MS LS 2013"
+TOCTitle: "Lync Server 2013: Config. Messagg. MS Exchange Server 2013 per segret. telef. di MS LS 2013"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49887466

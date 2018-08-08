@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Preparazione dell'installazione dei server nella rete perimetrale"
+title: "Lync Server 2013: Prepara installazione server nella rete perimetrale"
 TOCTitle: Preparazione dell'installazione dei server nella rete perimetrale
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398416(v=OCS.15)

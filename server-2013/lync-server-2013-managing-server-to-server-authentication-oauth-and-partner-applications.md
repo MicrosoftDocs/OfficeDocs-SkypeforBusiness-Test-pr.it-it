@@ -1,6 +1,6 @@
 ﻿---
-title: Gestione dell'autenticazione da server a server (Oauth) e applicazioni partner in Lync Server 2013
-TOCTitle: Gestione dell'autenticazione da server a server (Oauth) e applicazioni partner in Lync Server 2013
+title: "Lync Server 2013: Gestisce autenticaz. server-server (OAuth) e app partner"
+TOCTitle: "Lync Server 2013: Gestisce autenticaz. server-server (OAuth) e app partner"
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204817(v=OCS.15)
 ms:contentKeyID: 49300208

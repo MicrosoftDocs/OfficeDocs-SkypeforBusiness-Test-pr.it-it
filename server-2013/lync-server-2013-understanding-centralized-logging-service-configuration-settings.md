@@ -1,6 +1,6 @@
 ﻿---
-title: Informazioni sulle impostazioni di configurazione del servizio di registrazione centralizzato
-TOCTitle: Informazioni sulle impostazioni di configurazione del servizio di registrazione centralizzato
+title: "Lync Server 2013: Info configurazione del servizio registraz. centralizzato"
+TOCTitle: "Lync Server 2013: Info configurazione del servizio registraz. centralizzato"
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688029(v=OCS.15)
 ms:contentKeyID: 49887523

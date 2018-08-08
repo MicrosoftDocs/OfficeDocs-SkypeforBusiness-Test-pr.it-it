@@ -1,5 +1,5 @@
 ﻿---
-title: Autorizzare la connessione al server perimetrale di Office Communications Server 2007 R2
+title: "Lync Server 2013: Autoriz. conn. a server perim. di Office Communications Server 2007 R2"
 TOCTitle: Autorizzare la connessione al server perimetrale di Office Communications Server 2007 R2
 ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204702(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Visualizzazione delle informazioni sugli account utente abilitati per Lync Server 2013
-TOCTitle: Visualizzazione delle informazioni sugli account utente abilitati per Lync Server 2013
+title: "Lync Server 2013: Visualizza info sugli account utente abilitati per LS 2013"
+TOCTitle: "Lync Server 2013: Visualizza info sugli account utente abilitati per LS 2013"
 ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ687980(v=OCS.15)
 ms:contentKeyID: 49887460

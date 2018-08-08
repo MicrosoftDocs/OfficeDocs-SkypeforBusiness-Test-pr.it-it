@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pianificazione della resilienza vocale del sito di succursale'
+title: "Lync Server 2013: Pianifica la resilienza vocale del sito di succursale"
 TOCTitle: Pianificazione della resilienza vocale del sito di succursale
 ms:assetid: 67713f57-3ded-4127-ac37-57d8099bf384
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398477(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare una route statica per il controllo delle chiamate remote'
+title: "Lync Server 2013: Configura una route statica per controllo chiamate remote"
 TOCTitle: Configurare una route statica per il controllo delle chiamate remote
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg615051(v=OCS.15)

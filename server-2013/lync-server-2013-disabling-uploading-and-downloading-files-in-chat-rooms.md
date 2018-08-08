@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Disabilitazione del caricamento e del download di file nelle chat room'
+title: "Lync Server 2013: Disabilita upload e download di file nelle chat room"
 TOCTitle: Disabilitazione del caricamento e del download di file nelle chat room
 ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ215882(v=OCS.15)

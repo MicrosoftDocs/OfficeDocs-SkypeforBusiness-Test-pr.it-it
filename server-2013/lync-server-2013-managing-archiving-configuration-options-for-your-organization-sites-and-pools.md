@@ -1,6 +1,6 @@
 ﻿---
-title: Gestione delle opzioni di configurazione dell'archiviazione per l'organizzazione, i siti e i pool in Lync Server 2013
-TOCTitle: Gestione delle opzioni di configurazione dell'archiviazione per l'organizzazione, i siti e i pool in Lync Server 2013
+title: "Lync Server 2013: Gestisce opz. di config. dell'archiviaz. per az., siti e pool"
+TOCTitle: "Lync Server 2013: Gestisce opz. di config. dell'archiviaz. per az., siti e pool"
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204802(v=OCS.15)
 ms:contentKeyID: 49300209

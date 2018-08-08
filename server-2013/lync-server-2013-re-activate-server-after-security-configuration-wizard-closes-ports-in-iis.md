@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riattivare il server dopo la chiusura delle porte in IIS da parte della Configurazione guidata impostazioni di sicurezza'
+title: "Lync Server 2013: Riattiva server dopo chius. porte in IIS da Config. guidata impost. di sic."
 TOCTitle: Riattivare il server dopo la chiusura delle porte in IIS da parte della Configurazione guidata impostazioni di sicurezza
 ms:assetid: cb8e17cf-f8c1-4099-b63b-c242d656c26a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398851(v=OCS.15)

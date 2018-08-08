@@ -1,6 +1,6 @@
 ﻿---
-title: Spostare il server di gestione centrale di Lync Server 2010 in Lync Server 2013
-TOCTitle: Spostare il server di gestione centrale di Lync Server 2010 in Lync Server 2013
+title: "Sposta server di gestione centrale di Lync Server 2010 in Lync Server 2013"
+TOCTitle: "Sposta server di gestione centrale di Lync Server 2010 in Lync Server 2013"
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688013(v=OCS.15)
 ms:contentKeyID: 49887504

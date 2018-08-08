@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Creare o modificare le impostazioni del PIN di conferenza telefonica con accesso esterno per un sito o un gruppo di utenti'
+title: "Lync Server 2013: Crea/modif. impostaz. PIN di conference call per sito o gr. utenti"
 TOCTitle: Creare o modificare le impostazioni del PIN di conferenza telefonica con accesso esterno per un sito o un gruppo di utenti
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412959(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Guida di riferimento alle impostazioni dei criteri di conferenza di Lync Server 2013
-TOCTitle: Guida di riferimento alle impostazioni dei criteri di conferenza di Lync Server 2013
+title: "Lync Server 2013: Guida alle impostazioni dei criteri di conferenza"
+TOCTitle: "Lync Server 2013: Guida alle impostazioni dei criteri di conferenza"
 ms:assetid: ec8125f7-ef78-4a2b-8db0-4dd3cf5a4065
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg429724(v=OCS.15)
 ms:contentKeyID: 49302362

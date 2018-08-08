@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Pianificazione e distribuzione dell'archivio contatti unificato"
+title: "Lync Server 2013: Pianifica e distribuisce archivio contatti unificato"
 TOCTitle: Pianificazione e distribuzione dell'archivio contatti unificato
 ms:assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205283(v=OCS.15)

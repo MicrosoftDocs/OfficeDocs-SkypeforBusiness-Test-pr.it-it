@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definire e configurare una topologia in Generatore di topologie'
+title: "Lync Server 2013: Definisce e configura topologie in Generatore di topologie"
 TOCTitle: Definire e configurare una topologia in Generatore di topologie
 ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398788(v=OCS.15)

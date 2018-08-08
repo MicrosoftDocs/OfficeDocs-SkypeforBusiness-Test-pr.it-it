@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare una voce applicazione attendibile per il controllo delle chiamate remote'
+title: "Lync Server 2013: Configura voce applicaz. fidata per controllo chiam. remote"
 TOCTitle: Configurare una voce applicazione attendibile per il controllo delle chiamate remote
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg558636(v=OCS.15)

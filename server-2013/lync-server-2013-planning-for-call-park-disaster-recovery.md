@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pianificazione per il ripristino di emergenza del parcheggio di chiamata'
+title: "Lync Server 2013: Pianifica ripristino di emergenza del parcheggio"
 TOCTitle: Pianificazione per il ripristino di emergenza del parcheggio di chiamata
 ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205395(v=OCS.15)

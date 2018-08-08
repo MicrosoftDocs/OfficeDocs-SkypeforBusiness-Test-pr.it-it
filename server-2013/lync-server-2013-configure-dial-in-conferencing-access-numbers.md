@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare i numeri di accesso per le conferenze telefoniche con accesso esterno'
+title: "Lync Server 2013: Configura num. di accesso per conference call"
 TOCTitle: Configurare i numeri di accesso per le conferenze telefoniche con accesso esterno
 ms:assetid: d8a18030-f318-43dd-834d-70e5014b5e8a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398952(v=OCS.15)

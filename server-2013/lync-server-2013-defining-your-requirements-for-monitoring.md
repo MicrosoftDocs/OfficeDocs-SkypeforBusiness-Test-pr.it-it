@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Definizione dei requisiti dell'organizzazione per il monitoraggio"
+title: "Lync Server 2013: Definisce requisiti dell'organizzazione per il monitoraggio"
 TOCTitle: Definizione dei requisiti dell'organizzazione per il monitoraggio
 ms:assetid: d587ff04-9af6-4ac1-ad42-076e7a40ac75
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205284(v=OCS.15)

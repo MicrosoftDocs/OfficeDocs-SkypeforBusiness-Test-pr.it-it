@@ -1,6 +1,6 @@
 ﻿---
-title: Modificare le impostazioni di configurazione esistenti di Registrazione avanzata
-TOCTitle: Modificare le impostazioni di configurazione esistenti di Registrazione avanzata
+title: "Lync Server 2013: Modifica configurazione di Registrazione avanzata"
+TOCTitle: "Lync Server 2013: Modifica configurazione di Registrazione avanzata"
 ms:assetid: a8931511-3e66-49ed-a3ec-03bcd61ce1f0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182566(v=OCS.15)
 ms:contentKeyID: 49301590

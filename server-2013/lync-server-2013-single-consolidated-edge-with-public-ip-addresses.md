@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Singola topologia perimetrale consolidata con indirizzi IP pubblici'
+title: "Lync Server 2013: Singola topologia perimetr. consolid. c/ indir. IP pubblici"
 TOCTitle: Singola topologia perimetrale consolidata con indirizzi IP pubblici
 ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205148(v=OCS.15)

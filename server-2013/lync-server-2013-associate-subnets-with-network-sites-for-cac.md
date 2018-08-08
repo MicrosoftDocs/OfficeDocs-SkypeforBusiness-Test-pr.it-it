@@ -1,6 +1,6 @@
 ﻿---
-title: Associare subnet a siti di rete per il servizio Controllo di ammissione di chiamata
-TOCTitle: Associare subnet a siti di rete per il servizio Controllo di ammissione di chiamata
+title: "Lync Server 2013: Associa subnet a siti di rete per CAC"
+TOCTitle: "Lync Server 2013: Associa subnet a siti di rete per CAC"
 ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412786(v=OCS.15)
 ms:contentKeyID: 49301577

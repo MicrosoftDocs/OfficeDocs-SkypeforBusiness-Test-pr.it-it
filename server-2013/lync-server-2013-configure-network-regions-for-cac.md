@@ -1,6 +1,6 @@
 ﻿---
-title: Configurare le aree di rete per il servizio Controllo di ammissione di chiamata
-TOCTitle: Configurare le aree di rete per il servizio Controllo di ammissione di chiamata
+title: "Lync Server 2013: Configura aree di rete per il servizio CAC"
+TOCTitle: "Lync Server 2013: Configura aree di rete per il servizio CAC"
 ms:assetid: ea3ff988-dd5a-4bc4-bec5-39a0fb09793a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg399051(v=OCS.15)
 ms:contentKeyID: 49302366

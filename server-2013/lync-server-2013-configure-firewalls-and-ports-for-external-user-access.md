@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurare firewall e porte per l'accesso degli utenti esterni"
+title: "Lync Server 2013: Configura firewall e porte per l'accesso utenti esterni"
 TOCTitle: Configurare firewall e porte per l'accesso degli utenti esterni
 ms:assetid: cacb3832-f8db-4009-bfcf-6f5c15c236ed
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398848(v=OCS.15)

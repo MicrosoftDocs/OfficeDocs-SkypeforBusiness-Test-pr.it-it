@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Facoltativo) Verificare le conferenze telefoniche con accesso esterno'
+title: "Lync Server 2013: (Facolt.) Verifica teleconferenze con accesso esterno"
 TOCTitle: (Facoltativo) Verificare le conferenze telefoniche con accesso esterno
 ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425905(v=OCS.15)

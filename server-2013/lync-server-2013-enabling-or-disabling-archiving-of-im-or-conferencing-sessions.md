@@ -1,6 +1,6 @@
 ﻿---
-title: Abilitazione o disabilitazione dell'archiviazione delle sessioni di messaggistica istantanea e di conferenza
-TOCTitle: Abilitazione o disabilitazione dell'archiviazione delle sessioni di messaggistica istantanea e di conferenza
+title: "Lync Server 2013: Abilita/disab. archiviaz. sessioni di mess. e conferenza"
+TOCTitle: "Lync Server 2013: Abilita/disab. archiviaz. sessioni di mess. e conferenza"
 ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182567(v=OCS.15)
 ms:contentKeyID: 49301613

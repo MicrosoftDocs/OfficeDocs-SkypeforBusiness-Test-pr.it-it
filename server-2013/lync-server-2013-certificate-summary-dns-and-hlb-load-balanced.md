@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo dei certificati - bilanciamento del carico DNS e bilanciamento del carico hardware'
+title: "Lync Server 2013: Certificati: bilanciam. carico DNS e carico hw"
 TOCTitle: Riepilogo dei certificati - bilanciamento del carico DNS e bilanciamento del carico hardware
 ms:assetid: 8318a1a4-b423-47b7-95e6-9541adfad391
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205047(v=OCS.15)

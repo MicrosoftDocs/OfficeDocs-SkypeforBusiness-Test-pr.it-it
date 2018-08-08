@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare una raccolta esistente di impostazioni di configurazione di Lync Phone Edition
-TOCTitle: Eliminare una raccolta esistente di impostazioni di configurazione di Lync Phone Edition
+title: "Lync Server 2013: Elimina configurazione di Lync Phone Edition"
+TOCTitle: "Lync Server 2013: Elimina configurazione di Lync Phone Edition"
 ms:assetid: 1bfc427d-4dcd-4199-b25f-8d5cfec2164f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ687984(v=OCS.15)
 ms:contentKeyID: 49887464

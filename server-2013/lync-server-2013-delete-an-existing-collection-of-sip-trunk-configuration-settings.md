@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare una raccolta esistente di impostazioni di configurazione di trunk SIP
-TOCTitle: Eliminare una raccolta esistente di impostazioni di configurazione di trunk SIP
+title: "Lync Server 2013: Elimina impostazioni di configurazione di trunk SIP"
+TOCTitle: "Lync Server 2013: Elimina impostazioni di configurazione di trunk SIP"
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688024(v=OCS.15)
 ms:contentKeyID: 49887522

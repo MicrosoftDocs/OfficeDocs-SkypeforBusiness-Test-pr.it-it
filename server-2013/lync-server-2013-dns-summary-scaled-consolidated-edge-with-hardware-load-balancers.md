@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo di DNS - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware'
+title: "Lync Server 2013: DNS: topol. perim. consolid. c/ scalab. impl. e bilanc. carico hw"
 TOCTitle: Riepilogo di DNS - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398670(v=OCS.15)

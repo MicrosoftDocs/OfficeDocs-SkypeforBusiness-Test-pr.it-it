@@ -1,6 +1,6 @@
 ﻿---
-title: Visualizzare lo stato dei servizi in esecuzione in un computer in Lync Server 2013
-TOCTitle: Visualizzare lo stato dei servizi in esecuzione in un computer in Lync Server 2013
+title: "Lync Server 2013: Visualizza stato dei servizi in esecuzione in un computer"
+TOCTitle: "Lync Server 2013: Visualizza stato dei servizi in esecuzione in un computer"
 ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182606(v=OCS.15)
 ms:contentKeyID: 49302471

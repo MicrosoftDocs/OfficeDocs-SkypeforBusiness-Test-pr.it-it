@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Eseguire, concedere, ottenere, rimuovere o impostare criteri di Chat persistente'
+title: "Lync Server 2013: Esegue, concede, ottiene, rimuove, imp. crit. di Chat persist."
 TOCTitle: Eseguire, concedere, ottenere, rimuovere o impostare criteri di Chat persistente
 ms:assetid: 39ccdbe8-fb3d-47bc-96e2-9486b6d317e0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204810(v=OCS.15)

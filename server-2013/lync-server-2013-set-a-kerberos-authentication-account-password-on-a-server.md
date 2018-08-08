@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Impostare la password di un account di autenticazione Kerberos in un server'
+title: "Lync Server 2013: Imposta la password di un account Kerberos in un server"
 TOCTitle: Impostare la password di un account di autenticazione Kerberos in un server
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398734(v=OCS.15)

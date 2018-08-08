@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Supporto dei browser per il Pannello di controllo di Lync Server'
+title: "Lync Server 2013: Supporta i browser per Pannello di controllo di Lync Server"
 TOCTitle: Supporto dei browser per il Pannello di controllo di Lync Server
 ms:assetid: 716829ec-f00c-4425-9fb6-0c4c4d4006e7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204993(v=OCS.15)

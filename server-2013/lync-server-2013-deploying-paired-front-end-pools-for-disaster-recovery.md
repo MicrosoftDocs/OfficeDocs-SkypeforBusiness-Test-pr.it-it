@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Distribuzione di pool Front End abbinati per il ripristino di emergenza'
+title: "Lync Server 2013: Distribuz. pool Front End abbinati per ripristino di emerg."
 TOCTitle: Distribuzione di pool Front End abbinati per il ripristino di emergenza
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204773(v=OCS.15)

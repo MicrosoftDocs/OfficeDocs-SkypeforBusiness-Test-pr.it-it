@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pianificazione del servizio Controllo di ammissione di chiamata'
+title: "Lync Server 2013: Pianifica servizio Controllo di ammissione di chiamata"
 TOCTitle: Pianificazione del servizio Controllo di ammissione di chiamata
 ms:assetid: ca367138-adf5-4119-bc40-5ddf335ed22f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398842(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione di criteri vocali e record utilizzo PSTN per autorizzare privilegi e funzionalità di chiamata'
+title: "Lync Server 2013: Config. Crit. vocali e reg. PSTN per priv. e funz. di chiam."
 TOCTitle: Configurazione di criteri vocali e record utilizzo PSTN per autorizzare privilegi e funzionalità di chiamata
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398450(v=OCS.15)

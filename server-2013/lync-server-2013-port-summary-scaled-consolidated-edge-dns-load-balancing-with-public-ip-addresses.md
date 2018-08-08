@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo delle porte - topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici'
+title: "Lync Server 2013: Porte: topolog. perimetr. consolid. c/ scalab. implem., bilanciam. carico DNS c/ indir. IP pubblici"
 TOCTitle: Riepilogo delle porte - topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici
 ms:assetid: f7cbd0f1-841d-4116-8d17-e9d991daa4a8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205394(v=OCS.15)

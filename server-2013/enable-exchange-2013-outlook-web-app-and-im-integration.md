@@ -1,6 +1,6 @@
 ﻿---
-title: Abilitare l'integrazione di Exchange 2013 Outlook Web App e della messaggistica istantanea
-TOCTitle: Abilitare l'integrazione di Exchange 2013 Outlook Web App e della messaggistica istantanea
+title: "Abilita l'integrazione di Exchange 2013 Outlook Web App e della messaggistica"
+TOCTitle: "Abilita l'integrazione di Exchange 2013 Outlook Web App e della messaggistica"
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204857(v=OCS.15)
 ms:contentKeyID: 49300371

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Elenco di controllo di distribuzione per il server Chat persistente'
+title: "Lync Server 2013: Elenco controllo di distribuz. per server Chat persistente"
 TOCTitle: Elenco di controllo di distribuzione per il server Chat persistente
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412851(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Visualizzazione delle informazioni sul profilo dei criteri di larghezza di banda della rete
-TOCTitle: Visualizzazione delle informazioni sul profilo dei criteri di larghezza di banda della rete
+title: "Lync Server 2013: Visualizza info profilo dei criteri di largh. banda rete"
+TOCTitle: "Lync Server 2013: Visualizza info profilo dei criteri di largh. banda rete"
 ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ721931(v=OCS.15)
 ms:contentKeyID: 49887814

@@ -1,6 +1,6 @@
 ﻿---
-title: Abilitare o disabilitare le conferenze telefoniche con accesso esterno per le riunioni
-TOCTitle: Abilitare o disabilitare le conferenze telefoniche con accesso esterno per le riunioni
+title: "Lync Server 2013: Abilita/disabilita teleconferenze riunioni c/accesso est."
+TOCTitle: "Lync Server 2013: Abilita/disabilita teleconferenze riunioni c/accesso est."
 ms:assetid: 418dcf2d-c8d6-4b2c-b1ab-8723c7ef53e0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688036(v=OCS.15)
 ms:contentKeyID: 49887535

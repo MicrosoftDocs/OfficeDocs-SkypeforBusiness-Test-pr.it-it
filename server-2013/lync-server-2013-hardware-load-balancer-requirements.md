@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Requisiti relativi al servizio di bilanciamento del carico hardware'
+title: "Lync Server 2013: Requisiti relativi al bilanciamento del carico hardware"
 TOCTitle: Requisiti relativi al servizio di bilanciamento del carico hardware
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ656815(v=OCS.15)

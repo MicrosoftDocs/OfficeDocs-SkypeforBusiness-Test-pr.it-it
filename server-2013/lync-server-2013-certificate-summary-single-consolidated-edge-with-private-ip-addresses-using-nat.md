@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo dei certificati - singola topologia perimetrale consolidata con indirizzi IP privati tramite NAT'
+title: "Lync Server 2013: Certif. - sing. topolog. perim. consolid. c/ indir. IP priv. via NAT"
 TOCTitle: Riepilogo dei certificati - singola topologia perimetrale consolidata con indirizzi IP privati tramite NAT
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398519(v=OCS.15)

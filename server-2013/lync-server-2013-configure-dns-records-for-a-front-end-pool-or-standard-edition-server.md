@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare record DNS per un pool Front End o un server Standard Edition'
+title: "Lync Server 2013: Configura registri DNS pool Front End o server Standard Ed."
 TOCTitle: Configurare record DNS per un pool Front End o un server Standard Edition
 ms:assetid: 02871f2f-6c99-49e6-b441-cd21b16d38ee
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398079(v=OCS.15)

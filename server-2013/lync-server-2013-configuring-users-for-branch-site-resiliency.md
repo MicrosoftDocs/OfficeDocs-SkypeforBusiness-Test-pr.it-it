@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione degli utenti per la resilienza dei siti di succursale'
+title: "Lync Server 2013: Configura utenti per la resilienza dei siti di succursale"
 TOCTitle: Configurazione degli utenti per la resilienza dei siti di succursale
 ms:assetid: 36752665-940b-46ed-b14c-324a3e9a05f9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425844(v=OCS.15)

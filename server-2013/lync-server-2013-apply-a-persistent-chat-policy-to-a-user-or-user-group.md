@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Applicare i criteri di Chat persistente a un utente o un gruppo di utenti'
+title: "Lync Server 2013: Applica criteri Chat persistente a utente o gruppo utenti"
 TOCTitle: Applicare i criteri di Chat persistente a un utente o un gruppo di utenti
 ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205038(v=OCS.15)

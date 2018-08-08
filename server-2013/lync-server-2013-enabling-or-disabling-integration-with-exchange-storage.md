@@ -1,6 +1,6 @@
 ﻿---
-title: Abilitazione o disabilitazione dell'integrazione con l'archiviazione di Exchange
-TOCTitle: Abilitazione o disabilitazione dell'integrazione con l'archiviazione di Exchange
+title: "Lync Server 2013: Abilita/disabilita integraz. con archiviazione di Exchange"
+TOCTitle: "Lync Server 2013: Abilita/disabilita integraz. con archiviazione di Exchange"
 ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205228(v=OCS.15)
 ms:contentKeyID: 49301871

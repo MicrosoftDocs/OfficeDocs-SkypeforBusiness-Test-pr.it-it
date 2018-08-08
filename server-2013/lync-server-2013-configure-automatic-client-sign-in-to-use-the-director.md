@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurare l'accesso automatico dei client per l'utilizzo del server Director"
+title: "Lync Server 2013: Configura accesso automatico client per utilizzo Director"
 TOCTitle: Configurare l'accesso automatico dei client per l'utilizzo del server Director
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398678(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare una raccolta di impostazioni di configurazione delle versioni client
-TOCTitle: Creare o modificare una raccolta di impostazioni di configurazione delle versioni client
+title: "Lync Server 2013: Crea/modifica configurazione delle versioni client"
+TOCTitle: "Lync Server 2013: Crea/modifica configurazione delle versioni client"
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 52062147

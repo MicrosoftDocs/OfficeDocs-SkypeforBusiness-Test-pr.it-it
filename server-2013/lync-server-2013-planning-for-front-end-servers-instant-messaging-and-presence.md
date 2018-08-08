@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pianificazione di Front End Server, messaggistica istantanea e presenza'
+title: "Lync Server 2013: Pianifica Front End Server, messaggistica e presenza"
 TOCTitle: Pianificazione di Front End Server, messaggistica istantanea e presenza
 ms:assetid: 8db94c64-61af-4093-ac47-85932d0eae9f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398714(v=OCS.15)

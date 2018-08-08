@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Funzionalità di gestione delle chiamate per il ripristino di emergenza'
+title: "Lync Server 2013: Funzioni di gestione chiamate per ripristino di emergenza"
 TOCTitle: Funzionalità di gestione delle chiamate per il ripristino di emergenza
 ms:assetid: effb75b4-499d-4414-a283-fffe165c26dd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ721935(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Utilizzo dei Management Pack di Lync Server 2010 in uno scenario di coesistenza
-TOCTitle: Utilizzo dei Management Pack di Lync Server 2010 in uno scenario di coesistenza
+title: "Lync Server 2013: Usa Management Pack di LS 2010 in scenario di coesistenza"
+TOCTitle: "Lync Server 2013: Usa Management Pack di LS 2010 in scenario di coesistenza"
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205078(v=OCS.15)
 ms:contentKeyID: 49301261

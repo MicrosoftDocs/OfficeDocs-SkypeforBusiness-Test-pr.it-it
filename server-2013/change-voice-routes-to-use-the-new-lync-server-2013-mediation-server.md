@@ -1,6 +1,6 @@
 ﻿---
-title: Modificare le route vocali per l'utilizzo del nuovo Lync Server 2013 Mediation Server
-TOCTitle: Modificare le route vocali per l'utilizzo del nuovo Lync Server 2013 Mediation Server
+title: "Lync Server 2013: Modifica route vocali per usare LS 2013 Mediation Server"
+TOCTitle: "Lync Server 2013: Modifica route vocali per usare LS 2013 Mediation Server"
 ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205162(v=OCS.15)
 ms:contentKeyID: 49301638

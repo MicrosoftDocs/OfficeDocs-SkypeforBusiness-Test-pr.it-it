@@ -1,6 +1,6 @@
 ﻿---
-title: Abilitare o disabilitare un'applicazione server MSPL (Microsoft SIP Processing Language)
-TOCTitle: Abilitare o disabilitare un'applicazione server MSPL (Microsoft SIP Processing Language)
+title: "Lync Server 2013: Abil./disab. appl. server MSPL (MS SIP Processing Language)"
+TOCTitle: "Lync Server 2013: Abil./disab. appl. server MSPL (MS SIP Processing Language)"
 ms:assetid: b20af38d-224a-4459-991d-0b7eabb3ca7c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182573(v=OCS.15)
 ms:contentKeyID: 49301699

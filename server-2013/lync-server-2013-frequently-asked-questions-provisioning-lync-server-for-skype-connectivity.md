@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Domande frequenti: provisioning della connettività Lync Server per Skype'
+title: "Lync Server 2013: FAQ: Provisioning della connettività Lync Server per Skype"
 TOCTitle: 'Domande frequenti: provisioning della connettività Lync Server per Skype'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn440172(v=OCS.15)

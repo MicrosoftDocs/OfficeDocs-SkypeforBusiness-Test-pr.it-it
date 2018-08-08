@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Abilitare o disabilitare l'individuazione dei partner della federazione"
+title: "Lync Server 2013: Abilita/disabilita individuazione dei partner della federaz."
 TOCTitle: Abilitare o disabilitare l'individuazione dei partner della federazione
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182550(v=OCS.15)

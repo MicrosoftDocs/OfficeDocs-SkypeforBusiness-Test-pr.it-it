@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Processo di distribuzione per l'integrazione della messaggistica unificata locale"
+title: "Lync Server 2013: Distribuzione per integraz. messaggistica unificata locale"
 TOCTitle: Processo di distribuzione per l'integrazione della messaggistica unificata locale con Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425737(v=OCS.15)

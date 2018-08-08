@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione del filtro per trasferimento di file e URL per la messaggistica istantanea in Lync Server 2013
-TOCTitle: Configurazione del filtro per trasferimento di file e URL per la messaggistica istantanea in Lync Server 2013
+title: "Lync Server 2013: Configura filtro per trasferim. file e URL per i messaggi"
+TOCTitle: "Lync Server 2013: Configura filtro per trasferim. file e URL per i messaggi"
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg520952(v=OCS.15)
 ms:contentKeyID: 49299715

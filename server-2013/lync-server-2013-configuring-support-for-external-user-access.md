@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurazione del supporto per l'accesso degli utenti esterni"
+title: "Lync Server 2013: Configura il supporto per accesso utenti esterni"
 TOCTitle: Configurazione del supporto per l'accesso degli utenti esterni
 ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg413051(v=OCS.15)

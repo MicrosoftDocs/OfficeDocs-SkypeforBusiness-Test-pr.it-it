@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare una raccolta esistente di impostazioni di configurazione di registrazione dettagli chiamata
-TOCTitle: Eliminare una raccolta esistente di impostazioni di configurazione di registrazione dettagli chiamata
+title: "Lync Server 2013: Elimina configurazione registri dettagli chiamata"
+TOCTitle: "Lync Server 2013: Elimina configurazione registri dettagli chiamata"
 ms:assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688128(v=OCS.15)
 ms:contentKeyID: 49887649

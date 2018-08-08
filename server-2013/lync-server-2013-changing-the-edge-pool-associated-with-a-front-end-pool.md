@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Modifica del pool di server perimetrali associato a un pool Front End'
+title: "Lync Server 2013: Modifica pool server perimetr. associato a pool Front End"
 TOCTitle: Modifica del pool di server perimetrali associato a un pool Front End
 ms:assetid: 369468c7-2c0b-48cc-bbc3-825dad7b85aa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688023(v=OCS.15)

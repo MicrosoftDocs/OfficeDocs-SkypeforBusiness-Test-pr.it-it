@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Progettare i flussi di chiamate del sistema IVR (Interactive Voice Response)'
+title: "Lync Server 2013: Progetta flussi di chiamate del sistema IVR"
 TOCTitle: Progettare i flussi di chiamate del sistema IVR (Interactive Voice Response)
 ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg413020(v=OCS.15)

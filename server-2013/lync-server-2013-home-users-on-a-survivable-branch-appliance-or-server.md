@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Ospitare utenti in Survivable Branch Appliance o Survivable Branch Server'
+title: "Lync Server 2013: Ospita utenti in Survivable Branch Appliance o Server"
 TOCTitle: Ospitare utenti in Survivable Branch Appliance o Survivable Branch Server
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg413066(v=OCS.15)

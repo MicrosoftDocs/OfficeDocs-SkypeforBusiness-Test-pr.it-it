@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Failover del pool di server perimetrali utilizzato per la federazione di XMPP'
+title: "Lync Server 2013: Failover pool server perimetrali usato per federaz. XMPP"
 TOCTitle: Failover del pool di server perimetrali utilizzato per la federazione di XMPP
 ms:assetid: 587e7829-a26b-46f8-8aad-b78a7b325b55
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688065(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare una raccolta esistente di impostazioni di configurazione di A/V Edge Server.
-TOCTitle: Eliminare una raccolta esistente di impostazioni di configurazione di A/V Edge Server.
+title: "Lync Server 2013: Elimina impostazioni di configurazione di A/V Edge Server."
+TOCTitle: "Lync Server 2013: Elimina impostazioni di configurazione di A/V Edge Server."
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688077(v=OCS.15)
 ms:contentKeyID: 49887588

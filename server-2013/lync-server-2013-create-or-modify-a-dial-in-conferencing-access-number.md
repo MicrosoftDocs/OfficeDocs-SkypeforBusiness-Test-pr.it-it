@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Creare o modificare un numero di accesso per una conferenza telefonica con accesso esterno'
+title: "Lync Server 2013: Crea/modifica numero di accesso per conference call"
 TOCTitle: Creare o modificare un numero di accesso per una conferenza telefonica con accesso esterno
 ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398126(v=OCS.15)

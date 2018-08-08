@@ -1,6 +1,6 @@
 ﻿---
-title: (Facoltativo) Verificare la distribuzione della risposta alle chiamate di gruppo
-TOCTitle: (Facoltativo) Verificare la distribuzione della risposta alle chiamate di gruppo
+title: "Lync Server 2013: (Facolt.) Verifica distribuz. della risp. a chiamate di gruppo"
+TOCTitle: "Lync Server 2013: (Facolt.) Verifica distribuz. della risp. a chiamate di gruppo"
 ms:assetid: 820890ea-5c3f-4488-b322-20ca6ddd4191
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ945639(v=OCS.15)
 ms:contentKeyID: 52062187

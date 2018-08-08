@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Reimpostare i criteri globali per l'accesso degli utenti esterni"
+title: "Lync Server 2013: Reimposta i criteri globali per l'accesso utenti esterni"
 TOCTitle: Reimpostare i criteri globali per l'accesso degli utenti esterni
 ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182545(v=OCS.15)

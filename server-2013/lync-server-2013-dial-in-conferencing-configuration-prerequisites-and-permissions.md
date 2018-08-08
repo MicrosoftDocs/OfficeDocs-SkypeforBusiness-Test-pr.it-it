@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Prerequisiti e autorizzazioni per la configurazione delle conferenze telefoniche con accesso esterno'
+title: "Lync Server 2013: Prerequisiti e autorizzaz. per configuraz. conference call"
 TOCTitle: Prerequisiti e autorizzazioni per la configurazione delle conferenze telefoniche con accesso esterno
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412865(v=OCS.15)

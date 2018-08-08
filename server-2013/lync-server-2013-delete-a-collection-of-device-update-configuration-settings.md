@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare una raccolta di impostazioni per la configurazione dell'aggiornamento dispositivi
-TOCTitle: Eliminare una raccolta di impostazioni per la configurazione dell'aggiornamento dispositivi
+title: "Lync Server 2013: Elimina configurazione aggiornamento dispositivi"
+TOCTitle: "Lync Server 2013: Elimina configurazione aggiornamento dispositivi"
 ms:assetid: 1a649136-34a9-42a7-a5b3-a78bbfe93f36
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994019(v=OCS.15)
 ms:contentKeyID: 52062104

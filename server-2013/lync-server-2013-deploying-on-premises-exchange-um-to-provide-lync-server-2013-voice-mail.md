@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Distribuzione della messaggistica unificata di Exchange in locale per fornire la funzionalità di segreteria telefonica di Lync Server 2013'
+title: "Lync Server 2013: Assegna mess. di Exchange in locale per segr. telef. di LS 2013"
 TOCTitle: Distribuzione della messaggistica unificata di Exchange in locale per fornire la funzionalità di segreteria telefonica di Lync Server 2013
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398768(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare un intervallo di numeri per la risposta alle chiamate di gruppo
-TOCTitle: Creare o modificare un intervallo di numeri per la risposta alle chiamate di gruppo
+title: "Lync Server 2013: Crea/modif. interv. di numeri per risp. a chiamate di gruppo"
+TOCTitle: "Lync Server 2013: Crea/modif. interv. di numeri per risp. a chiamate di gruppo"
 ms:assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ945627(v=OCS.15)
 ms:contentKeyID: 52062146

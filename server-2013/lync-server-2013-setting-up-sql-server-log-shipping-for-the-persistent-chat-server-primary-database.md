@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione del log shipping di SQL Server per il database primario del server chat persistente'
+title: "Lync Server 2013: Config. log shipping di SQL Server per datab. prim. server Chat persist."
 TOCTitle: Configurazione del log shipping di SQL Server per il database primario del server chat persistente
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204653(v=OCS.15)

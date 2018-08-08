@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Determinazione della modalità di distribuzione di Microsoft Lync'
+title: "Lync Server 2013: Determina la modalità di distribuzione di Microsoft Lync"
 TOCTitle: Determinazione della modalità di distribuzione di Microsoft Lync
 ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204979(v=OCS.15)

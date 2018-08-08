@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Procedure consigliate per il controllo di ammissione di chiamata'
+title: "Lync Server 2013: Procedure consigliate per controllo ammissione di chiamata"
 TOCTitle: Procedure consigliate per il controllo di ammissione di chiamata
 ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398770(v=OCS.15)

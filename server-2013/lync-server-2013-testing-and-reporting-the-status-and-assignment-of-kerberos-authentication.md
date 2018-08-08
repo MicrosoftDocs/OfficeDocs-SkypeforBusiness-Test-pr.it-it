@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Verifica e segnalazione dello stato e dell'assegnazione dell'autenticazione Kerberos"
+title: "Lync Server 2013: Verifica/segnala stato e assegnaz. di autenticaz. Kerberos"
 TOCTitle: Verifica e segnalazione dello stato e dell'assegnazione dell'autenticazione Kerberos
 ms:assetid: 86fc3407-1604-4230-ad04-99aaadcf4e07
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398683(v=OCS.15)

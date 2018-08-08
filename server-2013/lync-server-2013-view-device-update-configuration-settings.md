@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Visualizzare le impostazioni di configurazione di Aggiornamento dispositivi'
+title: "Lync Server 2013: Visualizza configurazione di Aggiornamento dispositivi"
 TOCTitle: Visualizzare le impostazioni di configurazione di Aggiornamento dispositivi
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994059(v=OCS.15)

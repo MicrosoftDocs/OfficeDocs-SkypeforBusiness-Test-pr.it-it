@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione degli utenti test e delle impostazioni di configurazione del nodo Watcher
-TOCTitle: Configurazione degli utenti test e delle impostazioni di configurazione del nodo Watcher
+title: "Lync Server 2013: Configuraz. utenti test e configurazione nodo Watcher"
+TOCTitle: "Lync Server 2013: Configuraz. utenti test e configurazione nodo Watcher"
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205152(v=OCS.15)
 ms:contentKeyID: 49301624

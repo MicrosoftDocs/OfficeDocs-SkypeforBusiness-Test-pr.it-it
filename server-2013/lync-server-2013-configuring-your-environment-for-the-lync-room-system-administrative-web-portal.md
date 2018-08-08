@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurazione dell'ambiente per il portale Web di amministrazione di Lync Room System"
+title: "Lync Server 2013: Config. Amb. per portale Web di ammin. di Lync Room System"
 TOCTitle: Configurazione dell'ambiente per il portale Web di amministrazione di Lync Room System
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn436325(v=OCS.15)

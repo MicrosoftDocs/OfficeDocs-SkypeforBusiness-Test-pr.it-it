@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Creare o modificare un intervallo di codici orbit del parcheggio di chiamata'
+title: "Lync Server 2013: Crea/modifica intervalli di codici orbit del parcheggio"
 TOCTitle: Creare o modificare un intervallo di codici orbit del parcheggio di chiamata
 ms:assetid: 549ec118-eee5-4333-9416-80929ec057e0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398361(v=OCS.15)

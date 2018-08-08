@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Backup del database di chat persistente e del database di conformità'
+title: "Lync Server 2013: Backup database di chat persistente e di conformità"
 TOCTitle: Backup del database di chat persistente e del database di conformità
 ms:assetid: 0950e1a9-5a53-4d4a-bf3a-e57ae1225b69
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ215872(v=OCS.15)

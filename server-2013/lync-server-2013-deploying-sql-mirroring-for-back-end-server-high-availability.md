@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Distribuzione del mirroring di SQL per la disponibilità elevata del server back-end'
+title: "Lync Server 2013: Assegna mirroring di SQL per disp. elevata server back-end"
 TOCTitle: Distribuzione del mirroring di SQL per la disponibilità elevata del server back-end
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204992(v=OCS.15)

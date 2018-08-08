@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo di DNS - bilanciamento del carico DNS e bilanciamento del carico hardware'
+title: "Lync Server 2013: DNS: bilanciamento carico DNS e carico hardware"
 TOCTitle: Riepilogo di DNS - bilanciamento del carico DNS e bilanciamento del carico hardware
 ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205273(v=OCS.15)

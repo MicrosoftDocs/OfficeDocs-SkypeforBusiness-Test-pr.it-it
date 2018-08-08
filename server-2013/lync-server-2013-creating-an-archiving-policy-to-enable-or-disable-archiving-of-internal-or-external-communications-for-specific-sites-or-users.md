@@ -1,6 +1,6 @@
 ﻿---
-title: Creazione di criteri di archiviazione per abilitare o disabilitare l'archiviazione delle comunicazioni interne o esterne per specifici siti o utenti
-TOCTitle: Creazione di criteri di archiviazione per abilitare o disabilitare l'archiviazione delle comunicazioni interne o esterne per specifici siti o utenti
+title: "Lync Server 2013: Criteri di archiviaz. per abilit./disabilit. archiviaz. delle comunicaz. int./est. per specifici siti o utenti"
+TOCTitle: "Lync Server 2013: Criteri di archiviaz. per abilit./disabilit. archiviaz. delle comunicaz. int./est. per specifici siti o utenti"
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398385(v=OCS.15)
 ms:contentKeyID: 49300610

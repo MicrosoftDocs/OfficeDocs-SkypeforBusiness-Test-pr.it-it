@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici'
+title: "Lync Server 2013: Topolog. perimetr. consolid. c/ scalab. implem. e bilanciam. carico DNS c/ indir. IP pubblici"
 TOCTitle: Topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici
 ms:assetid: 2b854f6d-3d3f-4961-a5f8-a03f47740df0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204761(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Caratteristiche e funzionalità di Front End Server, messaggistica istantanea e presenza'
+title: "Lync Server 2013: Aspetti e funzioni di Front End Server, messaggi e presenza"
 TOCTitle: Caratteristiche e funzionalità di Front End Server, messaggistica istantanea e presenza
 ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398109(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo dei certificati - singola topologia perimetrale consolidata con indirizzi IP pubblici'
+title: "Lync Server 2013: Certif.: sing. topolog. perimetr. consolid. c/ indir. IP pubblici"
 TOCTitle: Riepilogo dei certificati - singola topologia perimetrale consolidata con indirizzi IP pubblici
 ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204747(v=OCS.15)

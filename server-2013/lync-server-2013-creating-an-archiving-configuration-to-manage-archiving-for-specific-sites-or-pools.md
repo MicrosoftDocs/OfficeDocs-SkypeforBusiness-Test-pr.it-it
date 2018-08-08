@@ -1,6 +1,6 @@
 ﻿---
-title: Creazione di una configurazione dell'archiviazione per gestire l'archiviazione per specifici siti o pool
-TOCTitle: Creazione di una configurazione dell'archiviazione per gestire l'archiviazione per specifici siti o pool
+title: "Lync Server 2013: Crea config. archiviaz. per archiviaz. per specifici siti o pool"
+TOCTitle: "Lync Server 2013: Crea config. archiviaz. per archiviaz. per specifici siti o pool"
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205251(v=OCS.15)
 ms:contentKeyID: 49301898

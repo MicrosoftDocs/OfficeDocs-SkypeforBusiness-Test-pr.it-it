@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Reimpostazione o eliminazione dei criteri di accesso esterno degli utenti'
+title: "Lync Server 2013: Reimposta/elimina i criteri di accesso esterno degli utenti"
 TOCTitle: Reimpostazione o eliminazione dei criteri di accesso esterno degli utenti
 ms:assetid: 5f9b4528-f4f1-4d52-816d-156c3c7298ad
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg521003(v=OCS.15)

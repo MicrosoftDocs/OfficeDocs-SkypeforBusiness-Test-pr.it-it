@@ -1,6 +1,6 @@
 ﻿---
-title: Gestione della configurazione di computer, siti e servizio di registrazione centralizzato globale
-TOCTitle: Gestione della configurazione di computer, siti e servizio di registrazione centralizzato globale
+title: "Lync Server 2013: Gestisce configuraz. di PC, siti e registraz. centraliz. glob."
+TOCTitle: "Lync Server 2013: Gestisce configuraz. di PC, siti e registraz. centraliz. glob."
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688138(v=OCS.15)
 ms:contentKeyID: 49887662

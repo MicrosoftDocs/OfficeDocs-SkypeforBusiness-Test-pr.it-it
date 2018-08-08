@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Gestione della federazione e dell'accesso esterno a Lync Server 2013"
+title: "Lync Server 2013: Gestisce federazione e accesso esterno a Lync Server 2013"
 TOCTitle: Gestione della federazione e dell'accesso esterno a Lync Server 2013
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg520966(v=OCS.15)

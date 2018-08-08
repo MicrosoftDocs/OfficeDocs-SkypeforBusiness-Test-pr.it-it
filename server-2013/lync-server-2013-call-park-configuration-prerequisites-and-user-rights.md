@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Diritti utente e prerequisiti per la configurazione del parcheggio di chiamata'
+title: "Lync Server 2013: Diritti utente e prerequisiti per configuraz. parcheggio"
 TOCTitle: Diritti utente e prerequisiti per la configurazione del parcheggio di chiamata
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425730(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Architettura e routing della messaggistica unificata di Exchange ospitata'
+title: "Lync Server 2013: Architettura e routing messaggistica di Exchange ospitata"
 TOCTitle: Architettura e routing della messaggistica unificata di Exchange ospitata
 ms:assetid: 4ea4a2ce-01d9-4209-bf8e-98fa9027fb7a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398318(v=OCS.15)

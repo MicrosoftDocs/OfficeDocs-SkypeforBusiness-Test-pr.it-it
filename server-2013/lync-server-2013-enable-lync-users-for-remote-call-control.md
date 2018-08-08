@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Abilitare gli utenti di Lync per il controllo delle chiamate remote'
+title: "Lync Server 2013: Abilita utenti di Lync per il controllo chiamate remote"
 TOCTitle: Abilitare gli utenti di Lync per il controllo delle chiamate remote
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg615048(v=OCS.15)

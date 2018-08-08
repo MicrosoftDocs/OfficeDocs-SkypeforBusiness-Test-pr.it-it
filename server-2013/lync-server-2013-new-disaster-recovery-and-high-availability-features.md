@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Nuove funzionalità per la disponibilità elevata e il ripristino di emergenza'
+title: "Lync Server 2013: Nuove funzionalità per disp. elevata e ripristino di emerg."
 TOCTitle: Nuove funzionalità per la disponibilità elevata e il ripristino di emergenza
 ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204892(v=OCS.15)

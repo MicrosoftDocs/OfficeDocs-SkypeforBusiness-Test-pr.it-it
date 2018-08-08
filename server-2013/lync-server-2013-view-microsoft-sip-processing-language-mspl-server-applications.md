@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: visualizzare le applicazioni server MSPL (Microsoft SIP Processing Language)'
+title: "Lync Server 2013: Visualizza app server MSPL (MS SIP Processing Language)"
 TOCTitle: Visualizzare le applicazioni server MSPL (Microsoft SIP Processing Language)
 ms:assetid: b7df1323-b6bd-4925-8fe6-5241c91fe51b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182575(v=OCS.15)

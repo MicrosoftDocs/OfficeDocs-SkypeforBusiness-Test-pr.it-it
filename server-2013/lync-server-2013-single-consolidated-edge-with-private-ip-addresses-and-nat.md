@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Singola topologia perimetrale consolidata con indirizzi IP privati e NAT'
+title: "Lync Server 2013: Singola topologia perim. consolid. c/ indir. IP priv. e NAT"
 TOCTitle: Singola topologia perimetrale consolidata con indirizzi IP privati e NAT
 ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg399001(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: >
+title: "Lync Server 2013: Configura criteri per controllo accesso utenti pubblici"
   Lync Server 2013: Configurare criteri per controllare l'accesso degli utenti pubblici
 TOCTitle: Configurare criteri per controllare l'accesso degli utenti pubblici
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6

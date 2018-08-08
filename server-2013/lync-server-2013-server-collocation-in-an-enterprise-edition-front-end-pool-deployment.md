@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Collocazione dei server in una distribuzione di pool Enterprise Edition Front End'
+title: "Lync Server 2013: Colloca server in distribuz. pool Enterprise Ed. Front End"
 TOCTitle: Collocazione dei server in una distribuzione di pool Enterprise Edition Front End
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398102(v=OCS.15)

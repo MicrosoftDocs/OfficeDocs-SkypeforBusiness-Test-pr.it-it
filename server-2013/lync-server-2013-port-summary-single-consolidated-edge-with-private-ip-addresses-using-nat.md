@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo delle porte - singola topologia perimetrale consolidata con indirizzi IP privati tramite NAT'
+title: "Lync Server 2013: Porte - sing. topol. perimetr. consolid. c/ indir. IP priv. via NAT"
 TOCTitle: Riepilogo delle porte - singola topologia perimetrale consolidata con indirizzi IP privati tramite NAT
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425891(v=OCS.15)

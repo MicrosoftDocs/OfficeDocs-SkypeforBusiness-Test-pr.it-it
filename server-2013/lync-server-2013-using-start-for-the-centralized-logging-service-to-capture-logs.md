@@ -1,6 +1,6 @@
 ﻿---
-title: Utilizzo del comando Start per l'acquisizione dei log da parte del servizio di registrazione centralizzato
-TOCTitle: Utilizzo del comando Start per l'acquisizione dei log da parte del servizio di registrazione centralizzato
+title: "Lync Server 2013: Utilizzo Start per acquisiz. log da serv. registraz. centraliz."
+TOCTitle: "Lync Server 2013: Utilizzo Start per acquisiz. log da serv. registraz. centraliz."
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ687958(v=OCS.15)
 ms:contentKeyID: 49887430
