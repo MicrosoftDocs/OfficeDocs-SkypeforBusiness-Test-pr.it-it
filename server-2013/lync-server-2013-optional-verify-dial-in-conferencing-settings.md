@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Facoltativo) Verificare le impostazioni delle conferenze telefoniche con accesso esterno'
+title: "Lync Server 2013: (Facolt.) Verifica impostaz. teleconferenze in ingresso"
 TOCTitle: (Facoltativo) Verificare le impostazioni delle conferenze telefoniche con accesso esterno
 ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412789(v=OCS.15)

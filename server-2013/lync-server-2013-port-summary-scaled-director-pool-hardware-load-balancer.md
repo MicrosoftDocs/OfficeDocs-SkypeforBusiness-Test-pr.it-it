@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo delle porte - pool di server Director con scalabilità implementata, servizio di bilanciamento del carico hardware'
+title: "Lync Server 2013: Porte: pool di Director c/ scalab., bilanciam. carico hw"
 TOCTitle: Riepilogo delle porte - pool di server Director con scalabilità implementata, servizio di bilanciamento del carico hardware
 ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204983(v=OCS.15)

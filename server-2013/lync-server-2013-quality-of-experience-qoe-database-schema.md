@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Schema del database della qualità percepita dagli utenti (QoE)'
+title: "Lync Server 2013: Schema database della qualità percepita dagli utenti (QoE)"
 TOCTitle: Schema del database della qualità percepita dagli utenti (QoE)
 ms:assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398687(v=OCS.15)

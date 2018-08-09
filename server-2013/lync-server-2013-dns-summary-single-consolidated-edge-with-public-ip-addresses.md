@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo di DNS - singola topologia perimetrale consolidata con indirizzi IP pubblici'
+title: "Lync Server 2013: DNS: unica topolog. perimetr. consolid. c/ indir. IP pubb."
 TOCTitle: Riepilogo di DNS - singola topologia perimetrale consolidata con indirizzi IP pubblici
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205025(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare una regola di conversione utilizzando lo strumento Crea regola di conversione
-TOCTitle: Creare o modificare una regola di conversione utilizzando lo strumento Crea regola di conversione
+title: "Lync Server 2013: Crea/modifica regola di convers. c/ Crea regola di convers."
+TOCTitle: "Lync Server 2013: Crea/modifica regola di convers. c/ Crea regola di convers."
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412909(v=OCS.15)
 ms:contentKeyID: 49301778

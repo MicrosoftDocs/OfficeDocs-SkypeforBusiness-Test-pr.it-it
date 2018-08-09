@@ -1,6 +1,6 @@
 ﻿---
-title: Configurare i certificati nel server che esegue la messaggistica unificata di Microsoft Exchange Server
-TOCTitle: Configurare i certificati nel server che esegue la messaggistica unificata di Microsoft Exchange Server
+title: "Lync Server 2013: Config. certif. nel server di messaggistica di MS Exchange Server"
+TOCTitle: "Lync Server 2013: Config. certif. nel server di messaggistica di MS Exchange Server"
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398564(v=OCS.15)
 ms:contentKeyID: 49300991

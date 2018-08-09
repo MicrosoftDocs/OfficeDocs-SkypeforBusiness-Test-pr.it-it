@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Protezione dei dati in transito – database di archiviazione, monitoraggio, server di conformità per chat di gruppo'
+title: "Lync Server 2013: Protegge dati in trans.: database, monitor., server di conform. per chat di gr."
 TOCTitle: Protezione dei dati in transito – database di archiviazione, monitoraggio, server di conformità per chat di gruppo in Lync Server 2013
 ms:assetid: ea219705-1015-43a7-890b-e7e67b451e7c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn518336(v=OCS.15)

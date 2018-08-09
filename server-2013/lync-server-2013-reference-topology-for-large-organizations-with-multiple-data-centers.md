@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topologia di riferimento per organizzazioni di grandi dimensioni con più data center'
+title: "Lync Server 2013: Topolog. di rif. per grandi organizzaz. con più data center"
 TOCTitle: Topologia di riferimento per organizzazioni di grandi dimensioni con più data center
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398797(v=OCS.15)

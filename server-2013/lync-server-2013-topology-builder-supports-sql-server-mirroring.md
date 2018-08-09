@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Supporto di Generatore di topologie per il mirroring di SQL Server'
+title: "Lync Server 2013: Supporta Generatore di topologie per mirroring SQL Server"
 TOCTitle: Supporto di Generatore di topologie per il mirroring di SQL Server
 ms:assetid: 2c1caa73-c707-4e53-ae3f-a100534373fd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688007(v=OCS.15)

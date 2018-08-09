@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Verificare le regole di normalizzazione per il parcheggio di chiamata'
+title: "Lync Server 2013: Verifica regole di normalizzazione per il parcheggio"
 TOCTitle: Verificare le regole di normalizzazione per il parcheggio di chiamata
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398981(v=OCS.15)

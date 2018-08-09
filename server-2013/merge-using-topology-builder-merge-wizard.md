@@ -1,6 +1,6 @@
 ﻿---
-title: Eseguire l'unione mediante la procedura di unione guidata di Generatore di topologie
-TOCTitle: Eseguire l'unione mediante la procedura di unione guidata di Generatore di topologie
+title: "Lync Server 2013: Esegue l'unione con wizard di Generatore di topologie"
+TOCTitle: "Lync Server 2013: Esegue l'unione con wizard di Generatore di topologie"
 ms:assetid: c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205243(v=OCS.15)
 ms:contentKeyID: 49301884

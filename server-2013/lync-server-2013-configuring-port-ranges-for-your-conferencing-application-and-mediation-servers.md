@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione degli intervalli di porte per Conferencing Server, server applicazioni e Mediation Server
-TOCTitle: Configurazione degli intervalli di porte per Conferencing Server, server applicazioni e Mediation Server
+title: "Lync Server 2013: Config. inter. di porte per server di Conferencing, applicaz. e Mediation"
+TOCTitle: "Lync Server 2013: Config. inter. di porte per server di Conferencing, applicaz. e Mediation"
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 49300486

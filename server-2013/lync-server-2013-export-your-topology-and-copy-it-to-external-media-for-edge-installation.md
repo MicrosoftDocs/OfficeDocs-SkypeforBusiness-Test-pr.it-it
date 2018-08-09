@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Esportare la topologia e copiarla su supporto esterno per l'installazione perimetrale"
+title: "Lync Server 2013: Esporta/copia topol. su supp. est. per installaz. perimetr."
 TOCTitle: Esportare la topologia e copiarla su supporto esterno per l'installazione perimetrale
 ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398983(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Configurare siti di rete per il servizio Controllo di ammissione di chiamata in Lync Server 2013
-TOCTitle: Configurare siti di rete per il servizio Controllo di ammissione di chiamata in Lync Server 2013
+title: "Lync Server 2013: Configura siti di rete per CAC"
+TOCTitle: "Lync Server 2013: Configura siti di rete per CAC"
 ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412840(v=OCS.15)
 ms:contentKeyID: 49301676

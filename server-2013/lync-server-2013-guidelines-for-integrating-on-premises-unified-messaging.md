@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Linee guida per l'integrazione della messaggistica unificata locale"
+title: "Lync Server 2013: Linee guida per integraz. messaggistica unificata locale"
 TOCTitle: Linee guida per l'integrazione della messaggistica unificata locale con Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398656(v=OCS.15)

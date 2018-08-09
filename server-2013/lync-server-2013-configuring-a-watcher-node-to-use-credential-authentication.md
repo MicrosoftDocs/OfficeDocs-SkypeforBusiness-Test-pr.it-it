@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione di un nodo Watcher per l'utilizzo dell'autenticazione delle credenziali
-TOCTitle: Configurazione di un nodo Watcher per l'utilizzo dell'autenticazione delle credenziali
+title: "Lync Server 2013: Configura nodo Watcher per uso autenticazione credenziali"
+TOCTitle: "Lync Server 2013: Configura nodo Watcher per uso autenticazione credenziali"
 ms:assetid: 032e33f3-9483-42e6-a33c-347eb6779597
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204632(v=OCS.15)
 ms:contentKeyID: 49299512

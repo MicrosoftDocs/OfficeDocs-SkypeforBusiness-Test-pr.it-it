@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare dial plan per le conferenze telefoniche con accesso esterno'
+title: "Lync Server 2013: Configura dial plan per teleconferenze con accesso esterno"
 TOCTitle: Configurare dial plan per le conferenze telefoniche con accesso esterno
 ms:assetid: a3e0958e-384f-43e5-b4c9-686b6ecac7ed
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412768(v=OCS.15)

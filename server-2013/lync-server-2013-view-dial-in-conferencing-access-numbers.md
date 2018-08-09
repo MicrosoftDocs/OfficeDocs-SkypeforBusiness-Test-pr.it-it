@@ -1,6 +1,6 @@
 ﻿---
-title: Visualizzare i numeri di accesso per le conferenze telefoniche con accesso esterno
-TOCTitle: Visualizzare i numeri di accesso per le conferenze telefoniche con accesso esterno
+title: "Lync Server 2013: Visualizza numeri accesso per conference call"
+TOCTitle: "Lync Server 2013: Visualizza numeri accesso per conference call"
 ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688037(v=OCS.15)
 ms:contentKeyID: 49887536

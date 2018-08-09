@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Modifica delle impostazioni predefinite dei PIN per le conferenze telefoniche con accesso esterno'
+title: "Lync Server 2013: Modifica impostaz. predefinite del PIN per conference call "
 TOCTitle: Modifica delle impostazioni predefinite dei PIN per le conferenze telefoniche con accesso esterno
 ms:assetid: 2d110e94-ad29-4755-b17f-d8c2da9b78a4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425780(v=OCS.15)

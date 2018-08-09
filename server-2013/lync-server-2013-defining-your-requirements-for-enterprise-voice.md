@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Definizione dei requisiti dell'organizzazione per VoIP aziendale"
+title: "Lync Server 2013: Definisce i vostri requisiti per VoIP aziendale"
 TOCTitle: Definizione dei requisiti dell'organizzazione per VoIP aziendale
 ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425826(v=OCS.15)

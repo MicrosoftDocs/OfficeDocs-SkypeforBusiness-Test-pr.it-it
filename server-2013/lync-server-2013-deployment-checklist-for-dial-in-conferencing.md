@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Elenco di controllo di distribuzione per le conferenze telefoniche con accesso esterno'
+title: "Lync Server 2013: Elenco di controllo di distribuz. per teleconf. c/ accesso est."
 TOCTitle: Elenco di controllo di distribuzione per le conferenze telefoniche con accesso esterno
 ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412726(v=OCS.15)

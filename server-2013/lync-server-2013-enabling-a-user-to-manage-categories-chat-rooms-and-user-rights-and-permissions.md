@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Consentire a un utente la gestione di categorie, chat room, autorizzazioni e diritti utente'
+title: "Lync Server 2013: Utente gestisce cat., chat room, autoriz. e diritti utente"
 TOCTitle: Consentire a un utente la gestione di categorie, chat room, autorizzazioni e diritti utente
 ms:assetid: 6c551be3-bc74-4d0e-9008-ddfabd86e940
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ215876(v=OCS.15)

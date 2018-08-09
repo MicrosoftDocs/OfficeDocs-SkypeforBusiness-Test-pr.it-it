@@ -1,6 +1,6 @@
 ﻿---
-title: Assegnare criteri di segreteria telefonica ospitata per utente in Lync Server 2013
-TOCTitle: Assegnare criteri di segreteria telefonica ospitata per utente in Lync Server 2013
+title: "Lync Server 2013: Assegna criteri di segreteria telef. ospitata per utenti"
+TOCTitle: "Lync Server 2013: Assegna criteri di segreteria telef. ospitata per utenti"
 ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398919(v=OCS.15)
 ms:contentKeyID: 49302078

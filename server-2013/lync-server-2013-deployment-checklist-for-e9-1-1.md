@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Elenco di controllo di distribuzione per i servizi di emergenza'
+title: "Lync Server 2013: Elenco controllo di distribuz. per i servizi di emergenza"
 TOCTitle: Elenco di controllo di distribuzione per i servizi di emergenza
 ms:assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398864(v=OCS.15)

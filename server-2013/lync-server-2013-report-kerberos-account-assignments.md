@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Generare un rapporto sulle assegnazioni degli account Kerberos'
+title: "Lync Server 2013: Genera rapporto sulle assegnazioni degli account Kerberos"
 TOCTitle: Generare un rapporto sulle assegnazioni degli account Kerberos
 ms:assetid: 523231f6-81b3-454b-996d-663d9bd5cf83
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398343(v=OCS.15)

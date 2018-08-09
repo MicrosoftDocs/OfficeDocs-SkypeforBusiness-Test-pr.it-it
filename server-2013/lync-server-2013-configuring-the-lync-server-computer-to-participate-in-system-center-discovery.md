@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione del computer Lync Server per la partecipazione all'individuazione di System Center
-TOCTitle: Configurazione del computer Lync Server per la partecipazione all'individuazione di System Center
+title: "Lync Server 2013: Configura computer LS per individuare System Center"
+TOCTitle: "Lync Server 2013: Configura computer LS per individuare System Center"
 ms:assetid: 2f9c9cb0-3120-4571-9cd2-657c2123fe21
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204776(v=OCS.15)
 ms:contentKeyID: 49300064

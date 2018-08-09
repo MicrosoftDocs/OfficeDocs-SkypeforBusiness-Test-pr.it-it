@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Concetti di base sulla topologia che è necessario conoscere prima della pianificazione'
+title: "Lync Server 2013: Concetti base su topologia da sapere prima di pianificare"
 TOCTitle: Concetti di base sulla topologia che è necessario conoscere prima della pianificazione
 ms:assetid: 7376306b-1b80-4776-9261-aa545abb08c6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398552(v=OCS.15)

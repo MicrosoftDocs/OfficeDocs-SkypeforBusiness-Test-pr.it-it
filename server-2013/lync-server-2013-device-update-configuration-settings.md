@@ -1,6 +1,6 @@
 ﻿---
-title: Impostazioni per la configurazione dell'aggiornamento dei dispositivi in Lync Server 2013
-TOCTitle: Impostazioni per la configurazione dell'aggiornamento dei dispositivi in Lync Server 2013
+title: "Lync Server 2013: Configura aggiornamento dispositivi in Lync Server 2013"
+TOCTitle: "Lync Server 2013: Configura aggiornamento dispositivi in Lync Server 2013"
 ms:assetid: a567b290-4c78-48bf-8ff7-39e32e54de39
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994058(v=OCS.15)
 ms:contentKeyID: 52062215

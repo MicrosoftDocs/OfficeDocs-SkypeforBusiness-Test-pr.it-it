@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gestione della disponibilità elevata e del ripristino di emergenza'
+title: "Lync Server 2013: Gestisce disponibilità elevata e ripristino di emergenza"
 TOCTitle: Gestione della disponibilità elevata e del ripristino di emergenza
 ms:assetid: 64af9aad-6e35-43d1-a6ec-ee3f36898782
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398457(v=OCS.15)

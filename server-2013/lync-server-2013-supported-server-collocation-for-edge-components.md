@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Collocazione dei server supportata per i componenti perimetrali'
+title: "Lync Server 2013: Collocazione server supportata per i componenti perimetrali"
 TOCTitle: Collocazione dei server supportata per i componenti perimetrali
 ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425934(v=OCS.15)

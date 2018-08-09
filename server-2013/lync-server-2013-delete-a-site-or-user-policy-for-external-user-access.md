@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Eliminare criteri di sito o utente per l'accesso degli utenti esterni"
+title: "Lync Server 2013: Elimina criteri di sito o utente per accesso utenti esterni"
 TOCTitle: Eliminare criteri di sito o utente per l'accesso degli utenti esterni
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg521013(v=OCS.15)

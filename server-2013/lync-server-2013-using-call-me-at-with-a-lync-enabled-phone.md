@@ -1,6 +1,6 @@
 ﻿---
-title: Uso della funzionalità Chiama con un telefono abilitato per Lync e Lync Server 2013
-TOCTitle: Uso della funzionalità Chiama con un telefono abilitato per Lync e Lync Server 2013
+title: "Lync Server 2013: Usa funzione Chiama c/ telef. abilitato per Lync e LS 2013"
+TOCTitle: "Lync Server 2013: Usa funzione Chiama c/ telef. abilitato per Lync e LS 2013"
 ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn383570(v=OCS.15)
 ms:contentKeyID: 56558963

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pianificazione per la disponibilità elevata e il ripristino di emergenza'
+title: "Lync Server 2013: Pianifica disponibilità elevata e ripristino di emergenza"
 TOCTitle: Pianificazione per la disponibilità elevata e il ripristino di emergenza
 ms:assetid: 15a72073-0336-45dd-b2a0-35e7522c6000
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204703(v=OCS.15)

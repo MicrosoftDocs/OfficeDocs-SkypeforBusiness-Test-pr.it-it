@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione del servizio per dispositivi mobili per ottenere prestazioni elevate
-TOCTitle: Configurazione del servizio per dispositivi mobili per ottenere prestazioni elevate
+title: "Lync Server 2013: Configura servizio dispositivi mobili per prestaz. elevate"
+TOCTitle: "Lync Server 2013: Configura servizio dispositivi mobili per prestaz. elevate"
 ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Hh690042(v=OCS.15)
 ms:contentKeyID: 49301875

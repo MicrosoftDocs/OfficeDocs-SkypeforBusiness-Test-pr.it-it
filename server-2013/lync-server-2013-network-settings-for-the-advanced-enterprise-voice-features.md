@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Impostazioni di rete per le funzionalità di VoIP aziendale avanzate'
+title: "Lync Server 2013: Impostazioni di rete per funzioni VoIP aziendale avanzate"
 TOCTitle: Impostazioni di rete per le funzionalità di VoIP aziendale avanzate
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398637(v=OCS.15)

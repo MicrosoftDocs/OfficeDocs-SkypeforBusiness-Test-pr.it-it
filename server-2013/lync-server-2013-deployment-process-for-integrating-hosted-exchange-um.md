@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Processo di distribuzione per l'integrazione della messaggistica unificata di Exchange ospitata"
+title: "Lync Server 2013: Distribuz. per integrare messaggi di Exchange ospitata"
 TOCTitle: Processo di distribuzione per l'integrazione della messaggistica unificata di Exchange ospitata con Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398968(v=OCS.15)

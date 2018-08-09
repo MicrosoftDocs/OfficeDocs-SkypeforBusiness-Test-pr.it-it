@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione dell'utilizzo delle foto ad alta risoluzione in Microsoft Lync Server 2013
-TOCTitle: Configurazione dell'utilizzo delle foto ad alta risoluzione in Microsoft Lync Server 2013
+title: "Lync Server 2013: Configura utilizzo foto ad alta risoluzione in MS LS 2013"
+TOCTitle: "Lync Server 2013: Configura utilizzo foto ad alta risoluzione in MS LS 2013"
 ms:assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688150(v=OCS.15)
 ms:contentKeyID: 49887672

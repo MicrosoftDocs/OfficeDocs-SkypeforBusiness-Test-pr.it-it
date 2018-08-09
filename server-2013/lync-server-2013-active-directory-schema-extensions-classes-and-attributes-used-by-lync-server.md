@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Estensioni dello schema, classi e attributi di Active Directory utilizzati da Lync Server'
+title: "Lync Server 2013: Estens. schemi/classi/attrib. di Active Direct. usati da LS"
 TOCTitle: Estensioni dello schema, classi e attributi di Active Directory utilizzati da Lync Server 2013
 ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398379(v=OCS.15)

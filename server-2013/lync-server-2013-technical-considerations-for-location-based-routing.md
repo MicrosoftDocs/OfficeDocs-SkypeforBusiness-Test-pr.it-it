@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Considerazioni tecniche per il routing in base alla posizione'
+title: "Lync Server 2013: Considerazioni tecniche per routing in base alla posizione"
 TOCTitle: Considerazioni tecniche per il routing in base alla posizione
 ms:assetid: 2e2a9199-7c6f-48d3-9adb-3873fc4f8c4e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994027(v=OCS.15)

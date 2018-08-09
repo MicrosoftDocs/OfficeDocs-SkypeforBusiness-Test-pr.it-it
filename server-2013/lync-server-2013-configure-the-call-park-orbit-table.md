@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare la tabella di codici orbit del parcheggio di chiamata'
+title: "Lync Server 2013: Configura tabella codici orbit del parcheggio di chiamata"
 TOCTitle: Configurare la tabella di codici orbit del parcheggio di chiamata
 ms:assetid: e5cc0c19-7b2c-48e7-a21d-cfb23c842f0f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg399020(v=OCS.15)

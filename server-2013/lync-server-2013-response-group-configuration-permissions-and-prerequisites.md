@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Autorizzazioni e prerequisiti per la configurazione di Response Group'
+title: "Lync Server 2013: Autorizzaz. e prerequisiti per configurare Response Group"
 TOCTitle: Autorizzazioni e prerequisiti per la configurazione di Response Group
 ms:assetid: 4266f16a-b387-452c-a8ca-d771a3c58f0f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204840(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Sincronizzare la password di un account di autenticazione Kerberos con IIS'
+title: "Lync Server 2013: Sincronizza password account di autenticaz. Kerberos c/ IIS"
 TOCTitle: Sincronizzare la password di un account di autenticazione Kerberos con IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398107(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione di Qualità del servizio (QoS) nei dispositivi Microsoft Lync Phone Edition
-TOCTitle: Configurazione di Qualità del servizio (QoS) nei dispositivi Microsoft Lync Phone Edition
+title: "Lync Server 2013: Configura QoS in dispositivi Microsoft Lync Phone Edition"
+TOCTitle: "Lync Server 2013: Configura QoS in dispositivi Microsoft Lync Phone Edition"
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205137(v=OCS.15)
 ms:contentKeyID: 49301582

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Implementazione della connettività PSTN in un sito di succursale'
+title: "Lync Server 2013: Implementa connettività PSTN in un sito di succursale"
 TOCTitle: Implementazione della connettività PSTN in un sito di succursale
 ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398945(v=OCS.15)

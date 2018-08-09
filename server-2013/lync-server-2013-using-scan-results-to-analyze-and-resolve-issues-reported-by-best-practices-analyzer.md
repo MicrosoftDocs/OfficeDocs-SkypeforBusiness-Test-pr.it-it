@@ -1,6 +1,6 @@
 ﻿---
-title: Utilizzo dei risultati dell'analisi per analizzare e risolvere i problemi segnalati da Best Practices Analyzer
-TOCTitle: Utilizzo dei risultati dell'analisi per analizzare e risolvere i problemi segnalati da Best Practices Analyzer
+title: "Lync Server 2013: Usa analisi di Best Practices Analyzer per risolvere probl."
+TOCTitle: "Lync Server 2013: Usa analisi di Best Practices Analyzer per risolvere probl."
 ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg591350(v=OCS.15)
 ms:contentKeyID: 49302011

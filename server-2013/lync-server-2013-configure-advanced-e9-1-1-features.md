@@ -1,6 +1,6 @@
 ﻿---
-title: Configurare le caratteristiche avanzate del servizio chiamate di emergenza (E9-1-1) in Lync Server 2013
-TOCTitle: Configurare le caratteristiche avanzate del servizio chiamate di emergenza (E9-1-1) in Lync Server 2013
+title: "Lync Server 2013: Configura caratt. avanzate Chiamate di emergenza (E9-1-1)"
+TOCTitle: "Lync Server 2013: Configura caratt. avanzate Chiamate di emergenza (E9-1-1)"
 ms:assetid: 80412a02-88f0-4b8a-a187-cc5f38797dd6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398645(v=OCS.15)
 ms:contentKeyID: 49301139

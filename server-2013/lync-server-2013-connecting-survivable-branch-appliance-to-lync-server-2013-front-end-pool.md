@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Connessione di Survivable Branch Appliance al pool Front End di Lync Server 2013'
+title: "Lync Server 2013: Collega Survivable Branch Appl. a pool Front End LS 2013"
 TOCTitle: Connessione di Survivable Branch Appliance al pool Front End di Lync Server 2013
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688026(v=OCS.15)

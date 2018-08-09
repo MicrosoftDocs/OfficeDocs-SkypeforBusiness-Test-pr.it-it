@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo DNS - singola topologia perimetrale consolidata con indirizzi IP privati tramite NAT'
+title: "Lync Server 2013: DNS: singola topolog. perim. consolid. c/ indir. IP privati via NAT"
 TOCTitle: Riepilogo DNS - singola topologia perimetrale consolidata con indirizzi IP privati tramite NAT
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412787(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Configurare la messaggistica unificata in Microsoft Exchange per Lync Server 2013
-TOCTitle: Configurare la messaggistica unificata in Microsoft Exchange per Lync Server 2013
+title: "Lync Server 2013: Configurare i messaggi unificati in Microsoft Exchange"
+TOCTitle: "Lync Server 2013: Configurare i messaggi unificati in Microsoft Exchange"
 ms:assetid: 07547968-c59b-4dde-ace4-9fd286933759
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398129(v=OCS.15)
 ms:contentKeyID: 49299576

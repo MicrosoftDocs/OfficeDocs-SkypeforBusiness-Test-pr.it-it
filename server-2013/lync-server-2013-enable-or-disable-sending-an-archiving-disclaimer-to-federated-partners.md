@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Abilitare o disabilitare l'invio di una dichiarazione di non responsabilità relativa all'archiviazione ai partner federati"
+title: "Lync Server 2013: Abilita/disab. invio dichiaraz. di non responsab. relativa a archiviaz. ai partner federati"
 TOCTitle: Abilitare o disabilitare l'invio di una dichiarazione di non responsabilità relativa all'archiviazione ai partner federati
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182584(v=OCS.15)

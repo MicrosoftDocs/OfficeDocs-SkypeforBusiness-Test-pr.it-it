@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare un intervallo di codici orbit del parcheggio di chiamata in Lync Server 2013
-TOCTitle: Eliminare un intervallo di codici orbit del parcheggio di chiamata in Lync Server 2013
+title: "Lync Server 2013: Elimina intervallo di codici orbit del parcheggio"
+TOCTitle: "Lync Server 2013: Elimina intervallo di codici orbit del parcheggio"
 ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182546(v=OCS.15)
 ms:contentKeyID: 49301208

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Facoltativo) Verificare le impostazioni dei criteri per il PIN'
+title: "Lync Server 2013: (Facolt.) Verifica le impostazioni dei criteri per il PIN"
 TOCTitle: (Facoltativo) Verificare le impostazioni dei criteri per il PIN
 ms:assetid: d000d2e7-dfd8-4dea-b1ff-f5385d0cfff3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398892(v=OCS.15)

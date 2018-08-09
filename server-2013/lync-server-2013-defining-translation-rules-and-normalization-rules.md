@@ -1,6 +1,6 @@
 ﻿---
-title: Definizione delle regole di conversione e delle regole di normalizzazione in Lync Server 2013
-TOCTitle: Definizione delle regole di conversione e delle regole di normalizzazione in Lync Server 2013
+title: "Lync Server 2013: Definisce regole di conversione e di normalizzazione"
+TOCTitle: "Lync Server 2013: Definisce regole di conversione e di normalizzazione"
 ms:assetid: a22e4804-8802-42b1-a1b1-be42f85b3d46
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688159(v=OCS.15)
 ms:contentKeyID: 49887685

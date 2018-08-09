@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definizione dei requisiti per Front End Server, messaggistica istantanea e presenza'
+title: "Lync Server 2013: Definisce requisiti Front End Server, messaggi e presenza"
 TOCTitle: Definizione dei requisiti per Front End Server, messaggistica istantanea e presenza
 ms:assetid: c21198bc-520c-4d17-8b84-7ff1475b9b0a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412956(v=OCS.15)

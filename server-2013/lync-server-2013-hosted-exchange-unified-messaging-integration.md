@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Integrazione della messaggistica unificata di Exchange ospitata'
+title: "Lync Server 2013: Integra messaggistica unificata di Exchange ospitata"
 TOCTitle: Integrazione della messaggistica unificata di Exchange ospitata
 ms:assetid: f4de0165-da3b-499e-98fc-28ddd0db02d5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg413027(v=OCS.15)

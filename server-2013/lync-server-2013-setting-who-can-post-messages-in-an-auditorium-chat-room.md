@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Impostazione degli utenti autorizzati a inserire messaggi in una chat room auditorium'
+title: "Lync Server 2013: Imposta utenti autorizz. a postare in chat room auditorium"
 TOCTitle: Impostazione degli utenti autorizzati a inserire messaggi in una chat room auditorium
 ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ215873(v=OCS.15)

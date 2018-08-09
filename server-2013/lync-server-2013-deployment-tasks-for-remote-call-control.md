@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Attività di distribuzione per il controllo delle chiamate remote'
+title: "Lync Server 2013: Attività di distribuz. per controllo chiamate remote"
 TOCTitle: Attività di distribuzione per il controllo delle chiamate remote
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg558624(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Applicazioni attendibili (Applicazione/Computer/Endpoint/Pool) in Lync Server 2013
-TOCTitle: Applicazioni attendibili (Applicazione/Computer/Endpoint/Pool) in Lync Server 2013
+title: "Lync Server 2013: Applicaz. attendibili (Applicaz./Computer/Endpoint/Pool)"
+TOCTitle: "Lync Server 2013: Applicaz. attendibili (Applicaz./Computer/Endpoint/Pool)"
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688073(v=OCS.15)
 ms:contentKeyID: 49887583

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Pubblicare le modifiche in sospeso alla configurazione del routing vocale'
+title: "Lync Server 2013: Pubblica modifiche in sospeso a configuraz. routing vocale"
 TOCTitle: Pubblicare le modifiche in sospeso alla configurazione del routing vocale
 ms:assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg413088(v=OCS.15)

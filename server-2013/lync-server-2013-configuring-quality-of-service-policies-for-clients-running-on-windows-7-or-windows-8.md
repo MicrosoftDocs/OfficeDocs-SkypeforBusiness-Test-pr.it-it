@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione dei criteri di qualità del servizio per i client in esecuzione in Windows 7 o Windows 8
-TOCTitle: Configurazione dei criteri di qualità del servizio per i client in esecuzione in Windows 7 o Windows 8
+title: "Lync Server 2013: Config. criteri di qualità del serviz. per client in esecuz. in Windows 7 o 8"
+TOCTitle: "Lync Server 2013: Config. criteri di qualità del serviz. per client in esecuz. in Windows 7 o 8"
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205371(v=OCS.15)
 ms:contentKeyID: 49302404

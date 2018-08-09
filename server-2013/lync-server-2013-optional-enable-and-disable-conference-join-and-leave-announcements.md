@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Facoltativo) Abilitare e disabilitare gli annunci di partecipazione e abbandono delle conferenze'
+title: "Lync Server 2013: (Facolt.) Abil./disab. avvisi di ingr./uscita dalle confer."
 TOCTitle: (Facoltativo) Abilitare e disabilitare gli annunci di partecipazione e abbandono delle conferenze
 ms:assetid: c9529568-e66c-48d8-aef2-9072f9c336ff
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398834(v=OCS.15)

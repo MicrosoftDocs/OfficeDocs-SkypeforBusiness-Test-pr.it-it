@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Definizione dei requisiti dell'organizzazione per il controllo di ammissione di chiamata"
+title: "Lync Server 2013: Definisce Vs requisiti per controllo ammissione chiamata"
 TOCTitle: Definizione dei requisiti dell'organizzazione per il controllo di ammissione di chiamata
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398334(v=OCS.15)

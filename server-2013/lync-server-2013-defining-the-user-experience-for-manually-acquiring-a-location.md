@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Definizione dell'esperienza utente per l'acquisizione manuale di una posizione"
+title: "Lync Server 2013: Definisce esper. utente per acquisiz. manuale di posizione"
 TOCTitle: Definizione dell'esperienza utente per l'acquisizione manuale di una posizione
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398912(v=OCS.15)

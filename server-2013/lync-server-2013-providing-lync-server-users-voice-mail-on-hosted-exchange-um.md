@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Fornire agli utenti di Lync Server la segreteria telefonica nella messaggistica unificata di Exchange ospitata'
+title: "Lync Server 2013: Fornisce a utenti LS segr. telef. in messagg. di Exchange osp."
 TOCTitle: Fornire agli utenti di Lync Server 2013 la segreteria telefonica nella messaggistica unificata di Exchange ospitata
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425807(v=OCS.15)

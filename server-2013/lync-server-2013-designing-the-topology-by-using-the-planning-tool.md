@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Progettazione della topologia mediante lo strumento di pianificazione'
+title: "Lync Server 2013: Progetta la topologia tramite lo strumento Pianificazione"
 TOCTitle: Progettazione della topologia mediante lo strumento di pianificazione
 ms:assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg558631(v=OCS.15)

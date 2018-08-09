@@ -1,6 +1,6 @@
 ﻿---
-title: Sostituzione di XmlAdapter con un adattatore conformità del server chat persistente personalizzato in Lync Server 2013
-TOCTitle: Sostituzione di XmlAdapter con un adattatore conformità del server chat persistente personalizzato in Lync Server 2013
+title: "Lync Server 2013: Sostituisce XmlAdapter c/ adattat. conform. del server Chat persist. personalizz."
+TOCTitle: "Lync Server 2013: Sostituisce XmlAdapter c/ adattat. conform. del server Chat persist. personalizz."
 ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ680106(v=OCS.15)
 ms:contentKeyID: 49887496

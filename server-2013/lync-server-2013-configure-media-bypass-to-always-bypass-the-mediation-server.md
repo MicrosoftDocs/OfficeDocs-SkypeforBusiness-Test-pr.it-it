@@ -1,6 +1,6 @@
 ﻿---
-title: Configurare la funzionalità bypass multimediale in modo che Mediation Server venga sempre ignorato
-TOCTitle: Configurare la funzionalità bypass multimediale in modo che Mediation Server venga sempre ignorato
+title: "Lync Server 2013: Configura funzion. multimed. per ignorare Mediation Server"
+TOCTitle: "Lync Server 2013: Configura funzion. multimed. per ignorare Mediation Server"
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425846(v=OCS.15)
 ms:contentKeyID: 49300174

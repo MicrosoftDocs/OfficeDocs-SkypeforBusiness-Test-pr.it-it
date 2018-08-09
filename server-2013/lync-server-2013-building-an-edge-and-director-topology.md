@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Creazione di una topologia di server perimetrali e server Director'
+title: "Lync Server 2013: Crea topologia di server perimetrali e server Director"
 TOCTitle: Creazione di una topologia di server perimetrali e server Director
 ms:assetid: 11e5759e-d69f-4c39-8994-f467c279c558
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398202(v=OCS.15)

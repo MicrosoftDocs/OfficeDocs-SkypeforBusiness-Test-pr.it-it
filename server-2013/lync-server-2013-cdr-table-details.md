@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Dettagli sulle tabelle di registrazione dettagli chiamata (CDR)'
+title: "Lync Server 2013: Dettagli tabelle di registrazione dettagli chiamata (CDR)"
 TOCTitle: Dettagli sulle tabelle di registrazione dettagli chiamata (CDR)
 ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398693(v=OCS.15)

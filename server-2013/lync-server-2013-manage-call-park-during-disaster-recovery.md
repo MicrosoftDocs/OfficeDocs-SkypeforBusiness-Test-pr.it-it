@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gestire il parcheggio di chiamata durante il ripristino di emergenza'
+title: "Lync Server 2013: Gestisce il parcheggio durante il ripristino di emergenza"
 TOCTitle: Gestire il parcheggio di chiamata durante il ripristino di emergenza
 ms:assetid: 4df96c38-186f-4b0e-b076-bae6236da7db
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688052(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware'
+title: "Lync Server 2013: Topologia perim. consolid. c/ scalab. implem., bilanciam. carico hw"
 TOCTitle: Topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398478(v=OCS.15)

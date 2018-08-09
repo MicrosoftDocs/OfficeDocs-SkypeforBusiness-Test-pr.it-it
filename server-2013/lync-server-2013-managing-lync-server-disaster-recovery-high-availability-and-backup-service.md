@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gestione di ripristino di emergenza, disponibilità elevata e servizio di backup'
+title: "Lync Server 2013: Gestisce ripristino di emerg., disp. elevata e backup"
 TOCTitle: Gestione di ripristino di emergenza, disponibilità elevata e servizio di backup di Lync Server 2013
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ721939(v=OCS.15)

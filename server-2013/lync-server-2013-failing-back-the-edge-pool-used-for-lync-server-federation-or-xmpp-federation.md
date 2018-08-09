@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Failback del pool di server perimetrali utilizzato per la federazione di Lync Server o di XMPP'
+title: "Lync Server 2013: Failback pool di server perimetr. per federaz. LS o  XMPP"
 TOCTitle: Failback del pool di server perimetrali utilizzato per la federazione di Lync Server o di XMPP
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ721897(v=OCS.15)

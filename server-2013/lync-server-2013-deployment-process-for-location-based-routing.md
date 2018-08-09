@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Processo di distribuzione per il routing in base alla posizione'
+title: "Lync Server 2013: Distribuzione per il routing in base alla posizione"
 TOCTitle: Processo di distribuzione per il routing in base alla posizione
 ms:assetid: 9e923e72-83fc-4a4f-8937-28a55739ed3e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994055(v=OCS.15)

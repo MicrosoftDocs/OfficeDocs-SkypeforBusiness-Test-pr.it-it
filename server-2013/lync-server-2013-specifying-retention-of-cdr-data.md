@@ -1,6 +1,6 @@
 ﻿---
-title: Specificazione del periodo di mantenimento dei dati di registrazione dettagli chiamata
-TOCTitle: Specificazione del periodo di mantenimento dei dati di registrazione dettagli chiamata
+title: "Lync Server 2013: Specifica periodo di mantenimento dei dati CDR"
+TOCTitle: "Lync Server 2013: Specifica periodo di mantenimento dei dati CDR"
 ms:assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182581(v=OCS.15)
 ms:contentKeyID: 49301851

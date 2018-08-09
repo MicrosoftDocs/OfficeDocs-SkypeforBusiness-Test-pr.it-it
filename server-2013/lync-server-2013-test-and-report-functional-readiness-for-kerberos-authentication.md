@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Testare e segnalare la disponibilità funzionale per l'autenticazione Kerberos"
+title: "Lync Server 2013: Testa/segnala la disp. funzionale per autenticaz. Kerberos"
 TOCTitle: Testare e segnalare la disponibilità funzionale per l'autenticazione Kerberos
 ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398925(v=OCS.15)

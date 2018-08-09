@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Definire un Survivable Branch Appliance o un Survivable Branch Server'
+title: "Lync Server 2013: Definisce un Survivable Branch Appliance o Server"
 TOCTitle: Definire un Survivable Branch Appliance o un Survivable Branch Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398280(v=OCS.15)

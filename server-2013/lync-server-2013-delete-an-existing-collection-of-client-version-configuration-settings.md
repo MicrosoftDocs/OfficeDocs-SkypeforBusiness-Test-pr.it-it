@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare una raccolta esistente di impostazioni di configurazione delle versioni client
-TOCTitle: Eliminare una raccolta esistente di impostazioni di configurazione delle versioni client
+title: "Lync Server 2013: Elimina impostazioni di configuraz. delle versioni client"
+TOCTitle: "Lync Server 2013: Elimina impostazioni di configuraz. delle versioni client"
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ898480(v=OCS.15)
 ms:contentKeyID: 52062182

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare le impostazioni di rerouting della segreteria telefonica'
+title: "Lync Server 2013: Configura impostazioni di rerouting segreteria telefonica"
 TOCTitle: Configurare le impostazioni di rerouting della segreteria telefonica
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398606(v=OCS.15)

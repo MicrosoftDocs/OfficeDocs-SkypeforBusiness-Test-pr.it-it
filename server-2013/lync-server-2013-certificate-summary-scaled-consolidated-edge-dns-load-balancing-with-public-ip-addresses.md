@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo dei certificati - topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici'
+title: "Lync Server 2013: Certif.: topolog. perimetr. consolid. c/ scalabilità implem., bilanciam. carico DNS c/ indir. IP pubblici"
 TOCTitle: Riepilogo dei certificati - topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP pubblici
 ms:assetid: e87ac448-ee8f-477a-9f33-ce066c1bf093
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205399(v=OCS.15)

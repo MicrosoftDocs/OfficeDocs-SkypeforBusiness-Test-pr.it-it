@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione di criteri vocali, record di utilizzo PSTN e route vocali'
+title: "Lync Server 2013: Configura criteri vocali, registri d'uso PSTN, route vocali"
 TOCTitle: Configurazione di criteri vocali, record di utilizzo PSTN e route vocali
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398272(v=OCS.15)

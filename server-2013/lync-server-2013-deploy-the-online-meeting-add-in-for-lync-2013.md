@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Distribuire il componente aggiuntivo per riunioni online per Lync 2013'
+title: "Lync Server 2013: Aggiunge componenti per riunioni online per Lync 2013"
 TOCTitle: Distribuire il componente aggiuntivo per riunioni online per Lync 2013
 ms:assetid: ce8608f6-71d4-46f1-b101-50f163916d52
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398873(v=OCS.15)

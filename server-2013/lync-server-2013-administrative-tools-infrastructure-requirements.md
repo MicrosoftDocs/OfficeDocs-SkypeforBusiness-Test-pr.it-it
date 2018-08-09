@@ -1,6 +1,6 @@
 ﻿---
-title: Requisiti dell'infrastruttura degli Strumenti di amministrazione in Lync Server 2013
-TOCTitle: Requisiti dell'infrastruttura degli Strumenti di amministrazione in Lync Server 2013
+title: "Lync Server 2013: Requisiti infrastruttura negli Strumenti di amministrazione"
+TOCTitle: "Lync Server 2013: Requisiti infrastruttura negli Strumenti di amministrazione"
 ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg195766(v=OCS.15)
 ms:contentKeyID: 49301609

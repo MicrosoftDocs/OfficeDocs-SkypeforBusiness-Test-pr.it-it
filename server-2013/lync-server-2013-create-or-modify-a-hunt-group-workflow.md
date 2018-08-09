@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Creare o modificare un flusso di lavoro di un gruppo di risposta'
+title: "Lync Server 2013: Crea/modifica un flusso di lavoro di un gruppo di risposta"
 TOCTitle: Creare o modificare un flusso di lavoro di un gruppo di risposta
 ms:assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205321(v=OCS.15)

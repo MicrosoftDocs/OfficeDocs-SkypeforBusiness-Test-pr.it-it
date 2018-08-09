@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Utilizzo di Generatore di topologie per configurare la disponibilità elevata e il ripristino di emergenza'
+title: "Lync Server 2013: Usa Gener. di topol. per config. disp. Elev. e riprist. di emerg."
 TOCTitle: Utilizzo di Generatore di topologie per configurare la disponibilità elevata e il ripristino di emergenza
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205172(v=OCS.15)

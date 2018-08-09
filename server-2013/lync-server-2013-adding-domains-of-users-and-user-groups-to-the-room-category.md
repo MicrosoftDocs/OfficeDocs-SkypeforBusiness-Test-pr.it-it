@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Aggiunta dei domini di utenti e gruppi di utenti alla categoria della chat room'
+title: "Lync Server 2013: Aggiunge domini utenti e gruppi di utenti a chat room"
 TOCTitle: Aggiunta dei domini di utenti e gruppi di utenti alla categoria della chat room
 ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ215884(v=OCS.15)

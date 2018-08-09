@@ -1,6 +1,6 @@
 ﻿---
-title: Prerequisiti di configurazione e diritti utente per la risposta alle chiamate di gruppo
-TOCTitle: Prerequisiti di configurazione e diritti utente per la risposta alle chiamate di gruppo
+title: "Lync Server 2013: Prereq. di configuraz. e diritti utente per risp. a chiam. di gr."
+TOCTitle: "Lync Server 2013: Prereq. di configuraz. e diritti utente per risp. a chiam. di gr."
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ945641(v=OCS.15)
 ms:contentKeyID: 52062201

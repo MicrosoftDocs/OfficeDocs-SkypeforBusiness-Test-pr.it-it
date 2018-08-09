@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Aggiunta di un collegamento personalizzato ai messaggi di errore di Lync'
+title: "Lync Server 2013: Aggiunge collegam. personaliz. a messaggi di errore di Lync"
 TOCTitle: Aggiunta di un collegamento personalizzato ai messaggi di errore di Lync
 ms:assetid: de756088-fcc3-4e47-bde8-4fa4cc852fd1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398979(v=OCS.15)

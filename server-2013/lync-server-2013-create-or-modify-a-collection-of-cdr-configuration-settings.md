@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare una raccolta di impostazioni di configurazione di registrazione dettagli chiamata
-TOCTitle: Creare o modificare una raccolta di impostazioni di configurazione di registrazione dettagli chiamata
+title: "Lync Server 2013: Crea/modifica configuraz. di registraz. dettagli chiamata"
+TOCTitle: "Lync Server 2013: Crea/modifica configuraz. di registraz. dettagli chiamata"
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ721878(v=OCS.15)
 ms:contentKeyID: 49887749

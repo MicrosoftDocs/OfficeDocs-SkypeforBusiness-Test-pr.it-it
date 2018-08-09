@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Creare un Record DNS SRV per l'integrazione con la messaggistica unificata di Exchange ospitata"
+title: "Lync Server 2013: Crea registro DNS SRV per integraz. con mess. di Exchange ospit."
 TOCTitle: Creare un Record DNS SRV per l'integrazione con la messaggistica unificata di Exchange ospitata
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Hh500728(v=OCS.15)

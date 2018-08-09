@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Aggiungere un sito di succursale Survivable Branch Appliance di Lync Server 2010 alla topologia'
+title: "Lync Server 2013: Aggiunge sito di succurs. Survivable Branch Appliance di LS 2010 alla topolog."
 TOCTitle: Aggiungere un sito di succursale Survivable Branch Appliance di Lync Server 2010 alla topologia
 ms:assetid: 2920d66e-6e1f-4f7f-89d8-510f004ac4c3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688004(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurazione dell'individuazione automatica per i dispositivi mobili con distribuzioni ibride"
+title: "Lync Server 2013: Individuaz. autom. per dispos. mobili con distribuz. ibride"
 TOCTitle: Configurazione dell'individuazione automatica per i dispositivi mobili con distribuzioni ibride
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ215885(v=OCS.15)

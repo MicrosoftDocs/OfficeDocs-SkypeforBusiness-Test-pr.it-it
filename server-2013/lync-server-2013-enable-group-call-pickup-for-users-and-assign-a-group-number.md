@@ -1,6 +1,6 @@
 ﻿---
-title: Abilitare la risposta alle chiamate di gruppo per gli utenti e assegnare un numero di gruppo
-TOCTitle: Abilitare la risposta alle chiamate di gruppo per gli utenti e assegnare un numero di gruppo
+title: "Lync Server 2013: Abilita risposta a chiamate di gruppo e assegna num. gruppo"
+TOCTitle: "Lync Server 2013: Abilita risposta a chiamate di gruppo e assegna num. gruppo"
 ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ945650(v=OCS.15)
 ms:contentKeyID: 52062307

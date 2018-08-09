@@ -1,6 +1,6 @@
 ﻿---
-title: Creare criteri di segreteria telefonica ospitata a livello di sito in Lync Server 2013
-TOCTitle: Creare criteri di segreteria telefonica ospitata a livello di sito in Lync Server 2013
+title: "Lync Server 2013: Crea criteri di segreteria telefonica a livello di sito"
+TOCTitle: "Lync Server 2013: Crea criteri di segreteria telefonica a livello di sito"
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398216(v=OCS.15)
 ms:contentKeyID: 49299763

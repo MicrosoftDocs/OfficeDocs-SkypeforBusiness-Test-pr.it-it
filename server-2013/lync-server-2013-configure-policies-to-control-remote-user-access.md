@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurare criteri per controllare l'accesso degli utenti remoti"
+title: "Lync Server 2013: Configura criteri per controllare l'accesso utenti remoti"
 TOCTitle: Configurare criteri per controllare l'accesso degli utenti remoti
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398725(v=OCS.15)

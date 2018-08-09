@@ -1,6 +1,6 @@
 ﻿---
-title: Assegnazione di un certificato di autenticazione da server a server a Microsoft Lync Server 2013
-TOCTitle: Assegnazione di un certificato di autenticazione da server a server a Microsoft Lync Server 2013
+title: "Lync Server 2013: Assegna certif. di autenticaz. server-server a MS Lync Server 2013"
+TOCTitle: "Lync Server 2013: Assegna certif. di autenticaz. server-server a MS Lync Server 2013"
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205253(v=OCS.15)
 ms:contentKeyID: 49301914

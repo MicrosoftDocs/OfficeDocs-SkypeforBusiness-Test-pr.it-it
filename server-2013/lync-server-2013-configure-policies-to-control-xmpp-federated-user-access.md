@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurare criteri per controllare l'accesso utente federato XMPP"
+title: "Lync Server 2013: Configura criteri controllo accesso utente federato XMPP"
 TOCTitle: Configurare criteri per controllare l'accesso utente federato XMPP
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ552446(v=OCS.15)

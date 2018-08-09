@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare una raccolta di impostazioni per la configurazione dell'aggiornamento dispositivi
-TOCTitle: Creare o modificare una raccolta di impostazioni per la configurazione dell'aggiornamento dispositivi
+title: "Lync Server 2013: Crea/modifica impostaz. per config. aggiornam. dispositivi"
+TOCTitle: "Lync Server 2013: Crea/modifica impostaz. per config. aggiornam. dispositivi"
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994029(v=OCS.15)
 ms:contentKeyID: 52062135

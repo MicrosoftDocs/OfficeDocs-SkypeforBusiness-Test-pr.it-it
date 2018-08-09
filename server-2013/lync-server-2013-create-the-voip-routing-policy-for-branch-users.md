@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Creare i criteri di routing VoIP per gli utenti di succursali'
+title: "Lync Server 2013: Crea criteri di routing VoIP per utenti di succursali"
 TOCTitle: >
   Creare i criteri di routing VoIP per gli utenti di succursali
 ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658

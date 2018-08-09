@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Assegnare criteri di accesso per gli utenti esterni a un utente abilitato per Lync'
+title: "Lync Server 2013: Assegna criteri di accesso a utenti abilitati per Lync"
 TOCTitle: Assegnare criteri di accesso per gli utenti esterni a un utente abilitato per Lync
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398551(v=OCS.15)

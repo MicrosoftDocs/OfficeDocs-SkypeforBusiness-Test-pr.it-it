@@ -1,6 +1,6 @@
 ﻿---
-title: Utilizzo di Best Practices Analyzer per identificare i potenziali problemi nella distribuzione
-TOCTitle: Utilizzo di Best Practices Analyzer per identificare i potenziali problemi nella distribuzione
+title: "Lync Server 2013: Best Practices Analyzer per identif. problemi di distribuz."
+TOCTitle: "Lync Server 2013: Best Practices Analyzer per identif. problemi di distribuz."
 ms:assetid: 0903063c-4766-4406-92f1-dfea48f274a5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg591342(v=OCS.15)
 ms:contentKeyID: 49299607

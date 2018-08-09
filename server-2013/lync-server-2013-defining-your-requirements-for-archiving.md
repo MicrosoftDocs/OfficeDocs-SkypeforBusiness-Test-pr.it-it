@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Definizione dei requisiti dell'organizzazione per l'archiviazione"
+title: "Lync Server 2013: Definisce requisiti dell'organizzazione per l'archiviazione"
 TOCTitle: Definizione dei requisiti dell'organizzazione per l'archiviazione
 ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205276(v=OCS.15)

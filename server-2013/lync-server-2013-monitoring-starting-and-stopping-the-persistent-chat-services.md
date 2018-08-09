@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Monitoraggio, avvio e arresto dei servizi di chat persistente'
+title: "Lync Server 2013: Monitora, avvia e arresta i servizi di chat persistente"
 TOCTitle: Monitoraggio, avvio e arresto dei servizi di chat persistente
 ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398105(v=OCS.15)

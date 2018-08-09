@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare una raccolta di impostazioni di configurazione di Lync Phone Edition
-TOCTitle: Creare o modificare una raccolta di impostazioni di configurazione di Lync Phone Edition
+title: "Lync Server 2013: Crea/modifica impostaz. di configuraz. Lync Phone Edition"
+TOCTitle: "Lync Server 2013: Crea/modifica impostaz. di configuraz. Lync Phone Edition"
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688086(v=OCS.15)
 ms:contentKeyID: 49887598

@@ -1,6 +1,6 @@
 ﻿---
-title: Modificare i criteri globali di segreteria telefonica ospitata in Lync Server 2013
-TOCTitle: Modificare i criteri globali di segreteria telefonica ospitata in Lync Server 2013
+title: "Lync Server 2013: Modifica criteri globali di segreteria telefonica ospitata"
+TOCTitle: "Lync Server 2013: Modifica criteri globali di segreteria telefonica ospitata"
 ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412994(v=OCS.15)
 ms:contentKeyID: 49302411

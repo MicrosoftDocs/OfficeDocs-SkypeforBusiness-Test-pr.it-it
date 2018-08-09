@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Verificare la connettività tra server interni e server perimetrali'
+title: "Lync Server 2013: Verifica connettività tra server interni e perimetrali"
 TOCTitle: Verificare la connettività tra server interni e server perimetrali
 ms:assetid: 219f706e-2b8a-46c5-b394-c384240eef50
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398292(v=OCS.15)

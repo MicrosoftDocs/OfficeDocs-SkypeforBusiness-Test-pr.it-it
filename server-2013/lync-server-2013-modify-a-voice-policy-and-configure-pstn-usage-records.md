@@ -1,6 +1,6 @@
 ﻿---
-title: Modificare criteri vocali e configurare record utilizzo PSTN in Lync Server 2013
-TOCTitle: Modificare criteri vocali e configurare record utilizzo PSTN in Lync Server 2013
+title: "Lync Server 2013: Modifica criteri vocali e configurare registri PSTN"
+TOCTitle: "Lync Server 2013: Modifica criteri vocali e configurare registri PSTN"
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398511(v=OCS.15)
 ms:contentKeyID: 49300895

@@ -1,6 +1,6 @@
 ﻿---
-title: Abilitare o disabilitare la modalità critica per bloccare o consentire sessioni di messaggistica istantanea e Web Conferencing se l'archiviazione non riesce
-TOCTitle: Abilitare o disabilitare la modalità critica per bloccare o consentire sessioni di messaggistica istantanea e Web Conferencing se l'archiviazione non riesce
+title: "Lync Server 2013: Abil./disabil. mod. critica per blocc./consent. sess. di messagg. e Web Conferencing se l'archiv. non riesce"
+TOCTitle: "Lync Server 2013: Abil./disabil. mod. critica per blocc./consent. sess. di messagg. e Web Conferencing se l'archiv. non riesce"
 ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182609(v=OCS.15)
 ms:contentKeyID: 49302552

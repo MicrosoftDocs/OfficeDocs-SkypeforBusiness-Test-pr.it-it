@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione di un nodo Watcher per l'utilizzo dell'autenticazione dei server trusted
-TOCTitle: Configurazione di un nodo Watcher per l'utilizzo dell'autenticazione dei server trusted
+title: "Lync Server 2013: Configura nodo Watcher per uso autenticaz. server trusted"
+TOCTitle: "Lync Server 2013: Configura nodo Watcher per uso autenticaz. server trusted"
 ms:assetid: 42d879ac-aa90-4ed6-b5e2-1e208711672a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204852(v=OCS.15)
 ms:contentKeyID: 49300347

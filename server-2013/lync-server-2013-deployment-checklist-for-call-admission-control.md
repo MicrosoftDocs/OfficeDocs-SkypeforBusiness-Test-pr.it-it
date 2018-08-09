@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Elenco di controllo di distribuzione per il controllo di ammissione di chiamata'
+title: "Lync Server 2013: Elenco controllo distribuz. per controllo ammiss. chiamata"
 TOCTitle: Elenco di controllo di distribuzione per il controllo di ammissione di chiamata
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398631(v=OCS.15)

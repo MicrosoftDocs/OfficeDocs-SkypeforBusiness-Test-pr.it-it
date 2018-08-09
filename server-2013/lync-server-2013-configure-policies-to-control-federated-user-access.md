@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurare criteri per controllare l'accesso utente federato"
+title: "Lync Server 2013: Configura criteri per controllare accesso utente federato"
 TOCTitle: Configurare criteri per controllare l'accesso utente federato
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398359(v=OCS.15)

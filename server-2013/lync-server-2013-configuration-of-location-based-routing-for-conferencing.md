@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: configurazione del routing in base alla posizione per le conferenze'
+title: "Lync Server 2013: Configura routing in base alla posizione per le conferenze"
 TOCTitle: Configurazione del routing in base alla posizione per le conferenze
 ms:assetid: d8c708cc-a1b1-48b1-808c-a64df15f7701
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn362846(v=OCS.15)

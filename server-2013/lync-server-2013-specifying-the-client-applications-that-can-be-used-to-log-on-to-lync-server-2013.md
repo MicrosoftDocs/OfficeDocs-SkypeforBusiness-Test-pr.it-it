@@ -1,6 +1,6 @@
 ﻿---
-title: Specificazione delle applicazioni client utilizzabili per accedere a Lync Server 2013
-TOCTitle: Specificazione delle applicazioni client utilizzabili per accedere a Lync Server 2013
+title: "Lync Server 2013: Specifiche applicaz. client per accedere a LS 2013"
+TOCTitle: "Lync Server 2013: Specifiche applicaz. client per accedere a LS 2013"
 ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182591(v=OCS.15)
 ms:contentKeyID: 49302064

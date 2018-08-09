@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Requisiti dell'infrastruttura per il controllo di ammissione di chiamata"
+title: "Lync Server 2013: Requisiti infrastruttura per controllo ammissione chiamata"
 TOCTitle: Requisiti dell'infrastruttura per il controllo di ammissione di chiamata
 ms:assetid: 52be8826-5796-407b-92fc-32f29a6a933c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398346(v=OCS.15)

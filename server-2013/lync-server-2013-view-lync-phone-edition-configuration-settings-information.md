@@ -1,6 +1,6 @@
 ﻿---
-title: Visualizzare le informazioni sulle impostazioni di configurazione di Lync Phone Edition
-TOCTitle: Visualizzare le informazioni sulle impostazioni di configurazione di Lync Phone Edition
+title: "Lync Server 2013: Visualizza info su configurazione di Lync Phone Edition"
+TOCTitle: "Lync Server 2013: Visualizza info su configurazione di Lync Phone Edition"
 ms:assetid: 15f94478-651f-4063-9918-6a059f98df16
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ687976(v=OCS.15)
 ms:contentKeyID: 49887455

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Aggiungere un Survivable Branch Appliance ad Active Directory'
+title: "Lync Server 2013: Aggiunge un Survivable Branch Appliance ad Active Directory"
 TOCTitle: Aggiungere un Survivable Branch Appliance ad Active Directory
 ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425906(v=OCS.15)

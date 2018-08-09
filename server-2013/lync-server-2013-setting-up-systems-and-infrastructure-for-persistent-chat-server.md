@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurazione dei sistemi e dell'infrastruttura per il server Chat persistente"
+title: "Lync Server 2013: Configura sistemi e infrastr. per server Chat persistente"
 TOCTitle: Configurazione dei sistemi e dell'infrastruttura per il server Chat persistente
 ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205290(v=OCS.15)

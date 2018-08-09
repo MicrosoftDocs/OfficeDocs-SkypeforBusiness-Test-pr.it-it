@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione delle impostazioni di Registrazione dettagli chiamata e Qualità percepita dagli utenti
-TOCTitle: Configurazione delle impostazioni di Registrazione dettagli chiamata e Qualità percepita dagli utenti
+title: "Lync Server 2013: Config. impostaz. di Registraz. dettagli chiam. e Qualità dell'esperienza"
+TOCTitle: "Lync Server 2013: Config. impostaz. di Registraz. dettagli chiam. e Qualità dell'esperienza"
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204621(v=OCS.15)
 ms:contentKeyID: 49299482

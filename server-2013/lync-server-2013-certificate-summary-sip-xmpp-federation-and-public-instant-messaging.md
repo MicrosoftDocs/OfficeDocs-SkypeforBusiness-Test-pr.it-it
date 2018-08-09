@@ -1,6 +1,6 @@
 ﻿---
-title: Riepilogo dei certificati - SIP, federazione di XMPP e messaggistica istantanea pubblica
-TOCTitle: Riepilogo dei certificati - SIP, federazione di XMPP e messaggistica istantanea pubblica
+title: "Lync Server 2013: Certificati: SIP, federaz. di XMPP e messaggistica"
+TOCTitle: "Lync Server 2013: Certificati: SIP, federaz. di XMPP e messaggistica"
 ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ618372(v=OCS.15)
 ms:contentKeyID: 49301343

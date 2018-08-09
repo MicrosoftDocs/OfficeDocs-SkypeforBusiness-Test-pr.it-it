@@ -1,6 +1,6 @@
 ﻿---
-title: Uso dello strumento per il calcolo della pianificazione della capacità di Lync Server 2013
-TOCTitle: Uso dello strumento per il calcolo della pianificazione della capacità di Lync Server 2013
+title: "Lync Server 2013: Strumento per calcolo della pianificazione della capacità"
+TOCTitle: "Lync Server 2013: Strumento per calcolo della pianificazione della capacità"
 ms:assetid: e86c1f05-1393-408a-9549-6001572ec50d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn362852(v=OCS.15)
 ms:contentKeyID: 56269984

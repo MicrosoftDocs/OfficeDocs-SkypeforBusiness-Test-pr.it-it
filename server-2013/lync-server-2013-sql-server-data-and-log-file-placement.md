@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Posizionamento dei file di log e dei file di dati di SQL Server'
+title: "Lync Server 2013: Posiziona file di log e file di dati di SQL Server"
 TOCTitle: Posizionamento dei file di log e dei file di dati di SQL Server
 ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398479(v=OCS.15)

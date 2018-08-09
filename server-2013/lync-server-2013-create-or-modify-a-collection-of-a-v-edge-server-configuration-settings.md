@@ -1,6 +1,6 @@
 ﻿---
-title: Creare o modificare una raccolta di impostazioni di configurazione di A/V Edge Server
-TOCTitle: Creare o modificare una raccolta di impostazioni di configurazione di A/V Edge Server
+title: "Lync Server 2013: Crea/modifica configurazione A/V Edge Server"
+TOCTitle: "Lync Server 2013: Crea/modifica configurazione A/V Edge Server"
 ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688039(v=OCS.15)
 ms:contentKeyID: 49887539

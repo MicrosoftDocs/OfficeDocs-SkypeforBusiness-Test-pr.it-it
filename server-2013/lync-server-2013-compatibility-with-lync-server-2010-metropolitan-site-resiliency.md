@@ -1,5 +1,5 @@
 ﻿---
-title: Compatibilità di Lync Server 2013 con la resilienza di siti metropolitani di Lync Server 2010
+title: "Compatibilità di LS 2013 con la resilienza di siti metropolitani di LS 2010"
 TOCTitle: Resilienza di siti metropolitani di Lync Server 2010
 ms:assetid: 18673ff6-b664-4a57-a89b-cbda8b129e6a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204715(v=OCS.15)

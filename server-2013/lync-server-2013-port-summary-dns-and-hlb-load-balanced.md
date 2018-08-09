@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo delle porte - bilanciamento del carico DNS e bilanciamento del carico hardware'
+title: "Lync Server 2013: Riepilogo porte - bilanciam. carico DNS e carico hardware"
 TOCTitle: Riepilogo delle porte - bilanciamento del carico DNS e bilanciamento del carico hardware
 ms:assetid: b07c37e4-820e-46ee-a678-1da95d1b87af
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205179(v=OCS.15)

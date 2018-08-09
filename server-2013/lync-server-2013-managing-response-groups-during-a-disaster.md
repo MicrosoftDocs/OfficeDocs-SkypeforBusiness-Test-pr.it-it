@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gestione dei Response Group durante una situazione di emergenza'
+title: "Lync Server 2013: Gestione Response Group durante una situazione di emergenza"
 TOCTitle: Gestione dei Response Group durante una situazione di emergenza
 ms:assetid: 9f14e677-7be8-4f08-88ba-444ec2148ce8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688154(v=OCS.15)

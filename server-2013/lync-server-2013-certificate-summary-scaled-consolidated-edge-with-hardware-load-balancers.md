@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo dei certificati - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware'
+title: "Lync Server 2013: Certif.: topol. perim. consolid. c/ scalab. implem., bilanciam. carico hw"
 TOCTitle: Riepilogo dei certificati - topologia perimetrale consolidata con scalabilità implementata e servizi di bilanciamento del carico hardware
 ms:assetid: 894a9f3e-7cba-4915-8fdf-e52f2f25126f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398692(v=OCS.15)

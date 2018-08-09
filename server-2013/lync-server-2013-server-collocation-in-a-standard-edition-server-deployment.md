@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Collocazione dei server in una distribuzione server Standard Edition'
+title: "Lync Server 2013: Colloca i server in distribuzione server Standard Edition"
 TOCTitle: Collocazione dei server in una distribuzione server Standard Edition
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398131(v=OCS.15)

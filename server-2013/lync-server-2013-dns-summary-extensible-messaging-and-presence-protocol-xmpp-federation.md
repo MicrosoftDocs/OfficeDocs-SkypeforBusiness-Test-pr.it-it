@@ -1,6 +1,6 @@
 ﻿---
-title: Riepilogo di DNS - federazione di XMPP (Extensible Messaging and Presence Protocol)
-TOCTitle: Riepilogo di DNS - federazione di XMPP (Extensible Messaging and Presence Protocol)
+title: "Lync Server 2013: Riepilogo DNS: federazione XMPP"
+TOCTitle: "Lync Server 2013: Riepilogo DNS: federazione XMPP"
 ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ618368(v=OCS.15)
 ms:contentKeyID: 49299700

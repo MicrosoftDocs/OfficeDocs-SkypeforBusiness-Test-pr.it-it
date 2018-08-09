@@ -1,6 +1,6 @@
 ﻿---
-title: Pianificazione per SIP, federazione XMPP e messaggistica istantanea pubblica in Lync Server 2013
-TOCTitle: Pianificazione per SIP, federazione XMPP e messaggistica istantanea pubblica in Lync Server 2013
+title: "Lync Server 2013:  Pianifica SIP, federazione XMPP e messaggistica istantanea"
+TOCTitle: "Lync Server 2013:  Pianifica SIP, federazione XMPP e messaggistica istantanea"
 ms:assetid: 3b234d92-b9ff-4b1d-910e-084c6f17e751
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204825(v=OCS.15)
 ms:contentKeyID: 49300260

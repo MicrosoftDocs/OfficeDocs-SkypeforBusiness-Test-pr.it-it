@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Impostare i certificati per l'interfaccia perimetrale interna"
+title: "Lync Server 2013: Imposta certificati per interfaccia perimetrale interna"
 TOCTitle: Impostare i certificati per l'interfaccia perimetrale interna
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412750(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare la crittografia multimediale per i provider pubblici'
+title: "Lync Server 2013: Configura crittografia multimediale per i provider pubblici"
 TOCTitle: Configurare la crittografia multimediale per i provider pubblici
 ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205149(v=OCS.15)

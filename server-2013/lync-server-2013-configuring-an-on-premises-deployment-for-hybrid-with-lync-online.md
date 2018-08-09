@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurazione di una distribuzione in locale per l'utilizzo ibrido con Lync Online"
+title: "Lync Server 2013: Configura distribuz. locale per uso ibrido c/ Lync Online"
 TOCTitle: Configurazione di una distribuzione in locale per l'utilizzo ibrido con Lync Online
 ms:assetid: c26addb0-2936-4eea-9071-3ab95825154b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205237(v=OCS.15)

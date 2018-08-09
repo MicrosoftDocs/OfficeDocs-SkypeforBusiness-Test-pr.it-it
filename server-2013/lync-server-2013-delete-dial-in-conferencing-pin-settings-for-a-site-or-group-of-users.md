@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare le impostazioni del PIN di conferenza telefonica con accesso esterno per un sito o un gruppo di utenti
-TOCTitle: Eliminare le impostazioni del PIN di conferenza telefonica con accesso esterno per un sito o un gruppo di utenti
+title: "Lync Server 2013: Elimina impostaz. PIN conference call per sito o gruppo"
+TOCTitle: "Lync Server 2013: Elimina impostaz. PIN conference call per sito o gruppo"
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg520955(v=OCS.15)
 ms:contentKeyID: 49299785

@@ -1,6 +1,6 @@
 ﻿---
-title: Elenco di controllo per la distribuzione del servizio Controllo di ammissione di chiamata
-TOCTitle: Elenco di controllo per la distribuzione del servizio Controllo di ammissione di chiamata
+title: "Lync Server 2013: Verifica distribuz. servizio Controllo ammissione chiamata"
+TOCTitle: "Lync Server 2013: Verifica distribuz. servizio Controllo ammissione chiamata"
 ms:assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398928(v=OCS.15)
 ms:contentKeyID: 49302089

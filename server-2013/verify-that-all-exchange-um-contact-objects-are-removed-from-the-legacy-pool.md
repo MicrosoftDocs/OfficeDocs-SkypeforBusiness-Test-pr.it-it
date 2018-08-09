@@ -1,6 +1,6 @@
 ﻿---
-title: Verificare che tutti gli oggetti contatto della messaggistica unificata di Exchange siano stati rimossi dal pool legacy
-TOCTitle: Verificare che tutti gli oggetti contatto della messaggistica unificata di Exchange siano stati rimossi dal pool legacy
+title: "Lync Server 2013: Verifica che ogg. contatto della messagg. di Exchange siano rimossi da pool legacy"
+TOCTitle: "Lync Server 2013: Verifica che ogg. contatto della messagg. di Exchange siano rimossi da pool legacy"
 ms:assetid: 5a813169-0ed7-4f84-a242-ed2cd4ea5c43
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688068(v=OCS.15)
 ms:contentKeyID: 49887576

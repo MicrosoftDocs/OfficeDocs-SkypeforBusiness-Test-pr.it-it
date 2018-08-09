@@ -1,6 +1,6 @@
 ﻿---
-title: Modificare l'azione predefinita per i client non supportati in modo esplicito o con restrizioni
-TOCTitle: Modificare l'azione predefinita per i client non supportati in modo esplicito o con restrizioni
+title: "Lync Server 2013: Modif. azioni predef. per client non support. o c/ restriz."
+TOCTitle: "Lync Server 2013: Modif. azioni predef. per client non support. o c/ restriz."
 ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg520994(v=OCS.15)
 ms:contentKeyID: 49300541

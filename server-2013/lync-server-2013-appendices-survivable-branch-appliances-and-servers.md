@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Appendici: Survivable Branch Appliance e Survivable Branch Server'
+title: "Lync Server 2013: Appendici: Survivable Branch Appliance e Server"
 TOCTitle: 'Appendici: Survivable Branch Appliance e Survivable Branch Server'
 ms:assetid: 38a83ac4-9970-4204-8a65-ae3b571bee05
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425861(v=OCS.15)

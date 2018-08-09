@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Accesso al sito di provisioning di connettività per messaggistica istantanea pubblica di Lync Server'
+title: "Lync Server 2013: Accede al sito di provisioning di connettività per messaggi"
 TOCTitle: Accesso al sito di provisioning di connettività per messaggistica istantanea pubblica di Lync Server
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn440174(v=OCS.15)

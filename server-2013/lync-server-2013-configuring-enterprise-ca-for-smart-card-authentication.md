@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione della CA globale (enterprise) per l'autenticazione con smart card
-TOCTitle: Configurazione della CA globale (enterprise) per l'autenticazione con smart card
+title: "Lync Server 2013: Configura Enterprise CA per autenticazione con smart card"
+TOCTitle: "Lync Server 2013: Configura Enterprise CA per autenticazione con smart card"
 ms:assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn308571(v=OCS.15)
 ms:contentKeyID: 56269976

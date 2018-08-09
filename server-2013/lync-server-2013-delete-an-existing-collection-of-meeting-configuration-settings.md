@@ -1,6 +1,6 @@
 ﻿---
-title: Eliminare una raccolta esistente di impostazioni di configurazione delle riunioni
-TOCTitle: Eliminare una raccolta esistente di impostazioni di configurazione delle riunioni
+title: "Lync Server 2013: Elimina impostazioni di configurazione delle riunioni"
+TOCTitle: "Lync Server 2013: Elimina impostazioni di configurazione delle riunioni"
 ms:assetid: 92ff8a91-05c5-4047-a533-5dff12f22299
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688136(v=OCS.15)
 ms:contentKeyID: 49887658

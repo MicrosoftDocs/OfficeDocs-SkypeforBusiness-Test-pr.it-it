@@ -1,6 +1,6 @@
 ﻿---
-title: Installazione di un certificato in un nodo Watcher posizionato all'esterno del perimetro della rete
-TOCTitle: Installazione di un certificato in un nodo Watcher posizionato all'esterno del perimetro della rete
+title: "Lync Server 2013: Installa certificato in nodo Watcher fuori perimetro rete"
+TOCTitle: "Lync Server 2013: Installa certificato in nodo Watcher fuori perimetro rete"
 ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688113(v=OCS.15)
 ms:contentKeyID: 49887631

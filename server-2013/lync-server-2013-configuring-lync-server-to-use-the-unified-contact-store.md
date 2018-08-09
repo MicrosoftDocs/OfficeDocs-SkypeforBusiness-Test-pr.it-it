@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione di Microsoft Lync Server 2013 per l'utilizzo dell'archivio contatti unificato
-TOCTitle: Configurazione di Microsoft Lync Server 2013 per l'utilizzo dell'archivio contatti unificato
+title: "Lync Server 2013: Configura MS LS 2013 per usare archivio contatti unificato"
+TOCTitle: "Lync Server 2013: Configura MS LS 2013 per usare archivio contatti unificato"
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688083(v=OCS.15)
 ms:contentKeyID: 49887596

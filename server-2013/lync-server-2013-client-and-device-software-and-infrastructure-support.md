@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Supporto dell'infrastruttura e del software di dispositivi e client"
+title: "Lync Server 2013: Supporta infrastruttura e software di dispositivi e client"
 TOCTitle: Supporto dell'infrastruttura e del software di dispositivi e client
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398412(v=OCS.15)

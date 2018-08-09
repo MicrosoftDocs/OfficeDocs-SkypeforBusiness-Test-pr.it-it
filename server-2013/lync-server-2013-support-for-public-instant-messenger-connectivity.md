@@ -1,6 +1,6 @@
 ﻿---
-title: Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013
-TOCTitle: Supporto della connettività per messaggistica istantanea pubblica in Lync Server 2013
+title: "Lync Server 2013: Supporta la connettività per messaggistica"
+TOCTitle: "Lync Server 2013: Supporta la connettività per messaggistica"
 ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn458579(v=OCS.15)
 ms:contentKeyID: 59602743

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Funzionalità non supportate dal routing in base alla posizione'
+title: "Lync Server 2013: Funzioni non supportate dal routing in base alla posizione"
 TOCTitle: Funzionalità non supportate dal routing in base alla posizione
 ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ994071(v=OCS.15)

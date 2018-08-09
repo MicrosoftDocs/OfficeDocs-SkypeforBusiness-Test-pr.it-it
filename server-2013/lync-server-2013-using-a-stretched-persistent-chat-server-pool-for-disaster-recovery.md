@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Utilizzo di un pool di server Chat persistente esteso per il ripristino di emergenza'
+title: "Lync Server 2013: Utilizza pool server Chat persist. esteso per ripr. emerg."
 TOCTitle: Utilizzo di un pool di server Chat persistente esteso per il ripristino di emergenza
 ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205007(v=OCS.15)

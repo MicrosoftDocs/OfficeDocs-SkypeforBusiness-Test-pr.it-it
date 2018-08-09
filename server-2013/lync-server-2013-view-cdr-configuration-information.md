@@ -1,6 +1,6 @@
 ﻿---
-title: Visualizzare le informazioni sulla configurazione di registrazione dettagli chiamata
-TOCTitle: Visualizzare le informazioni sulla configurazione di registrazione dettagli chiamata
+title: "Lync Server 2013: Visualizza info su config. di registraz. dettagli chiamata"
+TOCTitle: "Lync Server 2013: Visualizza info su config. di registraz. dettagli chiamata"
 ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ688096(v=OCS.15)
 ms:contentKeyID: 49887613

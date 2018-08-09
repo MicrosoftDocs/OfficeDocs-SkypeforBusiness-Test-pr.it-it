@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione di Lync Server per l'utilizzo con System Center Operations Manager
-TOCTitle: Configurazione di Lync Server per l'utilizzo con System Center Operations Manager
+title: "Lync Server 2013: Configura LS per l'uso con System Center Operations Manager"
+TOCTitle: "Lync Server 2013: Configura LS per l'uso con System Center Operations Manager"
 ms:assetid: b55a24ab-648b-4142-b3cd-3792860ba872
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ205188(v=OCS.15)
 ms:contentKeyID: 49301731

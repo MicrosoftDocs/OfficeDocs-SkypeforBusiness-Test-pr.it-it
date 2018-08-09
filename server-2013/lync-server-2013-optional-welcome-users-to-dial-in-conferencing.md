@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: (Facoltativo) Presentazione della funzionalità di conferenza telefonica con accesso esterno agli utenti'
+title: "Lync Server 2013: (Facolt.) Presenta funzioni di conference call a utenti"
 TOCTitle: (Facoltativo) Presentazione della funzionalità di conferenza telefonica con accesso esterno agli utenti
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398846(v=OCS.15)

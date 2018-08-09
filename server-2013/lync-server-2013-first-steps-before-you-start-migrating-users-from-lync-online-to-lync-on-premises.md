@@ -1,6 +1,6 @@
 ﻿---
-title: Passaggi preliminari per la migrazione di utenti da Lync Online a Lync in locale
-TOCTitle: Passaggi preliminari per la migrazione di utenti da Lync Online a Lync in locale
+title: "Lync Server 2013: Prima di trasferire utenti da Lync Online a Lync in locale"
+TOCTitle: "Lync Server 2013: Prima di trasferire utenti da Lync Online a Lync in locale"
 ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn689118(v=OCS.15)
 ms:contentKeyID: 62247333

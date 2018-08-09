@@ -1,6 +1,6 @@
 ﻿---
-title: Configurazione del supporto della federazione per un cliente di Lync Server 2013
-TOCTitle: Configurazione del supporto della federazione per un cliente di Lync Server 2013
+title: "Lync Server 2013: Configura supporto federazione per clienti Lync Server 2013"
+TOCTitle: "Lync Server 2013: Configura supporto federazione per clienti Lync Server 2013"
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 49302304

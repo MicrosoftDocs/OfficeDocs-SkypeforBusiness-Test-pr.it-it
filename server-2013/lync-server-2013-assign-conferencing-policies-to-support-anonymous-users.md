@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Assegnare i criteri di conferenza per supportare gli utenti anonimi'
+title: "Lync Server 2013: Assegna criteri di conferenza per supportare utenti anonimi"
 TOCTitle: Assegnare i criteri di conferenza per supportare gli utenti anonimi
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg521007(v=OCS.15)

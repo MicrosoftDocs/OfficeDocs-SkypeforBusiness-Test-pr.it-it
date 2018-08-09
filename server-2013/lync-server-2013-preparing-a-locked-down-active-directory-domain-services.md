@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Preparazione di un ambiente Servizi di dominio Active Directory bloccato'
+title: "Lync Server 2013: Prepara Servizi di dominio Active Directory bloccato"
 TOCTitle: Preparazione di un ambiente Servizi di dominio Active Directory bloccato
 ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398492(v=OCS.15)

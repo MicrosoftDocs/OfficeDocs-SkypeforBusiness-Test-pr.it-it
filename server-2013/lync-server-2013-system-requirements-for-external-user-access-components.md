@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Requisiti di sistema per i componenti per l'accesso degli utenti esterni"
+title: "Lync Server 2013: Requisiti di sistema per componenti accesso utenti esterni"
 TOCTitle: Requisiti di sistema per i componenti per l'accesso degli utenti esterni
 ms:assetid: 4139b9a5-5b98-42a8-bfcc-6b371f1980db
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg425919(v=OCS.15)

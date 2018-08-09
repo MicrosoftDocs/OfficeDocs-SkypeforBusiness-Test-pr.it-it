@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Configurazione della messaggistica unificata in Microsoft Exchange Server per l'interazione con Lync Server"
+title: "Lync Server 2013: Configura messaggi in MS Exchange Server per interaz. c/ LS"
 TOCTitle: Configurazione della messaggistica unificata in Microsoft Exchange Server per l'interazione con Lync Server 2013
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398106(v=OCS.15)

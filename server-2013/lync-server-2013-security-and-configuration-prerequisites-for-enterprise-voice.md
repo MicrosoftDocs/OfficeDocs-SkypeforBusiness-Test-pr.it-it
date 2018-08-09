@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Prerequisiti di configurazione e sicurezza per VoIP aziendale'
+title: "Lync Server 2013: Prerequisiti di configuraz. e sicurezza per VoIP aziendale"
 TOCTitle: Prerequisiti di configurazione e sicurezza per VoIP aziendale
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398221(v=OCS.15)

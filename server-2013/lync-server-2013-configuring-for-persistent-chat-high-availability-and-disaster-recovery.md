@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurazione per la disponibilità elevata e il ripristino di emergenza di Chat persistente'
+title: "Lync Server 2013: Configura disp. elevata e riprist. emerg. Chat persistente"
 TOCTitle: Configurazione per la disponibilità elevata e il ripristino di emergenza di Chat persistente
 ms:assetid: 2b91c244-796c-416d-bf9b-e99613e901af
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ552854(v=OCS.15)

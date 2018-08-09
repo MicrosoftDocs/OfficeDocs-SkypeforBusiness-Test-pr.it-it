@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configurare i servizi di bilanciamento del carico hardware per le topologie perimetrali con scalabilità implementata'
+title: "Lync Server 2013: Config. bilanciam. carico hw per topolog. perim. c/ scalab. implem."
 TOCTitle: Configurare i servizi di bilanciamento del carico hardware per le topologie perimetrali con scalabilità implementata
 ms:assetid: 77b4dd64-5eff-4b67-a441-2adaa22a0fd9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398586(v=OCS.15)

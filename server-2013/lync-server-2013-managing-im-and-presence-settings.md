@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Gestione delle impostazioni di messaggistica istantanea e presenza'
+title: "Lync Server 2013: Gestisce impostazioni di messaggistica e presenza"
 TOCTitle: Gestione delle impostazioni di messaggistica istantanea e presenza
 ms:assetid: a01b8384-16a1-41b5-a00a-fdb9afb5aa88
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg182558(v=OCS.15)

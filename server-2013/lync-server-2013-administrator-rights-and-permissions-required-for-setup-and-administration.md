@@ -1,5 +1,5 @@
 ﻿---
-title: "Lync Server 2013: Autorizzazioni e diritti di amministratore necessari per l'installazione e l'amministrazione"
+title: "Lync Server 2013: Autorizzaz. e diritti di amministr. per installaz. e amministraz."
 TOCTitle: Autorizzazioni e diritti di amministratore necessari per l'installazione e l'amministrazione
 ms:assetid: c386e8b9-c7ce-49b5-9911-c0cf2a4ce181
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg412962(v=OCS.15)

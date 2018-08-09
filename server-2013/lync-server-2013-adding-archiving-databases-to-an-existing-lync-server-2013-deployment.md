@@ -1,6 +1,6 @@
 ﻿---
-title: Aggiunta dei database di archiviazione a una distribuzione Lync Server 2013 esistente
-TOCTitle: Aggiunta dei database di archiviazione a una distribuzione Lync Server 2013 esistente
+title: "Lync Server 2013: Aggiunge database di archiviaz. a una distribuz. LS 2013"
+TOCTitle: "Lync Server 2013: Aggiunge database di archiviaz. a una distribuz. LS 2013"
 ms:assetid: 7350a6f7-6ed7-4fa7-b12d-e1858b93f9c0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204997(v=OCS.15)
 ms:contentKeyID: 49300971

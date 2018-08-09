@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Componenti e topologie per il servizio Controllo di ammissione di chiamata'
+title: "Lync Server 2013: Componenti e topologie per Controllo ammissione chiamata"
 TOCTitle: Componenti e topologie per il servizio Controllo di ammissione di chiamata
 ms:assetid: 83a2ee45-fa96-48da-8a34-f1aced92b3fe
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398663(v=OCS.15)

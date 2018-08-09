@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Riepilogo di DNS - topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP privati tramite NAT'
+title: "Lync Server 2013: Riepilogo di DNS - topolog. perimetr. consolid. c/ scalab. implem., bilanciam. carico DNS c/ indir. IP privati via NAT"
 TOCTitle: Riepilogo di DNS - topologia perimetrale consolidata con scalabilità implementata, bilanciamento del carico DNS con indirizzi IP privati tramite NAT
 ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg398201(v=OCS.15)
