@@ -681,7 +681,7 @@ Alcuni attributi dispongono di un valore maschera di bit. Per questi attributi, 
 <td><p>Questo attributo corrisponde a una stringa Unicode a valore singolo. L'attributo di stringa contiene la definizione del criterio in formato XML. La definizione dello schema XML è comune in diversi tipi di criteri. Per ciascun tipo di criterio cambiano solo le impostazioni.</p>
 <p>Di seguito viene indicata la definizione dello schema XML (XSD):</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;xs:schema id=&quot;instance&quot;  xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+&lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
     &lt;xs:complexType&gt;
       &lt;xs:choice maxOccurs=&quot;unbounded&quot;&gt;
