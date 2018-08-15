@@ -1,5 +1,5 @@
 ﻿---
-title: "#VALUE!"
+title: "#Lync Server 2013: Esegue la migrazione delle impostazioni dell'applicazione parcheggio!"
 TOCTitle: "#VALUE!"
 ms:assetid: 23b192d2-93ec-42a8-b175-b6ed502a2c35
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ687993(v=OCS.15)
