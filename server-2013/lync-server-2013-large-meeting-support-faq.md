@@ -1,5 +1,5 @@
 ﻿---
-title: "#VALUE!"
+title: "Lync Server 2013: FAQ sul supporto delle riunioni numerose"
 TOCTitle: "#VALUE!"
 ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ204804(v=OCS.15)
