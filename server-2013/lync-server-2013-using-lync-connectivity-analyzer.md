@@ -47,11 +47,11 @@ Lync Connectivity Analyzer verifica la configurazione degli altri componenti seg
     
       - In **Lync Account Type** selezionare **Office 365** oppure **On-Premises**.
     
-      - In **SIP URI** immettere l'indirizzo di accesso SIP per la connessione di Lync nel formato **utente@dominio.com**.
+      - In **SIP URI** immettere l'indirizzo di accesso SIP per la connessione di Lync nel formato <strong>utente@dominio.com</strong>.
     
       - In **Password** immettere la password associata all'account.
     
-      - In **User name (optional)** immettere un nome utente, se pertinente. Il nome utente è noto anche come nome dell'entità utente (UPN). Se il nome utente e l'URI SIP sono uguali non è necessario immettere un nome utente. Se sono diversi, immettere il nome utente nel formato **utente@dominio.com** o **dominio\\utente**, come appropriato.
+      - In **User name (optional)** immettere un nome utente, se pertinente. Il nome utente è noto anche come nome dell'entità utente (UPN). Se il nome utente e l'URI SIP sono uguali non è necessario immettere un nome utente. Se sono diversi, immettere il nome utente nel formato <strong>utente@dominio.com</strong> o **dominio\\utente**, come appropriato.
     
       - In **Network access** scegliere **From inside my organization** se si esegue Lync Connectivity Analyzer da un computer connesso alla rete interna. In caso contrario, scegliere **External (Internet)**. Lync Connectivity Analyzer esegue sempre sia test interni che esterni, ma specificando se ci si trova all'interno o all'esterno della rete, lo strumento potrà stabilire meglio se determinati errori sono previsti.
     

@@ -107,8 +107,9 @@ Gli scenari di failover perimetrale supportati con il bilanciamento del carico D
 > 
 > <ul><li><p>Indirizzi IP pubblici instradabili</p></li>
 > <li><p>Indirizzo IP privato non instradabile se viene utilizzato il processo NAT (Network Address Translation) simmetrico</p></li></ul>
->   
-> Se si utilizza un indirizzo IP pubblico o un indirizzo IP privato con NAT, verrà utilizzato lo stesso numero di indirizzi IP in base alla configurazione scelta in Generatore di topologie. È possibile configurare il server perimetrale per utilizzare un unico indirizzo IP con porte distinte per servizio o utilizzare indirizzi IP distinti per servizio, ma utilizzare la stessa porta (per impostazione predefinita, TCP 443).
+>
+  >  [!NOTE]    
+  > Se si utilizza un indirizzo IP pubblico o un indirizzo IP privato con NAT, verrà utilizzato lo stesso numero di indirizzi IP in base alla configurazione scelta in Generatore di topologie. È possibile configurare il server perimetrale per utilizzare un unico indirizzo IP con porte distinte per servizio o utilizzare indirizzi IP distinti per servizio, ma utilizzare la stessa porta (per impostazione predefinita, TCP 443).
 > 
 > Se si decide di utilizzare indirizzi IP privati non instradabili con NAT:
 > <ul><li><p>È necessario utilizzare gli indirizzi IP privati instradabili in tutte e tre le interfacce esterne</p></li>

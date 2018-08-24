@@ -72,7 +72,8 @@ Usare il cmdlet **New-CsCpsConfiguration** o il cmdlet **Set-CsCpsConfiguration*
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
     > [!TIP]  
-    > Utilizzare il cmdlet <strong>Get-CsSite</strong> per identificare il sito. Per informazioni dettagliate, vedere la documentazione relativa a Lync Server Management Shell.    
+    > Utilizzare il cmdlet <strong>Get-CsSite</strong> per identificare il sito. Per informazioni dettagliate, vedere la documentazione relativa a Lync Server Management Shell. 
+       
     Ad esempio:
     
         New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
